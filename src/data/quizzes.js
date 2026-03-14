@@ -4,63 +4,63 @@ export const quizzes = [
     questions: [
       {
         id: 1,
-        question: "[ PLACEHOLDER — Question 1 about Anathema ]",
+        question: "What is the name of the village where Maevyth Bronwick lives at the start of Anathema?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "Foxglove Parish",
+          "Witch Knell",
+          "Vonkovya",
+          "Eidolon"
         ],
         correctIndex: 0,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        explanation: "Maevyth lives in Foxglove Parish, a small mortal village on the continent of Vonkovya in Mortasia, shadowed by the haunted forest of Witch Knell."
       },
       {
         id: 2,
-        question: "[ PLACEHOLDER — Question 2 about Anathema ]",
+        question: "What alias is Zevander Rydainn known by to his prey?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "The Raven",
+          "The Scorpion",
+          "The Shadow Lord",
+          "The Moon Walker"
         ],
         correctIndex: 1,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        explanation: "Zevander is known as 'The Scorpion' \u2014 the coldest and most calculated assassin in all of Aethyria."
       },
       {
         id: 3,
-        question: "[ PLACEHOLDER — Question 3 about Anathema ]",
+        question: "What ancient and destructive curse was placed on Zevander as an infant?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "Demutomancy",
+          "Blood Magic",
+          "Sablefyre",
+          "Nexumis"
         ],
         correctIndex: 2,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        explanation: "Sablefyre is an ancient flame forged by the gods. A single touch can turn a body to ash and blood to stone. Cadavros used it to curse Zevander from infancy."
       },
       {
         id: 4,
-        question: "[ PLACEHOLDER — Question 4 about Anathema ]",
+        question: "What ancient people is Maevyth revealed to be the last living descendant of?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "The Lunasiers",
+          "The Solassions",
+          "The Dryadivir",
+          "The Corvikae"
         ],
-        correctIndex: 0,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        correctIndex: 3,
+        explanation: "Maevyth is the last living descendant of the Corvikae \u2014 an ancient mortal tribe that worshipped the goddess of death, Morsana, and were wiped out in a genocide by the Solassions."
       },
       {
         id: 5,
-        question: "[ PLACEHOLDER — Question 5 about Anathema ]",
+        question: "Who is the dark mage responsible for cursing both Zevander and Branimir?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "Cadavros",
+          "Moros",
+          "Riftyn",
+          "Raivox"
         ],
-        correctIndex: 3,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        correctIndex: 0,
+        explanation: "Cadavros is a dark mage who practiced the forbidden art of demutomancy. He cursed both Rydainn brothers with sablefyre and was dismissed from the magehood for his illegal practices."
       },
     ]
   },
@@ -69,63 +69,63 @@ export const quizzes = [
     questions: [
       {
         id: 1,
-        question: "[ PLACEHOLDER — Question 1 about Eldritch ]",
+        question: "What happens to Zevander when he is deprived of vivicantem in the mortal lands?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "He loses his physical form",
+          "He succumbs to encroaching madness",
+          "His sablefyre curse is temporarily lifted",
+          "He becomes invisible to mortals"
         ],
-        correctIndex: 0,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        correctIndex: 1,
+        explanation: "Vivicantem is essential for mancers. Without it, Zevander's mind deteriorates and he succumbs to madness, retreating to a mental refuge called Caligorya."
       },
       {
         id: 2,
-        question: "[ PLACEHOLDER — Question 2 about Eldritch ]",
+        question: "What horrifying transformation did Cadavros's curse inflict upon Branimir Rydainn?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "He was turned to stone",
+          "He became a shadow without a body",
+          "He became a hybrid of human and spider",
+          "He was trapped in the form of a raven"
         ],
-        correctIndex: 1,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        correctIndex: 2,
+        explanation: "Branimir was corrupted by sablefyre into a dangerous and unpredictable human-spider hybrid. He is imprisoned by Zevander in Castle Eidolon, oscillating between feral madness and rare moments of lucidity."
       },
       {
         id: 3,
-        question: "[ PLACEHOLDER — Question 3 about Eldritch ]",
+        question: "What is the name of the mental refuge Zevander retreats to as his sanity erodes?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "Nyxteros",
+          "Eidolon",
+          "Witch Knell",
+          "Caligorya"
         ],
-        correctIndex: 2,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        correctIndex: 3,
+        explanation: "Caligorya is a mental sanctuary Zevander has constructed within his own mind. As vivicantem deprivation worsens, even this refuge begins to crack."
       },
       {
         id: 4,
-        question: "[ PLACEHOLDER — Question 4 about Eldritch ]",
+        question: "What must Zevander collect from all seven races of Aethyria to forge the Septomir?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "Glyphs",
+          "Bloodstones",
+          "Sablefyre shards",
+          "Soul fragments"
         ],
-        correctIndex: 0,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        correctIndex: 1,
+        explanation: "Bloodstones are divine essences formed from the dead bodies of notable magic users that retain some of their power. Zevander needs one from each of Aethyria's seven races to complete the Septomir."
       },
       {
         id: 5,
-        question: "[ PLACEHOLDER — Question 5 about Eldritch ]",
+        question: "What narrative structure does Eldritch use to reveal the Rydainn family's tragic history?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "Multiple points of view from different characters",
+          "A story-within-a-story framing device",
+          "Dual timelines weaving between past and present",
+          "Reverse chronological order"
         ],
-        correctIndex: 3,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        correctIndex: 2,
+        explanation: "Eldritch is told across dual timelines. The past reveals the tragic history of the Rydainn family, while the present follows Maevyth and Zevander's struggle in the increasingly dangerous mortal lands."
       },
     ]
   },
@@ -134,63 +134,63 @@ export const quizzes = [
     questions: [
       {
         id: 1,
-        question: "[ PLACEHOLDER — Question 1 about Vasmora ]",
+        question: "What is the name of the ancient relic that requires bloodstones from all seven races of Aethyria?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "The Archway of Bones",
+          "The Septomir",
+          "The Sablefyre Core",
+          "The Corvikae Stone"
         ],
-        correctIndex: 0,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        correctIndex: 1,
+        explanation: "The Septomir is an ancient sacred relic and the object of Zevander's two-hundred-year quest. Once complete, it may hold the power to cleanse the sablefyre curse."
       },
       {
         id: 2,
-        question: "[ PLACEHOLDER — Question 2 about Vasmora ]",
+        question: "Which race of mancers draws their power from the moon?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "Solassions",
+          "Eremician",
+          "Lunasiers",
+          "Dryadivir"
         ],
-        correctIndex: 1,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        correctIndex: 2,
+        explanation: "The Lunasiers (pronounced 'lune-ah-seer') are mancers powered by the moon. They typically have dark or silver hair, pale skin, and blue or golden eyes."
       },
       {
         id: 3,
-        question: "[ PLACEHOLDER — Question 3 about Vasmora ]",
+        question: "Which race was responsible for the genocide of the Corvikae people?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "The Orgoths",
+          "The Lunasiers",
+          "The Elvynira",
+          "The Solassions"
         ],
-        correctIndex: 2,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        correctIndex: 3,
+        explanation: "The Solassions, sun-powered mancers believed to be the first immortals, committed genocide against the Corvikae people, wiping out the entire tribe save for Maevyth's bloodline."
       },
       {
         id: 4,
-        question: "[ PLACEHOLDER — Question 4 about Vasmora ]",
+        question: "What is the name of the goddess of death worshipped by the Corvikae?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "Rykaia",
+          "Morsana",
+          "Elvynira",
+          "Vasmora"
         ],
-        correctIndex: 0,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        correctIndex: 1,
+        explanation: "Morsana is the ancient goddess of death worshipped by the Corvikae people. Her influence is woven into the prophecy surrounding Maevyth as the last Corvikae descendant."
       },
       {
         id: 5,
-        question: "[ PLACEHOLDER — Question 5 about Vasmora ]",
+        question: "What type of magic do the Elvynira of Calyxar practice?",
         options: [
-          "[ PLACEHOLDER Option A ]",
-          "[ PLACEHOLDER Option B ]",
-          "[ PLACEHOLDER Option C ]",
-          "[ PLACEHOLDER Option D ]"
+          "Blood Magic",
+          "Demutomancy",
+          "Glyph-Magic",
+          "Nexumis"
         ],
         correctIndex: 3,
-        explanation: "[ PLACEHOLDER — Explanation for the correct answer ]"
+        explanation: "The Elvynira practice Nexumis, a system of magic that draws from external sources of power rather than blood. They serve as advisors to kings and originate from the snowy island of Calyxar."
       },
     ]
   },

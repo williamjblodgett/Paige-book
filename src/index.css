@@ -123,6 +123,31 @@
   box-shadow: 0 0 15px rgba(201, 168, 76, 0.25), 0 0 30px rgba(201, 168, 76, 0.1);
 }
 
+/* Book cover styling */
+.book-cover-anathema {
+  background: linear-gradient(160deg, #1a1508 0%, #2a1f0a 30%, #111318 70%, #0a0808 100%);
+}
+.book-cover-eldritch {
+  background: linear-gradient(160deg, #1a0808 0%, #2a0a0a 30%, #111318 70%, #0a0808 100%);
+}
+.book-cover-vasmora {
+  background: linear-gradient(160deg, #081a12 0%, #0a2a1a 30%, #111318 70%, #0a0808 100%);
+}
+
+/* Book-themed card glows */
+.card-glow-anathema:hover {
+  border-color: var(--color-gold) !important;
+  box-shadow: 0 0 15px rgba(201, 168, 76, 0.25), 0 0 30px rgba(201, 168, 76, 0.1);
+}
+.card-glow-eldritch:hover {
+  border-color: #c42a2a !important;
+  box-shadow: 0 0 15px rgba(196, 42, 42, 0.3), 0 0 30px rgba(139, 26, 26, 0.15);
+}
+.card-glow-vasmora:hover {
+  border-color: #2d6b4f !important;
+  box-shadow: 0 0 15px rgba(45, 107, 79, 0.3), 0 0 30px rgba(30, 58, 47, 0.15);
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;

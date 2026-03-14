@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { bookTheme } from '../data/bookTheme'
 
 const BOOKS = [
   { id: 'Anathema', number: 1 },
@@ -41,6 +42,17 @@ export default function BookGate({ selectionMode, onConfirm, title, description 
     }
   }
 
+  function getBookStyles(bookId, isSelected) {
+    const theme = bookTheme[bookId]
+    if (isSelected) {
+      return {
+        borderColor: theme.accent,
+        boxShadow: theme.glow,
+      }
+    }
+    return {}
+  }
+
   return (
     <div className="min-h-[60vh] flex items-center justify-center px-4">
       <div className="max-w-2xl w-full text-center">
@@ -52,50 +64,53 @@ export default function BookGate({ selectionMode, onConfirm, title, description 
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
-          {BOOKS.map(({ id, number }) => (
-            <button
-              key={id}
-              onClick={() => handleToggle(id)}
-              className={`
-                w-full sm:w-48 bg-surface rounded-lg p-6 transition-all duration-300 cursor-pointer
-                border-2 flex flex-col items-center gap-3
-                ${selected.has(id)
-                  ? 'border-gold shadow-[0_0_15px_rgba(201,168,76,0.25)]'
-                  : 'border-gold/10 hover:border-gold/40'
-                }
-              `}
-            >
-              {/* Lock / Unlock icon */}
-              <svg
-                width="28"
-                height="28"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                className={`transition-colors ${selected.has(id) ? 'text-gold' : 'text-muted'}`}
-              >
-                {selected.has(id) ? (
-                  <>
-                    <rect x="3" y="11" width="18" height="11" rx="2" />
-                    <path d="M7 11V7a5 5 0 0 1 10 0" />
-                  </>
-                ) : (
-                  <>
-                    <rect x="3" y="11" width="18" height="11" rx="2" />
-                    <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-                  </>
-                )}
-              </svg>
+          {BOOKS.map(({ id, number }) => {
+            const theme = bookTheme[id]
+            const isSelected = selected.has(id)
 
-              <span className="font-heading text-sm tracking-widest uppercase text-muted">
-                Book {number}
-              </span>
-              <span className={`font-heading text-lg tracking-wider ${selected.has(id) ? 'text-gold' : 'text-text'}`}>
-                {id}
-              </span>
-            </button>
-          ))}
+            return (
+              <button
+                key={id}
+                onClick={() => handleToggle(id)}
+                className="w-full sm:w-48 bg-surface rounded-lg p-6 transition-all duration-300 cursor-pointer border-2 flex flex-col items-center gap-3 border-gold/10 hover:border-gold/40"
+                style={getBookStyles(id, isSelected)}
+              >
+                {/* Lock / Unlock icon */}
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  className="transition-colors"
+                  style={{ color: isSelected ? theme.accent : undefined }}
+                >
+                  {isSelected ? (
+                    <>
+                      <rect x="3" y="11" width="18" height="11" rx="2" />
+                      <path d="M7 11V7a5 5 0 0 1 10 0" />
+                    </>
+                  ) : (
+                    <>
+                      <rect x="3" y="11" width="18" height="11" rx="2" />
+                      <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                    </>
+                  )}
+                </svg>
+
+                <span className="font-heading text-sm tracking-widest uppercase text-muted">
+                  Book {number}
+                </span>
+                <span
+                  className="font-heading text-lg tracking-wider"
+                  style={{ color: isSelected ? theme.accent : undefined }}
+                >
+                  {id}
+                </span>
+              </button>
+            )
+          })}
         </div>
 
         {isMulti && (
@@ -118,12 +133,21 @@ export default function BookGate({ selectionMode, onConfirm, title, description 
       {/* Single-select confirmation modal */}
       {!isMulti && confirmingBook && (
         <div className="fixed inset-0 z-50 bg-black/75 flex items-center justify-center px-4">
-          <div className="bg-surface border border-gold/20 rounded-lg p-8 max-w-md w-full text-center">
-            <h3 className="font-heading text-gold text-xl mb-4 tracking-wide">
+          <div
+            className="bg-surface rounded-lg p-8 max-w-md w-full text-center border"
+            style={{ borderColor: bookTheme[confirmingBook]?.accent + '33' }}
+          >
+            <h3
+              className="font-heading text-xl mb-4 tracking-wide"
+              style={{ color: bookTheme[confirmingBook]?.accent }}
+            >
               Spoiler Warning
             </h3>
             <p className="font-body text-text mb-8 text-lg">
-              You are about to view content for <span className="text-gold italic">{confirmingBook}</span>.
+              You are about to view content for{' '}
+              <span className="italic" style={{ color: bookTheme[confirmingBook]?.accent }}>
+                {confirmingBook}
+              </span>.
               This contains spoilers for this book only. Continue?
             </p>
             <div className="flex justify-center gap-4">
@@ -135,7 +159,11 @@ export default function BookGate({ selectionMode, onConfirm, title, description 
               </button>
               <button
                 onClick={handleConfirmSingle}
-                className="font-heading text-sm tracking-widest uppercase px-6 py-2 rounded border-2 border-gold text-gold hover:bg-gold/10 transition-all cursor-pointer"
+                className="font-heading text-sm tracking-widest uppercase px-6 py-2 rounded border-2 transition-all cursor-pointer hover:opacity-80"
+                style={{
+                  borderColor: bookTheme[confirmingBook]?.accent,
+                  color: bookTheme[confirmingBook]?.accent,
+                }}
               >
                 Continue
               </button>

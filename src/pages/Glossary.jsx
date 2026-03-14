@@ -2,21 +2,57 @@ import { useState, useMemo } from 'react'
 import BookGate from '../components/BookGate'
 import GlossaryCard from '../components/GlossaryCard'
 import { glossaryTerms } from '../data/glossary'
+import { CATEGORIES } from '../data/bookTheme'
 
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
+
+const categoryIcons = {
+  character: (
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" />
+    </svg>
+  ),
+  location: (
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
+    </svg>
+  ),
+  magic: (
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+    </svg>
+  ),
+  creature: (
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <circle cx="9" cy="12" r="1" /><circle cx="15" cy="12" r="1" />
+      <path d="M12 2a8 8 0 0 0-8 8c0 3.5 2 6.5 4 8.5V22h8v-3.5c2-2 4-5 4-8.5a8 8 0 0 0-8-8z" />
+    </svg>
+  ),
+  artifact: (
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <polygon points="6 3 18 3 22 9 12 22 2 9" />
+    </svg>
+  ),
+  organization: (
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+    </svg>
+  ),
+}
 
 export default function Glossary() {
   const [unlockedBooks, setUnlockedBooks] = useState(null)
   const [searchQuery, setSearchQuery] = useState('')
   const [activeBookFilter, setActiveBookFilter] = useState(null)
+  const [activeCategoryFilter, setActiveCategoryFilter] = useState(null)
 
-  // Filter terms by unlocked books, active filter, and search query
   const filteredTerms = useMemo(() => {
     if (!unlockedBooks) return []
 
     return glossaryTerms
       .filter(t => unlockedBooks.includes(t.book))
       .filter(t => !activeBookFilter || t.book === activeBookFilter)
+      .filter(t => !activeCategoryFilter || t.category === activeCategoryFilter)
       .filter(t => {
         if (!searchQuery.trim()) return true
         const q = searchQuery.toLowerCase()
@@ -26,9 +62,8 @@ export default function Glossary() {
         )
       })
       .sort((a, b) => a.term.localeCompare(b.term))
-  }, [unlockedBooks, activeBookFilter, searchQuery])
+  }, [unlockedBooks, activeBookFilter, activeCategoryFilter, searchQuery])
 
-  // Group by first letter
   const grouped = useMemo(() => {
     const groups = {}
     for (const term of filteredTerms) {
@@ -40,6 +75,19 @@ export default function Glossary() {
   }, [filteredTerms])
 
   const availableLetters = new Set(Object.keys(grouped))
+
+  // Count terms per category for the active filter set
+  const categoryCounts = useMemo(() => {
+    if (!unlockedBooks) return {}
+    const baseTerms = glossaryTerms
+      .filter(t => unlockedBooks.includes(t.book))
+      .filter(t => !activeBookFilter || t.book === activeBookFilter)
+    const counts = {}
+    for (const t of baseTerms) {
+      counts[t.category] = (counts[t.category] || 0) + 1
+    }
+    return counts
+  }, [unlockedBooks, activeBookFilter])
 
   if (!unlockedBooks) {
     return (
@@ -55,7 +103,7 @@ export default function Glossary() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
         <div>
           <h2 className="font-heading text-gold text-3xl tracking-wider">
             Glossary
@@ -64,6 +112,7 @@ export default function Glossary() {
             onClick={() => {
               setUnlockedBooks(null)
               setActiveBookFilter(null)
+              setActiveCategoryFilter(null)
               setSearchQuery('')
             }}
             className="font-body text-muted text-sm hover:text-gold transition-colors mt-1 cursor-pointer"
@@ -76,15 +125,9 @@ export default function Glossary() {
         <div className="relative w-full sm:w-72">
           <svg
             className="absolute left-3 top-1/2 -translate-y-1/2 text-muted"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
+            width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
           >
-            <circle cx="11" cy="11" r="8" />
-            <path d="M21 21l-4.35-4.35" />
+            <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" />
           </svg>
           <input
             type="text"
@@ -97,7 +140,7 @@ export default function Glossary() {
       </div>
 
       {/* Book filter pills */}
-      <div className="flex flex-wrap gap-2 mb-6">
+      <div className="flex flex-wrap gap-2 mb-3">
         <button
           onClick={() => setActiveBookFilter(null)}
           className={`font-heading text-xs tracking-widest uppercase px-4 py-1.5 rounded-full border transition-all cursor-pointer ${
@@ -106,7 +149,7 @@ export default function Glossary() {
               : 'border-gold/10 text-muted hover:border-gold/30'
           }`}
         >
-          All
+          All Books
         </button>
         {unlockedBooks.map((book) => (
           <button
@@ -123,7 +166,40 @@ export default function Glossary() {
         ))}
       </div>
 
-      {/* A–Z nav */}
+      {/* Category filter pills */}
+      <div className="flex flex-wrap gap-2 mb-6">
+        <button
+          onClick={() => setActiveCategoryFilter(null)}
+          className={`flex items-center gap-1.5 font-heading text-xs tracking-widest uppercase px-3 py-1.5 rounded-full border transition-all cursor-pointer ${
+            !activeCategoryFilter
+              ? 'border-muted/40 text-text bg-muted/10'
+              : 'border-muted/10 text-muted/50 hover:border-muted/30'
+          }`}
+        >
+          All Types
+        </button>
+        {CATEGORIES.map(({ id, label }) => {
+          const count = categoryCounts[id] || 0
+          if (count === 0) return null
+          return (
+            <button
+              key={id}
+              onClick={() => setActiveCategoryFilter(activeCategoryFilter === id ? null : id)}
+              className={`flex items-center gap-1.5 font-heading text-xs tracking-widest uppercase px-3 py-1.5 rounded-full border transition-all cursor-pointer ${
+                activeCategoryFilter === id
+                  ? 'border-muted/40 text-text bg-muted/10'
+                  : 'border-muted/10 text-muted/50 hover:border-muted/30'
+              }`}
+            >
+              {categoryIcons[id]}
+              {label}
+              <span className="text-muted/40 ml-0.5">{count}</span>
+            </button>
+          )
+        })}
+      </div>
+
+      {/* A-Z nav */}
       <div className="flex flex-wrap gap-1 mb-8">
         {ALPHABET.map((letter) => (
           <button
@@ -163,6 +239,7 @@ export default function Glossary() {
                   term={term.term}
                   definition={term.definition}
                   book={term.book}
+                  category={term.category}
                 />
               ))}
             </div>
