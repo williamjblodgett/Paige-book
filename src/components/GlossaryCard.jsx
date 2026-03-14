@@ -1,20 +1,74 @@
-const bookColors = {
-  Anathema: 'bg-gold/15 text-gold',
-  Eldritch: 'bg-blood/20 text-red-300',
-  Vasmora: 'bg-forest/30 text-emerald-300',
+import { bookTheme } from '../data/bookTheme'
+
+const categoryIcons = {
+  character: (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+      <circle cx="12" cy="7" r="4" />
+    </svg>
+  ),
+  location: (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+      <circle cx="12" cy="10" r="3" />
+    </svg>
+  ),
+  magic: (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+    </svg>
+  ),
+  creature: (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <circle cx="9" cy="12" r="1" /><circle cx="15" cy="12" r="1" />
+      <path d="M8 16s1.5 2 4 2 4-2 4-2" />
+      <path d="M12 2a8 8 0 0 0-8 8c0 3.5 2 6.5 4 8.5V22h8v-3.5c2-2 4-5 4-8.5a8 8 0 0 0-8-8z" />
+    </svg>
+  ),
+  artifact: (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <polygon points="6 3 18 3 22 9 12 22 2 9" />
+    </svg>
+  ),
+  organization: (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+    </svg>
+  ),
 }
 
-export default function GlossaryCard({ term, definition, book }) {
+const categoryLabels = {
+  character: 'Character',
+  location: 'Location',
+  magic: 'Magic',
+  creature: 'Race / Creature',
+  artifact: 'Artifact',
+  organization: 'Organization',
+}
+
+export default function GlossaryCard({ term, definition, book, category }) {
+  const theme = bookTheme[book]
+
   return (
     <div className="card-glow bg-surface rounded-lg p-5">
       <div className="flex items-start justify-between gap-3 mb-3">
-        <h3 className="font-heading text-gold text-lg tracking-wide">
+        <h3 className={`font-heading text-lg tracking-wide ${theme?.text || 'text-gold'}`}>
           {term}
         </h3>
-        <span className={`shrink-0 font-heading text-xs tracking-widest uppercase px-2.5 py-1 rounded-full ${bookColors[book] || 'bg-muted/20 text-muted'}`}>
+        <span className={`shrink-0 font-heading text-xs tracking-widest uppercase px-2.5 py-1 rounded-full ${theme?.badgeBg || 'bg-muted/20'} ${theme?.badgeText || 'text-muted'}`}>
           {book}
         </span>
       </div>
+
+      {category && (
+        <div className="flex items-center gap-1.5 mb-3 text-muted/70">
+          {categoryIcons[category]}
+          <span className="font-body text-xs tracking-wide">
+            {categoryLabels[category]}
+          </span>
+        </div>
+      )}
+
       <p className="font-body text-text/80 leading-relaxed">
         {definition}
       </p>
