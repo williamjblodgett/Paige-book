@@ -9,13 +9,13 @@ export default {
   accentColor: "#c9a84c",
   synopsis: `Caleb Blackstone has everything — obscene wealth, dangerous connections, and a world where the line between old money and organized crime has been deliberately erased. He is controlled, calculating, and accustomed to acquiring whatever he desires. What he has never found is something real.
 
-Brooke Casterley is an art teacher with student loans, a small apartment, and a passion for beauty that is completely genuine. When Caleb sees her at a gallery opening — watching her face as she looks at a painting with real emotion — something in him shifts. In his transactional world, she is the first authentic thing he has encountered in years.
+Brooke Casterley is an art teacher with student loans, a small apartment, and a passion for beauty that is completely genuine. When Caleb sees her at a gallery opening — watching her face as she looks at a painting with real emotion — something in him shifts. She is the first authentic thing he has encountered in years.
 
 His pursuit is relentless. He learns everything about her, anticipates her needs, and positions himself in her life with the strategic precision of a man who has never been told no. Brooke is drawn to his intensity even as every instinct tells her to run.
 
-Because Caleb's world is not just one of luxury. It is built on criminal foundations, protected by violence, and haunted by enemies who would use anyone he cares about as a weapon against him. The closer Brooke gets, the more she sees — and the more dangerous her position becomes.
+Because Caleb's world is not just one of luxury. It is built on criminal foundations, protected by violence, and haunted by enemies who would use anyone he cares about as a weapon against him. The closer Brooke gets, the more dangerous her position becomes.
 
-Is being wanted by a man this powerful intoxicating or terrifying? Can she love someone whose empire was built in shadows? And will Caleb's need to possess her become the very thing that drives her away?`,
+Is being wanted by a man this powerful intoxicating or terrifying? Can she love someone whose empire was built in shadows? And will his need to possess her become the very thing that drives her away?`,
   characters: [
     { name: "Caleb Blackstone", role: "An obscenely wealthy man who operates where old money, politics, and organized crime intersect. His pursuit of Brooke is relentless and consuming — the intensity of a man who has never failed to get what he wants, directed at the first authentic person he has encountered in years." },
     { name: "Brooke Casterley", role: "An art teacher with a modest life and genuine passion who enters Caleb's world by accident. Her authenticity is what draws him, and her decency is what makes the danger of his world a genuine moral problem." }

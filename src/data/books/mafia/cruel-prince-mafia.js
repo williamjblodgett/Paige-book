@@ -9,17 +9,17 @@ export default {
   accentColor: "#c9a84c",
   synopsis: `His father is dead. Someone will pay. And Jace Covington has chosen his target.
 
-As the prince of the DeLuca crime family, Jace inherited his father's empire, his enemies, and a rage that burns cold enough to freeze the blood. When he discovers that Dylan Caldwell is connected to the betrayal that destroyed his family, his plan takes shape with ruthless precision: get close, earn her trust, and make her pay for the sins of her father.
+As the prince of a powerful crime family, Jace inherited an empire, a legion of enemies, and a rage that burns cold enough to freeze the blood. When he discovers that Dylan Caldwell is connected to the betrayal that destroyed his family, his plan takes shape with ruthless precision: get close, earn her trust, and make her pay.
 
-Dylan has no idea about the criminal world lurking beneath the surface of her life. She only knows that the darkly magnetic stranger who appears out of nowhere makes her pulse race and her instincts scream danger. He is charming, intense, and impossible to resist. Everything about him feels too good to be true.
+Dylan has no idea about the criminal world lurking beneath her life. She only knows that the darkly magnetic stranger who appears out of nowhere makes her pulse race and her instincts scream danger. Everything about him feels too good to be true.
 
 It is.
 
 Every tender moment is calculated. Every whispered word is a weapon. Jace is playing a role, and Dylan is falling for a man who does not exist. But there is something he did not account for — her. She is brave where he expected weakness. Genuine where he expected deception. And every moment spent with her cracks the armor he built around his vengeance.
 
-Now Jace faces an impossible choice: complete the revenge that has consumed him and destroy the woman who made him feel again, or abandon everything he has built for a love that was never supposed to be real.
+Now Jace faces an impossible choice: complete the revenge that has consumed him and destroy the woman who made him feel again, or abandon everything for a love that was never supposed to be real.
 
-In a world where the sins of fathers are paid by their children, how far would you go for vengeance — and what would you sacrifice to stop?`,
+How far would you go for vengeance — and what would you sacrifice to stop?`,
   characters: [
     { name: "Jace Covington", role: "The prince of the DeLuca crime family who inherits his father's enemies and a consuming need for revenge. His plan to use Dylan as leverage crumbles when genuine feelings complicate his calculated cruelty." },
     { name: "Dylan Caldwell", role: "Connected to the betrayal that killed Jace's father through her own family's actions. Naive to the criminal world but brave and genuine, her authenticity becomes the force that unravels Jace's revenge plot." }

@@ -10,15 +10,15 @@ export default {
   accentColor: "#8b1a1a",
   synopsis: `He has watched over her from the shadows for years. She has survived the unimaginable by clinging to a single bright spot in the darkness -- a mysterious masked figure who makes her feel safe when nothing else does.
 
-Easton Bradley Sinnett -- known as Sin -- is a Lord at Barrington University, bound by the rules of a secret society that controls every aspect of its members' lives. He has waited years for the chance to claim the one woman who was always meant to be his. But when his senior year finally arrives, there is a devastating catch: Ellington Asher is not on the approved list. The society says she cannot be his.
+Sin is a Lord at Barrington University who has waited years for the chance to claim the one woman who was always meant to be his. But when his senior year arrives, there is a devastating catch: Ellington Asher is not on the approved list. The society says she cannot be his.
 
 Sin has never been good at following rules.
 
-Elli has known nothing but darkness since her father's death shattered her world at twelve years old. Passed between powerful men who treated her as property, she has survived by building walls no one can breach. But Sin sees through every one of them. He always has. And now that the most dangerous man in the society is threatening to claim Elli for himself, Sin will break every rule, burn every bridge, and destroy anyone who stands between them.
+Elli has known nothing but darkness since her father's death shattered her world. Passed between powerful men who treated her as property, she has survived by building walls no one can breach. But Sin sees through every one of them. He always has. And now that the most dangerous man in the society is threatening to claim Elli for himself, Sin will break every rule, burn every bridge, and destroy anyone who stands between them.
 
 She calls him a sinner. He calls her his little demon. And the fire between them has been building for a lifetime.
 
-The darkest installment in the L.O.R.D.S. series, this is a story of obsession, devotion, and a love forged in the ashes of unspeakable pain. Some bonds are not chosen. They are survival.`,
+Some bonds are not chosen. They are survival.`,
   characters: [
     { name: "Easton Bradley Sinnett (Sin)", role: "A dominant Lord at Barrington University who has watched over Elli from the shadows for years. Fierce, possessive, and deeply devoted, he'll break every rule of the society to claim and protect the woman he calls his little demon." },
     { name: "Ellington 'Elli' Asher", role: "A young woman scarred by years of abuse and tragedy following her father's suicide. Despite her suffering, she finds strength in her connection with Sin and must learn to trust that she deserves to be saved." },
