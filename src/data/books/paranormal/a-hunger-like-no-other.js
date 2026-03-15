@@ -7,17 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1a10", "#0c0f0a"],
   accentColor: "#1e8a5f",
-  synopsis: `One hundred and fifty years of hellfire. Burned alive, healed, and burned again. The only thing that kept Lachlain MacRieve, king of the Lykae, from losing his mind entirely was one desperate hope — that somewhere in the world, his fated mate was waiting.
+  synopsis: `One hundred and fifty years of hellfire. Burned alive, healed, and burned again. The only thing that kept the king of the Lykae from losing his mind was one desperate hope — that somewhere in the world, his fated mate was waiting.
 
 Now he is free. Feral. And he has found her.
 
 There is just one problem: she is the last creature in the supernatural world he should want.
 
-Emmaline Troy is half-vampire, half-Valkyrie — a combination that should not exist. Shy, sheltered, and ashamed of the vampire blood running through her veins, Emma is utterly unprepared for the massive, scarred werewolf king who appears out of nowhere, looks at her with a hunger that steals the air from her lungs, and refuses to let her go.
+Emmaline Troy is half-vampire, half-Valkyrie — a combination that should not exist. Shy, sheltered, and ashamed of the vampire blood running through her veins, she is utterly unprepared for the massive, scarred werewolf king who appears out of nowhere, looks at her with a hunger that steals the air from her lungs, and refuses to let her go.
 
 He is terrifying. He is obsessive. And the way her body responds to him makes no sense at all.
 
-But as Lachlain's madness begins to fade and the real man emerges, Emma starts to discover something unexpected — a fierceness inside herself she never knew existed. And Lachlain begins to realize that the fragile woman he claimed is anything but breakable.
+But as his madness begins to fade and the real man emerges, Emma starts to discover something unexpected — a fierceness inside herself she never knew existed. And the king begins to realize that the fragile woman he claimed is anything but breakable.
 
 Welcome to the Lore — where vampires and werewolves are ancient enemies, fated mates do not get to choose, and the most dangerous thing in any room is the chemistry between two people who were never supposed to want each other.`,
   characters: [

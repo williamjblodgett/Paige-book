@@ -8,17 +8,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0e1a", "#1a2a4a"],
   accentColor: "#c42a2a",
-  synopsis: `Tory and Darcy Vega have spent their whole lives in the mortal world, surviving the foster system with nothing but each other. So when they discover they're Fae — powerful supernatural beings and the lost heirs to the Solarian throne — everything they thought they knew shatters.
+  synopsis: `Tory and Darcy Vega have spent their whole lives in the mortal world, surviving the foster system with nothing but each other. So when they discover they are Fae -- powerful supernatural beings and the lost heirs to the Solarian throne -- everything shatters.
 
-Welcome to Zodiac Academy, where elemental magic is real, the social hierarchy is ruthless, and four devastatingly powerful Fae males known as the Celestial Heirs have declared war on the Vega twins before they've even unpacked.
+Welcome to Zodiac Academy, where elemental magic is real, the social hierarchy is ruthless, and four devastatingly powerful Fae males known as the Celestial Heirs have declared war on the twins before they have even unpacked.
 
 Seth. Max. Caleb. And their merciless leader, Darius Acrux.
 
-They'll use every weapon in their arsenal — intimidation, humiliation, and raw magical force — to break the sisters and drive them from the academy. Because no one wants the lost princesses reclaiming a throne the Heirs consider theirs.
+They will use every weapon in their arsenal -- intimidation, humiliation, and raw magical force -- to break the sisters and drive them from the academy. Because no one wants the lost princesses reclaiming a throne the Heirs consider theirs.
 
-But Tory and Darcy didn't survive the foster system by being fragile. And as their dormant powers awaken — revealing abilities that shock even the professors — the Celestial Heirs realize they may have underestimated their targets.
+But Tory and Darcy did not survive the foster system by being fragile. As their dormant powers awaken, the Celestial Heirs realize they may have underestimated their targets. And beneath the cruelty and power plays, dangerous attractions begin to simmer.
 
-Beneath the cruelty and power plays, dangerous attractions begin to simmer. The enemies they're supposed to hate are becoming impossible to ignore. And beyond the academy walls, darker forces are stirring — forces that the return of the Vega twins has set in terrifying motion.`,
+The enemies they are supposed to hate are becoming impossible to ignore.`,
   characters: [
     { name: "Tory Vega", role: "One of the lost Vega twins and heir to the Solarian throne. Fierce and fiery, she meets the Celestial Heirs' cruelty with defiance and discovers powerful fire magic." },
     { name: "Darcy Vega", role: "Tory's twin sister, quieter but equally strong. Her awakening powers prove surprisingly formidable as she navigates the academy's treacherous social hierarchy." },
