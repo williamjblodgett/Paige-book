@@ -3,15 +3,15 @@ import Hero from '../components/Hero'
 import BookCard from '../components/BookCard'
 import SpiceRating from '../components/SpiceRating'
 import { allBooks } from '../data/books'
-import { GENRES, GENRE_THEMES, THEMES } from '../data/constants'
+import { GENRES, GENRE_THEMES, THEMES, SPICE_LEVELS } from '../data/constants'
 import { useMemo } from 'react'
 
 export default function Home() {
   const activeBooks = allBooks.filter(b => !b.comingSoon)
   const comingSoonBooks = allBooks.filter(b => b.comingSoon)
 
-  // Featured books — pick a diverse selection
-  const featured = useMemo(() => {
+  // Trending books — pick a diverse selection
+  const trending = useMemo(() => {
     const picks = []
     const usedAuthors = new Set()
     const usedGenres = new Set()
@@ -42,6 +42,14 @@ export default function Home() {
     }
 
     return picks.slice(0, 8)
+  }, [activeBooks])
+
+  // Books with quizzes for Book Club section
+  const bookClubPicks = useMemo(() => {
+    const withQuiz = activeBooks
+      .filter(b => b.quiz?.length >= 5)
+      .sort(() => Math.random() - 0.5)
+    return withQuiz.slice(0, 6)
   }, [activeBooks])
 
   // Get genres that have books
@@ -94,28 +102,55 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Books */}
-      <section className="max-w-6xl mx-auto px-4 py-16">
-        <div className="flex items-center justify-between mb-8">
-          <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider">
-            Featured Books
-          </h2>
-          <Link
-            to="/browse"
-            className="font-heading text-xs tracking-widest uppercase text-gold hover:underline"
-          >
-            View All
-          </Link>
-        </div>
+      {/* The Spice Spectrum */}
+      <section className="max-w-5xl mx-auto px-4 py-16">
+        <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-10 text-center">
+          The Spice Spectrum
+        </h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-          {featured.map((book) => (
-            <BookCard key={book.id} book={book} />
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+          {SPICE_LEVELS.map(({ level, label, emoji, description }) => {
+            const count = allBooks.filter(b => b.spiceLevel === level).length
+            return (
+              <Link
+                key={level}
+                to={`/browse?spice=${level}`}
+                className="group bg-surface rounded-lg p-5 border border-transparent hover:border-gold/30 transition-all text-center"
+              >
+                <div className="text-2xl mb-2">{emoji}</div>
+                <p className="font-heading text-sm tracking-wider text-text group-hover:text-gold transition-colors mb-1">
+                  {label}
+                </p>
+                <p className="font-body text-xs text-muted/70 mb-2 leading-relaxed">
+                  {description}
+                </p>
+                <p className="font-body text-xs text-muted/50">{count} books</p>
+              </Link>
+            )
+          })}
+        </div>
+      </section>
+
+      {/* Popular Tropes */}
+      <section className="max-w-6xl mx-auto px-4 py-16">
+        <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-8 text-center">
+          Popular Tropes
+        </h2>
+
+        <div className="flex flex-wrap justify-center gap-2">
+          {THEMES.slice(0, 18).map(({ id, label }) => (
+            <Link
+              key={id}
+              to={`/browse?theme=${id}`}
+              className="font-heading text-xs tracking-widest uppercase px-4 py-2 rounded-full border border-muted/15 text-muted hover:border-gold/40 hover:text-gold transition-all"
+            >
+              {label}
+            </Link>
           ))}
         </div>
       </section>
 
-      {/* Find a Book CTA */}
+      {/* Find Your Next Read CTA */}
       <section className="max-w-4xl mx-auto px-4 py-16">
         <div className="bg-surface rounded-lg border border-gold/20 p-8 md:p-12 text-center relative overflow-hidden">
           <div className="fog-layer absolute inset-0 pointer-events-none opacity-30" />
@@ -136,51 +171,86 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Browse by Trope */}
+      {/* Trending Now */}
       <section className="max-w-6xl mx-auto px-4 py-16">
-        <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-8 text-center">
-          Popular Tropes
-        </h2>
+        <div className="flex items-center justify-between mb-8">
+          <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider">
+            Trending Now
+          </h2>
+          <Link
+            to="/browse"
+            className="font-heading text-xs tracking-widest uppercase text-gold hover:underline"
+          >
+            View All
+          </Link>
+        </div>
 
-        <div className="flex flex-wrap justify-center gap-2">
-          {THEMES.slice(0, 18).map(({ id, label }) => (
-            <Link
-              key={id}
-              to={`/browse?theme=${id}`}
-              className="font-heading text-xs tracking-widest uppercase px-4 py-2 rounded-full border border-muted/15 text-muted hover:border-gold/40 hover:text-gold transition-all"
-            >
-              {label}
-            </Link>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {trending.map((book) => (
+            <BookCard key={book.id} book={book} />
           ))}
         </div>
       </section>
 
-      {/* Spice Spectrum */}
-      <section className="max-w-4xl mx-auto px-4 py-16">
-        <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-8 text-center">
-          The Spice Spectrum
-        </h2>
+      {/* Book Club */}
+      <section className="max-w-6xl mx-auto px-4 py-16">
+        <div className="divider-ornament mb-8">&#10022;</div>
+        <div className="text-center mb-10">
+          <h2 className="font-heading text-gold text-2xl md:text-3xl tracking-wider mb-3">
+            Book Club
+          </h2>
+          <p className="font-body text-muted text-lg italic">
+            Test your knowledge with our book quizzes — perfect for reading groups
+          </p>
+        </div>
 
-        <div className="flex justify-center gap-4 md:gap-6">
-          {[1, 2, 3, 4, 5].map((level) => {
-            const count = allBooks.filter(b => b.spiceLevel === level).length
-            const labels = ['Mild', 'Warm', 'Hot', 'Spicy', 'Inferno']
-            return (
-              <Link
-                key={level}
-                to={`/browse?spice=${level}`}
-                className="text-center group cursor-pointer"
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
+          {bookClubPicks.map((book) => (
+            <Link
+              key={book.id}
+              to={`/quizzes?book=${book.id}`}
+              className="group bg-surface rounded-lg overflow-hidden border border-transparent hover:border-current transition-all duration-300"
+              style={{ color: book.accentColor || '#c9a84c' }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.boxShadow = `0 0 15px ${book.accentColor}30`
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.boxShadow = 'none'
+              }}
+            >
+              <div
+                className="aspect-[3/2] flex items-center justify-center p-4"
+                style={{
+                  background: `linear-gradient(160deg, ${book.coverGradient?.[0] || '#111'} 0%, ${book.coverGradient?.[1] || '#000'} 100%)`,
+                }}
               >
-                <div className="mb-2">
-                  <SpiceRating level={level} size="md" />
+                <div className="text-center">
+                  <h3
+                    className="font-heading text-sm tracking-wider mb-1"
+                    style={{ color: book.accentColor }}
+                  >
+                    {book.title}
+                  </h3>
+                  <p className="font-body text-muted text-xs">{book.author}</p>
                 </div>
-                <p className="font-heading text-xs tracking-wider text-muted group-hover:text-gold transition-colors">
-                  {labels[level - 1]}
-                </p>
-                <p className="font-body text-xs text-muted/60">{count} books</p>
-              </Link>
-            )
-          })}
+              </div>
+              <div className="p-3 flex items-center justify-between">
+                <SpiceRating level={book.spiceLevel} />
+                <span className="font-body text-muted text-xs group-hover:text-gold transition-colors">
+                  {book.quiz.length} Questions
+                </span>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        <div className="text-center">
+          <Link
+            to="/quizzes"
+            className="font-heading text-sm tracking-widest uppercase px-10 py-3 rounded border-2 border-gold text-gold hover:bg-gold/10 transition-all inline-block"
+          >
+            Browse All Quizzes
+          </Link>
         </div>
       </section>
 
