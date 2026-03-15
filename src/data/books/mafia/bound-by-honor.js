@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0a0808"],
   accentColor: "#c9a84c",
+  pov: "single-fmc",
+  pageCount: 298,
+  publicationYear: 2015,
+  standalone: false,
+  contentWarnings: ["violence", "dubcon", "arranged-marriage"],
   synopsis: `Aria Scuderi has known since childhood that her life is not her own. Promised to a man she has never met, she will walk down the aisle and become the wife of Luca Vitiello — the future boss of bosses of the New York Cosa Nostra. In their world, love is irrelevant. Duty is everything. Obedience is not optional.
 
 Luca is everything the rumors whisper and worse. Ruthless. Cold. Feared even by other made men. He views this marriage as a strategic transaction, nothing more. He does not expect love. He does not want it.

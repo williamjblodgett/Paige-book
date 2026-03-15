@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#120a10", "#1a0a12"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 398,
+  publicationYear: 2022,
+  standalone: true,
+  contentWarnings: ["violence", "dubcon", "kidnapping", "graphic-violence", "death"],
   synopsis: `In the Santoro crime family, Posy has always been the one nobody notices. While her sisters are fierce and commanding, Posy is the quiet, anxious daughter who reads too much and talks too little. So when the family needs a peace offering to seal an alliance, they give away the daughter they will miss least.
 
 They give her to Dario.

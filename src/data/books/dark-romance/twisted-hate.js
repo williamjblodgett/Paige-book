@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#2a1020"],
   accentColor: "#8b1a4a",
+  pov: "dual-pov",
+  pageCount: 464,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["sexual-assault", "violence", "manipulation"],
   synopsis: `Josh Chen and Jules Ambrose have hated each other for years. Every interaction is a battlefield of sharp words and barely contained hostility. They cannot be in the same room without drawing blood.
 
 So naturally, they end up in the same bed.

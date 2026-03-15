@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0f0a2e", "#1a1040"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 489,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence", "death"],
   synopsis: `Growing up on the moon, Xingyin knew only two things: her mother Chang'e was the most loving person in any realm, and the Celestial Emperor must never learn Xingyin existed. But secrets have a way of slipping free.
 
 Forced to flee the only home she has ever known, Xingyin disguises herself and enters the service of the very emperor who imprisoned her mother. She trains as a warrior, masters bow and blade, and rises through the ranks of the Celestial Kingdom -- all while hiding an identity that would mean her death. Along the way, she forms a forbidden bond with Prince Liwei, the emperor's own son, whose kindness and honor make him impossible to resist. But she also draws the attention of Wenzhi, a captivating warrior from a rival kingdom whose charm conceals dangerous depths.

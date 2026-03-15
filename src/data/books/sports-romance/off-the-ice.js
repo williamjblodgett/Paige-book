@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1218", "#1a0a12"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 334,
+  publicationYear: 2017,
+  standalone: false,
+  contentWarnings: [],
   synopsis: `In the small town of Juniper Falls, Minnesota, hockey is everything -- and Tate Tanley is the star everyone is counting on. A scholarship, a way out, a future mapped in clean straight lines. Then one night at a party changes everything, and weeks later, Tate learns that Claire O'Connor is pregnant.
 
 They are not a couple. They are barely friends. And now their lives are tangled together in a way neither of them planned.

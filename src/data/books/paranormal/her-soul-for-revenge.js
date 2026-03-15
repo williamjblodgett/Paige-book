@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1a10", "#0a0f0a"],
   accentColor: "#1e8a5f",
+  pov: "dual-pov",
+  pageCount: 398,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["graphic-violence", "death", "blood", "dubcon", "abuse"],
   synopsis: `She survived. But survival is not the same as living.
 
 Juniper escaped the cult with her body intact and her mind shattered. Now she is consumed by a single, burning purpose: revenge against the people who tortured her and left her for dead. She does not want healing. She does not want peace. She wants blood.

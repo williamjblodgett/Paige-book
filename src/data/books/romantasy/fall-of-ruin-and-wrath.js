@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a0a", "#0d0f1a"],
   accentColor: "#5c3cbf",
+  pov: "single-fmc",
+  pageCount: 496,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["violence", "death", "dubcon"],
   synopsis: `The gods destroyed the world long ago. Only nine cities survived, separated by monster-haunted wilderness and ruled by the Hyhborn -- immortal beings who feed on mortal pleasure to sustain their terrifying power. In this world, Calista has one advantage: an intuition that never lies.
 
 She trades that gift for safety, serving as the Baron of Archwood's advisor and courtesan. It is a gilded cage, but one she chose. Then Prince Thorne arrives -- known throughout the land as the hand that delivers the King's wrath -- and Calista's carefully constructed life begins to crack.

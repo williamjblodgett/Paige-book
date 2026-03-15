@@ -8,6 +8,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a2a", "#2d1a4a"],
   accentColor: "#7c5cbf",
+  pov: "dual-pov",
+  pageCount: 384,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["violence", "manipulation", "power-imbalance"],
   synopsis: `In the modern city of Olympus, power belongs to the Thirteen -- titles named for the Greek gods, held by the ruthless elite who rule from glittering towers. The Upper City blazes with wealth and ambition. The Lower City lurks in shadow, separated by the river Styx. And for thirty years, everyone has believed that Hades is dead.
 
 Persephone Dimitriou has one plan: escape Olympus and never look back. But when her mother announces her engagement to Zeus -- a dangerous man rumored to have murdered his previous wives -- that plan shatters in an instant.

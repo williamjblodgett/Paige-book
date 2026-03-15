@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0510", "#0f0308"],
   accentColor: "#c42a6b",
+  pov: "dual-pov",
+  pageCount: 356,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["bdsm", "age-gap"],
   synopsis: `Garrett Porter has built his life around watching. As co-owner of an exclusive club, his preference for the shadows is an asset — but the truth behind it is darker than anyone knows.
 
 Then one night, scrolling through a cam girl app, he sees a face that stops him cold. The confident, sensual woman on his screen is Mia Harris. His stepsister. The woman who cannot stand him.

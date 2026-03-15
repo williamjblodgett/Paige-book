@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1a0808", "#0a0a18"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 394,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: [],
   synopsis: `Noah Slade is F1 royalty — the son of a racing legend, the sport's biggest playboy, and the driver everyone loves to watch. But behind the arrogant smirk and podium celebrations, Noah is suffocating under a legacy he never asked for and a father whose approval he'll never earn.
 
 When his fiercest rival, Santiago Alatorre, becomes his new teammate at Bandini, the tension on the team is explosive. Santi stole Noah's championship two years ago, and neither of them has forgotten it. But the real danger isn't on the track — it's Santi's younger sister, Maya.

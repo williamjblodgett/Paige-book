@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#150520", "#0a0f2e"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 479,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence", "blood", "death", "abuse"],
   synopsis: `Oraya is the only human in a kingdom of vampires — and every single one of them could kill her without breaking a sweat. Adopted by the Nightborn king and raised in a palace of predators, she has trained her entire life to survive. But survival is not enough. She wants to belong.
 
 The Kejari offers her that chance. Held once every hundred years and overseen by the goddess who created all vampires, this brutal tournament grants the winner a single wish — anything, no limits, no restrictions. For Oraya, it means the possibility of becoming something more than prey.

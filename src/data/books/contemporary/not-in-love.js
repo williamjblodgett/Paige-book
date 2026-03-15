@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1020", "#0f1318"],
   accentColor: "#c45b84",
+  pov: "dual-pov",
+  pageCount: 384,
+  publicationYear: 2024,
+  standalone: true,
+  contentWarnings: [],
   synopsis: `Rue Siebert is brilliant, guarded, and absolutely certain she is not capable of love. A biotech engineer who grew up hungry because of a neglectful mother, Rue poured that pain into her work — developing groundbreaking food science research that means everything to her. Emotions are a luxury she decided long ago she couldn't afford.
 
 Eli Killgore is patient, principled, and quietly intense — a private equity cofounder who raised his younger sister after tragedy struck his family. When his firm acquires the loan of Rue's company, they find themselves on opposite sides of a corporate battle. There's just one problem: before Rue knew who Eli was, they connected through a hookup app, and the spark between them was undeniable.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a10", "#0f0a30"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 544,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence", "death", "blood"],
   synopsis: `One satisfying heist -- that was all Romeria needed. Instead, she gets fatally stabbed in a New York City alley and wakes up in an entirely different body, in an entirely different world.
 
 Now she is a princess betrothed to a king who wants her dead. The real Princess Romeria tried to assassinate King Zander on their wedding night, and every soul in this realm of elven immortals and dark magic believes Romeria is that treacherous bride. Zander keeps her alive for one reason only: killing her would reignite a devastating war.

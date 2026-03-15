@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a0805", "#1a150f"],
   accentColor: "#c9884c",
+  pov: "dual-pov",
+  pageCount: 338,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: ["bdsm"],
   synopsis: `Five years ago, Aiden Bell disappeared. He walked away from his fortune, his family, and the love of his life without a word of explanation. He entered a monastery and became a monk, seeking salvation from a darkness that nearly consumed him.
 
 Elijah Iverson has spent five years wondering why. He never stopped loving Aiden, but he has tried to move on. Now a journalist, Elijah arrives at the monastery with a professional excuse and a personal truth: he is engaged to someone else. He has come to say goodbye.

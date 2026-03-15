@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#0d0f1a"],
   accentColor: "#c9a84c",
+  pov: "single-fmc",
+  pageCount: 498,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["violence", "death", "war", "graphic-violence"],
   synopsis: `Violet Sorrengail was supposed to become a Scribe, not a soldier. But her mother -- one of Navarre's most powerful generals -- has other plans, and on her orders, Violet is thrust into Basgiath War College, where candidates either bond with a dragon or die trying.
 
 The odds are not in her favor. Violet has a chronic joint condition that makes her physically fragile in a world that rewards brute strength. Everyone believes she will not survive -- including her childhood best friend. And then there is Xaden Riorson: the wingleader of Fourth Wing, the son of a rebel leader her mother executed, and the most dangerous cadet at Basgiath. He has every reason to want her dead.

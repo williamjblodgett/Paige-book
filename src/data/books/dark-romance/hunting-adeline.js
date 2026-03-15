@@ -8,6 +8,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0505", "#350a0a"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 588,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["trafficking", "sexual-assault", "violence", "graphic-violence", "kidnapping", "torture", "dubcon"],
   synopsis: `The nightmare has only just begun.
 
 Adeline Reilly has vanished. Taken by the Society -- the shadowy trafficking ring that operates in plain sight among the powerful -- she is trapped in a world designed to strip women of everything they are. Their goal is simple: break her before the Culling, where she will be sold to the highest bidder.

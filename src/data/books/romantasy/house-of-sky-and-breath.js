@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1030", "#0d0f1a"],
   accentColor: "#c45b84",
+  pov: "multi-pov",
+  pageCount: 768,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence", "death", "war"],
   synopsis: `Bryce Quinlan and Hunt Athalar have been ordered to keep their heads down. After the catastrophic events that nearly leveled Crescent City, the Asteri are watching — and the Bright Hand himself has made it clear that any further trouble will be dealt with permanently.
 
 But trouble does not care about orders. When threads from last year's investigation unravel into something far bigger — an organized rebellion against the Asteri's fifteen-thousand-year reign — Bryce and Hunt are pulled in despite every instinct screaming at them to walk away. A rebel spy has been killed. Her brother is missing. And the underground network fighting the Asteri needs help that only Bryce can provide.

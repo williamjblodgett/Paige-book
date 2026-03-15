@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1a0a2e", "#0d1b3e"],
   accentColor: "#7c5cbf",
+  pov: "dual-pov",
+  pageCount: 348,
+  publicationYear: 2019,
+  standalone: false,
+  contentWarnings: ["violence", "death", "manipulation"],
   synopsis: `Lara was raised for one purpose: to destroy the Bridge Kingdom. Trained from childhood in a desert compound alongside her sisters by a father who sees his daughters as weapons, she has spent her entire life preparing to infiltrate Ithicana — the island nation that controls the only safe passage between continents and wields unmatched strategic power.
 
 When she is chosen to marry King Aren as part of a peace treaty, Lara enters Ithicana armed with years of propaganda, deadly skills, and a mission she cannot fail. She expects to find a brutal regime and a monstrous king.

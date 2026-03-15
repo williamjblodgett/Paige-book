@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#120a10", "#1a0a0e"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 373,
+  publicationYear: 2019,
+  standalone: false,
+  contentWarnings: ["abuse"],
   synopsis: `Chloe Brown has been avoiding life, and she knows it. Chronically ill, sharp-tongued, and brilliant at web development, she has spent years letting her fibromyalgia shrink her world to a manageable size. Safe. Controlled. Small.
 
 Then she nearly dies — and everything changes.

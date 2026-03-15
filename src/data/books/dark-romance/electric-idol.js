@@ -8,6 +8,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#2a1a0a", "#4a3a1a"],
   accentColor: "#c9a84c",
+  pov: "dual-pov",
+  pageCount: 400,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence", "manipulation", "stalking"],
   synopsis: `Psyche Dimitriou knows how Olympus works. As Demeter's daughter and a social media influencer with a carefully curated public persona, she has spent her life navigating the city's cutthroat power games with a perfect smile and an iron spine. She knows the Thirteen are dangerous. She knows the political families are ruthless.
 
 She did not know that Aphrodite would order her son to kill her.

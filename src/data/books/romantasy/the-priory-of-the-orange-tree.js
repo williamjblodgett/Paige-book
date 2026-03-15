@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0f1a0a", "#0a1530"],
   accentColor: "#7c5cbf",
+  pov: "multi-pov",
+  pageCount: 832,
+  publicationYear: 2019,
+  standalone: true,
+  contentWarnings: ["violence", "death", "war"],
   synopsis: `The Nameless One stirs beneath the Abyss, and the world's only protection is a lie no one is ready to hear.
 
 Queen Sabran the Ninth sits the Berethnet throne, burdened by a dynasty whose unbroken bloodline supposedly keeps the apocalyptic dragon imprisoned. She must produce an heir or doom the world. But Sabran is no broodmare, and the pressures of her crown are cracking her from within.

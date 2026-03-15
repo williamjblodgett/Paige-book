@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#ffb347", "#ff6961"],
   accentColor: "#c45b84",
+  pov: "dual-pov",
+  pageCount: 364,
+  publicationYear: 2021,
+  standalone: true,
+  contentWarnings: [],
   synopsis: `Poppy and Alex have been best friends for twelve years, despite being polar opposites. She is a spontaneous, adventure-loving travel writer. He is a reserved, routine-loving teacher. Every summer, they took a vacation together — just the two of them — across quirky destinations and cheap motels. It was their tradition, the highlight of their year, the one thing neither would ever break.
 
 Until two years ago, when something went wrong on their trip to Croatia. Something so bad they have not spoken since.

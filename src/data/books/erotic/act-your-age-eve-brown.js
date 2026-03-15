@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#120a10", "#1a0e10"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 368,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["anxiety"],
   synopsis: `Eve Brown has been called a lot of things: scattered, unreliable, a beautiful disaster. The youngest Brown sister has burned through more jobs than she can count, and when her parents issue a final ultimatum, she panics — and drives straight to the small town of Skybriar, where she literally hits a man with her car. In his own parking lot.
 
 Jacob Wayne is the meticulous, routine-driven owner of a charming bed-and-breakfast. He runs his world on schedules, systems, and predictability. Eve Brown — chaotic, loud, and utterly unmanageable — is everything his carefully ordered life does not need. But she can cook like a dream, and with a festival looming, Jacob has no choice but to hire the woman who just ran him over.

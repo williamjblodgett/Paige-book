@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1a10", "#0a100a"],
   accentColor: "#1e8a5f",
+  pov: "multi-pov",
+  pageCount: 393,
+  publicationYear: 2005,
+  standalone: false,
+  contentWarnings: ["violence", "death", "blood"],
   synopsis: `In the shadows of Caldwell, New York, a secret war is being waged. The Black Dagger Brotherhood — an elite band of vampire warriors — is all that stands between their race and annihilation. At its heart stands Wrath: the last purebred vampire alive, their reluctant king, and a fighter whose fury is legend.
 
 Wrath does not want the throne. He wants blood, battle, and solitude. But when his closest brother falls in combat, he is bound by a dying wish he cannot refuse — find the warrior's half-human daughter and protect her through a deadly transformation she does not yet know is coming.

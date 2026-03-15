@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1a1020", "#0f1318"],
   accentColor: "#c45b84",
+  pov: "single-fmc",
+  pageCount: 384,
+  publicationYear: 2021,
+  standalone: true,
+  contentWarnings: ["sexual-assault", "power-imbalance"],
   synopsis: `Olive Smith, a third-year biology PhD candidate at Stanford, has just made a terrible decision. To convince her best friend that she is over her ex, she panics and kisses the first man she sees in the hallway. That man is Dr. Adam Carlsen — six feet of frowning, intimidating genius and the most feared professor in the department.
 
 To her shock, Adam does not push her away. In fact, he has his own reasons for going along with the charade. Their arrangement is supposed to be simple and mutually beneficial: fake dates, staged public appearances, and absolutely no real feelings.

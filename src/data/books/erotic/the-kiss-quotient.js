@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#120a10", "#1a0c12"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 310,
+  publicationYear: 2018,
+  standalone: false,
+  contentWarnings: [],
   synopsis: `Stella Lane is a brilliant econometrician who can decode the most complex data sets on the planet. But romance? That is the one algorithm she cannot crack. On the autism spectrum and overwhelmed by sensory challenges, every intimate encounter has ended in disaster. So Stella does what any analytical mind would do — she hires a professional.
 
 Michael Phan is gorgeous, patient, and very good at what he does. By day he dreams of a career in fashion design. By night he works as an escort to pay off his mother's crushing medical debts. When Stella proposes not just a night together but structured lessons in intimacy — complete with practice goals and meticulous notes — he has never met anyone like her.

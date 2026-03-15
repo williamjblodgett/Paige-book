@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1a2e", "#950740"],
   accentColor: "#c45b84",
+  pov: "single-fmc",
+  pageCount: 314,
+  publicationYear: 2018,
+  standalone: true,
+  contentWarnings: ["violence", "death", "manipulation", "abuse", "graphic-violence"],
   synopsis: `Lowen Ashleigh is a struggling writer drowning in debt when she receives the opportunity of a lifetime. Jeremy Crawford wants her to finish the remaining books in his wife's bestselling series. His wife, Verity, cannot do it herself — a catastrophic accident has left her unresponsive, bedridden in their Vermont home.
 
 Lowen moves into the Crawford house to sort through Verity's files and find enough material to continue the series. What she finds instead is something far more dangerous: a hidden manuscript. Verity's own autobiography — unfinished, unsent, and never meant to be read.

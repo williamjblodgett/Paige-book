@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0f18", "#0f1318"],
   accentColor: "#c45b84",
+  pov: "dual-pov",
+  pageCount: 374,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["anxiety"],
   synopsis: `He's the town heartthrob who's convinced he has nothing real to offer. She's been a supporting character in her own life for far too long.
 
 Fox Thornton is charming, devastating to look at, and absolutely certain that's all anyone will ever want from him. In Westport, Washington, he's the good-time guy — the one everyone flirts with and no one takes seriously. He's stopped expecting anyone to look deeper.

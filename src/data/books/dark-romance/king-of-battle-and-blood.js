@@ -8,6 +8,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0d0a12", "#2a1525"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 496,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence", "blood", "death", "dubcon"],
   synopsis: `She goes to her wedding with a blade strapped to her thigh and murder in her heart.
 
 Princess Isolde de Lara has been sacrificed -- bartered to the vampire king in a political marriage meant to save her kingdom from his two-hundred-year conquest. She has no intention of being a dutiful bride. She plans to kill Adrian Aleksandr Vasiliev on their wedding night and end his reign of terror forever.

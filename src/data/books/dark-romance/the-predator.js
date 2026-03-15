@@ -8,6 +8,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0d0808", "#2d1010"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 387,
+  publicationYear: 2018,
+  standalone: false,
+  contentWarnings: ["violence", "death", "stalking", "dubcon"],
   synopsis: `Their families have been locked in a blood feud for generations. Trusting each other should be impossible. Wanting each other could be fatal.
 
 Morana Vitalio is a tech genius and mob princess who created a program so dangerous that everyone -- her father's people and their enemies alike -- would kill to possess it. When that program surfaces on the dark web threatening both criminal empires, she is thrust into an uneasy alliance with the last man she should ever trust.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1f0a15", "#0d0a2e"],
   accentColor: "#7c5cbf",
+  pov: "multi-pov",
+  pageCount: 850,
+  publicationYear: 2024,
+  standalone: false,
+  contentWarnings: ["violence", "death", "war", "torture"],
   synopsis: `Bryce Quinlan is worlds away from everyone she loves — stranded in a strange land with nothing but the devastating truth about the Asteri and the desperate hope that she can find a way home. The world she has stumbled into holds ancient secrets: the true origins of the Fae, weapons forged to kill gods, and connections between realms that have been buried for millennia. What she discovers could change everything.
 
 Back on Midgard, Hunt Athalar is in chains. Imprisoned in the Asteri's dungeons alongside Ruhn and Baxian, he endures unimaginable brutality with only one thought keeping him alive — that Bryce survived. Meanwhile, their allies race to build a resistance against rulers who have reigned unchallenged for fifteen thousand years.

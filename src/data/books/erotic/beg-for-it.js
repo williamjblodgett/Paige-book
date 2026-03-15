@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#120a10", "#1a0a10"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 322,
+  publicationYear: 2014,
+  standalone: true,
+  contentWarnings: ["bdsm", "dubcon"],
   synopsis: `He was her brother's best friend. The older man who consumed her teenage fantasies. The one who disappeared without a word.
 
 Mackenzie Laurent spent years getting over Roman Tyrell. She is no longer the naive girl who wore her heart on her sleeve. She is independent, guarded, and done waiting for a man who vanished from her life without explanation.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1a1030", "#0d0f1a"],
   accentColor: "#c45b84",
+  pov: "multi-pov",
+  pageCount: 803,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: ["violence", "death", "grief", "sexual-assault", "addiction"],
   synopsis: `Bryce Quinlan once had it all — a dream job, a best friend closer than a sister, and a life lit up by the magic of Crescent City. Then a demon slaughtered Danika and her entire wolf pack, and Bryce's world shattered into darkness.
 
 Two years of drowning in grief later, a new wave of murders drags Bryce back into the nightmare. The Archangel who rules the city forces her to investigate — and saddles her with a partner she never asked for: Hunt Athalar, a fallen angel enslaved as an assassin, branded and dangerous and haunted by his own demons.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1525", "#0a1018"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 346,
+  publicationYear: 2016,
+  standalone: false,
+  contentWarnings: ["pregnancy"],
   synopsis: `Sabrina James does not do distractions. With a neglectful mother in her rearview mirror and Harvard Law in her crosshairs, she has built her entire life around one principle: depend on no one. Her plan is airtight. Her walls are higher. And she has absolutely no room for a sweet-talking hockey player from Texas who refuses to take the hint.
 
 John Tucker is the steady, dependable heartbeat of the off-campus house at Briar University — the quiet southern gentleman content to let his flashier teammates take the spotlight. But when he meets Sabrina and is immediately warned to stay away, something shifts. He has never been one to judge a person by someone else's review.

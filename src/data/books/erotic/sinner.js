@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a05", "#0f0805"],
   accentColor: "#8b3a1a",
+  pov: "dual-pov",
+  pageCount: 362,
+  publicationYear: 2018,
+  standalone: false,
+  contentWarnings: ["bdsm", "violence"],
   synopsis: `Sean Bell is a millionaire, a libertine, and a man who lost his faith the day his sister died. He has spent years numbing the guilt with wealth, women, and willful irreverence. He does not believe in God, redemption, or love — and he has the lifestyle to prove it.
 
 Then he meets a woman who makes his blood burn — and discovers she is the twenty-one-year-old little sister of his best friend. Off-limits on every level.

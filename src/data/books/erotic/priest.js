@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0f0808", "#1a0a0a"],
   accentColor: "#8b1a1a",
+  pov: "dual-pov",
+  pageCount: 298,
+  publicationYear: 2015,
+  standalone: false,
+  contentWarnings: ["taboo", "bdsm", "power-imbalance"],
   synopsis: `There are many things a priest should never do.
 
 Father Tyler Bell knows them all. He has built his life around discipline, devotion, and quiet sacrifice. His faith is his armor. His collar is his identity. His vow of celibacy has never been tested.

@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0810", "#1e1830"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 566,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["violence", "anxiety", "kidnapping"],
   synopsis: `Nash Morgan used to be the golden brother -- Knockemout's chief of police, the man everyone depended on. Then he took a bullet to the head, and the man who woke up is not the same. The easy smile is gone. In its place: explosive anger, crippling headaches, and a darkness that terrifies him.
 
 Angelina Solavita is a U.S. Marshal with a sharp tongue, a dangerous assignment, and zero patience for brooding men who refuse to help themselves. She is in Knockemout tracking a fugitive, and she needs the stubborn chief to cooperate. What she does not need is the combustible attraction to a damaged man who looks at her like she is both his salvation and his undoing.

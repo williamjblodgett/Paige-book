@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#6b705c", "#ddbea9"],
   accentColor: "#c45b84",
+  pov: "dual-pov",
+  pageCount: 335,
+  publicationYear: 2022,
+  standalone: true,
+  contentWarnings: ["grief", "death", "addiction"],
   synopsis: `After five years in prison for a tragic mistake, Kenna Rowan has only one goal: to reunite with the daughter she has never been allowed to raise. Four-year-old Diem has been in the care of her late father's parents since Kenna went away, and they have no intention of letting Kenna back into her life.
 
 The town has not forgotten. It has not forgiven. Everywhere Kenna turns, she meets locked doors and hostile stares. To them, she is the woman who took a beloved young man from his family. She does not deserve a second chance — and she certainly does not deserve her daughter.

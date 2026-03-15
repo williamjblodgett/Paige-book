@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#120a12", "#1a0c10"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 362,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: [],
   synopsis: `Sabrina Carlton and Nick Davenport are London's most famous morning television rivals — and they cannot stand each other. She thinks he is a smug peacock who coasts on charm. He thinks she is an ice queen who has traded personality for ratings. The tabloids feast on their feud with gleeful regularity.
 
 So naturally, their networks merge their shows and make them co-hosts.

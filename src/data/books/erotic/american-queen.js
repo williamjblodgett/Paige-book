@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#050a1a", "#0a1230"],
   accentColor: "#1a3a6b",
+  pov: "multi-pov",
+  pageCount: 403,
+  publicationYear: 2016,
+  standalone: false,
+  contentWarnings: ["bdsm", "power-imbalance"],
   synopsis: `When the Vice President of the United States walks into her office and tells her the President wants to see her, Greer Galloway's carefully quiet life as a college professor is over.
 
 The President is Ash Colchester — war hero, commanding leader, and the man Greer has never been able to forget. They shared a single forbidden kiss years ago. She wrote him letters. He never wrote back. Now he is the most powerful man in the world, and he wants her.

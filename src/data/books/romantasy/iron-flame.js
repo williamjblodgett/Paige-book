@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#0d0f1a"],
   accentColor: "#c42a2a",
+  pov: "single-fmc",
+  pageCount: 623,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["violence", "death", "war", "graphic-violence"],
   synopsis: `Violet Sorrengail returns to Basgiath War College knowing the truth that Navarre's leadership has killed to keep hidden: the wards are failing, the venin are real, and the war they are training for is nothing like what they have been told. She also knows that her brother Brennan — long believed dead — is alive, fighting in a secret rebellion alongside the man she loves.
 
 But trust is a fragile thing, and Xaden's secrets have left cracks that run deep. As a second-year rider, Violet must navigate a dangerous new authority figure determined to break her, a transfer student with ties to Xaden's past, and forbidden research that could be the key to saving the kingdom — or getting her executed for treason.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0f0a28", "#1a1035"],
   accentColor: "#7c5cbf",
+  pov: "dual-pov",
+  pageCount: 369,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["war", "death", "grief"],
   synopsis: `By day, Iris Winnow and Roman Kitt are rivals -- competing for the same columnist position at the Oath Gazette with a ferocity that leaves no room for anything else. By night, they are strangers pouring out their souls in letters that slip magically under their wardrobe doors, not knowing the anonymous correspondent on the other side is the person they cannot stand.
 
 Iris is scraping by -- caring for her grief-stricken mother and trying not to think about her brother, who vanished into a war between gods that was supposed to be myth. Roman is infuriatingly talented, impossibly privileged, and harboring secrets of his own. Their letters are raw, honest, and aching -- and the connection growing between their written words threatens to unravel every wall they have built.

@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0505", "#350a0a"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 388,
+  publicationYear: 2022,
+  standalone: true,
+  contentWarnings: ["violence", "manipulation", "death"],
   synopsis: `She stole his identity. He tracked her down. Now neither of them can escape.
 
 Sawyer Bennett is a woman on the run -- no real name, no home, surviving on stolen identities and borrowed time. When she meets Enzo Vitale, an enigmatic Italian shark researcher, in a coastal Australian bar, she does what she always does: lies, takes what she needs, and vanishes by morning.

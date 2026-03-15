@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#15082a", "#0a1230"],
   accentColor: "#7c5cbf",
+  pov: "dual-pov",
+  pageCount: 368,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["war", "death", "grief", "violence"],
   synopsis: `The war between gods has torn Iris and Roman apart in the cruelest way imaginable. Roman is alive — but he does not remember her. Captured by the malevolent god Dacre, healed of his wounds but stripped of his memories, he now serves as the enemy's propaganda writer, crafting words for the very army that destroyed everything they built together.
 
 Iris returns to the city of Oath carrying grief like a second skin. She throws herself into her journalism, using her words as weapons to rally a city bracing for siege. But the magical connection between their typewriters has not been entirely severed. Fragments of Roman's writing still appear — echoes of the man she loves, trapped somewhere beneath a god's control.

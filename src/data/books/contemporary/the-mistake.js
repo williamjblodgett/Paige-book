@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1525", "#0a1018"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 340,
+  publicationYear: 2015,
+  standalone: false,
+  contentWarnings: ["pregnancy"],
   synopsis: `It started with a wrong turn. Logan showed up at the wrong house looking for a party and found Grace Ivers on the couch, mid-Die Hard marathon. She was quiet, sharp, and nothing like anyone he had ever been drawn to. Their unexpected night together felt like the start of something real.
 
 Then he ruined it. One careless, devastating confession — and Grace walked away without looking back.

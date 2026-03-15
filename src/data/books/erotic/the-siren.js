@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#120a10", "#1a0810"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 302,
+  publicationYear: 2016,
+  standalone: true,
+  contentWarnings: ["bdsm", "power-imbalance"],
   synopsis: `Nora Sutherlin is a bestselling erotica author whose real life makes her fiction look tame. By night, she is a professional dominatrix. And the man who shaped her — body, mind, and soul — is a Catholic priest who has no intention of letting her go.
 
 When her publisher demands that her next novel be "real literature," Nora is paired with a new editor: Wesley Railey, a young Southern gentleman who has never met anyone like her. He is earnest, idealistic, and completely out of his depth. He is also falling for her — hard and helplessly.

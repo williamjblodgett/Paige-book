@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1030", "#0d0f1a"],
   accentColor: "#3a1a8b",
+  pov: "single-fmc",
+  pageCount: 624,
+  publicationYear: 2016,
+  standalone: false,
+  contentWarnings: ["violence", "abuse", "anxiety", "death", "war"],
   synopsis: `Feyre survived Under the Mountain. But surviving and living are not the same thing.
 
 She is drowning -- haunted by nightmares, hollowed by guilt, and trapped in a Spring Court that has become a gilded cage. When a panic attack shatters her wedding day, it is Rhysand, the mysterious High Lord of the Night Court, who appears to collect on his bargain and sweep her into a world she never expected.

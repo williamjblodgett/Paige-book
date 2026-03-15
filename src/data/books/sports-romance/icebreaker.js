@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1525", "#0a1018"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 432,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["anxiety", "body-image", "manipulation"],
   synopsis: `Anastasia Allen doesn't do distractions. The fiercely competitive figure skater at UC Maple Hills has Olympic dreams, a packed schedule, and one unbreakable rule: no hockey players. Ever.
 
 Then a prank destroys the hockey rink, and suddenly she's sharing ice time with Nathan Hawkins — the team's golden-boy captain, annoyingly charming, and completely undeterred by her death glares.

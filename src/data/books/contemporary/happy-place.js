@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#a8dadc", "#457b9d"],
   accentColor: "#c45b84",
+  pov: "dual-pov",
+  pageCount: 400,
+  publicationYear: 2023,
+  standalone: true,
+  contentWarnings: ["anxiety"],
   synopsis: `They broke up six months ago. Nobody knows.
 
 Harriet and Wyn were the golden couple — college sweethearts, the pair everyone envied, the ones who made love look effortless. Every year, they joined their closest friends for a week at a cottage in Knott's Harbor, Maine. It was tradition. It was sacred. It was the happiest place on earth.

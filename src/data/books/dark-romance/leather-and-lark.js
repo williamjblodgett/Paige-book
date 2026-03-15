@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a0a", "#2d1a1a"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 371,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["graphic-violence", "death", "blood", "anxiety"],
   synopsis: `He is a grumpy, tattooed assassin desperate to leave the killing business behind. She is a sunshine indie musician whose smile could light up a stadium. They have absolutely nothing in common.
 
 Except they have both taken lives. And now they are married.

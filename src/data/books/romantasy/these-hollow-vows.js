@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#120a28", "#0a1535"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 404,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["violence", "manipulation", "death"],
   synopsis: `When Brie's sister is stolen away to the fae realm as payment for a debt, Brie will do anything to get her back — even make a deal with a faerie prince. Or two.
 
 Sebastian, the golden prince of the Seelie Court, offers a bargain: retrieve three magical artifacts, and he will help Brie find her sister. He is charming, kind, and everything a prince should be. Then there is Finn — the dark, infuriating prince of the Unseelie Court, who offers his own competing deal and seems to know far more about Brie's situation than he should.

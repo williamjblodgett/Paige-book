@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#2a1020"],
   accentColor: "#8b1a4a",
+  pov: "dual-pov",
+  pageCount: 372,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["violence", "stalking", "death", "abuse"],
   synopsis: `Alex Volkov remembers everything. A rare neurological condition means his memories never fade -- and the ones that haunt him most have fueled a years-long obsession with revenge. Cold, calculating, and ruthlessly ambitious, he has spent eight years embedding himself in the Chen family's life for one purpose.
 
 Now, when his best friend Josh leaves the country for a year, Josh makes one request: look after my little sister.

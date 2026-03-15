@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#d44a4a",
+  pov: "dual-pov",
+  pageCount: 357,
+  publicationYear: 2016,
+  standalone: true,
+  contentWarnings: ["bullying", "violence", "death"],
   synopsis: `They have been writing letters since fifth grade. No social media. No phone numbers. No photographs. Just ink on paper -- raw, honest, and more intimate than anything either of them shares with the people in their daily lives. Misha and Ryen have never met face to face. Yet they know each other better than anyone.
 
 Until Misha decides to find the girl behind the letters.

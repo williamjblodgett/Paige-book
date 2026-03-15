@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a08", "#0a1018"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 384,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["anxiety", "abuse"],
   synopsis: `Ryan Shay doesn't do people. As the newly appointed captain of the Chicago Devils, he's one of the most famous athletes in the country — and one of the most closed-off. His apartment is spotless, his routine is sacred, and the walls he's built around himself are designed to keep everyone out.
 
 Then Indigo Ivers shows up with a suitcase and a broken heart.

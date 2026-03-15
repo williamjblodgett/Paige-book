@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#200a18", "#0a0f30"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 441,
+  publicationYear: 2016,
+  standalone: false,
+  contentWarnings: ["violence", "death", "kidnapping"],
   synopsis: `Cat has spent years hiding in plain sight -- telling fortunes in a traveling circus, keeping her head down, and praying no one discovers the truth. She is not just a soothsayer with a few clever tricks. She is a runaway princess with Kingmaker magic powerful enough to reshape the world, and if her tyrannical mother ever finds her, there will be no escape a second time.
 
 Then a Sintan warlord named Griffin drags her out of hiding. He is relentless, disarmingly honest, and absolutely convinced that Cat is the key to uniting Thalyria's fractured kingdoms. Cat fights him at every turn -- with words, fists, and fire. But Griffin does not want a weapon. He wants an equal.

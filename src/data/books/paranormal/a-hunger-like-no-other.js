@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1a10", "#0c0f0a"],
   accentColor: "#1e8a5f",
+  pov: "dual-pov",
+  pageCount: 371,
+  publicationYear: 2006,
+  standalone: false,
+  contentWarnings: ["violence", "blood", "dubcon"],
   synopsis: `One hundred and fifty years of hellfire. Burned alive, healed, and burned again. The only thing that kept the king of the Lykae from losing his mind was one desperate hope — that somewhere in the world, his fated mate was waiting.
 
 Now he is free. Feral. And he has found her.

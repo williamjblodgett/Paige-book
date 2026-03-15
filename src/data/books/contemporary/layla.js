@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#151020", "#0f0f18"],
   accentColor: "#6b4b8b",
+  pov: "single-fmc",
+  pageCount: 310,
+  publicationYear: 2020,
+  standalone: true,
+  contentWarnings: ["violence", "death", "manipulation"],
   synopsis: `Leeds and Layla's love story begins the way all great romances do — with an instant, all-consuming spark. They meet at a wedding, fall fast and hard, and build something beautiful together. Then violence shatters everything. A jealous attack leaves Layla barely alive, and when she finally wakes up, something is wrong. She's alive, but the woman Leeds fell in love with seems to have vanished — replaced by someone anxious, erratic, and impossibly distant.
 
 Desperate to bring her back, Leeds rents the bed and breakfast where they first met, hoping the memories will help her heal. Instead, the B&B brings chaos. Objects move on their own. Strange things happen in the night. And Leeds begins communicating with a ghost who calls herself Willow — first through the piano, then through his laptop, and eventually in ways he never imagined possible.

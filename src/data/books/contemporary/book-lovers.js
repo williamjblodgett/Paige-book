@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#d4a5a5", "#9b2335"],
   accentColor: "#c45b84",
+  pov: "single-fmc",
+  pageCount: 377,
+  publicationYear: 2022,
+  standalone: true,
+  contentWarnings: ["grief"],
   synopsis: `In every romance novel Nora Stephens has ever read, the ambitious career woman is the villain. She loses the guy to the sweet small-town girl every single time. Nora should know — as a cutthroat New York literary agent, she's practically the template.
 
 So when her sister Libby drags her to Sunshine Falls, North Carolina, for the ultimate Hallmark-movie vacation, Nora knows exactly how this story goes. She does not expect to keep running into Charlie Lastra, a grumpy book editor she's clashed with for years. He's blunt, infuriating, and has zero patience for pleasantries. And yet, between the bookshops and the summer rainstorms and the small-town festivals, something shifts. Their sparring starts to feel less like combat and more like foreplay.

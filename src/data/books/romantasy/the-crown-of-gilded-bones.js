@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a0a", "#0d0f1a"],
   accentColor: "#c9a84c",
+  pov: "single-fmc",
+  pageCount: 670,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["violence", "death", "war"],
   synopsis: `Poppy has been declared the rightful Queen of Atlantia — the last descendant of the King of Gods himself. The problem? She has no idea what she is becoming. Her powers are growing at a terrifying pace, ancient prophecies name her as either savior or destroyer, and there are those within Atlantia who would rather see her dead than crowned.
 
 When a trusted advisor betrays them and Poppy barely survives, Casteel makes a desperate choice to save her — one that transforms her yet again. Poppy awakens more powerful than ever, and the journey to the heart of Atlantia reveals a kingdom nothing like the wasteland she was taught to expect. It is beautiful, thriving, and waiting for a queen.

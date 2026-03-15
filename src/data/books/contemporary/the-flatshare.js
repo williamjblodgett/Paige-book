@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#84ceeb", "#5680e9"],
   accentColor: "#c45b84",
+  pov: "dual-pov",
+  pageCount: 325,
+  publicationYear: 2019,
+  standalone: true,
+  contentWarnings: ["abuse", "manipulation", "stalking"],
   synopsis: `Tiffy Moore needs a cheap place to live. Leon Twomey needs extra cash. The solution is unusual: they will share a one-bedroom apartment — and the same bed. They just will never be in it at the same time.
 
 Leon works nights at a hospice; Tiffy works days at a quirky publishing house. They will never have to meet. Their only communication: Post-it notes stuck to the fridge, the bathroom mirror, and the kettle.

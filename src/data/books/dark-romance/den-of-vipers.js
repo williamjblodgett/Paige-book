@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a1a", "#3d1122"],
   accentColor: "#8b1a4a",
+  pov: "multi-pov",
+  pageCount: 612,
+  publicationYear: 2020,
+  standalone: true,
+  contentWarnings: ["graphic-violence", "dubcon", "kidnapping", "torture", "blood", "death"],
   synopsis: `Roxy's father owed a debt to the most feared criminal organization in the city. He could not pay. So they took the next best thing.
 
 Her.

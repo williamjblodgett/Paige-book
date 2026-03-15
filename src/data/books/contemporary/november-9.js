@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#151020", "#0f0f18"],
   accentColor: "#8b6b8b",
+  pov: "dual-pov",
+  pageCount: 310,
+  publicationYear: 2015,
+  standalone: true,
+  contentWarnings: ["manipulation", "stalking"],
   synopsis: `Two years after a devastating fire left scars across her body and shattered her acting dreams, eighteen-year-old Fallon O'Neil is ready to leave Los Angeles behind and start over in New York. But on the anniversary of the worst night of her life, she meets Ben — a captivating aspiring novelist who makes her feel seen in ways no one else ever has.
 
 Their instant connection is undeniable. Over a single extraordinary day, they share the kind of raw, breathtaking honesty most people never experience. Instead of exchanging numbers, they make a pact: they will meet in the same spot every November 9th for five years. No calls. No texts. Just one day each year to discover who they have become — and whether the fire between them still burns.

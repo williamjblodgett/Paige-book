@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#0d0f1a"],
   accentColor: "#1a1a3a",
+  pov: "single-fmc",
+  pageCount: 576,
+  publicationYear: 2025,
+  standalone: false,
+  contentWarnings: ["violence", "death", "war"],
   synopsis: `Xaden Riorson is turning venin. The red rings in his eyes are proof of what he sacrificed to save Violet, and every day, the hunger for dark power grows stronger. He is fighting to hold on — to his humanity, to his love, to himself — but the corruption is patient, and it does not lose.
 
 Violet refuses to accept that there is no cure. While forging unprecedented alliances between Navarre and its longtime enemy Poromiel, she secretly hunts for answers in forbidden places — ancient texts, goddess mythology, and rumors of a seventh breed of dragon that has not been seen in centuries. What she finds could change everything. Or it could already be too late.

@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0e0a1e", "#251545"],
   accentColor: "#c42a2a",
+  pov: "single-fmc",
+  pageCount: 416,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["violence", "death", "blood", "dubcon"],
   synopsis: `Emilia di Carlo has descended into Hell. Willingly.
 
 After striking a dangerous bargain with the demon prince of Wrath, she has traveled to the Seven Circles to hunt her twin sister's killer from within the demon realm itself. But the underworld is nothing like the stories warned -- it is a place of dark beauty, seductive power, and politics sharp enough to draw blood.

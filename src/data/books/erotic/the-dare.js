@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#140a10", "#1a0c10"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 264,
+  publicationYear: 2021,
+  standalone: true,
+  contentWarnings: ["power-imbalance", "age-gap"],
   synopsis: `Jessica Martin has spent her entire life being good. Polite. Predictable. Engaged to the right man, on the right career path, living a life that looks perfect on paper. The problem is that perfection is suffocating — and she has been so busy being what everyone else wants that she has forgotten what she wants for herself.
 
 Then she meets Manson Reed.

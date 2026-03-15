@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#2a1a0a", "#4a3a1a"],
   accentColor: "#c9a84c",
+  pov: "dual-pov",
+  pageCount: 384,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: [],
   synopsis: `He translates Latin classics for fun. She has purple hair and tells dirty jokes at his expense. They should not work at all.
 
 Kai Young is control personified — the reserved, impeccably disciplined heir to a media empire who has never met a situation he couldn't master. With a critical CEO vote looming, he can't afford a single distraction. Especially not the kind that serves his drinks at the Valhalla Club.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#f4a261", "#e76f51"],
   accentColor: "#c45b84",
+  pov: "single-fmc",
+  pageCount: 361,
+  publicationYear: 2020,
+  standalone: true,
+  contentWarnings: ["grief", "death"],
   synopsis: `She writes love stories. He writes tragedies. They have absolutely nothing in common — except a street address.
 
 January Andrews built her career on happily-ever-afters, but after a devastating family secret shattered everything she believed about love, she can't write a single word. Now she's stuck in a tiny Michigan beach town, living in her late father's house, next door to the last person she wants to see: Augustus Everett, her college rival and literary fiction's favorite brooding genius.

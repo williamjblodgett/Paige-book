@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1a10", "#0a0e0a"],
   accentColor: "#1e8a5f",
+  pov: "multi-pov",
+  pageCount: 400,
+  publicationYear: 2008,
+  standalone: false,
+  contentWarnings: ["violence", "death", "torture"],
   synopsis: `Centuries ago, they committed the ultimate sin — they opened Pandora's box. Now each warrior is cursed to carry one of the demons they unleashed. They are the Lords of the Underworld, and every day is a war against the darkness living inside them.
 
 Maddox is the keeper of Violence. The demon in his blood feeds on rage, screams for destruction, and never stops. Every midnight, he dies. Every dawn, he is dragged back to endure it all again.

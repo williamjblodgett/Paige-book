@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#2a1020"],
   accentColor: "#8b1a4a",
+  pov: "dual-pov",
+  pageCount: 390,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["stalking", "violence"],
   synopsis: `She is a princess. He is the man hired to protect her. Those are the only two facts that should matter.
 
 Rhys Larsen is a former Navy SEAL with an iron will and zero tolerance for a princess who refuses to follow the rules. Bridget von Ascheberg is headstrong, fiercely independent, and determined to live on her own terms. They clash from the first moment. Every argument crackles with tension. Every stolen glance lingers too long.

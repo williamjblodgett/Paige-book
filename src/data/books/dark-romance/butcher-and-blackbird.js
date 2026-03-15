@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0808", "#3d1111"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 331,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["graphic-violence", "death", "blood"],
   synopsis: `Sloane Sutherland has a secret hobby: she hunts serial killers. By day she is a scientist. By night she is the methodical vigilante known as the Orb Weaver. So when she finds herself trapped in a cage beside her latest target's corpse, starving after three days, the last person she expects to open the door is a man who shares her unusual pastime.
 
 Rowan Kane -- the infamous Boston Butcher, a chef whose skill with a blade extends well beyond the kitchen -- has a proposition. An annual competition: each year they will race to eliminate a chosen serial killer in a different city, with the ultimate prize being the chance to take down the elusive Forest Phantom.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a05", "#0a1018"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 448,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["grief", "anxiety"],
   synopsis: `It was supposed to be one night. One party. One unforgettable mistake.
 
 When a drinking game at an end-of-year college party leads Aurora Roberts into the arms of a stranger, she does what she always does — slips away before sunrise without looking back. She doesn't leave her number. She barely leaves her name.

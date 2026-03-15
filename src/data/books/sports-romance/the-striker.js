@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1018", "#180a18"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 432,
+  publicationYear: 2024,
+  standalone: false,
+  contentWarnings: [],
   synopsis: `He is the highest-paid striker in professional soccer -- ice-cold, ruthlessly disciplined, and allergic to anything resembling human emotion. She is a rising fashion designer with a razor-sharp tongue and zero patience for arrogant athletes. When Asher Donovan and Scarlett DuBois discover they are neighbors in one of London's most exclusive buildings, the only thing they agree on is that they cannot stand each other.
 
 Every encounter is a battlefield. Every argument crackles with a tension that neither of them wants to name. And no matter how hard they try to avoid each other, London's glittering social scene keeps pulling them back into the same orbit.

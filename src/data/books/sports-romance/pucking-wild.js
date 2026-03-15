@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1525", "#0a0a18"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 430,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: [],
   synopsis: `Tess Owens is done being small. After escaping an abusive marriage, she's fled to Jacksonville with a six-week deadline to launch a new business, finalize her divorce, and start the life she should have been living all along. She doesn't need distractions. She doesn't need complications. And she absolutely does not need a roommate.
 
 Enter Ryan Langley — star forward for the Jacksonville Rays, injured, in need of a place to rehab, and standing on her doorstep with a duffle bag and a grin that could melt glaciers. He's charming. He's relentless. And he's ten years younger than her.

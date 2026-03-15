@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0e14", "#1e2040"],
   accentColor: "#c42a2a",
+  pov: "single-fmc",
+  pageCount: 305,
+  publicationYear: 2019,
+  standalone: false,
+  contentWarnings: ["violence", "death", "dubcon", "kidnapping"],
   synopsis: `Persephone may be the Goddess of Spring, but she feels like anything but. With powers so stunted she can barely grow a single flower and a mother determined to keep her sheltered from the world of the gods, she has carved out a quiet life as a mortal journalism student in New Athens. No one knows what she really is. No one looks too closely.
 
 Then she walks into Nevernight, the most exclusive nightclub in the city, and meets its owner: Hades, the God of the Dead. He is not the withered monster of myth. He is devastatingly handsome, impossibly powerful, and he looks at her as though he can see through every layer of her disguise.

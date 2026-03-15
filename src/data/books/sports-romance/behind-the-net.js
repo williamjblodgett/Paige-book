@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1218", "#1a0a14"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 352,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["anxiety"],
   synopsis: `Jamie Streicher does not do roommates. The Vancouver Storm's star goaltender has built his life around discipline, silence, and routine -- and he intends to keep it that way. So when management installs a music tutor in his guest room, Jamie makes one thing clear: she is temporary.
 
 Pippa Ward is anything but quiet. A talented pianist rebuilding her confidence after a career setback, she fills Jamie's sterile apartment with scattered sheet music, late-night Chopin, and a trail of baking disasters that would horrify his nutritionist. She is warm, messy, and completely unintimidated by his death glares.

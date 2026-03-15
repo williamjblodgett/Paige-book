@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0510", "#0f0308"],
   accentColor: "#c42a6b",
+  pov: "dual-pov",
+  pageCount: 450,
+  publicationYear: 2021,
+  standalone: true,
+  contentWarnings: ["bdsm", "dubcon", "kidnapping", "violence"],
   synopsis: `Maggie Anderson helped build the Salacious Players' Club from the ground up. She has watched every one of her colleagues discover their deepest desires and find passionate love — while she has stood on the sidelines, quietly convinced she is the only owner without a kink.
 
 She is wrong.

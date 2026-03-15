@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1a1030", "#0d0f1a"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 419,
+  publicationYear: 2015,
+  standalone: false,
+  contentWarnings: ["violence", "death", "abuse", "manipulation"],
   synopsis: `Feyre's family is starving, and she will do whatever it takes to keep them alive. When she kills a massive wolf in the frozen woods, she thinks nothing of it -- until a terrifying beast appears at her door demanding retribution. The wolf was fae, and now Feyre must pay the price.
 
 Dragged across the ancient wall into Prythian, the glittering and deadly realm of the immortal fae, Feyre discovers a world of impossible beauty and creeping darkness. A blight is spreading across the land. A tyrant named Amarantha holds every High Lord in her grip. And Tamlin -- the fierce, tormented lord who brought Feyre to his court -- is hiding secrets that could cost them both everything.

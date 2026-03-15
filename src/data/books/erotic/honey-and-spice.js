@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#140a10", "#1a0a0e"],
   accentColor: "#e85d3a",
+  pov: "single-fmc",
+  pageCount: 368,
+  publicationYear: 2022,
+  standalone: true,
+  contentWarnings: [],
   synopsis: `Kiki Banjo runs Brown Sugar, the campus radio show where she calls out every player, every heartbreaker, and every man unworthy of Black women's time. She is sharp, fearless, and untouchable — until a viral moment with the one guy she should have stayed far away from threatens to destroy everything she has built.
 
 Malakai Korede is charming, gorgeous, and exactly the type Kiki warns her listeners about. Now the whole campus thinks she is a hypocrite.

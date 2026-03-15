@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a0f25", "#1a0a20"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 300,
+  publicationYear: 2017,
+  standalone: true,
+  contentWarnings: ["violence"],
   synopsis: `Isobel is the finest portrait painter in the town of Whimsy, and the fair folk will pay dearly for her Craft. In a world where the immortal fae possess limitless magic but cannot create art, human creativity is the one thing they covet above all else. The rules are simple: paint what the fae want to see, take payment in enchantments, and never reveal what you truly observe.
 
 Then the autumn prince arrives. Rook is wild, beautiful, and terrifying -- antlers crowning his dark hair, power radiating from every movement. And over the course of his portrait sittings, Isobel does the unthinkable. She paints the truth. She captures sorrow in his eyes -- real, human sorrow -- and in a single brushstroke, exposes their fearsome prince's most dangerous secret.

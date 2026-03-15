@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#6b3f1a",
+  pov: "single-fmc",
+  pageCount: 480,
+  publicationYear: 2020,
+  standalone: true,
+  contentWarnings: ["dubcon", "taboo", "grief", "age-gap", "power-imbalance"],
   synopsis: `Tiernan de Haas has never been wanted. The daughter of celebrity parents who treated her as an inconvenience, she grew up surrounded by wealth and completely starved of love. When both her parents die, she feels nothing -- and that emptiness terrifies her more than grief ever could.
 
 Now she has been sent to live with a man she has never met: Jake Van der Berg, her father's estranged stepbrother, who lives off the grid in a remote cabin deep in the Colorado mountains. No electricity. No neighbors. No way out once winter buries the roads.

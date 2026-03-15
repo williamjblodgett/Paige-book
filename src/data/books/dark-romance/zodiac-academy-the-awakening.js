@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0e1a", "#1a2a4a"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 504,
+  publicationYear: 2019,
+  standalone: false,
+  contentWarnings: ["bullying", "violence", "abuse"],
   synopsis: `Tory and Darcy Vega have spent their whole lives in the mortal world, surviving the foster system with nothing but each other. So when they discover they are Fae -- powerful supernatural beings and the lost heirs to the Solarian throne -- everything shatters.
 
 Welcome to Zodiac Academy, where elemental magic is real, the social hierarchy is ruthless, and four devastatingly powerful Fae males known as the Celestial Heirs have declared war on the twins before they have even unpacked.

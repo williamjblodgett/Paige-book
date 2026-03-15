@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#8b1a1a",
+  pov: "dual-pov",
+  pageCount: 426,
+  publicationYear: 2015,
+  standalone: false,
+  contentWarnings: ["dubcon", "violence", "bullying", "manipulation", "kidnapping"],
   synopsis: `Every October 30th, they owned the night. Masked, fearless, untouchable -- the Four Horsemen of Thunder Bay turned Devil's Night into their personal kingdom of chaos. Until three years ago, when everything burned down and three of them went to prison.
 
 Michael Crist blames one person: Erika Fane.

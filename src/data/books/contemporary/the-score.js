@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1525", "#0a1018"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 374,
+  publicationYear: 2016,
+  standalone: false,
+  contentWarnings: [],
   synopsis: `Dean Di Laurentis has a reputation, and he has earned every inch of it. Briar University's most notorious charmer, he treats commitment like a contact sport he refuses to play. Hookups are easy. One-liners come naturally. Feelings? Absolutely not. Nobody gets past the grin — and that is exactly how Dean wants it.
 
 Allie Hayes is not impressed. A senior with a freshly shattered heart and a razor-sharp tongue, she crashes at Dean's off-campus house to avoid her ex and has zero intention of becoming another name on his list. One night of banter and undeniable chemistry later, she knows she is in trouble.

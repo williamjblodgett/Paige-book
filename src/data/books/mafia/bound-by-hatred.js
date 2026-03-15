@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0a0a08"],
   accentColor: "#c9a84c",
+  pov: "single-fmc",
+  pageCount: 342,
+  publicationYear: 2016,
+  standalone: false,
+  contentWarnings: ["violence", "sexual-assault", "abuse"],
   synopsis: `Her sisters accepted their arranged marriages with grace. Gianna Scuderi chose war.
 
 Fierce, rebellious, and burning with fury at a system that trades women like property, Gianna has no intention of playing the dutiful bride. When she is forced to marry Matteo Vitiello — the volatile, dangerously unpredictable wild card of the Vitiello family — she makes one thing crystal clear: she will make his life a living hell.

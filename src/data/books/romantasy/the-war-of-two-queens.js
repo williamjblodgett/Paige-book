@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a0a", "#0d0f1a"],
   accentColor: "#8b1a1a",
+  pov: "single-fmc",
+  pageCount: 693,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence", "torture", "death", "war", "sexual-assault"],
   synopsis: `Casteel is gone. Captured by the Blood Queen Isbeth, imprisoned in the heart of enemy territory, and subjected to a woman whose centuries-long schemes are only now becoming clear. Poppy will tear the world apart to get him back.
 
 As the Queen of Flesh and Fire, Poppy commands draken, wolven, and the armies of Atlantia. But the generals are reluctant to follow a young queen into total war, and Poppy must prove she can lead — not with fury alone, but with the kind of ruthless compassion that might actually save lives instead of just ending them. Her Primal powers are growing to terrifying levels, and the line between warrior queen and something divine is blurring with every battle.

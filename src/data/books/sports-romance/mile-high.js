@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1018", "#1a0a15"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 395,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["anxiety"],
   synopsis: `Evan Zanders is hockey's most notorious villain — the Chicago Raptors defenseman who thrives on being hated, makes headlines for all the wrong reasons, and has never met a camera he couldn't smirk at. His bad-boy brand is worth millions, and he wears it like armor.
 
 Stevie Shay sees right through it.

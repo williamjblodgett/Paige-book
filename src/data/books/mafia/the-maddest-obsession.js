@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0a0808"],
   accentColor: "#c9a84c",
+  pov: "single-fmc",
+  pageCount: 456,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: ["violence", "death", "addiction", "abuse"],
   synopsis: `She is fire — loud laughter, bold dresses, and a presence that commands every room. But the sparkle is armor, carefully constructed to hide the panic attacks, the loneliness, and the loveless marriage she cannot escape.
 
 He is ice. A meticulous man with severe OCD, a pristine reputation, and a secret that would destroy it: he is as ruthless as the criminals he is supposed to be hunting. And for eight years, he has been consumed by an obsession he cannot control — a woman he has no right to want.

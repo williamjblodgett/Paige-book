@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#120a10", "#1a0a12"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 374,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: ["anxiety"],
   synopsis: `Danika Brown has rules. Casual sex: fine. Feelings: absolutely not. As a PhD researcher with laser focus and zero tolerance for emotional distraction, Dani has built a life that runs exactly the way she wants it. Love is a complication she does not need.
 
 Zafir Ansari did not get the memo. The former rugby player turned university security head is huge, kind, and quietly devoted to everything he cares about — including a struggling youth charity and, secretly, the brilliant woman who barely notices him.
