@@ -10,13 +10,13 @@ export default {
   accentColor: "#1e8a5f",
   synopsis: `Rae Lawson came back to Abelaum for ghost stories. She found something much worse.
 
-An aspiring paranormal vlogger returning to her eerie hometown for her final year of university, Rae is hoping for supernatural content to grow her channel. She gets more than she bargained for when the attractive, unsettling "security guard" she encounters on campus turns out to be something far darker than human.
+An aspiring paranormal vlogger returning to her eerie hometown, Rae is hoping for supernatural content to grow her channel. She gets more than she bargained for when the attractive, unsettling stranger she encounters on campus turns out to be something far darker than human.
 
-Leon is a centuries-old demon — deadly, powerful, and trapped under the control of forces that use him as their weapon. Sent to target Rae, he expects an easy mark. Instead, he finds a stubborn, fearless woman who accidentally summons him and then refuses to be afraid. She should be running. She should be screaming. She is doing neither, and it is driving him insane.
+Leon is a centuries-old demon — deadly, powerful, and trapped under the control of forces that use him as their weapon. Sent to target Rae, he expects an easy mark. Instead, he finds a stubborn, fearless woman who refuses to run, refuses to scream, and is driving him absolutely insane.
 
-As Rae digs deeper into Abelaum's secrets, she uncovers a sinister cult operating in the shadows, wielding demonic forces for purposes that put her directly in the crosshairs. Leon offers her a bargain: her soul in exchange for his protection. But the pull between them is becoming something that no contract can contain — something fierce, tender, and entirely unexpected for a demon who has spent centuries feeling nothing.
+As Rae digs deeper into Abelaum's dark secrets, she uncovers a sinister cult wielding demonic forces — and she is directly in their crosshairs. Leon offers a bargain: her soul in exchange for his protection. But the pull between them is becoming something no contract can contain — something fierce, tender, and entirely unexpected for a creature who has spent centuries feeling nothing.
 
-With Lovecraftian darkness closing in and a cult that will stop at nothing, Rae must decide how much she is willing to risk — and Leon must decide whether the woman who refuses to fear him is worth defying the masters who hold his chains.`,
+With Lovecraftian darkness closing in and a cult that will stop at nothing, Rae must decide how much she is willing to risk. And Leon must decide whether the woman who refuses to fear him is worth defying the masters who hold his chains.`,
   characters: [
     { name: "Raelynn 'Rae' Lawson", role: "An aspiring paranormal vlogger who returns to Abelaum for her final year of university. Brave, curious, and stubborn, she accidentally summons the demon sent to prey on her and refuses to be afraid—even when she probably should be." },
     { name: "Leon", role: "A centuries-old demon trapped under the control of a sinister family. Assigned to target Rae, he instead becomes her reluctant guardian, conflicted between his demonic nature and the unfamiliar feelings she awakens in him." },
