@@ -7,19 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1a2e", "#950740"],
   accentColor: "#c45b84",
-  synopsis: `Lowen Ashleigh is a struggling writer on the verge of financial collapse when she receives an offer she can't refuse. Jeremy Crawford, husband of bestselling author Verity Crawford, needs someone to finish his wife's blockbuster series. Verity can't do it herself — a devastating accident has left her unresponsive, confined to a bed in the couple's Vermont home.
+  synopsis: `Lowen Ashleigh is a struggling writer drowning in debt when she receives the opportunity of a lifetime. Jeremy Crawford wants her to finish the remaining books in his wife's bestselling series. His wife, Verity, cannot do it herself — a catastrophic accident has left her unresponsive, bedridden in their Vermont home.
 
-Lowen moves in to sort through Verity's notes and outlines. But buried among the files, she discovers something she was never meant to find: an unfinished manuscript. Verity's own autobiography.
+Lowen moves into the Crawford house to sort through Verity's files and find enough material to continue the series. What she finds instead is something far more dangerous: a hidden manuscript. Verity's own autobiography — unfinished, unsent, and never meant to be read.
 
-What's written in those pages changes everything.
+The pages are a descent into darkness. Confession after confession reveals a woman whose mind is as brilliant as it is terrifying, and whose version of events rewrites everything Lowen thought she knew about this family. With each chapter, the horror deepens. And so does Lowen's attraction to Jeremy — a grieving father and devoted husband who has no idea what his wife put on paper.
 
-Page by page, Lowen descends into the mind of a woman whose confessions are so dark, so disturbing, that they shatter every assumption about this family. And as the manuscript pulls her deeper, Lowen finds herself falling for Jeremy — a grieving, devoted husband who has no idea what his wife wrote.
+Lowen is trapped between two impossible choices: show Jeremy the manuscript and watch it destroy him, or bury the truth and live with what she knows. The secrets on those pages could shatter lives. But keeping them might be even more dangerous.
 
-She's torn between the man she's growing to love and the horrifying truth she's uncovering. Should she show Jeremy the manuscript and destroy what's left of his world? Or protect him from secrets that could consume them both?
+Because upstairs, in her bed, Verity Crawford lies perfectly still.
 
-And then there's Verity. Lying motionless in her bed upstairs.
-
-Or is she?`,
+Or does she?`,
   characters: [
     { name: "Lowen Ashleigh", role: "Protagonist, struggling writer hired to finish Verity's book series" },
     { name: "Jeremy Crawford", role: "Love interest, Verity's husband and grieving father" },

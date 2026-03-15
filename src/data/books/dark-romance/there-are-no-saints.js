@@ -7,17 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a0a0a", "#1a0a0a"],
   accentColor: "#1a1a1a",
-  synopsis: `Cole Blackwell is a celebrated sculptor in San Francisco's elite art world. His work commands astronomical prices. His reputation is impeccable. And he harbors a secret so dark it would destroy everything he has built -- one he has no intention of ever revealing.
+  synopsis: `Cole Blackwell is a celebrated sculptor in San Francisco's art world. His reputation is impeccable. And he harbors a secret so dark it would destroy everything he has built.
 
 Then he finds her.
 
-Mara Eldritch is a struggling artist with raw talent and a past full of pain. When she survives something no one should survive -- dragging herself to safety through sheer, impossible willpower -- Cole witnesses it all. And for the first time in his meticulously controlled life, he becomes obsessed.
+Mara Eldritch is a struggling artist who survives something no one should survive -- dragging herself to safety through sheer, impossible willpower. Cole witnesses it all. And for the first time in his meticulously controlled life, he becomes obsessed.
 
-He inserts himself into her world. Offers her a studio. Watches her create. But Cole is not the only predator circling Mara. Someone else wants to finish what was started, and he is getting closer.
+He inserts himself into her world. Offers her a studio. Watches her create. But Cole is not the only predator circling. Someone else wants to finish what was started, and he is getting closer.
 
-Mara knows there is something dangerous about Cole Blackwell. She can feel it in the way he looks at her -- as though she is something rare, something he wants to possess or destroy, and he has not yet decided which. But she cannot stay away. He is the only person who has ever truly seen her, and the darkness in him calls to something she has spent her whole life trying to bury.
+Mara knows there is something dangerous about Cole Blackwell. She can feel it in the way he looks at her -- as though she is something rare, something he wants to possess or destroy, and he has not yet decided which. But she cannot stay away. The darkness in him calls to something she has spent her whole life trying to bury.
 
-In a world where beauty and brutality wear the same face, two predators are circling. The question is not whether there are monsters in this story. The question is which one will consume her first.`,
+In a world where beauty and brutality wear the same face, the question is not whether there are monsters in this story. The question is which one will consume her first.`,
   characters: [
     { name: "Cole Blackwell", role: "A wealthy and celebrated San Francisco sculptor who is secretly a meticulous serial killer. He incorporates his victims' remains into his art. His obsession with Mara after her impossible survival forces him to confront feelings he's never experienced, challenging everything he knows about himself." },
     { name: "Mara Eldritch", role: "A struggling artist with a traumatic childhood of abuse and neglect. Her survival of Shaw's attack through sheer willpower draws Cole's obsession. She's resilient, talented, and unafraid of darkness — making her uniquely equipped to exist in Cole's world." },

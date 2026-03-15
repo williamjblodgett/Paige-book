@@ -7,21 +7,19 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#151020", "#0f0f18"],
   accentColor: "#8b6b8b",
-  synopsis: `When Tate Collins moves into her brother's San Francisco apartment building, she doesn't expect to find a devastatingly handsome man slumped against the door — drunk, shattered, and barely conscious. That man is Miles Archer: airline pilot, her brother's neighbor, and the most emotionally unavailable person she's ever met.
+  synopsis: `The first time Tate Collins sees Miles Archer, he is slumped against her brother's apartment door — drunk, devastated, and barely conscious. He is also the most beautiful man she has ever seen.
 
-Miles has two rules. Don't ask about his past. Don't expect a future.
+Miles is an airline pilot. Her brother's neighbor. And the most emotionally closed-off person she has ever encountered. He offers Tate two rules and one arrangement: do not ask about his past, do not expect a future, and everything between them stays purely physical.
 
-What he offers instead is simple: a no-strings arrangement. Physical. Intense. And absolutely no feelings.
+No feelings. No questions. No exceptions.
 
-Tate knows better. She knows this will end badly. She knows that a man with walls this high is hiding something that broke him in ways she can't imagine. But the pull between them is magnetic, and she agrees to his terms — telling herself she can keep her heart out of it.
+Tate agrees, even though every instinct tells her this will shatter her. The chemistry between them is consuming — all fire and intensity behind closed doors, all cold distance the moment they step outside them. Miles gives her his body but keeps his soul locked away, and Tate tells herself she can handle the terms.
 
-She can't.
+She is wrong.
 
-Told in two timelines — Tate's present and Miles's haunting past — this is the story of a man who loved so deeply that losing it destroyed him, and a woman brave enough to prove that the heart can survive what the mind insists it can't.
+Because somewhere between the scorching nights and the aching silences, Tate falls. And she cannot stop wondering what happened to Miles Archer — what turned a man this passionate into someone this broken. What secret is so devastating that he built an entire life around never feeling again.
 
-Every touch between them is fire. Every silence is a question Miles refuses to answer. And the closer Tate gets, the more she realizes that whatever happened to Miles Archer didn't just hurt him.
-
-It nearly killed him.`,
+Told in two timelines — Tate's present and Miles's haunting past — this is a story about a love so deep that losing it destroyed everything, and the terrifying question of whether a shattered heart can ever learn to beat again.`,
   characters: [
     { name: "Tate Collins", role: "A twenty-three-year-old nursing student pursuing her master's degree in San Francisco. Compassionate, patient, and stronger than she realizes, Tate falls for Miles despite his emotional walls and refuses to accept that love must always come with conditions." },
     { name: "Miles Archer", role: "A twenty-six-year-old airline pilot destroyed by a devastating loss six years ago. His two rules — no past, no future — are defense mechanisms against grief he hasn't processed. Miles's journey is about learning that closing yourself off from pain also closes you off from healing." },

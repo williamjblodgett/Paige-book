@@ -9,15 +9,15 @@ export default {
   accentColor: "#c9a84c",
   synopsis: `Sam Brennan is not an anti-hero. He does not wrestle with the darkness. He enjoys it.
 
-The eldest son of the Brennan crime family, Sam is calculating, amoral, and utterly at peace with the monster he has become. He relishes the violence, thrives on the control, and makes no apologies. Where other men in his world pretend to be honorable, Sam does not bother with the lie.
+The eldest son of a powerful crime family, Sam is calculating, amoral, and utterly at peace with the monster he has become. Where other men in his world pretend to be honorable, Sam does not bother with the lie.
 
-Aisling Fitzpatrick knows exactly what he is. The daughter of a rival crime family, she has survived by being sharper and smarter than every dangerous man around her. She has no illusions. No fairy tales. And when a shifting power dynamic throws her into an uneasy alliance with Sam, she sees him for the predator he is.
+Aisling Fitzpatrick knows exactly what he is. The daughter of a rival family, she has survived by being sharper and smarter than every dangerous man around her. No illusions. No fairy tales. When a shifting power dynamic throws her into an uneasy alliance with Sam, she sees him for the predator he is.
 
-He views her as a tool — useful and expendable. She views him as the most dangerous man she has ever met.
+He views her as a tool. She views him as the most dangerous man she has ever met.
 
 They are both wrong.
 
-Sam discovers that Aisling's intelligence and fearlessness are the only things that have ever made him feel something beyond predatory pleasure. Aisling discovers that Sam's brutal honesty about his nature is more trustworthy than every false promise of honor she has ever been sold. He does not pretend to be good. He does not offer redemption. He offers exactly what he is.
+Because Sam is discovering that her intelligence and fearlessness are the only things that have ever made him feel something beyond predatory pleasure. And Aisling is discovering that his brutal honesty about his nature is more trustworthy than every false promise of honor she has ever been sold.
 
 This is not a story about a monster who learns to be a man. It is a story about a woman who looks at the monster clearly — and chooses him anyway.`,
   characters: [
