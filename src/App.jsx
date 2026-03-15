@@ -1,8 +1,9 @@
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Nav from './components/Nav'
 import Home from './pages/Home'
+import Browse from './pages/Browse'
+import BookDetail from './pages/BookDetail'
 import Glossary from './pages/Glossary'
-import Summaries from './pages/Summaries'
 import Quizzes from './pages/Quizzes'
 
 export default function App() {
@@ -13,9 +14,11 @@ export default function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/browse" element={<Browse />} />
+            <Route path="/book/:bookId" element={<BookDetail />} />
             <Route path="/glossary" element={<Glossary />} />
-            <Route path="/summaries" element={<Summaries />} />
             <Route path="/quizzes" element={<Quizzes />} />
+            <Route path="/summaries" element={<Navigate to="/browse" replace />} />
           </Routes>
         </main>
       </div>

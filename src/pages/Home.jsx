@@ -1,128 +1,194 @@
+import { Link } from 'react-router-dom'
 import Hero from '../components/Hero'
-
-const books = [
-  {
-    title: 'Anathema',
-    number: 1,
-    subtitle: 'Only the banished know what lies beyond the woods.',
-    coverClass: 'book-cover-anathema',
-    accentColor: '#c9a84c',
-    accentRgb: '201, 168, 76',
-    ornamentColor: 'rgba(201, 168, 76, 0.3)',
-  },
-  {
-    title: 'Eldritch',
-    number: 2,
-    subtitle: 'The longer he stays, the deeper the madness.',
-    coverClass: 'book-cover-eldritch',
-    accentColor: '#c42a2a',
-    accentRgb: '196, 42, 42',
-    ornamentColor: 'rgba(196, 42, 42, 0.3)',
-  },
-  {
-    title: 'Vasmora',
-    number: 3,
-    subtitle: 'Every end is forged in fire and blood.',
-    coverClass: 'book-cover-vasmora',
-    accentColor: '#2d6b4f',
-    accentRgb: '45, 107, 79',
-    ornamentColor: 'rgba(45, 107, 79, 0.3)',
-  },
-]
+import BookCard from '../components/BookCard'
+import SpiceRating from '../components/SpiceRating'
+import { allBooks } from '../data/books'
+import { GENRES, GENRE_THEMES, THEMES } from '../data/constants'
+import { useMemo } from 'react'
 
 export default function Home() {
+  const activeBooks = allBooks.filter(b => !b.comingSoon)
+  const comingSoonBooks = allBooks.filter(b => b.comingSoon)
+
+  // Featured books — pick a diverse selection
+  const featured = useMemo(() => {
+    const picks = []
+    const usedAuthors = new Set()
+    const usedGenres = new Set()
+
+    // Prioritize books with quiz + terms for a richer experience
+    const sorted = [...activeBooks]
+      .filter(b => b.quiz?.length >= 5 && b.synopsis)
+      .sort(() => Math.random() - 0.5)
+
+    for (const book of sorted) {
+      if (picks.length >= 8) break
+      const primaryGenre = book.genres[0]
+      if (!usedGenres.has(primaryGenre) || picks.length >= 4) {
+        picks.push(book)
+        usedAuthors.add(book.author)
+        usedGenres.add(primaryGenre)
+      }
+    }
+
+    // Fill if needed
+    if (picks.length < 8) {
+      for (const book of activeBooks) {
+        if (picks.length >= 8) break
+        if (!picks.find(p => p.id === book.id)) {
+          picks.push(book)
+        }
+      }
+    }
+
+    return picks.slice(0, 8)
+  }, [activeBooks])
+
+  // Get genres that have books
+  const activeGenres = useMemo(() => {
+    const genreCounts = {}
+    for (const book of allBooks) {
+      for (const g of book.genres) {
+        genreCounts[g] = (genreCounts[g] || 0) + 1
+      }
+    }
+    return GENRES
+      .filter(g => genreCounts[g.id])
+      .map(g => ({ ...g, count: genreCounts[g.id] }))
+      .sort((a, b) => b.count - a.count)
+  }, [allBooks])
+
   return (
     <div>
       <Hero />
 
+      {/* Featured Books */}
       <section className="max-w-6xl mx-auto px-4 py-16">
-        <h2 className="font-heading text-center text-text text-2xl md:text-3xl tracking-wider mb-10">
-          The Trilogy
-        </h2>
+        <div className="flex items-center justify-between mb-8">
+          <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider">
+            Featured Books
+          </h2>
+          <Link
+            to="/browse"
+            className="font-heading text-xs tracking-widest uppercase text-gold hover:underline"
+          >
+            View All
+          </Link>
+        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {books.map((book) => (
-            <div
-              key={book.title}
-              className={`bg-surface rounded-lg overflow-hidden group transition-all duration-300 border border-transparent hover:border-current`}
-              style={{
-                '--hover-color': book.accentColor,
-                color: book.accentColor,
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.boxShadow = `0 0 20px rgba(${book.accentRgb}, 0.25), 0 0 40px rgba(${book.accentRgb}, 0.1)`
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.boxShadow = 'none'
-              }}
-            >
-              {/* Styled book cover */}
-              <div className={`aspect-[2/3] ${book.coverClass} flex items-center justify-center relative border-b`} style={{ borderColor: book.ornamentColor }}>
-                {/* Gothic arch frame */}
-                <svg className="absolute inset-4 w-[calc(100%-2rem)] h-[calc(100%-2rem)]" viewBox="0 0 200 300" fill="none" preserveAspectRatio="none">
-                  {/* Outer frame */}
-                  <path
-                    d="M20 300 L20 80 Q20 20 100 20 Q180 20 180 80 L180 300"
-                    stroke={book.ornamentColor}
-                    strokeWidth="1"
-                    fill="none"
-                  />
-                  {/* Inner decorative line */}
-                  <path
-                    d="M30 290 L30 85 Q30 30 100 30 Q170 30 170 85 L170 290"
-                    stroke={book.ornamentColor}
-                    strokeWidth="0.5"
-                    fill="none"
-                  />
-                  {/* Top ornament */}
-                  <circle cx="100" cy="20" r="3" fill={book.ornamentColor} />
-                  {/* Bottom decorative elements */}
-                  <line x1="50" y1="250" x2="150" y2="250" stroke={book.ornamentColor} strokeWidth="0.5" />
-                  <line x1="60" y1="260" x2="140" y2="260" stroke={book.ornamentColor} strokeWidth="0.5" />
-                </svg>
-
-                {/* Center content */}
-                <div className="text-center relative z-10 px-8">
-                  <span className="font-heading text-muted text-xs tracking-[0.3em] uppercase block mb-1">
-                    The Eating Woods
-                  </span>
-                  <div className="divider-ornament my-3" style={{ color: book.accentColor }}>&#10022;</div>
-                  <span className="font-heading text-xs tracking-[0.25em] uppercase block mb-4 text-muted">
-                    Book {book.number}
-                  </span>
-                  <h3 className="font-heading text-4xl md:text-5xl tracking-wider mb-4" style={{ color: book.accentColor }}>
-                    {book.title}
-                  </h3>
-                  <div className="divider-ornament my-3" style={{ color: book.accentColor }}>&#10022;</div>
-                  <span className="font-heading text-muted text-[0.6rem] tracking-[0.2em] uppercase block mt-2">
-                    Keri Lake
-                  </span>
-                </div>
-
-                {/* Corner accents */}
-                <div className="absolute top-3 left-3 w-6 h-6 border-t border-l" style={{ borderColor: book.ornamentColor }} />
-                <div className="absolute top-3 right-3 w-6 h-6 border-t border-r" style={{ borderColor: book.ornamentColor }} />
-                <div className="absolute bottom-3 left-3 w-6 h-6 border-b border-l" style={{ borderColor: book.ornamentColor }} />
-                <div className="absolute bottom-3 right-3 w-6 h-6 border-b border-r" style={{ borderColor: book.ornamentColor }} />
-              </div>
-
-              <div className="p-5">
-                <p className="font-body italic text-center" style={{ color: '#9a9080' }}>
-                  {book.subtitle}
-                </p>
-              </div>
-            </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {featured.map((book) => (
+            <BookCard key={book.id} book={book} />
           ))}
         </div>
+      </section>
 
-        {/* Series description */}
-        <div className="mt-16 text-center max-w-2xl mx-auto">
-          <div className="divider-ornament mb-6">&#10022;</div>
-          <p className="font-body text-muted text-base leading-relaxed italic">
-            "A deliciously spellbinding trilogy where monsters lurk in the forest,
-            ravens watch from the shadows, and every kiss is a curse you can't escape."
-          </p>
+      {/* Browse by Genre */}
+      <section className="max-w-6xl mx-auto px-4 py-16">
+        <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-8 text-center">
+          Browse by Genre
+        </h2>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+          {activeGenres.map(({ id, label, count }) => {
+            const theme = GENRE_THEMES[id]
+            return (
+              <Link
+                key={id}
+                to={`/browse?genre=${id}`}
+                className="group bg-surface rounded-lg p-5 border border-transparent transition-all duration-300 hover:border-current text-center"
+                style={{ color: theme?.accent || '#c9a84c' }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.boxShadow = `0 0 15px ${theme?.accent || '#c9a84c'}30`
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.boxShadow = 'none'
+                }}
+              >
+                <h3 className="font-heading text-sm tracking-wider mb-1" style={{ color: theme?.accent }}>
+                  {label}
+                </h3>
+                <p className="font-body text-muted text-xs">{count} books</p>
+              </Link>
+            )
+          })}
         </div>
+      </section>
+
+      {/* Browse by Trope */}
+      <section className="max-w-6xl mx-auto px-4 py-16">
+        <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-8 text-center">
+          Popular Tropes
+        </h2>
+
+        <div className="flex flex-wrap justify-center gap-2">
+          {THEMES.slice(0, 18).map(({ id, label }) => (
+            <Link
+              key={id}
+              to={`/browse?theme=${id}`}
+              className="font-heading text-xs tracking-widest uppercase px-4 py-2 rounded-full border border-muted/15 text-muted hover:border-gold/40 hover:text-gold transition-all"
+            >
+              {label}
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Spice Spectrum */}
+      <section className="max-w-4xl mx-auto px-4 py-16">
+        <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-8 text-center">
+          The Spice Spectrum
+        </h2>
+
+        <div className="flex justify-center gap-4 md:gap-6">
+          {[1, 2, 3, 4, 5].map((level) => {
+            const count = allBooks.filter(b => b.spiceLevel === level).length
+            const labels = ['Mild', 'Warm', 'Hot', 'Spicy', 'Inferno']
+            return (
+              <Link
+                key={level}
+                to={`/browse?spice=${level}`}
+                className="text-center group cursor-pointer"
+              >
+                <div className="mb-2">
+                  <SpiceRating level={level} size="md" />
+                </div>
+                <p className="font-heading text-xs tracking-wider text-muted group-hover:text-gold transition-colors">
+                  {labels[level - 1]}
+                </p>
+                <p className="font-body text-xs text-muted/60">{count} books</p>
+              </Link>
+            )
+          })}
+        </div>
+      </section>
+
+      {/* Coming Soon */}
+      {comingSoonBooks.length > 0 && (
+        <section className="max-w-6xl mx-auto px-4 py-16">
+          <div className="divider-ornament mb-8">&#10022;</div>
+          <h2 className="font-heading text-muted text-2xl md:text-3xl tracking-wider mb-8 text-center">
+            Coming Soon
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+            {comingSoonBooks.slice(0, 10).map((book) => (
+              <BookCard key={book.id} book={book} />
+            ))}
+          </div>
+          {comingSoonBooks.length > 10 && (
+            <p className="font-body text-muted text-sm text-center mt-4">
+              +{comingSoonBooks.length - 10} more coming soon
+            </p>
+          )}
+        </section>
+      )}
+
+      {/* Footer stats */}
+      <section className="max-w-6xl mx-auto px-4 py-16 text-center">
+        <div className="divider-ornament mb-8">&#10022;</div>
+        <p className="font-body text-muted italic text-lg">
+          "Every great love story deserves its own encyclopedia."
+        </p>
       </section>
     </div>
   )
