@@ -7,8 +7,7 @@ const links = [
   { to: '/lists', label: 'Lists' },
   { to: '/find-a-book', label: 'Find a Book' },
   { to: '/my-shelf', label: 'My Shelf' },
-  { to: '/glossary', label: 'Glossary' },
-  { to: '/quizzes', label: 'Quizzes' },
+  { to: '/quizzes', label: 'Book Club' },
 ]
 
 export default function Nav() {
