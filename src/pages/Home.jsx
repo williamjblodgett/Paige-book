@@ -115,6 +115,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Find a Book CTA */}
+      <section className="max-w-4xl mx-auto px-4 py-16">
+        <div className="bg-surface rounded-lg border border-gold/20 p-8 md:p-12 text-center relative overflow-hidden">
+          <div className="fog-layer absolute inset-0 pointer-events-none opacity-30" />
+          <div className="relative z-10">
+            <h2 className="font-heading text-gold text-2xl md:text-3xl tracking-wider mb-3">
+              Not Sure What to Read Next?
+            </h2>
+            <p className="font-body text-muted text-lg italic mb-6">
+              Take our quick quiz and get a personalized recommendation
+            </p>
+            <Link
+              to="/find-a-book"
+              className="font-heading text-sm tracking-widest uppercase px-10 py-3 rounded border-2 border-gold text-gold hover:bg-gold/10 transition-all inline-block"
+            >
+              Find Your Match
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Browse by Trope */}
       <section className="max-w-6xl mx-auto px-4 py-16">
         <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-8 text-center">

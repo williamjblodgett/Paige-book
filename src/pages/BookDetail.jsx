@@ -10,6 +10,7 @@ import QuizRunner from '../components/QuizRunner'
 import ResultsScreen from '../components/ResultsScreen'
 import GlossaryCard from '../components/GlossaryCard'
 import { useState } from 'react'
+import BookCover from '../components/BookCover'
 
 export default function BookDetail() {
   const { bookId } = useParams()
@@ -271,21 +272,8 @@ export default function BookDetail() {
                   to={`/book/${b.id}`}
                   className="bg-surface rounded-lg overflow-hidden border border-transparent hover:border-gold/30 transition-all group"
                 >
-                  <div
-                    className="aspect-[3/2] flex items-center justify-center p-4"
-                    style={{
-                      background: `linear-gradient(160deg, ${b.coverGradient?.[0] || '#111'} 0%, ${b.coverGradient?.[1] || '#000'} 100%)`,
-                    }}
-                  >
-                    <div className="text-center">
-                      <h4
-                        className="font-heading text-sm tracking-wider group-hover:scale-105 transition-transform"
-                        style={{ color: b.accentColor || '#c9a84c' }}
-                      >
-                        {b.title}
-                      </h4>
-                      <p className="font-body text-muted text-xs mt-1">{b.author}</p>
-                    </div>
+                  <div className="aspect-[3/4]">
+                    <BookCover book={b} size="sm" />
                   </div>
                 </Link>
               ))}
