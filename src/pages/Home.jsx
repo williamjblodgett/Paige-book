@@ -62,27 +62,6 @@ export default function Home() {
     <div>
       <Hero />
 
-      {/* Featured Books */}
-      <section className="max-w-6xl mx-auto px-4 py-16">
-        <div className="flex items-center justify-between mb-8">
-          <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider">
-            Featured Books
-          </h2>
-          <Link
-            to="/browse"
-            className="font-heading text-xs tracking-widest uppercase text-gold hover:underline"
-          >
-            View All
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-          {featured.map((book) => (
-            <BookCard key={book.id} book={book} />
-          ))}
-        </div>
-      </section>
-
       {/* Browse by Genre */}
       <section className="max-w-6xl mx-auto px-4 py-16">
         <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-8 text-center">
@@ -112,6 +91,27 @@ export default function Home() {
               </Link>
             )
           })}
+        </div>
+      </section>
+
+      {/* Featured Books */}
+      <section className="max-w-6xl mx-auto px-4 py-16">
+        <div className="flex items-center justify-between mb-8">
+          <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider">
+            Featured Books
+          </h2>
+          <Link
+            to="/browse"
+            className="font-heading text-xs tracking-widest uppercase text-gold hover:underline"
+          >
+            View All
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {featured.map((book) => (
+            <BookCard key={book.id} book={book} />
+          ))}
         </div>
       </section>
 
