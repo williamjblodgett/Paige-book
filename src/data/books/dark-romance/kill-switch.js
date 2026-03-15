@@ -7,17 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#8b1a1a",
-  synopsis: `Winter Ashby helped send Damon Torrance to prison. She thought three years behind bars would cool his rage -- or at least buy her enough time to disappear.
+  synopsis: `Winter Ashby helped send Damon Torrance to prison. She thought three years behind bars would cool his rage -- or at least buy her enough time to disappear. She was wrong on both counts.
 
-She was wrong on both counts.
+Now he is out. And he has not come for a conversation.
 
-Prison did not diminish Damon. It sharpened him. Now he is out, and he has not come for a conversation. He has come for everything -- dismantling Winter's world piece by piece until she has nowhere to run and no one to turn to.
+Told through dual timelines that weave between a dangerous childhood connection and a devastating present-day reckoning, Kill Switch follows the most volatile of the Four Horsemen as he dismantles Winter's world piece by piece. Her father. Her security. Her sense of safety. Damon does not break in from the outside -- he positions himself at the center of her life, and Winter has nowhere left to run.
 
-But Winter is not the fragile victim he expects. Blind since birth, she has spent her life sharpening senses most people never develop and forging a will that does not bend. She knows Damon better than anyone alive -- his cruelty, his obsession, the terrifying tenderness he only shows when he thinks no one is watching.
+But Winter is not the fragile girl Damon remembers. Blind since birth, she has spent her life sharpening every other sense into a weapon. She reads people the way others read rooms. She meets his darkness with a quiet, devastating ferocity that no one else possesses. And she knows something about Damon that even he has not admitted to himself.
 
-Their history stretches back to childhood, tangled with moments both devastating and achingly tender. Two broken people bound by something that has never had a name -- something that blurs the line between destruction and devotion.
+Their history stretches back to childhood -- tangled with moments both terrifying and achingly tender. Two broken people bound by something that has never had a name.
 
-He wants to own her world. She wants to survive it. And neither is prepared for what happens when obsession becomes the only honest thing between them.`,
+He wants to own her world. She refuses to break. And what begins as revenge becomes something far more dangerous than either of them anticipated. He is her monster. She is his kill switch.`,
   characters: [
     {
       name: "Damon Torrance",

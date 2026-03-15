@@ -10,13 +10,11 @@ export default {
   accentColor: "#8b1a4a",
   synopsis: `She is a princess. He is the man hired to protect her. Those are the only two facts that should matter.
 
-When Princess Bridget von Ascheberg's longtime bodyguard goes on leave, the palace assigns her a replacement: Rhys Larsen, a former Navy SEAL with a granite jaw, an iron will, and zero tolerance for a princess who refuses to follow the rules. He is cold, commanding, and infuriatingly overprotective. She is headstrong, fiercely independent, and determined to live on her own terms.
+Rhys Larsen is a former Navy SEAL with an iron will and zero tolerance for a princess who refuses to follow the rules. Bridget von Ascheberg is headstrong, fiercely independent, and determined to live on her own terms. They clash from the first moment. Every argument crackles with tension. Every stolen glance lingers too long.
 
-They clash from the first moment. Every argument crackles with tension. Every stolen glance lingers too long. The bodyguard protocol says keep your distance. The chemistry between them says something else entirely.
+Then a crisis in the royal family thrusts Bridget into the line of succession. Suddenly the free-spirited princess is the future queen of a nation -- and a law dictates exactly who she is allowed to love. A bodyguard with no title, no fortune, and no royal blood is not on the list.
 
-Then Bridget's world is turned upside down. A crisis in the royal family thrusts her into the line of succession, and suddenly the free-spirited princess is the future queen of a nation. The crown brings impossible expectations -- including a law that dictates exactly who she is allowed to love. And a bodyguard with no title, no fortune, and no royal blood is not on the list.
-
-Rhys knows this is forbidden. He knows the consequences. He knows that wanting her could destroy them both. But Bridget von Ascheberg is not a woman who accepts no for an answer. And Rhys Larsen is not a man who walks away from what is his.
+Rhys knows this is forbidden. He knows the consequences. He knows that wanting her could destroy them both. But Bridget is not a woman who accepts no for an answer. And Rhys is not a man who walks away from what is his.
 
 A princess. A bodyguard. A love the law says is impossible. And a game neither of them can afford to lose.`,
   characters: [

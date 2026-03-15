@@ -7,15 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0a0808"],
   accentColor: "#c9a84c",
-  synopsis: `She is fire — loud laughter, bold dresses, and a presence that commands every room. But Gianna's sparkle is armor, carefully constructed to hide the panic attacks, the loneliness, and the loveless marriage she cannot escape. Trapped with an unfaithful husband in New York's criminal underworld, she has survived by making sure no one ever looks too closely.
+  synopsis: `She is fire — loud laughter, bold dresses, and a presence that commands every room. But the sparkle is armor, carefully constructed to hide the panic attacks, the loneliness, and the loveless marriage she cannot escape.
 
-He is ice. Christian Allister is a meticulous FBI special agent with severe OCD and a secret that would destroy his pristine reputation: he is as ruthless as the criminals he is supposed to be hunting. And for eight years, he has been consumed by an obsession he cannot control — a woman he has no right to want.
+He is ice. A meticulous man with severe OCD, a pristine reputation, and a secret that would destroy it: he is as ruthless as the criminals he is supposed to be hunting. And for eight years, he has been consumed by an obsession he cannot control — a woman he has no right to want.
 
 Their encounters crackle with antagonism and barely suppressed desire. She pushes every boundary with sharp wit and reckless defiance. He watches from the shadows with a patience that borders on predatory. For years, they orbit each other — too entangled to walk away, too dangerous to collide.
 
-But when Gianna's carefully constructed world finally shatters, the walls between chaos and control begin to crack. And Christian is done waiting.
+But when her carefully constructed world finally shatters, the walls between chaos and control begin to crack. And he is done waiting.
 
-Darker and more intense than its predecessor, The Maddest Obsession is a story about two people who have spent their lives masking unbearable pain — and the devastating, consuming force of the obsession you never see coming.`,
+Two people who have spent their lives masking unbearable pain. One devastating, consuming obsession that refuses to stay buried. When fire meets ice, something has to give — and the fallout will change both of them forever.`,
   characters: [
     { name: "Gianna", role: "A fiery and outwardly bold woman trapped in a loveless mafia marriage. Her loud, glamorous persona hides deep anxiety and panic attacks. Over seven years, she evolves from a woman merely surviving to one who fights for the life and love she deserves." },
     { name: "Christian Allister", role: "A mysterious FBI special agent who secretly operates within the criminal underworld. Meticulous and controlled with severe OCD, he has been obsessed with Gianna for eight years. He's Nico's ally from the first book and Ronan's brother, connecting him to the third book." },
