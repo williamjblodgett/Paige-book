@@ -1,8 +1,7 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { allBooks } from '../data/books'
-import BookCover from '../components/BookCover'
-import useBookCoverImage from '../hooks/useBookCoverImage'
+import SmartBookCover from '../components/SmartBookCover'
 
 const READING_LISTS = [
   {
@@ -93,13 +92,6 @@ const READING_LISTS = [
   },
 ]
 
-function ListBookCover({ book }) {
-  const { coverUrl } = useBookCoverImage(book.title, book.author)
-  if (coverUrl) {
-    return <img src={coverUrl} alt={book.title} className="w-full h-full object-cover" />
-  }
-  return <BookCover book={book} size="sm" />
-}
 
 function ReadingListCard({ list }) {
   const books = useMemo(() => {
@@ -135,7 +127,7 @@ function ReadingListCard({ list }) {
               className="aspect-[2/3] rounded overflow-hidden border border-transparent hover:border-gold/30 transition-all hover:scale-105"
               title={`${book.title} by ${book.author}`}
             >
-              <ListBookCover book={book} />
+              <SmartBookCover book={book} size="sm" />
             </Link>
           ))}
         </div>

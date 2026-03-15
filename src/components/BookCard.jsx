@@ -1,24 +1,7 @@
 import { Link } from 'react-router-dom'
 import SpiceRating from './SpiceRating'
 import GenreBadge from './GenreBadge'
-import BookCover from './BookCover'
-import useBookCoverImage from '../hooks/useBookCoverImage'
-
-function CoverImage({ book }) {
-  const { coverUrl } = useBookCoverImage(book.title, book.author)
-
-  if (coverUrl) {
-    return (
-      <img
-        src={coverUrl}
-        alt={`${book.title} cover`}
-        className="w-full h-full object-cover"
-      />
-    )
-  }
-
-  return <BookCover book={book} />
-}
+import SmartBookCover from './SmartBookCover'
 
 export default function BookCard({ book }) {
   const { id, title, author, genres, spiceLevel, coverGradient, accentColor, comingSoon } = book
@@ -27,7 +10,7 @@ export default function BookCard({ book }) {
     return (
       <div className="bg-surface rounded-lg overflow-hidden border border-muted/10 opacity-70">
         <div className="aspect-[3/4] relative">
-          <CoverImage book={book} />
+          <SmartBookCover book={book} />
           <div className="absolute inset-0 flex items-start justify-center pt-4">
             <span className="font-heading text-xs tracking-[0.2em] uppercase text-muted/60 bg-bg/60 px-3 py-1 rounded">
               Coming Soon
@@ -52,7 +35,7 @@ export default function BookCard({ book }) {
     >
       {/* Cover */}
       <div className="aspect-[3/4] group-hover:scale-[1.02] transition-transform duration-300 overflow-hidden">
-        <CoverImage book={book} />
+        <SmartBookCover book={book} />
       </div>
 
       {/* Info */}

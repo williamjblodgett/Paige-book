@@ -10,9 +10,8 @@ import QuizRunner from '../components/QuizRunner'
 import ResultsScreen from '../components/ResultsScreen'
 import GlossaryCard from '../components/GlossaryCard'
 import { useState } from 'react'
-import BookCover from '../components/BookCover'
+import SmartBookCover from '../components/SmartBookCover'
 import ExternalBookLinks from '../components/ExternalBookLinks'
-import useBookCoverImage from '../hooks/useBookCoverImage'
 import useFavorites from '../hooks/useFavorites'
 import FavoriteButton from '../components/FavoriteButton'
 import ContentWarnings from '../components/ContentWarnings'
@@ -61,8 +60,6 @@ export default function BookDetail() {
 
   const genreTheme = GENRE_THEMES[book.genres[0]] || GENRE_THEMES['dark-romance']
   const accent = book.accentColor || genreTheme.accent
-  const { coverUrl } = useBookCoverImage(book.title, book.author)
-
   return (
     <div className="min-h-screen">
       {/* Hero header */}
@@ -87,15 +84,7 @@ export default function BookDetail() {
             {/* Book Cover */}
             <div className="w-48 md:w-56 flex-shrink-0">
               <div className="aspect-[2/3] rounded-lg overflow-hidden shadow-2xl" style={{ boxShadow: `0 8px 40px ${accent}30` }}>
-                {coverUrl ? (
-                  <img
-                    src={coverUrl}
-                    alt={`${book.title} cover`}
-                    className="w-full h-full object-cover"
-                  />
-                ) : (
-                  <BookCover book={book} />
-                )}
+                <SmartBookCover book={book} />
               </div>
             </div>
 
@@ -335,7 +324,7 @@ export default function BookDetail() {
                   className="bg-surface rounded-lg overflow-hidden border border-transparent hover:border-gold/30 transition-all group"
                 >
                   <div className="aspect-[3/4]">
-                    <BookCover book={b} size="sm" />
+                    <SmartBookCover book={b} size="sm" />
                   </div>
                 </Link>
               ))}
