@@ -7,15 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1a10", "#0a100a"],
   accentColor: "#1e8a5f",
-  synopsis: `In the shadows of Caldwell, New York, a secret war is being waged. The Black Dagger Brotherhood — an elite band of vampire warriors — is all that stands between their race and annihilation. And at the Brotherhood's heart stands Wrath: the last purebred vampire alive, their reluctant king, and a fighter whose fury is legend.
+  synopsis: `In the shadows of Caldwell, New York, a secret war is being waged. The Black Dagger Brotherhood — an elite band of vampire warriors — is all that stands between their race and annihilation. At its heart stands Wrath: the last purebred vampire alive, their reluctant king, and a fighter whose fury is legend.
 
 Wrath does not want the throne. He wants blood, battle, and solitude. But when his closest brother falls in combat, he is bound by a dying wish he cannot refuse — find the warrior's half-human daughter and protect her through a deadly transformation she does not yet know is coming.
 
 Beth Randall is a reporter with no idea that her entire life is a lie. When a terrifying stranger appears and tells her she is about to become something inhuman, her world shatters. The change is coming whether she is ready or not — and it could kill her.
 
-Wrath expected a burden. What he finds is a bond so fierce it threatens to crack open centuries of carefully built walls. Beth expected answers. What she finds is a hidden world of warrior brotherhood, ancient enemies, and a man whose savage exterior hides a capacity for tenderness that undoes her completely.
+He expected a burden. What he finds is a bond so fierce it threatens to crack open centuries of carefully built walls. She expected answers. What she finds is a hidden world of ancient enemies and a man whose savage exterior hides a capacity for tenderness that undoes her completely.
 
-The clock is ticking. Enemies are closing in. And in the world of the Black Dagger Brotherhood, love does not protect you — it paints a target on your back.`,
+The clock is ticking. Enemies are closing in. And in the world of the Brotherhood, love does not protect you — it paints a target on your back.`,
   characters: [
     { name: "Wrath", role: "The last purebred vampire and reluctant king of the Black Dagger Brotherhood. Enormous, nearly blind, and consumed by rage, he must learn to drop his warrior's walls when he discovers Beth is his fated mate." },
     { name: "Beth Randall", role: "A newspaper reporter who discovers she is half-vampire when she begins her transition. Strong-willed and independent, she must embrace a destiny she never chose while falling for the terrifying warrior assigned to protect her." },
