@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import BookCard from '../components/BookCard'
-import BookCover from '../components/BookCover'
+import SmartBookCover from '../components/SmartBookCover'
 import SpiceRating from '../components/SpiceRating'
 import { allBooks } from '../data/books'
 import { GENRE_THEMES } from '../data/constants'
@@ -177,7 +177,7 @@ function RecommendationResults({ results, onRetry }) {
             <div className="md:w-1/3">
               <Link to={`/book/${topBook.id}`} className="block">
                 <div className="aspect-[3/4]">
-                  <BookCover book={topBook} />
+                  <SmartBookCover book={topBook} />
                 </div>
               </Link>
             </div>
