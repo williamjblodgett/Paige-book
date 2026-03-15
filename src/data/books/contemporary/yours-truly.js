@@ -7,11 +7,17 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#ffd6a5", "#ff8fab"],
   accentColor: "#c45b84",
-  synopsis: `Dr. Briana Ortiz is having the worst year of her life. Brutal divorce. Lost the promotion she'd been working toward for years. And the new doctor who got the job instead — Dr. Jacob Maddox — is about to become her daily reminder of everything that went wrong. She's determined to hate him on principle.
+  synopsis: `Dr. Briana Ortiz is in the middle of the worst year of her life. Her marriage is ending in spectacular, painful fashion. The promotion she worked years for went to someone else. And that someone — Dr. Jacob Maddox — now occupies the office down the hall, a daily reminder of everything that fell apart. She is fully prepared to despise him.
 
-But Jacob isn't what she expected. He's quiet, awkward, and clearly uncomfortable in social situations. He communicates best through handwritten letters — a quirk Briana initially finds bizarre but gradually comes to treasure. When they discover they each need a favor only the other can provide, they strike a deal: fake relationship, mutual benefit, no real feelings.
+Then he writes her a letter.
 
-Their arrangement is supposed to be clinical. Simple. But the letters keep coming — thoughtful, vulnerable, and increasingly personal. Jacob pours himself onto the page in ways he can't manage face-to-face, and Briana finds herself falling for the man behind the pen long before she's ready to admit it. She's not sure she can trust again after her marriage. He's not sure he'll ever be enough for someone as vibrant as her. But sometimes the quietest love is the most powerful — if you're brave enough to let it in.`,
+Jacob is not what Briana expected. He is quiet and awkward and visibly uncomfortable in every social situation. But on paper, he is someone else entirely — thoughtful, vulnerable, and disarmingly honest. When they discover they each need something only the other can provide, they strike a deal: a fake relationship with clear boundaries and absolutely no real feelings.
+
+The boundaries do not hold.
+
+Jacob's letters keep coming, each one more personal than the last, and Briana finds herself falling for the man behind the pen long before she is ready to admit it. He writes the things he cannot say. She reads the things she is afraid to feel. But Briana's trust was shattered by her marriage, and she is not sure she can survive having her heart broken twice. Jacob struggles to believe that someone as vibrant as Briana could ever want someone as quiet as him.
+
+Two doctors. One fake relationship. And the slow, terrifying realization that the best things in life do not come with a safety net.`,
   characters: [
     { name: "Briana Ortiz", role: "Protagonist, ER doctor going through a difficult divorce" },
     { name: "Jacob Maddox", role: "Love interest, quiet new doctor who communicates through letters" },

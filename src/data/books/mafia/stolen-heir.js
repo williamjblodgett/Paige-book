@@ -9,15 +9,15 @@ export default {
   accentColor: "#c9a84c",
   synopsis: `He lost the only father he ever knew. Now he will take something precious from the family that destroyed his world.
 
-Mikolaj Wilk was forged in violence, raised by the Polish Braterstwo in Chicago's criminal underworld. When the man who raised him is killed, Miko's grief hardens into a single, consuming purpose: make the Griffin family pay. His weapon of choice? Their youngest daughter.
+Forged in violence and raised in Chicago's criminal underworld, Miko's grief has hardened into a single, consuming purpose: make the Griffin family pay. His weapon of choice? Their youngest daughter.
 
-Nessa Griffin is a ballerina with a gentle heart, sheltered from the brutality that funds her family's empire. She dreams of dancing, not of war. She knows nothing of the enemies circling her world — until the night a scarred stranger drags her into the darkness.
+Nessa Griffin is a ballerina with a gentle heart, sheltered from the brutality that funds her family's empire. She dreams of dancing, not of war — until the night a scarred stranger drags her into the darkness.
 
-Locked inside a sprawling gothic mansion, Nessa refuses to shatter. She finds beauty in hidden gardens, solace in music, and courage she never knew she possessed. And her captor? He cannot look away. Miko expected a spoiled princess. Instead, he found the one person brave enough to see the wounded boy behind the monster.
+Locked inside a sprawling gothic mansion, Nessa refuses to shatter. She finds beauty in hidden gardens, solace in music, and courage she never knew she possessed. And her captor? He cannot look away. He expected a spoiled princess. Instead, he found the one person brave enough to see the wounded boy behind the monster.
 
 As Chicago burns with the search for the stolen Griffin daughter, something far more dangerous than revenge takes root between captor and captive. But can a connection born in captivity survive in freedom? And when the cage door finally opens, will she walk away — or stay?
 
-A dark, gothic Beauty and the Beast retelling set in Chicago's criminal underworld, where the line between vengeance and love is thinner than a knife's edge.`,
+A dark, gothic Beauty and the Beast retelling set in the criminal underworld, where the line between vengeance and love is thinner than a knife's edge.`,
   characters: [
     { name: "Mikolaj Wilk", role: "Known as Miko, he was raised by the Polish Braterstwo without love or gentleness. Cold, scarred, and driven by vengeance after The Butcher's death, he kidnaps Nessa for revenge but is gradually transformed by her compassion and grace. Sophie Lark describes him as 'dark and moody' with 'real gothic Beauty and the Beast vibes.'" },
     { name: "Nessa Griffin", role: "The youngest Griffin — a gentle, kind-hearted ballerina who dreams of dancing and knows nothing of her family's criminal enterprise. Described by Lark as 'little ballerina Belle — smart and creative and kind,' she's the only person capable of melting Miko's frozen heart." },

@@ -11,7 +11,7 @@ export default {
 
 Then her library is attacked, its most dangerous grimoire unleashed as a monster, and Elisabeth is blamed. Arrested and facing trial, she realizes the truth — someone is deliberately destroying the Great Libraries, one by one. And the only person who can help her stop it is Nathaniel Thorn: a sorcerer with a sharp tongue, devastating charm, and a demon servant who should be terrifying but is oddly... protective.
 
-Everything Elisabeth believes tells her Nathaniel is the enemy. Sorcerers bargain with demons. They are corrupt, dangerous, irredeemable. But Nathaniel is haunted by the dark legacy of his family's bargains, and the guilt he carries does not match the monster she expected. As they investigate the conspiracy together, Elisabeth begins to question whether the line between good and evil is as clear as her training taught her.
+Everything Elisabeth believes tells her Nathaniel is the enemy. Sorcerers bargain with demons. They are corrupt, dangerous, irredeemable. But Nathaniel is haunted by his family's dark legacy, and the guilt he carries does not match the monster she expected. As they investigate together, Elisabeth begins to question whether the line between good and evil is as clear as her training taught her.
 
 With the Great Libraries falling and the conspiracy reaching into the highest levels of power, Elisabeth must make an impossible choice: cling to the beliefs that have defined her, or trust the sorcerer and the demon to help her save everything she loves. In a world where books have teeth, the most dangerous story might be the one she has been telling herself.`,
   characters: [

@@ -8,17 +8,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a1a", "#3d1135"],
   accentColor: "#8b1a4a",
-  synopsis: `Hades rules the Underworld -- and at his side is Meg, his Queen. Their relationship was once unshakeable. Now, secrets and unspoken desires are pulling them apart.
+  synopsis: `Hades rules the Underworld -- the most notorious club in the city -- and Meg is his Queen. Their bond was once unbreakable. Now, buried secrets and unspoken desires are pulling them apart, and neither knows how to stop the fracture before it swallows them whole.
 
-Then Hercules walks in.
+Then Hercules walks through the door.
 
-Earnest, open-hearted, and completely out of his depth, Herc stumbles into the darkest club in the city convinced he is there to rescue a woman in chains. What he does not understand is that Meg chose this life. She is no one's captive. And Hades is no one's villain.
+Earnest, golden-hearted, and completely out of his depth, Herc has stumbled into the darkest establishment in the city convinced he is there to rescue a woman in chains. What he does not understand is that Meg chose this life. She is no one's captive. And Hades is no one's villain.
 
-But Herc sees the cracks they have been hiding from each other. His warmth disarms Hades. His tenderness undoes Meg. And in the charged atmosphere of the Underworld, the impossible begins to feel inevitable -- three people drawn together by a desire none of them can explain and none of them can resist.
+But Herc sees something neither of them expected -- the cracks they have been hiding from each other. His warmth disarms Hades. His tenderness undoes Meg. And in the charged, intoxicating darkness of the Underworld, the impossible begins to feel inevitable. Three people. One desire none of them can resist.
 
-He is too soft for their world. They are too dark for his. And powerful forces beyond the Underworld's walls are watching, waiting for the perfect moment to tear them apart.
+He is too soft for their world. They are too dark for his. It should not work. But powerful forces are circling beyond the Underworld's walls, and the only way through may be together.
 
-In this scorching reimagining of Hercules, love does not divide. It expands. And desire has never followed the rules.`,
+A scorching reimagining of Hercules where the lesson is one none of them saw coming: love does not divide. It expands.`,
   characters: [
     { name: "Hades", role: "The enigmatic ruler of the Underworld sex club, torn between vengeance and love. His relationship with Meg is fraying, and the arrival of Hercules forces him to confront whether sharing power—and love—is a strength rather than a weakness." },
     { name: "Megaera (Meg)", role: "Hades' Queen and a formidable woman navigating the complex dynamics of power and submission. She holds the title of Queen in the Underworld and must reconcile her emotional vulnerabilities with her role alongside Hades." },

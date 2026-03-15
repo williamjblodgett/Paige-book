@@ -13,7 +13,7 @@ Violet refuses to accept that there is no cure. While forging unprecedented alli
 
 A new enemy has emerged: a venin maven of terrifying power who wields lightning like Violet and wants to recruit her to the dark side. The venin threat is no longer at the borders — it is inside the walls, wearing familiar faces, and the war is escalating faster than anyone anticipated.
 
-As Violet pushes further into dangerous territory, she discovers a second signet, uncovers shattering truths about her own past, and makes choices that will alter the fate of kingdoms. But the greatest battle may be the one she cannot win with lightning or strategy — the fight to save the man she loves from becoming the very thing they are fighting against.
+As Violet pushes further into dangerous territory, she discovers a second signet and uncovers shattering truths about her own past. But the greatest battle may be the one she cannot win with lightning or strategy — the fight to save the man she loves from becoming the very thing they are fighting against.
 
 Some wars are won on the battlefield. This one may be won — or lost — in the space between two heartbeats.`,
   characters: [
