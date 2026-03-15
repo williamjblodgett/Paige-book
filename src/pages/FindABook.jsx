@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import BookCard from '../components/BookCard'
+import BookCover from '../components/BookCover'
 import SpiceRating from '../components/SpiceRating'
 import { allBooks } from '../data/books'
 import { GENRE_THEMES } from '../data/constants'
@@ -175,20 +176,8 @@ function RecommendationResults({ results, onRetry }) {
             {/* Book cover area */}
             <div className="md:w-1/3">
               <Link to={`/book/${topBook.id}`} className="block">
-                <div
-                  className="aspect-[3/4] flex flex-col items-center justify-center relative p-6"
-                  style={{
-                    background: `linear-gradient(160deg, ${topBook.coverGradient?.[0] || '#111318'} 0%, ${topBook.coverGradient?.[1] || '#0a0808'} 100%)`,
-                  }}
-                >
-                  <div className="absolute top-3 left-3 w-5 h-5 border-t border-l" style={{ borderColor: `${topBook.accentColor}40` }} />
-                  <div className="absolute top-3 right-3 w-5 h-5 border-t border-r" style={{ borderColor: `${topBook.accentColor}40` }} />
-                  <div className="absolute bottom-3 left-3 w-5 h-5 border-b border-l" style={{ borderColor: `${topBook.accentColor}40` }} />
-                  <div className="absolute bottom-3 right-3 w-5 h-5 border-b border-r" style={{ borderColor: `${topBook.accentColor}40` }} />
-                  <h3 className="font-heading text-2xl md:text-3xl tracking-wider text-center mb-2" style={{ color: topBook.accentColor }}>
-                    {topBook.title}
-                  </h3>
-                  <p className="font-body text-muted text-sm">{topBook.author}</p>
+                <div className="aspect-[3/4]">
+                  <BookCover book={topBook} />
                 </div>
               </Link>
             </div>
