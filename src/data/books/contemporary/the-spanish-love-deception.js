@@ -7,13 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#e63946", "#f4a261"],
   accentColor: "#c45b84",
-  synopsis: `Catalina Martin has a problem. Her sister's wedding in Spain is weeks away, her ex-boyfriend will be there with his new girlfriend, and she desperately needs a date impressive enough to prove she's moved on. The last person on earth she'd ask? Aaron Blackford — the tall, infuriatingly handsome colleague who sits across from her at their New York engineering firm, never smiles, and seems to exist solely to get under her skin.
+  synopsis: `Catalina Martin is desperate. Her sister's wedding in Spain is weeks away, her ex-boyfriend will be there with his shiny new girlfriend, and she needs a date impressive enough to prove she has moved on. She has asked everyone she can think of. She has been turned down by everyone she can think of.
 
-So naturally, he's the one who volunteers.
+Everyone except Aaron Blackford.
 
-Catalina is suspicious — Aaron has never shown the slightest interest in being friendly, let alone pretending to be her boyfriend. But with no other options and a transatlantic flight to book, she accepts. They set ground rules, craft a fake backstory, and fly to Spain to face her large, boisterous, and intensely curious family.
+Aaron is the last person Catalina would ever willingly spend time with. He is her colleague at their New York engineering firm — tall, impossibly handsome, infuriatingly arrogant, and in possession of a permanent scowl that seems reserved exclusively for her. He has never once been friendly. He has never once smiled in her direction. And yet, inexplicably, he is the one who volunteers to fly across the Atlantic and pretend to be her boyfriend.
 
-What Catalina doesn't expect is how convincing Aaron turns out to be. The man who could barely manage a polite greeting at the office transforms into the perfect partner — attentive, protective, and surprisingly tender. As Spanish sun, good food, and family celebrations work their magic, the lines between performance and reality start to dissolve. Behind Aaron's stoic exterior is a man with depth, warmth, and reasons for every puzzling thing he's ever done. The only question is whether Catalina will figure that out before it's too late.`,
+Catalina does not trust his motives. But she is out of options and out of time. They set ground rules, invent a backstory, and board a plane to Spain, where her large, boisterous, and intensely nosy family awaits.
+
+What she does not expect is Aaron. Not the office version — the real one. The one who is attentive and protective and so convincingly tender that Catalina starts forgetting where the act ends and the truth begins. Under the Spanish sun, surrounded by family and laughter and too much good food, every assumption she has made about him begins to crumble. Aaron Blackford may have had reasons for everything. The question is whether Catalina will figure them out before it is too late.`,
   characters: [
     { name: "Catalina Martín", role: "Protagonist, Spanish engineer living in New York" },
     { name: "Aaron Blackford", role: "Love interest, stoic colleague who volunteers as fake boyfriend" },

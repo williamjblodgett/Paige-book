@@ -14,9 +14,9 @@ Vivian Lau has spent her life being the perfect daughter. But being sold to a co
 
 He resents the manipulation. She resents being traded like a commodity. The tension between them is immediate, electric, and dangerous.
 
-But forced proximity has a way of stripping away pretense. Dante discovers that his reluctant bride is sharp, ambitious, and possessed of a strength that challenges him more than any boardroom rival. Vivian finds that beneath his glacial control lies a man capable of fierce loyalty and devastating tenderness — a man who makes her feel seen for the first time in her life.
+But forced proximity has a way of stripping away pretense. Dante discovers that his reluctant bride is sharp, ambitious, and possessed of a strength that challenges him more than any boardroom rival. Vivian finds that beneath his glacial control lies a man capable of fierce loyalty and devastating tenderness.
 
-As their connection deepens, dark secrets surface about both their families, and Dante's quest for vengeance against the man who orchestrated their marriage threatens to destroy everything they are building. In a world of power, betrayal, and billion-dollar stakes, the most dangerous thing either of them can do is fall in love.`,
+As dark secrets surface and Dante's quest for vengeance against the man who orchestrated their marriage threatens to destroy everything they are building, one question looms: In a world of power, betrayal, and billion-dollar stakes, can they afford to fall in love — or can they afford not to?`,
   characters: [
     { name: "Dante Russo", role: "A billionaire CEO blackmailed into an arranged marriage. His need for control and precision clashes with his growing feelings for Vivian, forcing him to confront the reality that some things can't be conquered through strategy alone." },
     { name: "Vivian Lau", role: "A jewelry heiress and luxury event planner who refuses to be a passive pawn in her father's schemes. Her quiet strength and ambition challenge Dante and transform their arranged marriage into something genuine." },

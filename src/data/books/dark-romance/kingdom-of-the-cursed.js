@@ -8,13 +8,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0e0a1e", "#251545"],
   accentColor: "#c42a2a",
-  synopsis: `Emilia di Carlo has entered the underworld willingly -- striking a bargain with the demon prince Wrath to find her twin sister's killer. But the Seven Circles are nothing like she imagined. Every smile hides a blade. Every kindness comes with a price. And seven demon princes each have their own agenda regarding the prophecy that seems to revolve around her.
+  synopsis: `Emilia di Carlo has descended into Hell. Willingly.
 
-Pride watches from the shadows. Envy extends offers of alliance that feel more like traps. And Wrath himself remains an enigma -- protective one moment, coldly distant the next, clearly hiding secrets that could change everything Emilia believes about herself.
+After striking a dangerous bargain with the demon prince of Wrath, she has traveled to the Seven Circles to hunt her twin sister's killer from within the demon realm itself. But the underworld is nothing like the stories warned -- it is a place of dark beauty, seductive power, and politics sharp enough to draw blood.
 
-The deeper she investigates Vittoria's murder, the more the truth fractures. Her sister's fate may not be what it seemed. Her own powers are evolving in ways that frighten her, awakening abilities that hint at a heritage far more complex than simple witch blood.
+Seven princes. Seven circles. Seven deadly sins. And every one of them has plans for Emilia.
 
-In a realm built on lies, trust is the most dangerous commodity. And Emilia is beginning to suspect that the demon prince who infuriates her knows far more about her destiny than he is willing to reveal.`,
+Pride watches from the shadows. Envy extends offers dripping with hidden cost. And Wrath -- infuriating, protective, impossibly secretive Wrath -- guards truths that could shatter everything Emilia thinks she knows about her sister, her powers, and herself.
+
+Because Emilia's magic is changing. Growing. Becoming something no ordinary witch should possess. And the deeper she digs into Vittoria's murder, the more the answers twist -- hinting that her twin's fate may be far more complicated than a simple death.
+
+In a realm where trust is currency and every alliance could be a trap, Emilia must decide how far she is willing to fall for the truth. And whether the prince who sets her blood on fire is her greatest ally or her most dangerous lie.`,
   characters: [
     { name: "Emilia di Carlo", role: "A witch navigating the demon underworld to find her sister's killer. Her powers are evolving beyond what any witch should possess, hinting at a deeper heritage." },
     { name: "Wrath", role: "The demon prince whose domain Emilia resides in. Protective yet secretive, he guards truths about Emilia's destiny while fighting his growing feelings for her." },

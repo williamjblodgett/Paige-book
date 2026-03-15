@@ -7,17 +7,19 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0c0808"],
   accentColor: "#c9a84c",
-  synopsis: `Elena Abelli is the good daughter. She goes to church every Sunday, follows every rule, and accepts her arranged marriage to Nicolas Russo — the new Don of the Russo family — with the quiet grace expected of a mafia bride. This is her duty. This is her life.
+  synopsis: `Elena Abelli is the good daughter. She goes to church every Sunday, follows every rule, and accepts her arranged marriage to Nicolas Russo — the new Don — with the quiet grace expected of a mafia bride.
 
-Nicolas is everything she is not: cold, controlled, and forged by violence. He views his new wife with clinical detachment. She is a strategic alliance wrapped in a modest dress. Nothing more. Emotion is a weakness, and Nicolas Russo does not have weaknesses.
+Nicolas is everything she is not: cold, controlled, and forged by violence. He views his new wife with clinical detachment. She is a strategic alliance. Nothing more. Emotion is a weakness, and Nicolas Russo does not have weaknesses.
 
 But Elena is not as simple as she appears.
 
-Beneath the obedience is a woman with a sharp mind, secret desires, and a stubborn warmth that refuses to be extinguished. She does not fight her husband with defiance — she disarms him with kindness. A home-cooked meal. A quiet conversation. A refusal to flinch when everyone else in the room is terrified of him. Small, persistent acts of humanity that slip through the cracks in his armor like water through stone.
+Beneath the obedience is a woman with a sharp mind and a stubborn warmth that refuses to be extinguished. She does not fight her husband with defiance — she disarms him with kindness. A home-cooked meal. A quiet conversation. A refusal to flinch when everyone else in the room is terrified of him. Small, persistent acts of humanity that slip through the cracks in his armor like water through stone.
 
 Nicolas has controlled everything in his world for years. He cannot control this.
 
-Their slow-burning connection builds not through grand gestures but through loaded silences and whispered conversations — each small concession from Nicolas carrying the weight of a man who has never allowed himself to want something he could not command. In the world of the Cosa Nostra, the most dangerous thing a Don can do is let someone past his guard. And the bravest thing a wife can do is make him want to.`,
+Their connection builds not through grand gestures but through loaded silences — each small concession carrying the weight of a man who has never allowed himself to want something he could not command.
+
+In the Cosa Nostra, the most dangerous thing a Don can do is let someone past his guard. And the bravest thing a wife can do is make him want to.`,
   characters: [
     { name: "Elena Abelli", role: "The good daughter of the Abelli family, arranged to marry Nicolas Russo. Gentle and warm on the surface, she has a sharp mind and quiet stubbornness that gradually penetrates her husband's emotional armor through persistent kindness." },
     { name: "Nicolas Russo", role: "The new Don of the Russo family — cold, controlled, and allergic to emotion. He views his marriage as a strategic alliance until Elena's warmth begins to dismantle defenses he has spent years building." },
