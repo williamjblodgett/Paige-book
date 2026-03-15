@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1a2e", "#950740"],
   accentColor: "#c45b84",
-  synopsis: `Lowen Ashleigh is a struggling writer on the brink of financial ruin when she receives the opportunity of a lifetime. Jeremy Crawford, husband of bestselling author Verity Crawford, hires Lowen to complete the remaining books in Verity's wildly successful series. Verity herself is unable to finish them—she suffered catastrophic injuries in a car accident and now lies unresponsive in the couple's Vermont home, requiring round-the-clock care.
+  synopsis: `Lowen Ashleigh is a struggling writer on the verge of financial collapse when she receives an offer she can't refuse. Jeremy Crawford, husband of bestselling author Verity Crawford, needs someone to finish his wife's blockbuster series. Verity can't do it herself — a devastating accident has left her unresponsive, confined to a bed in the couple's Vermont home.
 
-Lowen moves into the Crawford mansion to sort through Verity's notes and outlines, hoping to find enough material to continue the series authentically. What she finds instead is a manuscript hidden among Verity's belongings—an unfinished autobiography that Verity never intended anyone to read.
+Lowen moves in to sort through Verity's notes and outlines. But buried among the files, she discovers something she was never meant to find: an unfinished manuscript. Verity's own autobiography.
 
-The manuscript is a bone-chilling chronicle of Verity's life, revealing the truth about her marriage to Jeremy and the events leading up to the deaths of their two daughters. Page by page, Lowen descends into Verity's twisted psyche, discovering confessions so dark and disturbing that they redefine everything she thought she knew about this family.
+What's written in those pages changes everything.
 
-As Lowen reads deeper into the manuscript, she also finds herself falling for Jeremy—a grieving, devoted father who has no idea what his wife wrote. The attraction between them is undeniable, but Lowen is torn between her growing feelings and the horrifying secrets she's uncovered. Should she show Jeremy the manuscript and shatter what's left of his world? Or should she protect him from truths that could destroy him?
+Page by page, Lowen descends into the mind of a woman whose confessions are so dark, so disturbing, that they shatter every assumption about this family. And as the manuscript pulls her deeper, Lowen finds herself falling for Jeremy — a grieving, devoted husband who has no idea what his wife wrote.
 
-And then there's Verity herself, lying motionless in her bed upstairs. Or is she? Verity is a dark, seductive thriller that blurs the line between romance and horror, truth and deception, love and obsession. The ending will leave readers questioning everything they thought they knew—and debating what really happened long after they turn the final page.`,
+She's torn between the man she's growing to love and the horrifying truth she's uncovering. Should she show Jeremy the manuscript and destroy what's left of his world? Or protect him from secrets that could consume them both?
+
+And then there's Verity. Lying motionless in her bed upstairs.
+
+Or is she?`,
   characters: [
     { name: "Lowen Ashleigh", role: "Protagonist, struggling writer hired to finish Verity's book series" },
     { name: "Jeremy Crawford", role: "Love interest, Verity's husband and grieving father" },

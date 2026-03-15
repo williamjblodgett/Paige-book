@@ -8,13 +8,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1a10", "#0a0808"],
   accentColor: "#2d6b4f",
-  synopsis: `Aly Cappellucci is a trauma nurse who spends her days saving lives and her nights scrolling through the videos of "the.faceless.man"—a mysterious masked content creator whose dark, anonymous presence awakens something primal in her. She doesn't know that the man behind the mask is Josh Hammond, a cybersecurity expert haunted by a devastating secret: his father was the notorious serial killer George Marshall Secliff. Josh wears a mask not for aesthetics but because he can't bear to look at his own face—a face that reminds him of the monster who raised him.
+  synopsis: `By day, Aly Cappellucci saves lives as a trauma nurse. By night, she scrolls through the videos of "the.faceless.man" -- a mysterious masked creator whose dark, anonymous presence awakens something primal she cannot explain. She has left hundreds of comments on his videos. She has fantasized about him finding her.
 
-When Aly reaches out to an ex-hookup named Tyler, suggesting he come over wearing a mask like the one in the videos, Tyler shows the image to his roommate—Josh. Recognizing himself immediately, Josh discovers hundreds of comments Aly has left on his videos, fantasizing about him breaking into her home. Something shifts inside him. He begins stalking Aly in earnest, breaking into her apartment while she's at work, filming a video on her bed, playing with her cat Fred, and leaving his mask for her to find. Despite feeling violated, Aly is drawn to the danger and excitement, finding herself thrilled by the traces he leaves behind.
+She has no idea he already has.
 
-Their game of cat and mouse intensifies as the line between fantasy and reality blurs. But a real threat emerges when Bradley Bluhm, a dangerous figure from Aly's past, begins stalking her with genuinely violent intent. Josh transforms from playful predator to fierce protector, intervening during a home invasion that results in Brad's death. Forced to confront his father's violent legacy and the ethical weight of his own actions, Josh must decide how far he'll go for the woman he's obsessed with.
+Josh Hammond wears the mask for reasons that have nothing to do with aesthetics and everything to do with the monster who raised him. When he discovers that the woman obsessing over his content has been fantasizing about him breaking into her home, something shifts inside him -- something dangerous, possessive, and all-consuming.
 
-As Aly and Josh move from antagonism to raw, unfiltered romance, they discover that two broken people can find healing in the most unexpected places. Their story culminates in a proposal and the promise of a future together—proof that even in the darkest corners, love can take root.`,
+He starts watching her. Then he starts breaking in. He films a video on her bed. Plays with her cat. Leaves his mask where she will find it. And despite every instinct that should scream danger, Aly finds herself thrilled by the traces he leaves behind.
+
+Then a real predator from her past resurfaces -- one who does not play games. Suddenly the masked stranger haunting her apartment may be the only thing standing between Aly and genuine danger.
+
+When fantasy and reality collide, how do you tell the difference between the one who hunts you and the one who would burn the world to keep you safe?
+
+Even her cat likes him. That has to count for something.`,
   characters: [
     { name: "Aly Cappellucci", role: "A trauma nurse whose secret online fantasies about a masked stranger become terrifyingly real. Despite initial fear, she's drawn to the danger Josh represents and discovers that the line between fear and desire is thinner than she imagined." },
     { name: "Josh Hammond", role: "A cybersecurity expert and masked content creator whose father was a notorious serial killer. He stalks Aly after discovering her fantasies about him, but his playful obsession transforms into fierce protection when a real threat emerges." },

@@ -7,15 +7,13 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#463f3a", "#e0afa0"],
   accentColor: "#c45b84",
-  synopsis: `Auburn Reed has learned the hard way that the only person she can rely on is herself. At just fifteen, she lost the love of her life, and in the years since, she's been fighting an uphill battle to regain custody of her son, who is being kept from her by her late boyfriend's manipulative, powerful family. Everything Auburn does—every job she takes, every compromise she makes—is driven by her desperate need to get her boy back.
+  synopsis: `Auburn Reed can't afford to make a single mistake. She's fighting to regain custody of her son against a powerful family determined to keep him from her, and everything in her carefully controlled life serves one purpose: getting her child back. No distractions. No complications. No falling in love.
 
-When she stumbles into a Dallas art gallery owned by the mysterious Owen Gentry, Auburn's carefully controlled life begins to unravel in the most unexpected way. Owen is a gifted artist whose paintings are inspired by anonymous confessions people submit to his gallery. His work is raw, emotional, and achingly honest—much like Owen himself.
+Then she walks into a Dallas art gallery unlike any she's ever seen. The paintings on the walls are raw, emotional, and haunting — each one inspired by an anonymous confession submitted by a stranger. And the artist behind them, the enigmatic Owen Gentry, looks at Auburn like he already knows her secrets.
 
-The attraction between Auburn and Owen is instant and overwhelming, but Auburn knows she can't afford distractions. Her custody battle requires her to maintain a spotless reputation, and Owen comes with complications she doesn't fully understand. There are things about his past that he's not telling her, secrets that could change everything she thinks she knows about him.
+The attraction between them is immediate and reckless. But Owen is hiding something. His past is wrapped in shadows he won't explain, and the closer Auburn gets, the more she realizes that the confessions lining his gallery walls may not be strangers' stories at all. Some of them lead somewhere terrifyingly familiar.
 
-As their relationship deepens, Auburn begins to realize that Owen's secrets are intertwined with her own story in ways she never could have imagined. The confessions on his gallery walls aren't just strangers' stories—they're threads that connect to the darkest and most painful chapters of her life.
-
-When the full truth finally emerges, Auburn is forced to make an impossible choice between the man she's falling in love with and the child she's been fighting to reclaim. Confess is a heart-wrenching love story about the weight of secrets, the courage it takes to speak the truth, and the devastating consequences of the confessions we keep locked inside. Colleen Hoover weaves art, mystery, and raw emotion into a romance that will leave readers questioning how well we ever really know the people we love.`,
+In a world where everyone is hiding something, Auburn must decide how much truth she can bear — because the secrets connecting her to Owen could either set her free or cost her everything she's been fighting for. How well do we ever really know the people we love?`,
   characters: [
     { name: "Auburn Reed", role: "Protagonist, a young woman fighting for custody of her son" },
     { name: "Owen Gentry", role: "Love interest, mysterious artist who runs a confession-based gallery" },

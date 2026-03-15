@@ -8,15 +8,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#2a1020"],
   accentColor: "#8b1a4a",
-  synopsis: `Princess Bridget von Ascheberg of Eldorra is in her final year at Thayer University when her long-time bodyguard goes on paternity leave. The palace assigns her a replacement: Rhys Larsen, a ruggedly handsome former Navy SEAL with a no-nonsense attitude and a body built for combat. Their first interaction sets the tone for their relationship, as both are headstrong and stubborn. Rhys immediately tightens Bridget's security protocols, which the free-spirited princess chafes against. She ignores his restrictions and even sneaks out to attend a concert with her friend Ava, resulting in both women being kidnapped by enemies of Ava's boyfriend Alex. Rhys is only able to locate them because he secretly placed a tracking device in Bridget's phone.
+  synopsis: `She is a princess. He is the man hired to protect her. Those are the only two facts that should matter.
 
-The kidnapping incident leads to a furious confrontation. Bridget is livid about the tracker, and Rhys is angry she ignored his security rules. They strike a truce: she will follow his protocols if he removes the tracker. This reluctant agreement begins to dissolve the walls between them as they spend more time together and learn about each other's lives, dreams, and vulnerabilities. After Bridget graduates, they relocate to New York, where she attempts to date other men to get Rhys off her mind, but the attraction between them only intensifies.
+When Princess Bridget von Ascheberg's longtime bodyguard goes on leave, the palace assigns her a replacement: Rhys Larsen, a former Navy SEAL with a granite jaw, an iron will, and zero tolerance for a princess who refuses to follow the rules. He is cold, commanding, and infuriatingly overprotective. She is headstrong, fiercely independent, and determined to live on her own terms.
 
-Their world is upended when Bridget's brother, Crown Prince Nikolai, announces he plans to abdicate the throne to marry his American girlfriend. Their grandfather, King Edvard, collapses from the shock, and Bridget is thrust into the role of heir apparent. She never wanted the crown, and the prospect of an arranged, politically expedient marriage looms over her. Eldorra's Royal Marriages Law restricts who royals can marry, making a relationship with her bodyguard not merely forbidden but legally impossible. Despite knowing the consequences, Bridget and Rhys cannot stay away from each other. Their chemistry is electric, and their stolen moments together are passionate and desperate.
+They clash from the first moment. Every argument crackles with tension. Every stolen glance lingers too long. The bodyguard protocol says keep your distance. The chemistry between them says something else entirely.
 
-A further complication arises when a political operative named Andreas reveals that both he and Rhys are the illegitimate sons of Lord Erhall, a powerful Eldorran nobleman. This revelation rocks Rhys, who must grapple with the identity of a father he never knew. Bridget and Rhys fight back by uncovering damaging information about Lord Erhall and using it to blackmail him into supporting the repeal of the Royal Marriages Law. They orchestrate a public campaign, making their love story known to sway public opinion.
+Then Bridget's world is turned upside down. A crisis in the royal family thrusts her into the line of succession, and suddenly the free-spirited princess is the future queen of a nation. The crown brings impossible expectations -- including a law that dictates exactly who she is allowed to love. And a bodyguard with no title, no fortune, and no royal blood is not on the list.
 
-Their efforts succeed. The Royal Marriages Law is repealed, clearing the path for Bridget and Rhys to be together. The story ends with their wedding and Bridget's coronation as Queen of Eldorra, with Rhys at her side, a former bodyguard turned royal consort who never stopped fighting for the woman he loves.`,
+Rhys knows this is forbidden. He knows the consequences. He knows that wanting her could destroy them both. But Bridget von Ascheberg is not a woman who accepts no for an answer. And Rhys Larsen is not a man who walks away from what is his.
+
+A princess. A bodyguard. A love the law says is impossible. And a game neither of them can afford to lose.`,
   characters: [
     {
       name: "Bridget von Ascheberg",

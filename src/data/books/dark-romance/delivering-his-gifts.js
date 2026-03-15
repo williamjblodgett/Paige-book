@@ -8,13 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0d0505", "#3a0e0e"],
   accentColor: "#c42a2a",
-  synopsis: `It's the holiday season, and the Kane family is gathering for Christmas in a way only they can—with enough weapons hidden under the tree to arm a small militia and enough dark humor to make even Santa question his naughty list. This novella bridges the gap between Leather & Lark and Scythe & Sparrow, giving readers a glimpse into the lives of their favorite morally grey couples during the most wonderful time of the year.
+  synopsis: `The Kane brothers are gathering for Christmas. There are enough weapons hidden under the tree to arm a small militia and enough dark humor to make Santa question his entire naughty list.
 
-Lachlan Kane has always been the planner, the organizer, the one who keeps everything running smoothly behind the scenes. But planning a Kane family Christmas proves to be his greatest challenge yet. Between Rowan's insistence on cooking an elaborate feast, Sloane's tendency to turn every conversation into a forensic analysis, and Lark's chaotic energy threatening to derail every carefully laid plan, Lachlan is barely holding it together. And then there's the matter of Lark's gift—something deeply personal that requires him to be vulnerable in a way that terrifies the usually composed middle brother.
+Lachlan, the family planner, is barely holding it together. Rowan insists on an elaborate feast. Sloane has turned holiday decorating into a science experiment. Lark's chaotic energy threatens to derail everything. And Lachlan is trying to give Lark a gift so personal it requires the kind of vulnerability that terrifies the usually composed middle brother.
 
-Meanwhile, Rowan and Sloane navigate their first Christmas as a married couple, with Rowan determined to create new traditions that don't involve body disposal. Sloane, ever the scientist, approaches holiday decorating with the same methodical precision she applies to everything else, resulting in a tree that is technically perfect but emotionally chaotic.
-
-The novella weaves together moments of tenderness and dark comedy as the Kane brothers and the women who love them come together to celebrate. There are burnt cookies, inappropriate gift exchanges, and at least one incident involving a turkey and a very sharp knife. But beneath the humor lies the heart of what makes this series special: the idea that family isn't defined by blood alone, but by the people who choose to stand beside you—even when you're covered in someone else's blood.`,
+Between burnt cookies, inappropriate gift exchanges, and at least one incident involving a turkey and a very sharp knife, this holiday novella gives fans a glimpse into the lives of their favorite morally grey couples during the most wonderful time of the year. Because family is not defined by blood alone -- it is defined by the people who choose to stand beside you. Even when you are covered in someone else's blood.`,
   characters: [
     { name: "Lachlan Kane", role: "The middle Kane brother who orchestrates the family Christmas gathering, struggling to balance his need for control with the chaos of his loved ones." },
     { name: "Lark Montague", role: "Lachlan's partner from Leather & Lark, whose chaotic energy and warmth bring life to the holiday celebrations." },

@@ -7,15 +7,13 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#d4a5a5", "#9b2335"],
   accentColor: "#c45b84",
-  synopsis: `Nora Stephens is a cutthroat literary agent in New York City. She's the woman other people love to hate—ambitious, sharp, and unapologetically devoted to her career. In the romance novels she represents, she'd be the villain: the big-city workaholic who loses the guy to the charming small-town girl. And she's made her peace with that.
+  synopsis: `In every romance novel Nora Stephens has ever read, the ambitious career woman is the villain. She loses the guy to the sweet small-town girl every single time. Nora should know — as a cutthroat New York literary agent, she's practically the template.
 
-When Nora's beloved younger sister Libby begs her to take a sisters' trip to Sunshine Falls, North Carolina, Nora reluctantly agrees. Libby has planned a full itinerary designed to give them a Hallmark-movie-worthy small-town experience, complete with quaint bookshops, cozy diners, and friendly locals. Nora expects to be thoroughly bored.
+So when her sister Libby drags her to Sunshine Falls, North Carolina, for the ultimate Hallmark-movie vacation, Nora knows exactly how this story goes. She does not expect to keep running into Charlie Lastra, a grumpy book editor she's clashed with for years. He's blunt, infuriating, and has zero patience for pleasantries. And yet, between the bookshops and the summer rainstorms and the small-town festivals, something shifts. Their sparring starts to feel less like combat and more like foreplay.
 
-What she doesn't expect is to keep running into Charlie Lastra, a grumpy, sharp-tongued book editor she's clashed with professionally for years. Charlie is everything Nora finds infuriating—blunt, uncompromising, and allergic to small talk. Yet somehow, in the laid-back setting of Sunshine Falls, their combative dynamic begins to shift into something unexpected.
+But Nora has spent her whole life playing the supporting role — the reliable sister, the tireless agent, the woman who puts everyone else first. She's never been the one who gets the happy ending.
 
-As Nora and Charlie are thrown together again and again—in a bookshop, at a local festival, during a rainstorm—they start to see past each other's prickly exteriors. Nora discovers that Charlie's gruffness masks a deep passion for books and a painful personal history. Charlie realizes that Nora's tough exterior protects a woman who has spent her entire life putting everyone else first, especially her sister.
-
-But Nora has always been the supporting character in other people's stories, never the heroine. Learning to put herself first—to believe she deserves her own happy ending—might be the hardest thing she's ever done. Book Lovers is a smart, swoony love letter to the women who are usually cast as the villains, proving that the driven career woman absolutely deserves to be the star of her own love story.`,
+What if the driven, ambitious woman isn't the villain after all? What if she's been the heroine of her own story all along — and just needs someone grumpy enough to see it?`,
   characters: [
     { name: "Nora Stephens", role: "Protagonist, ambitious literary agent from New York" },
     { name: "Charlie Lastra", role: "Love interest, grumpy book editor" },

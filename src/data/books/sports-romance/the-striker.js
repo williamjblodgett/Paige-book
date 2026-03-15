@@ -7,17 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1018", "#180a18"],
   accentColor: "#2d8cf0",
-  synopsis: `Asher Donovan is the highest-paid striker in professional soccer, a ruthless competitor known as much for his devastating talent on the pitch as for his cold, calculating demeanor off it. He does not do relationships, emotions, or vulnerability. He has built an empire on discipline and detachment, and nothing threatens that fortress — until Scarlett DuBois walks into his life like a wrecking ball wrapped in designer clothing.
+  synopsis: `He is the highest-paid striker in professional soccer -- ice-cold, ruthlessly disciplined, and allergic to anything resembling human emotion. She is a rising fashion designer with a razor-sharp tongue and zero patience for arrogant athletes. When Asher Donovan and Scarlett DuBois discover they are neighbors in one of London's most exclusive buildings, the only thing they agree on is that they cannot stand each other.
 
-Scarlett DuBois is a fashion designer with a razor-sharp tongue and an equally sharp sense of style. She is ambitious, fiercely independent, and has zero interest in athletes, especially the arrogant striker who happens to be her new neighbor in an exclusive London building. Their first encounter is an all-out war of words, and from that moment, the battle lines are drawn.
+Every encounter is a battlefield. Every argument crackles with a tension that neither of them wants to name. And no matter how hard they try to avoid each other, London's glittering social scene keeps pulling them back into the same orbit.
 
-But London's elite social scene keeps throwing them together. Mutual friends, shared events, and their adjoining residences make avoidance impossible. Every encounter crackles with tension — heated arguments that leave them both breathless, accidental touches that linger too long, and a physical chemistry so intense it threatens to set their carefully controlled worlds on fire.
+Asher does not let people in. He has built his empire on control, and Scarlett is the one variable he cannot manage. She matches him blow for blow, sees through every wall he has constructed, and makes him want things that terrify him.
 
-Asher has spent his entire career converting his anger and ambition into goals on the pitch. Scarlett is the first person to match his intensity, to refuse to back down, to see through the cold exterior to the complicated man underneath. She is also the first person to make him want something he cannot control. Scarlett, meanwhile, discovers that beneath Asher's ruthlessness is someone who understands the cost of building yourself from nothing — because she has done the same.
+Scarlett did not claw her way to success just to lose herself in a man -- especially one as infuriating as Asher Donovan. But beneath the cold exterior, she recognizes something dangerously familiar: someone who built themselves from nothing and is terrified of losing it all.
 
-As their relationship evolves from enemies to something far more dangerous, both must confront the walls they have built. Asher's fear of vulnerability threatens to destroy the best thing that has ever happened to him. Scarlett's determination to never depend on anyone clashes with her growing need for a man she was never supposed to want. When Asher's past and career pressures collide with their fragile new reality, they must decide if love is worth the risk of letting their walls come down.
-
-Ana Huang delivers a scorching enemies-to-lovers romance with her signature blend of sharp dialogue, emotional depth, and a hero who is ice-cold to the world but burning for one woman.`,
+Two self-made forces collide in this sizzling enemies-to-lovers romance where the only thing more combustible than their arguments is the heat between them.`,
   characters: [
     { name: "Asher Donovan", role: "The highest-paid striker in professional soccer, known for ruthless talent and cold detachment. He has built his life on discipline, but Scarlett is the first person to crack his carefully maintained fortress." },
     { name: "Scarlett DuBois", role: "A fashion designer with a razor-sharp tongue who matches Asher's intensity at every turn. Fiercely independent and self-made, she refuses to back down from the arrogant striker or let herself depend on anyone." },

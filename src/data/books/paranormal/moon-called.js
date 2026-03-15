@@ -7,15 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1a0f", "#0a0f0c"],
   accentColor: "#1e8a5f",
-  synopsis: `Mercedes "Mercy" Thompson is a walker — a Native American shapeshifter who can transform into a coyote. In a world where werewolves, vampires, and fae exist alongside humans, Mercy occupies a unique and precarious position. She is not a werewolf, not a vampire, not human — she is something else entirely, which makes her both underestimated and uniquely valuable. By day, she runs a Volkswagen repair shop in the Tri-Cities area of Washington State. By night, she navigates a supernatural landscape where politics can be as deadly as fangs.
+  synopsis: `Mechanic by day. Coyote shapeshifter by night. Trouble magnet around the clock.
 
-Mercy's life has always been complicated by her connection to the local werewolf pack, particularly its Alpha, Adam Hauptman, who happens to be her next-door neighbor. Their relationship is a slow-burning tension — Adam is possessive, dominant, and has made it clear that he considers Mercy his, a claim she resists with characteristic stubbornness. She was raised among werewolves but never accepted as one of them, and she values her independence fiercely.
+Mercedes "Mercy" Thompson fixes Volkswagens in the Tri-Cities of Washington State and minds her own business — or tries to. Being a walker, a rare Native American shapeshifter, in a world crawling with werewolves, vampires, and fae means keeping your head down and your nose clean. Mercy answers to no pack, no master, and no one. Especially not Adam Hauptman, the infuriatingly possessive werewolf Alpha who lives next door and has made it very clear he considers her his.
 
-When a teenage werewolf shows up at her door seeking help, Mercy is drawn into a conspiracy that threatens both the local pack and the fragile peace between supernatural factions. Someone is experimenting on werewolves, creating newly turned wolves who are violent and uncontrollable. The investigation takes Mercy from her small-town garage to the heart of werewolf politics, where the Marrok — the ruler of all North American werewolves — holds court.
+Then a bloodied, terrified teenage werewolf stumbles into her shop, and Mercy's quiet life detonates.
 
-Mercy's investigation forces her to rely on allies she would rather avoid and confront enemies who underestimate her at their peril. Her coyote form and her walker abilities give her advantages that werewolves do not expect, and her mechanical skills prove surprisingly useful in a world that runs on brute force. As she uncovers the conspiracy, Mercy must navigate the dangerous territory between werewolf packs, government agencies becoming aware of the supernatural, and her own complicated feelings for Adam.
+Someone is experimenting on werewolves — creating monsters that cannot be controlled. The trail leads into a web of supernatural politics, shadowy government interest, and enemies far more powerful than one coyote shifter should be tangling with. But every predator in the room keeps making the same mistake: underestimating the woman who is smaller, weaker, and absolutely refuses to play by their rules.
 
-Moon Called introduces one of urban fantasy's most beloved heroines — a woman who fixes cars, shifts into a coyote, and holds her own in a world of monsters by being smarter, faster, and more resourceful than anyone expects.`,
+Smart, stubborn, and armed with coyote instincts and a wrench, Mercy Thompson is about to prove that in a world full of apex predators, the most dangerous creature is the one nobody sees coming.`,
   characters: [
     { name: "Mercedes 'Mercy' Thompson", role: "A walker who can shift into a coyote, running a VW repair shop while navigating supernatural politics. Independent, resourceful, and underestimated by everyone, which she uses to her advantage." },
     { name: "Adam Hauptman", role: "The Alpha of the local werewolf pack and Mercy's next-door neighbor. Possessive, dominant, and genuinely protective, his slow-burning tension with Mercy is complicated by their different positions in the supernatural hierarchy." },

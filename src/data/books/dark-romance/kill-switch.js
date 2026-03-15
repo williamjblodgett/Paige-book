@@ -7,15 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#8b1a1a",
-  synopsis: `Winter Ashby made the worst possible enemy when she helped send Damon Torrance to prison. She knew he was guilty -- knew he was dangerous -- and thought that three years behind bars would either cool his rage or buy her enough time to disappear. She was wrong on both counts. Prison did not diminish Damon; it sharpened him. Every day locked away was another day to plan, to obsess, and to prepare for the moment he would be free to make Winter's world collapse around her.
+  synopsis: `Winter Ashby helped send Damon Torrance to prison. She thought three years behind bars would cool his rage -- or at least buy her enough time to disappear.
 
-The story unfolds through dual timelines, revealing how Damon and Winter first crossed paths when they were young. Damon has been fascinated with Winter since childhood, drawn to her in ways that blur the line between obsession and something deeper. Winter, who is blind, navigated their early encounters with a quiet strength that both infuriated and captivated Damon. Their past is a tangled web of moments both tender and terrifying, showing how two broken people became inextricably bound to each other long before prison and betrayal drove them apart.
+She was wrong on both counts.
 
-In the present, Damon returns from prison with a calculated plan to dismantle Winter's entire support system. He targets her father first, removing the one person who stood between him and the Ashby women. With Winter's father gone, she, her sister, and her mother are left vulnerable and desperate -- exactly where Damon wants them. But his cruelest move is yet to come: rather than breaking into their lives as an outsider, Damon positions himself as the new man of the house, obtaining access and authority over the family through manipulation and intimidation. He has all the keys, and Winter has nowhere to run.
+Prison did not diminish Damon. It sharpened him. Now he is out, and he has not come for a conversation. He has come for everything -- dismantling Winter's world piece by piece until she has nowhere to run and no one to turn to.
 
-Yet Winter is not the fragile victim Damon expects to find. Her blindness has forced her to develop extraordinary senses and an iron will that refuses to bend even under Damon's relentless pressure. She knows how to handle him in ways no one else can -- meeting his darkness with her own quiet ferocity. As Damon tightens his grip on her world, Winter pushes back, refusing to break, and their volatile dynamic shifts into something neither anticipated.
+But Winter is not the fragile victim he expects. Blind since birth, she has spent her life sharpening senses most people never develop and forging a will that does not bend. She knows Damon better than anyone alive -- his cruelty, his obsession, the terrifying tenderness he only shows when he thinks no one is watching.
 
-What begins as a campaign of revenge and control evolves into a devastating exploration of what happens when two people who should destroy each other discover they might be the only ones who truly understand the other. Damon's possessiveness over Winter intensifies into something fiercely protective, while Winter must decide whether the monster at her door is also the only person who has ever truly seen her.`,
+Their history stretches back to childhood, tangled with moments both devastating and achingly tender. Two broken people bound by something that has never had a name -- something that blurs the line between destruction and devotion.
+
+He wants to own her world. She wants to survive it. And neither is prepared for what happens when obsession becomes the only honest thing between them.`,
   characters: [
     {
       name: "Damon Torrance",

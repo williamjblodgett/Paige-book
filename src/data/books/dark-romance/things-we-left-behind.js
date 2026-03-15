@@ -8,13 +8,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0d0a0a", "#2a1818"],
   accentColor: "#c42a2a",
-  synopsis: `Lucian Rollins is the most powerful man no one in Knockemout wants to claim. A self-made billionaire with a brutal childhood, Lucian left the small town behind years ago and never looked back—except when it comes to Sloane Walton. The fiery librarian with a sharp tongue and zero tolerance for his arrogance has been under his skin since they were teenagers, and no amount of money, success, or distance has been able to purge her from his system.
+  synopsis: `Lucian Rollins left Knockemout a long time ago. He built an empire, amassed a fortune, and became the kind of man people fear. But no amount of money or power has been able to do the one thing he needs most: get Sloane Walton out of his system.
 
-Sloane Walton has spent years perfecting the art of hating Lucian Rollins. He's cold, calculating, and represents everything she despises about people who use power as a weapon. Their history is complicated—a friendship that ended in betrayal when they were young, leaving scars that neither has healed. Every time Lucian returns to Knockemout, their encounters combust into arguments that feel suspiciously like foreplay. She'd rather eat glass than admit she finds him attractive.
+Sloane is Knockemout's fiery librarian, and she has spent years perfecting the art of hating Lucian Rollins. He's cold, calculating, and represents everything she despises. Their history is a minefield — a teenage friendship that ended in betrayal, leaving scars neither has healed. Every time he returns to town, their encounters combust into arguments that feel suspiciously like something else entirely.
 
-When a crisis in Knockemout forces them into close quarters, the thin veneer of hatred begins to crack. A threat targeting Sloane brings out a side of Lucian that terrifies everyone around him—a ruthless, obsessive protectiveness that reveals exactly how much the billionaire has been hiding behind his cold exterior. He doesn't just want to protect Sloane; he wants to destroy anyone who looks at her wrong. The depth of his obsession, carefully contained for over a decade, finally breaks free.
+She'd rather eat glass than admit she finds him attractive. He'd rather burn his empire to the ground than let anyone hurt her.
 
-But Lucian's past is catching up with him. The trauma of his childhood, the secrets he's kept to protect Sloane, and the enemies he's made on his climb to the top all converge in a collision that threatens to destroy everything. Sloane must reconcile the monster she thought she knew with the man who has been silently watching over her for years. And Lucian must face the truth he's been running from: that the only thing more terrifying than letting Sloane in is the thought of living without her.`,
+When a threat descends on Knockemout and puts Sloane directly in the crosshairs, the mask Lucian has worn for a decade finally slips. What's underneath isn't cold at all — it's an obsessive, terrifying protectiveness that reveals exactly how long this man has been watching, waiting, and wanting.
+
+But Lucian's past is darker than Sloane knows. And the secrets he's kept to protect her might be the very things that tear them apart.`,
   characters: [
     { name: "Lucian Rollins", role: "A self-made billionaire with a brutal childhood who has been obsessively watching over Sloane Walton for years. Cold and calculating on the surface, he hides a devastating depth of feeling." },
     { name: "Sloane Walton", role: "Knockemout's fiery librarian who has perfected the art of hating Lucian. Her sharp tongue masks unresolved feelings from their complicated teenage history." },

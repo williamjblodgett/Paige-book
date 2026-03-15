@@ -7,13 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1a10", "#0a1018"],
   accentColor: "#2d6b4f",
-  synopsis: `Malakai "Kai" Rhodes is the star pitcher of the Chicago Windy Warriors baseball team, but his greatest challenge isn't on the mound — it's at home. A year ago, a woman from a past fling showed up with a six-month-old baby boy and told Kai she didn't want to be a mother anymore. Since then, Kai has been struggling to balance single fatherhood with his demanding baseball career, and every nanny he's hired has quit before the season ends.
+  synopsis: `Malakai "Kai" Rhodes is Chicago's star pitcher with a fastball that could set records — and a personal life that's falling apart. Since becoming a single dad to fifteen-month-old Max, every nanny he's hired has quit before the season's halfway mark. He's exhausted, overwhelmed, and running out of options.
 
-Enter Miller Montgomery, an award-winning pastry chef and the daughter of Kai's head coach, Emmett "Monty" Montgomery. Burned out from years of restaurant consultancy work, Miller decides to spend the summer with her father. When Monty, tired of watching Kai's childcare situation implode, takes matters into his own hands and hires Miller as Kai's live-in nanny, neither Kai nor Miller sees it coming. Monty's reasoning is simple: she's the one person Kai can't fire.
+Enter Miller Montgomery — award-winning pastry chef, chronic wanderer, and the one person Kai absolutely cannot fall for. Because Miller isn't just the latest nanny candidate. She's his head coach's daughter.
 
-The arrangement is supposed to be purely professional, but living under the same roof with fifteen-month-old Max creates an intimacy neither can resist. Miller's warmth and adventurous spirit contrast with Kai's serious, parent-focused lifestyle, and watching her bond with his son makes Kai see her as far more than just a nanny. For Miller, Kai's devoted fatherhood and quiet strength show her what real priorities look like.
+When Coach Monty takes matters into his own hands and moves Miller into Kai's apartment for the summer, the arrangement comes with one unspoken rule: keep it professional. But between late-night bottle feedings, stolen kitchen conversations, and watching Miller light up his son's world, Kai is finding that rule harder to follow with every passing day.
 
-But their growing feelings carry enormous risk. Kai is falling for his coach's daughter — a line that could destroy his career and the most important professional relationship in his life. Miller knows their summer arrangement is temporary, and she's terrified of getting attached to both a man and a child she might have to leave. As the baseball season progresses, Kai and Miller must decide whether their love is worth the fallout, or if getting caught up in each other was the most beautiful mistake they ever made.`,
+Miller came home to escape burnout, not to fall for a brooding athlete with a baby on his hip and a smile he saves just for her. But there's something about the way Kai loves his son — fierce, quiet, all-in — that makes her want to stay.
+
+The only problem? Getting caught could cost Kai everything. His career. His coach's trust. And the family he's only just begun to build.`,
   characters: [
     { name: "Malakai Rhodes", role: "Star pitcher for the Chicago Windy Warriors and a devoted single father to fifteen-month-old Max. A year ago, he was handed a baby by a woman who didn't want to be a mother. He's serious, responsible, and terrified of failing his son while trying to maintain his baseball career." },
     { name: "Miller Montgomery", role: "An award-winning pastry chef burned out from years of restaurant consultancy. She's the daughter of Kai's head coach and becomes Max's nanny for the summer. Her warmth, creativity, and adventurous spirit bring joy and stability to Kai and Max's world." },

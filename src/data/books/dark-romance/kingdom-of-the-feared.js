@@ -8,13 +8,13 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#100a20", "#2d1550"],
   accentColor: "#c42a2a",
-  synopsis: `Emilia di Carlo has journeyed through Hell and back—literally—and the final battle for her heart, her identity, and the fate of two realms is about to begin. Armed with the truth about her heritage and the full scope of her devastating powers, Emilia is no longer the naive Sicilian witch who summoned a demon prince out of desperation. She is something far more powerful, far more dangerous, and far more conflicted.
+  synopsis: `Emilia di Carlo is no longer the naive Sicilian witch who summoned a demon prince out of desperation. Armed with the truth about her heritage and the full scope of her devastating powers, she faces the final battle for the fate of two realms.
 
-Wrath, the demon prince who has been her reluctant ally, fierce protector, and forbidden temptation, finally reveals the full depth of his secrets—and his feelings. The walls between them crumble as Emilia confronts the reality that the demon she was taught to fear may be the one being in any realm who sees her completely. Their relationship ignites with an intensity that shakes the foundations of the Seven Circles, and the other demon princes take notice.
+Wrath has finally dropped his walls -- revealing secrets and feelings that change everything between them. Their bond ignites with an intensity that shakes the Seven Circles. But Vittoria's machinations are far from over. Emilia's twin has her own agenda, one that threatens to plunge both the human and demon worlds into catastrophic war. The sisters find themselves on opposite sides of an ancient conflict, their twin bond twisted into a weapon as dangerous as any magic.
 
-But Vittoria's machinations are far from over. Emilia's twin has her own agenda, one that threatens to plunge both the human and demon worlds into catastrophic war. The sisters find themselves on opposite sides of an ancient conflict, their twin bond twisted into a weapon as dangerous as any magic. Emilia must reconcile her love for her sister with the terrible things Vittoria has done—and is willing to do.
+The prophecy that has haunted Emilia since the beginning is about to reveal its full meaning. Old alliances fracture. New enemies emerge. And Emilia must embrace every part of herself -- witch, queen, lover, warrior -- to forge a future worth fighting for.
 
-The prophecy that has haunted Emilia since the beginning finally reveals its full meaning, and the truth is more earth-shattering than anyone predicted. Old alliances fracture, new ones form in the most unlikely places, and Emilia discovers that the line between goddess and monster is thinner than she ever imagined. As war looms and the realms teeter on the edge of destruction, Emilia must embrace every part of herself—witch, queen, lover, warrior—to forge a future worth fighting for. The kingdom of the feared isn't Hell. It's the one ruled by a woman who has finally stopped being afraid.`,
+The kingdom of the feared is not Hell. It is the one ruled by a woman who has finally stopped being afraid.`,
   characters: [
     { name: "Emilia di Carlo", role: "Now fully aware of her true heritage and immense power, she faces the final battle for the fate of two realms while embracing her identity as far more than a simple witch." },
     { name: "Wrath", role: "The demon prince who finally drops all pretense and reveals the full depth of his feelings for Emilia, standing beside her as war threatens both realms." },

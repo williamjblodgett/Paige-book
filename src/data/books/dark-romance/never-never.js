@@ -7,13 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a1a", "#2a1a3a"],
   accentColor: "#c42a2a",
-  synopsis: `Charlie Wynwood and Silas Nash have been inseparable since childhood—neighbors, best friends, and eventually high school sweethearts destined for a perfect life together. But one morning, everything shatters. Charlie wakes up in class with absolutely no memory of who she is, where she is, or why she's there. Across campus, Silas experiences the exact same terrifying phenomenon. Neither of them recognizes the other, their families, their friends, or even their own reflections.
+  synopsis: `Charlie Wynwood and Silas Nash wake up one morning with no memory of who they are. Not each other. Not their families. Not even their own names.
 
-As they piece together the fragments of their former lives, they discover unsettling truths. Charlie's father is in prison for financial crimes that devastated both their families. The Nash and Wynwood families, once close as kin, are now bitter enemies. Charlie and Silas's relationship had apparently deteriorated into something toxic and painful in the months before the memory loss. Through journals, text messages, and photographs, they begin to reconstruct a love story that went terribly wrong.
+They were childhood sweethearts -- inseparable since they were kids, destined for a perfect future together. But as they piece together the fragments of the lives they cannot remember, what they find is anything but perfect. Their families are now bitter enemies. Their relationship had turned toxic. And the love story they are trying to reconstruct went devastatingly wrong long before their memories vanished.
 
-But the mystery deepens when the memory loss happens again. Every forty-eight hours, their memories reset completely, forcing them to start from scratch each time. They develop a frantic system of letters and notes to their future selves, racing against an impossible clock to understand why this is happening. Each reset strips away another layer, and each rediscovery brings them closer to a truth that challenges everything they thought they knew about love, identity, and fate.
+Then it happens again. Every forty-eight hours, their minds reset completely -- wiping everything, forcing them to start from nothing. Desperate and running out of time, they begin writing letters to their future selves, racing against an impossible clock to solve a mystery that erases itself before they can finish.
 
-The deeper they dig, the more they realize that the key to breaking the cycle lies not in understanding what happened to them, but in confronting the people they had become. Their love story isn't just a romance—it's a reckoning. Charlie and Silas must choose whether to fight for the love they keep rediscovering or accept that some things are better left forgotten. The answer lies in a truth neither of them expects, one that transforms their understanding of forgiveness, second chances, and the power of love to transcend even the most impossible circumstances.`,
+Each reset strips away another layer. Each rediscovery pulls them closer together -- and closer to a truth neither of them expects. Because the key to breaking the cycle may not lie in understanding what happened to them. It may lie in confronting who they had become.
+
+Some love stories are about falling. This one is about remembering why you fell in the first place.`,
   characters: [
     { name: "Charlie Wynwood", role: "A high school senior who wakes up with no memory of her identity. Once privileged and popular, she discovers her family has fallen from grace and her relationship with Silas had become toxic." },
     { name: "Silas Nash", role: "Charlie's childhood sweetheart who loses his memory simultaneously. Determined and resourceful, he leads the effort to solve the mystery of their memory resets." },

@@ -7,13 +7,19 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a08", "#0a1018"],
   accentColor: "#e85d3a",
-  synopsis: `Ryan Shay is one of the most famous athletes in the country — the newly appointed captain of the Chicago Devils basketball team. But fame has made him a recluse who barely leaves his apartment, guarded and distrustful of anyone who might want something from him. The last thing he needs is a messy, emotional roommate disrupting his carefully controlled world.
+  synopsis: `Ryan Shay doesn't do people. As the newly appointed captain of the Chicago Devils, he's one of the most famous athletes in the country — and one of the most closed-off. His apartment is spotless, his routine is sacred, and the walls he's built around himself are designed to keep everyone out.
 
-Indigo "Indy" Ivers is the head flight attendant for the Chicago Raptors, fresh off a devastating breakup after catching her boyfriend cheating. When Stevie Shay — Indy's best friend and Ryan's twin sister — asks if Indy can crash at Ryan's place to save money for fertility treatments, neither Ryan nor Indy is thrilled about the arrangement. She's messy where he's meticulous, emotional where he's stoic, and everything about her threatens to upend his careful routines.
+Then Indigo Ivers shows up with a suitcase and a broken heart.
 
-But when Ryan's General Manager criticizes him as an unapproachable lone wolf unfit for the captaincy, Ryan sees an opportunity in his unwanted roommate. He proposes a deal: Indy pretends to be his loving girlfriend to soften his public image, and in return, he'll be her date to a wedding where all her childhood friends — including her cheating ex-boyfriend — will be in attendance. Having a celebrity ex-hero of her ex as her date sounds like the perfect revenge.
+Indy is his twin sister's best friend — warm, chaotic, and freshly devastated after catching her boyfriend cheating. When Stevie arranges for Indy to crash at Ryan's place, neither of them is happy about it. She's messy where he's meticulous. Emotional where he's stone-cold. And everything about her threatens to upend the controlled existence he's built to protect himself.
 
-What starts as a mutually beneficial arrangement quickly blurs into something neither of them planned. Living together makes it almost impossible to separate what's real from what's performed. Indy, an incurable romantic, can't help fantasizing that Ryan will change his stance on love, while Ryan, who insists he doesn't believe in it, finds himself doing things for Indy that go far beyond their deal. The question becomes whether sharing a roof with her best friend's brother was the right move — or the best mistake she ever made.`,
+But Ryan has a problem: his GM thinks he's an unapproachable lone wolf, and his captaincy is on the line. So he proposes a deal. Indy pretends to be his adoring girlfriend to fix his public image. In return, he'll be her date to the wedding where her cheating ex will be watching.
+
+It's a simple arrangement. Clean. Professional. Temporary.
+
+Except nothing about living with Indy is simple. And the lines between performance and reality are getting blurrier with every shared morning, every late-night conversation, and every look that lasts a beat too long.
+
+Was moving in together the right move — or the most beautiful mistake either of them has ever made?`,
   characters: [
     { name: "Ryan Shay", role: "The captain of the Chicago Devils basketball team and one of the most famous athletes in America. Stevie's twin brother, he's private, controlling of his space, and distrustful of others. His grumpy exterior hides a deeply caring man who doesn't believe in love — until Indy." },
     { name: "Indigo Ivers", role: "The head flight attendant for the Chicago Raptors and Stevie's best friend. A warm, emotional romantic who is saving for fertility treatments due to family health concerns. She brings chaos and sunshine into Ryan's controlled world." },

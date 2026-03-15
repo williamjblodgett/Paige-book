@@ -8,15 +8,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0505", "#350a0a"],
   accentColor: "#c42a2a",
-  synopsis: `Sibel "Sibby" Dubois travels the country with Satan's Affair, a traveling Halloween carnival and haunted house attraction. But beneath the jump scares and fake blood lies something far more sinister: Sibby lives inside the walls of the haunted house, and she uses it as a hunting ground. To Sibby, good people smell like flowers, while demons smell like rotting eggs. During operating hours, she watches from behind the walls, identifying the wicked men who enter. After hours, she lures them deeper into the attraction where her henchmen help her incapacitate and kill them. Each town brings new victims for Sibby and her crew to judge and execute.
+  synopsis: `Satan's Affair is not your average traveling carnival.
 
-Sibby's backstory reveals the darkness that forged her. She was born into a religious sex cult run by her father, who abused her and manipulated everyone around him with lies and false piety. Sibby does not even know her own age because of the isolation she endured. She watched her mother slowly fade under the weight of the cult's horrors before witnessing her suicide. In the aftermath, Sibby killed her father and fled, eventually finding refuge with Satan's Affair and her henchmen: Mortis, Cronus, Baine, Timothy, and Jackal. Each of them carries their own scars from childhood trauma, including starvation, abandonment, and sexual abuse. Together, they form a vigilante family bound by shared suffering and a mission to destroy predators.
+Behind the screams and fake blood of its haunted house attraction lives Sibel "Sibby" Dubois -- a young woman forged in unspeakable darkness who has found purpose among the cobwebs and coffins. To Sibby, the world divides cleanly in two: good people smell like flowers, and demons reek of rot. She is always watching from the walls, waiting for the ones who smell wrong.
 
-The story takes a pivotal turn when one night, multiple evil men enter the haunted house simultaneously, overwhelming Sibby's usual method of taking targets one at a time. A mysterious stranger named Zade appears and helps her kill the men, displaying a lethal competence that both intrigues and unsettles Sibby. Zade offers to help her flee when police begin closing in, but Sibby refuses to leave her henchmen behind, demonstrating her fierce loyalty to her found family. Zade disappears into the night, leaving a lasting impression.
+Her henchmen are her family, her protectors, and her partners in a bloody crusade against predators. Together, they deliver a very different kind of justice after the lights go out.
 
-As Sibby and her henchmen flee, they are involved in a devastating accident. After recovering, Sibby finds herself locked in a mental health facility. The doctors reveal a shattering truth: Sibby suffers from schizophrenia, and her beloved henchmen were hallucinations produced by her own fractured mind. The people she killed were real, but the companions she thought were beside her never existed. The novella ends with one of her henchmen appearing before her in her room, urging her to kill the doctor so they can escape together, leaving the reader to wonder whether Sibby will ever be free of the voices that both haunt and comfort her.
+But one night, the darkness brings something Sibby did not expect: a mysterious stranger named Zade, whose lethal skill and magnetic presence leave her shaken in ways she cannot explain. And when the law begins closing in, Sibby is forced to run -- setting off a chain of events that will shatter everything she believes about her world, her family, and herself.
 
-This prequel novella to the Cat and Mouse Duet introduces Sibby, who becomes a beloved supporting character in Hunting Adeline. It also provides the first appearance of Zade Meadows before his role as Adeline's stalker, connecting the storylines of the broader universe.`,
+Nothing in this haunted house is what it seems. Not even Sibby.`,
   characters: [
     {
       name: "Sibel 'Sibby' Dubois",

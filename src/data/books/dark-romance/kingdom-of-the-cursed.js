@@ -8,13 +8,13 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0e0a1e", "#251545"],
   accentColor: "#c42a2a",
-  synopsis: `After the shocking revelations at the end of Kingdom of the Wicked, Emilia di Carlo finds herself in the last place she ever expected—the underworld, specifically House Wrath, the domain of the demon prince she's been reluctantly allied with. She came to the Seven Circles willingly, striking a bargain with Wrath to find Vittoria's killer, but the demon realm is nothing like she imagined. It's a place of dark beauty and deadly politics, where every smile hides a blade and every kindness comes with a price.
+  synopsis: `Emilia di Carlo has entered the underworld willingly -- striking a bargain with the demon prince Wrath to find her twin sister's killer. But the Seven Circles are nothing like she imagined. Every smile hides a blade. Every kindness comes with a price. And seven demon princes each have their own agenda regarding the prophecy that seems to revolve around her.
 
-Emilia must navigate the treacherous court of the demon princes while keeping her wits—and her heart—intact. Each of the seven princes rules their own circle, and each has their own agenda regarding the prophecy that seems to revolve around Emilia. Pride, the eldest and most powerful, watches from the shadows. Envy extends offers of alliance that feel more like traps. And Wrath himself remains an enigma—protective one moment, coldly distant the next, clearly hiding secrets that could change everything.
+Pride watches from the shadows. Envy extends offers of alliance that feel more like traps. And Wrath himself remains an enigma -- protective one moment, coldly distant the next, clearly hiding secrets that could change everything Emilia believes about herself.
 
-As Emilia investigates her sister's murder from within the demon realm, she discovers that the truth is layered in deception. Vittoria may not be as dead as everyone believes, and the conspiracy surrounding her fate reaches into the highest echelons of both the witch and demon worlds. Emilia's own powers are evolving in ways that frighten her, awakening abilities that hint at a heritage far more complex than simple witch blood.
+The deeper she investigates Vittoria's murder, the more the truth fractures. Her sister's fate may not be what it seemed. Her own powers are evolving in ways that frighten her, awakening abilities that hint at a heritage far more complex than simple witch blood.
 
-The tension between Emilia and Wrath reaches a breaking point as trust becomes the most dangerous commodity in a realm built on lies. Political machinations, forbidden magic, and the ever-present threat of war between the realms force Emilia to make impossible choices. She must decide how far she's willing to go for the truth, what she's willing to sacrifice for revenge, and whether the demon prince who infuriates her might also be the one she's destined to love.`,
+In a realm built on lies, trust is the most dangerous commodity. And Emilia is beginning to suspect that the demon prince who infuriates her knows far more about her destiny than he is willing to reveal.`,
   characters: [
     { name: "Emilia di Carlo", role: "A witch navigating the demon underworld to find her sister's killer. Her powers are evolving beyond what any witch should possess, hinting at a deeper heritage." },
     { name: "Wrath", role: "The demon prince whose domain Emilia resides in. Protective yet secretive, he guards truths about Emilia's destiny while fighting his growing feelings for her." },

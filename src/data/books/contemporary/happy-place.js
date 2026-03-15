@@ -7,15 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#a8dadc", "#457b9d"],
   accentColor: "#c45b84",
-  synopsis: `Harriet Kilpatrick and Wyn Connor were the perfect couple. College sweethearts who fit together seamlessly, they were the golden pair in their tight-knit friend group. Their annual week-long vacation to a cottage in Knott's Harbor, Maine, was the highlight of everyone's year—a sacred tradition that bonded six friends together through the chaos of adult life.
+  synopsis: `They broke up six months ago. Nobody knows.
 
-But Harriet and Wyn broke up six months ago, and they haven't told anyone. Not their friends, not their families—nobody. The split was quiet and devastating, and neither of them has been able to face the fallout of announcing it to the people who loved them as a unit.
+Harriet and Wyn were the golden couple — college sweethearts, the pair everyone envied, the ones who made love look effortless. Every year, they joined their closest friends for a week at a cottage in Knott's Harbor, Maine. It was tradition. It was sacred. It was the happiest place on earth.
 
-Now it's vacation week again, and their friends have a special announcement: this is the last trip to the cottage, which is being sold. It's supposed to be a meaningful goodbye, a celebration of their years of friendship and tradition. The last thing Harriet and Wyn want to do is ruin it with their breakup news. So they make a desperate decision: they'll pretend they're still together for one final week.
+But this year, their friends have news: the cottage is being sold. This is the last trip. And Harriet and Wyn would rather fake an entire relationship for a week than ruin their friends' farewell.
 
-What follows is an exquisitely awkward exercise in forced proximity. Sharing a bedroom, holding hands in front of friends, and performing the choreography of a couple who knows each other intimately—all while nursing broken hearts. As the days pass and old memories resurface, Harriet and Wyn are forced to confront why they really fell apart.
+What follows is an exquisitely painful charade. Sharing a bedroom. Holding hands at dinner. Performing the intimate choreography of a couple who once knew each other better than anyone — while nursing the broken hearts they're hiding from everyone, including maybe themselves.
 
-Harriet, a surgical resident who has spent her life following the plan she thought would make her happy, begins to question whether she's been living for herself or for everyone else's expectations. Wyn, a laid-back carpenter who walked away from his own ambitions, must reckon with the walls he built around his heart. Happy Place is an aching, tender exploration of what happens when the life you planned and the life you want turn out to be two very different things.`,
+But a week of pretending has a way of dredging up everything they've been avoiding. The memories. The inside jokes. The reasons they fell in love in the first place — and the reasons they fell apart. As the line between performance and feeling blurs with every passing day, one devastating question rises to the surface:
+
+Did they actually fall out of love? Or did they just lose their way?`,
   characters: [
     { name: "Harriet Kilpatrick", role: "Protagonist, surgical resident who follows the plan" },
     { name: "Wyn Connor", role: "Love interest, laid-back carpenter and Harriet's ex" },

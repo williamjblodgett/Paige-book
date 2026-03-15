@@ -8,15 +8,19 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0505", "#350a0a"],
   accentColor: "#c42a2a",
-  synopsis: `Sawyer Bennett is a woman on the run. After killing her abusive stepfather Kevin in self-defense, she has survived as a fugitive by stealing identities and constantly moving to stay hidden. When a distant relative spots her at an airport, she is forced to change her flight and ends up in Port Valen, Australia, where she buys a van and tries to disappear once again. At a local bar, she meets Enzo Vitale, an enigmatic Italian shark researcher and oceanographer. Using a fake name and a fabricated story about her family dying in a car accident, Sawyer seduces Enzo, and they spend the night together. In the morning, she steals his identity and opens a credit card in his name before vanishing.
+  synopsis: `She stole his identity. He tracked her down. Now neither of them can escape.
 
-Weeks later, Enzo tracks Sawyer down. Rather than reporting her to the police, he is intent on making her pay personally. He forces her onto his research boat, but a violent storm catches them off guard and shipwrecks them on a remote, desolate island. Their only shelter is an old, decommissioned lighthouse maintained by Sylvester, an elderly caretaker with a peg leg who tells them the supply ship only comes once a month and his radio is broken. Stranded and unable to trust their host, Enzo and Sawyer are forced into an uneasy alliance despite their mutual animosity.
+Sawyer Bennett is a woman on the run -- no real name, no home, surviving on stolen identities and borrowed time. When she meets Enzo Vitale, an enigmatic Italian shark researcher, in a coastal Australian bar, she does what she always does: lies, takes what she needs, and vanishes by morning.
 
-Strange and terrifying things begin happening in the lighthouse. Unexplained sounds echo through the halls, chains rattle in the walls, and the atmosphere grows increasingly sinister. Sawyer follows the sounds and discovers a hidden door behind a bookcase. Behind it, she finds a staircase leading to the beacon room where Kacey, Sylvester's younger daughter, is chained with her mouth sewn shut. Kacey reveals through written communication that Sylvester murdered her sister Raven after their other sister Trinity committed suicide, and has kept Kacey prisoner in the lighthouse for years.
+But Enzo is not the kind of man who lets things go. When he finds her again, he does not call the police. He wants to make her pay. Personally.
 
-The horror escalates as Sylvester returns armed and dangerous. Enzo confronts him while Sawyer desperately tries to use a radio in the beacon room to call for help. Kacey, psychologically broken by years of captivity, attacks Sawyer out of twisted loyalty to her father. In the ensuing chaos, Sawyer stabs Sylvester and is knocked unconscious. They ultimately survive the ordeal and are rescued.
+Then a violent storm shipwrecks them on a desolate island, and revenge becomes the least of their problems.
 
-Back in Australia, the aftermath is complicated. Police are suspicious of Enzo, and Sawyer gives them a letter explaining that Kevin abused her, she killed him in self-defense, and she regrets the identity theft she resorted to for survival. Evidence emerges that Kevin abused other women, vindicating Sawyer. Through their shared trauma, Enzo and Sawyer have found love, safety, and healing in each other. The story ends with their marriage, living together in Enzo's home and working side by side at V.O.R.S., his marine research organization.`,
+Their only shelter is a crumbling lighthouse kept by an old man with a peg leg and a smile that does not reach his eyes. The supply ship will not return for a month. The radio is broken. And something is very, very wrong inside these walls. Strange sounds bleed through the stone at night. Doors that should not exist lead to rooms that should not be occupied. The longer they stay, the more certain Sawyer becomes: the island is keeping secrets far more terrifying than her own.
+
+Stranded with a man who despises her, trapped in a place that wants to swallow them whole, Sawyer must face a horrifying truth -- the most dangerous thing on this island might not be the darkness hiding in the lighthouse.
+
+It might be the feelings she cannot outrun.`,
   characters: [
     {
       name: "Sawyer Bennett",

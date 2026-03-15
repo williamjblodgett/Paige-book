@@ -8,13 +8,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a1a", "#3d1135"],
   accentColor: "#8b1a4a",
-  synopsis: `In the dark, sensual world of Katee Robert's Wicked Villains series—where classic fairy tales are twisted into erotic BDSM romances—Learn My Lesson reimagines Disney's Hercules as a scorching polyamorous love story set in the depths of an underground sex club. Hades rules the Underworld, a notorious establishment where power, pleasure, and pain intertwine. At his side is Meg, his Queen—a woman who holds her own in a world of dominance and submission, navigating her role as both partner and leader.
+  synopsis: `Hades rules the Underworld -- and at his side is Meg, his Queen. Their relationship was once unshakeable. Now, secrets and unspoken desires are pulling them apart.
 
-Their relationship, once unshakeable, is fraying at the edges. Secrets and unspoken desires have created fissures that neither Hades nor Meg knows how to repair. Enter Hercules—Herc—a naive but emotionally open-hearted waiter who stumbles into the Underworld with the earnest belief that he can rescue Meg from Hades' clutches. He sees a woman in captivity and positions himself as her hero, not understanding that Meg chose this life and that her relationship with Hades is far more complex than it appears.
+Then Hercules walks in.
 
-What Herc discovers is that Meg doesn't need saving—she needs honesty. And what Hades discovers is that the earnest intruder might be exactly what their relationship needs to heal. As the three circle each other in the charged atmosphere of the sex club, old assumptions crumble. Herc's openness cracks Hades' dark exterior, Meg's vulnerability finds new outlets with a man who doesn't demand she be strong, and Hades confronts the possibility that sharing Meg isn't a weakness but an evolution.
+Earnest, open-hearted, and completely out of his depth, Herc stumbles into the darkest club in the city convinced he is there to rescue a woman in chains. What he does not understand is that Meg chose this life. She is no one's captive. And Hades is no one's villain.
 
-The journey from suspicion to trust is neither smooth nor simple. Betrayals surface as hidden motives are revealed, and a confrontation with Zeus—a powerful figure who looms over all their lives—forces the trio to decide what they're willing to sacrifice for each other. Learn My Lesson is a character-driven exploration of how love expands rather than divides, proving that sometimes the lesson you need to learn is that desire doesn't follow rules—and neither does the heart.`,
+But Herc sees the cracks they have been hiding from each other. His warmth disarms Hades. His tenderness undoes Meg. And in the charged atmosphere of the Underworld, the impossible begins to feel inevitable -- three people drawn together by a desire none of them can explain and none of them can resist.
+
+He is too soft for their world. They are too dark for his. And powerful forces beyond the Underworld's walls are watching, waiting for the perfect moment to tear them apart.
+
+In this scorching reimagining of Hercules, love does not divide. It expands. And desire has never followed the rules.`,
   characters: [
     { name: "Hades", role: "The enigmatic ruler of the Underworld sex club, torn between vengeance and love. His relationship with Meg is fraying, and the arrival of Hercules forces him to confront whether sharing power—and love—is a strength rather than a weakness." },
     { name: "Megaera (Meg)", role: "Hades' Queen and a formidable woman navigating the complex dynamics of power and submission. She holds the title of Queen in the Underworld and must reconcile her emotional vulnerabilities with her role alongside Hades." },

@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1508", "#0a0808"],
   accentColor: "#c9a84c",
-  synopsis: `Sam Brennan is the eldest son of the Brennan crime family — and he is exactly what his name does not suggest. There is nothing wholesome or approachable about Sam. He is calculating, amoral, and possesses a darkness that goes beyond the requirements of his family's criminal enterprise. He enjoys the violence. He relishes the control. And he makes no apologies for the monster he has become. Unlike his brothers, who wrestle with the moral weight of their world, Sam has made peace with his nature. He is a monster, and he is comfortable with that.
+  synopsis: `Sam Brennan is not an anti-hero. He does not wrestle with the darkness. He enjoys it.
 
-Aisling Fitzpatrick is the daughter of a rival family — a woman raised in the same criminal world but with a fundamentally different relationship to it. Where Sam embraces the darkness, Aisling endures it. She is sharp, brave, and carrying wounds from a life where women are weapons and daughters are leverage. She has learned to survive by being smarter than the men around her, and she has no illusions about what the world expects from her.
+The eldest son of the Brennan crime family, Sam is calculating, amoral, and utterly at peace with the monster he has become. He relishes the violence, thrives on the control, and makes no apologies. Where other men in his world pretend to be honorable, Sam does not bother with the lie.
 
-When a shifting power dynamic forces the Brennan and Fitzpatrick families into an uneasy alliance, Sam and Aisling are thrown together in a partnership neither wants. Sam views Aisling as a tool — useful, expendable, and certainly not someone who should affect him. Aisling views Sam as the most dangerous kind of predator — one who does not pretend to be anything other than what he is.
+Aisling Fitzpatrick knows exactly what he is. The daughter of a rival crime family, she has survived by being sharper and smarter than every dangerous man around her. She has no illusions. No fairy tales. And when a shifting power dynamic throws her into an uneasy alliance with Sam, she sees him for the predator he is.
 
-But proximity reveals uncomfortable truths. Sam discovers that Aisling's intelligence and fearlessness are not just attractive — they are the only things that have ever made him feel something other than predatory pleasure. Aisling discovers that Sam's honesty about his nature, while terrifying, is more trustworthy than the false honor other men in their world profess. He does not pretend to be good. He does not promise redemption. He offers exactly what he is, and the choice is hers.
+He views her as a tool — useful and expendable. She views him as the most dangerous man she has ever met.
 
-Their relationship is not a redemption arc. Sam does not become a better man — he becomes a man with something to protect, which makes him infinitely more dangerous. Monster is an unflinching dark romance about a man who refuses to apologize for what he is and the woman who chooses him anyway — not because she can fix him, but because she does not need to.`,
+They are both wrong.
+
+Sam discovers that Aisling's intelligence and fearlessness are the only things that have ever made him feel something beyond predatory pleasure. Aisling discovers that Sam's brutal honesty about his nature is more trustworthy than every false promise of honor she has ever been sold. He does not pretend to be good. He does not offer redemption. He offers exactly what he is.
+
+This is not a story about a monster who learns to be a man. It is a story about a woman who looks at the monster clearly — and chooses him anyway.`,
   characters: [
     { name: "Sam Brennan", role: "The eldest Brennan son who has made peace with his monstrous nature. Unlike anti-heroes who struggle with their darkness, Sam embraces it — making his genuine feelings for Aisling all the more shocking and dangerous." },
     { name: "Aisling Fitzpatrick", role: "The daughter of a rival crime family, sharp and brave, who survives by being smarter than the men around her. She chooses Sam not to fix him but because his honesty about what he is proves more trustworthy than others' false honor." }

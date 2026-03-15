@@ -7,13 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1a0808", "#0a0a18"],
   accentColor: "#e85d3a",
-  synopsis: `Liam Zander is Formula 1's golden boy — best friends with Noah Slade, one of the best drivers in the world, and beloved by fans everywhere. But the polished public image hides a man who is nothing but a fraud, someone who has buried his true self beneath layers of expectation and performance. When Sophie Mitchell enters his orbit, everything he thought he knew about keeping the world at a safe distance begins to unravel.
+  synopsis: `Sophie Mitchell has spent her whole life following her father's rules. As the daughter of Bandini's team principal, she's been the dutiful girl — studying accounting, suppressing her creative side, and never causing trouble. But this season, Sophie is done playing it safe. She has a list. A reckless, exhilarating, absolutely forbidden bucket list of everything she's been too afraid to try.
 
-Sophie Mitchell is the daughter of James Mitchell, the team principal of the Bandini racing team — which makes her absolutely off-limits for any driver on the grid. She's lived a sheltered and restrained life, always doing what makes her father happy ever since her mother left when she was young. She's suppressed her creative side and her desire for adventure in favor of studying accounting and being the dutiful daughter.
+Liam Zander is Formula 1's golden boy — charming, beloved, and hiding behind a persona so polished that even he's forgotten who he really is underneath. When he discovers Sophie's list, he makes her an offer: he'll help her complete every item on it.
 
-When Sophie decides she's had enough of playing it safe, she creates a "Fuck It" list — a bucket list of adventures and experiences she's been too afraid to try. She convinces her father to let her visit during the F1 season, but he agrees only if she follows his rules, the most important being: stay away from the racers. Enter Liam, who discovers the list and offers to help her complete every item on it.
+There's one rule they cannot break. Sophie's father controls Liam's career. If he finds out his daughter is spending time with any driver on the grid, Liam is finished. Their secret deal must stay exactly that — secret.
 
-Their deal must remain secret, as Sophie's father would end Liam's career on the spot. What starts as a friendship built on shared adventures and witty banter evolves into friends with benefits, and then into something neither can deny. As they travel the globe together during the F1 season, Liam begins to let down his walls while Sophie discovers the courage to stand up for herself and chase her true passions. But with Liam's career hanging in the balance and Sophie's relationship with her father at stake, they must decide if their love is worth the collision course they're on.`,
+But as they chase adventures across the globe during the F1 season, the friendship between them deepens into something neither planned. Liam starts letting his guard down. Sophie starts finding her voice. And the line between helping each other and falling for each other disappears entirely.
+
+With Liam's career on one side and Sophie's relationship with her father on the other, they're hurtling toward a collision that could cost them everything. The only question is whether what they've found together is worth the crash.`,
   characters: [
     { name: "Liam Zander", role: "F1's golden boy and Noah Slade's best friend. Charming and beloved publicly, he hides behind a false persona to avoid genuine connection. His journey involves learning to drop the act and embrace vulnerability through his relationship with Sophie." },
     { name: "Sophie Mitchell", role: "The sheltered daughter of Bandini's team principal who has spent her life suppressing her desires to please her father. Her 'Fuck It' list becomes a journey of self-discovery as Liam helps her experience the life she's been too afraid to live." },

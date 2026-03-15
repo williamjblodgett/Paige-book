@@ -8,13 +8,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0810", "#1e1830"],
   accentColor: "#c42a2a",
-  synopsis: `Nash Morgan was always the golden brother—the responsible one, the chief of police, the man everyone in Knockemout could depend on. Then he took a bullet to the head, and the man who woke up in that hospital bed isn't quite the same. The easygoing charm is gone, replaced by explosive anger, crippling headaches, and a darkness that scares him more than the gunman who nearly killed him. Nash is broken, and he's determined to suffer alone.
+  synopsis: `Nash Morgan used to be the golden brother — Knockemout's chief of police, the man everyone depended on. Then he took a bullet to the head, and the man who woke up in that hospital bed isn't the same. The easy smile is gone. In its place: explosive anger, crippling headaches, and a darkness that terrifies him. Nash is broken, and he's determined to suffer alone.
 
-Angelina "Lina" Solavita is a U.S. Marshal with a mission, a sharp tongue, and absolutely zero patience for brooding men who refuse to help themselves. She arrives in Knockemout on assignment, tracking a dangerous fugitive connected to the same case that put a bullet in Nash's skull. She needs information from the stubborn chief of police. What she doesn't need is the inconvenient attraction to the damaged man who looks at her like she's both his salvation and his destruction.
+Angelina "Lina" Solavita is a U.S. Marshal with a sharp tongue, a dangerous assignment, and zero patience for brooding men who refuse to help themselves. She's in Knockemout tracking a fugitive, and she needs the stubborn chief of police to cooperate. What she doesn't need is the inconvenient, combustible attraction to a damaged man who looks at her like she's both his salvation and his undoing.
 
-Their connection is combustible from the first moment. Nash, even diminished, is fiercely protective and utterly magnetic. Lina is lethal, independent, and hiding vulnerabilities of her own beneath her tough-as-nails exterior. He pushes her away; she pushes right back. She makes him want to fight—not just for recovery, but for something worth recovering for.
+He pushes her away. She pushes right back.
 
-But the fugitive Lina is hunting is closing in, and Nash's shooting wasn't random—it's connected to a larger conspiracy that threatens the entire town. As the danger escalates, Nash must confront the trauma that's eating him alive or risk losing everything: his badge, his town, and the infuriating woman who refuses to let him self-destruct. Meanwhile, Lina faces her own reckoning—falling for a target's local contact was never part of the plan, and her bosses won't look kindly on personal entanglements. In a town full of secrets and a relationship forged in gunpowder and stubbornness, Nash and Lina discover that the things we hide from the light have a way of finding us anyway.`,
+Nash is fiercely protective even at his lowest. Lina is lethal and independent, hiding her own wounds beneath armor just as thick as his. Together they're a volatile, magnetic collision — the kind that either burns out or burns everything else down.
+
+But the danger that put Nash in that hospital bed isn't finished with Knockemout. And Lina's assignment is getting more complicated by the day — especially now that the line between professional and personal has disappeared entirely.
+
+The things we hide from the light have a way of finding us anyway.`,
   characters: [
     { name: "Nash Morgan", role: "Knockemout's chief of police recovering from a gunshot wound to the head. Once the golden brother, he now battles darkness, anger, and trauma he's determined to face alone." },
     { name: "Angelina 'Lina' Solavita", role: "A tough U.S. Marshal tracking a dangerous fugitive in Knockemout. Sharp and fearless, she refuses to let Nash push her away despite the complications." },

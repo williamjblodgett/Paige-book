@@ -7,15 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#130a0e", "#1a0a0f"],
   accentColor: "#e85d3a",
-  synopsis: `Giulio Ferrante is not a good man. He is the enforcer for one of Italy's most powerful crime families — a man whose hands have dealt violence without hesitation and whose reputation makes grown men tremble. He operates in a world of blood and loyalty, where weakness is a death sentence and emotion is a liability he cannot afford. He has accepted this life and the solitude it demands. Then he sees her.
+  synopsis: `Giulio Ferrante is not a good man. As the enforcer for one of Italy's most powerful crime families, his hands have dealt violence without hesitation and his reputation makes grown men tremble. In his world, emotion is a liability and weakness is a death sentence.
 
-Frankie is American, vibrant, and completely out of her element in the dangerous world of Italian organized crime. She has come to Italy under circumstances that place her directly in the path of men like Giulio — men who take what they want and do not ask permission. Frankie is not supposed to matter to Giulio. She is supposed to be a complication at best, leverage at worst. But from the moment their eyes meet, something inside Giulio fractures.
+Then he sees her.
 
-His obsession with Frankie is immediate, consuming, and terrifying — not because she does not want him, but because wanting her makes him vulnerable in a world that punishes vulnerability with blood. Giulio is possessive to his core, watching over Frankie with an intensity that borders on feral. He will burn the world to keep her safe, and he is not speaking metaphorically.
+Frankie is American, vibrant, and completely out of her element in the deadly underworld of Italian organized crime. She was never supposed to matter — a complication at best, leverage at worst. But from the moment their eyes meet, something inside Giulio fractures.
 
-Frankie, for her part, is drawn to Giulio despite every survival instinct screaming at her to run. He is dangerous, controlling, and exists in a world that could swallow her whole. But he is also fiercely protective, brutally honest, and looks at her as if she is the only thing in the world worth saving. Their chemistry is incendiary — encounters that blur the line between danger and desire, where every touch is both a promise and a threat.
+His obsession is immediate, consuming, and terrifying. Not because she does not want him — but because wanting her makes him vulnerable in a world that punishes vulnerability with blood. He is possessive to his core, watching over her with a ferocity that borders on feral.
 
-As enemies close in and loyalties are tested, Giulio must decide if he can protect Frankie without dragging her into the darkness that defines him. Frankie must decide if she can love a man whose world is built on violence and still keep hold of who she is. Sweetest Kill is a darkly intoxicating romance about finding tenderness in the most brutal of worlds.`,
+Frankie knows she should run. Every survival instinct says so. But Giulio is also fiercely protective, brutally honest, and looks at her as if she is the only thing worth saving in a world built on destruction. Every touch between them is both a promise and a threat.
+
+As enemies close in and loyalties are tested, one question remains: Can a man forged in darkness protect the light without extinguishing it? And can Frankie love a man whose world runs on violence without losing herself in the flames?`,
   characters: [
     { name: "Giulio Ferrante", role: "An enforcer for a powerful Italian crime family whose reputation for violence makes him feared by all. His immediate, consuming obsession with Frankie makes him vulnerable in a world that punishes weakness with death." },
     { name: "Frankie", role: "An American woman out of her element in Italy's criminal underworld. Vibrant and resilient, she is drawn to Giulio despite the danger he represents, recognizing the fierce protectiveness beneath his violent exterior." }

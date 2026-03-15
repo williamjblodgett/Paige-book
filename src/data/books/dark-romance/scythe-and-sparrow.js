@@ -8,13 +8,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a0a", "#4a1a1a"],
   accentColor: "#c42a2a",
-  synopsis: `Fionn Kane is the last of the Kane brothers to find love, and his path to it is the bloodiest of them all. A hitman with a reputation for ruthless efficiency, Fionn has spent years building walls around himself, channeling his darkness into his work and keeping everyone—even his brothers Rowan and Lachlan—at arm's length. But when a job goes sideways and he finds himself saddled with an unexpected witness, everything changes.
+  synopsis: `Fionn Kane is the Scythe -- a hitman who is lethal, efficient, and utterly alone. He does not do complications. He does not leave loose ends. And he definitely does not fall for witnesses.
 
-Wren Delacroix never asked to be in the wrong place at the wrong time. A wildlife rehabilitator who spends her days nursing injured birds back to health, she stumbles into Fionn's world of violence when she witnesses a kill she was never meant to see. Now she's a loose end, and Fionn doesn't leave loose ends. But something about the stubborn, sharp-tongued woman who refuses to cower before him stays his hand.
+Wren Delacroix is a wildlife rehabilitator who spends her days nursing injured birds back to health. She is gentle, stubborn, and absolutely should not have been in that alley at that moment. But she was, and now she has seen something she cannot unsee.
 
-Forced into close quarters as Fionn tries to figure out what to do with her, the tension between them becomes unbearable. Wren sees past the cold exterior to the man beneath—someone who is fiercely protective, deeply loyal, and desperately lonely. Fionn, in turn, is captivated by her fearlessness, her compassion for broken creatures, and her refusal to see him as the monster he believes himself to be.
+Fionn should eliminate the problem. That is what he does. But something about the sharp-tongued woman who refuses to cower before a killer stays his hand. Forced into close quarters while danger closes in, Fionn discovers that Wren sees past the cold exterior to something he buried long ago. She looks at him like he is not a monster.
 
-But danger follows Fionn everywhere, and keeping Wren alive means confronting enemies who won't stop until both of them are dead. As the body count rises and the stakes grow impossibly high, Fionn must decide whether to push Wren away to protect her or pull her closer and fight for the life he never thought he deserved. With Rowan and Sloane, Lachlan and Lark rallying around them, the Kane family proves that love forged in darkness can burn the brightest of all.`,
+That terrifies him more than any enemy ever could.
+
+With a target on both their backs, Fionn faces an impossible choice: push Wren away to keep her safe, or pull her closer and fight for a life he never believed he deserved.`,
   characters: [
     { name: "Fionn Kane", role: "The youngest Kane brother, a lethal hitman who hides his loneliness behind cold efficiency. He meets his match in Wren, the one witness he can't bring himself to eliminate." },
     { name: "Wren Delacroix", role: "A wildlife rehabilitator who accidentally witnesses one of Fionn's kills. Fearless and compassionate, she sees through his walls and refuses to treat him as a monster." },

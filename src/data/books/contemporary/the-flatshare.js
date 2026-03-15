@@ -7,15 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#84ceeb", "#5680e9"],
   accentColor: "#c45b84",
-  synopsis: `Tiffy Moore needs a cheap place to live after a messy breakup. Leon Twomey needs extra cash to fund his campaign to free his wrongly imprisoned brother. The solution? They'll share Leon's one-bedroom apartment. The catch? They'll share the same bed. They just won't ever be in it at the same time.
+  synopsis: `Tiffy Moore needs a cheap place to live. Leon Twomey needs extra cash. The solution is unusual: they will share a one-bedroom apartment — and the same bed. They just will never be in it at the same time.
 
-Leon works the night shift at a hospice, so he has the apartment during the day. Tiffy works a normal schedule at a quirky publishing house, so she gets the flat at night. They'll never have to meet—communicating only through Post-it notes left around the apartment on the fridge, the bathroom mirror, and stuck to the kettle.
+Leon works nights at a hospice; Tiffy works days at a quirky publishing house. They will never have to meet. Their only communication: Post-it notes stuck to the fridge, the bathroom mirror, and the kettle.
 
-What begins as a practical arrangement between strangers slowly evolves into something warm and intimate. Through their colorful Post-it note exchanges, Tiffy and Leon develop a connection that neither expected. She leaves him leftover meals and wild stories about her eccentric coworkers. He leaves her thoughtful responses and gentle observations about the apartment's evolving decor (Tiffy has a tendency to fill every surface with craft projects and bright colors).
+But something unexpected happens between the sticky notes. Tiffy leaves Leon leftover meals and wild stories about her eccentric coworkers. Leon leaves her thoughtful responses and dry observations about the ever-growing mountain of craft projects taking over every surface. What starts as practical communication between strangers becomes the most honest conversation either of them has had in years.
 
-As they gradually learn more about each other through notes, texts, and the occasional accidental meeting, both Tiffy and Leon are dealing with their own struggles. Tiffy is slowly realizing that her ex-boyfriend Justin was emotionally manipulative and controlling, and the effects of that relationship still haunt her daily. Leon is consumed by the legal battle to prove his brother Richie's innocence, carrying the weight of his family's pain on his quiet shoulders.
+There is just one problem — or rather, two. Tiffy is only beginning to recognize that her last relationship was not love but control, and the damage runs deeper than she wants to admit. Leon is quietly consumed by a fight to save someone he loves, carrying a weight he refuses to share. Both are broken in ways they have not fully faced.
 
-The Flatshare is a charming, inventive romance about two people who build an extraordinary connection without ever being in the same room. It's a story about healing, trust, and the unexpected ways love finds you—sometimes through a sticky note on a coffee mug.`,
+Can two people build something real through notes on a coffee mug, without ever being in the same room? And what happens when they finally are?`,
   characters: [
     { name: "Tiffy Moore", role: "Protagonist, colorful publishing assistant who takes the flat at night" },
     { name: "Leon Twomey", role: "Love interest, quiet night-shift hospice worker who takes the flat by day" },

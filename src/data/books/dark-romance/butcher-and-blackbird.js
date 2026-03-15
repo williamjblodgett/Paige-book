@@ -8,13 +8,19 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0808", "#3d1111"],
   accentColor: "#c42a2a",
-  synopsis: `Sloane Sutherland, known in certain circles as the "Orb Weaver," is a scientist by day and a vigilante serial killer by night—one who exclusively targets other serial killers. When she finds herself trapped in a cage alongside the corpse of her latest target, Albert Briscoe, starving after three days without food, she's discovered by the last person she expected: Rowan Kane, the infamous "Boston Butcher," who shares her unusual hobby of hunting society's worst predators.
+  synopsis: `Sloane Sutherland has a secret hobby: she hunts serial killers. By day she is a scientist. By night she is the methodical vigilante known as the Orb Weaver. So when she finds herself trapped in a cage beside her latest target's corpse, starving after three days, the last person she expects to open the door is a man who shares her unusual pastime.
 
-Over lunch, Rowan proposes an irresistible competition: each year, they'll race to eliminate a chosen target, with the ultimate prize being the chance to take down the elusive "Forest Phantom." Rowan's brother Lachlan orchestrates the game, sending them clues that lead to their targets across the country. In West Virginia, they uncover a sinister innkeeper named Francis who has been disappearing hikers. In California, they stumble upon Thorsten Harris, a cannibal whose lobotomized servant David serves unsuspecting guests human flesh. In Texas, they face Harvey Mead, a chainsaw-wielding killer whose mummified mother becomes Sloane's improvised weapon when Harvey dies of a heart attack during their confrontation.
+Rowan Kane -- the infamous Boston Butcher, a chef whose skill with a blade extends well beyond the kitchen -- has a proposition. An annual competition: each year they will race to eliminate a chosen serial killer in a different city, with the ultimate prize being the chance to take down the elusive Forest Phantom.
 
-What begins as a darkly comedic rivalry between two people with very particular skill sets slowly transforms into something neither expected. Sloane is a scientist who dissects problems with clinical precision; Rowan is a chef who channels his intensity into both his cooking and his kills. He nicknames her "Blackbird" after her dark hair and the song she was singing when he found her. As the competition takes them across America, the banter sharpens, the tension builds, and the walls they've built around themselves begin to crumble.
+The rules are simple. The attraction is not.
 
-Sloane eventually moves to Boston to be with Rowan, who opens a restaurant named Butcher & Blackbird in honor of their unlikely love story. Overwhelmed by wedding planning, Sloane escapes to a spa resort with her friend Lark, only for Rowan to surprise her by suggesting they marry immediately. They wed in an intimate ceremony with Lachlan walking Sloane down the aisle—a found family forged in the most unconventional circumstances imaginable.`,
+She is clinical precision. He is raw intensity. She keeps score. He keeps cooking her dinner. With every kill, the banter sharpens, the tension builds, and the walls they have spent their entire lives constructing begin to crumble.
+
+From sinister innkeepers to cannibal dinner parties to chainsaw-wielding maniacs, their competition takes them on a blood-soaked road trip across America. But somewhere between the murder and the flirting -- and there is so much of both -- the game stops feeling like a game.
+
+The real question is not who will win. It is whether two people who have built their lives around death can find something worth living for in each other.
+
+Dark. Funny. Romantic. Absolutely unhinged.`,
   characters: [
     { name: "Sloane Sutherland", role: "A scientist and vigilante serial killer known as the Orb Weaver who exclusively targets other serial killers. Sharp, clinical, and darkly funny, she meets her match in Rowan when he discovers her trapped in a cage with her latest victim." },
     { name: "Rowan Kane", role: "A chef and serial killer known as the Boston Butcher who hunts predators. He proposes the annual killing competition to Sloane and falls hard for the woman he nicknames Blackbird, eventually opening a restaurant in her honor." },

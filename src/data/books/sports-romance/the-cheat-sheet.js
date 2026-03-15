@@ -7,17 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1018", "#1a0e15"],
   accentColor: "#2d8cf0",
-  synopsis: `Bree Camden and Nathan Donelson have been best friends since childhood. Nathan is now one of the biggest NFL quarterbacks in the country — famous, wealthy, and adored by millions. Bree is a dance studio owner who is barely scraping by financially but rich in the things that matter: passion, loyalty, and an unwavering friendship with the man she has secretly been in love with for years.
+  synopsis: `Bree Camden has three rules when it comes to Nathan Donelson: no flirting, no lingering glances, and absolutely no imagining what it would be like if her NFL quarterback best friend saw her as something more. The rules have kept her heart intact for years. She is not about to break them now.
 
-Bree has rules. Strict, carefully maintained rules designed to keep her feelings hidden and their friendship intact. She does not flirt with Nathan. She does not let her gaze linger. She does not think about what it would be like if he saw her as more than his quirky best friend. And she absolutely, under no circumstances, lets Nathan find out that she is drowning in debt while he lives in a mansion. Her pride will not allow it.
+But when a paparazzi photo sends the tabloids into a frenzy, their well-meaning friends come up with the worst idea in the history of ideas -- fake date each other to put the rumors to rest.
 
-But Nathan has a secret of his own — he has been in love with Bree for just as long. He has not acted on his feelings because he is terrified of losing the most important person in his life. So they exist in an agonizing holding pattern of mutual pining, both convinced the other sees them as just a friend.
+Suddenly Nathan is holding her hand, pulling her close, and looking at her like she hung the stars. And Bree is discovering that her carefully constructed rules are no match for a man who knows her better than anyone alive.
 
-Everything changes when a nosy reporter publishes a photo of them together, sparking rumors that they are dating. Instead of denying it, their friends hatch a plan: Bree and Nathan should pretend to date. The logic is that fake dating will either force them to confront their feelings or prove once and for all that they are just friends. What it actually does is demolish every carefully constructed wall between them.
+The thing about pretending to fall for your best friend? It is only pretending if the feelings are not already there.
 
-Suddenly, Nathan is holding her hand in public, wrapping his arm around her waist, and looking at her in a way that makes it impossible to remember the rules. Bree discovers that fake-dating your best friend when you are genuinely in love with him is a special kind of torture. The tension escalates through every staged date, accidental intimate moment, and jealous reaction until both must finally face the truth — their friendship has always been something more, and the only people they were fooling were themselves.
-
-The Cheat Sheet is a joyful, heartwarming rom-com that proves the scariest leap of faith is the one you take with the person who has been standing beside you all along.`,
+A hilarious, swoon-worthy romantic comedy about two best friends, one spectacularly bad plan, and the terrifying moment when the only thing left to risk is the truth. Perfect for fans of Emily Henry and anyone who has ever wondered what would happen if they crossed the line with the one person they cannot afford to lose.`,
   characters: [
     { name: "Bree Camden", role: "A dance studio owner who has been secretly in love with her best friend Nathan for years. Passionate, loyal, and fiercely proud, she hides both her feelings and her financial struggles behind humor and strict self-imposed rules." },
     { name: "Nathan Donelson", role: "A famous NFL quarterback who has been in love with Bree for just as long as she has loved him. Terrified of losing their friendship, he has never acted on his feelings — until a fake-dating scheme makes hiding impossible." },

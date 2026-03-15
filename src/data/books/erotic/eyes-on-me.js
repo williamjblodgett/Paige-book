@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0510", "#0f0308"],
   accentColor: "#c42a6b",
-  synopsis: `Garrett Porter is a voyeur, and in his line of work, that is a gift. As one of the co-owners of the Salacious Players' Club, he has built his life around watching — observing from the sidelines, comfortable in the shadows, never getting too close. Garrett tells himself this is a preference, but the truth is darker: years ago, something happened to him that made connection feel impossible, and watching became a way to experience intimacy without the terrifying vulnerability of participation. He has accepted his life on the margins. Until one night, scrolling through a cam girl app, he discovers a performer whose face and body stop him cold — because she is Mia Harris, his stepsister.
+  synopsis: `Garrett Porter has built his life around watching. As co-owner of an exclusive club, his preference for the shadows is an asset — but the truth behind it is darker than anyone knows.
 
-Mia is no longer the awkward teenager Garrett remembers. She is confident, sensual, and completely unaware that the anonymous viewer who keeps coming back to her feed is the stepbrother she despises. Garrett knows he should close the app and never return. Instead, he becomes her most devoted watcher, drawn in by the version of Mia she reveals to strangers — bold, uninhibited, and achingly real. When he recognizes the background of her stream as the family lake cabin, Garrett has an excuse to show up in person, and soon they are under the same roof during a family visit, the tension between them volcanic.
+Then one night, scrolling through a cam girl app, he sees a face that stops him cold. The confident, sensual woman on his screen is Mia Harris. His stepsister. The woman who cannot stand him.
 
-What follows is a forced-proximity battle of wills. Mia and Garrett have always clashed — she finds him cold and aloof; he finds her reckless and infuriating. But proximity strips away pretense. Mia begins to see the wounded man behind Garrett's detachment, and Garrett discovers that the woman on camera is even more captivating in person. Their dynamic shifts from enemies to something far more dangerous, complicated by the anonymous online connection Mia still does not know about.
+He should close the app. He should never come back. Instead, he becomes her most devoted anonymous viewer, drawn to a version of Mia she only reveals to strangers — bold, uninhibited, achingly real.
 
-Garrett is hiding a painful secret from his past that explains his difficulty connecting with people. When the truth finally surfaces, it is emotional and raw, touching on themes of depression, trauma, and the courage required to ask for help. Mia, meanwhile, carries her own quiet strength — the novel weaves in powerful themes of body positivity and self-acceptance as Mia learns to own her sexuality both on and off camera.
+When a family gathering forces them under the same roof, the tension between them turns volcanic. She has always found him cold and aloof. He has always found her reckless and infuriating. But proximity strips away pretense, and what simmers beneath their hostility is something far more dangerous than either expected.
 
-Eyes on Me is a scorching, emotionally layered forbidden romance that pairs Sara Cate's signature heat with genuine psychological depth. The voyeurism theme is not just titillation — it is the key to understanding a man who has spent his life watching because he was too afraid to live.`,
+Mia does not know her stepbrother is the anonymous man who watches her every night. Garrett cannot tell her without revealing just how deep his obsession runs. And with every stolen glance and charged encounter, the line between watching and wanting becomes impossible to hold.
+
+He is hiding more than his identity. She is braver than anyone gives her credit for. And the walls between them are about to come crashing down.
+
+What happens when the man who spent his life on the sidelines finally wants to participate?`,
   characters: [
     {
       name: "Garrett Porter",

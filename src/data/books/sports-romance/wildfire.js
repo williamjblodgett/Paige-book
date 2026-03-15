@@ -7,13 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a05", "#0a1018"],
   accentColor: "#2d8cf0",
-  synopsis: `Aurora Roberts and Russ Callaghan's story begins with a spark at an end-of-year college party at the University of California, Maple Hills. A drinking game leads to an unforgettable one-night stand, but Aurora slips away before morning, leaving Russ without even her full name. Both assume they'll never see each other again — until they show up on the same day as summer camp counselors, forced to spend the entire summer in close quarters.
+  synopsis: `It was supposed to be one night. One party. One unforgettable mistake.
 
-Both Aurora and Russ came to camp hoping to escape their complicated home lives. Russ is desperate to put distance between himself and the fallout of his father's crippling gambling addiction, which has thrown his family into financial and emotional turmoil. Aurora, tired of constantly craving attention and validation from those around her, wants to return to the one place she truly felt at home as a child — summer camp.
+When a drinking game at an end-of-year college party leads Aurora Roberts into the arms of a stranger, she does what she always does — slips away before sunrise without looking back. She doesn't leave her number. She barely leaves her name.
 
-Their reunion is awkward, made worse by the camp's strict "no staff fraternizing" rule. But the chemistry between them is undeniable, and despite the risk of being sent home, they can't fight their attraction. What begins as stolen glances and secret meetings blossoms into a full-blown clandestine romance, with both of them sneaking around to avoid detection by camp management.
+So when she shows up to her summer camp counselor job and finds Russ Callaghan already there — the same Russ from that night — the universe is clearly not done with them.
 
-As the summer progresses, Aurora and Russ become each other's safe harbor. They navigate their dysfunctional family situations with surprising maturity, drawing strength from one another while discovering their own paths forward. Through their relationship, both learn that vulnerability isn't weakness, that asking for help doesn't diminish their worth, and that sometimes the most transformative love is the kind that challenges you to grow. Their wildfire of a romance burns through every rule and every wall they've built.`,
+They've both come to camp to outrun something. Russ is escaping family chaos he can barely talk about. Aurora is chasing the only place she ever felt like she truly belonged. Neither of them planned on finding each other again.
+
+There's just one problem: the camp's strict no-fraternizing rule means getting caught together would send them both home. And with an entire summer of shared campfires, late-night cabin checks, and accidental run-ins stretching ahead of them, staying away from each other is going to take a willpower neither of them seems to have.
+
+Some fires you can contain. Others burn through every rule you've ever made.`,
   characters: [
     { name: "Aurora Roberts", role: "A Maple Hills student who struggles with needing validation and attention from others. She returns to summer camp seeking the sense of belonging she felt there as a child, and through her relationship with Russ learns to find confidence within herself." },
     { name: "Russ Callaghan", role: "A hockey player at UCMH dealing with the devastating consequences of his father's gambling addiction. He takes the counselor job to escape his family problems but discovers that running away isn't the same as healing." },

@@ -7,15 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1018", "#1a0d15"],
   accentColor: "#2d8cf0",
-  synopsis: `Adam Larsen is a professional hockey player whose world shatters in an instant when a vicious blindside hit during a game leaves him with a severe concussion. The injury is devastating — not just physically, but psychologically. Adam experiences debilitating headaches, light sensitivity, memory problems, and worst of all, the terrifying possibility that he may never play hockey again. Hockey has been his entire identity since childhood, and without it, he does not know who he is.
+  synopsis: `One hit changes everything. In a single devastating moment on the ice, professional hockey player Adam Larsen goes from star athlete to a man who cannot tolerate bright lights, who forgets words mid-sentence, and who faces the terrifying possibility that he may never play again. Hockey was his entire identity. Without it, he does not know who he is.
 
-Enter Etienne Brideau, a skilled physical therapist who specializes in neurological rehabilitation. Etienne is calm, professional, and quietly compassionate — everything Adam is not in his current state of frustrated, angry recovery. Adam is the worst kind of patient: impatient, combative, and convinced that sheer willpower can overcome a brain injury. Etienne refuses to let Adam bully his way through rehabilitation, insisting on proper protocols even when Adam rages against the slow pace of progress.
+Enter Etienne Brideau -- a physical therapist specializing in neurological rehabilitation who is calm, compassionate, and completely unfazed by Adam's fury. Because Adam is furious. He is the worst kind of patient: combative, impatient, and determined to bully his way through a brain injury on willpower alone.
 
-Their professional relationship is contentious from the start. Adam pushes boundaries constantly, and Etienne pushes back with quiet firmness. But beneath the conflict, a connection builds. Etienne sees past Adam's anger to the fear underneath — the terror of a man watching his life slip away. Adam discovers that Etienne carries his own burdens, including a previous relationship that left emotional scars and a family that does not fully accept his sexuality.
+Etienne refuses to let him.
 
-As Adam's recovery progresses through grueling therapy sessions, quiet conversations, and tentative trust, the line between patient and therapist begins to blur. Both men must confront what they are willing to risk. For Adam, it means accepting that vulnerability is not weakness and that his worth is not measured by what he can do on the ice. For Etienne, it means opening himself up to someone whose future is uncertain and whose world is one Adam might not be able to stay in.
+As grueling therapy sessions give way to quiet conversations and tentative trust, the line between professional care and personal connection begins to blur. Etienne sees past Adam's rage to the terrified man underneath. Adam discovers that his unshakable therapist carries wounds of his own -- scars from a past relationship and a family that has never fully accepted who he is.
 
-Blindside Hit is a tender, emotionally honest sports romance that explores identity, recovery, and the courage it takes to rebuild yourself — and to let someone help.`,
+But a patient falling for his therapist is a line neither should cross. Adam's future on the ice is uncertain, and Etienne has every reason to guard what is left of his heart. Can two broken men find healing in each other -- or will the risks destroy the fragile thing building between them?`,
   characters: [
     { name: "Adam Larsen", role: "A professional hockey player sidelined by a severe concussion from a blindside hit. Frustrated, angry, and terrified of losing his identity, he must learn that his worth extends beyond the ice." },
     { name: "Etienne Brideau", role: "A physical therapist specializing in neurological rehabilitation. Calm, professional, and quietly compassionate, he refuses to let Adam rush his recovery and becomes the steady presence Adam desperately needs." },

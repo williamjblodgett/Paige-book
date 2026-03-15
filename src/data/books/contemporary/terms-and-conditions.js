@@ -7,13 +7,17 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a0a18", "#1a0818"],
   accentColor: "#c45b84",
-  synopsis: `Declan Kane is the eldest of the three Kane brothers and the most ruthless businessman among them. His grandfather Brady's will stipulates that to become CEO of the Kane Company and claim his inheritance, Declan must marry and produce an heir. The problem? Declan is so cold, intimidating, and emotionally unavailable that no woman wants to be near him, let alone marry him. When his latest fiancee flees before their engagement announcement party, leaving him standing alone in front of Chicago's elite, Declan's carefully laid plans crumble.
+  synopsis: `Declan Kane is cold, ruthless, and terrifying — and those are his good qualities. As the eldest Kane brother, he needs a wife to claim his inheritance and become CEO. There is just one problem: his latest fiancee fled before the engagement party, leaving him humiliated in front of Chicago's elite.
 
-Enter Iris, Declan's endlessly patient and fiercely loyal executive assistant of three years. She's the one person who has never been scared off by his icy demeanor, the one who knows his schedule better than he does, and the one who steps onto that stage to save him from public humiliation by volunteering to be his wife. What follows is a marriage of convenience with meticulously drafted terms and conditions — rules designed to keep their arrangement strictly professional.
+Enter Iris — his endlessly patient executive assistant of three years and the only person on earth who is not afraid of him. When she steps onto that stage and volunteers to be his wife, Declan gets a lifeline he does not deserve. What follows is a marriage of convenience with meticulously drafted terms and conditions designed to keep everything strictly professional.
 
-But living together as husband and wife, even on paper, changes everything. The more time Declan and Iris spend pretending to be in love for the public eye, the harder it becomes to remember they're pretending. Iris sees through the armor Declan wears to protect himself from the trauma of his abusive upbringing, and Declan discovers that Iris is far more than the quiet assistant he took for granted. She challenges him, surprises him, and makes him want things he never thought he deserved.
+No feelings. No complications. No falling in love.
 
-Their deepening connection threatens the neat terms they established. Declan must confront whether he's capable of the vulnerability that real love demands, while Iris must decide if she can risk her heart on a man who has spent his entire life building walls. As corporate intrigue, family drama, and genuine emotion collide, both discover that the most important contract they'll ever sign is the one written on their hearts — no terms and conditions required.`,
+Simple enough — until they have to actually live together. Until the fake kisses for the cameras start feeling dangerously real. Until Iris begins to see the wounded man hiding behind Declan's impenetrable armor, and Declan realizes his quiet assistant is the most extraordinary person he has ever overlooked.
+
+Rule by rule, their carefully constructed terms start to crumble. But letting each other in means risking everything. Declan has spent a lifetime building walls to survive. Iris has spent three years being invisible. And the feelings growing between them were never part of the contract.
+
+Some agreements are made to be broken. But when billions of dollars and a broken heart are on the line, the fine print matters more than ever.`,
   characters: [
     { name: "Declan Kane", role: "The eldest Kane brother and aspiring CEO of the Kane Company. Cold, calculating, and terrifying to most people, he's a product of an abusive father and a world that taught him emotions are weakness. His slow transformation under Iris's influence is the story's emotional core." },
     { name: "Iris", role: "Declan's executive assistant of three years who volunteers to marry him when his fiancee flees. Patient, loyal, and quietly strong, she's the only person who isn't afraid of Declan. She sees the man behind the armor and challenges him to become more." },

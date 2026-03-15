@@ -7,15 +7,13 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#6b705c", "#ddbea9"],
   accentColor: "#c45b84",
-  synopsis: `Kenna Rowan is finally free. After serving five years in prison for a tragic mistake that resulted in the death of her boyfriend Scotty, she's returned to the town where it all happened with one goal: to be reunited with her four-year-old daughter, Diem, who has been raised by Scotty's parents since Kenna went away.
+  synopsis: `After five years in prison for a tragic mistake, Kenna Rowan has only one goal: to reunite with the daughter she has never been allowed to raise. Four-year-old Diem has been in the care of her late father's parents since Kenna went away, and they have no intention of letting Kenna back into her life.
 
-But the town hasn't forgotten, and it certainly hasn't forgiven. Scotty's parents want nothing to do with Kenna and have done everything in their power to keep Diem away from her. The local community has closed ranks around the grieving family, viewing Kenna as the villain who took a beloved young man from them. Everywhere she turns, doors slam shut.
+The town has not forgotten. It has not forgiven. Everywhere Kenna turns, she meets locked doors and hostile stares. To them, she is the woman who took a beloved young man from his family. She does not deserve a second chance — and she certainly does not deserve her daughter.
 
-The only person who doesn't seem to despise Kenna is Ledger Ward, the owner of a local bar and Scotty's best friend since childhood. Ledger knows he should keep his distance—getting involved with Kenna would mean betraying the family he's considered his own for years. But he sees something in her that others refuse to acknowledge: genuine remorse, fierce maternal love, and a determination to become the mother Diem deserves.
+The only person who does not look at Kenna with contempt is Ledger Ward — bar owner, pillar of the community, and her late boyfriend's best friend since childhood. Ledger knows that getting close to Kenna could cost him the family he has loved as his own for years. But he cannot ignore what he sees in her: genuine remorse, quiet strength, and a mother's love that five years behind bars could not diminish.
 
-As Kenna and Ledger are drawn to each other despite every reason to stay apart, they navigate an impossibly complicated web of loyalty, grief, and judgment. Kenna must prove she's changed while confronting the darkest chapter of her past. Ledger must choose between the family that raised him and the woman he's falling for. And both must reckon with the question of what people truly deserve—punishment or redemption.
-
-Reminders of Him is a devastating, hopeful novel about the long road to forgiveness, the fierce bond between a mother and child, and whether love can bloom in the most unforgiving soil. It asks readers to consider how much of a person's past should define their future.`,
+Falling for each other is the one thing neither of them can afford. Kenna must prove she has changed to a town determined to see her fail. Ledger must choose between loyalty and love. And both must answer the question no one else is willing to ask: does everyone deserve a chance at redemption?`,
   characters: [
     { name: "Kenna Rowan", role: "Protagonist, a mother recently released from prison seeking her daughter" },
     { name: "Ledger Ward", role: "Love interest, bar owner and best friend of Kenna's late boyfriend" },

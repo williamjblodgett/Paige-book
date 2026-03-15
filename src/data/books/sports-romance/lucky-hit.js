@@ -7,15 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1018", "#1a0a18"],
   accentColor: "#2d8cf0",
-  synopsis: `Oakley Hutton is a professional hockey player with a reputation for being reckless on and off the ice. He is cocky, impulsive, and allergic to commitment — the kind of guy who flashes a grin and expects the world to fall in line. He has the talent to be one of the best players in the league, but his antics have landed him in hot water with management more times than he can count. One more incident and his career could be over.
+  synopsis: `Oakley Hutton is one bad decision away from losing his hockey career. The talented but reckless player has been cocky, impulsive, and allergic to commitment for as long as anyone can remember -- and management has finally run out of patience. One more incident, and he is done.
 
-Ava Lancaster is his polar opposite. A single mother to her young daughter Gracie, Ava has spent years building a careful, controlled life. She works hard, puts her daughter first, and has no time or energy for reckless hockey players with reputations. When she crosses paths with Oakley through mutual connections, she is thoroughly unimpressed. He is everything she has trained herself to avoid — charming, unreliable, and far too attractive for his own good.
+Ava Lancaster does not have time for men like Oakley. As a single mother to her young daughter Gracie, she has built a careful, controlled life on the ashes of abandonment. Gracie's father walked out, and Ava learned the hardest lesson of her life: charm without reliability is worthless. So when the infuriatingly attractive hockey player shows up in her world, she is thoroughly, completely unimpressed.
 
-But Oakley is drawn to Ava in a way that surprises even him. She does not fawn over his fame or tolerate his nonsense, and her fierce devotion to Gracie awakens something he did not know he was missing. For the first time, he wants to be more than the reckless guy with a highlight reel. He wants to be someone worthy of the guarded woman who sees right through him.
+Which is exactly why Oakley cannot stay away.
 
-Ava's walls are high for good reason. Gracie's father left them, and she has learned the hard way that charm without reliability is worthless. Letting Oakley in means risking not just her heart but her daughter's as well. Yet Oakley proves surprisingly persistent — and surprisingly tender. He shows up for Gracie in small, genuine ways that have nothing to do with grand gestures and everything to do with consistency.
+Ava does not fawn over his fame. She does not tolerate his nonsense. And her fierce devotion to Gracie awakens something in him that no highlight reel ever could -- the desire to be someone worth believing in. For the first time, Oakley does not want to be the reckless guy with the grin. He wants to be the man who shows up.
 
-As Oakley fights to save his hockey career by cleaning up his act, he discovers that the discipline he needs on the ice mirrors what Ava needs from him off it. Their romance is a high-heat journey about growing up, stepping up, and learning that the best things in life are not about luck at all — they are about showing up every single day.`,
+But Ava's walls exist to protect more than just her own heart. Letting Oakley in means risking her daughter's happiness too, and that is a gamble she cannot afford to lose. Can a man who has never been reliable prove that the best things in life are not about luck -- they are about showing up every single day?`,
   characters: [
     { name: "Oakley Hutton", role: "A reckless professional hockey player whose career is on thin ice. Cocky and impulsive, he is forced to grow up when he falls for a single mother who demands more than charm and highlight reels." },
     { name: "Ava Lancaster", role: "A single mother to Gracie who has built a careful, controlled life after being abandoned by Gracie's father. She is guarded, practical, and refuses to risk her daughter's heart on an unreliable man." },

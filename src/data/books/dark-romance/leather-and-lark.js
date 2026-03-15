@@ -8,13 +8,19 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a0a", "#2d1a1a"],
   accentColor: "#c42a2a",
-  synopsis: `Lachlan Kane is an assassin who wants out. By day, he runs a leather studio; by night, he carries out contracts for his boss, Leander. When he tells Leander he wants to retire, the answer is simple: fix your biggest mistake first. That mistake? Stuffing Lark Montague—stepdaughter of powerful crime boss Damian Covaci—into the trunk of his car after a botched cleanup job a year ago. Lachlan didn't know who she was at the time; he just saw a careless woman who'd crashed her SUV into a reservoir, not realizing she'd deliberately killed a predatory man and called her stepdad's cleanup crew.
+  synopsis: `He is a grumpy, tattooed assassin desperate to leave the killing business behind. She is a sunshine indie musician whose smile could light up a stadium. They have absolutely nothing in common.
 
-Lark Montague is sunshine and glitter on the surface—an indie musician with a bright persona and devoted fanbase. Beneath that facade, she's a vigilante who kills predatory men, driven by past abuse. When she and Lachlan cross paths again at Rowan's restaurant opening (she's friends with Sloane), sparks fly on a private patio until Lark realizes he's the same man who traumatized her. She wants nothing to do with him.
+Except they have both taken lives. And now they are married.
 
-A year later, everything changes. Lark overhears her parents, Nina and Damian, discussing how their associates are being murdered. They suspect Lachlan is behind it and may kill him preemptively—which would put Rowan in danger too, since he'd seek revenge. Lark's Aunt Ethel hints at the only solution: marry Lachlan, because her parents would never harm her husband. At Sloane and Rowan's wedding, Lark explains the situation, and when Lachlan realizes his brother's life is at stake, they marry immediately.
+Lachlan Kane and Lark Montague's first encounter was a disaster -- one that left her traumatized and him unaware he had just crossed the most dangerous family in the city. When a lethal chain of consequences forces them into a marriage of convenience, the last thing either expects is to feel anything but hatred.
 
-Their marriage of convenience forces two people who despise each other into close quarters as they investigate who is really killing Damian's associates. A claustrophobia-triggering elevator incident reveals the depth of trauma Lachlan inflicted on Lark when they first met, and he's gutted by the realization. Meanwhile, Lachlan discovers Lark's stash of murder trophies, revealing her secret vigilante life. As their hate-to-love dynamic intensifies, the Forest Phantom—seeking revenge on Sloane and Rowan for killing his brother Harvey—targets Lark. After a harrowing kidnapping and rescue, Lachlan offers Lark divorce papers to respect her autonomy. She chooses to stay, and together they forge a partnership built on mutual darkness, understanding, and love.`,
+But hatred has a way of burning into something else entirely.
+
+Beneath Lark's glitter and sunshine hides a darkness that matches Lachlan's own. Beneath his brooding silence lives a man who would burn everything down for the people he loves. Forced into close quarters, they begin unraveling each other's most carefully guarded secrets -- and discovering they are far more alike than either ever imagined.
+
+Someone is hunting the people they care about. Trust is a luxury they cannot afford. And the chemistry between them is becoming impossible to deny.
+
+She is his sunshine. He is her shadow. Together, they might just be lethal.`,
   characters: [
     { name: "Lachlan Kane", role: "An assassin and leather studio owner desperate to retire from contract killing. Grumpy, emotionally guarded, and haunted by his past, he marries Lark in a marriage of convenience that forces him to confront his own capacity for tenderness." },
     { name: "Lark Montague", role: "An indie musician with a sunshine persona who secretly kills predatory men. Her claustrophobia and past trauma make her wary of Lachlan, but she discovers that beneath his gruff exterior lies a man willing to burn the world for her." },

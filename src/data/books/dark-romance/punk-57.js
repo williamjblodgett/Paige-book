@@ -7,15 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#d44a4a",
-  synopsis: `In fifth grade, a classroom assignment paired Misha Lare and Ryen Trevarrow as pen pals -- a mistake born from their teachers assuming they were the same gender based on their names. What should have been a short-lived school project became a lifelong connection. For years, Misha and Ryen wrote letters back and forth, developing a deep, intimate friendship governed by strict rules: no social media, no phone numbers, no photographs. They had no idea what the other looked like, but through ink on paper, they became each other's closest confidant and most honest mirror.
+  synopsis: `They have been writing to each other since fifth grade. No social media. No phone numbers. No photographs. Just letters -- raw, honest, and more intimate than anything either of them shares with the people in their daily lives. Misha and Ryen have never met. And yet they know each other better than anyone.
 
-There was no reason to ruin what they had -- until Misha stumbles across a photograph of Ryen online. Compelled to see the girl behind the letters in person, he tracks her down, only to discover a devastating contradiction. The Ryen he finds is nothing like the person he thought he knew. In her letters, she was thoughtful, humble, and fiercely authentic. In real life, she is the queen of her high school social hierarchy: a popular cheerleader who participates in the same shallow cruelty and bullying she always told Misha she despised. The dissonance between the Ryen on paper and the Ryen in person makes Misha feel as if he never knew her at all.
+Until Misha finds a photo of Ryen online and decides to see the girl behind the letters for himself.
 
-Then tragedy strikes. Misha's sister dies of a sudden heart attack, plunging him into grief and rage. He stops writing to Ryen without explanation, and in his anger and pain, he enrolls at her school under a fake name: Masen Laurent. His mission is complex -- partly to confront his mother, who works as the school's vice principal, and partly to test whether the real Ryen is the bully he witnessed or the thoughtful soul from her letters. As Masen, he is everything the school has never seen: rebellious, magnetic, and utterly unafraid to challenge the social order.
+What he discovers devastates him. The Ryen in her letters is thoughtful and fiercely real. The Ryen at school is the queen of a shallow social hierarchy -- a popular cheerleader who participates in the very cruelty she always told him she despised. The girl on paper and the girl in person are two different people.
 
-Masen targets Ryen specifically, confronting her hypocrisy, provoking her, and forcing her to face the gap between who she pretends to be and who she truly is. He gets under her skin in ways no one else can -- picking fights, challenging her in the library, and throwing punches at the boy she is dating. Meanwhile, Ryen is devastated by Misha's silence, having gone months without a letter from her best friend. A mysterious vandal begins leaving provocative messages scrawled on the school walls, and Ryen is both disturbed and fascinated by the handsome new student who seems to know exactly how to wound and heal her simultaneously.
+Consumed by grief and fury after a personal tragedy, Misha stops writing. Instead, he enrolls at Ryen's school under a false name, determined to confront the stranger wearing his best friend's face.
 
-As the masks crumble, Ryen begins to discover her authentic self, eventually becoming the vandal herself -- channeling the punk spirit of honesty into anonymous declarations on school walls. When the truth about Masen's identity is finally revealed, Ryen must confront her own duplicity while reckoning with Misha's pain over his sister's death. The novel builds to an emotional reckoning where both must decide whether the connection forged through letters can survive the ugly truths they have discovered about each other -- and themselves.`,
+He gets under her skin in ways no one else can. She cannot figure out why this infuriating new student seems to know exactly where to strike. Meanwhile, mysterious messages begin appearing on the school walls, and the line between provocation and seduction disappears entirely.
+
+Everyone is hiding behind a mask. But what happens when the masks come off?`,
   characters: [
     {
       name: "Misha Lare / Masen Laurent",

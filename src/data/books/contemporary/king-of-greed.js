@@ -8,13 +8,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#2a1a0a", "#4a3a1a"],
   accentColor: "#c9a84c",
-  synopsis: `Dominic Davenport clawed his way up from nothing to become the King of Wall Street. Born into poverty, the fear of returning to that desperate state fuels an ambition so consuming it has become his defining trait. He has everything—a beautiful home, a beautiful wife, and more money than he could spend in a lifetime. But no matter how much he accumulates, it's never enough. His relentless pursuit of more has slowly eroded the one relationship that should matter most.
+  synopsis: `He built an empire. She walked away from it — and took nothing with her.
 
-Alessandra Davenport has been the perfect trophy wife for years. She stood by Dominic while he built his empire, supporting his ambitions while quietly losing herself in the process. She hosted the dinners, wore the right clothes, said the right things—and watched as the man she fell in love with became a stranger consumed by work. When it becomes devastatingly clear that she will always come second to his career, Alessandra makes the hardest decision of her life: she files for divorce and walks away, taking nothing of Dominic's fortune with her.
+Dominic Davenport has everything: a penthouse, a fortune, and the title of Wall Street's most ruthless king. But his relentless hunger for more has slowly consumed the one thing money can't replace. His wife stood by him for years — hosting dinners, smiling for cameras, watching the man she married disappear into his ambition. She won't do it anymore.
 
-The separation forces both to confront painful truths. Dominic, blindsided by the loss, is forced to examine how his childhood trauma and crippling fear of failure drove him to prioritize wealth over the woman who loved him unconditionally. For the first time, the King of Wall Street faces a challenge that money can't solve. Alessandra, free from Dominic's shadow, embarks on a journey of self-discovery. She opens her own business—a dream she'd abandoned to play the supportive wife—and builds a life defined by her own ambitions rather than her husband's.
+When Alessandra files for divorce and leaves without taking a cent, Dominic is blindsided. For the first time in his life, the King of Wall Street has encountered a problem his wealth cannot solve.
 
-Dominic's campaign to win Alessandra back is a masterclass in genuine transformation rather than empty gestures. He doesn't just apologize—he changes. The climactic proof comes when he gives up a major acquisition to save the people he loves, choosing relationships over greed for the first time. Though he misses Alessandra's grand opening because of this sacrifice, she recognizes that he is truly a changed man. Months later, having become the new owner of Sunfolk Bank on his own merits, Dominic proposes again. They remarry, move into a cozy brownstone, and find the contentment that eluded them the first time around—proof that the greatest wealth is knowing when you have enough.`,
+Now Alessandra is building a life of her own — chasing the dreams she abandoned, becoming the woman she lost sight of in his shadow, and discovering she's stronger than she ever gave herself credit for. She's not waiting for Dominic anymore. She's done waiting.
+
+But Dominic isn't giving up. He's gutted, desperate, and finally willing to look in the mirror. If he wants her back, grand gestures won't cut it. Expensive gifts won't work. The only currency she'll accept is the one thing the King of Greed has never been willing to surrender: himself.
+
+The question is whether a man defined by wanting more can learn what it means to finally have enough.`,
   characters: [
     { name: "Dominic Davenport", role: "The King of Wall Street whose insatiable ambition and childhood trauma drive him to prioritize wealth over love. When Alessandra leaves, he must undergo genuine transformation to earn a second chance—proving that the greatest acquisition is the one you almost lost." },
     { name: "Alessandra Davenport", role: "Dominic's wife who spent years losing herself in the role of trophy wife. Her decision to file for divorce and build her own business represents the novel's central message about self-worth, independence, and refusing to settle for being someone's second priority." }

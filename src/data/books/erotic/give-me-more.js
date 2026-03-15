@@ -7,15 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0510", "#0f0308"],
   accentColor: "#c42a6b",
-  synopsis: `Hunter and Isabel Scott are the picture of a happy marriage — devoted, passionate, and deeply in love. Their best friend, Drake Nielson, is the opposite: a charming, commitment-averse scoundrel who cycles through lovers of every gender without apology. When Hunter opens the Salacious Players' Club and needs a contractor to manage construction on new locations, Drake jumps at the opportunity. Soon the three of them are traveling the country together, touring other kink clubs for inspiration and networking — a road trip that will change all of their lives.
+  synopsis: `Hunter and Isabel Scott have the perfect marriage — devoted, passionate, unshakable. Their best friend Drake has always been on the outside looking in: charming, commitment-averse, and secretly carrying a torch he has never dared to name.
 
-At one of the clubs they visit, a Shibari rope bondage demonstration calls for volunteers, and Drake and Isabel end up on stage together. Hunter watches from the audience as his wife is bound in intricate knots by his best friend, and something inside him ignites. It is a kink he did not know he had: watching Isabel with Drake, witnessing her pleasure from the outside. The image will not leave his mind, and Hunter — who has never been afraid to pursue what he wants — makes an audacious proposition: he wants Drake to sleep with Isabel while he watches.
+When a cross-country road trip puts the three of them in dangerously close quarters, a single moment changes everything. At a club demonstration, Drake and Isabel are on stage together while Hunter watches from the audience — and something inside Hunter ignites. A desire he never knew he had. A fantasy he cannot shake.
 
-Drake should say no. Isabel is the woman he has secretly loved for years — the unspoken reason he has never committed to anyone else. Saying yes means crossing a line that cannot be uncrossed, not just with Isabel but with Hunter, because the truth Drake has buried is that his feelings extend to both of them. What begins as a voyeuristic arrangement between consenting adults evolves into something far more complex and terrifying: a genuine three-way love affair that forces all three characters to redefine their understanding of desire, fidelity, and identity.
+Hunter makes an audacious proposition. Drake should say no. Because the truth he has buried for years is that his feelings do not stop at Isabel — they extend to Hunter, too. Saying yes means crossing a line that cannot be uncrossed and risking the most important friendship of his life.
 
-Hunter's journey is perhaps the most transformative. He sets the arrangement in motion and insists on seeing it through, yet every step of his evolving relationship with Drake is fraught — one step forward, five steps back — as he confronts his own bisexuality and the internalized homophobia that makes accepting his feelings for Drake agonizing. Isabel, initially uncertain, blossoms through the experience, discovering desires she never knew she had and learning to articulate what she wants with fearless honesty. Drake, the perpetual third wheel in every relationship, finally discovers what it feels like to belong.
+What begins as an arrangement between consenting adults spirals into something none of them anticipated. Hunter must face desires that terrify him. Isabel must learn to ask for what she truly wants. And Drake — the perpetual outsider — must decide if he is brave enough to finally belong.
 
-Give Me More is a fearless, emotionally rich MMF romance that treats every pairing with equal weight — Isabel and Hunter, Isabel and Drake, Hunter and Drake, and all three together. Sara Cate delivers blistering heat alongside a nuanced exploration of polyamory, sexual identity, and the courage it takes to want more than the world says you deserve.`,
+Three people. Two of them married. One secret that could change everything.
+
+What if the love you have is extraordinary — but not yet complete?`,
   characters: [
     {
       name: "Hunter Scott",

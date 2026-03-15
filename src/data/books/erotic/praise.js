@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0510", "#0f0308"],
   accentColor: "#c42a6b",
-  synopsis: `Charlotte "Charlie" Underwood is twenty-one years old and utterly broken down. Her father abandoned her family when she was young, and her recent relationship with Beau Grant has left her feeling small, worthless, and invisible. Beau was verbally abusive, dismissive, and cruel — and now that they have split, Charlie is broke and needs her share of a security deposit back. Beau, characteristically callous, sends her to collect it from the last person she would want to see: his estranged, wealthy father, Emerson Grant.
+  synopsis: `Charlotte Underwood has spent her life being made to feel small. Her father left. Her boyfriend was cruel. And now, broke and broken, she has been sent to collect a debt from the last man she wants to see — her ex's estranged father.
 
-Emerson Grant is the owner of the Salacious Players' Club, an exclusive BDSM club where fantasies become reality. He is experienced, commanding, and currently searching for a new submissive. When Charlie arrives at the club, Emerson mistakes her for a candidate applying for the submissive position. The misunderstanding is quickly corrected, but not before Charlie catches a glimpse of a world she never knew existed — and a dynamic that speaks to something deep inside her. Emerson, mortified by the mix-up, offers Charlie a job as his personal secretary. Nothing more. Strictly professional.
+Emerson Grant is the powerful, commanding owner of the Salacious Players' Club, an exclusive establishment where desires are explored without shame. When a misunderstanding leads him to mistake Charlotte for an applicant, she catches a glimpse of a world she never knew existed — and a dynamic that awakens something deep and undeniable inside her.
 
-But Charlie cannot unsee what she has seen. Working at the Salacious Players' Club, researching kink to better understand the business, she discovers a hunger she never knew she had — a desire to be praised, valued, and cherished in ways Beau never could. Emerson calls her Charlotte, not Charlie, and sees in her what she cannot see in herself: strength, intelligence, and worth. The chemistry between them is undeniable, but Emerson resists. He is nineteen years her senior. He is her ex-boyfriend's father. Every ethical alarm in his mind is ringing.
+He offers her a job. Strictly professional. Nothing more.
 
-Charlotte, however, is done playing it safe. She makes it clear that what she wants is Emerson — not in spite of the taboo, but with full awareness of it. What follows is a slow, devastating surrender as Emerson teaches Charlotte the art of submission through praise and adoration rather than degradation. He builds her up word by word, touch by touch, until the woman who arrived at his door believing she was worthless stands transformed into someone who knows exactly what she deserves.
+But Charlotte cannot unsee what she has seen. Working alongside Emerson, she discovers a hunger she never knew she had — a craving to be valued, praised, and truly seen. He calls her Charlotte, never Charlie, and recognizes the strength she cannot yet see in herself. The chemistry between them is magnetic. But he is nineteen years older. He is her ex's father. Every line of decency says this cannot happen.
 
-Praise is a masterful exploration of the healing power of kink, the complexity of age-gap relationships, and the radical act of being truly seen. Sara Cate handles the BDSM elements with care and authenticity, presenting Emerson and Charlotte's dynamic as one of mutual respect, communication, and profound emotional growth.`,
+Charlotte is done letting other people draw her lines.
+
+What unfolds is a slow, devastating surrender — not through degradation, but through praise. Word by word, touch by touch, he shows her what it feels like to be cherished rather than diminished. But can a relationship built on this many taboos survive the world outside the club walls?
+
+What if the most forbidden thing is also exactly what you need?`,
   characters: [
     {
       name: "Emerson Grant",

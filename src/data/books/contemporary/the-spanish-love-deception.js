@@ -7,17 +7,13 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#e63946", "#f4a261"],
   accentColor: "#c45b84",
-  synopsis: `Catalina Martín desperately needs a date to her sister's wedding in Spain. Not just any date—she needs someone impressive enough to prove to her family (and her ex-boyfriend, who will definitely be there with his new girlfriend) that she's moved on and thriving. The problem? She has only weeks to find someone willing to fly across the Atlantic and play the role of doting boyfriend.
-
-Enter Aaron Blackford, the tall, ridiculously handsome, and absolutely infuriating colleague who sits across from Catalina at their New York engineering firm. Aaron is everything Catalina can't stand: cold, arrogant, and perpetually getting under her skin with his blunt observations and unreadable expressions. He's the last person on earth she would ask for help.
+  synopsis: `Catalina Martin has a problem. Her sister's wedding in Spain is weeks away, her ex-boyfriend will be there with his new girlfriend, and she desperately needs a date impressive enough to prove she's moved on. The last person on earth she'd ask? Aaron Blackford — the tall, infuriatingly handsome colleague who sits across from her at their New York engineering firm, never smiles, and seems to exist solely to get under her skin.
 
 So naturally, he's the one who volunteers.
 
-Catalina is suspicious of his motives—Aaron has never shown the slightest interest in being friendly, let alone pretending to be her boyfriend. But with the wedding approaching and no other options, she accepts his offer. They set ground rules, establish their fake backstory, and board a plane to Spain, where they'll spend several days with Catalina's large, boisterous, and intensely curious family.
+Catalina is suspicious — Aaron has never shown the slightest interest in being friendly, let alone pretending to be her boyfriend. But with no other options and a transatlantic flight to book, she accepts. They set ground rules, craft a fake backstory, and fly to Spain to face her large, boisterous, and intensely curious family.
 
-What Catalina doesn't anticipate is how convincing Aaron turns out to be. The man who could barely manage a polite greeting at the office transforms into the perfect partner—attentive, charming, and surprisingly tender. As the Spanish sun, delicious food, and family celebrations work their magic, the lines between their charade and reality begin to dissolve.
-
-Behind Aaron's stoic exterior lies a man with depth, warmth, and reasons for every puzzling thing he's ever done. The Spanish Love Deception is a delightful, slow-burning romance about the danger of making assumptions, the thrill of being proven wrong, and discovering that the person who irritates you most might also be the one who understands you best.`,
+What Catalina doesn't expect is how convincing Aaron turns out to be. The man who could barely manage a polite greeting at the office transforms into the perfect partner — attentive, protective, and surprisingly tender. As Spanish sun, good food, and family celebrations work their magic, the lines between performance and reality start to dissolve. Behind Aaron's stoic exterior is a man with depth, warmth, and reasons for every puzzling thing he's ever done. The only question is whether Catalina will figure that out before it's too late.`,
   characters: [
     { name: "Catalina Martín", role: "Protagonist, Spanish engineer living in New York" },
     { name: "Aaron Blackford", role: "Love interest, stoic colleague who volunteers as fake boyfriend" },

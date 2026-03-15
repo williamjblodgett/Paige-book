@@ -7,15 +7,15 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#120a10", "#1a0810"],
   accentColor: "#e85d3a",
-  synopsis: `Nora Sutherlin is a bestselling erotica author with a secret life that makes her fiction look tame. Known to the literary world as a successful novelist, Nora is also a professional dominatrix who has spent years in the underground BDSM community under the guidance of Soren — a Catholic priest and her former dominant. Their relationship, which began when Nora was a teenager, has shaped every aspect of who she is: her sexuality, her confidence, her writing, and the deep emotional wounds she carries beneath her brash exterior.
+  synopsis: `Nora Sutherlin is a bestselling erotica author whose real life makes her fiction look tame. By night, she is a professional dominatrix. And the man who shaped her — body, mind, and soul — is a Catholic priest who has no intention of letting her go.
 
-When Nora's publisher demands that her next book be "real literature" rather than erotica, she is assigned a new editor: Wesley Railey. Wesley is young, idealistic, and a virgin — a Southern gentleman who is everything Nora is not. He is innocent where she is experienced, romantic where she is cynical, and deeply uncomfortable with the explicit world Nora inhabits. Their working relationship becomes a slow-burning tension between his world and hers, as Wesley falls helplessly in love with a woman whose lifestyle terrifies him.
+When her publisher demands that her next novel be "real literature," Nora is paired with a new editor: Wesley Railey, a young Southern gentleman who has never met anyone like her. He is earnest, idealistic, and completely out of his depth. He is also falling for her — hard and helplessly.
 
-Meanwhile, Soren looms over everything. He is brilliant, ruthless, and absolutely unwilling to let Nora go. Their bond is complex and consuming — part love, part obsession, part spiritual connection that defies easy categorization. Nora is torn between the safety and purity Wesley represents and the dark, intoxicating intensity Soren offers. Neither man is wrong for her, and neither is entirely right.
+Now Nora stands between two futures. Wesley offers sunlight, safety, and a love that is gentle. Soren, the priest, offers the dark, consuming intensity that runs through her veins like a second heartbeat. One man wants to save her. The other refuses to let her pretend she needs saving.
 
-Tiffany Reisz constructs a literary thriller around this love triangle, weaving in questions about art and commerce, faith and desire, freedom and devotion. Nora's manuscript becomes a mirror for her own life, as the story she writes blurs with the story she is living. The novel builds toward a devastating conclusion that resolves nothing neatly, instead launching a series that refuses to simplify the beautiful mess of desire, love, and identity.
+As the lines between her manuscript and her life begin to blur, Nora must confront the question she has spent years avoiding: Who is she when the performance stops?
 
-The Siren is a fiercely intelligent erotic romance that demands readers confront their assumptions about sexuality, morality, and what it means to truly know another person. Reisz writes with literary precision and emotional audacity, creating a world where the sacred and the profane are not opposites but partners.`,
+Blazing with intelligence, drenched in heat, and fearless in its exploration of faith, desire, and identity, The Siren launches a series that refuses to flinch. In Tiffany Reisz's world, the sacred and the profane are not opposites — they are partners.`,
   characters: [
     { name: "Nora Sutherlin", role: "A bestselling erotica author and professional dominatrix whose brash confidence masks deep emotional complexity. Torn between two men and two worlds, she is the magnetic center around which the entire series revolves." },
     { name: "Wesley Railey", role: "Nora's young, idealistic editor — a Southern gentleman and virgin who falls in love with a woman whose lifestyle terrifies him. He represents innocence, safety, and a life of conventional romance." },

@@ -7,15 +7,19 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#8b1a1a",
-  synopsis: `Erika "Rika" Fane has spent three years trying to move on from the catastrophic events of Devil's Night, a tradition in the elite town of Thunder Bay where the wealthy and powerful don masks and indulge in dangerous, lawless antics every October 30th. As a high school junior, Rika was drawn into the orbit of Michael Crist and his three best friends -- Kai Mori, Damon Torrance, and Will Grayson III -- collectively known as the Four Horsemen. That fateful night, their reckless escapades spiraled out of control, resulting in arson, assault, and a chain of events that would shatter all of their lives.
+  synopsis: `Every October 30th, they owned the night. Masked, fearless, untouchable -- the Four Horsemen of Thunder Bay turned Devil's Night into their personal kingdom of chaos. Until three years ago, when everything burned down and three of them went to prison.
 
-When incriminating videos from Devil's Night surfaced online, three of the Horsemen were arrested and sent to prison. Michael, who avoided jail time, blamed Rika for uploading the footage. In truth, Rika had left the group wearing Will's sweatshirt, which contained the phone used to record their crimes, but she was not the one who released the videos. The real culprit remained hidden, and the betrayal Michael perceived fueled years of simmering rage.
+Michael Crist blames one person: Erika Fane.
 
-Now a college student in Meridian City, Rika believes she has escaped her past -- until she discovers that Michael has moved into the penthouse above her apartment. Strange noises echo through the walls, her suite is mysteriously upgraded against her wishes, and the atmosphere grows increasingly menacing. When Devil's Night arrives once more, all four Horsemen converge on the building, trapping Rika in a terrifying game of cat and mouse designed to punish her for what they believe she did.
+Rika has spent three years running from the memory of that night -- from the boys she worshipped, the power that intoxicated her, and the terrible mistake that destroyed it all. She fled to a new city, enrolled in college, and rebuilt her life from the ground up. She thought she was safe.
 
-As the night unfolds, layers of deception are peeled away. Rika refuses to be a victim and fights back, forcing confrontations that reveal the truth about who really uploaded the videos and the real enemies lurking in their midst. The power dynamics shift as long-buried secrets come to light, and the line between hatred and desire becomes impossible to ignore.
+Then Michael moved into the penthouse above her apartment.
 
-Michael and Rika's volatile relationship transforms from one driven by vengeance and fury into something far more complicated. Through danger, manipulation, and raw honesty, they must decide whether the darkness that binds them together will destroy them or become the foundation of something unbreakable.`,
+He is not the golden boy she remembers. He is colder now. Harder. And he is not alone. One by one, the Horsemen are returning -- freed from prison, furious, and hungry for the revenge they have spent three years planning. They believe Rika ruined their lives. They have come to collect.
+
+But Rika is no longer the naive girl who was dazzled by their world. She will not cower. She will not break. And the closer Michael gets, the more she realizes the fire between them never went out -- it just turned dangerous.
+
+When Devil's Night falls again, masks go on, rules disappear, and the line between hatred and desire shatters completely. In the darkness, nothing is what it seems. And the real betrayal is the one none of them saw coming.`,
   characters: [
     {
       name: "Michael Crist",

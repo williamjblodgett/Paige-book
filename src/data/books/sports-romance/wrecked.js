@@ -7,13 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1a0808", "#0a0a18"],
   accentColor: "#e85d3a",
-  synopsis: `Jax Kingston is a British Formula 1 champion trapped in a devastating cycle of self-destruction. Pills, alcohol, and reckless behavior have become his escape from demons he refuses to face, and when a catastrophic mistake one night threatens to end his racing career for good, his team at McCoy Racing takes drastic action. They hire Elena Gonzalez, a sharp and determined PR manager, to rehabilitate his public image and keep him in line.
+  synopsis: `Jax Kingston is F1's most spectacular disaster. The British champion has made headlines for all the wrong reasons — reckless nights, tabloid scandals, and a self-destructive streak that's about to cost him everything. When his team takes drastic action to save his career, they bring in Elena Gonzalez to fix his image.
 
-Elena is a Mexican PR expert building her business while paying for her grandmother's care home. Her best friend Elias is Jax's racing partner, which helped her get her foot in the F1 world, but nothing could have prepared her for the tornado that is Jax Kingston. He's belligerent, resistant to help, and determined to push away anyone who gets close. The more Elena tries to help him, the more he fights her — but beneath the antagonism, both begin to recognize something painfully familiar in each other's brokenness.
+Elena is sharp, determined, and building her PR business from the ground up. She didn't get into Formula 1 to babysit a man who seems hell-bent on destroying himself. But a job is a job, and Jax Kingston — infuriating, damaged, and fighting her at every turn — is now her responsibility.
 
-As Elena chips away at Jax's defenses through forced proximity on the racing circuit, she discovers the traumatic past driving his addiction — and he discovers that she carries her own deep wounds. Their push-and-pull dynamic evolves from professional hostility into something electric and tender. Jax begins to let Elena in, showing her the vulnerability he hides from the world, while Elena starts to see beyond the tabloid headlines to the broken man underneath.
+He doesn't want her help. She doesn't want his attitude. And yet, forced together across the global racing circuit, something shifts between them. Beneath the tabloid villain, Elena glimpses a man carrying wounds he won't name. Beneath the polished professional, Jax sees someone who understands brokenness in a way no one else does.
 
-But Jax's spiral threatens everything — his career, his sobriety, and the fragile connection he's building with Elena. As secrets surface and trust is tested, both must confront whether love can truly be redemptive or if some people are too wrecked to save. With beautifully handled mental health representation, Wrecked is a story about finding someone who sees your worst and stays anyway, proving that the most powerful victories happen off the track.`,
+Their push-and-pull is electric — equal parts hostility and heat, resistance and revelation. But Jax's demons are relentless, and the closer Elena gets, the more she risks being caught in the wreckage.
+
+Can you save someone who doesn't believe they're worth saving? And what happens when falling for them means risking everything you've built?`,
   characters: [
     { name: "Jax Kingston", role: "A British Formula 1 champion battling addiction and anxiety. Known as the bad boy of F1, his notorious partying and womanizing constantly land him in the press. Beneath the self-destruction lies a man with a traumatic past who is terrified of genuine connection." },
     { name: "Elena Gonzalez", role: "A Mexican PR expert hired to fix Jax's public image. Strong-willed and resilient, she's building her business while paying for her grandmother's care. Her own traumatic history gives her the empathy to see past Jax's defenses." },

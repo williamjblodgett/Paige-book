@@ -7,15 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#120a10", "#1a0a0e"],
   accentColor: "#e85d3a",
-  synopsis: `Chloe Brown is a chronically ill, sharp-tongued computer geek who has spent years letting her fibromyalgia dictate the boundaries of her world. She is brilliant at web development, devastating with sarcasm, and thoroughly convinced that her condition means real life — the messy, spontaneous, adventurous kind — is not for her. She has settled into a controlled existence where she manages her pain, works from home, and keeps the world at a safe distance.
+  synopsis: `Chloe Brown has been avoiding life, and she knows it. Chronically ill, sharp-tongued, and brilliant at web development, she has spent years letting her fibromyalgia shrink her world to a manageable size. Safe. Controlled. Small.
 
-Then she nearly dies. A near-miss accident shakes Chloe out of her careful stasis and forces her to confront an uncomfortable truth: she has not been managing her life, she has been avoiding it. In response, she creates a bucket list of experiences she has been too afraid to try — ride a motorcycle, go camping, do something wild. She calls it her "Get a Life" list, and she is determined to complete every item, pain flares be damned.
+Then she nearly dies — and everything changes.
 
-Enter Redford "Red" Morgan. He is the handyman at Chloe's apartment building — a tattooed, motorcycle-riding, effortlessly cool artist who is everything Chloe is not. She is buttoned-up and organized. He is creative and free-spirited. She trusts data and logic. He trusts instinct and emotion. They clash immediately, with Chloe's prickly exterior meeting Red's easygoing charm head-on.
+A brush with death forces Chloe to confront the uncomfortable truth that she has been hiding behind her condition. In response, she creates a bucket list of everything she has been too afraid to try: ride a motorcycle, go camping, do something wild. She calls it her "Get a Life" list, and she is completing every item — pain flares be damned.
 
-When Red discovers Chloe's list, he offers to help her complete it. Their arrangement is purely practical — he has the skills and the motorcycle, she has the determination. But spending time together reveals the people behind their defenses. Chloe discovers that Red's laid-back persona masks genuine artistic talent and the scars of an emotionally abusive relationship that left him doubting his worth. Red discovers that Chloe's sharp edges protect a woman who is terrified of being seen as fragile or pitied.
+Enter Redford "Red" Morgan, the tattooed, motorcycle-riding handyman at her apartment building. He is creative where she is analytical, easygoing where she is prickly, and effortlessly charming in a way that makes Chloe want to throw something at him. When Red discovers her list, he offers to help — purely practical, of course. He has the motorcycle. She has the determination.
 
-Their connection builds through bucket-list adventures that push both beyond their comfort zones. Chloe learns that vulnerability is not the same as weakness, and that letting someone see her pain does not make her less. Red learns that his art and his heart are worth more than his ex led him to believe. Together, they prove that getting a life is not about checking boxes — it is about finding the person who makes every experience worth having.`,
+But as the adventures pile up, so does the chemistry. Behind Red's laid-back cool is a man carrying scars he does not talk about. Behind Chloe's razor-sharp wit is a woman terrified of being seen as fragile. And somewhere between the motorcycle rides and the campfire confessions, they are discovering that the scariest item on any list is the one you did not write down: letting someone in.
+
+Getting a life was supposed to be about checking boxes. It was never supposed to involve falling in love.`,
   characters: [
     { name: "Chloe Brown", role: "A chronically ill web developer with fibromyalgia whose near-death experience prompts a bucket list of adventures. Sharp-tongued and guarded, she must learn that letting people see her vulnerability does not make her weak." },
     { name: "Redford 'Red' Morgan", role: "A tattooed handyman and artist at Chloe's building who helps her complete her bucket list. His easygoing charm masks scars from an emotionally abusive relationship that left him doubting his artistic talent and self-worth." },

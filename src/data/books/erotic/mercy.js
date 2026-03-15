@@ -7,15 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0510", "#0f0308"],
   accentColor: "#c42a6b",
-  synopsis: `Maggie Anderson is the only female co-owner of the Salacious Players' Club, a respected businesswoman who has watched her colleagues and friends discover their deepest desires while she has remained on the sidelines, quietly convinced she is the only one without a kink. As the club has grown and her fellow owners have found passionate relationships, Maggie has felt increasingly like an outsider in the world she helped build. That changes when she takes a kink quiz on the club's new app and receives a result she never expected: she is a Domme. Maggie is not vanilla at all — she is a lot more like her dominant colleague, Emerson Grant, than she ever realized. The problem is she has no idea how to be one.
+  synopsis: `Maggie Anderson helped build the Salacious Players' Club from the ground up. She has watched every one of her colleagues discover their deepest desires and find passionate love — while she has stood on the sidelines, quietly convinced she is the only owner without a kink.
 
-The app anonymously matches her with a compatible submissive willing to explore together. They agree to meet at the club on masquerade night, faces hidden behind masks, identities unknown. When the masks come off, Maggie is horrified to discover that her perfect match is Beau Grant — Emerson's twenty-two-year-old son, Charlotte's bratty ex-boyfriend, and the last person on earth she should be involved with. At thirty-four, Maggie is twelve years his senior. He is the son of one of her business partners. And to make matters infinitely more complicated, Beau's father is now engaged to Beau's ex-girlfriend, Charlotte.
+She is wrong.
 
-But Beau is not the irredeemable brat everyone believes him to be. Beneath his defiant exterior is a young man who is lost, misunderstood, and desperate for direction. Beau thrives when someone else makes decisions for him — when the pressure is lifted and he cannot sabotage his own life. Maggie, with her natural authority and hunger for control, is exactly what he needs. Their dynamic clicks with shocking precision: she commands, he submits, and in the space between orders, something tender and unexpected takes root.
+A quiz on the club's app delivers a result that changes everything: Maggie is not vanilla. She is a Domme. And when the app anonymously matches her with a compatible submissive, she agrees to meet him on masquerade night — faces hidden, identities unknown.
 
-As Maggie trains Beau in submission, she discovers her own power and confidence. As Beau surrenders to Maggie's authority, he finds the structure and purpose he has been craving. Their relationship is transformative for both of them — Maggie becomes the Domme she was always meant to be, and Beau evolves from a self-destructive brat into a man capable of vulnerability, accountability, and love. His redemption extends beyond his romance with Maggie: he reconciles with Charlotte, repairs his relationship with his father Emerson, and earns the acceptance that goes both ways.
+The chemistry behind the masks is electric. But when the masks come off, Maggie is horrified. Her perfect match is her business partner's twenty-two-year-old son — twelve years her junior, a notorious troublemaker, and the last man on earth she should be touching.
 
-Mercy is a deeply satisfying inversion of the typical BDSM romance, placing a woman in the dominant role and a man in submission. Sara Cate writes their power exchange with intelligence, tenderness, and scorching heat, proving that strength and surrender are not gendered — they are chosen.`,
+He is not what everyone thinks he is. Beneath the defiance is a man who is lost, craving direction, and desperate for someone to see past his worst impulses. Her natural authority is exactly what he needs. And his surrender awakens a power in her she never knew she possessed.
+
+What happens when the woman in charge falls for the one man who is completely off-limits? When every command draws them closer and every rule says stop? In a world built on exploring forbidden desire, they may have found the most dangerous fantasy of all — one that feels like the truth.`,
   characters: [
     {
       name: "Maggie Anderson",

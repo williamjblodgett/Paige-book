@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1508", "#0a0908"],
   accentColor: "#c9a84c",
-  synopsis: `Jozef Koba is the king of the Chicago underworld — a man who clawed his way to the top through brutality, cunning, and an absolute refusal to show weakness. Born into poverty and violence, he built his criminal empire with blood and iron, and he rules it the same way. He is feared by everyone, trusted by few, and loved by no one. Love, in Jozef's world, is a concept as foreign as mercy. He does not need it, does not understand it, and does not believe it exists — until Shaun.
+  synopsis: `Jozef Koba clawed his way out of poverty to become the most feared man in Chicago's underworld. He rules his empire with blood, iron, and an absolute refusal to show weakness. He is trusted by few. Loved by no one. And that is exactly how he wants it.
 
-Shaun is a nurse who enters Jozef's orbit under the worst possible circumstances. When she is brought in to tend to one of his wounded men, she sees the brutal reality of the criminal underworld up close — and Jozef sees something in her that stops him cold. She is compassionate in a world that punishes compassion. She is brave in a way that has nothing to do with violence. And she treats his wounded associate with the same careful attention she would give anyone, without judgment, without fear.
+Then Shaun walks into his world.
 
-Jozef's response is immediate and total: Shaun cannot leave. She has seen too much, knows too much, and more importantly, she has awakened something in him that he finds both intoxicating and terrifying. He keeps her — not as a prisoner in chains, but in a gilded cage of luxury and protection that does not change the fundamental reality: she is not free to go.
+A nurse called in to treat one of his wounded men, Shaun has no business being anywhere near a crime lord. But Jozef sees something in her that stops him cold — compassion without judgment, bravery without violence, a kindness so genuine it feels like a weapon aimed straight at the walls he has spent a lifetime building.
 
-Shaun is terrified, furious, and increasingly confused by the man who holds her captive. Jozef is brutal with his enemies but careful with her. He is commanding with his men but deferential to her needs. He learns her preferences, anticipates her comforts, and guards her with a ferocity that borders on obsessive. Their dynamic is complex — captor and captive, protector and protected, the monster and the woman who makes him want to be something else.
+His decision is immediate: she cannot leave.
 
-As external threats force them closer together, Shaun must decide if the man behind the monster is someone worth staying for — not because she has no choice, but because she chooses him. The Sinner's Empire is a dark, intense mafia romance about a man who has everything except the one thing he cannot take by force.`,
+Trapped in a gilded cage of luxury and protection, Shaun is terrified, furious, and deeply confused by her captor. Jozef is brutal with his enemies but impossibly careful with her. Commanding with his men but attentive to her every need. He learns what she likes, anticipates her comforts, and guards her with a ferocity that borders on obsessive.
+
+He is a monster. She is the first person who has ever made him want to be something else.
+
+As enemies close in and danger escalates, the walls between them fracture. But can Shaun truly choose the man who stole her freedom? And can a king who has taken everything he has ever wanted learn that the one thing worth having is the one thing that must be given freely?`,
   characters: [
     { name: "Jozef Koba", role: "The ruthless king of the Chicago underworld who clawed his way from poverty to power. His decision to keep Shaun is immediate and total, driven by an awakening he finds both intoxicating and terrifying." },
     { name: "Shaun", role: "A nurse brought into Jozef's world to tend a wounded associate. Her compassion, bravery, and refusal to judge make her the first person to see past Jozef's brutality to something worth saving." }

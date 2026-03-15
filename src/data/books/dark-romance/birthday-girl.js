@@ -7,15 +7,17 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#c9884c",
-  synopsis: `Jordan Hadley has learned to fend for herself. Abandoned by her mother as a child and raised by a negligent father, the nineteen-year-old has developed a fierce independence and a deep love for 1980s culture -- the movies, the music, the aesthetic -- that serves as her escape from a less-than-stellar life. Her boyfriend Cole is charming but unreliable, more interested in partying than building a future, and their relationship is slowly coming apart at the seams.
+  synopsis: `She met him in a dark theater on her nineteenth birthday -- a stranger who loved the same old movies, who laughed at the same lines, who made her feel seen for the first time in her life. The connection was instant. Electric. Effortless.
 
-On her birthday, Cole forgets to pick Jordan up from work. She walks to the movie theater alone for a midnight showing of a classic 80s film, where she meets a stranger in the dark: a quiet, handsome man who shares her love of old movies. Their conversation is easy and natural -- two kindred spirits connecting over shared passions. That stranger turns out to be Pike Lawson, a thirty-eight-year-old architect and, as Jordan is about to discover, Cole's father. Meanwhile, Cole's birthday party for Jordan has devolved into chaos: the police were called, a fight broke out, and Cole ended up in jail, getting them evicted from their apartment.
+Then she found out who he really was. Pike Lawson. Her boyfriend's father.
 
-Pike takes in his wayward son and Jordan, offering them a room in his home for the summer. The arrangement seems simple: Jordan will help with chores and contribute to household expenses. But living under the same roof, Jordan quickly realizes she has far more in common with Pike than with Cole. Like Jordan, Pike is responsible, driven, and quietly passionate. They share a love of construction, design, and the same cultural touchstones that first connected them in the theater. As Jordan and Pike grow closer through shared projects and late-night conversations, she drifts further from Cole, who is rarely home and increasingly dismissive.
+Now circumstances have thrown Jordan, Cole, and Pike under the same roof for the summer, and every rule says she should keep her distance. But Pike is everything his son is not -- steady, driven, and burning with a quiet intensity that makes her pulse race every time their eyes meet. He is thirty-eight. She is nineteen. And the tension between them is becoming impossible to ignore.
 
-The breaking point comes when Jordan discovers Cole has been cheating on her. The revelation shatters the last pretense holding their relationship together and forces the simmering tension between Jordan and Pike to the surface. Pike confesses his own jealousy and attraction, and they begin a relationship -- though Pike is deeply uncomfortable with their nineteen-year age gap and the fact that Jordan was, until recently, his son's girlfriend. He insists on keeping their relationship secret to protect Cole's feelings, a decision that wounds Jordan deeply. Having spent her life being abandoned and hidden away by the people who were supposed to love her, she refuses to be someone's secret.
+Jordan has spent her whole life being abandoned by the people who were supposed to love her. She refuses to be anyone's dirty secret. Pike knows that wanting her could cost him everything -- his son, his reputation, his family. But some attractions are not a choice. They are a gravity.
 
-Matters escalate when Cole and Pike's ex-wife Lindsay move into the house, and Lindsay discovers the relationship. Pike's reluctance to go public pushes Jordan to walk away from the one person who makes her feel truly seen and valued. She must decide whether Pike's love is worth the fight, and Pike must confront whether his fear of judgment will cost him the best thing that has ever happened to him.`,
+When the walls of this house can no longer contain what is growing between them, Jordan and Pike will have to decide what they are willing to risk -- and what they are willing to lose -- for a love that the world will say is wrong.
+
+Every rule says stop. Every instinct says don't.`,
   characters: [
     {
       name: "Jordan Hadley",

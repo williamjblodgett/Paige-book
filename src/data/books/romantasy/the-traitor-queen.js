@@ -7,13 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1e0a30", "#0a1a3a"],
   accentColor: "#7c5cbf",
-  synopsis: `In the devastating aftermath of her betrayal, Lara is imprisoned by her own husband, King Aren of Ithicana. Her actions — feeding intelligence to her father King Silas that allowed Maridrina to invade and conquer large portions of the Bridge Kingdom — have cost Aren his kingdom, his people's freedom, and nearly his life. Aren is captured and held prisoner by Silas, while Lara is left behind in what remains of a shattered Ithicana, locked away by those who once called her queen.
+  synopsis: `Lara destroyed everything. She fed her father the intelligence he needed to invade the Bridge Kingdom, and now Aren — her husband, her king, the man she was never supposed to love — is rotting in a Maridrinian dungeon. Ithicana lies in ruins. Its people call her traitor. And every bit of it is her fault.
 
-But Lara refuses to accept this fate. Despite the hatred directed at her from every corner, despite the fact that Aren may never forgive her, she is determined to make things right. She escapes her imprisonment and embarks on a desperate, seemingly impossible mission: to free Aren from her father's dungeons and help Ithicana reclaim its sovereignty. To do this, she must navigate a web of political intrigue, rally reluctant allies, and confront the sisters she was raised alongside — some of whom remain loyal to Silas's cause.
+But Lara is done being a weapon aimed by someone else's hand. Despite the hatred that follows her like a shadow, despite knowing Aren may never forgive her, she escapes her imprisonment and embarks on a mission that borders on impossible: infiltrate Maridrina, free the king she betrayed, and help Ithicana reclaim its sovereignty.
 
-Lara's journey takes her back to Maridrina, where she must use every skill her father taught her against him. She infiltrates the capital, reconnects with allies both old and new, and begins to unravel the full extent of Silas's cruelty. Her sisters, each trained as weapons just as she was, are scattered across different kingdoms as wives and spies, and Lara must determine which of them can be trusted.
+To do it, she will have to use every lethal skill her father taught her — against him. She will have to navigate a web of political treachery, rally allies who despise her, and confront the sisters she was raised alongside, each one a weapon planted in a different kingdom by the same ruthless man.
 
-Meanwhile, Aren endures brutal captivity, clinging to his hatred of Lara as the only thing keeping him alive. But as Lara's rescue plan unfolds and the truth of her sacrifice becomes clear, he is forced to confront the possibility that her love was genuine all along. The question is whether trust, once shattered so completely, can ever be rebuilt — and whether Lara can save the man and the kingdom she loves before Silas destroys them both forever.`,
+Meanwhile, Aren clings to hatred as the only thing keeping him alive in Silas's dungeons. But as Lara's desperate plan unfolds, the truth about her sacrifice becomes impossible to ignore. Was her love real? Can trust, once shattered this completely, ever be rebuilt?
+
+The Traitor Queen is coming home. And she will burn down everything her father built to save the man and the kingdom she destroyed.`,
   characters: [
     { name: "Lara", role: "The former queen of Ithicana, now branded a traitor by both kingdoms. She embarks on a desperate mission to rescue Aren and reclaim Ithicana, using the very skills her father taught her against him." },
     { name: "Aren", role: "The captured King of Ithicana, imprisoned in Maridrina's dungeons. He struggles with his hatred for Lara's betrayal while enduring brutal captivity, forced to question whether her love was real." },

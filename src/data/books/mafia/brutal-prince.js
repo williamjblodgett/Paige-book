@@ -7,13 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1008", "#0a0808"],
   accentColor: "#c9a84c",
-  synopsis: `In Chicago's criminal underworld, two dynasties have been at war for generations. The Griffins control the Irish mafia, and the Gallos run the Italian side. When the youngest and wildest Gallo daughter, Aida, decides to crash a Griffin family party with her siblings, the consequences are catastrophic. In the chaos, Aida sets part of the Griffin library on fire to cover her escape and steals the patriarch Fergus Griffin's priceless pocket watch.
+  synopsis: `Two families. Generations of blood. One catastrophic night that changes everything.
 
-Callum Griffin, the eldest Griffin heir and an aspiring politician, catches Aida and her brother Sebastian fleeing. When Aida defiantly refuses to return the watch, Callum's enforcer Jack Du Pont brutally beats Sebastian. In a final act of defiance, Aida hurls the watch into the lake. Callum dives in after it while Jack stomps on Sebastian's knee, causing a career-ending injury to the promising basketball player. The incident pushes both families to the brink of all-out war.
+When Aida Gallo crashes a Griffin family party and leaves destruction in her wake, she ignites a war between Chicago's most powerful crime dynasties — the Irish Griffins and the Italian Gallos. The fallout is swift and brutal, leaving her brother's future shattered and both families reaching for their guns.
 
-To prevent bloodshed, the Griffin and Gallo patriarchs — Fergus and Enzo — forge a desperate alliance: an arranged marriage between Callum and Aida. It's a union neither wants. Callum sees Aida as a reckless criminal who destroyed his family's property and cost them an ally. Aida sees Callum as the arrogant princeling whose enforcer crippled her brother. Their wedding is a declaration of war dressed up as peace.
+The only way to prevent an all-out bloodbath? An arranged marriage between the two people who despise each other most.
 
-But forced to live together, the enemies discover that hatred and passion are dangerously intertwined. Their volatile relationship swings between explosive arguments and equally explosive chemistry. Callum's ruthless political ambition clashes with Aida's fierce independence, yet beneath the conflict, both recognize a worthy adversary — and eventually, something far more dangerous. As mafia politics, family loyalty, and genuine feeling collide, Callum and Aida must decide whether their marriage of convenience can become something real, or whether the enmity between Griffins and Gallos will destroy them both.`,
+Callum Griffin is the eldest heir, an aspiring politician with ice in his veins and ambition that cuts like a blade. Aida Gallo is wildfire — fierce, reckless, and utterly untamable. He sees her as the woman who burned his world down. She sees him as the cold-hearted prince whose family destroyed her brother.
+
+Their wedding is not a truce. It is a new battlefield.
+
+But hatred has a dangerous way of blurring into something else when you are forced to share a bed, a home, and a life with your enemy. Every explosive argument reveals a grudging respect. Every clash sparks a chemistry neither can deny. And in Chicago's criminal underworld, where loyalty is currency and love is a liability, falling for the wrong person could cost them everything.`,
   characters: [
     { name: "Callum Griffin", role: "The eldest heir of the Irish Griffin crime family and an aspiring politician. Ruthless, arrogant, and strategically brilliant, he views the arranged marriage as a political necessity. His transformation from cold adversary to passionate protector drives the story's emotional arc." },
     { name: "Aida Gallo", role: "The youngest and wildest daughter of the Italian Gallo family. Fiercely independent and defiant, she refuses to be tamed by anyone — especially the man whose family crippled her brother. Her fire and spirit make her Callum's perfect adversary and eventual match." },

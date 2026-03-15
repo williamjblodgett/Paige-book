@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1a10", "#0c0f0a"],
   accentColor: "#1e8a5f",
-  synopsis: `Lachlain MacRieve, king of the Lykae clan, has been imprisoned in hellfire for one hundred and fifty years. Chained beneath the earth and burned alive repeatedly by the vampires who captured him, he has endured a century and a half of unimaginable torment. When he finally breaks free, he is feral, maddened by pain, and driven by a single instinct: find his mate. The Lykae's mating instinct is absolute — once they sense their fated partner, nothing in any realm can stop them from claiming her.
+  synopsis: `One hundred and fifty years of hellfire. Burned alive, healed, and burned again. The only thing that kept Lachlain MacRieve, king of the Lykae, from losing his mind entirely was one desperate hope — that somewhere in the world, his fated mate was waiting.
 
-The problem is that his mate is Emmaline Troy — a half-vampire, half-Valkyrie who is quite possibly the shyest, most delicate supernatural creature in the entire Lore. Emma is gentle, bookish, and has spent her life sheltered by her fierce Valkyrie aunts. She is terrified of virtually everything, including her own vampire nature, which she has suppressed out of shame. She is the absolute last person equipped to handle a thousand-year-old werewolf king who has been tortured into madness and is now utterly fixated on her.
+Now he is free. Feral. And he has found her.
 
-Lachlain does not handle the situation well. Maddened by his imprisonment and overwhelmed by the mating instinct, he essentially abducts Emma and drags her across Europe, convinced that claiming his mate will heal the damage done to his mind. Emma is terrified, confused, and furious — and also undeniably affected by the massive, scarred warrior who looks at her with a hunger that has nothing to do with violence.
+There is just one problem: she is the last creature in the supernatural world he should want.
 
-As their forced journey continues, the dynamic shifts. Lachlain's madness recedes as Emma's presence genuinely heals him, and he is horrified by his initial behavior. Emma discovers a backbone she did not know she possessed, standing up to a Lykae king and demanding to be treated as a person rather than a possession. Their relationship evolves from captor and captive to something real — built on grudging respect, scorching attraction, and the slow revelation that the fated bond between them might actually be the best thing to happen to either.
+Emmaline Troy is half-vampire, half-Valkyrie — a combination that should not exist. Shy, sheltered, and ashamed of the vampire blood running through her veins, Emma is utterly unprepared for the massive, scarred werewolf king who appears out of nowhere, looks at her with a hunger that steals the air from her lungs, and refuses to let her go.
 
-A Hunger Like No Other launched Kresley Cole's Immortals After Dark series with a romance that is raw, funny, and emotionally complex — proving that the best paranormal romances use supernatural elements to amplify deeply human stories about connection, healing, and acceptance.`,
+He is terrifying. He is obsessive. And the way her body responds to him makes no sense at all.
+
+But as Lachlain's madness begins to fade and the real man emerges, Emma starts to discover something unexpected — a fierceness inside herself she never knew existed. And Lachlain begins to realize that the fragile woman he claimed is anything but breakable.
+
+Welcome to the Lore — where vampires and werewolves are ancient enemies, fated mates do not get to choose, and the most dangerous thing in any room is the chemistry between two people who were never supposed to want each other.`,
   characters: [
     { name: "Lachlain MacRieve", role: "King of the Lykae clan, freed after 150 years of fiery imprisonment. Initially maddened by torture and the mating instinct, he must confront the damage he has done and earn the mate he nearly destroyed through his feral behavior." },
     { name: "Emmaline Troy", role: "A half-vampire, half-Valkyrie who is shy, gentle, and terrified of her own vampire nature. Abducted by her fated mate, she discovers unexpected courage and strength, transforming from sheltered to formidable." },

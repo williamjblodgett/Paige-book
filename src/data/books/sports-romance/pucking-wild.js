@@ -7,13 +7,15 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1525", "#0a0a18"],
   accentColor: "#2d8cf0",
-  synopsis: `Tess Owens is a confident, thirty-three-year-old plus-sized divorcee who is determined to start her life over. Escaping a mentally and physically abusive marriage, she flees to Jacksonville to be near her best friend Rachel Price, the team physician for the Jacksonville Rays hockey team. With six weeks to launch a new business and finalize her divorce, the last thing Tess needs is a complication — but that's exactly what she gets.
+  synopsis: `Tess Owens is done being small. After escaping an abusive marriage, she's fled to Jacksonville with a six-week deadline to launch a new business, finalize her divorce, and start the life she should have been living all along. She doesn't need distractions. She doesn't need complications. And she absolutely does not need a roommate.
 
-Ryan Langley, a star forward for the Rays, is sidelined with an injury and needs a place to rehab. When he shows up at Tess's door declaring himself her new roommate, their forced proximity ignites an undeniable attraction. The catch? Ryan is ten years younger than Tess, and on the surface they seem to have nothing in common. But to Ryan, Tess is his dream girl from the moment he lays eyes on her, and he's willing to do anything to prove that age is just a number.
+Enter Ryan Langley — star forward for the Jacksonville Rays, injured, in need of a place to rehab, and standing on her doorstep with a duffle bag and a grin that could melt glaciers. He's charming. He's relentless. And he's ten years younger than her.
 
-As Tess battles her almost-ex-husband who is using every dirty trick to torpedo her personally and professionally — including weaponizing photos from Rachel's wedding — she also has to fight her growing feelings for the charming All-American sweetheart living under her roof. Ryan's golden retriever energy and unwavering devotion begin to crack through Tess's carefully constructed walls, showing her that not all men are like the one she's leaving behind.
+Ryan has been called a golden retriever in human form, and he's not about to deny it — especially when it comes to Tess. From the moment he sees her, he's all in. But Tess has spent years learning that men who seem too good to be true always are, and she's not about to let a sweet-talking hockey player break down walls she built to survive.
 
-Their romance is complicated by the public nature of Ryan's celebrity, Tess's ongoing divorce proceedings, and the emotional scars that come with surviving an abusive relationship. But Ryan proves himself to be patient, respectful, and fiercely protective. Together they discover that their pasts don't define them, that two seemingly wrong people can make a beautiful right, and that love doesn't follow anyone's timeline but its own.`,
+As they navigate forced proximity, an ugly divorce battle, and the kind of chemistry that refuses to stay in the friend zone, Tess has to decide: Is Ryan just another man who wants something from her? Or is he the first one brave enough to simply want her?
+
+Some people come into your life at the wrong time. And some people are exactly what you need — even if the timing looks all wrong.`,
   characters: [
     { name: "Tess Owens", role: "A confident, plus-sized thirty-three-year-old divorcee rebuilding her life in Jacksonville. She's launching a new business while fighting for her freedom from an abusive ex-husband. Her strength and resilience make her a compelling heroine navigating love and self-discovery." },
     { name: "Ryan Langley", role: "A charming All-American star forward for the Jacksonville Rays who is rehabbing an injury. Ten years younger than Tess, he's an earnest golden retriever type who falls hard and fast. His patience and devotion help Tess learn to trust again." },

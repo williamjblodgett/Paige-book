@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#140a10", "#1a0c10"],
   accentColor: "#e85d3a",
-  synopsis: `Jessica Martin is a good girl. She is polite, studious, and predictable — the kind of woman who has spent her entire life coloring inside the lines. She is engaged to a man her family approves of, on a career path that makes sense, and living a life that looks perfect on paper. The problem is that perfection is suffocating, and Jessica has spent so long being what everyone else wants that she has lost track of what she wants for herself.
+  synopsis: `Jessica Martin has spent her entire life being good. Polite. Predictable. Engaged to the right man, on the right career path, living a life that looks perfect on paper. The problem is that perfection is suffocating — and she has been so busy being what everyone else wants that she has forgotten what she wants for herself.
 
-Then she meets Manson Reed. He is everything she is supposed to avoid — tattooed, pierced, unapologetically crude, and involved in a world that would make her family clutch their pearls. Manson does not play by society's rules. He does not care about appearances, propriety, or the expectations of polite company. He is raw, honest, and disturbingly perceptive, and from the moment he meets Jessica, he sees right through her perfect facade to the restless, hungry woman underneath.
+Then she meets Manson Reed.
 
-Their connection begins as a dare — a challenge that pushes Jessica beyond her carefully maintained boundaries. What starts as a single provocative encounter escalates into a consuming dynamic that upends everything Jessica thought she knew about desire, control, and herself. Manson introduces her to a world of intensity and vulnerability she never knew existed, where surrender is strength and wanting is not something to be ashamed of.
+Tattooed, pierced, and unapologetically crude, Manson is everything Jessica is supposed to avoid. He does not care about propriety or appearances. And from the moment they meet, he sees right through her flawless facade to the restless, hungry woman underneath.
 
-But Jessica's two worlds cannot coexist forever. Her fiance, her family, and the life she has built demand one version of her. Manson demands the real one. As their relationship deepens into something neither expected, Jessica must choose between the safe, expected path and the terrifying freedom of living authentically.
+It starts with a dare — a single challenge that pushes her past her carefully maintained boundaries. What follows is an escalating, consuming connection that shatters everything she thought she knew about desire and herself. Manson introduces her to a world where surrender is strength and wanting is nothing to be ashamed of.
 
-Harley LaRoux writes with unflinching honesty about desire, shame, and liberation. The Dare is an erotic romance that challenges the idea that good girls do not want — and argues that the bravest thing a woman can do is admit what she truly needs.`,
+But her two worlds cannot coexist. Her fiance, her family, and the life she has built demand one version of her. Manson demands the real one.
+
+The safe path or the terrifying truth? The woman everyone expects or the woman she actually is?
+
+For every woman who has ever been called good and wondered what would happen if she finally stopped.`,
   characters: [
     { name: "Jessica Martin", role: "A seemingly perfect woman — engaged, career-driven, and polished — who is suffocating under the weight of everyone else's expectations. Her encounter with Manson awakens desires she has spent a lifetime suppressing." },
     { name: "Manson Reed", role: "A tattooed, pierced, unapologetically crude man who sees through Jessica's perfect facade. He challenges her to confront her authentic desires and refuses to accept the sanitized version of herself she presents to the world." },

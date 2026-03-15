@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1508", "#0c0808"],
   accentColor: "#c9a84c",
-  synopsis: `Vicious Spencer is not a nickname — it is an identity. Baron Spencer Jr., known as Vicious, is the cruelest, most powerful boy at All Saints High, the elite private school where the wealthy and the wicked send their children. He is the leader of the HotHoles — four boys who rule the school with a combination of old money, violence, and the kind of arrogance that comes from knowing you are untouchable. Vicious is beautiful, brilliant, and genuinely terrifying. He has never met a person he could not break.
+  synopsis: `Vicious is not a nickname. It is a warning.
 
-Then Emilia LeBlanc moves to town. She is the housekeeper's daughter — poor, proud, and completely out of place among the privileged elite of Todos Santos, California. She is everything the HotHoles despise: common, vulnerable, and an easy target. But Emilia is not easy. She is fierce, resilient, and refuses to bow to Vicious despite the campaign of torment he wages against her. He breaks her belongings. She stares him down. He humiliates her publicly. She holds her head higher. She is the first person who does not crumble under his cruelty, and it drives him insane.
+Baron Spencer Jr. rules All Saints High with cruelty, old money, and the kind of arrogance that comes from knowing no one can touch him. As the leader of the HotHoles, he has never met a person he could not break. He is beautiful, brilliant, and genuinely terrifying.
 
-Because the truth that Vicious will never admit — not to his friends, not to himself — is that his cruelty toward Emilia is not hatred. It is obsession. He is drawn to her with a force that terrifies him, and he punishes her for making him feel something in a world where he has trained himself to feel nothing. His bullying is the twisted expression of desire from a boy who was never taught that wanting something does not mean destroying it.
+Then the housekeeper's daughter moves to town.
 
-Years later, when Vicious and Emilia's paths cross again as adults, the dynamic has shifted but the intensity remains. Vicious has become a powerful businessman with connections to the criminal elite. Emilia has built a life far from Todos Santos. Their reunion reignites everything — the hatred, the desire, and the unresolved tension that has haunted them both. This time, Vicious is done fighting what he wants. He will have Emilia, and he will burn down anyone and anything that stands in his way.
+Emilia LeBlanc is poor, proud, and everything the elite of Todos Santos despise. She should be an easy target. But when Vicious wages his campaign of torment, Emilia does something no one has ever done — she refuses to break. He destroys her things; she stares him down. He humiliates her publicly; she holds her head higher. And it drives him absolutely insane.
 
-Vicious is a blistering enemies-to-lovers romance that does not flinch from the ugliness of its hero or the strength of its heroine. L.J. Shen writes a love story that is dark, consuming, and unapologetic — proving that sometimes the most intense love begins as something that looks nothing like love at all.`,
+Because the truth Vicious will never admit is that his cruelty is not hatred. It is obsession. She makes him feel something in a world where he trained himself to feel nothing, and he punishes her for it.
+
+Years later, their paths collide again. Vicious is now a powerful man with dangerous connections. Emilia has built a life far from his reach. But the hatred, the desire, and the unresolved tension between them have only grown more volatile with time. And this time, Vicious is done fighting what he wants.
+
+He will have her. Or he will burn it all down trying.`,
   characters: [
     { name: "Vicious (Baron Spencer Jr.)", role: "The cruelest boy at All Saints High, leader of the HotHoles, and later a powerful businessman with criminal connections. His obsessive bullying of Emilia is the twisted expression of a desire he was never taught to handle." },
     { name: "Emilia LeBlanc", role: "The housekeeper's daughter who refuses to break under Vicious's campaign of torment. Her resilience in the face of his cruelty is what makes her the only person who has ever gotten under his skin." },

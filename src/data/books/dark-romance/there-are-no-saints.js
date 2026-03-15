@@ -7,13 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a0a0a", "#1a0a0a"],
   accentColor: "#1a1a1a",
-  synopsis: `In the competitive art world of San Francisco, beauty and brutality exist in terrifying proximity. Cole Blackwell is a wealthy, celebrated sculptor whose work commands astronomical prices and critical acclaim. He is also a serial killer who views murder and the desecration of his victims' corpses as an extension of his art — bones coated in gold, incorporated into sculptures that the art world unknowingly celebrates. Cole operates with cold precision, devoid of genuine human connection, until one woman upends everything he thought he knew about himself.
+  synopsis: `Cole Blackwell is a celebrated sculptor in San Francisco's elite art world. His work commands astronomical prices. His reputation is impeccable. And he harbors a secret so dark it would destroy everything he has built -- one he has no intention of ever revealing.
 
-Mara Eldritch is a struggling young artist with a troubled past marked by her mother's abuse and neglect. At an art showcase, her resourcefulness and raw talent catch Cole's attention. That same night, she catches the eye of someone far more dangerous: Alastor Shaw, a popular artist who is secretly the "Beast of the Bay" — a frenzy-killer who brutally attacks young women. Shaw abducts Mara, pierces and slashes her, and abandons her in the woods to die.
+Then he finds her.
 
-Cole, who is nearby disposing of a victim's remains, discovers Mara's mutilated body but initially walks away. When she impossibly survives through sheer willpower — dragging herself to safety despite life-threatening injuries — Cole becomes consumed by an obsession unlike anything he's experienced. Here is someone whose survival defies everything he understands about the fragility of life. He begins stalking her, providing her with a studio space to keep her close, and inserting himself into her world.
+Mara Eldritch is a struggling artist with raw talent and a past full of pain. When she survives something no one should survive -- dragging herself to safety through sheer, impossible willpower -- Cole witnesses it all. And for the first time in his meticulously controlled life, he becomes obsessed.
 
-What unfolds is a relationship that exists beyond the boundaries of conventional morality. Mara suspects Cole may be dangerous, but she cannot deny her attraction to the man who sees her — truly sees her — darkness and all. Cole wrestles with an unprecedented internal conflict: does he desire to kill Mara, or does he simply desire her? As Shaw circles closer, planning to finish what he started, Cole and Mara are drawn into a deadly game where the line between creation and destruction, love and violence, salvation and damnation has never been thinner.`,
+He inserts himself into her world. Offers her a studio. Watches her create. But Cole is not the only predator circling Mara. Someone else wants to finish what was started, and he is getting closer.
+
+Mara knows there is something dangerous about Cole Blackwell. She can feel it in the way he looks at her -- as though she is something rare, something he wants to possess or destroy, and he has not yet decided which. But she cannot stay away. He is the only person who has ever truly seen her, and the darkness in him calls to something she has spent her whole life trying to bury.
+
+In a world where beauty and brutality wear the same face, two predators are circling. The question is not whether there are monsters in this story. The question is which one will consume her first.`,
   characters: [
     { name: "Cole Blackwell", role: "A wealthy and celebrated San Francisco sculptor who is secretly a meticulous serial killer. He incorporates his victims' remains into his art. His obsession with Mara after her impossible survival forces him to confront feelings he's never experienced, challenging everything he knows about himself." },
     { name: "Mara Eldritch", role: "A struggling artist with a traumatic childhood of abuse and neglect. Her survival of Shaw's attack through sheer willpower draws Cole's obsession. She's resilient, talented, and unafraid of darkness — making her uniquely equipped to exist in Cole's world." },

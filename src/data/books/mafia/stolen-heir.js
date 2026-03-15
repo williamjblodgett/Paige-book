@@ -7,13 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a10", "#0a0808"],
   accentColor: "#c9a84c",
-  synopsis: `In the dark and gothic second act of the Brutal Birthright series, Sophie Lark delivers a Beauty and the Beast retelling set against the backdrop of Chicago's criminal underworld. Mikolaj "Miko" Wilk was raised by the Polish Braterstwo — specifically by the brutal crime boss known as The Butcher, who was the closest thing to a father Miko ever knew. When The Butcher is killed, Miko's world collapses into a single, consuming purpose: revenge against the Griffin family.
+  synopsis: `He lost the only father he ever knew. Now he will take something precious from the family that destroyed his world.
 
-His plan is coldly calculated — take something the Griffins treasure most. That something is Nessa Griffin, the youngest member of the Irish mafia family, a gentle and kind-hearted ballerina who, unlike her sister Aida in Brutal Prince, has been kept completely sheltered from the family's criminal activities. She chases her dreams of dancing, unaware of the violence that funds her world.
+Mikolaj Wilk was forged in violence, raised by the Polish Braterstwo in Chicago's criminal underworld. When the man who raised him is killed, Miko's grief hardens into a single, consuming purpose: make the Griffin family pay. His weapon of choice? Their youngest daughter.
 
-When Miko kidnaps Nessa and brings her to his sprawling gothic mansion, what begins as a revenge plot spirals into something neither expected. Nessa adapts to her captivity with remarkable resilience, finding small joys in a secret garden and later in books and music. She dances to pass the time while Miko watches, captivated by her grace and the transformation that overcomes her when music takes hold. He expected a spoiled mafia princess; instead, he finds a creative, intelligent, and compassionate soul who sees the wounded boy behind the monster.
+Nessa Griffin is a ballerina with a gentle heart, sheltered from the brutality that funds her family's empire. She dreams of dancing, not of war. She knows nothing of the enemies circling her world — until the night a scarred stranger drags her into the darkness.
 
-Meanwhile, the Griffins and their Gallo allies tear Chicago apart searching for Nessa. But as the connection between captor and captive deepens, Miko faces an impossible conflict — his desire for revenge versus the feelings that Nessa's warmth awakens in him. In a pivotal moment, he lets her go, wanting their relationship to be her choice, not his force. The question of whether Nessa will return to the man who stole her from everything she knew becomes the emotional heart of a story about how even the most frozen hearts can be thawed by the right kind of love.`,
+Locked inside a sprawling gothic mansion, Nessa refuses to shatter. She finds beauty in hidden gardens, solace in music, and courage she never knew she possessed. And her captor? He cannot look away. Miko expected a spoiled princess. Instead, he found the one person brave enough to see the wounded boy behind the monster.
+
+As Chicago burns with the search for the stolen Griffin daughter, something far more dangerous than revenge takes root between captor and captive. But can a connection born in captivity survive in freedom? And when the cage door finally opens, will she walk away — or stay?
+
+A dark, gothic Beauty and the Beast retelling set in Chicago's criminal underworld, where the line between vengeance and love is thinner than a knife's edge.`,
   characters: [
     { name: "Mikolaj Wilk", role: "Known as Miko, he was raised by the Polish Braterstwo without love or gentleness. Cold, scarred, and driven by vengeance after The Butcher's death, he kidnaps Nessa for revenge but is gradually transformed by her compassion and grace. Sophie Lark describes him as 'dark and moody' with 'real gothic Beauty and the Beast vibes.'" },
     { name: "Nessa Griffin", role: "The youngest Griffin — a gentle, kind-hearted ballerina who dreams of dancing and knows nothing of her family's criminal enterprise. Described by Lark as 'little ballerina Belle — smart and creative and kind,' she's the only person capable of melting Miko's frozen heart." },

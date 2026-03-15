@@ -8,13 +8,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#2a1a0a", "#4a3a1a"],
   accentColor: "#c9a84c",
-  synopsis: `In the aftermath of the events of Neon Gods, Olympus is reeling. The revelation that Hades is alive and the loss of the last Zeus have left the city's power structure in chaos. Demeter, ever ambitious, has set her sights on a new target: she wants her daughter Psyche to become the next Hera, cementing the Dimitriou family's influence over the Thirteen.
+  synopsis: `Psyche Dimitriou knows how Olympus works. As Demeter's daughter and a social media influencer with a carefully curated public persona, she has spent her life navigating the city's cutthroat power games with a perfect smile and an iron spine. She knows the Thirteen are dangerous. She knows the political families are ruthless.
 
-Psyche Dimitriou is a plus-sized social media influencer who understands Olympus's power games better than anyone gives her credit for. She knows how to play the public, how to smile for cameras, and how to keep her true feelings hidden behind a perfectly curated persona. When a chance encounter with Eros is photographed and goes viral, Olympus becomes convinced they're star-crossed lovers conducting a secret affair. The resulting buzz catches the attention of the one person Eros fears most: his mother, Aphrodite.
+She did not know that Aphrodite would order her son to kill her.
 
-Eros has spent his entire life as Aphrodite's fixer—her knife in the dark. Raised to be more monster than man, he's been conditioned to accept that love and gentleness are weaknesses. When Aphrodite orders him to kill Psyche, seeing her as a threat to their family's influence, Eros faces an impossible choice. For the first time, he defies his mother. Instead of killing Psyche, he marries her—reasoning that Aphrodite wouldn't risk Olympus discovering she's been having her enemies eliminated.
+Eros has been his mother's weapon for as long as he can remember -- her fixer, her blade in the dark, the monster she raised to believe that love is weakness and mercy is a flaw. When Aphrodite decides Psyche is a threat to their family's power, the command is simple: eliminate her.
 
-What begins as a desperate act of protection becomes something far more complicated. Their marriage is supposed to be an act—a modern Romeo and Juliet for the public, friends behind closed doors. But Eros can't deny his attraction to the beautiful, intelligent Psyche, and she finds herself drawn to the vulnerability beneath his monstrous facade. Both have spent their lives performing for their politically driven, ruthless mothers, and they discover they have far more in common than either expected. As Aphrodite's threats escalate and the truth behind their marriage threatens to surface, Eros and Psyche must decide whether a relationship built on deception can survive when real feelings take root.`,
+Instead, Eros does the one thing he has never done in his life. He defies his mother. He marries Psyche.
+
+It is a calculated move. If Psyche is his wife, Aphrodite cannot touch her without exposing every secret kill she has ever ordered. The marriage is supposed to be an act -- star-crossed lovers for the cameras, strangers behind closed doors. A performance so convincing that all of Olympus believes the fairy tale.
+
+The problem is that Eros was not prepared for Psyche. For her brilliance. For her warmth. For the way she looks at him and sees not the monster his mother made but the man he never believed he could be. And Psyche was not prepared for the devastating vulnerability hiding beneath Eros's cold, lethal exterior.
+
+As Aphrodite's fury mounts and the truth behind their marriage threatens to surface, one question consumes them both: can something real survive when it was built on the most desperate of lies?`,
   characters: [
     { name: "Psyche Dimitriou", role: "A plus-sized social media influencer and Demeter's daughter who understands Olympus's power games. When Eros marries her to save her life, she discovers the vulnerable man beneath his dangerous exterior." },
     { name: "Eros", role: "Aphrodite's fixer and enforcer, raised to be a weapon. When ordered to kill Psyche, he defies his mother for the first time and marries Psyche instead, beginning a journey from monster to man." },

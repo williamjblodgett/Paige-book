@@ -7,15 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#ffd6a5", "#ff8fab"],
   accentColor: "#c45b84",
-  synopsis: `Dr. Briana Ortiz is having the worst year of her life. She's going through a brutal divorce, she just lost the promotion she'd been working toward for years, and the new doctor who got the position instead—Dr. Jacob Maddox—is about to become her daily reminder of everything that went wrong. She's determined to hate him on principle.
+  synopsis: `Dr. Briana Ortiz is having the worst year of her life. Brutal divorce. Lost the promotion she'd been working toward for years. And the new doctor who got the job instead — Dr. Jacob Maddox — is about to become her daily reminder of everything that went wrong. She's determined to hate him on principle.
 
-But Jacob isn't what she expected. He's quiet, awkward, and clearly uncomfortable in social situations. He communicates best through handwritten letters, a quirk that Briana initially finds bizarre but gradually comes to appreciate. When Jacob discovers that Briana needs a favor—a fake boyfriend to bring to family events and make her ex-husband jealous—he offers himself up in exchange for her help with something he needs: convincing his own family that he's in a stable, happy relationship so his brother will accept a kidney donation from him.
+But Jacob isn't what she expected. He's quiet, awkward, and clearly uncomfortable in social situations. He communicates best through handwritten letters — a quirk Briana initially finds bizarre but gradually comes to treasure. When they discover they each need a favor only the other can provide, they strike a deal: fake relationship, mutual benefit, no real feelings.
 
-Their arrangement is supposed to be simple. Clinical, even. But the letters keep coming—thoughtful, vulnerable, and increasingly personal. Jacob pours himself onto the page in a way he can't manage face-to-face, and Briana finds herself falling for the man behind the pen long before she's ready to admit it.
-
-As they navigate family dinners, hospital politics, and the complicated feelings that come with pretending to love someone you might actually love, both Briana and Jacob must confront their deepest insecurities. Briana, still wounded from her marriage, isn't sure she can trust again. Jacob, who struggles with social anxiety, isn't sure he can ever be enough for someone as vibrant as Briana.
-
-Yours Truly is a tender, emotionally rich romance about two people who heal each other through patience, kindness, and the lost art of letter writing. It proves that sometimes the quietest love is the most powerful.`,
+Their arrangement is supposed to be clinical. Simple. But the letters keep coming — thoughtful, vulnerable, and increasingly personal. Jacob pours himself onto the page in ways he can't manage face-to-face, and Briana finds herself falling for the man behind the pen long before she's ready to admit it. She's not sure she can trust again after her marriage. He's not sure he'll ever be enough for someone as vibrant as her. But sometimes the quietest love is the most powerful — if you're brave enough to let it in.`,
   characters: [
     { name: "Briana Ortiz", role: "Protagonist, ER doctor going through a difficult divorce" },
     { name: "Jacob Maddox", role: "Love interest, quiet new doctor who communicates through letters" },

@@ -7,15 +7,21 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#151020", "#0f0f18"],
   accentColor: "#8b6b8b",
-  synopsis: `Tate Collins is a twenty-three-year-old nursing student who arrives at her brother Corbin's San Francisco apartment building ready to focus on her master's degree. What she doesn't expect is to find a devastatingly handsome man slumped against her brother's door, drunk, broken, and barely conscious. That man is Miles Archer, a twenty-six-year-old airline pilot, Corbin's neighbor, and — as Tate quickly discovers — someone shattered so thoroughly by his past that he's constructed an impenetrable fortress around his heart.
+  synopsis: `When Tate Collins moves into her brother's San Francisco apartment building, she doesn't expect to find a devastatingly handsome man slumped against the door — drunk, shattered, and barely conscious. That man is Miles Archer: airline pilot, her brother's neighbor, and the most emotionally unavailable person she's ever met.
 
-Miles lays down two unbreakable rules: don't ask about his past, and don't expect a future. Within those boundaries, he proposes a no-strings-attached arrangement — purely physical, no emotions, no questions. Tate, drawn by the magnetic pull between them, agrees despite every instinct telling her this will end badly. Their encounters are intense and consuming, but the intimacy stops at the bedroom door. Miles gives Tate his body while keeping his soul locked away, and Tate tells herself she can handle the terms even as she falls deeper with every encounter.
+Miles has two rules. Don't ask about his past. Don't expect a future.
 
-The novel unfolds across two timelines. In the present, told from Tate's perspective, readers experience the frustration and heartbreak of loving someone who refuses to love back. Tate watches Miles oscillate between scorching passion and cold distance, never understanding what made him this way. In the past timeline, told from Miles's perspective in haunting poetic prose, readers are transported to his senior year of high school. There, a young Miles falls head over heels for Rachel, a new girl from Phoenix. Their love is immediate, intense, and all-consuming — until they discover that their parents are dating and plan to marry, making their romance feel suddenly forbidden.
+What he offers instead is simple: a no-strings arrangement. Physical. Intense. And absolutely no feelings.
 
-Despite the complication, Miles and Rachel's love burns too bright to contain. They continue their relationship in secret, and Rachel becomes pregnant. The past timeline builds toward a devastating revelation: the couple's baby, Clayton, is stillborn. The loss destroys Miles and Rachel's relationship and shatters Miles so completely that he shuts down his capacity to love. Six years later, the man Tate has fallen for is still haunted by a grief he refuses to name.
+Tate knows better. She knows this will end badly. She knows that a man with walls this high is hiding something that broke him in ways she can't imagine. But the pull between them is magnetic, and she agrees to his terms — telling herself she can keep her heart out of it.
 
-When Miles finally confronts his past and allows himself to feel again, he realizes that loving Tate isn't a betrayal of his grief — it's the only path forward. He runs to Tate's apartment and lays himself bare, choosing vulnerability after years of emotional exile. The epilogue finds them married with a daughter, their love story proof that even the ugliest heartbreak can't kill the human need for connection — it can only delay it.`,
+She can't.
+
+Told in two timelines — Tate's present and Miles's haunting past — this is the story of a man who loved so deeply that losing it destroyed him, and a woman brave enough to prove that the heart can survive what the mind insists it can't.
+
+Every touch between them is fire. Every silence is a question Miles refuses to answer. And the closer Tate gets, the more she realizes that whatever happened to Miles Archer didn't just hurt him.
+
+It nearly killed him.`,
   characters: [
     { name: "Tate Collins", role: "A twenty-three-year-old nursing student pursuing her master's degree in San Francisco. Compassionate, patient, and stronger than she realizes, Tate falls for Miles despite his emotional walls and refuses to accept that love must always come with conditions." },
     { name: "Miles Archer", role: "A twenty-six-year-old airline pilot destroyed by a devastating loss six years ago. His two rules — no past, no future — are defense mechanisms against grief he hasn't processed. Miles's journey is about learning that closing yourself off from pain also closes you off from healing." },

@@ -8,13 +8,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a0a", "#3d1111"],
   accentColor: "#8b1a1a",
-  synopsis: `Tyson Riley Crawford was once a Lord—until tragedy and betrayal stripped everything from him. His chosen, Whitney Minson, was murdered, and the Minson family played a role in his suffering. Now operating outside the Lords' formal structure as the leader of the Blackout group, Tyson has spent years putting the pieces of an elaborate revenge plan into motion. His target: the Minson family. His weapon: their remaining daughter, Laikyn.
+  synopsis: `Tyson Crawford was once a Lord. Then tragedy and betrayal stripped everything from him -- his status, his chosen, and any reason to play by the rules. Now he operates in the shadows, leading the covert Blackout group, and he has spent years assembling the pieces of an elaborate revenge plan against the family that destroyed his life.
 
-When Laikyn "Lake" Minson's fiancé Luke mysteriously disappears on their wedding day, Tyson seizes the opportunity and claims Laikyn as his bride. It's not a love match—it's a calculated move in a long game of vengeance against her father. Laikyn is spirited but trapped, forced into an arranged marriage with the man she believes killed her sister Whitney. She has always been secretly obsessed with Tyson, but after Whitney's death, that fascination curdled into hatred and fear.
+His weapon? Their daughter.
 
-What follows is a volatile marriage where nothing is as it seems. Tyson weds Laikyn not out of love but as a weapon against her family, yet the fire between them burns hotter than either anticipated. As Laikyn discovers the truth about what really happened to Whitney and the depths of her family's corruption, she transforms from a pawn in Tyson's game into a fearless player in her own right. She must decide whether to follow Tyson down his dark path or carve her own destiny.
+When Laikyn "Lake" Minson's fiance mysteriously vanishes on their wedding day, Tyson steps in and claims her as his bride. It is not a love story. It is a calculated strike in a war that Laikyn does not even know she is part of.
 
-In an explosive sequence of revelations, secrets from both their pasts collide. The notion of sacrifice carries a double meaning throughout—marking both the price of revenge and the depth of love that can emerge from the ashes. Told through the dual perspectives of Tyson and Laikyn, The Sacrifice explores the fine line between vengeance and devotion, and whether two people bound by tragedy can find redemption in each other.`,
+But Laikyn is no passive pawn. Spirited and defiant, she has spent years hating Tyson for what she believes he did to her sister Whitney. What she has never admitted -- not even to herself -- is that beneath the hatred lies a fascination she has carried since long before everything fell apart.
+
+Now she is married to a man whose every touch feels like both a punishment and a promise. As the truth about Whitney's death begins to surface, Laikyn discovers that the people she trusted most have been lying, and the man she was taught to fear may be the only one telling the truth.
+
+In the world of the Lords, sacrifice means something different than it does everywhere else. It is the price of revenge. It is the cost of loyalty. And it may be the only path to a love forged in the ashes of everything both of them have lost.
+
+The question is how much each of them is willing to burn.`,
   characters: [
     { name: "Tyson Riley Crawford", role: "A former Lord turned leader of the Blackout group who has spent years orchestrating revenge against the Minson family. Cunning, possessive, and remarkably protective, he claims Laikyn as his bride as part of his elaborate vengeance plan." },
     { name: "Laikyn 'Lake' Minson", role: "A spirited young woman forced into marriage with the man she believes killed her sister. Trapped between her family's control and Tyson's revenge, she must find her own strength as dark truths emerge about everyone she trusted." },
