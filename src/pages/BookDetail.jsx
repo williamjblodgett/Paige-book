@@ -11,6 +11,7 @@ import ResultsScreen from '../components/ResultsScreen'
 import GlossaryCard from '../components/GlossaryCard'
 import { useState } from 'react'
 import BookCover from '../components/BookCover'
+import ExternalBookLinks from '../components/ExternalBookLinks'
 
 export default function BookDetail() {
   const { bookId } = useParams()
@@ -105,6 +106,8 @@ export default function BookDetail() {
                 })}
               </div>
             )}
+
+            <ExternalBookLinks title={book.title} author={book.author} accentColor={accent} />
           </div>
         </div>
       </div>
