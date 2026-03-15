@@ -12,6 +12,7 @@ import GlossaryCard from '../components/GlossaryCard'
 import { useState } from 'react'
 import BookCover from '../components/BookCover'
 import ExternalBookLinks from '../components/ExternalBookLinks'
+import useBookCoverImage from '../hooks/useBookCoverImage'
 
 export default function BookDetail() {
   const { bookId } = useParams()
@@ -56,6 +57,7 @@ export default function BookDetail() {
 
   const genreTheme = GENRE_THEMES[book.genres[0]] || GENRE_THEMES['dark-romance']
   const accent = book.accentColor || genreTheme.accent
+  const { coverUrl, loading: coverLoading } = useBookCoverImage(book.title, book.author)
 
   return (
     <div className="min-h-screen">
@@ -77,37 +79,65 @@ export default function BookDetail() {
             Back
           </button>
 
-          <div className="text-center">
-            <h1
-              className="font-heading text-4xl md:text-6xl tracking-wider mb-3"
-              style={{ color: accent }}
-            >
-              {book.title}
-            </h1>
-            <p className="font-body text-text text-xl mb-4">by {book.author}</p>
-
-            <div className="flex items-center justify-center gap-4 mb-6">
-              <SpiceRating level={book.spiceLevel} size="lg" />
-            </div>
-
-            <div className="flex flex-wrap justify-center gap-2 mb-4">
-              {book.genres.map(g => (
-                <GenreBadge key={g} genreId={g} />
-              ))}
-            </div>
-
-            {book.themes && (
-              <div className="flex flex-wrap justify-center gap-1.5">
-                {book.themes.map(t => {
-                  const themeData = THEMES.find(th => th.id === t)
-                  return (
-                    <ThemeBadge key={t} themeId={t} label={themeData?.label || t} />
-                  )
-                })}
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
+            {/* Book Cover */}
+            <div className="w-48 md:w-56 flex-shrink-0">
+              <div className="aspect-[2/3] rounded-lg overflow-hidden shadow-2xl" style={{ boxShadow: `0 8px 40px ${accent}30` }}>
+                {coverUrl ? (
+                  <img
+                    src={coverUrl}
+                    alt={`${book.title} cover`}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <BookCover book={book} />
+                )}
               </div>
-            )}
+            </div>
 
-            <ExternalBookLinks title={book.title} author={book.author} accentColor={accent} />
+            {/* Book Info */}
+            <div className="text-center md:text-left flex-1">
+              <h1
+                className="font-heading text-4xl md:text-5xl tracking-wider mb-3"
+                style={{ color: accent }}
+              >
+                {book.title}
+              </h1>
+              {book.series && (
+                <p className="font-body text-muted text-sm mb-2">{book.series}</p>
+              )}
+              <p className="font-body text-text text-xl mb-4">by {book.author}</p>
+
+              <div className="flex items-center justify-center md:justify-start gap-4 mb-5">
+                <SpiceRating level={book.spiceLevel} size="lg" />
+              </div>
+
+              <div className="flex flex-wrap justify-center md:justify-start gap-2 mb-4">
+                {book.genres.map(g => (
+                  <GenreBadge key={g} genreId={g} />
+                ))}
+              </div>
+
+              {book.themes && (
+                <div className="flex flex-wrap justify-center md:justify-start gap-1.5 mb-5">
+                  {book.themes.map(t => {
+                    const themeData = THEMES.find(th => th.id === t)
+                    return (
+                      <ThemeBadge key={t} themeId={t} label={themeData?.label || t} />
+                    )
+                  })}
+                </div>
+              )}
+
+              {/* Synopsis / Description - visible directly */}
+              {book.synopsis && (
+                <p className="font-body text-text/80 leading-relaxed text-sm md:text-base line-clamp-6 mb-5">
+                  {book.synopsis}
+                </p>
+              )}
+
+              <ExternalBookLinks title={book.title} author={book.author} accentColor={accent} />
+            </div>
           </div>
         </div>
       </div>
@@ -136,26 +166,20 @@ export default function BookDetail() {
           </div>
         </nav>
 
-        {/* Synopsis */}
+        {/* About This Book */}
         {book.synopsis && (
           <section id="synopsis" className="scroll-mt-20">
             <h2
               className="font-heading text-2xl tracking-wider mb-6"
               style={{ color: accent }}
             >
-              Synopsis
+              About This Book
             </h2>
-            <SpoilerGate
-              title="Spoiler Warning"
-              warning="This synopsis reveals major plot details including twists and endings."
-              accentColor={accent}
-            >
-              <div className="bg-surface rounded-lg border border-gold/10 p-6 md:p-8">
-                <p className="font-body text-text/80 leading-relaxed whitespace-pre-line">
-                  {book.synopsis}
-                </p>
-              </div>
-            </SpoilerGate>
+            <div className="bg-surface rounded-lg border border-gold/10 p-6 md:p-8">
+              <p className="font-body text-text/80 leading-relaxed whitespace-pre-line">
+                {book.synopsis}
+              </p>
+            </div>
           </section>
         )}
 
