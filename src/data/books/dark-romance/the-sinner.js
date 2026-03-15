@@ -8,13 +8,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a0a", "#3d1111"],
   accentColor: "#8b1a1a",
-  synopsis: `Ellington "Elli" Asher has known nothing but suffering. After her father's suicide when she was twelve, her life spiraled into darkness. Her mother, a Lady of the Lords, was eventually gifted to another Lord—a man named James who groomed Elli for years. Through it all, one person watched from the shadows: Easton Bradley Sinnett, known as Sin, the boy next door whose father was best friends with Elli's. Sin has protected his "little demon" from afar, but he didn't know the full extent of her suffering until he became a Lord himself.
+  synopsis: `He has watched over her from the shadows for years. She has survived the unimaginable by clinging to a single bright spot in the darkness -- a mysterious masked figure who makes her feel safe when nothing else does.
 
-Now in his senior year at Barrington University, Sin's vow of celibacy is finally over. He's desperate to claim Elli as his own, but there's a devastating catch—she's not on the approved list of women he can choose. The rules of the Lords are absolute, and Sin's hands are tied by tradition and hierarchy. When Elli's mother is handed off to yet another Lord named Lincoln—a man who was complicit in Elli's past abuse and who now controls the House of Lords—the situation becomes dire. Lincoln threatens that if Sin doesn't take his assigned chosen, Elli will be made available for Lincoln's use.
+Sin is a Lord at Barrington University who has waited years for the chance to claim the one woman who was always meant to be his. But when his senior year arrives, there is a devastating catch: Ellington Asher is not on the approved list. The society says she cannot be his.
 
-Elli has survived by clinging to the one bright spot in her darkness: a mysterious masked man who has become her lifeline. What she doesn't know is that this masked figure and the boy she's always had a crush on—her best friend's older brother—are connected in ways she never imagined. As Sin fights the system to protect Elli, their relationship ignites with an intensity born of years of longing, trauma, and forbidden desire.
+Sin has never been good at following rules.
 
-The Sinner is considered the darkest installment of the L.O.R.D.S. series, dealing unflinchingly with the aftermath of abuse, the bonds formed through trauma, and the lengths one man will go to save the woman who was always meant to be his. Sin must navigate the treacherous politics of the Lords, confront the monsters who hurt Elli, and prove that his obsession is not just possession—it's protection, devotion, and a love forged in fire.`,
+Elli has known nothing but darkness since her father's death shattered her world. Passed between powerful men who treated her as property, she has survived by building walls no one can breach. But Sin sees through every one of them. He always has. And now that the most dangerous man in the society is threatening to claim Elli for himself, Sin will break every rule, burn every bridge, and destroy anyone who stands between them.
+
+She calls him a sinner. He calls her his little demon. And the fire between them has been building for a lifetime.
+
+Some bonds are not chosen. They are survival.`,
   characters: [
     { name: "Easton Bradley Sinnett (Sin)", role: "A dominant Lord at Barrington University who has watched over Elli from the shadows for years. Fierce, possessive, and deeply devoted, he'll break every rule of the society to claim and protect the woman he calls his little demon." },
     { name: "Ellington 'Elli' Asher", role: "A young woman scarred by years of abuse and tragedy following her father's suicide. Despite her suffering, she finds strength in her connection with Sin and must learn to trust that she deserves to be saved." },

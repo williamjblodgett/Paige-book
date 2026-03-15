@@ -7,13 +7,21 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a1a", "#3d1122"],
   accentColor: "#8b1a4a",
-  synopsis: `Roxanne—Roxy—never expected her deadbeat father's gambling debts to become her problem. But when he can't pay what he owes to the Vipers, the most feared criminal organization in the city, they come to collect. They don't want money. They want her. Kidnapped from her bar and locked in the Vipers' penthouse, Roxy refuses to go quietly. Armed with a baseball bat and a sharp tongue, she makes it clear that she won't be anyone's property—not without a fight.
+  synopsis: `Roxy's father owed a debt to the most feared criminal organization in the city. He could not pay. So they took the next best thing.
 
-The four men who rule the Vipers are as different as they are dangerous. Ryder is the cold, calculating leader who carries the weight of his brothers' protection on his shoulders. Kenzo, Ryder's biological brother, runs the underground gambling empire and is the group's romantic heart—the one most capable of expressing his emotions. Garrett is the scarred enforcer, a mountain of muscle with deep trust issues born from a past betrayal by a woman he loved. And Diesel is the chaotic wildcard, a man who doesn't bother hiding his bloodlust and finds dark humor in the violence that defines their world.
+Her.
 
-What begins as captivity slowly transforms as Roxy refuses to be broken. Her fierce spirit and refusal to cower earns each Viper's respect—and eventually their obsession. Each man falls for her in his own way, creating four distinct romantic dynamics within the reverse harem. Ryder learns to let someone past his walls. Kenzo finally finds a woman worthy of his devotion. Garrett discovers that trust doesn't have to mean vulnerability. And Diesel realizes that protecting someone doesn't mean protecting them from himself.
+Kidnapped and locked in their penthouse, Roxy refuses to go quietly. Armed with a baseball bat and a razor-sharp tongue, she makes one thing clear -- she will not be anyone's property. Not without a fight.
 
-But the Vipers' hold on the city is under threat. The Triad, a rival criminal organization, is making moves to take over their territory, and Roxy finds herself at the center of a war she never asked for. As she transforms from captive to queen of the Vipers, Roxy must embrace the darkness of the men who stole her—and discover that sometimes the most dangerous love is the one that refuses to let go.`,
+But the four men who rule the Vipers are unlike anything she expected. Ryder, the cold and calculating leader who carries the weight of an empire on his shoulders. Kenzo, the romantic heart who runs the underground with velvet-gloved brutality. Garrett, the massive, scarred enforcer who swore he would never let a woman close again. And Diesel -- the chaotic, bloodthirsty wildcard who makes no apologies for the monster he is.
+
+Four dangerous men. Four very different ways of wanting her.
+
+Roxy's refusal to break earns their respect first. Then their fascination. Then something far more consuming. One by one, each Viper falls -- and not a single one of them plans to let go.
+
+But a rival organization is circling, and Roxy is about to find herself at the center of a war she never asked for. The woman who was taken as payment is becoming something no one anticipated: the queen they would burn the entire city down to protect.
+
+In the den of vipers, love does not come gently. It comes with teeth.`,
   characters: [
     { name: "Roxy", role: "A fierce, bat-wielding woman kidnapped by the Vipers to pay her father's gambling debt. Her refusal to be broken earns the respect and obsession of all four men, and she transforms from captive to the queen of their empire." },
     { name: "Ryder", role: "The cold, calculating leader of the Vipers who carries the burden of protecting his brothers. He's always the strategist, blaming himself when things go wrong, and Roxy is the first person to breach his walls." },

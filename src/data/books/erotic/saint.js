@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a0805", "#1a150f"],
   accentColor: "#c9884c",
-  synopsis: `Aiden Bell was once the wildest of the Bell brothers — a millionaire playboy who lived for excess and impulse. But when depression brought him to his lowest point, Aiden abandoned everything: his money, his career, and the love of his life, Elijah Iverson. Without explanation or goodbye, he entered a monastery and became an ascetic monk, seeking peace through prayer, silence, and self-denial. Five years have passed, and while Aiden has found a fragile equilibrium within the monastic walls, his all-consuming love for Elijah has never dimmed.
+  synopsis: `Five years ago, Aiden Bell disappeared. He walked away from his fortune, his family, and the love of his life without a word of explanation. He entered a monastery and became a monk, seeking salvation from a darkness that nearly consumed him.
 
-Elijah Iverson — Sean Bell's best friend and Zenny's brother — has spent those five years trying to understand why Aiden vanished. He never stopped loving Aiden, but he has tried to move on. Now a journalist, Elijah arrives at Aiden's monastery to write a magazine article, but his real purpose is more personal: he needs to see Aiden one last time, because he is engaged to someone else. The news devastates Aiden, but he tells himself his path is set. He chose God. He chose solitude. He has no right to ask Elijah to wait.
+Elijah Iverson has spent five years wondering why. He never stopped loving Aiden, but he has tried to move on. Now a journalist, Elijah arrives at the monastery with a professional excuse and a personal truth: he is engaged to someone else. He has come to say goodbye.
 
-When Aiden is sent on a monastic road trip across Europe to visit sister monasteries, Elijah joins him. Traveling through breathtaking European landscapes and ancient cloisters, the two men are thrown into agonizing proximity. Old feelings resurface with devastating force, and Aiden's hard-won peace begins to crumble. Every conversation, every accidental touch, every shared silence pulls them closer to the edge. Aiden is torn between the monastic life that saved him from his darkest hour and the man who makes him feel truly alive.
+But saying goodbye to Aiden Bell was never going to be simple.
 
-The novel explores Aiden's mental health with remarkable honesty and tenderness. His depression, his survivor's guilt over Lizzy's death, and his fear that he is fundamentally broken are rendered with painful authenticity. Elijah, for his part, must decide whether to honor his engagement or fight for the love he never chose to lose. Their journey across Europe becomes a pilgrimage of the heart — a quest to determine whether love and faith are opposing forces or two expressions of the same devotion.
+When a monastic assignment sends Aiden across Europe, Elijah joins him. Traveling through ancient cloisters and breathtaking landscapes, every conversation reopens old wounds. Every accidental touch threatens to undo years of careful distance. Aiden's hard-won peace begins to crumble against the force of a love he was never strong enough to kill.
 
-Saint is a devastating, luminous M/M romance that stands as the emotional pinnacle of Sierra Simone's Priest series. Set against monasteries and cathedrals that feel as alive as the characters, it asks the most sacred question of all: what if you can have God and love?`,
+One man is torn between the life that saved him and the man who makes him feel alive. The other must choose between the safe future waiting at home and the devastating, beautiful past standing right in front of him.
+
+What if you do not have to choose between God and love? What if they were always the same thing?
+
+Luminous, aching, and deeply honest, Saint is a love story for anyone who has ever felt too broken to deserve the thing they want most.`,
   characters: [
     {
       name: "Aiden Bell",

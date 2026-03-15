@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#120a10", "#1a0a12"],
   accentColor: "#e85d3a",
-  synopsis: `Posy Santoro has always been the overlooked one. In a powerful crime family where her sisters are beautiful, fierce, and commanding, Posy is the awkward, anxious one who reads too much, talks too little, and never quite fits in. She has spent her whole life on the margins of a world that values strength and cunning, quietly accepting that she is the Santoro nobody notices. That changes the night she is given to Dario Volpe.
+  synopsis: `In the Santoro crime family, Posy has always been the one nobody notices. While her sisters are fierce and commanding, Posy is the quiet, anxious daughter who reads too much and talks too little. So when the family needs a peace offering to seal an alliance, they give away the daughter they will miss least.
 
-Dario is the enforcer of the Volpe crime family — a man so terrifying that even hardened criminals avoid his gaze. He is enormous, violent, and operates with a cold efficiency that suggests emotion is a concept he abandoned long ago. When the Santoro family needs to seal an alliance with the Volpes, they offer up the daughter they will miss least: Posy. She is a pawn, a peace offering, a disposable girl handed to a monster.
+They give her to Dario.
 
-But Dario is not what anyone expects. He is neurodivergent — methodical, literal-minded, and operating by a set of internal rules that make him seem inhuman to others but are simply his way of processing a world that does not make sense to him. When he claims Posy, he does so with absolute totality. She is his. Not as a possession to be used but as something to be protected, cataloged, understood, and kept safe. His devotion is immediate, absolute, and expressed in ways that are unconventional but unmistakable.
+Dario Volpe is the kind of man that even hardened criminals fear. Enormous, methodical, and brutally efficient, he is a terrifying enforcer who appears to operate without emotion — a machine built for violence. But Dario is not what anyone expects. He processes the world through his own set of internal rules, and when he claims Posy, he does so with absolute totality — not as a possession to be used, but as something to be understood and fiercely protected.
 
-Posy, who has never been chosen for anything, is overwhelmed and terrified — but also, for the first time, seen. Dario notices everything about her. The way she wrings her hands when anxious. The books she loves. The foods she hates. He builds his world around her preferences with a precision that is both unsettling and deeply touching. Their communication is halting and unconventional, as neither excels at social norms, but what they build together is more honest than any polished relationship.
+For the first time in her life, Posy is seen. He notices everything: the way she wrings her hands, the books she loves, the foods she cannot stand. He builds his world around her with a precision that is equal parts unsettling and devastating.
 
-As external threats close in and both families demand loyalty, Posy discovers she is braver than anyone gave her credit for, and Dario discovers that the emotion he thought he had abandoned was simply waiting for the right person. Run Posy Run is a dark, tender, fiercely original romance about two people the world underestimated finding exactly what they need in each other.`,
+She was supposed to be disposable. He was supposed to be a monster.
+
+What happens when two people the world has written off discover something extraordinary in each other? And what happens when the forces that brought them together decide to tear them apart?
+
+Dark, tender, and fiercely original, Run Posy Run will shatter every expectation you bring to it.`,
   characters: [
     { name: "Posy Santoro", role: "The overlooked, anxious daughter of a crime family, given to Dario as a peace offering. Quiet and bookish, she has never been chosen for anything — until a terrifying man sees her more clearly than anyone ever has." },
     { name: "Dario Volpe", role: "The Volpe family's feared enforcer who is neurodivergent — methodical, literal-minded, and operating by internal rules. His devotion to Posy is absolute and expressed through meticulous attention to her every need and preference." },

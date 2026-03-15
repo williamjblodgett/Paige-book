@@ -7,15 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#ffb347", "#ff6961"],
   accentColor: "#c45b84",
-  synopsis: `Poppy Wright and Alex Nilsen have been best friends for twelve years, despite being polar opposites. Poppy is a spontaneous, outgoing travel writer who thrives on adventure and new experiences. Alex is a reserved, thoughtful teacher who prefers routine and quiet evenings at home. Yet somehow, they just work.
+  synopsis: `Poppy and Alex have been best friends for twelve years, despite being polar opposites. She is a spontaneous, adventure-loving travel writer. He is a reserved, routine-loving teacher. Every summer, they took a vacation together — just the two of them — across quirky destinations and cheap motels. It was their tradition, the highlight of their year, the one thing neither would ever break.
 
-Every summer for a decade, they took a vacation together—just the two of them—creating memories across quirky destinations and cheap motels. These trips became the highlight of their year, an unspoken tradition that neither would dream of breaking. Until two years ago, when something went terribly wrong on their trip to Croatia, and they haven't spoken since.
+Until two years ago, when something went wrong on their trip to Croatia. Something so bad they have not spoken since.
 
-Now Poppy is miserable. Her dream job at a prestigious travel magazine feels hollow, her apartment is a disaster, and she can't stop thinking about what she lost. Desperate to repair their fractured friendship, she convinces Alex to take one more vacation together—a trip to Palm Springs that she hopes will fix everything between them.
+Now Poppy is miserable. Her dream job feels hollow, her apartment is a wreck, and no amount of travel can fill the void Alex left behind. Desperate to salvage the most important relationship in her life, she talks him into one last trip: Palm Springs. One week to fix what broke between them — or to say goodbye for good.
 
-As the story alternates between their past summer adventures and their present-day attempt at reconciliation, the truth about what happened in Croatia slowly emerges. Each flashback reveals another layer of their relationship, showing how two people so different could become so essential to each other, and how the feelings simmering beneath their friendship grew too powerful to ignore.
+Alternating between their sun-soaked past adventures and their present-day reckoning, the story peels back the layers of a friendship that was never quite just a friendship. With each flashback, the question grows louder: How did two people so different become so essential to each other? And what really happened in Croatia?
 
-In Palm Springs, surrounded by desert heat and the weight of unspoken words, Poppy and Alex must finally confront the question they've been dancing around for over a decade: Can best friends become something more without losing everything that made them special in the first place? People We Meet on Vacation is a heartwarming, funny, and deeply emotional story about the risk of loving someone so much that the fear of losing them keeps you from having them at all.`,
+In the desert heat, with years of unspoken feelings hanging between them, Poppy and Alex must finally face the truth they have been running from. Can best friends become something more — without losing everything that made them extraordinary?`,
   characters: [
     { name: "Poppy Wright", role: "Protagonist, adventurous travel writer" },
     { name: "Alex Nilsen", role: "Love interest, introverted teacher and Poppy's best friend" },

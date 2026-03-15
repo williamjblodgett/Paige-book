@@ -8,13 +8,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#2a1a0a", "#4a3a1a"],
   accentColor: "#c9a84c",
-  synopsis: `Kai Young is the epitome of control. Reserved, proper, and precise to a fault, the heir to the Young Corporation media empire translates classics into Latin for fun and approaches life with the meticulous discipline of a man who has never known failure. With a crucial CEO vote approaching that will determine whether he inherits his mother's company, Kai can't afford distractions. He has the vote locked up—or so he believes—and his excessive pride won't allow him to entertain the possibility of losing.
+  synopsis: `He translates Latin classics for fun. She has purple hair and tells dirty jokes at his expense. They should not work at all.
 
-Isabella Valencia is chaos personified. With her purple hair, inappropriate jokes, and a personality that fills every room she enters, the twenty-eight-year-old bartender at the elite Valhalla Club is everything Kai should avoid. She comes from a highly successful family, and the pressure to match her siblings' achievements—especially from her eldest brother Gabriel—has left her paralyzed with self-doubt. She started writing an erotic thriller novel before scrapping it, stalled by writer's block and the crushing weight of expectation.
+Kai Young is control personified — the reserved, impeccably disciplined heir to a media empire who has never met a situation he couldn't master. With a critical CEO vote looming, he can't afford a single distraction. Especially not the kind that serves his drinks at the Valhalla Club.
 
-Their paths cross regularly at Valhalla, where Isabella serves Kai drinks and he pretends she doesn't affect him. The Valhalla Club has a strict non-fraternization policy between members and staff, making any relationship between them forbidden territory. But chemistry doesn't care about rules. Their opposites-attract dynamic sparks with every interaction—her irreverence loosening his rigidity, his steadiness grounding her chaos.
+Isabella Valencia lights up every room she walks into and leaves a trail of chaos in her wake. As a bartender at the city's most exclusive club, she pours cocktails for billionaires while hiding a secret: she's drowning in self-doubt, crippled by the pressure to match her wildly successful siblings, and sitting on an abandoned novel she's too afraid to finish.
 
-When Kai's carefully controlled world begins to crumble—a competitor named Russell Burton is secretly blackmailing board members to rig the CEO vote—he's forced to confront the possibility of failure for the first time. Isabella faces her own reckoning when a well-known literary agent discovers her abandoned manuscript and wants to see more. Together, they navigate the collision of ambition and desire, learning that pride can be both armor and prison. With the help of allies like Christian Harper, Kai uncovers Russell's sabotage, reclaims the CEO position, and discovers that the most important victory isn't corporate—it's allowing someone past the walls his pride has built.`,
+The Valhalla Club's strict non-fraternization policy makes any relationship between members and staff absolutely forbidden. Kai knows the rules. He also knows he should stop finding excuses to sit at her bar.
+
+Her irreverence cracks his composure. His quiet certainty steadies her chaos. And when threats close in on both his corporate ambitions and her creative dreams, they discover something terrifying: the walls pride builds might keep you safe, but they also keep you alone.
+
+Sometimes the bravest thing you can do is let someone see who you really are.`,
   characters: [
     { name: "Kai Young", role: "The reserved, controlled heir to a media empire whose excessive pride blinds him to threats. His relationship with Isabella challenges everything he believes about discipline, control, and what makes a life worth living." },
     { name: "Isabella Valencia", role: "A vibrant, purple-haired bartender at the Valhalla Club hiding crippling self-doubt beneath her chaotic exterior. Her abandoned erotic thriller manuscript and her connection with Kai both represent her struggle to believe in herself." },

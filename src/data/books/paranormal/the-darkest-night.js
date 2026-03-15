@@ -7,15 +7,19 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1a10", "#0a0e0a"],
   accentColor: "#1e8a5f",
-  synopsis: `Thousands of years ago, a group of immortal warriors committed the ultimate sin: they opened Pandora's box. As punishment, each warrior was cursed to host one of the demons that escaped — forced to carry an embodiment of the world's darkest vices inside them for eternity. They are the Lords of the Underworld, and they have been fighting to maintain their sanity and their honor ever since.
+  synopsis: `Centuries ago, they committed the ultimate sin — they opened Pandora's box. Now each warrior is cursed to carry one of the demons they unleashed, bound together for eternity. They are the Lords of the Underworld, and every day is a war against the darkness living inside them.
 
-Maddox is the keeper of Violence. Every night at midnight, he is stabbed to death and sent to hell, only to be resurrected at dawn to endure another day. The demon inside him feeds on aggression and bloodlust, and Maddox has spent millennia learning to control the violence that constantly threatens to consume him. He lives in a fortress in Budapest with his fellow Lords, isolated from humanity because human contact feeds the demon and makes control nearly impossible.
+Maddox is the keeper of Violence. The demon in his blood feeds on rage, screams for destruction, and never, ever stops. Every midnight, Maddox dies. Every dawn, he is dragged back to endure it all again.
 
-Then Ashlyn Darrow finds them. Ashlyn is a human woman with a supernatural gift she considers a curse — she can hear every conversation that has ever taken place in any location she stands. The cacophony of voices is maddening, a constant barrage that has made normal life impossible. She has traveled to Budapest because she heard about the fortress and its supernatural inhabitants, desperate for someone who might understand what it is like to carry something inhuman inside you.
+Then she walks into his fortress. And for the first time in millennia — silence.
 
-When Ashlyn enters the fortress, something extraordinary happens: in Maddox's presence, the voices go silent for the first time in her life. The relief is overwhelming, addictive, and she clings to him like a lifeline. Maddox, in turn, discovers that Ashlyn's presence calms his demon — the violence that constantly screams in his blood quiets when she is near. They are each other's antidote, each other's peace, and the intensity of that mutual relief translates into a connection that burns through every barrier.
+Ashlyn Darrow has spent her entire life hearing voices. Not hallucinations — every conversation that has ever occurred in any place she stands floods her mind in an endless, maddening torrent. She has come to Budapest desperate for relief, searching for someone who might understand what it means to carry something unbearable inside you.
 
-But the Lords' enemies are closing in. The Hunters — humans who seek to destroy the Lords and recapture the demons — threaten Ashlyn's safety. Maddox's nightly death makes protecting her nearly impossible. And the other Lords, each battling their own demons, are not convinced that a human woman belongs in their fortress. The Darkest Night launches an epic paranormal romance series where love is the only force powerful enough to challenge the darkness within.`,
+Near Maddox, the voices vanish. Near Ashlyn, the violence goes quiet. They are each other's antidote — and the pull between them is instant, overwhelming, and impossible to resist.
+
+But enemies are circling. Maddox dies every night, leaving Ashlyn unprotected. And the demon inside him does not care that he has finally found something worth living for.
+
+How do you protect the one person who gives you peace when the greatest danger is the thing living under your own skin?`,
   characters: [
     { name: "Maddox", role: "The keeper of Violence, an immortal warrior cursed to die every night and resurrect every dawn. His demon feeds on aggression, but Ashlyn's presence brings him the only peace he has known in millennia." },
     { name: "Ashlyn Darrow", role: "A human woman cursed to hear every conversation that has ever occurred in any location. Maddox is the only person whose presence silences the voices, making him her lifeline and her greatest vulnerability." },

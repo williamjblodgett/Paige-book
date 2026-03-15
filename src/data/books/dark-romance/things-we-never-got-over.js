@@ -8,13 +8,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0d0a08", "#2a2018"],
   accentColor: "#c42a2a",
-  synopsis: `Naomi Witt's life implodes in spectacular fashion when she travels to the small town of Knockemout, Virginia, to rescue her estranged twin sister Tina from her latest disaster. Instead of a grateful sibling, Naomi finds herself abandoned—Tina steals her car, her wallet, and her identity, leaving Naomi stranded with nothing but the clothes on her back and an eleven-year-old niece named Waylay she didn't know existed.
+  synopsis: `Naomi Witt came to Knockemout, Virginia, to rescue her estranged twin sister. Instead, Tina stole her car, her wallet, and her identity — leaving Naomi stranded in a town she's never been to, with an eleven-year-old niece she didn't know existed.
 
-Enter Knox Morgan, Knockemout's resident grump and the man who makes it abundantly clear that Naomi is not welcome. Knox is a bar owner with a reputation for being cold, controlling, and completely uninterested in anyone's problems. He's also infuriatingly attractive, impossibly stubborn, and hiding a heart of gold beneath layers of armor that would take a blowtorch to penetrate. When circumstances force Naomi into his orbit—she needs a job, he needs a bartender, and Waylay needs someone who won't abandon her—an uneasy arrangement begins.
+Enter Knox Morgan: bar owner, resident grump, and the last person in Knockemout who wants anything to do with Naomi's mess. He's cold, stubborn, and built walls so high they'd need a blowtorch to penetrate. He makes it very clear she is not welcome.
 
-Naomi is everything Knox doesn't want: sunny, optimistic, and determined to see the best in everyone, including him. She disrupts his carefully controlled existence with her relentless kindness and her refusal to be intimidated by his gruff exterior. Knox is everything Naomi should avoid: emotionally unavailable, bossy, and carrying enough baggage to fill a cargo plane. But when he protects Waylay with a ferocity that takes Naomi's breath away, she glimpses the man beneath the walls.
+Too bad she needs a job. Too bad he needs a bartender. And too bad Waylay — the fierce, abandoned kid caught in the middle — needs someone who won't disappear.
 
-As Naomi fights to gain custody of Waylay and build a new life in Knockemout, Knox finds himself drawn into her chaos despite every instinct screaming at him to walk away. Tina resurfaces with demands and threats, town secrets bubble to the surface, and Knox's dark past collides with his growing feelings for the woman who stormed into his life uninvited. What started as mutual annoyance becomes something neither can deny—but Knox must decide if he's brave enough to let someone in before the walls he's built destroy the best thing that's ever happened to him.`,
+Naomi is sunny, optimistic, and determined to see the good in everyone. Knox is allergic to all three. She disrupts his entire existence with her relentless kindness and her refusal to be intimidated. He unsettles her with a protectiveness so fierce it takes her breath away.
+
+But Knockemout is a town full of secrets. Tina isn't done causing damage. And Knox is carrying a past that could burn everything down.
+
+What started as mutual irritation is becoming something neither of them planned — and something Knox isn't sure he deserves.`,
   characters: [
     { name: "Naomi Witt", role: "A sunny, optimistic woman stranded in Knockemout after her twin sister steals her identity. She fights to build a new life and gain custody of her niece Waylay." },
     { name: "Knox Morgan", role: "Knockemout's grumpy bar owner who hides a protective heart beneath layers of emotional armor. He's drawn to Naomi despite every instinct telling him to stay away." },

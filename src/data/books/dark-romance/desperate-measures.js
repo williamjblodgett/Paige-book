@@ -8,13 +8,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a1a", "#3d1a3d"],
   accentColor: "#4a1a4a",
-  synopsis: `In Katee Robert's darkly twisted reimagining of Aladdin, the fairy tale's gilded cage becomes brutally literal. Jasmine—born Yasmina—is a mafia princess trapped by her father's empire. Her entire life has been spent behind the walls of luxury and control, a pawn in her father's schemes to consolidate power through strategic marriages. When her father announces plans to marry her off to Ali, a dangerous man from a rival criminal family, Jasmine's world narrows to a single desperate question: how do you escape a cage when the lock is on the outside?
+  synopsis: `Jasmine has spent her entire life in a gilded cage -- a mafia princess trapped behind luxury and her father's iron control. When he announces plans to marry her off to a brutal man from a rival family, escape becomes the only option. But how do you run when the lock is on the outside?
 
-The answer arrives in the form of Jafar, her father's ruthless second-in-command, who stages a violent coup and claims both the empire and Jasmine as his prizes. On the night he takes everything from her father, Jafar offers Jasmine a devil's bargain: walk away with nothing but her freedom, or stay and try to best him for control of her inheritance. Jasmine, too proud and too furious to walk away empty-handed, accepts the challenge—and loses a bet with stakes higher than she imagined.
+Enter Jafar. Her father's ruthless second-in-command offers her a devil's bargain on the night everything falls apart: walk away with nothing but her freedom, or stay and fight for what is hers. Jasmine is too proud to leave empty-handed. She challenges him. She loses.
 
-Trapped in Jafar's penthouse, Jasmine discovers that her new captor is nothing like the man her father sold her to. Where Ali was crudely possessive, Jafar is calculatingly respectful—cruel with precision rather than carelessness. As the walls between them slowly crack, Jasmine finds that Jafar's particular brand of punishment ignites desires she never knew she possessed. Their relationship evolves from pure antagonism to a dangerous, consuming attraction built on power plays, mutual respect, and a shared understanding of what it means to survive in a world that treats people as currency.
+Now she belongs to the most dangerous man in the empire.
 
-When Hades—the enigmatic figure who controls the Underworld—strikes a deal that puts Jasmine back in Ali's hands, she's forced to fight for her life. Jasmine kills Ali and survives, proving she's no longer anyone's pawn. The novel is a dark exploration of captivity, desire, and the difference between cages that destroy and ones that protect—ending with Jasmine choosing Jafar not because she's trapped, but because he's the first person who saw her as more than a bargaining chip.`,
+But Jafar is nothing like the monster she expected. Where others were crude and possessive, he is calculating, precise, and unnervingly respectful. He does not treat her as property. He treats her as an adversary worth his attention. And in the charged silence of his penthouse, the line between captivity and desire begins to blur in ways Jasmine never imagined possible.
+
+She should hate him. She should be plotting her escape. Instead, she is beginning to wonder if surrender might be the most powerful weapon she has.
+
+In a world where everyone is currency and powerful forces are circling, Jasmine must decide: Will she remain a pawn in someone else's game, or become the most dangerous player at the table?
+
+A darkly seductive reimagining of Aladdin where the gilded cage has never been more tempting.`,
   characters: [
     { name: "Jasmine (Yasmina)", role: "A mafia princess trapped in her father's gilded cage who refuses to be a passive pawn. When captured by Jafar, she discovers that her captor respects her more than her own family ever did, and her fight for freedom becomes a fight for self-determination." },
     { name: "Jafar", role: "The ruthless second-in-command who stages a coup against Jasmine's father and claims both the empire and Jasmine. Calculating and precise in his cruelty, he proves to be far more complex than the villain Jasmine expected." },

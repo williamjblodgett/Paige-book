@@ -7,15 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1018", "#150a18"],
   accentColor: "#2d8cf0",
-  synopsis: `Gigi Graham has hockey in her blood. As the daughter of Garrett Graham — a Briar University legend and former professional hockey player — she has spent her entire life on the ice. Now a standout on Briar's women's hockey team, Gigi is fiercely competitive, irrepressibly cheerful, and determined to forge her own legacy separate from her famous father. She approaches life with an infectious enthusiasm that most people find either charming or exhausting. Luke Ryder finds it exhausting.
+  synopsis: `Gigi Graham is sunshine on ice skates -- fiercely competitive, impossibly cheerful, and tired of living in the shadow of her hockey legend father. All she wants is to prove she earned her spot on Briar University's women's team on her own merits.
 
-Luke Ryder is a transfer student on the men's hockey team at Briar, a brooding, intense defenseman carrying the weight of a troubled past. Where Gigi is open and warm, Luke is closed off and guarded. Where she sees the best in people, he expects the worst. He has transferred to Briar under difficult circumstances, and the last thing he needs is the coach's daughter bouncing into his life like a golden retriever in hockey skates.
+Luke Ryder is a storm cloud with a hockey stick. The brooding transfer student wants nothing to do with anyone, least of all the coach's annoyingly persistent daughter and her golden retriever energy.
 
-But Briar's athletic department has other plans. When budget cuts threaten both hockey programs, a joint fundraising initiative forces the men's and women's teams to work together. Gigi and Luke are paired up, and their clashing personalities create immediate friction. She thinks he is rude and unnecessarily cold. He thinks she is naive and annoyingly persistent. Neither is entirely wrong.
+When budget cuts force the men's and women's hockey programs into an unwilling partnership, Gigi and Luke are thrown together. She thinks he is rude. He thinks she is exhausting. Neither of them can explain why every argument leaves them breathless for all the wrong reasons.
 
-As they are forced into each other's orbit, the friction begins to generate a different kind of heat. Luke discovers that beneath Gigi's sunny exterior is a woman dealing with the pressure of living up to a legendary name while carving out her own identity. Gigi discovers that beneath Luke's hostility is a young man battling demons he cannot outrun on the ice. Their connection deepens through late-night practices, reluctant vulnerability, and a chemistry that neither can control.
+Late nights on the ice have a way of stripping away pretenses. Beneath Luke's walls, Gigi finds someone worth fighting for. And Luke begins to realize that the one person who refuses to give up on him might be the one person he cannot afford to let in -- because her father controls his future in hockey.
 
-The stakes are personal and professional. Gigi's father is essentially Luke's boss. The team dynamics shift as their relationship becomes harder to hide. Luke's past threatens to catch up with him in ways that could end his hockey career entirely. Elle Kennedy delivers a romance that balances sharp banter, genuine emotional depth, and the electrifying tension of two people who are absolutely wrong for each other — until they are not.`,
+She is everything he is not. He is the one complication she does not need. Together, they are a match that could end in glory or disaster.
+
+A scorching, rivals-to-lovers hockey romance for fans of enemies who generate more heat off the ice than on it.`,
   characters: [
     { name: "Gigi Graham", role: "A standout player on Briar University's women's hockey team and daughter of hockey legend Garrett Graham. Fiercely competitive and irrepressibly cheerful, she struggles to build her own identity separate from her father's legacy." },
     { name: "Luke Ryder", role: "A brooding transfer student on Briar's men's hockey team. A talented defenseman with a troubled past, he is guarded and intense, and his hostility masks deep vulnerability and trauma he has not yet processed." },

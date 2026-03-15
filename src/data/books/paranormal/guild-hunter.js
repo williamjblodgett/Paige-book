@@ -7,15 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1a10", "#0a0d0a"],
   accentColor: "#1e8a5f",
-  synopsis: `In Nalini Singh's world, angels are not benevolent messengers of God — they are beautiful, terrifying, and utterly powerful beings who rule the earth from their citadels, creating vampires as servants and viewing humans as something between pets and inconveniences. The most powerful of them all is Raphael, Archangel of New York, whose beauty is matched only by his capacity for devastating violence. He has ruled for centuries, and his power is so immense that a single thought from him could level a city block.
+  synopsis: `In this world, angels are not guardians. They are gods — ancient, breathtaking, and merciless. They create vampires to serve them, rule from glittering towers above the cities of men, and answer to no one. Almost no one.
 
-Elena Deveraux is a Guild Hunter — one of the elite humans trained to track and recapture vampires who have broken their contracts with their angelic masters. She is one of the best, gifted with the rare ability to scent vampires and angels alike. She is tough, skilled, and thoroughly mortal in a world where the immortal hold all the cards. When Raphael summons her, she knows the assignment will be dangerous. She does not know it will change the fundamental nature of her existence.
+Elena Deveraux is a Guild Hunter, one of the elite mortals trained to track down rogue vampires. She is tough, stubborn, and blessed with a rare gift — the ability to scent angels. When the Archangel of New York summons her, she knows it will not be a polite request.
 
-Raphael needs Elena to hunt an archangel — a being so powerful that even other archangels fear him. Uram, an archangel who has gone rogue, is leaving a trail of bloodless bodies across the world, and his madness threatens to expose the angelic world to human awareness. Only Elena's unique tracking abilities can find him. The problem is that hunting an archangel is essentially a suicide mission, and Raphael is not asking — he is commanding.
+Raphael is power incarnate. He could destroy a city block with a thought and has not felt a genuine emotion in centuries. His assignment for Elena is simple: hunt a rogue archangel who is slaughtering humans across the globe. For a mortal, this is a death sentence.
 
-The power dynamic between them is intoxicating and terrifying. Raphael is ancient, immortal, and accustomed to absolute obedience. Elena is mortal, stubborn, and physically incapable of submitting to anyone — a trait that both infuriates and fascinates the archangel. Their clashes are legendary: she defies him, he threatens her, and the sexual tension between them builds until the air crackles with it.
+He is not offering her a choice.
 
-As the hunt for Uram forces them into dangerous proximity, Raphael discovers that Elena's mortality and defiance make her more compelling than any immortal. Elena discovers that beneath the archangel's terrifying power is a being capable of tenderness he has not shown in centuries. Angels' Blood launches a series that redefines angel mythology — these are not gentle guardians but ancient predators, and the woman who catches one's attention must be extraordinary indeed.`,
+From the moment they collide, the air between them crackles. He commands; she refuses to bend. He threatens; she holds her ground. No one has ever defied Raphael and lived — but Elena makes him feel things that terrify him far more than disobedience.
+
+As the hunt plunges them deeper into danger, the greatest threat is not the monster they are chasing. It is the bond forming between an archangel and a mortal — because in Raphael's world, caring about someone fragile is the most dangerous thing an immortal can do.`,
   characters: [
     { name: "Elena Deveraux", role: "An elite Guild Hunter with the rare ability to scent vampires and angels. Tough, mortal, and incapable of submission, her defiance fascinates the most powerful archangel alive." },
     { name: "Raphael", role: "Archangel of New York, ancient and devastatingly powerful. Accustomed to absolute obedience, he is both infuriated and captivated by Elena's refusal to bow, discovering emotions he has not felt in centuries." },

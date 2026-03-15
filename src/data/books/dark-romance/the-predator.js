@@ -8,13 +8,15 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0d0808", "#2d1010"],
   accentColor: "#c42a2a",
-  synopsis: `In the ruthless world of organized crime, alliances are forged in blood and broken in betrayal. Morana Vitalio is the brilliant daughter of one of the most powerful mob families, a tech genius who has spent her life developing a program so dangerous that both her father's organization and their enemies would kill to possess it. She's been sheltered, controlled, and treated as a commodity her entire life—but Morana is no one's pawn.
+  synopsis: `Their families have been locked in a blood feud for generations. Trusting each other should be impossible. Wanting each other could be fatal.
 
-Tristan Caine is the predator everyone whispers about. The most lethal man in the Outfit—the rival organization to Morana's family—he's a killer without conscience and a strategist without equal. When the two crime families attempt to broker peace through an alliance, Tristan and Morana find themselves thrown together in a collision of hatred, suspicion, and an attraction neither can explain or control.
+Morana Vitalio is a tech genius and mob princess who created a program so dangerous that everyone -- her father's people and their enemies alike -- would kill to possess it. When that program surfaces on the dark web threatening both criminal empires, she is thrust into an uneasy alliance with the last man she should ever trust.
 
-They should be enemies. Their families have been locked in a blood feud for generations, and trusting each other could mean death for both. But Morana's stolen program has surfaced on the dark web, and someone is using it to expose secrets that could destroy both organizations. Forced into an uneasy partnership to track down the leak, Tristan and Morana discover that working together means navigating a minefield of old grudges, new threats, and a chemistry that threatens to consume them.
+Tristan Caine is the Predator -- the most lethal enforcer in the rival Outfit, a man whispered about in fear. He is violence and calculation wrapped in a devastating package, and he belongs to the enemy.
 
-Tristan is everything Morana was raised to hate—violent, merciless, and belonging to the enemy. But he's also the only person who has ever treated her as an equal, the only one who sees her mind as her greatest weapon rather than a threat. As they unravel the conspiracy surrounding the stolen program, they uncover a decades-old mystery involving missing children, corrupt alliances, and a truth that connects their families in ways neither imagined. The predator has found his prey—but she's far more dangerous than anyone expected.`,
+He is everything she was raised to hate. She is the one person who looks at him without fear. As they hunt the conspiracy threatening to destroy both their worlds, they uncover secrets that go far deeper than stolen code -- a decades-old mystery that connects their families in ways neither ever imagined.
+
+The predator has found his prey. But she might just be the more dangerous one.`,
   characters: [
     { name: "Morana Vitalio", role: "A tech genius and mob daughter whose stolen program sets the plot in motion. Brilliant and defiant, she refuses to be a pawn in her family's criminal games." },
     { name: "Tristan Caine", role: "The most lethal man in the rival Outfit, known as the Predator. His partnership with Morana forces him to confront an attraction to the one woman he should consider an enemy." },

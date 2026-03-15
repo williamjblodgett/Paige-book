@@ -8,15 +8,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#2a1020"],
   accentColor: "#8b1a4a",
-  synopsis: `Alex Volkov is a cold, calculating, and ruthlessly ambitious young CEO who has spent the last eight years meticulously building a relationship with Josh Chen and his family for one purpose: revenge. Alex's parents and younger sister were murdered when he was a child, and he has always believed that Josh's father, Michael Chen, was responsible. Alex suffers from hyperthymesia, a rare condition that allows him to remember every detail of his life, meaning the trauma of his family's murder is always fresh and vivid. When Josh, a medical student, leaves for a year-long volunteer program in Central America, he asks his best friend Alex to look after his younger sister, Ava Chen.
+  synopsis: `Alex Volkov remembers everything. Every detail, every moment, every second of the worst night of his life. A rare neurological condition means his memories never fade -- and the ones that haunt him most have fueled a years-long obsession with revenge.
 
-Ava is a 22-year-old photographer with a warm, sunny disposition that contrasts sharply with Alex's ice-cold demeanor. She suffers from nightmares and partial amnesia stemming from a childhood trauma she cannot fully remember. As Alex moves into Josh's house next door to keep watch over her, their initial hostility gives way to reluctant attraction. Ava's friends, Bridget, Jules, and Stella, notice Alex's overprotective behavior and devise plans to test whether he has emotions beneath his stoic exterior. Over time, Alex agrees to teach Ava to swim after she is pushed into a pool at a party by one of his exes, and their relationship deepens through shared vulnerability.
+Cold, calculating, and ruthlessly ambitious, Alex has spent eight years embedding himself in the Chen family's life for one purpose. Now, when his best friend Josh leaves the country for a year, Josh makes one request: look after my little sister.
 
-Their romance develops against the backdrop of Alex's revenge plot. He has strategically embedded himself in the Chen family's life for years to gain access to Michael. But as his feelings for Ava become undeniable, Alex discovers a series of letters that implicate his own uncle, Ivan Volkov, CEO of the Archer Group, as the true orchestrator of his family's murders, not Michael Chen. This revelation shatters Alex's worldview and forces him to reconsider everything he has done.
+Ava Chen is everything Alex is not -- warm, open, full of light. She is also everything he cannot afford to want. But living next door to her, watching over her, being close enough to see the way she smiles and the nightmares that wake her screaming -- Alex's iron control begins to crack.
 
-The climax arrives when Ivan kidnaps Ava and her friend Bridget to blackmail Alex into surrendering full control of the company. Fearing for their lives, Alex stalls for time by confessing his lies to Ava, revealing that his entire friendship with Josh was built on a desire for vengeance against their father. Ava's own buried trauma resurfaces: she learns that as a child, her depressed mother pushed her into a lake and nearly drowned her, which is the source of her fear of water and fragmented memories.
+Ava knows Alex Volkov is dangerous. His eyes are too cold, his walls too high, and the way he watches her is more possession than protection. She should keep her distance. Instead, she finds herself drawn to the glimpses of fire beneath his ice -- and the man who emerges when no one else is watching.
 
-After the kidnapping is resolved and Ivan is dealt with, Ava is devastated by Alex's betrayal and flees to London for an art fellowship. Alex follows her and spends an entire year waiting outside her apartment every morning, bringing her breakfast and walking her to work, refusing to give up. At her art exhibition, he gives a vulnerable speech and sings for her, finally breaking through her walls. They reconcile, and the epilogue shows them happily together at Thanksgiving, though Josh remains angry about the deception and has not yet forgiven Alex.`,
+But Alex is keeping a secret that could destroy everything between them. His carefully constructed world is built on a lie, and when the truth surfaces, it will shatter more than just their fragile trust.
+
+Some loves are sweet. This one is twisted. And once it takes hold, there is no letting go.`,
   characters: [
     {
       name: "Alex Volkov",

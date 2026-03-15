@@ -7,17 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1018", "#1a0a10"],
   accentColor: "#2d8cf0",
-  synopsis: `Jack Crawford is a professional football quarterback at the peak of his career — talented, driven, and laser-focused on winning a championship. His world revolves around the game, and he has no room for distractions, complications, or the kind of emotional vulnerability that gets people hurt. He has worked too hard and sacrificed too much to let anything derail his season.
+  synopsis: `Jack Crawford does not do distractions. The star NFL quarterback is laser-focused on one thing: winning a championship. He has sacrificed too much and fought too hard to let anything -- or anyone -- get in his way.
 
-Then his team hires a new athletic trainer, and Jack's carefully compartmentalized life starts to unravel. Mackenzie "Mac" Sullivan is brilliant, qualified, and completely off-limits. She is one of the few women working in professional sports medicine, and she has fought tooth and nail to be taken seriously in a male-dominated field. The last thing she needs is a relationship with a player — especially the arrogant, intense quarterback whose body she is responsible for keeping in peak condition.
+Mackenzie "Mac" Sullivan does not do athletes. As one of the few women in professional sports medicine, she has clawed her way to credibility in a world that constantly underestimates her. Her new job as athletic trainer for Jack's team is the opportunity of a lifetime. The last thing she needs is to jeopardize it for a cocky quarterback with a god complex.
 
-Their professional relationship is contentious from the start. Jack tests boundaries, questioning Mac's methods and pushing back against her treatment protocols. Mac pushes back harder, refusing to let a star player undermine her authority. Their arguments in the training room are legendary among the staff — charged, heated, and crackling with a tension that has nothing to do with disagreements about ice baths and stretching routines.
+From day one, they clash. Jack pushes boundaries. Mac pushes back harder. Their arguments in the training room become the stuff of legend -- charged, heated, and crackling with something neither of them is willing to name.
 
-But when Jack sustains an injury that threatens his season, he has no choice but to trust Mac completely. Long hours of rehabilitation together strip away the professional pretenses. Jack discovers that Mac is fiercely passionate, deeply knowledgeable, and carrying the weight of being constantly underestimated. Mac discovers that beneath Jack's arrogance is a man terrified of losing the only thing he has ever been good at.
+Then Jack gets hurt. Badly. And suddenly Mac is the only person standing between him and the end of his career. Long hours of rehabilitation tear down every professional wall between them, revealing truths neither expected: he is not as invincible as he pretends, and she is carrying more weight than anyone knows.
 
-As Jack heals under Mac's care, both begin to fall — hard and against every rule they have set for themselves. The risks are enormous. Mac's career could be destroyed by accusations of unprofessionalism. Jack's focus on the championship is compromised by feelings he cannot control. Their relationship must survive the pressure of a playoff run, the scrutiny of an organization, and the fundamental question of whether love and ambition can coexist.
+Falling for each other breaks every rule in the book. Her career is on the line. His championship season hangs in the balance. And the only play left is the one neither of them saw coming.
 
-Winning Team is a high-stakes romance about two people who refuse to lose — on the field, in the training room, or in love.`,
+A high-stakes, forbidden workplace romance where love is the ultimate gamble.`,
   characters: [
     { name: "Jack Crawford", role: "A professional football quarterback at the peak of his career, driven and laser-focused on a championship. His arrogance masks a deep fear of losing the only identity he has ever known — his athletic career." },
     { name: "Mackenzie 'Mac' Sullivan", role: "An athletic trainer who has fought to be taken seriously in male-dominated professional sports medicine. Brilliant and fierce, she refuses to let a star player undermine her authority or her career." },

@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1a10", "#0a0f0a"],
   accentColor: "#1e8a5f",
-  synopsis: `Juniper Kynes survived the cult in Abelaum, but survival is not the same as living. She escaped with her body intact but her mind shattered — haunted by nightmares, consumed by rage, and driven by a single, burning purpose: revenge against the people who tortured her and left her for dead. She does not care about healing, moving on, or finding peace. She wants blood, and she will burn through whatever stands in her way to get it.
+  synopsis: `She survived. But survival is not the same as living.
 
-Zane is a demon — ancient, powerful, and bound by his own complicated relationship with the forces that control Abelaum. Unlike Leon from the first book, Zane is wilder, less restrained, and operating with his own agenda that intersects with Juniper's revenge in dangerous ways. When he offers Juniper a deal — her soul in exchange for the power to destroy those who hurt her — she does not hesitate. Her soul feels like a small price for vengeance.
+Juniper Kynes escaped the cult in Abelaum with her body intact and her mind shattered. Now she is consumed by a single, burning purpose: revenge against the people who tortured her and left her for dead. She does not want healing. She does not want peace. She wants blood.
 
-But deals with demons are never simple. Zane is drawn to Juniper's ferocity in ways that surprise even him. She is not afraid of him — she is not afraid of anything anymore, because the worst has already happened. Her fearlessness is not bravery in the traditional sense but the recklessness of someone who has nothing left to lose. It makes her both dangerous and devastatingly attractive to a demon who has spent centuries surrounded by fear.
+Enter Zane — an ancient, wild demon with his own dangerous agenda and an offer Juniper cannot refuse. Her soul in exchange for the power to destroy her tormentors. She does not hesitate. Her soul feels like a small price for vengeance.
 
-As Juniper and Zane work together to dismantle the cult's power structure, their relationship evolves from transactional to something far more primal. Zane discovers that protecting Juniper matters more than the deal they struck. Juniper discovers that her capacity for connection was not destroyed by her trauma — it was buried, and the demon who should be her damnation is slowly excavating it.
+But deals with demons are never simple.
 
-The novel does not shy away from the ugliness of trauma recovery. Juniper's healing is not linear, her rage is not always righteous, and her methods are not always justified. Harley Laroux writes a sequel that is darker, angrier, and more emotionally complex than its predecessor — a romance where love is forged in the fire of revenge and the tenderness exists not despite the darkness but within it.`,
+Zane is drawn to Juniper's ferocity like nothing he has encountered in centuries. She is not afraid of him — she is not afraid of anything anymore, because the worst has already happened. Her reckless fearlessness is intoxicating to a demon who has spent an eternity surrounded by terror. And Juniper? She did not expect the creature who should be her damnation to become the one being who understands the rage that lives inside her.
+
+As they tear through the cult's power structure together, the transactional bargain between them catches fire. Zane discovers that protecting Juniper matters more than any deal. Juniper discovers that her capacity for connection was not destroyed — it was buried.
+
+Darker, angrier, and more intense than its predecessor, this is a story where healing is ugly, revenge is messy, and love is forged in fire.`,
   characters: [
     { name: "Juniper Kynes", role: "A cult survivor consumed by rage and driven by revenge. Fearless not from bravery but from having nothing left to lose, she strikes a deal with a demon for the power to destroy those who tortured her." },
     { name: "Zane", role: "An ancient, wild demon with his own agenda in Abelaum. Drawn to Juniper's ferocity, he offers her power in exchange for her soul — but finds himself caring about her survival more than the deal they struck." },

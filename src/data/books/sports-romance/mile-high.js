@@ -7,13 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1018", "#1a0a15"],
   accentColor: "#2d8cf0",
-  synopsis: `Evan Zanders is professional hockey's most notorious bad boy. The Chicago Raptors defenseman has built his entire brand around being the league's villain — cocky, confrontational, and always in the tabloids with a different woman on his arm. But the persona is a carefully constructed facade hiding a man deeply wounded by his mother's abandonment, who fears that showing his true self would cost him everything he's built.
+  synopsis: `Evan Zanders is hockey's most notorious villain — the Chicago Raptors defenseman who thrives on being hated, makes headlines for all the wrong reasons, and has never met a camera he couldn't smirk at. His bad-boy brand is worth millions, and he wears it like armor.
 
-Enter Stevie Shay, the new flight attendant on the Raptors' private plane. The twin sister of basketball star Ryan Shay, Stevie has sworn off athletes after her brother's best friend Brett broke her heart and slandered her reputation. She's unimpressed by Zanders' flirting and refuses to give him the time of day — which only makes him more determined to break through her walls.
+Stevie Shay sees right through it.
 
-As the season progresses, their forced proximity on team flights and the discovery that they're neighbors in Chicago creates an unavoidable connection. Stevie begins to glimpse the real Zanders beneath the bad-boy mask — the man who trick-or-treats with his teammate Maddison's daughter and secretly volunteers at the dog shelter where Stevie works. She starts falling for the man he hides from the world, while he falls for the woman who sees right through his act.
+The Raptors' new flight attendant has zero interest in athletes, zero patience for arrogance, and absolutely no intention of becoming another notch in Zanders' very public bedpost. After her brother's best friend destroyed her reputation, she swore off jocks for good. No exceptions.
 
-Their secret relationship becomes increasingly complicated as Zanders' agent arranges photo ops with other women to maintain his media image, Stevie's ex Brett resurfaces, and her job is threatened by their connection. When their relationship is leaked to the press by Zanders' own agent, he makes the heartbreaking decision to break up with Stevie to protect her career. But after the Raptors' Stanley Cup victory, firing his toxic agent, reconciling with his estranged father, and adopting Stevie's favorite shelter dog Rosie, Zanders proves he's ready to be the man she deserves — not the character the world expects.`,
+But Zanders doesn't take "no" for an answer. And when it turns out they're also neighbors, avoiding him becomes impossible. The more time Stevie spends around him, the more cracks she sees in the facade — glimpses of a man who's nothing like the person the tabloids describe. Someone kind. Someone wounded. Someone hiding the best parts of himself from a world that only wants the worst.
+
+She's falling for a man the public thinks doesn't exist. He's falling for the only woman who's ever bothered to look.
+
+But in a world where image is everything, loving someone means letting them see who you really are. And for Zanders, that's the most terrifying thing he's ever done.`,
   characters: [
     { name: "Evan Zanders", role: "The Chicago Raptors' controversial defenseman who hides a kind and sensitive soul behind a carefully crafted bad-boy image. Abandoned by his mother as a teenager, he's been in therapy since college but struggles with self-love and fears losing his fanbase if he drops the facade." },
     { name: "Stevie Shay", role: "A warm-hearted flight attendant on the Raptors' private jet and twin sister of basketball player Ryan Shay. After being burned by her brother's best friend, she's sworn off athletes. She volunteers at a senior dog shelter and sees through Zanders' public persona." },

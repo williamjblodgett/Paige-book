@@ -7,13 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#3d1a2a", "#5a2a3d"],
   accentColor: "#c45b84",
-  synopsis: `Autumn Reynolds is a mess. After her boyfriend of seven years cheated on her and abandoned her in New York City for improv groupies, she's been left in a city she doesn't love, working a veterinary job that doesn't inspire her, and nursing wounds that run deeper than infidelity. She gave up her own dreams—including her secret passion for comedy—to support a man who threw her away. Now she's coping the only way she knows how: by drawing explicit comics about her mysterious, brooding landlord in the apartment below.
+  synopsis: `She draws explicit comics about him in secret. He was never supposed to find out.
 
-Blake Munroe hates people. He hates sunlight. He hates noise. What he loves is his solitary existence restoring antique books in his dark, quiet apartment. The last thing he needs is the bright, chatty, impossibly sunny Australian woman living upstairs, whose footsteps and laughter pierce his carefully constructed isolation. But when Blake accidentally discovers the comics Autumn has been drawing—featuring a thinly veiled version of him as a captor in increasingly steamy scenarios—something shifts. The woman he's been trying to ignore has been fantasizing about him, and the darkness she's drawn into her art mirrors something real inside him.
+Autumn Reynolds is stranded in New York after her cheating ex left her with nothing but a broken heart and a lease she can't afford. Her coping mechanism? Drawing wildly inappropriate comics starring her mysterious downstairs neighbor — a brooding recluse who hates sunlight, people, and noise in roughly equal measure.
 
-They strike an arrangement: three dates with clear rules. No feelings, no commitment—just the chance to explore the electric tension between them. Blake's intimidating demeanor, which sends most people running, is exactly what Autumn craves. She doesn't need gentle; she needs someone who matches the raw intensity of her fantasies. And Blake, for all his misanthropy, finds that Autumn's sunshine doesn't burn—it warms parts of him he'd forgotten existed.
+Blake Munroe restores antique books in the dark and likes his life exactly the way it is: solitary. The last thing he needs is the impossibly cheerful Australian woman upstairs, whose footsteps and laughter punch through his carefully constructed silence every single day.
 
-But three dates aren't enough to contain what's building between them. Autumn's fear of trusting another man with her heart wars with the undeniable pull she feels toward Blake. His terror of vulnerability—the reason he's locked himself away with old books and drawn curtains—threatens to sabotage the best thing that's happened to him. Captivated is a grumpy-sunshine romance about two damaged people discovering that the person who irritates you most might be the one who heals you best.`,
+Then Blake finds the comics.
+
+The version of him Autumn has been drawing is dark, commanding, and dangerously seductive — and the fact that she's been fantasizing about him changes everything. They agree to three dates. Three chances to explore the tension crackling between them, with firm rules: no feelings, no commitment, no complications.
+
+But three dates with someone who sees through every wall you've built? That's not nearly enough — and far too dangerous. She swore she'd never trust a man again. He's terrified of what happens when someone gets close. The only question is which rule they'll break first.`,
   characters: [
     { name: "Autumn Reynolds", role: "An Australian veterinarian stranded in New York after her boyfriend's betrayal. She copes by drawing explicit comics about her brooding landlord, hiding her secret passion for comedy and her fear of trusting again behind a sunny exterior." },
     { name: "Blake Munroe", role: "A grumpy, reclusive antique book restorer who hates people and sunlight in equal measure. When he discovers his upstairs tenant's fantasies about him, he's forced to confront the fact that his isolation has been protection, not preference." }

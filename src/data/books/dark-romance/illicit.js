@@ -7,13 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0a14", "#2a1530"],
   accentColor: "#c42a2a",
-  synopsis: `Carson Burke doesn't ask for permission. He takes what he wants, and what he wants is Lynn Lockhart—or more precisely, what Lynn's father owes him. When the wealthy pharmaceutical mogul defaults on a deal that could destroy Carson's empire, Carson takes the one thing guaranteed to bring the old man to heel: his daughter.
+  synopsis: `Carson Burke does not ask. He takes.
 
-Lynn Lockhart has spent her life as a pawn in her father's games. Raised in luxury but starved of genuine affection, she's learned that everything in her world comes with strings attached. So when she's taken by a devastatingly handsome stranger who seems to despise her on principle, she's not entirely surprised. What does surprise her is the way Carson looks at her when he thinks she isn't watching—like she's something he wants to devour and protect in equal measure.
+When a pharmaceutical mogul defaults on a deal that could destroy everything Carson has built, he seizes the one piece of leverage guaranteed to work: the man's daughter.
 
-Carson intended for this to be simple. Hold the girl, leverage the father, close the deal. But Lynn isn't the spoiled heiress he expected. She's sharp, defiant, and heartbreakingly vulnerable beneath her polished exterior. Every day he spends with her chips away at his resolve. Every argument between them ends with less distance than it started. And every time she looks at him with those eyes—equal parts fury and fire—he forgets why he's supposed to be the villain of her story.
+Lynn Lockhart has spent her whole life as a pawn -- raised in gilded rooms, starved of anything real, and taught that love always comes with conditions. Being taken hostage by a devastatingly handsome stranger barely registers as the worst thing her father has put her through. What she does not expect is the way Carson watches her when he thinks she is not looking -- like she is something he wants to consume and protect in equal measure.
 
-But the pharmaceutical world is more dangerous than either of them realized. Lynn's father isn't just a failed businessman—he's entangled in something far darker, and the people he's crossed make Carson look like a gentleman. As the walls close in and the stakes escalate from financial ruin to mortal danger, Carson and Lynn must navigate a minefield of lies, betrayal, and an attraction that defies every rational thought. In a world built on illicit deals and hidden agendas, the most dangerous thing they can do is trust each other—but it may be the only thing that keeps them alive.`,
+This was supposed to be a simple transaction. Hold the girl. Leverage the father. Close the deal. But Lynn is sharp, defiant, and nothing like the spoiled heiress Carson anticipated. Every argument pulls them closer. Every stolen glance chips away at his control.
+
+Then the real danger surfaces. Lynn's father is entangled in something far more sinister than a failed business deal, and the people he has crossed make Carson look like a gentleman. With threats closing in from every side, captor and captive must decide: trust each other, or die apart.`,
   characters: [
     { name: "Carson Burke", role: "A ruthless businessman who kidnaps Lynn to leverage her father. His cold exterior crumbles as he discovers the woman behind the heiress facade." },
     { name: "Lynn Lockhart", role: "The daughter of a pharmaceutical mogul, taken as collateral in a business dispute. Sharp and defiant, she refuses to play the role of helpless captive." },

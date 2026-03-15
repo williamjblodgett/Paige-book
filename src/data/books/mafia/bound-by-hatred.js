@@ -7,15 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0a0a08"],
   accentColor: "#c9a84c",
-  synopsis: `Gianna Scuderi is the middle Scuderi sister, and unlike her older siblings Aria and Valentina, she has absolutely no intention of going quietly into an arranged marriage. She is fierce, rebellious, and burning with rage at a system that treats women as property. When she is forced to marry Matteo Vitiello — Luca's volatile, unpredictable younger brother — Gianna does not cry or comply. She fights. From the moment the engagement is announced, she makes it clear that she will make Matteo's life a living hell.
+  synopsis: `Her sisters accepted their arranged marriages with grace. Gianna Scuderi chose war.
 
-Matteo Vitiello is the wild card of the Vitiello family. Where Luca is cold and calculated, Matteo is hot-tempered, reckless, and dangerously unpredictable. He has a reputation for violence that even his own family finds concerning, and he approaches the arranged marriage with the same combustible energy he brings to everything else. He does not want a wife. He especially does not want a wife who looks at him with open hatred and challenges him at every turn.
+Fierce, rebellious, and burning with fury at a system that trades women like property, Gianna has no intention of playing the dutiful bride. When she is forced to marry Matteo Vitiello — the volatile, dangerously unpredictable wild card of the Vitiello family — she makes one thing crystal clear: she will make his life a living hell.
 
-Their marriage is war. Gianna refuses to be a dutiful bride, using every weapon at her disposal — sharp words, cold shoulders, calculated provocations — to make Matteo regret the alliance. Matteo responds with equal intensity, and their clashes are explosive, furious, and increasingly charged with a tension that has nothing to do with anger.
+Matteo does not want a wife. He especially does not want one who stares him down with open hatred and matches his explosive temper blow for blow. Where his brother is ice, Matteo is a lit fuse — reckless, hot-tempered, and utterly uncontrollable.
 
-Because that is the terrible, inconvenient truth: they want each other. The hatred is real, but so is the attraction, and the combination is combustible. Gianna despises herself for wanting the man who represents everything she is fighting against. Matteo is bewildered by a woman who makes him feel something other than rage for the first time in his life.
+Their marriage is a battlefield. Sharp words. Cold shoulders. Calculated provocations designed to draw blood. But beneath the warfare, something far more dangerous is building. The hatred is real. So is the attraction. And the combination is combustible.
 
-As their enemies-to-lovers arc burns through the novel, both must confront difficult truths. Gianna must decide whether her hatred of the system extends to the man trapped in it alongside her. Matteo must decide whether the woman who challenges him at every turn is the enemy or the only person who has ever demanded he be better. Bound by Hatred is the most combustible entry in the Born in Blood series — a romance where love and hate share a bed and neither is willing to leave.`,
+Gianna despises herself for wanting the man who represents everything she is fighting against. Matteo cannot understand why the woman who challenges him at every turn is the first person to make him feel something other than rage.
+
+Will they destroy each other first, or will they survive long enough to discover what is burning beneath the wreckage?`,
   characters: [
     { name: "Gianna Scuderi", role: "The middle Scuderi sister — fierce, rebellious, and furious at a system that treats women as property. She wages war against her arranged marriage to Matteo, using every weapon at her disposal to resist compliance." },
     { name: "Matteo Vitiello", role: "Luca's volatile younger brother — hot-tempered, reckless, and dangerously unpredictable. His combustible personality meets its match in Gianna, and their hatred slowly gives way to an attraction neither can control." },

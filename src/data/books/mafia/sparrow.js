@@ -7,15 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1508", "#0a0a08"],
   accentColor: "#c9a84c",
-  synopsis: `Troy Brennan is Boston royalty — not the kind that sits on thrones, but the kind that controls them from the shadows. He is a mafia prince, heir to the Brennan criminal empire, and he has been groomed since childhood to be ruthless, strategic, and devoid of the emotional weaknesses that get men killed. Troy does not do mercy. He does not do second chances. And he certainly does not do love.
+  synopsis: `Troy Brennan is Boston royalty — the kind that rules from the shadows. Heir to the Brennan criminal empire, he was raised to be ruthless, strategic, and emotionless. He does not do mercy. He does not do second chances. And when he sets his sights on Sparrow Raynes, it is not by accident.
 
-Sparrow Raynes is a former musical prodigy whose career and life were destroyed by a single catastrophic event. Once destined for greatness as a concert cellist, she now lives in the margins — broke, isolated, and haunted by the trauma that took everything from her. When she crosses paths with Troy, it is not by accident. Troy has been watching her, studying her, and when he finally makes his move, it is with the cold precision of a man who always gets what he wants.
+Sparrow was once a musical prodigy destined for greatness — a concert cellist with the world at her feet. Now she lives in the wreckage of a life destroyed by a single catastrophic event, haunted by trauma and surviving in the margins. She has no idea that a mafia prince has been watching her. Studying her. Waiting.
 
-Troy's interest in Sparrow is complicated. She is connected to a past betrayal that Troy is determined to avenge, and she represents a piece of a larger strategic puzzle. But from the moment he takes her into his world, his carefully calculated plan begins to unravel. Sparrow is not the broken, compliant woman he expected. She is fierce beneath the damage, stubbornly alive despite everything that has tried to crush her, and she fights Troy at every turn — not with his weapons of violence and manipulation, but with a resilience that his brutality cannot extinguish.
+Troy's interest is calculated. Sparrow is connected to a betrayal he is determined to avenge, and she is a piece of a puzzle he intends to solve by any means necessary. But when he pulls her into his world, his carefully laid plans begin to crack. Because Sparrow is not the broken, compliant woman he expected. She is fierce beneath the damage. Stubbornly, defiantly alive. And she fights him not with violence, but with a resilience his brutality cannot touch.
 
-Their dynamic is dark and consuming. Troy oscillates between punishing Sparrow for her connections to his enemy and protecting her from the very world he dragged her into. Sparrow oscillates between hating the man who holds her captive and recognizing the fractured human being behind the monster. Their physical encounters are raw and intense, charged with the dangerous combination of hostility and desire.
+He punishes her. He protects her. He cannot decide which impulse is stronger.
 
-As secrets are revealed and the true nature of the betrayal Troy is avenging comes to light, both must reckon with the cost of revenge and the terrifying possibility that the person you were meant to destroy might be the person who saves you. Sparrow is a dark, uncompromising mafia romance about two damaged people discovering that love is the most dangerous weapon of all.`,
+She hates him. She sees through him. She cannot stop the pull between them.
+
+As secrets surface and the true cost of Troy's revenge reveals itself, both must face a terrifying question: What happens when the person you were meant to destroy becomes the only person who can save you?`,
   characters: [
     { name: "Troy Brennan", role: "Heir to the Brennan criminal empire in Boston, groomed to be ruthless and strategic. His pursuit of Sparrow begins as calculated revenge but evolves into something that threatens to dismantle everything he was raised to be." },
     { name: "Sparrow Raynes", role: "A former musical prodigy whose life was destroyed by trauma. Fierce beneath the damage, she fights Troy not with violence but with a resilience his brutality cannot extinguish, making her the most dangerous person in his world." }

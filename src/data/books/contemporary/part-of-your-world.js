@@ -7,15 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#b5e48c", "#168aad"],
   accentColor: "#c45b84",
-  synopsis: `Dr. Alexis Montgomery is an accomplished emergency room physician from a wealthy, prestigious family in Minneapolis. She's polished, driven, and firmly on the path her parents have laid out for her—including her relationship with Neil, a fellow doctor from an equally prominent family. On paper, her life is perfect. In reality, she's suffocating.
+  synopsis: `Dr. Alexis Montgomery has the life everyone envies — a prestigious medical career, a wealthy family, and a picture-perfect boyfriend. But behind the polished exterior, she is quietly suffocating under the weight of expectations she never chose.
 
-When a flat tire strands Alexis in the tiny town of Wakan, Minnesota, she meets Daniel Grant—the young, charming, and impossibly kind mayor of this close-knit community. Daniel is everything Alexis's world is not: unpretentious, warm, and rooted in the simple joys of small-town life. He runs the local carpenter shop, knows every resident by name, and has the kind of genuine goodness that can't be faked.
+When a flat tire strands her in the tiny town of Wakan, Minnesota, Alexis meets Daniel Grant — the young, impossibly kind mayor who also runs the local carpenter shop. Daniel is warm, unpretentious, and genuine in a way that Alexis's world has never allowed her to be. Their connection is instant, electric, and completely impractical.
 
-Despite their different worlds, Alexis and Daniel fall into an intense, undeniable connection. But their relationship comes with complications that neither can ignore. There's a significant age gap that raises eyebrows. There's the vast divide between Alexis's elite Minneapolis social circle and Daniel's humble small-town existence. And there's Neil, whose controlling behavior Alexis is only beginning to recognize for what it is.
+Because Alexis and Daniel come from different universes. There is the age gap that raises eyebrows. The vast divide between her elite Minneapolis social circle and his humble small-town life. And then there is the boyfriend she is only beginning to realize is not the man she thought he was.
 
-As Alexis splits her time between the pressures of her career and family in the city and the peaceful refuge she finds with Daniel in Wakan, she's forced to confront a painful question: Is she willing to risk her family's approval, her professional standing, and the comfortable life she's always known for a chance at real happiness?
+As Alexis finds herself drawn back to Wakan again and again, she faces an impossible choice: the safe, approved life her family has mapped out for her, or the messy, terrifying, beautiful chance at something real. Choosing Daniel means risking everything — her career, her family, and the only identity she has ever known.
 
-Part of Your World is a beautiful, emotionally complex romance about breaking free from expectations, finding courage in vulnerability, and learning that the life worth living might look nothing like the one you planned. It's a love story that asks what you're willing to sacrifice for the person who makes you feel truly alive.`,
+How much are you willing to sacrifice for the person who makes you feel truly alive?`,
   characters: [
     { name: "Alexis Montgomery", role: "Protagonist, ER doctor from a wealthy family" },
     { name: "Daniel Grant", role: "Love interest, young small-town mayor and carpenter" },

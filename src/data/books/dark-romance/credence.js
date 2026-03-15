@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#6b3f1a",
-  synopsis: `Tiernan de Haas has spent her entire life surrounded by wealth and completely starved of love. The only child of a famous film producer and his actress wife, she was shipped off to boarding schools from an early age, growing up in the long shadow of her parents' celebrity while receiving none of their attention or affection. The one constant in her life has been Mirai, her mother's assistant, who served as the only maternal figure Tiernan ever knew. When both of her parents commit suicide together, the seventeen-year-old is left orphaned, hollow, and unable to care about anything anymore.
+  synopsis: `Tiernan de Haas has never been wanted. The daughter of celebrity parents who treated her as an inconvenience, she grew up surrounded by wealth and completely starved of love. When both her parents die, she feels nothing -- and that emptiness terrifies her more than grief ever could.
 
-Tiernan's legal guardian turns out to be Jake Van der Berg, her father's estranged stepbrother whom she has never met. She imagines a comfortable arrangement -- perhaps a ski lodge or mountain resort befitting the family's wealth. Instead, she arrives at a remote cabin deep in the snowy mountains of Colorado, completely off the grid, where Jake lives with his two adult sons: the quiet, responsible Noah and the intense, silent Kaleb, who has not spoken a word in over seventeen years. When winter sets in and snow buries the mountain roads, there is no way out until spring.
+Now she has been sent to live with a man she has never met: Jake Van der Berg, her father's estranged stepbrother, who lives off the grid in a remote cabin deep in the Colorado mountains. No electricity. No neighbors. No way out once winter buries the roads.
 
-Cut off from the rest of the world, Tiernan is thrust into a life completely foreign to her privileged upbringing. Jake and his sons teach her to work with her hands, chop wood, hunt, and survive in the unforgiving wilderness. For the first time in her life, Tiernan feels useful, needed, and seen. The isolation strips away the numbness that has protected her since her parents' death, and she slowly begins to find her place among these three rough, self-sufficient men -- not just as a guest, but as a part of their family.
+Jake's two adult sons live with him. Noah is steady and kind. Kaleb has not spoken a single word in over seventeen years.
 
-But as the winter deepens and the cabin walls close in, the lines between family and something else begin to blur dangerously. The isolation removes every societal rule and watchful eye, and the intense proximity forces feelings to the surface that none of them can ignore. What develops between Tiernan and the Van der Berg men is a tangled web of desire, protectiveness, jealousy, and genuine connection that challenges every boundary of what is acceptable. Each of the three men relates to Tiernan differently -- Jake as a reluctant guardian fighting his attraction, Noah as a steady presence whose feelings deepen slowly, and Kaleb as an explosive force whose silence speaks louder than words.
+For the first time in her life, Tiernan is forced to work with her hands, to earn her place, to survive. These men do not care about her name or her money. They teach her to chop wood, to hunt, to feel. And for the first time, she is not invisible. She is seen. Needed. Claimed.
 
-When spring finally arrives and the roads clear, Tiernan must confront what has happened on the mountain and decide who she truly is and what she truly wants. She returns to California with Mirai, but the Van der Berg men refuse to let her go. Five years later, Tiernan and Kaleb are together back in Colorado, building a life and a family -- proof that sometimes the most unconventional bonds are the ones that save you.`,
+But as the snow climbs higher and the world outside disappears, the cabin walls close in and the boundaries between them begin to blur. What starts as protectiveness becomes possession. What starts as comfort becomes hunger. The isolation strips away every societal rule, every watchful eye, leaving nothing but raw need and a question none of them are prepared to answer.
+
+Three men. One woman. An entire winter with nowhere to run.
+
+What happens on this mountain stays on this mountain -- if they survive it.`,
   characters: [
     {
       name: "Tiernan de Haas",

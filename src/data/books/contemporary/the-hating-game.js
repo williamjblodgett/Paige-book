@@ -7,13 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#ff6b6b", "#c44569"],
   accentColor: "#c45b84",
-  synopsis: `Lucy Hutton and Joshua Templeman sit across from each other every single day at work, and they hate each other. Or at least, that's what Lucy tells herself. As executive assistants to the co-CEOs of a publishing company formed from a merger, they've been locked in a rivalry since day one—competing over everything from who arrives first in the morning to who gets the last word in their endless verbal sparring matches.
+  synopsis: `Lucy Hutton and Joshua Templeman sit across from each other every single day at work. They have an elaborate system of games — the Staring Game, the HR Game, the Mirror Game — and one absolute certainty between them: they hate each other.
 
-Lucy is small, sweet, and relentlessly optimistic. She wears bright colors, bakes cookies for colleagues, and has a smile that could power a small city. Joshua is tall, dark, impeccably dressed, and seemingly made of ice. He never smiles, rarely speaks to anyone but Lucy, and has perfected the art of the withering stare. They've developed an elaborate series of games—the Staring Game, the HR Game, the Mirror Game—each one a battle in their private war.
+At least, that is what Lucy keeps telling herself.
 
-But when a promotion opens up that they both desperately want, their rivalry escalates to a whole new level. Lucy starts paying closer attention to Joshua, looking for weaknesses to exploit, and what she finds instead throws everything into chaos. The micro-expressions she catches on his face, the way he watches her when he thinks she isn't looking, the unsettling intensity behind those cold blue eyes—it all starts to suggest that maybe Joshua Templeman doesn't hate her at all.
+She is small, sweet, and powered by optimism. He is tall, impeccably dressed, and appears to be made entirely of ice. As executive assistants to rival co-CEOs at a publishing company, they have been locked in a war of sharp words and sharper glances since the day they met. Every morning is a competition. Every conversation is a battle. And Lucy would not trade it for the world — not that she would ever admit that.
 
-As Lucy's certainty about their mutual animosity crumbles, she's forced to confront her own feelings—the ones she's been disguising as hatred because they're far too terrifying to acknowledge. The Hating Game is a razor-sharp, deliciously tense office romance about the impossibly thin line between loathing and longing, and what happens when the person you've been fighting with turns out to be the person you've been fighting for.`,
+Then a single promotion opens up. One position. Two candidates. The stakes of their rivalry skyrocket, and Lucy begins studying Joshua with new intensity, searching for any weakness she can exploit. But the closer she looks, the more she notices things that do not fit the narrative. The way his expression shifts when he thinks she is not watching. The careful attention hidden beneath the hostility. The unsettling possibility that Joshua Templeman does not hate her at all.
+
+And if he does not hate her, then Lucy has to face something far more terrifying — what she actually feels about him.`,
   characters: [
     { name: "Lucy Hutton", role: "Protagonist, bright and optimistic executive assistant" },
     { name: "Joshua Templeman", role: "Love interest, cold and competitive executive assistant" },

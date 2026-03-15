@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a05", "#0f0805"],
   accentColor: "#8b3a1a",
-  synopsis: `Sean Bell is a thirty-six-year-old millionaire libertine who has built his life around wealth, women, and willful irreverence. Unlike his brother Tyler, who found solace in the priesthood, Sean lost his faith entirely after the abuse and subsequent suicide of their sister, Lizzy. He cannot forgive God for allowing it, and he cannot forgive himself for failing to protect her. Beneath his polished, womanizing exterior lies a man corroded by guilt and grief, numbing his pain with excess.
+  synopsis: `Sean Bell is a millionaire, a libertine, and a man who lost his faith the day his sister died. He has spent years numbing the guilt with wealth, women, and willful irreverence. He does not believe in God, redemption, or love — and he has the lifestyle to prove it.
 
-At a fundraiser gala, Sean meets a stunning young woman and wastes no time telling her exactly what he wants to do with her. The flirtation is electric — until he realizes she is Zenobia "Zenny" Iverson, the twenty-one-year-old little sister of his best friend, Elijah. The Iversons and Bells were once close families, but a devastating rift following Lizzy's death severed the bond between them. Only Sean and Elijah's friendship survived. Their charged moment is cut short when Sean rushes to the hospital — his mother, battling terminal cancer, has been taken to the ER.
+Then he meets a woman who makes his blood burn — and discovers she is the twenty-one-year-old little sister of his best friend. Off-limits on every level.
 
-The next day, Sean's boss sends him to handle a delicate real estate matter: evicting a group of nuns from the shelter they operate. When he arrives, he discovers that one of the postulants is Zenny herself, living under the name "Mary" as she discerns whether to take permanent vows. Zenny has one month left before she must decide her path, and her progressive superiors have encouraged her to experience the world before committing. She propositions Sean with a dangerous bargain: show her every carnal temptation she would be leaving behind, so she can be certain that choosing God is the right decision.
+It gets worse. She is living as a postulant, one month away from taking permanent vows as a nun. And she has a proposition: show her every worldly temptation she would be leaving behind, so she can choose God with absolute certainty.
 
-What begins as a reckless arrangement quickly becomes something neither of them anticipated. Their encounters are raw and soul-shaking, stripping away Sean's cynicism and Zenny's certainty in equal measure. Sean is forced to confront his buried trauma, his fractured relationship with faith, and the terrifying possibility that he might actually be capable of love. Zenny, meanwhile, discovers that the world outside the convent holds more than temptation — it holds a man whose broken soul speaks to hers.
+A sinner and an almost-nun. A man who has abandoned faith and a woman about to pledge her life to it. Their arrangement is reckless, explosive, and supposed to be temporary.
 
-Told entirely from Sean's point of view, Sinner is a scorching, emotionally wrenching novel about two people standing at the crossroads of faith and desire. Sierra Simone weaves themes of religious trauma, family loyalty, and redemptive love into a story that asks whether a sinner can be saved — and whether salvation always looks the way we expect.`,
+It is also the most honest thing either of them has ever done.
+
+As their encounters strip away his cynicism and her certainty, Sean is forced to confront the buried trauma he has been drowning in excess. She discovers that the world outside the convent holds something she never expected — a broken man whose soul speaks directly to hers.
+
+With his mother dying, his best friend's trust on the line, and a woman who was never supposed to matter slipping past every defense, Sean faces an impossible question: Can a sinner be saved by the very thing he stopped believing in?`,
   characters: [
     {
       name: "Sean Bell",

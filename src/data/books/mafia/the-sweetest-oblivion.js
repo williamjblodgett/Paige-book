@@ -7,13 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0a0808"],
   accentColor: "#c9a84c",
-  synopsis: `In the gritty underworld of New York's Italian mafia, Elena Abelli is the picture of perfection — the Sweet Abelli, the charming and favored daughter of a powerful crime family. She smiles at the right moments, says the right things, and plays the role of the perfect mafia principessa flawlessly. But beneath the glamorous facade, Elena harbors dark secrets and a romantic heart that yearns for something more than the cold calculations of Cosa Nostra politics.
+  synopsis: `Elena Abelli is the Sweet Abelli — the perfect daughter, the charming smile, the flawless mafia principessa. She has played the role her entire life. But beneath the polished surface, Elena is hiding secrets that could unravel everything.
 
-Her world shatters when she meets Nicolas Russo, a formidable Made Man with a notorious reputation as one of New York's most dangerous bosses. The problem? Nicolas is her sister's fiance, promised to the Abelli family through an arranged marriage alliance. From their first encounter, the chemistry between Elena and Nicolas is electric and undeniable — a connection that defies every rule of their world. Elena knows she should feel nothing for the man who belongs to her sister, and Nicolas knows that pursuing Elena could ignite a war between families.
+Nicolas Russo is one of New York's most dangerous Made Men — commanding, possessive, and utterly untouchable. He has been promised to the Abelli family through an arranged marriage alliance. There is just one problem: he is engaged to Elena's sister.
 
-What follows is a slow-burning battle of wills as both Elena and Nicolas fight against desires that threaten to upend the carefully maintained balance of power between New York's mafia families. Elena's charm and wit match Nicolas's intensity and dominance, creating a push-and-pull dynamic charged with tension. Their stolen glances and forbidden encounters grow more dangerous as the stakes escalate — family loyalty, honor, and survival all hang in the balance.
+From their very first encounter, the chemistry between them is electric, undeniable, and absolutely forbidden. Every stolen glance is a betrayal. Every moment of tension is a step closer to disaster. Elena knows she should feel nothing for the man who belongs to her sister. Nicolas knows that wanting Elena could ignite a war between two of New York's most powerful families.
 
-As secrets unravel and alliances shift, Elena must navigate the treacherous line between duty and desire, discovering that in the mafia world, the heart wants what it wants regardless of who gets hurt. Nicolas, the possessive and commanding boss who answers to no one, finds himself consumed by the one woman he cannot have. Their love story is equal parts dangerous and tender, proving that even in the darkest corners of the underworld, the sweetest oblivion comes from surrendering to a love that breaks every rule.`,
+But some attractions cannot be reasoned away, and some rules were made to be shattered.
+
+As the line between duty and desire blurs beyond recognition, Elena and Nicolas are pulled into a dangerous game where family loyalty, honor, and survival hang in the balance. In the world of the Cosa Nostra, forbidden love is not just reckless — it is a death sentence.
+
+The only question is whether the sweetest oblivion is worth the price they will pay.`,
   characters: [
     { name: "Elena Abelli", role: "The 'Sweet Abelli' — the favored daughter of a powerful Italian mafia family in New York. She presents a perfect facade to the world while hiding dark secrets. A romantic at heart, she's torn between family duty and her forbidden attraction to Nicolas Russo." },
     { name: "Nicolas Russo", role: "A formidable Made Man and one of New York's most dangerous mafia bosses. Originally promised to Elena's sister through an arranged marriage, he's possessive, commanding, and alpha to his core — yet completely undone by Elena's charm and spirit." },

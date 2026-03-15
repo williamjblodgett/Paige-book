@@ -8,13 +8,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0e1a", "#1a2a4a"],
   accentColor: "#c42a2a",
-  synopsis: `Tory and Darcy Vega have spent their entire lives in the mortal world, bouncing through the foster care system with nothing but each other. They've survived poverty, neglect, and the constant uncertainty of not belonging anywhere. So when they discover they're actually Fae—powerful supernatural beings and the lost heirs to the Solarian throne—their world turns completely upside down.
+  synopsis: `Tory and Darcy Vega have spent their whole lives in the mortal world, surviving the foster system with nothing but each other. So when they discover they're Fae — powerful supernatural beings and the lost heirs to the Solarian throne — everything they thought they knew shatters.
 
-Thrust into Zodiac Academy, a prestigious institution where young Fae learn to harness their elemental powers, the twins expect a fresh start. What they get instead is a war. The Celestial Heirs—Seth Capella, Max Rigel, Caleb Altair, and their ruthless leader Darius Acrux—have no intention of allowing the Vega twins to claim a throne they consider rightfully contested. These four powerful Fae males use every tool at their disposal—intimidation, humiliation, social manipulation, and raw magical power—to break the sisters and drive them from the academy.
+Welcome to Zodiac Academy, where elemental magic is real, the social hierarchy is ruthless, and four devastatingly powerful Fae males known as the Celestial Heirs have declared war on the Vega twins before they've even unpacked.
 
-But Tory and Darcy didn't survive the foster system by being fragile. Tory meets cruelty with fire, literally and figuratively, while Darcy's quieter strength proves just as formidable. As their dormant powers awaken—revealing abilities that shock even the professors—the Celestial Heirs realize that breaking the Vega twins won't be as easy as they assumed.
+Seth. Max. Caleb. And their merciless leader, Darius Acrux.
 
-Beneath the bullying and power plays, complicated attractions begin to simmer. The enemies they're supposed to hate become the people they can't stop thinking about. The academy's zodiac-based social hierarchy, elemental magic system, and cutthroat politics create a powder keg of tension, rivalry, and forbidden desire. But the true threat isn't within the academy walls—dark forces are gathering in the shadows of Solaria, and the return of the Vega twins has set events in motion that could reshape the entire Fae world.`,
+They'll use every weapon in their arsenal — intimidation, humiliation, and raw magical force — to break the sisters and drive them from the academy. Because no one wants the lost princesses reclaiming a throne the Heirs consider theirs.
+
+But Tory and Darcy didn't survive the foster system by being fragile. And as their dormant powers awaken — revealing abilities that shock even the professors — the Celestial Heirs realize they may have underestimated their targets.
+
+Beneath the cruelty and power plays, dangerous attractions begin to simmer. The enemies they're supposed to hate are becoming impossible to ignore. And beyond the academy walls, darker forces are stirring — forces that the return of the Vega twins has set in terrifying motion.`,
   characters: [
     { name: "Tory Vega", role: "One of the lost Vega twins and heir to the Solarian throne. Fierce and fiery, she meets the Celestial Heirs' cruelty with defiance and discovers powerful fire magic." },
     { name: "Darcy Vega", role: "Tory's twin sister, quieter but equally strong. Her awakening powers prove surprisingly formidable as she navigates the academy's treacherous social hierarchy." },

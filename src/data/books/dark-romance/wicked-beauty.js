@@ -8,13 +8,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0808", "#3d1111"],
   accentColor: "#c42a2a",
-  synopsis: `When the title of Ares opens up in Olympus, it's not quietly filled through political maneuvering—it's decided through a brutal, Hunger Games-style competition where anyone strong enough can stake their claim. Achilles Kallis, born with nothing, has spent his entire life clawing toward power, and this tournament is his chance to break into the Thirteen. He and his partner Patroclus Fotos enter the competition together, doubling their odds of winning. Neither expects infamous beauty Helen Kasios to be part of the equation.
+  synopsis: `The title of Ares is open, and in Olympus, that means one thing: blood.
 
-Helen has spent her life being treated as a prize to be won. Zeus decided she belonged to him, and the city saw her as nothing more than a beautiful trophy. When the Ares competition is announced, Helen enters as a middle finger to the Thirteen—effectively vying for her own hand, refusing to be given away to anyone. But there are powerful people who would rather see her dead than leading the city, and the competition turns deadly for reasons beyond the tournament's already brutal rules.
+The position will not be filled through politics or inheritance. It will be decided in a brutal, no-holds-barred tournament where anyone strong enough can stake their claim. Achilles Kallis has spent his entire life clawing his way up from nothing, and this competition is his shot at everything. He enters alongside Patroclus Fotos, the man he loves, doubling their odds.
 
-The three are drawn together through the competition's intensity. Achilles and Helen have always had a volatile love-hate dynamic, their chemistry undeniable even when they're at each other's throats. Patroclus, deeply in love with Achilles, initially watches from a cautious distance, but Helen's fierce independence and vulnerability pull him in as well. What develops is a complex MMF relationship told from all three perspectives, where desire, jealousy, and genuine tenderness collide.
+Neither of them expects Helen Kasios.
 
-As the tournament progresses and attempts on Helen's life escalate, the trio must trust each other completely to survive. Achilles confronts what power really means when the people he loves are at stake. Patroclus must open his heart to loving two people instead of one. And Helen discovers that strength isn't just about refusing to be owned—it's about choosing who to let in. Wicked Beauty is the most plot-heavy installment of the Dark Olympus series, balancing scorching three-way romance with a high-stakes tournament that keeps the tension razor-sharp from beginning to end.`,
+Helen has spent her life being treated as a prize -- a beautiful trophy passed between powerful men who decided she belonged to them. When the Ares competition is announced, she does the last thing anyone expects: she enters. Not to win the title for someone else. To win her own freedom. To prove she belongs to no one.
+
+But powerful people would rather see Helen dead than leading the city. And as the tournament turns lethal, three competitors find themselves drawn together by a chemistry none of them can deny. Achilles and Helen have always been fire and gasoline -- volatile, magnetic, and incapable of staying away from each other. Patroclus, devoted to Achilles, discovers that Helen's fierce independence and hidden vulnerability pull at him just as powerfully.
+
+What unfolds is a connection that defies every rule Olympus has set for them. But with assassins closing in and the competition growing bloodier by the day, trust is a luxury they cannot afford -- and the one thing that might keep all three of them alive.
+
+A searing MMF reimagining of Achilles, Patroclus, and Helen of Troy.`,
   characters: [
     { name: "Achilles Kallis", role: "A fighter born with nothing who enters the Ares competition to claw his way into Olympus's elite. His volatile chemistry with Helen and his deep bond with Patroclus are tested as the tournament turns deadly." },
     { name: "Patroclus Fotos", role: "Achilles' devoted partner who enters the competition alongside him. He must expand his capacity for love when Helen enters their dynamic, growing from loving one person to embracing the complexity of three." },

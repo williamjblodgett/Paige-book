@@ -7,15 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#050a1a", "#0a1230"],
   accentColor: "#1a3a6b",
-  synopsis: `American Prince picks up exactly where American Queen left off — with Greer kidnapped on her wedding night and the most powerful men in the world scrambling to bring her home. Told primarily from Embry Moore's perspective, with some chapters from Greer, this second installment of the New Camelot trilogy pulls back the curtain on the man who has been the most enigmatic figure in the trio: the Vice President, the Lancelot, the prince who serves at the pleasure of his king.
+  synopsis: `He is the Vice President. The Lancelot. The prince who serves at the pleasure of his king. And he has never told anyone his side of the story — until now.
 
-As rescue efforts unfold in the present, the narrative weaves between timelines to reveal Embry's history with Ash. Through vivid flashbacks to their military service, readers witness the origins of their bond — how two soldiers became brothers-in-arms, then lovers, then something more complicated than either could name. We see the agonizing moment when Embry was convinced to step aside so Ash could pursue the presidency without scandal, sacrificing his own happiness for the man he loved. Embry's self-loathing runs deep: he presents a cocky, privileged exterior to the world, but inside he is a man ravaged by guilt, convinced he does not deserve the love that Ash and Greer offer him.
+Embry Moore projects confidence to the world. Inside, he is ravaged by guilt, self-loathing, and a love so complicated it threatens to consume him. In the aftermath of a devastating crisis, he finally steps into the spotlight as narrator, peeling back the polished exterior to reveal the man beneath — and the history that binds him to his king in ways no one suspects.
 
-The aftermath of Greer's kidnapping sends shockwaves through the administration and the trio's relationship. Publicly, Embry is thrust into international crises, political discord, and the looming threat of scandal as the nature of the President's unconventional relationships edges closer to exposure. Privately, he battles jealousy, secrets, and betrayals that threaten to destroy everything. The delicate balance the three of them have created — king, queen, and prince ruling together in secret — begins to fracture under the weight of trauma and political reality.
+Through explosive flashbacks to his military service with Ash, witness how two soldiers became brothers-in-arms, then something far more dangerous. And in the present, watch as the trio's secret arrangement begins to fracture under the weight of political enemies, looming scandal, and Embry's own buried betrayals.
 
-Greer's recovery from her ordeal adds another layer of emotional complexity. She is resilient but changed, and her perspective chapters reveal the psychological toll of what she endured. Meanwhile, Embry's secrets — the things he has done and the loyalties he has been forced to betray — surface with devastating consequences.
+Jealousy, duty, and desire collide. The woman who completes them is caught in the crossfire. And Embry carries secrets that, once revealed, could obliterate the fragile balance between the three people who need each other most.
 
-American Prince is a masterfully layered novel of seduction, political intrigue, jealousy, and love. Sierra Simone deepens the Arthurian parallels while grounding the story in raw human emotion, building toward a climax that redefines everything readers thought they knew about the trio. It ends with another shattering revelation that propels the story into its final chapter, American King.`,
+What happens when the knight's loyalty is tested beyond breaking? When the man who gave up everything for his king begins to wonder if the sacrifice was worth it?
+
+American Prince builds toward a revelation so shattering it will redefine everything you thought you knew about love, power, and devotion.`,
   characters: [
     {
       name: "Embry Moore",

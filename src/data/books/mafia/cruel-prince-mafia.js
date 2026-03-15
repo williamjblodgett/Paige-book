@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1508", "#0a0808"],
   accentColor: "#c9a84c",
-  synopsis: `Jace Covington is the prince of the DeLuca crime family — cruel, powerful, and harboring a rage that burns beneath his cold, handsome exterior. He rules his world with the ruthlessness of someone who learned early that power is the only thing that keeps you alive, and mercy is the fastest way to die. When his father's death reshuffles the criminal hierarchy, Jace inherits enemies, alliances, and a thirst for revenge that consumes every waking thought.
+  synopsis: `His father is dead. Someone will pay. And Jace Covington has chosen his target.
 
-Dylan Caldwell is the last person who should be anywhere near Jace Covington. She is connected to the betrayal that killed his father — not by choice, not by action, but by the cruel accident of blood. Her father played a role in the events that destroyed Jace's family, and in the world of organized crime, the sins of fathers are visited upon their children without mercy. Dylan does not fully understand the danger she is in when Jace sets his sights on her. She only knows that the darkly magnetic man who suddenly appears in her life radiates danger like heat from a fire.
+As the prince of a powerful crime family, Jace inherited an empire, a legion of enemies, and a rage that burns cold enough to freeze the blood. When he discovers that Dylan Caldwell is connected to the betrayal that destroyed his family, his plan takes shape with ruthless precision: get close, earn her trust, and make her pay.
 
-Jace's plan is simple: get close to Dylan, use her as leverage, and make her pay for what her family did to his. He expects it to be easy. She is naive, sheltered, and has no idea about the criminal world that connects their families. What he does not expect is for Dylan to be brave, genuine, and disarmingly honest — qualities that complicate his revenge plot and ignite a desire that undermines everything he thought he wanted.
+Dylan has no idea about the criminal world lurking beneath her life. She only knows that the darkly magnetic stranger who appears out of nowhere makes her pulse race and her instincts scream danger. Everything about him feels too good to be true.
 
-Their dynamic is a war of deception and reluctant attraction. Jace plays the role of the charming suitor while plotting her destruction. Dylan falls for the version of Jace he presents, unaware that every tender moment is calculated. But as his feelings become real and his plan begins to crumble, Jace faces an impossible choice: complete his revenge and destroy the woman he has grown to love, or abandon the vengeance that has defined him and risk everything he has built.
+It is.
 
-Cruel Prince is a dark, twisting romance about the devastating consequences of revenge and the terrifying vulnerability of loving someone you were supposed to destroy. Ashley Jade writes with raw intensity, creating a hero who is genuinely cruel and a heroine whose strength lies in the authenticity he cannot break.`,
+Every tender moment is calculated. Every whispered word is a weapon. Jace is playing a role, and Dylan is falling for a man who does not exist. But there is something he did not account for — her. She is brave where he expected weakness. Genuine where he expected deception. And every moment spent with her cracks the armor he built around his vengeance.
+
+Now Jace faces an impossible choice: complete the revenge that has consumed him and destroy the woman who made him feel again, or abandon everything for a love that was never supposed to be real.
+
+How far would you go for vengeance — and what would you sacrifice to stop?`,
   characters: [
     { name: "Jace Covington", role: "The prince of the DeLuca crime family who inherits his father's enemies and a consuming need for revenge. His plan to use Dylan as leverage crumbles when genuine feelings complicate his calculated cruelty." },
     { name: "Dylan Caldwell", role: "Connected to the betrayal that killed Jace's father through her own family's actions. Naive to the criminal world but brave and genuine, her authenticity becomes the force that unravels Jace's revenge plot." }

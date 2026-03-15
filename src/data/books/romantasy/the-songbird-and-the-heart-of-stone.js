@@ -7,13 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#180828", "#0b1232"],
   accentColor: "#7c5cbf",
-  synopsis: `In the aftermath of the Kejari, the vampire world has been thrown into chaos. Oraya and Raihn's lives have been irrevocably changed by the tournament's devastating conclusion, and the fragile trust between them has been shattered by secrets and betrayals that cut to the bone. Raihn now sits on the throne of the House of Night, having claimed power through the Kejari's outcome, but his rule is contested and precarious. Oraya, reeling from the events of the tournament and the truths she uncovered about the people she trusted most, must navigate a world where everything she believed has been upended.
+  synopsis: `The Kejari is over. Oraya's heart is in ruins.
 
-The political landscape of the vampire kingdoms is fracturing. The three vampire houses — Night, Shadow, and Blood — are on the brink of open warfare, and ancient powers are stirring that threaten to consume them all. Oraya finds herself at the center of these conflicts, her unique nature as a human with deep connections to vampire royalty making her both a valuable asset and a target. She must grapple with her feelings for Raihn, a man who broke her heart and yet remains the person who understands her most deeply.
+Raihn sits on the throne of the House of Night, a king whose claim is contested by enemies on every side. He won the tournament. He won the crown. But the price was losing the woman who mattered more than any of it — and the choices he made haunt him with every breath.
 
-As war erupts across the vampire kingdoms, Oraya discovers that her own origins hold secrets more profound than she ever imagined. The goddess Nyaxia's interest in her is not random — there is something about Oraya's very existence that connects to the deepest mysteries of the vampire world. To protect the people she loves and the fragile chance of peace, Oraya must embrace powers she never knew she had and make alliances with enemies she never thought she could trust.
+Oraya is done trusting vampires. Done trusting anyone. The secrets and betrayals of the Kejari shattered something inside her, and the three vampire houses teetering on the brink of open war leave no room for broken hearts. She has bigger problems now — because the goddess Nyaxia's interest in her is no coincidence. Something about Oraya's very existence connects to the deepest mysteries of the vampire world, and the answers to her origins are more staggering than she ever imagined.
 
-Raihn fights to hold together a kingdom that wants to tear itself apart, haunted by the choices he made in the Kejari and the woman he lost because of them. When circumstances force Oraya and Raihn back together, they must confront unresolved feelings that have only grown more intense with separation. But the threats facing them both demand more than personal reconciliation — they require the kind of sacrifice that could cost everything.`,
+When circumstances force Oraya and Raihn back into each other's orbit, the unresolved tension between them is a living thing — furious, aching, and impossible to ignore. But ancient powers are awakening, the three houses are on a collision course, and the threats converging on them both demand more than personal reconciliation. They demand sacrifice.
+
+War is coming to the vampire kingdoms. The question is whether Oraya and Raihn will face it together — or if the wounds between them are too deep to heal.`,
   characters: [
     { name: "Oraya", role: "A human warrior grappling with the aftermath of the Kejari and discoveries about her mysterious origins. She must navigate war, political intrigue, and her complicated feelings for Raihn." },
     { name: "Raihn", role: "The new King of the House of Night, whose precarious rule is challenged from all sides. He is haunted by the choices he made in the Kejari and his broken relationship with Oraya." },

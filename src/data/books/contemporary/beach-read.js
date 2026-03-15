@@ -7,15 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#f4a261", "#e76f51"],
   accentColor: "#c45b84",
-  synopsis: `January Andrews is a literary fiction writer who has just discovered that her recently deceased father led a secret double life, complete with another woman and a beach house in a small Michigan town. Reeling from the betrayal, she finds herself unable to write the happy endings she's known for.
+  synopsis: `She writes love stories. He writes tragedies. They have absolutely nothing in common — except a street address.
 
-Augustus Everett, her college rival and now a bestselling literary fiction author, happens to live right next door for the summer. He's brooding, sharp-tongued, and writes dark, depressing novels that couldn't be more different from January's bright, hopeful romances.
+January Andrews built her career on happily-ever-afters, but after a devastating family secret shattered everything she believed about love, she can't write a single word. Now she's stuck in a tiny Michigan beach town, living in her late father's house, next door to the last person she wants to see: Augustus Everett, her college rival and literary fiction's favorite brooding genius.
 
-When both writers find themselves stuck with debilitating writer's block, they strike an unlikely deal: they'll swap genres for the summer. January will write Augustus's brand of literary fiction, and he'll try his hand at a romance novel. They'll even help each other research by exploring each other's worlds—she'll visit the dark, haunted places that inspire him, and he'll experience the sunny, joyful side of life that fuels her stories.
+When writer's block threatens to derail them both, they strike an unlikely bet. She'll write his kind of dark, depressing literary fiction. He'll try his hand at a love story. And to make it authentic? They'll have to research each other's worlds — together.
 
-As their research dates blur the lines between fiction and reality, January and Augustus begin to see each other—and themselves—in an entirely new light. But January is still grappling with the devastating truths about her father, and Augustus carries his own painful secrets that have shaped the darkness in his writing.
+Their so-called field trips start innocently enough. But somewhere between the haunted places that fuel his stories and the sunlit moments that once inspired hers, the lines begin to blur. He's not as cynical as he pretends. She's not as cheerful as she seems. And the chemistry between two people who have spent their careers writing about love and loss is turning into something neither of them planned for.
 
-What starts as a competitive bet between two very different writers transforms into something far more profound. They must each confront their deepest fears about love, loss, and whether it's possible to find a happy ending when real life is so much messier than fiction. Beach Read is a witty, emotionally rich story about two people who challenge each other to look beyond their carefully constructed narratives and embrace the complicated, beautiful truth of falling in love.`,
+Can a romance writer who's lost her faith in love and a literary novelist who's never believed in it prove each other wrong?`,
   characters: [
     { name: "January Andrews", role: "Protagonist, romance novelist facing writer's block" },
     { name: "Augustus Everett", role: "Love interest, literary fiction author and college rival" },

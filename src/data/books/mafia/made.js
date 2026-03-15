@@ -7,15 +7,19 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0c0808"],
   accentColor: "#c9a84c",
-  synopsis: `Elena Abelli is the good daughter of the Cosa Nostra. She goes to church every Sunday, wears modest dresses, and has spent her entire life following the rules laid down by her father, the Don of the Abelli family. She is gentle, warm, and sincere — qualities that make her valuable as a bride but invisible as a person. When she is arranged to marry Nicolas Russo, the new Don of the Russo family, she accepts her fate with the quiet grace expected of her. This is her duty. This is her life.
+  synopsis: `Elena Abelli is the good daughter. She goes to church every Sunday, follows every rule, and accepts her arranged marriage to Nicolas Russo — the new Don — with the quiet grace expected of a mafia bride.
 
-Nicolas Russo is everything Elena is not — cold, controlled, and comfortable with violence. He has recently assumed control of the Russo family after his father's death, and he views his marriage to Elena with clinical detachment. She is a means to an alliance, nothing more. He is a man who has learned that emotion is a weakness exploited by enemies, and he intends to keep his new wife at the same careful distance he maintains from everything else.
+Nicolas is everything she is not: cold, controlled, and forged by violence. He views his new wife with clinical detachment. She is a strategic alliance. Nothing more. Emotion is a weakness, and Nicolas Russo does not have weaknesses.
 
-But Elena is not as simple as she appears. Beneath the obedient surface is a woman with secret desires, a sharp mind, and a quiet stubbornness that surprises even herself. She does not rage against her arranged marriage — instead, she navigates it with a subtle intelligence that gradually earns Nicolas's attention. She brings warmth into a household that has known only cold efficiency, and her genuine kindness disrupts the emotional armor Nicolas has spent years constructing.
+But Elena is not as simple as she appears.
 
-Nicolas fights his growing feelings with the discipline of a man accustomed to controlling everything in his world. But Elena slips through his defenses through small, persistent acts of humanity — a home-cooked meal, a quiet conversation, a refusal to be afraid of him when everyone else is terrified. Their slow-burn romance builds through restraint rather than explosion, each small concession from Nicolas carrying the weight of a man who has never allowed himself to want something he could not control.
+Beneath the obedience is a woman with a sharp mind and a stubborn warmth that refuses to be extinguished. She does not fight her husband with defiance — she disarms him with kindness. A home-cooked meal. A quiet conversation. A refusal to flinch when everyone else in the room is terrified of him. Small, persistent acts of humanity that slip through the cracks in his armor like water through stone.
 
-Made is a masterfully paced mafia romance that builds tension through whispered conversations and loaded silences. Danielle Lori creates a world where the most dangerous act a mafia don can commit is letting someone past his guard — and the bravest thing a wife can do is make him want to.`,
+Nicolas has controlled everything in his world for years. He cannot control this.
+
+Their connection builds not through grand gestures but through loaded silences — each small concession carrying the weight of a man who has never allowed himself to want something he could not command.
+
+In the Cosa Nostra, the most dangerous thing a Don can do is let someone past his guard. And the bravest thing a wife can do is make him want to.`,
   characters: [
     { name: "Elena Abelli", role: "The good daughter of the Abelli family, arranged to marry Nicolas Russo. Gentle and warm on the surface, she has a sharp mind and quiet stubbornness that gradually penetrates her husband's emotional armor through persistent kindness." },
     { name: "Nicolas Russo", role: "The new Don of the Russo family — cold, controlled, and allergic to emotion. He views his marriage as a strategic alliance until Elena's warmth begins to dismantle defenses he has spent years building." },

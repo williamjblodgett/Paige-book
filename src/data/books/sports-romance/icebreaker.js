@@ -7,13 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1525", "#0a1018"],
   accentColor: "#2d8cf0",
-  synopsis: `Anastasia "Stassie" Allen is a fiercely competitive figure skater at the University of California, Maple Hills, training alongside her skating partner Aaron Carlisle with dreams of reaching the Olympics. Her carefully controlled life — maintained through therapy, a strict day planner, and avoiding romantic entanglements — is thrown into chaos when a prank destroys the hockey team's ice rink, forcing the figure skaters and hockey players to share ice time.
+  synopsis: `Anastasia Allen doesn't do distractions. The fiercely competitive figure skater at UC Maple Hills has Olympic dreams, a packed schedule, and one unbreakable rule: no hockey players. Ever.
 
-Nathan "Nate" Hawkins, the charming and easygoing captain of the college hockey team, immediately clashes with the guarded Anastasia. Their antagonistic dynamic shifts unexpectedly at one of Nate's parties, where a heated encounter leaves them both reeling. Anastasia tries to avoid him, but sharing the rink makes that impossible, and their relationship slowly evolves from enemies to something much deeper.
+Then a prank destroys the hockey rink, and suddenly she's sharing ice time with Nathan Hawkins — the team's golden-boy captain, annoyingly charming, and completely undeterred by her death glares.
 
-Meanwhile, Anastasia's skating partner Aaron becomes increasingly possessive and controlling, criticizing her weight and attempting to dictate her life. When Aaron injures himself and blames Nate, Coach Faulkner threatens to cancel the season. Nate selflessly takes the blame for something he didn't do and is temporarily banned from the hockey team. During their time apart, Anastasia realizes the depth of her feelings for him.
+Nate is everything Anastasia doesn't need: easygoing where she's rigid, warm where she's guarded, and determined to crack through the walls she's built around herself. Their clashing personalities spark instant friction — the kind that's impossible to ignore, no matter how hard she tries.
 
-After Aaron re-injures himself by dropping Anastasia during their sectionals routine, Nate steps in as her practice partner, helping her rebuild her confidence on the ice. As Aaron's jealousy escalates, Anastasia moves in with Nate, and the two navigate the delicate balance of their personal and professional relationship while discovering that sometimes the person you least expect becomes the one you need most.`,
+But Anastasia's world is more fragile than it looks. Between the mounting pressure of competition season, a skating partnership that's growing more suffocating by the day, and the anxiety she fights to keep under control, she can't afford to let anyone in. Especially not someone who could upend everything she's worked for.
+
+The problem is, Nate isn't going anywhere. And the more time they spend together, the harder it becomes to remember why she's supposed to keep him at arm's length.
+
+Falling for the hockey captain was never part of the plan. But some collisions you don't see coming — and some you can't skate away from.`,
   characters: [
     { name: "Anastasia Allen", role: "A determined figure skater at UCMH with Olympic aspirations. She manages her anxiety through therapy and rigid routines, presenting a tough exterior that hides her vulnerability. Her journey involves learning to let go of control and trust in love." },
     { name: "Nathan Hawkins", role: "The warm and charismatic captain of the Maple Hills hockey team, destined for the NHL. Despite his sunshine personality, he carries wounds from his mother's abandonment. He falls hard for Anastasia and proves himself through patience and selflessness." },

@@ -7,15 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1218", "#1a0a12"],
   accentColor: "#2d8cf0",
-  synopsis: `Tate Tanley is a high school hockey star in the small town of Juniper Falls, Minnesota, where hockey is not just a sport — it is a way of life. Tate is talented, dedicated, and on track to earn a college scholarship that would be his ticket out of town. But his carefully planned future takes a sharp turn when he hooks up with Claire O'Connor at a party and discovers weeks later that she is pregnant.
+  synopsis: `In the small town of Juniper Falls, Minnesota, hockey is everything -- and Tate Tanley is the star everyone is counting on. A scholarship, a way out, a future mapped in clean straight lines. Then one night at a party changes everything, and weeks later, Tate learns that Claire O'Connor is pregnant.
 
-Claire is smart, independent, and determined not to let an unplanned pregnancy derail her own future. She has plans — college, a career, a life beyond Juniper Falls — and she refuses to become a cautionary tale. She and Tate are not in a relationship. They are barely even friends. The pregnancy forces them into each other's lives in a way neither expected or wanted.
+They are not a couple. They are barely friends. And now their lives are tangled together in a way neither of them planned.
 
-What follows is a story about two young people navigating an impossibly adult situation while still figuring out who they are. Tate must balance the demands of his hockey season, the pressure from his coach and teammates, and the expectations of a town that has pinned its hopes on him — all while trying to do the right thing for Claire and their unborn child. Claire must deal with judgment from her peers, the strain on her family, and the difficult decisions that come with an unplanned pregnancy.
+Claire is smart, independent, and determined not to become anyone's cautionary tale. She has her own dreams of college and a life beyond this small town, and she refuses to let an unplanned pregnancy erase them. Tate is trying to do the right thing while holding together a hockey season, a town's expectations, and a future that suddenly looks nothing like the one he imagined.
 
-As Tate and Claire spend more time together — at doctor's appointments, in late-night conversations, and through the small moments of crisis and comfort that define their situation — they discover a genuine connection beneath the chaos. Tate is not the thoughtless jock Claire assumed, and Claire is not the detached girl Tate expected. Their bond grows slowly, built on honesty, shared vulnerability, and the realization that facing the unexpected together is easier than facing it alone.
+But as doctor's appointments replace study halls and late-night conversations replace easy silence, something unexpected happens. Tate discovers that Claire is fiercer and more complex than he assumed. Claire discovers that the hockey star is more thoughtful and more scared than he lets on. And in the middle of the most terrifying situation either has ever faced, a genuine connection starts to grow.
 
-Off the Ice is a refreshingly honest young adult romance that treats its characters and their circumstances with nuance and respect. It is a story about growing up, stepping up, and finding love in the last place you expected.`,
+This is not the love story either of them was looking for. But sometimes the most honest ones begin in the places you least expect.`,
   characters: [
     { name: "Tate Tanley", role: "A high school hockey star in Juniper Falls whose scholarship dreams are complicated by an unplanned pregnancy. Responsible and earnest, he tries to balance hockey, his future, and doing right by Claire." },
     { name: "Claire O'Connor", role: "A smart, independent young woman who refuses to let an unplanned pregnancy define her. She has her own plans for the future and insists on maintaining her agency throughout the situation." },

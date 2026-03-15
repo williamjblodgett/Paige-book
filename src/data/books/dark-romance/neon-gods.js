@@ -8,13 +8,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a2a", "#2d1a4a"],
   accentColor: "#7c5cbf",
-  synopsis: `In the modern city of Olympus, power is divided among the Thirteen—titles representing the Greek gods that can be inherited or elected. Zeus, Poseidon, and Hades are legacy roles passed from parent to child, while the rest are won through politics and influence. The Upper City glitters with wealth and ambition, separated from the Lower City by the river Styx. And for thirty years, the world has believed Hades is dead.
+  synopsis: `In the modern city of Olympus, power belongs to the Thirteen -- titles named for the Greek gods, held by the ruthless elite who rule from glittering towers. The Upper City blazes with wealth and ambition. The Lower City lurks in shadow, separated by the river Styx. And for thirty years, everyone has believed that Hades is dead.
 
-Persephone Dimitriou is a society darling who wants nothing to do with her mother Demeter's political ambitions. She's been quietly planning her escape—once she turns twenty-five and gains access to her trust fund, she'll leave Olympus for good to pursue a PhD at Berkeley. But her mother has other plans. Without warning, Demeter announces Persephone's engagement to Zeus, a man rumored to be around sixty and suspected of murdering his previous wives. When Persephone panics and flees the engagement party, she runs until she crosses the river Styx into the Lower City.
+Persephone Dimitriou has one plan: escape Olympus and never look back. But when her mother announces her engagement to Zeus -- a dangerous man rumored to have murdered his previous wives -- that plan shatters in an instant.
 
-Standing at the end of the bridge is Hades—very much alive and quietly ruling the Lower City while waiting for the right moment to strike against Zeus, who murdered his parents when he was a child. He allows Persephone to cross and carries her to safety. The next morning, Persephone strikes a bargain: she'll stay with Hades and publicly ruin her reputation so Zeus will no longer want her. Public sex at Hades' exclusive parties will ensure that Zeus's supposedly innocent fiancée is thoroughly compromised. In return, Hades provides sanctuary.
+She runs. She does not stop until she has crossed the river Styx.
 
-What starts as a strategic arrangement quickly becomes something neither expected. Hades makes it clear that Persephone's welcome isn't contingent on anything, and she makes it clear that her desire for him is genuine. As Demeter threatens to cut off Olympus's agricultural resources unless her daughter is returned, and Zeus's rage grows, Hades discovers he's willing to go to war with Olympus itself to keep Persephone. Their story is a scorching modern retelling of the Hades and Persephone myth, where two people trapped by the city's power games find freedom—and love—in each other's arms.`,
+And standing at the end of the bridge, very much alive, is Hades.
+
+He offers sanctuary. She offers him something in return -- a bargain that will scandalize the Upper City, destroy her reputation, and make her utterly worthless to Zeus. It is a dangerous game built on public provocation and private desire. But what begins as strategy ignites into something neither of them expected: a hunger that no contract can contain.
+
+Zeus wants her back. Her mother will burn Olympus to reclaim her. And Hades is discovering that he will wage war against the entire city before he lets anyone take her from his side.
+
+The myth you know. The Olympus you do not. And a bargain that will set everything on fire.`,
   characters: [
     { name: "Persephone Dimitriou", role: "Demeter's daughter and a society darling who wants nothing to do with Olympus's power games. When she flees a forced engagement to Zeus, she crosses into the Lower City and discovers that the supposedly dead Hades is very much alive—and irresistible." },
     { name: "Hades", role: "The mysterious ruler of the Lower City who has been presumed dead for thirty years. He offers Persephone sanctuary and strikes a bargain that quickly evolves from strategy to genuine passion, ultimately willing to wage war to keep her." },

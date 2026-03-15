@@ -7,13 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a10", "#201828"],
   accentColor: "#c42a2a",
-  synopsis: `Emery has spent her entire life as the good girl—the one who follows the rules, keeps her head down, and never causes trouble. But when she finds herself desperate, broke, and out of options, she does something completely out of character: she assumes a dead woman's identity. It's supposed to be temporary, a way to survive until she can get back on her feet. She never expected the deception to land her in the orbit of Nash Prescott.
+  synopsis: `Desperate, broke, and out of options, Emery does the unthinkable: she assumes a dead woman's identity. It is supposed to be temporary. A way to survive. She never expected the deception to land her in the orbit of Nash Prescott -- the dead woman's fiance.
 
-Nash is the kind of man who doesn't just enter a room—he commands it. Wealthy, powerful, and devastatingly attractive, he's also the fiancé of the woman whose identity Emery has stolen. When Emery shows up claiming to be someone she's not, Nash knows immediately that she's lying. He should expose her, turn her in, destroy her. Instead, he does something far more dangerous: he plays along.
+Nash is wealthy, powerful, and devastatingly attractive. He is also the one person who should destroy her the moment she walks through his door. He knows immediately that she is lying. He should expose her, turn her in, end this. Instead, he does something far more dangerous.
 
-What unfolds is a deadly game of cat and mouse where neither player shows their full hand. Nash keeps Emery close, watching her every move with an intensity that should terrify her. He knows she's a fraud, and she knows he knows—but neither will be the first to break. The tension between them is suffocating, every interaction loaded with double meanings and barely restrained desire. He's supposed to be grieving his dead fiancée. She's supposed to be that fiancée. The lie is impossible, and yet they both cling to it.
+He plays along.
 
-As the deception deepens, real feelings take root in the most treacherous soil imaginable. Emery discovers that Nash's relationship with his late fiancée was far more complicated than it appeared, and Nash realizes that the fake woman standing before him is more real than anyone he's ever known. But lies have consequences, and the truth about why Nash is really playing this game—and what he stands to gain from Emery's deception—threatens to destroy the fragile trust growing between them. When the house of cards finally falls, both must face the question: can love survive when it was built entirely on lies?`,
+What unfolds is a suffocating game of cat and mouse where neither player reveals their hand. He watches her every move with an intensity that should terrify her. She knows he knows. He knows she knows he knows. And yet neither will be the first to break. Every interaction drips with double meanings and barely restrained desire. He is supposed to be grieving. She is supposed to be the woman he lost.
+
+But as real feelings take root in the most treacherous soil imaginable, the truth about why Nash is playing this game threatens to shatter everything. Can love survive when it was built entirely on lies?`,
   characters: [
     { name: "Emery", role: "A desperate woman who assumes a dead woman's identity to survive, only to find herself trapped in a dangerous game with the deceased's fiancé who sees through her deception." },
     { name: "Nash Prescott", role: "A wealthy, powerful man who immediately recognizes Emery's deception but chooses to play along for his own mysterious reasons, creating a suffocating dynamic of mutual manipulation." }

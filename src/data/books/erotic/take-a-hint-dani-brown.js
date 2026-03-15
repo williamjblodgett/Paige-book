@@ -7,15 +7,19 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#120a10", "#1a0a12"],
   accentColor: "#e85d3a",
-  synopsis: `Danika Brown is a brilliant, focused academic — a PhD researcher at a prestigious university who has no interest in love, relationships, or any emotional entanglement that might distract her from her work. She has a strict personal policy: casual sex is fine, feelings are not. Dani knows exactly what she wants, and what she wants is professional success, physical satisfaction, and absolutely nothing in between. She has seen what love does to people, and she wants no part of it.
+  synopsis: `Danika Brown has rules. Casual sex: fine. Feelings: absolutely not. As a PhD researcher with laser focus and zero tolerance for emotional distraction, Dani has built a life that runs exactly the way she wants it. Love is a complication she does not need.
 
-Zafir Ansari is the head of security at Dani's university building. He is a former professional rugby player — huge, kind, and quietly devoted to everything he cares about. He volunteers with at-risk youth, bakes stress-relief brownies, and is the kind of steady, gentle man that Dani would normally categorize as too soft for her tastes. She likes her men temporary and her connections superficial. Zaf is anything but.
+Zafir Ansari did not get the memo. The former rugby player turned university security head is huge, kind, and quietly devoted to everything he cares about — including a struggling youth charity and, secretly, the brilliant woman who barely notices him.
 
-When a fire drill forces Dani into Zaf's arms — literally, as he carries her out of the building in a moment caught on camera — the clip goes viral. Suddenly, the internet ships them. Hard. The attention could benefit Zaf's struggling charity, which desperately needs the publicity. Dani, who does not care about public opinion, agrees to a fake relationship for Zaf's sake. It is purely strategic. Feelings are not involved. She is very clear about this.
+When a fire drill forces Dani into Zaf's arms and the moment goes viral, the internet decides they are a couple. The attention could save Zaf's charity, so Dani agrees to a fake relationship. Purely strategic. No feelings involved. She is very clear about this.
 
-She is also very wrong. As they stage public dates and cozy social media moments, the fake relationship forces Dani to spend real time with Zaf, and she discovers that his kindness is not weakness — it is strength. His emotional intelligence, his patience, and his unwavering support challenge everything Dani believes about vulnerability being a liability. Zaf, meanwhile, is desperately in love with Dani and has been since they first met, but he respects her boundaries even as the fake relationship tortures him.
+She is also very wrong.
 
-The novel builds to an emotional crescendo as Dani must confront the fear behind her emotional walls — the belief that love makes you lose yourself. Zaf must decide whether loving someone who might never love him back is courage or foolishness. Talia Hibbert writes with sharp humor, genuine warmth, and a nuanced exploration of what it means to be brave enough to let someone in.`,
+Staged dates and cozy social media moments force Dani to spend real time with a man whose kindness she mistook for weakness. Zaf bakes stress-relief brownies, mentors troubled teenagers, and looks at Dani as though she is the most fascinating person in any room. His patience and emotional intelligence challenge every wall she has built.
+
+But Zaf has his own quiet agony — he has been in love with Dani since the day they met, and the fake relationship is slowly killing him.
+
+As the performance becomes harder to distinguish from reality, Dani must confront the fear driving her emotional fortress: the terrifying belief that love means losing yourself. Sharp, funny, and disarmingly tender, Take a Hint, Dani Brown asks what happens when the woman who has all the answers finally meets the question she cannot solve.`,
   characters: [
     { name: "Danika 'Dani' Brown", role: "A brilliant PhD researcher with a strict no-feelings policy. She is focused, sexually confident, and terrified of emotional vulnerability — which she disguises as intellectual superiority and independence." },
     { name: "Zafir 'Zaf' Ansari", role: "A former rugby player turned university security head who runs a youth charity. He is huge, kind, and has been quietly in love with Dani since they first met. His patience and emotional strength challenge her belief that vulnerability is weakness." },

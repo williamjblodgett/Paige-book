@@ -7,13 +7,17 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1a0808", "#0a0a18"],
   accentColor: "#e85d3a",
-  synopsis: `The Formula 1 World Championship is the backdrop for a forbidden romance that defies every rule in the racing world. Noah Slade is the golden prince of F1 — the son of a legendary driver who followed in his father's footsteps to become one of the sport's biggest stars. But behind the cocky womanizer image, Noah is a man crippled by the pressure of his father's legacy and the emotional walls he's built to survive a childhood defined by expectations rather than love.
+  synopsis: `Noah Slade is F1 royalty — the son of a racing legend, the sport's biggest playboy, and the driver everyone loves to watch. But behind the arrogant smirk and podium celebrations, Noah is suffocating under a legacy he never asked for and a father whose approval he'll never earn.
 
-When the new season begins and Santiago "Santi" Alatorre becomes Noah's teammate on the Bandini racing team, the tension is immediate. Santi stole the championship from Noah two years ago, and their rivalry burns hotter than ever. But the real complication arrives in the form of Maya Alatorre — Santi's younger sister, a sassy and fiery Latina who joins her brother on the global F1 circuit after graduating university with no summer plans.
+When his fiercest rival, Santiago Alatorre, becomes his new teammate at Bandini, the tension on the team is explosive. Santi stole Noah's championship two years ago, and neither of them has forgotten it. But the real danger isn't on the track — it's Santi's younger sister, Maya.
 
-The attraction between Noah and Maya is instantaneous and forbidden on every level. She's his rival's sister, making any relationship a betrayal that could destroy both Noah's career partnership and Santi's trust. Maya knows getting involved with Noah threatens her relationship with her protective older brother, but she can't help being drawn to the man behind the arrogant facade — especially as she begins to see the vulnerability he hides from the world.
+Maya Alatorre is fiery, sharp-tongued, and completely unimpressed by Noah's charm. She's tagging along on the F1 circuit for the summer, building her own career and refusing to live in her brother's shadow. She knows exactly who Noah Slade is. She knows all the reasons to stay away.
 
-As they globe-trot through the F1 season, Noah and Maya navigate their growing feelings in secret, stealing moments in exotic locations while the pressure of the championship mounts. Noah eventually goes to therapy before pursuing a serious relationship with Maya, showing genuine growth. Their love forces both of them to choose between family loyalty, professional ambition, and the person who makes them feel most alive. In the high-speed world of F1, the greatest risk isn't on the track — it's opening your heart.`,
+She just can't seem to.
+
+As the championship heats up across the world's most glamorous cities, Noah and Maya find themselves drawn together in secret — stolen moments in Monaco, whispered conversations in hotel hallways, a connection that neither of them can explain or deny. But if her brother finds out, it won't just break trust. It could destroy everything.
+
+In Formula 1, one wrong move at full speed can change everything. The same is true for love.`,
   characters: [
     { name: "Noah Slade", role: "The prince of F1 racing and son of a legendary driver. Beneath his cocky bad-boy exterior, he's a man suffocated by expectations and starved of genuine love. He goes to therapy to deal with his issues before committing to Maya, showing meaningful character growth." },
     { name: "Maya Alatorre", role: "Santi's younger sister, a sassy and strong-willed Latina who joins the F1 circuit after graduating university. She's a content creator building her own brand and refuses to live in her brother's shadow. Her fiery personality matches Noah's intensity." },

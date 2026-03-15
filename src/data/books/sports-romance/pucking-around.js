@@ -7,13 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1525", "#0a0a18"],
   accentColor: "#2d8cf0",
-  synopsis: `Rachel Price has just landed the opportunity of a lifetime — a prestigious fellowship to serve as the team physician for the Jacksonville Rays, a professional NHL hockey team. The daughter of a world-famous rock star, Rachel is determined to build her own legacy in sports medicine. But from the moment she arrives in Jacksonville, her carefully laid professional plans start to unravel in the most unexpected ways.
+  synopsis: `Rachel Price has just landed the opportunity of a lifetime — a fellowship as team physician for the Jacksonville Rays, an NHL hockey team. As the daughter of a famous rock star, she's spent her whole life proving she's more than her last name. This is her chance to build something of her own.
 
-First, there's Caleb Sanford, the grumpy assistant equipment manager who happens to be her neighbor. Despite his prickly exterior, Rachel feels an immediate spark. Then she discovers that defensive player Jake Compton — the charming "Mystery Boy" from a previous one-night stand — is not only on the Rays roster but also Caleb's best friend. As Rachel navigates the complicated waters of being attracted to two men who are best friends, she also finds herself drawn to the team's enigmatic Finnish goalie, Ilmari "Mars" Kinnunen, who has been mysteriously avoiding his mandatory physical.
+She didn't plan on Caleb Sanford — the grumpy equipment manager next door who makes her pulse race despite his best efforts to push everyone away. She definitely didn't plan on discovering that Jake Compton, the charming defenseman she had an unforgettable one-night stand with months ago, is on the Rays' roster. And Caleb's best friend.
 
-What unfolds is a groundbreaking polyamorous love story as Rachel, Jake, Caleb, and Mars navigate their deepening feelings for one another. The relationships aren't just between Rachel and each man — Jake and Caleb also discover romantic feelings for each other, creating a complex and genuine four-way relationship. However, their happiness is threatened when the professional and personal lines blur dangerously: Rachel treated Mars as a patient after their romantic relationship began, violating medical ethics.
+Then there's Ilmari "Mars" Kinnunen — the team's intense, enigmatic Finnish goalie who keeps dodging his physical exams and watching Rachel with an unreadable expression.
 
-When their relationships are exposed to management, Rachel is suspended. But in a grand gesture of solidarity and love, Jake, Caleb, and Mars reveal their polyamorous relationship to the world while Rachel is away, then bring her to a game packed with supportive fans wearing "Price" jerseys — a tribute to Jake and Mars changing their last names as a public declaration that the four of them are family.`,
+Three men. One team. And a connection forming between all of them that defies every rule Rachel has ever followed.
+
+What begins as impossible attraction becomes something none of them expected — a bond that doesn't ask Rachel to choose, but challenges all four of them to redefine what love and family can look like. But in the unforgiving spotlight of professional sports, some relationships are deemed too unconventional to survive.
+
+The question isn't whether they'll fall. It's whether they're brave enough to let the world see it.`,
   characters: [
     { name: "Rachel Price", role: "A talented and ambitious sports physician on fellowship with the Jacksonville Rays. The daughter of a rock star, she's determined to forge her own path in medicine. Her openness to love leads her into an unconventional but deeply fulfilling polyamorous relationship." },
     { name: "Jake Compton", role: "A charismatic defensive player for the Rays and Rachel's 'Mystery Boy' from a previous one-night stand. Warm and outgoing, he's the emotional glue of the group and ultimately discovers romantic feelings for Caleb as well as Rachel." },

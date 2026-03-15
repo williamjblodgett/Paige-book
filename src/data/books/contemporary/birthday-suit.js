@@ -8,13 +8,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#3d1a2a", "#5a2a3d"],
   accentColor: "#c45b84",
-  synopsis: `Leo Hennessy has been carrying a secret for years: he's in love with his best friend's wife. When Leo and his best friend Tripp both met Lulu, they fell for her simultaneously—but Tripp made his move first, and Leo stepped back, burying his feelings deep. He watched from the sidelines as Tripp and Lulu built a life together, playing the role of devoted friend while his heart quietly broke. Then tragedy struck. Tripp, who struggled with alcoholism, passed away, leaving Lulu widowed and Leo gutted by grief compounded with guilt.
+  synopsis: `Some secrets are meant to stay buried. Leo Hennessy's has been eating him alive for years.
 
-Years later, Leo and Lulu reconnect when they end up working together. She's stepping into a fresh start—new job, new outlook, new determination to build a life that isn't defined by loss. Leo doesn't want to complicate things. She deserves peace, not a forbidden office romance with the man who secretly loved her while she was married to his best friend. But Lulu has always been his weakness, and she's more irresistible than ever.
+He fell for her the same moment his best friend did. But Tripp moved first, and Leo did what any good man would do — he stepped back, locked his feelings away, and played the loyal friend. Now Tripp is gone, and the guilt Leo carries is more complicated than simple grief.
 
-When a riddle-filled, race-against-the-clock scavenger hunt across New York City throws them together, Lulu begins seeing Leo with new eyes. The man she always considered a reliable friend reveals unexpected depths—sweet, sexy, and surprisingly vulnerable. For Leo, every moment with Lulu is both heaven and torment, the fulfillment of years of longing shadowed by the ghost of the man who loved her first.
+When Leo and Lulu reconnect in New York City, he has one rule: keep the feelings buried. She's rebuilding her life after loss, and the last thing she needs is her late husband's best friend complicating everything. But a wild, riddle-filled scavenger hunt across the city keeps throwing them together, and the dependable friend Lulu thought she knew starts revealing sides she never expected — tender, fiercely protective, and impossible to ignore.
 
-Set against the backdrop of New York City and anchored by a chocolate convention that brings them back into each other's orbit, Birthday Suit is a story about the courage it takes to reach for happiness when guilt says you don't deserve it. Leo must forgive himself for loving someone who was never supposed to be his. Lulu must learn to trust again after a man she loved destroyed himself. Together, they discover that honoring the past doesn't mean sacrificing the future—and that sometimes the person who got away was standing beside you all along.`,
+Every stolen glance is a battle between what Leo wants and what he thinks he deserves. Every moment with him makes Lulu question everything she thought she knew about the people in her life.
+
+Can a man forgive himself for wanting someone who was never supposed to be his? And can a woman who's still piecing her heart together risk it on the one person who might break it — or make it whole again?`,
   characters: [
     { name: "Leo Hennessy", role: "A man who has spent years hiding his love for Lulu, his deceased best friend's wife. Consumed by guilt and longing, he must learn to forgive himself for wanting someone who was never supposed to be his." },
     { name: "Lulu", role: "A widow stepping into a fresh start after losing her husband Tripp to alcoholism. When she reconnects with Leo, she sees her longtime friend in a new light and must learn to trust love again." },

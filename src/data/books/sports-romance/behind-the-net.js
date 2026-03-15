@@ -7,17 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1218", "#1a0a14"],
   accentColor: "#2d8cf0",
-  synopsis: `Jamie Streicher is the Vancouver Storm's star goaltender — intense, focused, and notoriously private. He does not do interviews, he does not do social media, and he absolutely does not do roommates. His routine is sacred: early morning workouts, meticulous meal prep, and a solitary existence designed to keep his mind sharp and his game sharper. So when his team's management informs him that a new music tutor for the owner's daughter will be staying in his guest room temporarily, Jamie is less than thrilled.
+  synopsis: `Jamie Streicher does not do roommates. The Vancouver Storm's star goaltender has built his life around discipline, silence, and routine -- and he intends to keep it that way. So when management installs a music tutor in his guest room, Jamie makes one thing clear: she is temporary.
 
-Pippa Ward is a talented pianist whose career has stalled. She moved to Vancouver for a fresh start, taking a job as a music tutor while trying to rebuild her confidence after a devastating professional setback. She is warm, messy, and chaotic — everything Jamie is not. She leaves sheet music everywhere, plays piano at odd hours, and has an infuriating habit of filling his perfectly organized kitchen with experimental baking disasters.
+Pippa Ward is anything but quiet. A talented pianist rebuilding her confidence after a career setback, she fills Jamie's sterile apartment with scattered sheet music, late-night Chopin, and a trail of baking disasters that would horrify his nutritionist. She is warm, messy, and completely unintimidated by his death glares.
 
-Jamie should hate it. He does hate it, he tells himself repeatedly. But somewhere between her terrible cookies and her beautiful Chopin, the grumpy goaltender starts to crack. Pippa does not treat him like a hockey god. She treats him like a slightly annoying roommate who needs to lighten up, and her refusal to be intimidated by his glares is both maddening and magnetic.
+Jamie should hate every minute of it. He keeps telling himself he does. But somewhere between her terrible cookies and the way she treats him like a regular person instead of a hockey god, his carefully constructed walls start to crack. And Pippa is beginning to discover that the brooding man behind those walls listens to classical music before games, speaks with a quiet intensity that takes her breath away, and might just be the most thoughtful person she has ever met.
 
-Pippa, meanwhile, is drawn to the quiet intensity behind Jamie's gruff exterior. She discovers that he listens to classical music before games, that he is patient and thoughtful beneath the brooding silence, and that when he finally does speak, his words carry weight. Their late-night conversations in the kitchen — her with flour in her hair, him with a protein shake — become the highlight of both their days.
+There is just one problem. Pippa works for the team owner. Jamie cannot afford a single distraction during the most crucial season of his career. And their living arrangement has an expiration date that is approaching fast.
 
-But their living situation is supposed to be temporary, and Jamie's position on the team makes any personal entanglement complicated. Pippa is connected to the team owner through her tutoring job, and Jamie cannot afford distractions during a crucial season. As their feelings become impossible to deny, they must navigate the gap between what is easy and what is right — between protecting their careers and protecting each other.
-
-Behind the Net is a cozy, steamy romance about two people who were never supposed to fit together discovering that the best partnerships are built on contrast.`,
+What happens when the grumpiest man in professional hockey falls for the one person who was never supposed to stay?`,
   characters: [
     { name: "Jamie Streicher", role: "The Vancouver Storm's star goaltender, intense, private, and meticulously routine-driven. His gruff exterior and solitary lifestyle are slowly undone by the chaotic pianist who invades his guest room and his carefully ordered world." },
     { name: "Pippa Ward", role: "A talented pianist rebuilding her confidence after a career setback. Warm, messy, and irrepressibly cheerful, she fills Jamie's sterile apartment with music, failed baking experiments, and an energy that cracks his walls." },

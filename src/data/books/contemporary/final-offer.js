@@ -7,13 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1a1008", "#0a0a18"],
   accentColor: "#c45b84",
-  synopsis: `Callahan "Cal" Kane is the middle brother of the Kane dynasty, and unlike his brothers Declan and Rowan, his demons aren't corporate — they're personal. Cal is a high-functioning alcoholic whose addiction has cost him everything that matters, including the love of his life. Six years ago, he shattered the heart of Alana "Lana" Castillo, his childhood best friend and the only woman who ever truly knew him. He promised never to return to Lake Wisteria, and he kept that promise — until his grandfather Brady's will changed everything.
+  synopsis: `He promised he'd never come back. His grandfather's will just made him a liar.
 
-To claim his inheritance, Cal must spend a summer at the family lake house and then sell it. Simple enough, except for one massive problem: Lana doesn't just live there — her name is on the deed. The woman he destroyed now holds the key to his future, and she has no intention of letting him waltz back in and take her home. Lana has built a life for herself and her young daughter Cami at the lake house, transforming pain into purpose, and she refuses to let Cal's reappearance unravel everything.
+Six years ago, Callahan Kane destroyed the only woman who ever truly knew him and left Lake Wisteria with nothing but a broken promise and an addiction he couldn't control. He swore he'd stay gone. But when his grandfather's will demands he spend one summer at the family lake house and sell it to claim his inheritance, Cal has no choice but to return.
 
-Forced to coexist in the home that holds all their memories, Cal and Lana are pulled back into the orbit of their shared history. But Cal isn't the same reckless boy who broke her heart — he's fighting for sobriety with every fiber of his being, though his recovery is anything but linear. The story unfolds with raw honesty: two steps forward, one step back, as Cal works to understand why he needs to get sober for himself, not just for Lana.
+There's just one problem: Alana Castillo still lives there. Her name is on the deed. And the woman he shattered has built a life for herself and her young daughter in the home Cal wants to sell — a life she has no intention of letting him dismantle.
 
-Lana is a force of compassion who creates boundaries and refuses to enable Cal while still supporting his journey. Their rekindled connection forces both to confront the wounds they've been carrying: Cal's addiction and self-loathing, Lana's fear of being broken again, and the question of whether love truly deserves a second chance. As the summer progresses and Cal forms a bond with Lana's daughter, they must decide if the final offer on their love is one worth taking — and if the lake house that holds their past can also hold their future.`,
+Forced under the same roof, surrounded by memories of who they used to be, Cal and Lana are dragged back into a gravity neither can resist. But Cal is not the reckless boy who left. He's fighting for sobriety now, one brutal day at a time, and the road is anything but straight.
+
+Can a man battling his worst demons prove he's finally changed? And can the woman he broke trust him with her heart again — knowing this might be their last chance to get it right?`,
   characters: [
     { name: "Callahan Kane", role: "The middle Kane brother, a charming but troubled high-functioning alcoholic. His inheritance task forces him to confront both the woman he hurt and the addiction that drove them apart. His journey toward sobriety is portrayed with unflinching honesty." },
     { name: "Alana Castillo", role: "Cal's childhood best friend turned ex-love, now a single mother to Cami. Strong and compassionate, she's built a life at the lake house and refuses to be an enabler. She supports Cal's recovery while protecting her family from being hurt again." },

@@ -7,17 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1018", "#1a0c12"],
   accentColor: "#2d8cf0",
-  synopsis: `Liz Buxbaum is a hopeless romantic who believes in fairy-tale love stories, grand gestures, and the kind of sweeping romance she has seen in every movie she has ever watched. She gets this from her late mother, whose love of romantic comedies Liz has inherited along with an encyclopedic knowledge of every rom-com ever made. Liz has spent years dreaming of Michael Young, her childhood crush who moved away and is finally returning to their Nebraska town. This is it — her movie-worthy love story is about to begin.
+  synopsis: `Liz Buxbaum has been waiting her entire life for a movie-worthy love story. Armed with an encyclopedic knowledge of rom-coms inherited from her late mother, she knows exactly how her fairy tale is supposed to go -- and it starts with Michael Young, her childhood crush, finally moving back to town.
 
-There is just one problem: Wes Bennett. Her next-door neighbor, Wes is a baseball star and a world-class irritant. He has teased and tormented Liz since they were kids, pulling pranks, making sarcastic comments, and generally making her life difficult. He is the anti-romantic hero — cocky, irreverent, and completely incapable of taking anything seriously. He is the last person Liz would ever consider as romantic lead material.
+There is just one problem: Wes Bennett. Her next-door neighbor since childhood, Wes is a baseball star, a world-class irritant, and the absolute last person Liz would cast as a romantic lead. He is cocky, sarcastic, and has made it his personal mission to torment her since they were kids.
 
-But when Michael returns and Liz needs help getting his attention, Wes makes her an unexpected offer. He will help her win Michael over — play wingman, give advice, create jealousy-inducing scenarios — if she helps him with something in return. Their alliance is contentious from the start. Liz thinks Wes is impossible. Wes thinks Liz's rom-com worldview is absurd. Yet as they scheme together, something shifts.
+So when Wes offers to play wingman and help Liz win Michael over -- in exchange for a favor of his own -- she reluctantly agrees. Their scheming alliance is contentious, ridiculous, and far more fun than either of them expected. But then something strange starts happening. The grand romantic gestures Liz has been dreaming about -- the boombox moments, the rain-soaked confessions -- begin showing up in her life. Except they are not coming from Michael.
 
-Wes starts doing things that look suspiciously like scenes from the romantic movies Liz loves — not because he is playing a role, but because he is paying attention to what matters to her. The boombox moments and the rain-soaked confessions Liz has been dreaming about start happening, but they are coming from the wrong guy. Or maybe — terrifyingly — the right one.
+They are coming from Wes. And he is not following a script.
 
-As Liz's carefully planned fairy tale with Michael falls apart, she is forced to confront an uncomfortable truth: the boy next door she has been fighting with her whole life might be the love story she did not see coming. The real romance is not the one from the movies. It is messier, funnier, and more honest — and it has been right next door all along.
-
-Better Than the Movies is a charming, heartfelt love letter to romantic comedies that proves the best love stories do not follow a script.`,
+What if the love story Liz has been planning her whole life is nothing compared to the one she never saw coming? What if the real thing has been right next door all along -- messier, funnier, and more honest than any movie?`,
   characters: [
     { name: "Liz Buxbaum", role: "A hopeless romantic with an encyclopedic knowledge of rom-coms, inherited from her late mother. She is so focused on her fairy-tale vision of love with Michael that she nearly misses the real thing happening right next door." },
     { name: "Wes Bennett", role: "Liz's next-door neighbor and lifelong tormentor, a baseball star who is cocky, irreverent, and secretly more thoughtful than he lets on. His wingman role becomes a cover for genuine feelings he expresses through the rom-com language Liz understands." },

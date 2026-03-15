@@ -8,15 +8,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1a3d", "#1a2d5a"],
   accentColor: "#2d8cf0",
-  synopsis: `Rio DeLuca has always been the soft-spoken, steady one in the Windy City friend group. As a professional hockey player, he's built a career on discipline and focus—but off the ice, he's the last single man standing among his friends. After years of trying to find love and coming up empty, Rio has quietly concluded that maybe it just isn't in the cards for him anymore. The connection he's been searching for, he doesn't realize, was already found when he was twelve years old.
+  synopsis: `Rio DeLuca is the quiet one. The steady one. The last single man in his friend group, and the professional hockey player who's starting to believe that love just isn't in the cards for him. What he doesn't realize is that the connection he's been searching for was already made — when he was twelve years old.
 
-Hallie Hart was eleven when her family moved next door to Rio's. At thirteen, he was her first crush. At sixteen, they fell for each other. At nineteen, they broke each other's hearts—and Hallie disappeared from his life completely. Six years of silence later, she's landed an interior design internship in a new city, determined to build a career on her own terms. The only problem: the city is Chicago, Rio plays hockey there, and the renovation project she's been assigned to is his house.
+Hallie Hart was the girl next door. His childhood best friend. His first love. And then, at nineteen, she was gone — disappearing from his life without explanation, leaving six years of silence and a thousand unanswered questions.
 
-The universe has a cruel sense of humor. Hallie must transform Rio's bachelor pad into a family home while they can barely stand to be in the same room. The tension between them is a volatile mix of unresolved heartbreak, lingering desire, and six years of questions that were never answered. Then Hallie moves into the house next door—just like when they were kids—and the parallels between past and present become impossible to ignore.
+Now she's back. In Chicago. And by some cruel twist of fate, the interior design internship she's just landed has assigned her one project: renovating Rio's house.
 
-As they're forced to coexist, the walls they've built begin to crack. Rio, trapped by regrets, must confront why he let the only girl he ever loved walk away. Hallie, burdened by years of caregiving for her ailing father, must learn that allowing herself to be cared for isn't weakness. Mixtapes serve as emotional markers throughout the story, each track representing a phase in their history—from the innocence of childhood friendship to the devastation of their breakup to the tentative hope of reunion.
+Working in the same space is unbearable. The tension between them is a live wire of old heartbreak, lingering chemistry, and everything they never said. Then Hallie moves into the house next door — just like when they were kids — and suddenly the past and present are running on parallel tracks that feel dangerously close to colliding.
 
-Rewind It Back is the fifth and final book in the Windy City series, bringing together the entire beloved friend group—Stevie, Indy, Kennedy, and the rest—for a sweeping conclusion that proves some love stories don't end at nineteen. They just pause, waiting for both people to grow into the versions of themselves worthy of a second chance.`,
+Rio has spent six years wondering why she left. Hallie has spent six years carrying a weight she's never shared. And the mixtapes they once made for each other? Some songs hit differently the second time around.
+
+Not all love stories end at nineteen. Some just press pause.`,
   characters: [
     { name: "Rio DeLuca", role: "A soft-spoken professional hockey player and the last single man in his friend group. He's been searching for love for years without realizing that the connection he needs was already made when he was twelve—with the girl next door who broke his heart." },
     { name: "Hallie Hart", role: "Rio's childhood best friend, first love, and the girl who vanished after they broke each other's hearts at nineteen. Now an interior design intern in Chicago, she's determined to build her own career while carrying the weight of years spent as a caretaker for her ailing father." },

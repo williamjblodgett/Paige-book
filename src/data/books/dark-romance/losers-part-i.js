@@ -8,13 +8,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a0a", "#4a1a1a"],
   accentColor: "#4a1a1a",
-  synopsis: `Jessica Martin is not a nice girl. As Prom Queen and Captain of the cheer squad at Wickeston High School, she ruled with an iron fist, looking down her nose at everyone she deemed unworthy—especially the school's outcasts. Her favorite victim was Manson Reed, the so-called freak, whose expulsion from school she helped engineer. But high school ended, and Jessica's perfect life crumbled. Her boyfriend cheated, her dreams stalled, and now she's back in Wickeston, living with her parents because her part-time internship can't pay the bills.
+  synopsis: `Jessica Martin is not a nice girl. She never was.
 
-Three years after a fateful Halloween dare that first entangled her with Manson (told in Harley Laroux's short story The Dare), Jessica finds herself drawn back into the orbit of the men she once tormented. Manson, along with his friends Jason, Lucas, and Vincent—collectively known as the Losers—now run a mechanic shop in town. They're no longer the bullied outcasts she remembers. They're confident, dangerous, and they haven't forgotten what Jessica did to them.
+As Prom Queen and cheer captain at Wickeston High, she ruled with an iron fist and a cruel smile -- and no one suffered more than Manson Reed, the school outcast whose expulsion she helped engineer. But high school is over, and Jessica's crown has crumbled. Now she is back in Wickeston, broke, humiliated, and with nothing left of the girl who once had everything.
 
-When Jessica's so-called friends vandalize the Losers' garage and abandon her at the scene, she's caught red-handed. She didn't actively participate in the destruction, but she didn't stop it either—a pattern that has defined her relationship with cruelty her entire life. The Losers demand payback, and Jessica finds herself striking a deal: she'll work off the debt, and they'll fix her car. What begins as forced proximity quickly evolves into something far more complicated as old wounds resurface and new desires ignite.
+The Losers, on the other hand, have risen. Manson, Jason, Lucas, and Vincent are no longer the bullied outcasts she remembers. They are confident, dangerous, and running their own garage -- and they have not forgotten a single thing she did.
 
-The dynamic is electric and dangerous. Manson, Jason, Lucas, and Vincent are simultaneously vengeful and devoted, mean and sweet. Jessica must confront the person she was and decide who she wants to become. But a larger threat looms—someone from Manson's past crawls back into their lives, a figure terrifying enough to scare even the Losers. Part I ends on a cliffhanger that leaves Jessica and the four men she's falling for in genuine peril, setting up a conclusion that promises to be even darker and more intense.`,
+When Jessica's so-called friends vandalize the Losers' shop and leave her behind to take the blame, she is forced into a deal with the very men she once tormented. She will work off the debt. Simple.
+
+Nothing about what follows is simple.
+
+The four men are vengeful and protective in the same breath, cruel and devastatingly tender in equal measure. Old wounds crack open. Dangerous new desires ignite. And Jessica must confront an uncomfortable truth about who she was -- and who she is becoming.
+
+But a threat from Manson's past is surfacing, something dark enough to terrify even the Losers. And this time, Jessica cannot just stand by and watch.`,
   characters: [
     { name: "Jessica (Jess) Martin", role: "A former Prom Queen and cheerleading captain whose perfect life has crumbled, forcing her back to Wickeston. Confronting the men she once bullied, she must reckon with her past cruelty while discovering that the Losers awaken desires she never knew she had." },
     { name: "Manson Reed", role: "The leader of the Losers and Jessica's primary victim in high school. Once the school outcast, he's now confident and dangerous, running a mechanic shop with his friends while harboring a complex mix of resentment and attraction toward Jess." },

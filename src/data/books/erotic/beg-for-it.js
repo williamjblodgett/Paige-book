@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#120a10", "#1a0a10"],
   accentColor: "#e85d3a",
-  synopsis: `Mackenzie "Kenzie" Laurent has spent years trying to forget about Roman Tyrell. He was her brother's best friend, the dangerously attractive older man who consumed her teenage fantasies and then disappeared from her life without explanation. Now, years later, Kenzie is a grown woman — independent, ambitious, and determined to never again be the naive girl who wore her heart on her sleeve for a man who did not want her.
+  synopsis: `He was her brother's best friend. The older man who consumed her teenage fantasies. The one who disappeared without a word.
 
-Roman Tyrell never forgot Kenzie. He left because staying would have meant crossing a line he could not come back from — she was too young, too innocent, and too closely connected to the one person whose trust he could not betray. But the distance did not diminish what he felt. It only compressed it, turning longing into obsession and restraint into a ticking bomb. When circumstances bring them back into each other's orbit, Roman discovers that the girl he walked away from has become a woman who sets his blood on fire.
+Mackenzie Laurent spent years getting over Roman Tyrell. She is no longer the naive girl who wore her heart on her sleeve. She is independent, guarded, and done waiting for a man who vanished from her life without explanation.
 
-Their reunion is explosive. The years of suppressed desire detonate in encounters that are raw, consuming, and unapologetically intense. Roman is possessive, dominant, and completely fixated on Kenzie — he has spent years denying himself, and now that she is within reach, his self-control is in tatters. Kenzie, for her part, refuses to make it easy. She is not the adoring teenager anymore. She is angry, guarded, and determined to make Roman work for every inch of ground he gains.
+Except Roman did want her. That was the problem.
 
-But beneath the scorching physical connection, real emotional wounds demand attention. Kenzie needs to know why Roman left — the real reason, not the noble excuse. Roman needs to reconcile the man he has become with the one Kenzie deserves. And both must navigate the complication of Kenzie's brother, who remains oblivious to the consuming attraction between his best friend and his sister.
+He left because she was too young, too innocent, and too close to the one person whose trust he could never betray. Distance was supposed to kill what he felt. Instead, it compressed years of longing into something far more dangerous.
 
-The push and pull between surrender and self-protection drives the novel forward with relentless intensity. Mila Crawford writes with raw honesty about desire and vulnerability, creating a romance that burns hot enough to leave marks but tender enough to leave an impression long after the last page.`,
+Now they are back in each other's orbit, and the girl Roman walked away from has become a woman who sets his blood on fire. She is not making this easy. She wants the truth — the real reason he left, not a noble excuse. He wants her forgiveness, her trust, and every part of her she is determined to protect.
+
+And between them stands her brother, who has no idea that his best friend and his sister are about to burn every rule to the ground.
+
+The push and pull between surrender and self-protection has never been this intoxicating — or this dangerous. Because once Roman stops holding back, there will be no going back for either of them.`,
   characters: [
     { name: "Mackenzie 'Kenzie' Laurent", role: "A grown woman reuniting with the man who consumed her teenage fantasies. No longer naive, she is independent, guarded, and determined to make Roman earn every moment of her trust after he disappeared years ago." },
     { name: "Roman Tyrell", role: "Kenzie's brother's best friend who left years ago to avoid crossing a line with a girl too young for him. His return unleashes years of suppressed desire, and his possessive, dominant nature drives the intense physical connection." },

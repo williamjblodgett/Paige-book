@@ -7,15 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#2d3561", "#c05c7e"],
   accentColor: "#c45b84",
-  synopsis: `Eve, Ed, Justin, and Susie have been an inseparable group of friends since university. They share everything—Friday nights at the pub, inside jokes, holidays, and the unshakeable bond of people who grew up together. Eve has always been the steady one, the reliable friend who holds the group together while privately nursing a secret she's carried for years: she's in love with Ed.
+  synopsis: `Four friends. One secret that could destroy everything. And a single night that changes all of it.
 
-Ed, warm and funny and impossibly kind, has been with Susie for as long as anyone can remember. Eve has made her peace with it—or at least she thought she had. She's buried her feelings so deep that they've become part of the architecture of her life, something she's built around rather than confronted.
+Eve has been in love with Ed for years. The problem? He belongs to Susie — and Susie is one of her closest friends. So Eve does what she's always done: she buries the feeling, plays her part, and holds the group together. She's the steady one, the reliable one, the friend everyone counts on. Nobody suspects a thing.
 
-Then, on an ordinary evening that should have ended like any other night out, tragedy strikes. A sudden, devastating loss shatters their group and forces every carefully maintained pretense to crumble. In the aftermath, long-buried secrets begin to surface—not just Eve's feelings for Ed, but truths about the people she thought she knew best.
+Then, on an ordinary night that should have ended like every other, tragedy shatters their world. A sudden, devastating loss cracks the group wide open, and the careful pretenses that held everything in place begin to crumble.
 
-As Eve navigates grief, guilt, and the terrifying upheaval of her closest relationships, she discovers that the versions of her friends she'd held in her heart don't quite match reality. People she trusted reveal unexpected sides of themselves. Alliances shift. And the comfortable, familiar world Eve built around her friendships begins to look very different in the harsh light of loss.
+In the raw, disorienting aftermath, secrets start surfacing — and not just Eve's. The people she thought she knew best begin revealing sides she never imagined. Loyalties shift. Comfortable truths turn out to be comfortable lies. And the tidy narrative Eve built her life around starts to look like a story she told herself to avoid the harder one underneath.
 
-Forced to rebuild her life from the foundations up, Eve must finally reckon with the choices she's made—the things she said, the things she didn't, and the love she was too afraid to claim. Just Last Night is a poignant, sharply observed story about the complexity of long friendships, the secrets we keep from the people closest to us, and the courage it takes to be honest about what you really want before it's too late.`,
+Grief has a way of stripping everything bare. Now Eve must face the question she's been running from: how long can you keep the truth locked away before it costs you everyone you love?`,
   characters: [
     { name: "Eve", role: "Protagonist, the steady heart of the friend group hiding a secret love" },
     { name: "Ed", role: "Love interest, warm and kind, Eve's longtime secret crush" },

@@ -7,15 +7,19 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0c1018", "#1a0c15"],
   accentColor: "#2d8cf0",
-  synopsis: `Diana Casillas never planned on becoming a parent at twenty-four, but when her brother Rodrigo and his wife die in a car accident, she does not hesitate. She takes in their two young sons, Josh and Louie, and restructures her entire life around giving them the stability they need. She moves to a new neighborhood in Dallas, works long hours to keep the bills paid, and pours every ounce of energy into being the best guardian she can be. Dating is the last thing on her mind.
+  synopsis: `Diana Casillas never planned on becoming a mother at twenty-four. But when tragedy takes her brother and his wife, she does not hesitate -- she takes in their two young sons and rebuilds her entire world around them. New city. New house. No time for anything that is not keeping these boys safe and loved.
 
-Then Dallas Walker moves in next door. He is a former professional baseball player turned youth coach — tall, tattooed, and irritatingly attractive. Their first meeting is a disaster. Diana's dog escapes into his yard, the boys are loud and chaotic, and Diana is too exhausted and guarded to be anything but prickly. Dallas, meanwhile, is patient, easygoing, and maddeningly unbothered by her sharp edges.
+Then the man next door moves in.
 
-What follows is one of the most exquisitely paced slow-burn romances in the genre. Dallas does not try to win Diana over with grand gestures. Instead, he shows up — consistently, quietly, reliably. He coaches Josh's baseball team, helps with yard work, sits on her porch talking until late at night, and treats her nephews like they matter. He earns Diana's trust not through words but through actions, one small kindness at a time.
+Dallas Walker is a former professional baseball player turned youth coach -- tall, tattooed, and frustratingly unshakeable. Diana greets him with sharp edges and exhaustion. He responds with patience she did not ask for and a steadiness she does not trust.
 
-Diana's walls are formidable. She has been let down by nearly everyone in her life — her absent mother, her complicated extended family, and a world that expects a young Latina woman to fail at raising two boys alone. Her fierce independence is both her greatest strength and her biggest obstacle. She does not want to need anyone, and she certainly does not want to need the frustratingly perfect man next door.
+He does not make promises. He does not push. He just shows up. He coaches her nephew's baseball team. He fixes things around her house. He sits on her porch talking until the stars come out. And slowly, impossibly, he begins to crack the armor of a woman who has been let down by everyone she has ever counted on.
 
-But need is different from want, and what builds between Diana and Dallas is something neither can ignore forever. Their story is about learning that accepting help is not weakness, that love is not a burden, and that the best things in life are worth waiting for. Zapata delivers a romance that is warm, achingly real, and utterly satisfying in its patience.`,
+Diana does not want to need anyone. She especially does not want to need the easygoing, maddeningly perfect man next door who treats her boys like they hung the moon.
+
+But some walls were meant to come down. And some people are worth waiting for.
+
+A heartwarming, achingly real slow-burn romance about found family, second chances, and the quiet courage it takes to let someone in.`,
   characters: [
     { name: "Diana Casillas", role: "A twenty-four-year-old woman who becomes guardian to her two young nephews after her brother's death. Fiercely independent and guarded, she struggles to accept help from anyone while working to give Josh and Louie a stable life." },
     { name: "Dallas Walker", role: "Diana's next-door neighbor, a former professional baseball player turned youth coach. Patient, easygoing, and genuinely kind, he earns Diana's trust through consistent, quiet acts of support rather than grand gestures." },

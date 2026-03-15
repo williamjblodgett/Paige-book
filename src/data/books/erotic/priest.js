@@ -7,15 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0f0808", "#1a0a0a"],
   accentColor: "#8b1a1a",
-  synopsis: `Father Tyler Anselm Bell is a twenty-nine-year-old Catholic priest devoted to his faith and his parish at St. Margaret's Church in the small Missouri town of Weston. He inherited this parish under difficult circumstances — his predecessor was arrested for child sexual abuse, the same kind of abuse that drove Tyler's older sister, Lizzy, to take her own life. Tyler has channeled his grief into service, determined to restore trust and holiness to St. Margaret's. His life is one of discipline, prayer, and quiet sacrifice — until the day a woman named Poppy Danforth walks into his confessional.
+  synopsis: `There are many things a priest should never do.
 
-From the moment Tyler hears Poppy's voice through the screen, something inside him fractures. Poppy is bold, intelligent, and unapologetic, and her confessions awaken desires Tyler has spent years suppressing. What begins as stolen glances and charged conversations quickly escalates into a passionate, consuming affair — one that plays out on the very altar of his church, shattering his vow of celibacy and igniting an internal war between the flesh and the sacred. Tyler narrates the novel as his own confession, laying bare every sin with unflinching honesty.
+Father Tyler Bell knows them all. He has built his life around discipline, devotion, and quiet sacrifice. His faith is his armor. His collar is his identity. His vow of celibacy has never been tested.
 
-As their encounters intensify, Tyler and Poppy discover they share more than physical chemistry. They bond over literature, theology, and a mutual hunger for meaning. Poppy becomes increasingly involved with the parish, working alongside Millie, the blunt and perceptive church bookkeeper, on a Kickstarter campaign to raise funds for St. Margaret's. Millie quickly deduces the truth about Tyler and Poppy's relationship but promises her silence. Meanwhile, Tyler drives to Kansas City to confess to his own priest, Father Jordan Brady, who receives the confession with compassion rather than condemnation.
+Then Poppy Danforth walks into his confessional.
 
-Yet the weight of secrecy proves crushing. Tyler and Poppy are deeply in love, but as long as he wears the collar, they can never exist as a public couple. Tyler is torn between two callings — his vocation to God and his devotion to Poppy. The novel builds to an agonizing climax as Tyler must decide whether to remain a priest or leave the church for the woman he loves, confronting the question of whether desire and faith can coexist or whether one must always be sacrificed for the other.
+She is bold, brilliant, and unapologetic — and from the moment Tyler hears her voice through the screen, something inside him fractures. Their connection is not simply physical. They speak of literature, theology, and a shared hunger for meaning that runs soul-deep. She becomes part of his parish, part of his world — and the closer she gets, the more impossible his life becomes.
 
-Priest is a lyrical, emotionally devastating exploration of temptation, guilt, and redemption. Sierra Simone writes with poetic intensity, treating both faith and desire as sacred forces, and refuses to offer easy answers about where one ends and the other begins.`,
+Because as long as he wears the collar, they can never exist in the light.
+
+Tyler narrates this story as his own confession, laying bare every sin with unflinching honesty. He is a man torn between the vocation that saved him and the woman who makes him feel alive — facing the most agonizing question of his life: Can desire and faith coexist, or must one always be sacrificed for the other?
+
+Poetic, scorching, and emotionally devastating, Priest treats both the sacred and the sensual as holy ground. Some sins you confess. Others you cannot bring yourself to regret.`,
   characters: [
     {
       name: "Father Tyler Anselm Bell",

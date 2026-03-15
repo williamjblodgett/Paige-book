@@ -7,15 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1a10", "#0a0f0c"],
   accentColor: "#1e8a5f",
-  synopsis: `Lothaire Daciano is the Enemy of Old, a three-thousand-year-old vampire so feared that even other immortals speak his name with dread. He is arrogant beyond reason, beautiful beyond measure, and calculating beyond comprehension. For millennia, he has pursued a single goal: to reclaim his family's throne as king of the Daci, the hidden vampire kingdom. He has manipulated, murdered, and schemed his way through centuries, treating other beings — mortal and immortal alike — as pieces on his chessboard. He is not an anti-hero. He is the villain of everyone else's story.
+  synopsis: `Three thousand years of ruthless scheming. A reputation that makes even immortals flinch. Lothaire Daciano is not the hero of this story — he is the villain of everyone else's. The Enemy of Old has always had one goal: reclaim the vampire throne that is rightfully his. And he has just made the most catastrophic miscalculation of his eternal existence.
 
-Then he discovers that his Bride — his fated mate — is a human woman named Elizabeth "Ellie" Peirce. More specifically, Ellie is a poor girl from the Appalachian mountains whose body has been possessed by Saroya the Soul Reaper, an ancient, evil goddess who shares Ellie's body and emerges to kill with impunity. Lothaire has been courting Saroya, believing the goddess is his true Bride. He plans to give Saroya permanent control of the body, effectively destroying Ellie's consciousness to claim his mate.
+He chose the wrong Bride.
 
-Ellie has spent years as a prisoner in her own body, trapped whenever Saroya takes control and murders innocent people — crimes for which Ellie was sentenced to death row. She is fierce, resourceful, and burning with a survival instinct forged by poverty, injustice, and years of being dismissed as worthless. When Lothaire takes her from prison, she faces the most terrifying enemy of her life: a vampire who intends to erase her existence to install a goddess in her skin.
+Lothaire has been pursuing Saroya the Soul Reaper, an ancient goddess trapped inside the body of Elizabeth "Ellie" Peirce — a fierce, foul-mouthed mountain girl from Appalachia currently sitting on death row for murders she did not commit. His plan is elegant: destroy Ellie's consciousness, free Saroya, and claim his fated queen.
 
-But Lothaire has made a catastrophic miscalculation. Ellie, not Saroya, is his true Bride. The fated bond draws him to the mountain girl he considers beneath him, and his growing attraction to Ellie's wit, courage, and fire threatens to unravel three thousand years of planning. Lothaire is forced to confront the possibility that the greatest schemer in the Lore has been outsmarted by his own heart.
+Except the bond is not pulling him toward the goddess. It is pulling him toward the human.
 
-Lothaire is the crown jewel of the Immortals After Dark series — a villain romance that refuses to soften its hero while giving him the one opponent his intellect cannot defeat: a woman he was not supposed to love.`,
+Ellie has dirt under her nails, fire in her eyes, and absolutely no interest in being intimidated by a millennia-old vampire who thinks she is beneath him. She fights back. She talks back. And she is unraveling three thousand years of careful planning with nothing but stubborn courage and a sharp tongue.
+
+This is a villain's love story — and the villain is completely unprepared for the one enemy his legendary intellect cannot outmaneuver: a woman who refuses to be erased.`,
   characters: [
     { name: "Lothaire Daciano", role: "A three-thousand-year-old vampire known as the Enemy of Old. Arrogant, calculating, and feared by all, he has pursued the Daci throne for millennia — until discovering his fated Bride is not who he expected." },
     { name: "Elizabeth 'Ellie' Peirce", role: "A fierce mountain girl from Appalachia whose body is shared with Saroya the Soul Reaper. Sentenced to death row for Saroya's murders, she fights to survive against a vampire who plans to erase her existence." },

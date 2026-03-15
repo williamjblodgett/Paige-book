@@ -7,15 +7,17 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1018", "#180a15"],
   accentColor: "#2d8cf0",
-  synopsis: `Sal Casillas has been playing professional women's soccer for years. She is tough, disciplined, and talented — a defender who has clawed her way onto the Houston Pipers roster through sheer determination and grit. Growing up, she idolized one player above all others: Reiner Kulti, the legendary German soccer star whose poster hung on her childhood bedroom wall. He was the reason she fell in love with the sport. So when the retired Kulti is announced as the new assistant coach for the Pipers, Sal's world tilts on its axis.
+  synopsis: `When Sal Casillas was a girl, she had one poster on her bedroom wall: Reiner Kulti, the legendary German soccer star who made her fall in love with the game. She built her entire career as a defender for the Houston Pipers on the fire he lit in her.
 
-The man who shows up is nothing like the idol she worshipped. Reiner Kulti is cold, rude, and dismissive. He barely speaks to the players, seems uninterested in coaching, and carries himself with the arrogance of a man who has spent decades being told he is the best in the world. Sal is determined not to let her childhood hero disappoint her, so she does what she does best — she puts her head down and works harder than everyone else. She refuses to fawn over him like the rest of the world.
+Now he is her new assistant coach. And he is nothing like she imagined.
 
-It is precisely this indifference that catches Kulti's attention. Where everyone else treats him like a god, Sal treats him like just another person. Slowly, grudgingly, a connection forms between them. Kulti begins singling Sal out during practice, offering rare words of guidance. He starts showing up at her apartment, sitting on her porch uninvited, and inserting himself into her life in the most awkward, endearing ways imaginable. Their banter is dry and cutting, their chemistry undeniable.
+The Reiner Kulti who shows up is cold, rude, and dismissive -- a disgraced legend who barely speaks to the team and carries himself with the arrogance of a man the world once worshipped. Sal refuses to let her childhood hero disappoint her. She puts her head down, works harder than everyone else, and treats him like just another person instead of a god.
 
-But their growing closeness comes with consequences. The age gap between them, his position as her coach, and the intense media scrutiny on a disgraced legend all threaten to destroy Sal's career. Rumors and jealousy from teammates make her life on and off the pitch increasingly difficult. Sal must decide whether the man behind the legend is worth the risk — and Kulti must decide whether he is willing to fight for something that has nothing to do with soccer for the first time in his life.
+It is precisely this indifference that catches his attention.
 
-Kulti is Zapata at her finest — a slow, aching burn that transforms a childhood crush into a profound adult love story built on mutual respect, stubbornness, and the quiet courage it takes to let someone in.`,
+Slowly, grudgingly, Kulti begins inserting himself into Sal's life in the most awkward, endearing ways imaginable -- showing up on her porch uninvited, offering rare words of guidance, sitting in stubborn silence until she acknowledges him. Their banter is dry and cutting. Their chemistry is undeniable. And the slow burn building between them threatens to consume everything in its path.
+
+But he is her coach. The age gap is significant. The media is circling a disgraced legend like sharks. And if anyone finds out what is happening between them, Sal's career -- the one he inspired -- could be destroyed. Is the man behind the legend worth the risk?`,
   characters: [
     { name: "Sal Casillas", role: "A professional women's soccer player on the Houston Pipers. Tough, disciplined, and fiercely independent, she refuses to treat her childhood idol with anything other than cool professionalism, which is exactly what draws him to her." },
     { name: "Reiner Kulti", role: "A legendary retired German soccer star turned reluctant assistant coach. Cold and arrogant on the surface, he is haunted by the downfall of his career and slowly reveals his depth through awkward, endearing attempts to connect with Sal." },

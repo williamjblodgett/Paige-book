@@ -8,15 +8,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0505", "#350a0a"],
   accentColor: "#c42a2a",
-  synopsis: `Picking up immediately after the devastating cliffhanger of Haunting Adeline, the sequel plunges into the darkest territory of the duet. Adeline Reilly has been kidnapped by the Society, the powerful human trafficking organization that Zade Meadows has been fighting to destroy. She is taken to a house used to groom and break women before they are sold to wealthy buyers. Adeline is subjected to psychological torture, starvation, and manipulation as her captors attempt to strip away her identity and will to resist in preparation for an event called the Culling.
+  synopsis: `The nightmare has only just begun.
 
-During her captivity, Adeline refuses to be broken. She fights back at every opportunity, enduring horrific abuse while searching for any chance to escape. She discovers an unlikely ally among her captors, someone whose loyalties are not what they seem. This fragile alliance becomes her lifeline, but trusting anyone in this nightmare comes with enormous risk. The narrative unfolds with unflinching detail as Adeline witnesses the full horror of the trafficking operation, including the fates of other women who have been captured alongside her.
+Adeline Reilly has vanished. Taken by the Society -- the shadowy trafficking ring that operates in plain sight among the powerful -- she is trapped in a world designed to strip women of everything they are. Their goal is simple: break her before the Culling, where she will be sold to the highest bidder.
 
-Meanwhile, Zade is consumed by guilt and rage. The woman he is obsessed with, the woman he swore to protect, was taken because he angered the wrong people, and someone sold Adeline's address to the Society as retribution. Zade unleashes the full power of Z, his vigilante hacking organization, tearing through the Society's networks and operatives with ruthless efficiency. He will burn the entire world down to find her, and he does not care how many bodies he leaves in his wake. His hunt is relentless and savage, showcasing the terrifying extent of his capabilities.
+They have never met anyone like Adeline.
 
-The first half of the novel is brutally dark, depicting Adeline's captivity in harrowing detail. But the second half transforms the story as Adeline's rescue sets the stage for her evolution from victim to survivor. The trauma she endured does not simply vanish; instead, the book explores her PTSD, her nightmares, and the painstaking process of reclaiming her sense of self. Zade is unwavering in his support, giving her space while remaining fiercely protective. Their physical and emotional reconnection is raw and intense.
+Meanwhile, Zade Meadows is unraveling. The woman he swore to protect was stolen because of him, and the guilt is a living thing inside his chest. He will hack every system, burn every bridge, and destroy anyone who stands between him and bringing her home. His vigilante network is mobilized. His mercy is gone.
 
-The duet concludes with Zade and Adeline dismantling the remaining power structures of the Society. Adeline emerges fundamentally changed, no longer the woman who moved into Parsons Manor, but someone forged by trauma into something fiercer and more resilient. The ending delivers both catharsis and closure, with the Society brought to its knees and Zade and Adeline's bond stronger than ever, a love story built on the darkest of foundations.`,
+But Adeline is not waiting to be saved. In the darkest place imaginable, she is fighting -- clinging to her identity, searching for allies in a house full of enemies, and refusing to become what they want her to be.
+
+Two timelines. Two battles. One desperate, all-consuming love story that will leave you breathless, wrecked, and unable to put it down. This is the conclusion of the Cat and Mouse Duet, and nothing will prepare you for how it ends.`,
   characters: [
     {
       name: "Adeline Reilly",

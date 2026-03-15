@@ -7,15 +7,19 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#8b1a1a",
-  synopsis: `They call it Blackchurch -- a secluded mansion in a remote, undisclosed location where the wealthy and powerful send their misbehaving sons to cool off far from prying eyes. It is not a prison in any legal sense, but for the five young men locked inside its gates, it might as well be. Once a month, a security detail delivers supplies, the gates close, and the inmates are left to govern themselves in total isolation. Will Grayson III, the most reckless of the Four Horsemen, has been sent here to atone for his sins -- and he has learned that being treated like an animal gives you permission to act like one.
+  synopsis: `They call it Blackchurch -- a secluded mansion in the middle of nowhere where the wealthy send their sons to disappear. No guards. No rules. No way out until the gates open again in thirty days. For the dangerous men locked inside, it is a lawless kingdom where only the ruthless survive.
 
-The story alternates between the present at Blackchurch and events from nine years earlier, unraveling the tangled history between Will and Emory Scott. Back in high school, Will was wild, unpredictable, and drawn to Emmy in ways he could not explain. He enjoyed backing her into corners when no one was looking, but he could also be unexpectedly warm and fiercely protective. Their connection was electric and dangerous -- but it was also built on a foundation of secrets and lies that would eventually detonate.
+Will Grayson III -- the most reckless of the Four Horsemen -- has been rotting here for months. He has learned to fight, to endure, and to channel his rage into something lethal.
 
-Because the truth is, Will has every right to hate Emmy. She is the root cause of everything: Devil's Night, the incriminating videos, the arrests that destroyed the Horsemen's lives. Emmy is the one who uploaded the footage that sent three of the four Horsemen to prison. She is the real enemy they have been searching for across three books, and now she has been smuggled into Blackchurch -- whether by accident or design, Will does not know. But he can sense her hiding in the house, and the gates are locked for another month.
+Then he senses her. Inside the walls. Hiding.
 
-Emmy is not simply a villain, however. The past timeline reveals the heartbreaking circumstances that drove her actions -- she was in tremendous pain, both hurting on the inside and lashing out at the world. She is described as the Damon of this final book: the one who caused the pain, the one who was in pain, and the one whose moral complexity defies easy judgment. Her reasons for destroying the Horsemen are rooted in her own devastating experiences, forcing Will and the reader to confront uncomfortable questions about justice, revenge, and forgiveness.
+Emory Scott. The girl from nine years ago -- the one who backed him into corners and set his blood on fire. The one who destroyed everything. Will does not know how she got into Blackchurch. He only knows the gates are locked, the other inmates are circling, and the girl who ruined his life is trapped in a cage with him.
 
-Trapped together in the gilded cage of Blackchurch with four other dangerous inmates -- Aydin, Rory, Micah, and Taylor -- Will and Emmy are forced into an intense proximity that strips away every pretense. As the threads from all three previous books weave together in this final installment, long-buried truths surface, alliances shift, and the full scope of the Devil's Night saga comes into focus. Will must decide whether the woman who destroyed his life deserves his hatred or his understanding -- and Emmy must face the consequences of her choices while fighting for a future she is not sure she deserves.`,
+Emmy has her reasons for what she did. They are devastating. Complicated. And they will shatter everything Will thought he knew about Devil's Night, the Horsemen, and the girl he has never been able to forget.
+
+But understanding and forgiveness are two very different things. In Blackchurch, where there is no law and nowhere to hide, the line between vengeance and desire is about to snap.
+
+The final chapter of the Devil's Night saga. Every secret. Every lie. Every thread -- pulled to the breaking point.`,
   characters: [
     {
       name: "Will Grayson III",

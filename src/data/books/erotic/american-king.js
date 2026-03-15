@@ -7,15 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#050a1a", "#0a1230"],
   accentColor: "#1a3a6b",
-  synopsis: `American King is the breathtaking conclusion to Sierra Simone's New Camelot trilogy, told primarily from President Maxen Ashley "Ash" Colchester's perspective. For the first time, readers see behind the armor of the most powerful man in the world — and discover a man who is not a conqueror but a lover, desperate to hold together the two people who complete him.
+  synopsis: `The king is losing his kingdom.
 
-The novel opens in the aftermath of Embry's devastating departure. Convinced that he failed to protect Greer during her kidnapping, Embry has separated himself from both his lovers and from the administration. He has done the unthinkable: he is running against Ash for the presidency. For Ash, this is not merely a political betrayal — it is the loss of half his soul. Greer and Ash try to move forward together, but their duo feels incomplete without Embry, and both spend the novel urging him to return to them even as the campaign grows increasingly vicious.
+For the first time, step inside the mind of President Maxen Ashley Colchester and discover the man behind the power — not a conqueror, but a man in love, desperate to hold together the two people who complete him.
 
-Complicating everything is Abilene, who has ensnared Embry in a forced marriage through blackmail and claims to be pregnant with his child. Her manipulation adds a layer of political and personal danger that threatens to destroy all three members of the trio. Meanwhile, Ash is confronted with shattering revelations about his own past — including the existence of a secret son — that force him to reckon with the costs of power and the lies that sustain it.
+His prince is gone. Embry has severed himself from his lovers and launched a presidential campaign against the man he once served. For Ash, this is not politics. It is the loss of half his soul. As a brutal campaign tears the country apart, Ash and Greer cling to each other, but their world feels hollow without the third piece of their heart.
 
-The novel's dual-timeline structure continues, with flashbacks illuminating new perspectives on events from the previous books — this time through Ash's eyes. Readers see the softer, more vulnerable side of the dominant president: his private agonies, his fear of losing Greer and Embry, and his fierce determination to protect them at any cost. What Embry did not know was that Ash had been orchestrating a plan to bring down their enemies all along; all Embry had to do was trust him and be patient.
+Enemies are circling. Blackmail and manipulation threaten everything they have built. And secrets buried in Ash's own past are about to surface — truths that could shatter the throne he has fought to hold.
 
-The climax is shattering. Abilene's suicide is an unexpectedly emotional turning point, and Ash appears to die in a final act of sacrifice. A time jump shows Embry and Greer married, Greer pregnant with Ash's child, and the world believing the king is gone. But in a stunning final revelation, Ash is found alive in a secluded house, and the story flashes forward to show the trio reunited with their children, living the life they fought for. American King is a triumphant, emotionally devastating finale that proves love — even the most impossible kind — can endure.`,
+Through flashbacks told from Ash's perspective, the vulnerable man behind the dominant president is finally laid bare: his private agonies, his fierce devotion, and a love so consuming it could burn the world or save it.
+
+Can a king reclaim his prince, protect his queen, and survive the forces conspiring to tear them apart? Or will the crown demand a sacrifice none of them can bear? The final chapter of the New Camelot trilogy will leave you breathless.`,
   characters: [
     {
       name: "Maxen Ashley 'Ash' Colchester",

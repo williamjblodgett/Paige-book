@@ -8,13 +8,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a1e", "#1a1040"],
   accentColor: "#c42a2a",
-  synopsis: `Emilia and her twin sister Vittoria are streghe—witches who live secretly among humans in nineteenth-century Sicily, running their family's restaurant and practicing their craft under the watchful eye of their grandmother, Nonna. Their magic is tied to the old ways, protected by ancient rules: never speak of the dark arts, never deal with demons, and above all, never invoke the Wicked—the seven princes of Hell who rule the demon realm.
+  synopsis: `Two rules have governed Emilia di Carlo's life as a witch in nineteenth-century Sicily: never deal with demons, and never invoke the Wicked -- the seven princes of Hell.
 
-When Vittoria is found murdered, her body bearing strange symbols and dark magic residue, Emilia's world shatters. The human authorities dismiss it as a tragic death, but Emilia knows better. Her sister was killed by something supernatural, and she will stop at nothing to find the murderer. In her desperation, she does the unthinkable—she summons Wrath, one of the seven demon princes of Hell.
+When her twin sister Vittoria is found murdered, her body bearing dark magic symbols, Emilia shatters both.
 
-Wrath is nothing like the monster Emilia expected. He's devastatingly handsome, infuriatingly arrogant, and bound by his own mysterious agenda. He offers Emilia a deal: he'll help her find Vittoria's killer if she assists him in solving a problem in the demon realm. Their alliance is fraught with tension—Emilia despises everything Wrath represents, and Wrath seems determined to provoke her at every turn. Yet beneath the antagonism, a dangerous attraction smolders.
+In her desperation, she summons Wrath, one of the seven demon princes of Hell. He is nothing like the monster she expected -- devastatingly handsome, infuriatingly arrogant, and bound by his own mysterious agenda. He offers Emilia a deal: he will help her find Vittoria's killer if she assists him with a problem in the demon realm.
 
-As they investigate the murders together, Emilia discovers that Vittoria's death is connected to a much larger conspiracy involving all seven demon princes, ancient prophecies, and a war between realms that has been brewing for centuries. The deeper she goes, the more she questions everything she was taught about witches, demons, and the nature of good and evil. With each revelation, the line between ally and enemy blurs, and Emilia begins to suspect that Wrath knows far more about her destiny than he's willing to reveal. The truth about who—and what—she really is will change everything.`,
+Their alliance is fraught with tension. Emilia despises everything Wrath represents. Wrath seems determined to provoke her at every turn. Yet beneath the antagonism, a dangerous attraction smolders -- and with each revelation, Emilia begins to suspect that her sister's murder is connected to something far larger than she imagined. Ancient prophecies. A war between realms. And a truth about her own identity that will change everything.
+
+Some deals with the devil are worth making. This one might cost Emilia her soul.`,
   characters: [
     { name: "Emilia di Carlo", role: "A Sicilian witch whose twin sister's murder drives her to summon a demon prince. Fierce and determined, she discovers her destiny is far greater than she imagined." },
     { name: "Wrath", role: "One of the seven princes of Hell, devastatingly handsome and infuriatingly arrogant. He forms an alliance with Emilia that evolves into a dangerous attraction." },

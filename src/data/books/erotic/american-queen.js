@@ -7,15 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#050a1a", "#0a1230"],
   accentColor: "#1a3a6b",
-  synopsis: `Greer Galloway is American political royalty. Orphaned young and raised by her grandfather, a former Vice President, she grew up immersed in the world of power and privilege but chose a quieter life as a college professor, retreating from the spotlight. Her carefully constructed peace is shattered when Embry Moore — now the Vice President of the United States — walks into her office and tells her that the President wants to see her. The President is Maxen Ashley "Ash" Colchester: war hero, commanding leader, and the man Greer has never been able to forget.
+  synopsis: `When the Vice President of the United States walks into her office and tells her the President wants to see her, Greer Galloway's carefully quiet life as a college professor is over.
 
-Their history stretches back a decade. When Greer was fifteen, she met Ash at a party in London. He was twenty-six, a lieutenant heading to war, and the connection between them was instant and electric. They shared her first kiss — a moment both forbidden and formative — and then he left for the battlefield. Greer wrote him letters for years, pouring out her growing feelings, but never received a reply. Six years later, at a rooftop celebration in Chicago, she encountered Ash again, now a decorated war hero, only to discover he was engaged to another woman. Heartbroken, Greer fled the party and met Embry Moore, Ash's charismatic military comrade, igniting a separate but equally powerful attraction.
+The President is Ash Colchester — war hero, commanding leader, and the man Greer has never been able to forget. They shared a single forbidden kiss years ago. She wrote him letters. He never wrote back. Now he is the most powerful man in the world, and he wants her.
 
-Now, years later, Greer is drawn back into Ash's orbit. He is the President, divorced, and still magnetically dominant. As Greer falls into a passionate relationship with Ash marked by intense BDSM dynamics, she discovers that Embry is never far from the equation. Ash and Embry share their own deep, complicated history — forged in war and bound by desires that neither man fully acknowledges in public. What emerges is a three-way relationship of staggering emotional and physical intensity: Greer, Ash, and Embry, drawn together by a love that defies every political and social boundary.
+Greer is drawn into a passionate, consuming relationship with Ash — one defined by intensity, dominance, and a connection that feels almost fated. But Embry Moore, Ash's Vice President and closest confidant, is never far from the equation. The pull Greer feels toward Embry is undeniable, and what she discovers about the bond between the two men changes everything she thought she understood about love.
 
-Sierra Simone weaves Arthurian legend throughout the narrative, casting Ash as King Arthur, Greer as Guinevere, and Embry as Lancelot. A secret society called "New Camelot" connects the characters to this mythic framework, lending their modern political drama an epic, almost fated quality. The novel moves fluidly between past and present, slowly revealing the web of secrets, sacrifices, and desires that bind the trio together.
+What emerges between the three of them defies every political boundary, every social convention, and every rule of power. It is not a love triangle. It is something far more dangerous and far more beautiful.
 
-American Queen ends on a devastating cliffhanger — Greer is kidnapped on her wedding night — leaving vital questions unanswered and setting the stage for the rest of the trilogy. It is a bold, unapologetic exploration of power, submission, and the kind of love that reshapes nations.`,
+Woven through with Arthurian legend and the shadows of a secret society, this is the story of a king, a queen, and a knight bound by a desire that could topple a presidency. But in a world where every private moment could become a public scandal, how long can the impossible last?
+
+Welcome to New Camelot. Nothing will prepare you for what comes next.`,
   characters: [
     {
       name: "Greer Galloway",

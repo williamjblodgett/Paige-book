@@ -7,13 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#200a30", "#0e1535"],
   accentColor: "#7c5cbf",
-  synopsis: `After the shattering events of her first quest, Xingyin has freed her mother Chang'e from the moon but at a terrible cost. Wenzhi's betrayal cut deep — the warrior she trusted and cared for turned out to be the captain of the Demon Realm's forces, and he used their connection to further his kingdom's ambitions. Now Xingyin finds herself caught between impossible choices as new threats emerge that could destroy everything she has fought for.
+  synopsis: `She freed her mother from the moon. She should feel triumphant. But Xingyin's heart is in ruins — shattered by the warrior she trusted, who hid a devastating secret behind every stolen glance.
 
-The fragile peace in the Celestial Kingdom is crumbling. The Celestial Emperor, ever paranoid and power-hungry, tightens his grip on the realm while ancient dangers stir in the corners of the world. Xingyin's relationship with Prince Liwei faces mounting pressure from the court, which views her origins as unacceptable for a future empress. Meanwhile, Wenzhi reappears in her life, no longer simply an enemy but a complex figure whose genuine feelings for Xingyin war with his duty to his own people.
+Now an ancient darkness stirs across the immortal realms, and a desperate quest sends Xingyin to the ocean depths, through enchanted forests, and into the very kingdom of her enemies. She must seek legendary artifacts of terrifying power before they fall into the wrong hands — and time is running out.
 
-When a catastrophic threat emerges that endangers all the realms — mortal and immortal alike — Xingyin is drawn into a quest even more perilous than her first. She must seek out legendary artifacts of immense power, navigate shifting alliances between kingdoms that have been enemies for millennia, and confront beings of terrifying power. Her journey takes her to the depths of the oceans, through enchanted forests, and into the heart of the Demon Realm itself.
+Two men stand at the crossroads of her fate. One offers the comfort of devotion and a crown. The other offers fire, understanding, and a past drenched in betrayal. Choosing between them will define not just her heart, but the warrior she is becoming.
 
-Xingyin must also confront the truth about her own heart. Liwei offers her safety, devotion, and a love rooted in their shared history. Wenzhi offers passion, understanding, and a connection forged in fire and betrayal. But the choice before her is not simply about romance — it is about what kind of future she wants to build and who she truly is. As war engulfs the realms and the stakes rise beyond anything she imagined, Xingyin discovers that the greatest power lies not in magic or weapons, but in the courage to sacrifice everything for those she loves.`,
+With the Celestial Kingdom fracturing under a paranoid emperor, war threatening every realm, and sacrifices looming that no one can foresee, Xingyin must wield everything she has — her magic, her blade, and a courage fiercer than any immortal power.
+
+In a world where gods scheme and loyalties shift like smoke, one mortal-born woman will discover that the most dangerous weapon she possesses has nothing to do with magic at all.`,
   characters: [
     { name: "Xingyin", role: "The daughter of the Moon Goddess, now a renowned warrior navigating impossible choices between love, duty, and the fate of the realms. She has grown from a sheltered girl into a formidable force." },
     { name: "Liwei", role: "The Crown Prince of the Celestial Kingdom who remains steadfast in his love for Xingyin despite political opposition. He represents safety, devotion, and the possibility of a peaceful future." },

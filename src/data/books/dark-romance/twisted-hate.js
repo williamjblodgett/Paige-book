@@ -8,15 +8,19 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#2a1020"],
   accentColor: "#8b1a4a",
-  synopsis: `Josh Chen and Jules Ambrose have hated each other for years. Josh, a third-year medical resident specializing in emergency medicine, is Ava Chen's protective older brother. Jules, a law student at Thayer Law, is Ava's best friend. Their mutual animosity began when Josh overheard Jules's wilder tendencies and judged her influence on his sister. Jules, in turn, overheard Josh talking about how much he disliked her. Since that moment, every interaction between them has been a battle of sharp words and barely contained hostility, made worse by the fact that they are constantly thrown together through their connection to Ava.
+  synopsis: `Josh Chen and Jules Ambrose have hated each other for years -- and they have the scars to prove it. Every interaction is a battlefield of sharp words and barely contained hostility. He thinks she is reckless and a bad influence on his sister. She thinks he is an arrogant, judgmental hypocrite. They cannot be in the same room without drawing blood.
 
-Everything changes when Josh and Jules are forced together on a ski trip with Ava and Alex, followed by working side by side at the Legal Health Alliance Clinic (LHAC). Their heated arguments begin to transform into heated attraction, and after one particularly charged encounter, they give in to a one-night stand. The chemistry is explosive, and rather than ending things, they strike a dangerous deal: enemies with benefits. The rules are strict: no jealousy, no strings attached, and absolutely no falling in love. Naturally, both rules and feelings prove impossible to contain.
+So naturally, they end up in the same bed.
 
-Beneath the surface, both Josh and Jules carry deep wounds. Josh is reeling from the betrayals that upended his life in Twisted Love: his father Michael's attempt to murder Ava, and the revelation that his best friend Alex lied to him for seven years, fabricating their friendship as part of a revenge scheme. These betrayals have left Josh with profound trust issues. Jules harbors her own dark secret: as a teenager in Ohio, she was manipulated by her predatory stepfather Alastair and coerced into a relationship with her ex-boyfriend Max. Max is now in prison following a botched robbery they committed together, and he is blackmailing Jules with a sex tape filmed when she was a minor, threatening to destroy her legal career.
+One explosive night changes everything. The chemistry between them is undeniable, devastating, and absolutely off-limits. Rather than walk away, they strike a dangerous deal: enemies with benefits. The rules are simple -- no jealousy, no strings, and absolutely no falling in love.
 
-As Josh and Jules fall deeper despite themselves, Max's threats escalate. Jules is tormented by threatening texts and the constant fear of exposure. When the truth finally comes out, Josh's reaction is devastating: he lashes out, feeling betrayed by yet another person he trusted. Consumed by rage, he enlists Alex's help to enact revenge on Max, nearly crossing the line into murder before Alex stops him and forces him to understand why Jules kept her past hidden.
+Rules were made to be broken.
 
-Humbled and ashamed, Josh fights to win Jules back. Their reconciliation is hard-earned, built on honesty, vulnerability, and the willingness to be truly seen by each other. The book ends on a hopeful note: Alex proposes to Ava and asks Josh to be his best man, signaling the healing of their fractured friendship. Jules and Josh move in together and take a trip to New Zealand, where they bungee jump together as a symbol of the leaps of faith they have taken for each other.`,
+Beneath Josh's confident exterior, he is a man shattered by betrayal, struggling to trust anyone after the people closest to him destroyed his world. And Jules -- fierce, sharp-tongued, untouchable Jules -- is hiding a secret so dark it could end her career, her freedom, and any chance she has at the life she is fighting to build.
+
+As their arrangement spirals from physical to deeply personal, the walls they have built begin to crumble. But when Jules's past comes calling with a threat she cannot outrun, everything between them will be tested. Josh must decide if he can trust a woman who has been lying to him. And Jules must decide if she is brave enough to let someone see the parts of herself she has spent years trying to bury.
+
+Hate is easy. Love is the thing that will wreck them both.`,
   characters: [
     {
       name: "Josh Chen",
