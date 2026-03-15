@@ -11,13 +11,13 @@ export default {
 
 Fierce, rebellious, and burning with fury at a system that trades women like property, Gianna has no intention of playing the dutiful bride. When she is forced to marry Matteo Vitiello — the volatile, dangerously unpredictable wild card of the Vitiello family — she makes one thing crystal clear: she will make his life a living hell.
 
-Matteo does not want a wife. He especially does not want one who stares him down with open hatred and matches his explosive temper blow for blow. Where his brother Luca is ice, Matteo is a lit fuse — reckless, hot-tempered, and utterly uncontrollable.
+Matteo does not want a wife. He especially does not want one who stares him down with open hatred and matches his explosive temper blow for blow. Where his brother is ice, Matteo is a lit fuse — reckless, hot-tempered, and utterly uncontrollable.
 
-Their marriage is a battlefield. Sharp words. Cold shoulders. Calculated provocations designed to draw blood. Every clash is furious, every confrontation more intense than the last. But beneath the warfare, something far more dangerous is building. Because the hatred? It is real. But so is the attraction. And the combination is combustible.
+Their marriage is a battlefield. Sharp words. Cold shoulders. Calculated provocations designed to draw blood. But beneath the warfare, something far more dangerous is building. The hatred is real. So is the attraction. And the combination is combustible.
 
 Gianna despises herself for wanting the man who represents everything she is fighting against. Matteo cannot understand why the woman who challenges him at every turn is the first person to make him feel something other than rage.
 
-When hatred and desire share a bed, only one question remains: Will they destroy each other first, or will they survive long enough to discover what is burning beneath the wreckage?`,
+Will they destroy each other first, or will they survive long enough to discover what is burning beneath the wreckage?`,
   characters: [
     { name: "Gianna Scuderi", role: "The middle Scuderi sister — fierce, rebellious, and furious at a system that treats women as property. She wages war against her arranged marriage to Matteo, using every weapon at her disposal to resist compliance." },
     { name: "Matteo Vitiello", role: "Luca's volatile younger brother — hot-tempered, reckless, and dangerously unpredictable. His combustible personality meets its match in Gianna, and their hatred slowly gives way to an attraction neither can control." },

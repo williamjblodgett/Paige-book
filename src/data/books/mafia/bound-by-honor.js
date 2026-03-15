@@ -7,15 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0a0808"],
   accentColor: "#c9a84c",
-  synopsis: `Aria Scuderi has known since childhood that her life is not her own. Promised to a man she has never met, she will walk down the aisle and become the wife of Luca Vitiello — the future Capo dei Capi of the New York Cosa Nostra. In their world, love is irrelevant. Duty is everything. And obedience is not optional.
+  synopsis: `Aria Scuderi has known since childhood that her life is not her own. Promised to a man she has never met, she will walk down the aisle and become the wife of Luca Vitiello — the future boss of bosses of the New York Cosa Nostra. In their world, love is irrelevant. Duty is everything. Obedience is not optional.
 
-Luca is everything the rumors whisper and worse. Ruthless. Cold. Feared even by other made men. He views this marriage with the same detachment he applies to every transaction — a strategic necessity, nothing more. He does not expect love. He does not want it.
-
-Their wedding night holds no romance. Only obligation, power, and the suffocating weight of centuries-old tradition. Aria is terrified. Luca is clinical. It is exactly the beginning both expected.
+Luca is everything the rumors whisper and worse. Ruthless. Cold. Feared even by other made men. He views this marriage as a strategic transaction, nothing more. He does not expect love. He does not want it.
 
 But Aria is not as meek as she appears. Beneath the obedient exterior is a woman with a core of steel — one who watches, learns, and quietly refuses to be crushed by a system designed to control her. And Luca, for all his brutality, finds himself unsettled by a wife whose quiet strength commands something his violence never could.
 
-As enemies close in and betrayals surface within their own families, the marriage of convenience begins to shift into something neither anticipated. In a world that demands submission, Aria's small acts of defiance become the most dangerous weapon of all — and the one thing the most feared man in New York cannot defend against.`,
+As enemies close in and betrayals surface within their own families, the marriage of convenience begins to shift into something neither anticipated. In a world that demands submission, Aria's small acts of defiance become the most dangerous weapon of all — and the one thing the most feared man in New York cannot defend against.
+
+What happens when the woman who was supposed to be a transaction becomes the one thing he cannot afford to lose?`,
   characters: [
     { name: "Aria Scuderi", role: "The eldest daughter of a powerful mafia family, arranged to marry Luca Vitiello. Beneath her obedient exterior is a core of steel — she watches, learns, and quietly refuses to be crushed by a world that treats her as property." },
     { name: "Luca Vitiello", role: "The heir to the Vitiello crime family and future Capo dei Capi. Ruthless and feared, he views the marriage as a transaction until Aria's quiet strength earns something his violence never could — genuine respect and unexpected love." },

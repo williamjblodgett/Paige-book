@@ -8,17 +8,15 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a0a", "#3d1111"],
   accentColor: "#8b1a1a",
-  synopsis: `Tyson Crawford was once a Lord. Then tragedy and betrayal stripped everything from him -- his status, his chosen, and any reason to play by the rules. Now he operates in the shadows, leading the covert Blackout group, and he has spent years assembling the pieces of an elaborate revenge plan against the family that destroyed his life.
+  synopsis: `Tyson Crawford was once a Lord. Then tragedy and betrayal stripped everything from him -- his status, his chosen, and any reason to play by the rules. He has spent years assembling an elaborate revenge plan against the family that destroyed his life.
 
 His weapon? Their daughter.
 
-When Laikyn "Lake" Minson's fiance mysteriously vanishes on their wedding day, Tyson steps in and claims her as his bride. It is not a love story. It is a calculated strike in a war that Laikyn does not even know she is part of.
+When Laikyn Minson's fiance mysteriously vanishes on their wedding day, Tyson steps in and claims her as his bride. It is not a love story. It is a calculated strike in a war that Laikyn does not even know she is part of.
 
-But Laikyn is no passive pawn. Spirited and defiant, she has spent years hating Tyson for what she believes he did to her sister Whitney. What she has never admitted -- not even to herself -- is that beneath the hatred lies a fascination she has carried since long before everything fell apart.
+But Laikyn is no passive pawn. Spirited and defiant, she has spent years hating Tyson for what she believes he did to her sister. What she has never admitted -- not even to herself -- is that beneath the hatred lies a fascination she has carried since long before everything fell apart.
 
-Now she is married to a man whose every touch feels like both a punishment and a promise. As the truth about Whitney's death begins to surface, Laikyn discovers that the people she trusted most have been lying, and the man she was taught to fear may be the only one telling the truth.
-
-In the world of the Lords, sacrifice means something different than it does everywhere else. It is the price of revenge. It is the cost of loyalty. And it may be the only path to a love forged in the ashes of everything both of them have lost.
+Now she is married to a man whose every touch feels like both a punishment and a promise. As the truth begins to surface, Laikyn discovers that the people she trusted most have been lying -- and the man she was taught to fear may be the only one telling the truth.
 
 The question is how much each of them is willing to burn.`,
   characters: [

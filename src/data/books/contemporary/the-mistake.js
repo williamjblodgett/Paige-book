@@ -7,11 +7,15 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1525", "#0a1018"],
   accentColor: "#2d8cf0",
-  synopsis: `Logan shows up at the wrong house for a party and finds Grace Ivers in the middle of a Die Hard marathon. Quiet, thoughtful Grace is nothing like the women the Briar hockey player usually pursues, and their unexpected evening together sparks something real. But Logan makes a devastating mistake — one careless confession that shatters Grace's trust and sends her walking away, determined to forget him.
+  synopsis: `It started with a wrong turn. Logan showed up at the wrong house looking for a party and found Grace Ivers on the couch, mid-Die Hard marathon. She was quiet, sharp, and nothing like anyone he had ever been drawn to. Their unexpected night together felt like the start of something real.
 
-A summer apart gives Logan time to realize the truth: he didn't just lose a hookup. He lost the one person who could have been everything. But when they return to campus in the fall, Grace wants nothing to do with his regrets. She's moved on. She's dating other people. And she has zero interest in second chances.
+Then he ruined it. One careless, devastating confession — and Grace walked away without looking back.
 
-Undeterred, Logan launches a campaign to win her back, but Grace refuses to make it easy. She'll give him one date — if he can complete a near-impossible list of tasks first. What starts as a test of his persistence becomes something neither of them expected. Behind the charming hockey player is a man carrying burdens he's never let anyone see, and behind Grace's walls is a woman who deserves far more than she's ever been offered. The question isn't whether Logan can earn her forgiveness — it's whether he can become the man who deserves it.`,
+A summer apart gives Logan time to understand what he actually lost. Not a casual hookup. Not a distraction. The one person who saw past the easy smile and charming exterior to the mess underneath. By the time he figures this out, it is too late. Grace has moved on. She is dating. She is busy. And she has absolutely no interest in his regrets.
+
+But Logan is not giving up. He will do whatever it takes to earn a second chance — even if Grace's terms include a near-impossible list of challenges designed to test exactly how serious he is. What begins as a campaign to win her back becomes something deeper, as both of them are forced to confront the burdens they carry: his complicated family, her hard-won self-respect, and the terrifying question at the center of every second-chance love story.
+
+Can you become the person someone deserves — even after proving you were not?`,
   characters: [
     { name: "John Logan", role: "A junior defenseman on Briar's hockey team who uses casual hookups to avoid dealing with his painful home life. When a devastating mistake costs him Grace, Logan must confront his emotional avoidance and prove he's capable of the real, vulnerable love he once envied in others." },
     { name: "Grace Ivers", role: "A quiet, thoughtful Briar student who refuses to be anyone's consolation prize. After Logan's hurtful confession that she was a distraction, Grace's refusal to forgive easily drives the central tension. She's strong-willed, self-respecting, and won't accept less than she deserves." },

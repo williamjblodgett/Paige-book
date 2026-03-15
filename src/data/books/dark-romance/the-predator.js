@@ -10,11 +10,13 @@ export default {
   accentColor: "#c42a2a",
   synopsis: `Their families have been locked in a blood feud for generations. Trusting each other should be impossible. Wanting each other could be fatal.
 
-Morana Vitalio is the brilliant, defiant daughter of one of the most powerful mob families in the underworld. A tech genius who has spent her life being controlled and treated as a commodity, she created a program so dangerous that everyone -- her father's people and their enemies alike -- would kill to possess it. Morana refuses to be anyone's pawn. But when that program surfaces on the dark web, threatening to unravel both criminal empires, she is thrust into an uneasy alliance with the last man she should ever trust.
+Morana Vitalio is a tech genius and mob princess who created a program so dangerous that everyone -- her father's people and their enemies alike -- would kill to possess it. When that program surfaces on the dark web threatening both criminal empires, she is thrust into an uneasy alliance with the last man she should ever trust.
 
-Tristan Caine is the Predator -- the most lethal enforcer in the rival Outfit, a man whispered about in fear. He is violence and calculation wrapped in a devastating package, and he belongs to the enemy. When their organizations attempt to broker a fragile peace, Tristan and Morana collide with an intensity neither can explain or control.
+Tristan Caine is the Predator -- the most lethal enforcer in the rival Outfit, a man whispered about in fear. He is violence and calculation wrapped in a devastating package, and he belongs to the enemy.
 
-He is everything she was raised to hate. She is the one person who looks at him without fear. As they hunt the conspiracy threatening to destroy both their worlds, they uncover secrets that go far deeper than stolen code -- a decades-old mystery that connects their families in ways neither ever imagined. The predator has found his prey. But she might just be the more dangerous one.`,
+He is everything she was raised to hate. She is the one person who looks at him without fear. As they hunt the conspiracy threatening to destroy both their worlds, they uncover secrets that go far deeper than stolen code -- a decades-old mystery that connects their families in ways neither ever imagined.
+
+The predator has found his prey. But she might just be the more dangerous one.`,
   characters: [
     { name: "Morana Vitalio", role: "A tech genius and mob daughter whose stolen program sets the plot in motion. Brilliant and defiant, she refuses to be a pawn in her family's criminal games." },
     { name: "Tristan Caine", role: "The most lethal man in the rival Outfit, known as the Predator. His partnership with Morana forces him to confront an attraction to the one woman he should consider an enemy." },

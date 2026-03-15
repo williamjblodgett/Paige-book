@@ -8,15 +8,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a12", "#1a1a35"],
   accentColor: "#c42a2a",
-  synopsis: `Jasper Gervais has one rule: do not touch Sloane Winthrop. She is his best friend's little sister, the girl he has watched grow into a breathtaking woman, and the one person he has been silently, torturously in love with for longer than he cares to admit.
+  synopsis: `Jasper Gervais has one rule: do not touch Sloane Winthrop.
 
-Sloane has been in love with Jasper since she was old enough to understand the word. He is the cowboy who taught her to ride, who showed up at every important moment, who looks at her with an intensity he seems to think she does not notice. She is tired of being patient. She is done waiting for him to figure out what she already knows.
+She is his best friend's little sister. The girl he watched grow from a scrappy kid into a breathtaking woman. The one person he has been silently, torturously in love with for longer than he will ever admit. As a professional bull rider whose body takes a beating every time he climbs into the arena, Jasper is no stranger to pain. But nothing hurts like wanting what you have forbidden yourself from having.
 
-When a road trip and a shared hotel room make avoidance impossible, Jasper's carefully maintained control finally shatters. And once the line is crossed, there is no going back. The quiet intensity he has kept leashed for years unleashes with a possessiveness that takes them both by surprise.
+Sloane Winthrop has loved Jasper Gervais since she was old enough to understand the word. He is the cowboy who taught her to ride, who showed up at every important moment, who looks at her with an intensity he thinks she does not notice. She is tired of being patient. She is done waiting for him to make a move.
 
-But her brother -- Jasper's best friend -- stands as a constant reminder of the friendship he risks destroying. And in the tight-knit world of Chestnut Springs, secrets do not stay buried for long.
+When a road trip and a shared hotel room make avoidance impossible, years of restraint shatter in a single moment. And once the line is crossed, there is no going back. The quiet intensity Jasper has kept leashed unleashes with a possessiveness that takes them both by surprise.
 
-Sometimes the most powerful thing a man can do is stop pretending he does not want what has always been right in front of him.`,
+But her brother -- his best friend -- is a constant reminder of the friendship Jasper risks destroying. And in the tight-knit world of Chestnut Springs, secrets never stay buried for long.`,
   characters: [
     { name: "Jasper Gervais", role: "A professional bull rider silently in love with his best friend's little sister for years. His fierce protectiveness and quiet intensity mask the depth of his feelings for Sloane." },
     { name: "Sloane Winthrop", role: "Jasper's best friend's little sister who has loved him since childhood. Fierce and determined, she's done waiting for him to act on what they both feel." },

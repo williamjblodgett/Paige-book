@@ -9,15 +9,15 @@ export default {
   accentColor: "#c9a84c",
   synopsis: `Two families. Generations of blood. One catastrophic night that changes everything.
 
-When Aida Gallo crashes a Griffin family party and leaves destruction in her wake, she ignites a war between Chicago's most powerful crime dynasties — the Irish Griffins and the Italian Gallos. The fallout is swift and brutal, leaving her brother's future shattered and both families reaching for their guns.
+When Aida Gallo crashes a Griffin family party and leaves destruction in her wake, she ignites a war between Chicago's most powerful crime dynasties. The fallout is swift and brutal, and the only way to prevent an all-out bloodbath is an arranged marriage between the two people who despise each other most.
 
-The only way to prevent an all-out bloodbath? An arranged marriage between the two people who despise each other most.
-
-Callum Griffin is the eldest heir, an aspiring politician with ice in his veins and ambition that cuts like a blade. Aida Gallo is wildfire — fierce, reckless, and utterly untamable. He sees her as the woman who burned his world down. She sees him as the cold-hearted prince whose family destroyed her brother.
+Callum Griffin is the eldest heir — an aspiring politician with ice in his veins and ambition that cuts like a blade. Aida Gallo is wildfire — fierce, reckless, and utterly untamable. He sees her as the woman who burned his world down. She sees him as the cold-hearted prince whose family destroyed her brother.
 
 Their wedding is not a truce. It is a new battlefield.
 
-But hatred has a dangerous way of blurring into something else when you are forced to share a bed, a home, and a life with your enemy. Every explosive argument reveals a grudging respect. Every clash sparks a chemistry neither can deny. And in Chicago's criminal underworld, where loyalty is currency and love is a liability, falling for the wrong person could cost them everything.`,
+But hatred has a dangerous way of blurring into something else when you are forced to share a bed, a home, and a life with your enemy. Every explosive argument reveals a grudging respect. Every clash sparks a chemistry neither can deny. And in Chicago's criminal underworld, where loyalty is currency and love is a liability, falling for the wrong person could cost them everything.
+
+Fire and ice were never meant to coexist. But some combinations are not meant to be safe — they are meant to burn.`,
   characters: [
     { name: "Callum Griffin", role: "The eldest heir of the Irish Griffin crime family and an aspiring politician. Ruthless, arrogant, and strategically brilliant, he views the arranged marriage as a political necessity. His transformation from cold adversary to passionate protector drives the story's emotional arc." },
     { name: "Aida Gallo", role: "The youngest and wildest daughter of the Italian Gallo family. Fiercely independent and defiant, she refuses to be tamed by anyone — especially the man whose family crippled her brother. Her fire and spirit make her Callum's perfect adversary and eventual match." },

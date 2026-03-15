@@ -7,17 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#8b1a1a",
-  synopsis: `They call it Blackchurch -- a secluded mansion in the middle of nowhere where the wealthy send their sons to disappear. No guards. No rules. No way out until the gates open again.
+  synopsis: `They call it Blackchurch -- a secluded mansion in the middle of nowhere where the wealthy send their sons to disappear. No guards. No rules. No way out until the gates open again in thirty days. For the dangerous men locked inside, it is a lawless kingdom where only the ruthless survive.
 
-Will Grayson III has been rotting here for months. But nothing could prepare him for what comes next.
+Will Grayson III -- the most reckless of the Four Horsemen -- has been rotting here for months. He has learned to fight, to endure, and to channel his rage into something lethal.
 
-She is here. Inside the walls. Hiding.
+Then he senses her. Inside the walls. Hiding.
 
-Emory Scott. The girl from nine years ago -- the one who set his blood on fire. The one who destroyed everything. Will does not know how she got into Blackchurch, or why. He only knows that the gates are locked, the other inmates are circling, and the girl who ruined his life is now trapped in a cage with him.
+Emory Scott. The girl from nine years ago -- the one who backed him into corners and set his blood on fire. The one who destroyed everything. Will does not know how she got into Blackchurch. He only knows the gates are locked, the other inmates are circling, and the girl who ruined his life is trapped in a cage with him.
 
-Emmy has her reasons for what she did. They are devastating. They are complicated. And they will change everything Will thought he knew about Devil's Night, about the Horsemen, and about the girl he has never been able to forget.
+Emmy has her reasons for what she did. They are devastating. Complicated. And they will shatter everything Will thought he knew about Devil's Night, the Horsemen, and the girl he has never been able to forget.
 
-But understanding and forgiveness are two very different things. And in Blackchurch, where there is no law and nowhere to hide, the line between vengeance and desire is about to snap.
+But understanding and forgiveness are two very different things. In Blackchurch, where there is no law and nowhere to hide, the line between vengeance and desire is about to snap.
 
 The final chapter of the Devil's Night saga. Every secret. Every lie. Every thread -- pulled to the breaking point.`,
   characters: [

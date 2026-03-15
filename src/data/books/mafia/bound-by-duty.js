@@ -9,13 +9,13 @@ export default {
   accentColor: "#c9a84c",
   synopsis: `She is fifteen when they tell her she belongs to the Iceman.
 
-Valentina Scuderi does not get a say. In the Cosa Nostra, daughters are bargaining chips, and she has been traded to Dante Cavallaro — the Capo of the Chicago Outfit, a man nearly twice her age, whose reputation for cold ruthlessness makes hardened criminals lower their eyes. She will marry him at eighteen. She will smile. She will obey.
+Valentina Scuderi does not get a say. In the Cosa Nostra, daughters are bargaining chips, and she has been traded to Dante Cavallaro — the Capo of the Chicago Outfit, a man nearly twice her age, whose reputation for cold ruthlessness makes hardened criminals lower their eyes.
 
-Dante accepted the arrangement with the same calculation he applies to everything. A young bride is an inconvenience, but alliances require sacrifices. What he did not anticipate is the guilt — the look of barely concealed terror on a teenage girl's face that even a man like him cannot ignore.
+Three years stretch between the engagement and the altar. Three years of rare, supervised meetings where Valentina searches for the man behind the ice and Dante fights an attraction he considers unforgivable. She is growing into someone he cannot ignore. He is becoming someone she is not afraid of. And both are trapped in a game whose rules were written long before they were born.
 
-Three years stretch between the engagement and the altar. Three years of rare, supervised meetings where Valentina searches for the man behind the ice and Dante fights an attraction he considers unforgivable. She is growing into someone he respects. He is becoming someone she is not afraid of. And both are trapped in a game where the rules were written long before they were born.
+But Valentina has no intention of being a silent wife. She wants to be Dante's partner, not his decoration. And in the brutal world of the Chicago Outfit, that demand may be the bravest — or most dangerous — thing she has ever done.
 
-When the wedding night finally arrives, it is the culmination of years of tension, fear, and reluctant longing. Valentina has no intention of being a silent wife. She wants to be Dante's partner, not his decoration. And in the brutal world of the Chicago Outfit, that demand may be the bravest — or most dangerous — thing she has ever done.`,
+Can a woman who was traded like property claim a place beside the most feared man in Chicago? And can the Iceman afford to let her in when every crack in his armor could be a death sentence?`,
   characters: [
     { name: "Valentina Scuderi", role: "Aria's younger sister, promised to Dante at fifteen. She matures from a frightened girl into a courageous young woman who refuses to be a silent wife, insisting on being Dante's partner rather than his decoration." },
     { name: "Dante Cavallaro", role: "The Capo of the Chicago Outfit, known as the Iceman. Nearly twice Valentina's age, he struggles with guilt over the age gap and power imbalance while slowly revealing depth beneath his cold, calculated exterior." },

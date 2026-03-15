@@ -7,17 +7,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#d44a4a",
-  synopsis: `They have been writing to each other since fifth grade. No social media. No phone numbers. No photographs. Just letters -- raw, honest, and more intimate than anything either of them shares with the people in their daily lives. Misha and Ryen have never met. And yet they know each other better than anyone.
+  synopsis: `They have been writing letters since fifth grade. No social media. No phone numbers. No photographs. Just ink on paper -- raw, honest, and more intimate than anything either of them shares with the people in their daily lives. Misha and Ryen have never met face to face. Yet they know each other better than anyone.
 
-Until Misha finds a photo of Ryen online and decides to see the girl behind the letters for himself.
+Until Misha decides to find the girl behind the letters.
 
-What he discovers devastates him. The Ryen in her letters is thoughtful and fiercely real. The Ryen at school is the queen of a shallow social hierarchy -- a popular cheerleader who participates in the very cruelty she always told him she despised. The girl on paper and the girl in person are two different people.
+What he discovers devastates him. The Ryen in her letters is thoughtful, humble, and fiercely authentic. The Ryen at school is the queen of a shallow social hierarchy -- a popular cheerleader who participates in the very cruelty she always told him she despised. The girl on paper and the girl in person are strangers to each other.
 
-Consumed by grief and fury after a personal tragedy, Misha stops writing. Instead, he enrolls at Ryen's school under a false name, determined to confront the stranger wearing his best friend's face.
+Then tragedy strikes, and Misha's world collapses. Consumed by grief and fury, he stops writing. Instead, he enrolls at her school under a false name -- magnetic, rebellious, and determined to force Ryen to face the gap between who she pretends to be and who she truly is.
 
-He gets under her skin in ways no one else can. She cannot figure out why this infuriating new student seems to know exactly where to strike. Meanwhile, mysterious messages begin appearing on the school walls, and the line between provocation and seduction disappears entirely.
+He gets under her skin in ways no one else can. She cannot figure out why this infuriating stranger seems to know exactly how to wound her. Provocative messages appear on the school walls. The line between punishment and seduction blurs.
 
-Everyone is hiding behind a mask. But what happens when the masks come off?`,
+Everyone is wearing a mask. But what happens when the masks come off?`,
   characters: [
     {
       name: "Misha Lare / Masen Laurent",
