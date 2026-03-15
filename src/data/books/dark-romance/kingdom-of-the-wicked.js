@@ -8,13 +8,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a1e", "#1a1040"],
   accentColor: "#c42a2a",
-  synopsis: `Two rules have governed Emilia di Carlo's life as a witch in nineteenth-century Sicily: never deal with demons, and never invoke the Wicked -- the seven princes of Hell.
+  synopsis: `Two rules have governed Emilia di Carlo's life as a strega in nineteenth-century Sicily: never deal with demons, and never invoke the Wicked -- the seven princes of Hell.
 
-When her twin sister Vittoria is found murdered, her body bearing dark magic symbols, Emilia shatters both.
+She is about to shatter both.
 
-In her desperation, she summons Wrath, one of the seven demon princes of Hell. He is nothing like the monster she expected -- devastatingly handsome, infuriatingly arrogant, and bound by his own mysterious agenda. He offers Emilia a deal: he will help her find Vittoria's killer if she assists him with a problem in the demon realm.
+When her twin sister Vittoria is found murdered, her body marked with dark magic symbols that no human could have made, Emilia's world collapses. The authorities dismiss it as a tragic death, but Emilia knows better. In her desperation for answers, she does the unthinkable -- she summons Wrath, one of the seven demon princes of Hell.
 
-Their alliance is fraught with tension. Emilia despises everything Wrath represents. Wrath seems determined to provoke her at every turn. Yet beneath the antagonism, a dangerous attraction smolders -- and with each revelation, Emilia begins to suspect that her sister's murder is connected to something far larger than she imagined. Ancient prophecies. A war between realms. And a truth about her own identity that will change everything.
+He is nothing like the monster she expected. Devastatingly handsome, infuriatingly arrogant, and bound by his own mysterious agenda, Wrath offers a bargain: he will help find Vittoria's killer if Emilia assists him with a problem in the demon realm. Their uneasy alliance crackles with tension and a dangerous attraction neither wants to acknowledge.
+
+But the deeper Emilia digs, the more the truth twists. Her sister's murder is connected to an ancient conspiracy involving all seven demon princes, a prophecy that seems to center on Emilia herself, and a war between realms that has been brewing for centuries. Everything she was taught about witches, demons, and the line between good and evil begins to unravel.
 
 Some deals with the devil are worth making. This one might cost Emilia her soul.`,
   characters: [
