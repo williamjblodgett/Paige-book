@@ -7,15 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0a0808"],
   accentColor: "#c9a84c",
-  synopsis: `Mila Mikhailov has spent her entire life being the perfect daughter — never asking questions, never looking too closely at the source of her family's wealth. But when suspicion finally cracks through the surface, she does the one thing she has never done: something reckless. She flies to Moscow to uncover the truth about her father and the past he buried.
+  synopsis: `Mila Mikhailov has spent her life being the perfect daughter — never asking questions, never looking too closely at the source of her family's wealth. But when suspicion finally cracks through the surface, she does the one thing she has never done: something reckless. She flies to Moscow to uncover the truth.
 
 She should have stayed home.
 
-Ronan Markov, the ruthless head of the Russian Bratva, has been waiting for this moment. He has a vendetta against Mila's father, and the sheltered daughter who just walked into his territory is the perfect weapon. When Ronan takes Mila captive, he expects her to break. He expects her to beg. He does not expect her to challenge him at every turn, to see through his cruelty, or to awaken something in him that no amount of violence has ever touched.
+A ruthless man with a vendetta against her father has been waiting for this moment. The sheltered daughter who just walked into his territory is the perfect weapon. He expects her to break. He expects her to beg. He does not expect her to challenge him at every turn, to see through his cruelty, or to awaken something in him that no amount of violence has ever touched.
 
 Trapped in a frozen world of power and shadows, Mila discovers she is far stronger than anyone — including herself — ever believed. And the man holding her prisoner? He is far more broken than he appears.
 
-As devastating secrets surface and the line between captor and captive begins to blur, Mila faces an impossible question: Can you find home in the arms of the man who stole your freedom? And if he opens the door and lets you walk away — would you?`,
+As devastating secrets surface and the line between captor and captive begins to blur, one impossible question remains: Can you find home in the arms of the man who stole your freedom? And if he opens the door and lets you walk away — would you?`,
   characters: [
     { name: "Mila Mikhailov", role: "The sheltered daughter of Alexei Mikhailov, raised in ignorance of her father's criminal life. Her journey to Moscow to discover her roots leads to her kidnapping. She transforms from a naive young woman into a resilient fighter who challenges Ronan's darkness with her light." },
     { name: "Ronan Markov", role: "The ruthless head of the Russian Bratva and brother to Christian Allister from The Maddest Obsession. He kidnaps Mila for revenge against her father but finds himself unexpectedly drawn to his captive. Cold and terrifying, his walls begin to crumble under Mila's influence." },

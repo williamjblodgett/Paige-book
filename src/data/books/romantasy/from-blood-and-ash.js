@@ -11,7 +11,7 @@ export default {
 
 Poppy has other ideas.
 
-Behind the veil, she trains secretly in combat, sneaks out to taste freedom, and burns with a quiet fury that no amount of obedience can extinguish. She possesses a forbidden gift -- the ability to sense and absorb the pain of others -- that hints at a destiny far greater than the one she has been assigned.
+Behind the veil, she trains secretly in combat, sneaks out to taste freedom, and burns with a fury that no amount of obedience can extinguish. She possesses a forbidden gift -- the ability to sense the pain of others -- that hints at a destiny far greater than the one she has been assigned.
 
 Then a new guard is placed at her door. Hawke Flynn is devastatingly handsome, irreverent, and dangerous in ways that have nothing to do with the weapons he carries. He challenges every rule Poppy is supposed to follow, awakens desires she has been taught to suppress, and treats her as a woman rather than a symbol. Their connection is electric, forbidden, and impossible to resist.
 

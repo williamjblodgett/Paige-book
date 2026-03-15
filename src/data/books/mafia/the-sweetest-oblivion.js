@@ -7,15 +7,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0a0808"],
   accentColor: "#c9a84c",
-  synopsis: `Elena Abelli is the Sweet Abelli — the perfect daughter, the charming smile, the flawless mafia principessa. She has played the role her entire life. But beneath the polished surface, Elena is hiding secrets that could unravel everything.
+  synopsis: `Elena Abelli is the Sweet Abelli — the perfect daughter, the charming smile, the flawless mafia principessa. But beneath the polished surface, she is hiding secrets that could unravel everything.
 
-Nicolas Russo is one of New York's most dangerous Made Men — commanding, possessive, and utterly untouchable. He has been promised to the Abelli family through an arranged marriage alliance. There is just one problem: he is engaged to Elena's sister.
+Nicolas Russo is one of New York's most dangerous Made Men — commanding, possessive, and utterly untouchable. He has been promised to the Abelli family through an arranged marriage. There is just one problem: he is engaged to Elena's sister.
 
-From their very first encounter, the chemistry between them is electric, undeniable, and absolutely forbidden. Every stolen glance is a betrayal. Every moment of tension is a step closer to disaster. Elena knows she should feel nothing for the man who belongs to her sister. Nicolas knows that wanting Elena could ignite a war between two of New York's most powerful families.
+From their very first encounter, the chemistry is electric, undeniable, and absolutely forbidden. Every stolen glance is a betrayal. Every moment of tension is a step closer to disaster. She knows she should feel nothing for the man who belongs to her sister. He knows that wanting her could ignite a war between two of New York's most powerful families.
 
 But some attractions cannot be reasoned away, and some rules were made to be shattered.
 
-As the line between duty and desire blurs beyond recognition, Elena and Nicolas are pulled into a dangerous game where family loyalty, honor, and survival hang in the balance. In the world of the Cosa Nostra, forbidden love is not just reckless — it is a death sentence.
+As the line between duty and desire blurs beyond recognition, family loyalty, honor, and survival hang in the balance. In the world of the Cosa Nostra, forbidden love is not just reckless — it is a death sentence.
 
 The only question is whether the sweetest oblivion is worth the price they will pay.`,
   characters: [

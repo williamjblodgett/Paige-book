@@ -8,15 +8,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0d0a0a", "#2a1818"],
   accentColor: "#c42a2a",
-  synopsis: `Lucian Rollins left Knockemout a long time ago. He built an empire, amassed a fortune, and became the kind of man people fear. But no amount of money or power has been able to do the one thing he needs most: get Sloane Walton out of his system.
+  synopsis: `Lucian Rollins left Knockemout a long time ago. He built an empire, amassed a fortune, and became the kind of man people fear. But no amount of money or power has done the one thing he needs most: get Sloane Walton out of his system.
 
-Sloane is Knockemout's fiery librarian, and she has spent years perfecting the art of hating Lucian Rollins. He's cold, calculating, and represents everything she despises. Their history is a minefield — a teenage friendship that ended in betrayal, leaving scars neither has healed. Every time he returns to town, their encounters combust into arguments that feel suspiciously like something else entirely.
+Sloane is Knockemout's fiery librarian, and she has spent years perfecting the art of hating Lucian Rollins. Their history is a minefield -- a teenage friendship that ended in betrayal, leaving scars neither has healed. Every time he returns to town, their encounters combust into arguments that feel suspiciously like something else entirely.
 
-She'd rather eat glass than admit she finds him attractive. He'd rather burn his empire to the ground than let anyone hurt her.
+She would rather eat glass than admit she finds him attractive. He would rather burn his empire to the ground than let anyone hurt her.
 
-When a threat descends on Knockemout and puts Sloane directly in the crosshairs, the mask Lucian has worn for a decade finally slips. What's underneath isn't cold at all — it's an obsessive, terrifying protectiveness that reveals exactly how long this man has been watching, waiting, and wanting.
+When a threat puts Sloane directly in the crosshairs, the mask Lucian has worn for a decade finally slips. What is underneath is not cold at all -- it is an obsessive, terrifying protectiveness that reveals exactly how long this man has been watching, waiting, and wanting.
 
-But Lucian's past is darker than Sloane knows. And the secrets he's kept to protect her might be the very things that tear them apart.`,
+But Lucian's past is darker than Sloane knows. And the secrets he has kept to protect her might be the very things that tear them apart.`,
   characters: [
     { name: "Lucian Rollins", role: "A self-made billionaire with a brutal childhood who has been obsessively watching over Sloane Walton for years. Cold and calculating on the surface, he hides a devastating depth of feeling." },
     { name: "Sloane Walton", role: "Knockemout's fiery librarian who has perfected the art of hating Lucian. Her sharp tongue masks unresolved feelings from their complicated teenage history." },

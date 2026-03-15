@@ -7,11 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1a10", "#0a0f0c"],
   accentColor: "#1e8a5f",
-  synopsis: `Three thousand years of ruthless scheming. A reputation that makes even immortals flinch. Lothaire Daciano is not the hero of this story — he is the villain of everyone else's. The Enemy of Old has always had one goal: reclaim the vampire throne that is rightfully his. And he has just made the most catastrophic miscalculation of his eternal existence.
+  synopsis: `Three thousand years of ruthless scheming. A reputation that makes even immortals flinch. He is not the hero of this story — he is the villain of everyone else's. And he has just made the most catastrophic miscalculation of his eternal existence.
 
 He chose the wrong Bride.
 
-Lothaire has been pursuing Saroya the Soul Reaper, an ancient goddess trapped inside the body of Elizabeth "Ellie" Peirce — a fierce, foul-mouthed mountain girl from Appalachia currently sitting on death row for murders she did not commit. His plan is elegant: destroy Ellie's consciousness, free Saroya, and claim his fated queen.
+He has been pursuing an ancient goddess trapped inside the body of Elizabeth "Ellie" Peirce — a fierce, foul-mouthed mountain girl from Appalachia currently sitting on death row for murders she did not commit. His plan is elegant: destroy Ellie's consciousness, free the goddess, and claim his fated queen.
 
 Except the bond is not pulling him toward the goddess. It is pulling him toward the human.
 

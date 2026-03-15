@@ -7,13 +7,13 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1a10", "#0a0d0a"],
   accentColor: "#1e8a5f",
-  synopsis: `In this world, angels are not guardians. They are gods — ancient, breathtaking, and merciless. They create vampires to serve them, rule from glittering towers above the cities of men, and answer to no one. Almost no one.
+  synopsis: `In this world, angels are not guardians. They are gods — ancient, breathtaking, and merciless. They create vampires to serve them, rule from glittering towers, and answer to no one.
 
-Elena Deveraux is a Guild Hunter, one of the elite mortals trained to track down rogue vampires. She is tough, stubborn, and blessed with a rare gift — the ability to scent angels. When the Archangel of New York summons her, she knows it will not be a polite request.
+Almost no one.
 
-Raphael is power incarnate. He could destroy a city block with a thought and has not felt a genuine emotion in centuries. His assignment for Elena is simple: hunt a rogue archangel who is slaughtering humans across the globe. For a mortal, this is a death sentence.
+Elena Deveraux is a Guild Hunter — one of the elite mortals trained to track down rogue vampires. Tough, stubborn, and blessed with a rare gift, she knows that when the Archangel of New York summons her, it will not be a polite request.
 
-He is not offering her a choice.
+Raphael is power incarnate. He could destroy a city block with a thought and has not felt a genuine emotion in centuries. His assignment for Elena is simple: hunt a rogue archangel who is slaughtering humans across the globe. For a mortal, this is a death sentence. He is not offering her a choice.
 
 From the moment they collide, the air between them crackles. He commands; she refuses to bend. He threatens; she holds her ground. No one has ever defied Raphael and lived — but Elena makes him feel things that terrify him far more than disobedience.
 

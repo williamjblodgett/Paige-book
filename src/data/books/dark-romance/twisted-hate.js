@@ -8,17 +8,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#2a1020"],
   accentColor: "#8b1a4a",
-  synopsis: `Josh Chen and Jules Ambrose have hated each other for years -- and they have the scars to prove it. Every interaction is a battlefield of sharp words and barely contained hostility. He thinks she is reckless and a bad influence on his sister. She thinks he is an arrogant, judgmental hypocrite. They cannot be in the same room without drawing blood.
+  synopsis: `Josh Chen and Jules Ambrose have hated each other for years. Every interaction is a battlefield of sharp words and barely contained hostility. They cannot be in the same room without drawing blood.
 
 So naturally, they end up in the same bed.
 
-One explosive night changes everything. The chemistry between them is undeniable, devastating, and absolutely off-limits. Rather than walk away, they strike a dangerous deal: enemies with benefits. The rules are simple -- no jealousy, no strings, and absolutely no falling in love.
+One explosive night changes everything. Rather than walk away, they strike a dangerous deal: enemies with benefits. The rules are simple -- no jealousy, no strings, and absolutely no falling in love.
 
 Rules were made to be broken.
 
-Beneath Josh's confident exterior, he is a man shattered by betrayal, struggling to trust anyone after the people closest to him destroyed his world. And Jules -- fierce, sharp-tongued, untouchable Jules -- is hiding a secret so dark it could end her career, her freedom, and any chance she has at the life she is fighting to build.
+Beneath Josh's confident exterior, he is a man shattered by betrayal, struggling to trust anyone. And Jules -- fierce, sharp-tongued, untouchable Jules -- is hiding a secret so dark it could end her career, her freedom, and any chance she has at the life she is fighting to build.
 
-As their arrangement spirals from physical to deeply personal, the walls they have built begin to crumble. But when Jules's past comes calling with a threat she cannot outrun, everything between them will be tested. Josh must decide if he can trust a woman who has been lying to him. And Jules must decide if she is brave enough to let someone see the parts of herself she has spent years trying to bury.
+As their arrangement spirals from physical to deeply personal, the walls they have built begin to crumble. But when Jules's past comes calling with a threat she cannot outrun, everything between them will be tested.
 
 Hate is easy. Love is the thing that will wreck them both.`,
   characters: [

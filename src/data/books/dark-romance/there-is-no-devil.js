@@ -7,15 +7,15 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a0a0a", "#1a0a0a"],
   accentColor: "#1a1a1a",
-  synopsis: `For the first time in their lives, Cole Blackwell and Mara Eldritch have found something that looks like happiness. The sculptor-serial killer and the resilient artist have built a fragile world together -- one where Mara's talent is flourishing, Cole's frozen heart is thawing, and the darkness that first drew them together has become something neither expected: a home.
+  synopsis: `For the first time in their lives, Cole Blackwell and Mara Eldritch have found something that looks like happiness. The darkness that first drew them together has become something neither expected: a home.
 
-But happiness, it turns out, is the most dangerous thing either of them could possess.
+But happiness is the most dangerous thing either of them could possess.
 
-Alastor Shaw -- the Beast of the Bay -- has been watching. A predator who once considered Cole a peer, Shaw sees his rival's newfound love as the ultimate weakness. Mara is Cole's vulnerability, the one crack in his armor, and Shaw intends to exploit it with surgical precision. His plan is elegant in its cruelty: destroy the woman, and the monster will destroy himself.
+A predator from the first book has been watching. He sees Cole's newfound love as the ultimate weakness -- the one crack in his armor. His plan is elegant in its cruelty: destroy the woman, and the monster will destroy himself.
 
-As Shaw's campaign of terror escalates, Mara discovers that the world still refuses to believe her -- that her pain is still invisible, her voice still dismissed. And Cole, who once walked away from her broken body, now faces a terrifying question: how far will he go to protect the one person who made him feel human? Will he shield her from his world -- or teach her to survive it?
+As the campaign of terror escalates, Mara discovers that the world still refuses to believe her -- that her pain is still invisible, her voice still dismissed. And Cole faces a terrifying question: how far will he go to protect the one person who made him feel human? Will he shield her from his world -- or teach her to survive it?
 
-The conclusion of the Sinners Duet is a white-knuckle descent into the space where love meets violence, where vulnerability is both weapon and salvation, and where two people the world wrote off as broken discover what they are truly capable of becoming.
+The conclusion of the Sinners Duet is a white-knuckle descent into the space where love meets violence, where vulnerability is both weapon and salvation.
 
 There is no devil. Only the choices we make in the dark.`,
   characters: [

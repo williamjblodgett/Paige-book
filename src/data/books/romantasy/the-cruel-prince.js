@@ -9,9 +9,9 @@ export default {
   accentColor: "#7c5cbf",
   synopsis: `Jude was seven when the faerie general Madoc murdered her parents and took her to live in Elfhame, the treacherous realm of the immortal fae. Now seventeen, she has spent a decade fighting for survival among beings who consider humans nothing more than playthings. She cannot be glamoured. She cannot be controlled. And she refuses — absolutely refuses — to be broken.
 
-Prince Cardan is the youngest son of the High King, and he makes Jude's life a living nightmare. He is beautiful, vicious, and takes particular delight in tormenting the mortal girl who dares to defy him. Jude hates him with every fiber of her being. At least, that is what she tells herself every time she catches him watching her with those dark, unreadable eyes.
+Prince Cardan is the youngest son of the High King, and he makes Jude's life a living nightmare. He is beautiful, vicious, and takes particular delight in tormenting the mortal girl who dares to defy him. Jude hates him with every fiber of her being. At least, that is what she tells herself.
 
-When a succession crisis erupts in the High Court, Jude sees her chance. She does not want to just survive in Elfhame — she wants power. Real, untouchable, political power that will ensure no one can ever hurt her again. To get it, she will lie, spy, and scheme her way through the most dangerous court in existence, playing a game where one wrong move means death.
+When a succession crisis erupts in the High Court, Jude sees her chance. She does not want to just survive — she wants power. Real, untouchable, political power that will ensure no one can ever hurt her again. To get it, she will lie, spy, and scheme through the most dangerous court in existence, where one wrong move means death.
 
 But the deeper Jude sinks into faerie politics, the more she realizes that Cardan is not simply the cruel prince he pretends to be. And the tangled web of hatred and fascination between them is becoming something far more volatile — and far more dangerous — than either of them can control.
 

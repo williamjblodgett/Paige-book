@@ -8,15 +8,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#2a1020"],
   accentColor: "#8b1a4a",
-  synopsis: `Christian Harper is the most dangerous kind of man -- the kind who watches, waits, and never loses control. As the enigmatic CEO of Harper Security and owner of the luxury Mirage apartment building, he has built an empire on secrets and surveillance. And he has been watching Stella Alonso far longer than she knows.
+  synopsis: `Christian Harper is the most dangerous kind of man -- the kind who watches, waits, and never loses control. He has built an empire on secrets and surveillance. And he has been watching Stella Alonso far longer than she knows.
 
-Stella is a gentle, introverted fashion influencer barely holding her life together. She works a magazine job she hates to pay for the care of someone she loves, and her dream of launching her own fashion brand feels further away every day. When she is suddenly fired and left desperate, Christian appears with an offer she cannot refuse: fake date him to boost her following and secure a career-saving brand deal, and in return she will accompany him to corporate events.
+Stella is a gentle, introverted fashion influencer barely holding her life together. When she is suddenly fired and left desperate, Christian appears with an offer she cannot refuse: fake date him to boost her following and secure a career-saving brand deal. In return, she will accompany him to corporate events.
 
 It is a business arrangement. Nothing more.
 
 Except Christian's interest in Stella is anything but professional, and it did not start with their deal. Behind his controlled exterior lies an obsession that predates their arrangement -- a web of manipulation and surveillance that would shatter her trust if she ever discovered it.
 
-As they travel from New York to Hawaii, the line between performance and passion dissolves. Stella finds her confidence growing, her designs taking shape, and her feelings for Christian becoming impossible to deny. But a stalker from her past is escalating, and Christian's protective instincts reveal depths of devotion that are as intoxicating as they are alarming.
+As the line between performance and passion dissolves, Stella's feelings for Christian become impossible to deny. But a stalker from her past is escalating. And Christian's protective instincts reveal depths of devotion that are as intoxicating as they are alarming.
 
 Everyone has secrets. Christian's could destroy them. The question is whether what they have built on twisted lies can survive the truth.`,
   characters: [

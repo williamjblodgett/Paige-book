@@ -8,13 +8,13 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#2a1020"],
   accentColor: "#8b1a4a",
-  synopsis: `Alex Volkov remembers everything. Every detail, every moment, every second of the worst night of his life. A rare neurological condition means his memories never fade -- and the ones that haunt him most have fueled a years-long obsession with revenge.
+  synopsis: `Alex Volkov remembers everything. A rare neurological condition means his memories never fade -- and the ones that haunt him most have fueled a years-long obsession with revenge. Cold, calculating, and ruthlessly ambitious, he has spent eight years embedding himself in the Chen family's life for one purpose.
 
-Cold, calculating, and ruthlessly ambitious, Alex has spent eight years embedding himself in the Chen family's life for one purpose. Now, when his best friend Josh leaves the country for a year, Josh makes one request: look after my little sister.
+Now, when his best friend Josh leaves the country for a year, Josh makes one request: look after my little sister.
 
-Ava Chen is everything Alex is not -- warm, open, full of light. She is also everything he cannot afford to want. But living next door to her, watching over her, being close enough to see the way she smiles and the nightmares that wake her screaming -- Alex's iron control begins to crack.
+Ava Chen is everything Alex is not -- warm, open, full of light. She is also everything he cannot afford to want. But living next door to her, being close enough to see the way she smiles and the nightmares that wake her screaming -- Alex's iron control begins to crack.
 
-Ava knows Alex Volkov is dangerous. His eyes are too cold, his walls too high, and the way he watches her is more possession than protection. She should keep her distance. Instead, she finds herself drawn to the glimpses of fire beneath his ice -- and the man who emerges when no one else is watching.
+Ava knows Alex is dangerous. His eyes are too cold, his walls too high, and the way he watches her is more possession than protection. She should keep her distance. Instead, she finds herself drawn to the fire beneath his ice.
 
 But Alex is keeping a secret that could destroy everything between them. His carefully constructed world is built on a lie, and when the truth surfaces, it will shatter more than just their fragile trust.
 

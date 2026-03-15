@@ -7,17 +7,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1508", "#0a0a08"],
   accentColor: "#c9a84c",
-  synopsis: `Troy Brennan is Boston royalty — the kind that rules from the shadows. Heir to the Brennan criminal empire, he was raised to be ruthless, strategic, and emotionless. He does not do mercy. He does not do second chances. And when he sets his sights on Sparrow Raynes, it is not by accident.
+  synopsis: `Troy Brennan is Boston royalty — the kind that rules from the shadows. Heir to a criminal empire, he was raised to be ruthless, strategic, and emotionless. He does not do mercy. He does not do second chances. And when he sets his sights on Sparrow Raynes, it is not by accident.
 
-Sparrow was once a musical prodigy destined for greatness — a concert cellist with the world at her feet. Now she lives in the wreckage of a life destroyed by a single catastrophic event, haunted by trauma and surviving in the margins. She has no idea that a mafia prince has been watching her. Studying her. Waiting.
+Sparrow was once a musical prodigy with the world at her feet. Now she lives in the wreckage of a life destroyed by trauma, surviving in the margins. She has no idea that a mafia prince has been watching her. Studying her. Waiting.
 
-Troy's interest is calculated. Sparrow is connected to a betrayal he is determined to avenge, and she is a piece of a puzzle he intends to solve by any means necessary. But when he pulls her into his world, his carefully laid plans begin to crack. Because Sparrow is not the broken, compliant woman he expected. She is fierce beneath the damage. Stubbornly, defiantly alive. And she fights him not with violence, but with a resilience his brutality cannot touch.
+Troy's interest is calculated — she is connected to a betrayal he is determined to avenge. But when he pulls her into his world, his plans begin to crack. Because Sparrow is not the broken, compliant woman he expected. She is fierce beneath the damage. Stubbornly, defiantly alive. And she fights him not with violence but with a resilience his brutality cannot touch.
 
 He punishes her. He protects her. He cannot decide which impulse is stronger.
 
 She hates him. She sees through him. She cannot stop the pull between them.
 
-As secrets surface and the true cost of Troy's revenge reveals itself, both must face a terrifying question: What happens when the person you were meant to destroy becomes the only person who can save you?`,
+What happens when the person you were meant to destroy becomes the only person who can save you?`,
   characters: [
     { name: "Troy Brennan", role: "Heir to the Brennan criminal empire in Boston, groomed to be ruthless and strategic. His pursuit of Sparrow begins as calculated revenge but evolves into something that threatens to dismantle everything he was raised to be." },
     { name: "Sparrow Raynes", role: "A former musical prodigy whose life was destroyed by trauma. Fierce beneath the damage, she fights Troy not with violence but with a resilience his brutality cannot extinguish, making her the most dangerous person in his world." }

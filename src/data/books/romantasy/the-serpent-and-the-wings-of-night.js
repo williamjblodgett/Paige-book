@@ -9,9 +9,9 @@ export default {
   accentColor: "#7c5cbf",
   synopsis: `Oraya is the only human in a kingdom of vampires — and every single one of them could kill her without breaking a sweat. Adopted by the Nightborn king and raised in a palace of predators, she has trained her entire life to survive. But survival is not enough. She wants to belong.
 
-The Kejari offers her that chance. Held once every hundred years and overseen by the goddess who created all vampires, this brutal tournament grants the winner a single wish — anything, no limits, no restrictions. For Oraya, it means the possibility of becoming something more than mortal prey. It means finally earning her place.
+The Kejari offers her that chance. Held once every hundred years and overseen by the goddess who created all vampires, this brutal tournament grants the winner a single wish — anything, no limits, no restrictions. For Oraya, it means the possibility of becoming something more than prey.
 
-There is just one problem: she cannot do it alone. Raihn is a mysterious vampire warrior from a rival house — charming, lethal, and hiding secrets behind every disarming smile. Their alliance is born of desperation and sealed in blood, and despite everything Oraya has been taught about trusting vampires, she finds herself drawn to him in ways that terrify her.
+There is just one problem: she cannot do it alone. Raihn is a mysterious vampire warrior from a rival house — charming, lethal, and hiding secrets behind every smile. Their alliance is born of desperation, and despite everything Oraya has been taught about trusting vampires, she finds herself drawn to him in ways that terrify her.
 
 As the Kejari's trials grow deadlier, their partnership deepens into something far more dangerous than strategy. But the tournament allows only one winner, and the political machinations of the vampire houses are closing in. Raihn is not who he claims to be. And when the final trial arrives, Oraya will face an impossible choice: the wish she has wanted her entire life, or the man she was never supposed to love.
 

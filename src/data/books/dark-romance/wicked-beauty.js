@@ -10,15 +10,15 @@ export default {
   accentColor: "#c42a2a",
   synopsis: `The title of Ares is open, and in Olympus, that means one thing: blood.
 
-The position will not be filled through politics or inheritance. It will be decided in a brutal, no-holds-barred tournament where anyone strong enough can stake their claim. Achilles Kallis has spent his entire life clawing his way up from nothing, and this competition is his shot at everything. He enters alongside Patroclus Fotos, the man he loves, doubling their odds.
+Achilles Kallis has spent his life clawing his way up from nothing, and this brutal tournament is his shot at everything. He enters alongside Patroclus Fotos, the man he loves, doubling their odds.
 
 Neither of them expects Helen Kasios.
 
-Helen has spent her life being treated as a prize -- a beautiful trophy passed between powerful men who decided she belonged to them. When the Ares competition is announced, she does the last thing anyone expects: she enters. Not to win the title for someone else. To win her own freedom. To prove she belongs to no one.
+Helen has spent her life being treated as a prize -- a beautiful trophy passed between powerful men. When the competition is announced, she does the last thing anyone expects: she enters. Not to win the title for someone else. To win her own freedom.
 
-But powerful people would rather see Helen dead than leading the city. And as the tournament turns lethal, three competitors find themselves drawn together by a chemistry none of them can deny. Achilles and Helen have always been fire and gasoline -- volatile, magnetic, and incapable of staying away from each other. Patroclus, devoted to Achilles, discovers that Helen's fierce independence and hidden vulnerability pull at him just as powerfully.
+But powerful people would rather see Helen dead than leading the city. And as the tournament turns lethal, three competitors find themselves drawn together by a chemistry none of them can deny. Achilles and Helen have always been fire and gasoline. Patroclus discovers that Helen's fierce independence pulls at him just as powerfully.
 
-What unfolds is a connection that defies every rule Olympus has set for them. But with assassins closing in and the competition growing bloodier by the day, trust is a luxury they cannot afford -- and the one thing that might keep all three of them alive.
+With assassins closing in and the competition growing bloodier by the day, trust is a luxury they cannot afford -- and the one thing that might keep all three of them alive.
 
 A searing MMF reimagining of Achilles, Patroclus, and Helen of Troy.`,
   characters: [

@@ -9,7 +9,7 @@ export default {
   accentColor: "#1e8a5f",
   synopsis: `Mechanic by day. Coyote shapeshifter by night. Trouble magnet around the clock.
 
-Mercedes "Mercy" Thompson fixes Volkswagens in the Tri-Cities of Washington State and minds her own business — or tries to. Being a walker, a rare Native American shapeshifter, in a world crawling with werewolves, vampires, and fae means keeping your head down and your nose clean. Mercy answers to no pack, no master, and no one. Especially not Adam Hauptman, the infuriatingly possessive werewolf Alpha who lives next door and has made it very clear he considers her his.
+Mercedes "Mercy" Thompson fixes Volkswagens and minds her own business — or tries to. Being a rare shapeshifter in a world crawling with werewolves, vampires, and fae means keeping your head down. Mercy answers to no pack, no master, and no one. Especially not Adam Hauptman, the infuriatingly possessive werewolf Alpha who lives next door and has made it very clear he considers her his.
 
 Then a bloodied, terrified teenage werewolf stumbles into her shop, and Mercy's quiet life detonates.
 

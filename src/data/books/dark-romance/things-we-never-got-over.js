@@ -8,17 +8,17 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0d0a08", "#2a2018"],
   accentColor: "#c42a2a",
-  synopsis: `Naomi Witt came to Knockemout, Virginia, to rescue her estranged twin sister. Instead, Tina stole her car, her wallet, and her identity — leaving Naomi stranded in a town she's never been to, with an eleven-year-old niece she didn't know existed.
+  synopsis: `Naomi Witt came to Knockemout, Virginia, to rescue her estranged twin sister. Instead, Tina stole her car, her wallet, and her identity -- leaving Naomi stranded in a town she has never been to, with an eleven-year-old niece she did not know existed.
 
-Enter Knox Morgan: bar owner, resident grump, and the last person in Knockemout who wants anything to do with Naomi's mess. He's cold, stubborn, and built walls so high they'd need a blowtorch to penetrate. He makes it very clear she is not welcome.
+Enter Knox Morgan: bar owner, resident grump, and the last person in Knockemout who wants anything to do with Naomi's mess. He makes it very clear she is not welcome.
 
-Too bad she needs a job. Too bad he needs a bartender. And too bad Waylay — the fierce, abandoned kid caught in the middle — needs someone who won't disappear.
+Too bad she needs a job. Too bad he needs a bartender. And too bad Waylay -- the fierce, abandoned kid caught in the middle -- needs someone who will not disappear.
 
-Naomi is sunny, optimistic, and determined to see the good in everyone. Knox is allergic to all three. She disrupts his entire existence with her relentless kindness and her refusal to be intimidated. He unsettles her with a protectiveness so fierce it takes her breath away.
+Naomi is sunny, optimistic, and determined to see the good in everyone. Knox is allergic to all three. She disrupts his entire existence with her relentless kindness. He unsettles her with a protectiveness so fierce it takes her breath away.
 
-But Knockemout is a town full of secrets. Tina isn't done causing damage. And Knox is carrying a past that could burn everything down.
+But Knockemout is a town full of secrets. Tina is not done causing damage. And Knox is carrying a past that could burn everything down.
 
-What started as mutual irritation is becoming something neither of them planned — and something Knox isn't sure he deserves.`,
+What started as mutual irritation is becoming something neither of them planned -- and something Knox is not sure he deserves.`,
   characters: [
     { name: "Naomi Witt", role: "A sunny, optimistic woman stranded in Knockemout after her twin sister steals her identity. She fights to build a new life and gain custody of her niece Waylay." },
     { name: "Knox Morgan", role: "Knockemout's grumpy bar owner who hides a protective heart beneath layers of emotional armor. He's drawn to Naomi despite every instinct telling him to stay away." },

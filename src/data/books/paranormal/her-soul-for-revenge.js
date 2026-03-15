@@ -9,15 +9,15 @@ export default {
   accentColor: "#1e8a5f",
   synopsis: `She survived. But survival is not the same as living.
 
-Juniper Kynes escaped the cult in Abelaum with her body intact and her mind shattered. Now she is consumed by a single, burning purpose: revenge against the people who tortured her and left her for dead. She does not want healing. She does not want peace. She wants blood.
+Juniper escaped the cult with her body intact and her mind shattered. Now she is consumed by a single, burning purpose: revenge against the people who tortured her and left her for dead. She does not want healing. She does not want peace. She wants blood.
 
-Enter Zane — an ancient, wild demon with his own dangerous agenda and an offer Juniper cannot refuse. Her soul in exchange for the power to destroy her tormentors. She does not hesitate. Her soul feels like a small price for vengeance.
+Enter Zane — an ancient, wild demon with his own dangerous agenda and an offer she cannot refuse. Her soul in exchange for the power to destroy her tormentors. She does not hesitate. Her soul feels like a small price for vengeance.
 
 But deals with demons are never simple.
 
-Zane is drawn to Juniper's ferocity like nothing he has encountered in centuries. She is not afraid of him — she is not afraid of anything anymore, because the worst has already happened. Her reckless fearlessness is intoxicating to a demon who has spent an eternity surrounded by terror. And Juniper? She did not expect the creature who should be her damnation to become the one being who understands the rage that lives inside her.
+Zane is drawn to her ferocity like nothing he has encountered in centuries. She is not afraid of him — she is not afraid of anything anymore, because the worst has already happened. And Juniper did not expect the creature who should be her damnation to become the one being who understands the rage that lives inside her.
 
-As they tear through the cult's power structure together, the transactional bargain between them catches fire. Zane discovers that protecting Juniper matters more than any deal. Juniper discovers that her capacity for connection was not destroyed — it was buried.
+As they tear through the cult's power structure together, the transactional bargain between them catches fire. What started as a deal is becoming something neither of them knows how to name — and the darkness closing in will not wait for them to figure it out.
 
 Darker, angrier, and more intense than its predecessor, this is a story where healing is ugly, revenge is messy, and love is forged in fire.`,
   characters: [

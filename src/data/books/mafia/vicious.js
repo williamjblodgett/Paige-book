@@ -9,17 +9,19 @@ export default {
   accentColor: "#c9a84c",
   synopsis: `Vicious is not a nickname. It is a warning.
 
-Baron Spencer Jr. rules All Saints High with cruelty, old money, and the kind of arrogance that comes from knowing no one can touch him. As the leader of the HotHoles, he has never met a person he could not break. He is beautiful, brilliant, and genuinely terrifying.
+Baron Spencer Jr. rules All Saints High with cruelty, old money, and the kind of arrogance that comes from knowing no one can touch him. He has never met a person he could not break. He is beautiful, brilliant, and genuinely terrifying.
 
 Then the housekeeper's daughter moves to town.
 
-Emilia LeBlanc is poor, proud, and everything the elite of Todos Santos despise. She should be an easy target. But when Vicious wages his campaign of torment, Emilia does something no one has ever done — she refuses to break. He destroys her things; she stares him down. He humiliates her publicly; she holds her head higher. And it drives him absolutely insane.
+Emilia LeBlanc is poor, proud, and everything the elite despise. She should be an easy target. But when Vicious wages his campaign of torment, Emilia does something no one has ever done — she refuses to break. He destroys her things; she stares him down. He humiliates her publicly; she holds her head higher.
 
-Because the truth Vicious will never admit is that his cruelty is not hatred. It is obsession. She makes him feel something in a world where he trained himself to feel nothing, and he punishes her for it.
+It drives him absolutely insane.
 
-Years later, their paths collide again. Vicious is now a powerful man with dangerous connections. Emilia has built a life far from his reach. But the hatred, the desire, and the unresolved tension between them have only grown more volatile with time. And this time, Vicious is done fighting what he wants.
+Because the truth he will never admit is that his cruelty is not hatred. It is obsession. She makes him feel something in a world where he trained himself to feel nothing, and he punishes her for it.
 
-He will have her. Or he will burn it all down trying.`,
+Years later, their paths collide again. He is now a powerful man with dangerous connections. She has built a life far from his reach. But the hatred, the desire, and the unresolved tension between them have only grown more volatile with time.
+
+This time, Vicious is done fighting what he wants. He will have her. Or he will burn it all down trying.`,
   characters: [
     { name: "Vicious (Baron Spencer Jr.)", role: "The cruelest boy at All Saints High, leader of the HotHoles, and later a powerful businessman with criminal connections. His obsessive bullying of Emilia is the twisted expression of a desire he was never taught to handle." },
     { name: "Emilia LeBlanc", role: "The housekeeper's daughter who refuses to break under Vicious's campaign of torment. Her resilience in the face of his cruelty is what makes her the only person who has ever gotten under his skin." },

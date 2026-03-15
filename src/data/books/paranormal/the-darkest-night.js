@@ -7,13 +7,13 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1a10", "#0a0e0a"],
   accentColor: "#1e8a5f",
-  synopsis: `Centuries ago, they committed the ultimate sin — they opened Pandora's box. Now each warrior is cursed to carry one of the demons they unleashed, bound together for eternity. They are the Lords of the Underworld, and every day is a war against the darkness living inside them.
+  synopsis: `Centuries ago, they committed the ultimate sin — they opened Pandora's box. Now each warrior is cursed to carry one of the demons they unleashed. They are the Lords of the Underworld, and every day is a war against the darkness living inside them.
 
-Maddox is the keeper of Violence. The demon in his blood feeds on rage, screams for destruction, and never, ever stops. Every midnight, Maddox dies. Every dawn, he is dragged back to endure it all again.
+Maddox is the keeper of Violence. The demon in his blood feeds on rage, screams for destruction, and never stops. Every midnight, he dies. Every dawn, he is dragged back to endure it all again.
 
 Then she walks into his fortress. And for the first time in millennia — silence.
 
-Ashlyn Darrow has spent her entire life hearing voices. Not hallucinations — every conversation that has ever occurred in any place she stands floods her mind in an endless, maddening torrent. She has come to Budapest desperate for relief, searching for someone who might understand what it means to carry something unbearable inside you.
+Ashlyn Darrow has spent her life hearing voices — every conversation that has ever occurred in any place she stands floods her mind in an endless, maddening torrent. She has come to Budapest desperate for relief, searching for someone who might understand what it means to carry something unbearable inside you.
 
 Near Maddox, the voices vanish. Near Ashlyn, the violence goes quiet. They are each other's antidote — and the pull between them is instant, overwhelming, and impossible to resist.
 

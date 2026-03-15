@@ -8,17 +8,15 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0810", "#1e1830"],
   accentColor: "#c42a2a",
-  synopsis: `Nash Morgan used to be the golden brother — Knockemout's chief of police, the man everyone depended on. Then he took a bullet to the head, and the man who woke up in that hospital bed isn't the same. The easy smile is gone. In its place: explosive anger, crippling headaches, and a darkness that terrifies him. Nash is broken, and he's determined to suffer alone.
+  synopsis: `Nash Morgan used to be the golden brother -- Knockemout's chief of police, the man everyone depended on. Then he took a bullet to the head, and the man who woke up is not the same. The easy smile is gone. In its place: explosive anger, crippling headaches, and a darkness that terrifies him.
 
-Angelina "Lina" Solavita is a U.S. Marshal with a sharp tongue, a dangerous assignment, and zero patience for brooding men who refuse to help themselves. She's in Knockemout tracking a fugitive, and she needs the stubborn chief of police to cooperate. What she doesn't need is the inconvenient, combustible attraction to a damaged man who looks at her like she's both his salvation and his undoing.
+Angelina Solavita is a U.S. Marshal with a sharp tongue, a dangerous assignment, and zero patience for brooding men who refuse to help themselves. She is in Knockemout tracking a fugitive, and she needs the stubborn chief to cooperate. What she does not need is the combustible attraction to a damaged man who looks at her like she is both his salvation and his undoing.
 
 He pushes her away. She pushes right back.
 
-Nash is fiercely protective even at his lowest. Lina is lethal and independent, hiding her own wounds beneath armor just as thick as his. Together they're a volatile, magnetic collision — the kind that either burns out or burns everything else down.
+Nash is fiercely protective even at his lowest. Lina is lethal and independent, hiding her own wounds beneath armor just as thick as his. Together they are a volatile, magnetic collision -- the kind that either burns out or burns everything else down.
 
-But the danger that put Nash in that hospital bed isn't finished with Knockemout. And Lina's assignment is getting more complicated by the day — especially now that the line between professional and personal has disappeared entirely.
-
-The things we hide from the light have a way of finding us anyway.`,
+But the danger that put Nash in that hospital bed is not finished with Knockemout. And the things we hide from the light have a way of finding us anyway.`,
   characters: [
     { name: "Nash Morgan", role: "Knockemout's chief of police recovering from a gunshot wound to the head. Once the golden brother, he now battles darkness, anger, and trauma he's determined to face alone." },
     { name: "Angelina 'Lina' Solavita", role: "A tough U.S. Marshal tracking a dangerous fugitive in Knockemout. Sharp and fearless, she refuses to let Nash push her away despite the complications." },

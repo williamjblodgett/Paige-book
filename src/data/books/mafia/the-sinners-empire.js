@@ -7,19 +7,19 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1508", "#0a0908"],
   accentColor: "#c9a84c",
-  synopsis: `Jozef Koba clawed his way out of poverty to become the most feared man in Chicago's underworld. He rules his empire with blood, iron, and an absolute refusal to show weakness. He is trusted by few. Loved by no one. And that is exactly how he wants it.
+  synopsis: `Jozef Koba clawed his way out of poverty to become the most feared man in Chicago's underworld. He rules with blood, iron, and an absolute refusal to show weakness. Trusted by few. Loved by no one. And that is exactly how he wants it.
 
-Then Shaun walks into his world.
+Then she walks into his world.
 
-A nurse called in to treat one of his wounded men, Shaun has no business being anywhere near a crime lord. But Jozef sees something in her that stops him cold — compassion without judgment, bravery without violence, a kindness so genuine it feels like a weapon aimed straight at the walls he has spent a lifetime building.
+A nurse called in to treat one of his wounded men, she has no business being anywhere near a crime lord. But Jozef sees something in her that stops him cold — compassion without judgment, bravery without violence, a kindness so genuine it feels like a weapon aimed at every wall he has spent a lifetime building.
 
 His decision is immediate: she cannot leave.
 
-Trapped in a gilded cage of luxury and protection, Shaun is terrified, furious, and deeply confused by her captor. Jozef is brutal with his enemies but impossibly careful with her. Commanding with his men but attentive to her every need. He learns what she likes, anticipates her comforts, and guards her with a ferocity that borders on obsessive.
+Trapped in a gilded cage of luxury and protection, she is terrified, furious, and deeply confused by her captor. He is brutal with his enemies but impossibly careful with her. Commanding with his men but attentive to her every need. He learns what she likes, anticipates her comforts, and guards her with a ferocity that borders on obsessive.
 
 He is a monster. She is the first person who has ever made him want to be something else.
 
-As enemies close in and danger escalates, the walls between them fracture. But can Shaun truly choose the man who stole her freedom? And can a king who has taken everything he has ever wanted learn that the one thing worth having is the one thing that must be given freely?`,
+But can she truly choose the man who stole her freedom? And can a king who has taken everything he has ever wanted learn that the one thing worth having is the one thing that must be given freely?`,
   characters: [
     { name: "Jozef Koba", role: "The ruthless king of the Chicago underworld who clawed his way from poverty to power. His decision to keep Shaun is immediate and total, driven by an awakening he finds both intoxicating and terrifying." },
     { name: "Shaun", role: "A nurse brought into Jozef's world to tend a wounded associate. Her compassion, bravery, and refusal to judge make her the first person to see past Jozef's brutality to something worth saving." }

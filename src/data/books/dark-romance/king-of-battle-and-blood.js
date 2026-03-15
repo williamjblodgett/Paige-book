@@ -8,15 +8,17 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0d0a12", "#2a1525"],
   accentColor: "#c42a2a",
-  synopsis: `For two hundred years, the vampire king Adrian Aleksandr Vasiliev has waged war against the Nine Houses of Cordova, consuming kingdom after kingdom into his growing empire of the Red Eclipse. When he turns his hunger toward Isolde de Lara's homeland, her father sees only one path to survival: a political marriage between his daughter and the monster at their gates.
+  synopsis: `She goes to her wedding with a blade strapped to her thigh and murder in her heart.
 
-Isolde goes to her wedding with a blade strapped to her thigh and murder in her heart.
+Princess Isolde de Lara has been sacrificed -- bartered to the vampire king in a political marriage meant to save her kingdom from his two-hundred-year conquest. She has no intention of being a dutiful bride. She plans to kill Adrian Aleksandr Vasiliev on their wedding night and end his reign of terror forever.
 
-But the vampire king is nothing like the beast she expected. He is intelligent, magnetic, and terrifyingly perceptive. He sees through her assassination attempts with amused indifference. He treats her not as a conquest but as an equal -- a queen worthy of his dark empire.
+There is just one problem: the monster is not what she expected.
 
-As Isolde navigates the treacherous politics of Adrian's court, she discovers that the war between their peoples is driven by something far older and more devastating than simple bloodlust. The humans she swore to protect are not as innocent as she believed. And the passion between her and Adrian is burning hotter with every encounter -- transforming from hatred to hunger to something neither of them can name.
+Adrian is magnetic, dangerously intelligent, and infuriatingly perceptive. He sees through her assassination attempts with amused indifference that makes her blood boil. Worse, he does not treat her as a conquest -- he treats her as an equal. A queen. And the fire between them burns hotter with every encounter.
 
-She came to kill a king. She may have met her match instead.`,
+As Isolde navigates the treacherous politics of the vampire court, everything she believed begins to unravel. Adrian's war is not born of simple bloodlust. The humans she swore to protect are not as innocent as she thought. And the passion she feels for her enemy is becoming impossible to deny.
+
+With treachery closing in from both sides and a new threat rising that could destroy humans and vampires alike, Isolde faces an impossible choice -- her duty to her people, or the king she was never supposed to want.`,
   characters: [
     { name: "Isolde de Lara", role: "A human princess forced into a political marriage with the vampire king. Fierce and determined, she enters the marriage planning assassination but discovers a world more complex than she imagined." },
     { name: "Adrian Aleksandr Vasiliev", role: "The vampire king of the Red Eclipse who has waged war for two centuries. Intelligent and magnetic, he sees Isolde as an equal and a true queen rather than a conquest." },
