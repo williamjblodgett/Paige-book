@@ -13,7 +13,7 @@ export default function ExternalBookLinks({ title, author, accentColor }) {
   }
 
   return (
-    <div className="flex items-center justify-center gap-3 mt-5">
+    <div className="flex items-center justify-center md:justify-start gap-3 mt-5">
       <a
         href={amazonUrl}
         target="_blank"
