@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1a15", "#0f0a30"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 456,
+  publicationYear: 2019,
+  standalone: true,
+  contentWarnings: ["violence", "death"],
   synopsis: `Elisabeth Scrivener has spent her life among books that can kill you. In the Great Libraries of Austermeer, grimoires are alive — sentient, magical, and dangerous. Damage one, and it transforms into a monstrous Malefict. Elisabeth was raised to be their guardian, and she knows one rule above all: never trust a sorcerer.
 
 Then her library is attacked, its most dangerous grimoire unleashed as a monster, and Elisabeth is blamed. Arrested and facing trial, she realizes the truth — someone is deliberately destroying the Great Libraries, one by one. And the only person who can help her stop it is Nathaniel Thorn: a sorcerer with a sharp tongue, devastating charm, and a demon servant who should be terrifying but is oddly... protective.

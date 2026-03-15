@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0a0808"],
   accentColor: "#c9a84c",
+  pov: "single-fmc",
+  pageCount: 428,
+  publicationYear: 2019,
+  standalone: false,
+  contentWarnings: ["violence", "death", "dubcon", "cheating"],
   synopsis: `Elena Abelli is the Sweet Abelli — the perfect daughter, the charming smile, the flawless mafia principessa. But beneath the polished surface, she is hiding secrets that could unravel everything.
 
 Nicolas Russo is one of New York's most dangerous Made Men — commanding, possessive, and utterly untouchable. He has been promised to the Abelli family through an arranged marriage. There is just one problem: he is engaged to Elena's sister.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1508", "#0a0808"],
   accentColor: "#c9a84c",
+  pov: "single-fmc",
+  pageCount: 395,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: ["violence", "death", "kidnapping"],
   synopsis: `Mila Mikhailov has spent her life being the perfect daughter — never asking questions, never looking too closely at the source of her family's wealth. But when suspicion finally cracks through the surface, she does the one thing she has never done: something reckless. She flies to Moscow to uncover the truth.
 
 She should have stayed home.

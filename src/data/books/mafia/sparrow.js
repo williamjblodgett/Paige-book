@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1508", "#0a0a08"],
   accentColor: "#c9a84c",
+  pov: "single-fmc",
+  pageCount: 364,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: ["violence", "kidnapping", "dubcon", "abuse"],
   synopsis: `Troy Brennan is Boston royalty — the kind that rules from the shadows. Heir to a criminal empire, he was raised to be ruthless, strategic, and emotionless. He does not do mercy. He does not do second chances. And when he sets his sights on Sparrow Raynes, it is not by accident.
 
 Sparrow was once a musical prodigy with the world at her feet. Now she lives in the wreckage of a life destroyed by trauma, surviving in the margins. She has no idea that a mafia prince has been watching her. Studying her. Waiting.

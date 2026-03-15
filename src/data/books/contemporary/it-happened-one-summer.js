@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0f18", "#0f1318"],
   accentColor: "#c45b84",
+  pov: "dual-pov",
+  pageCount: 384,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: [],
   synopsis: `She's an LA socialite with a million followers. He's a crab fisherman who doesn't own a phone charger. Welcome to the love story no one saw coming.
 
 When Piper Bellinger's latest viral stunt goes wrong, her stepfather does the unthinkable: he cuts off her credit cards and ships her to Westport, a rain-soaked fishing village on the Washington coast. Apparently, her dead biological father left her a run-down bar there. How charming.

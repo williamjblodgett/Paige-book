@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0510", "#0f0308"],
   accentColor: "#c42a6b",
+  pov: "multi-pov",
+  pageCount: 410,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["bdsm"],
   synopsis: `Hunter and Isabel Scott have the perfect marriage — devoted, passionate, unshakable. Their best friend Drake has always been on the outside looking in: charming, commitment-averse, and secretly carrying a torch he has never dared to name.
 
 When a cross-country road trip puts the three of them in dangerously close quarters, a single moment changes everything. At a club demonstration, Drake and Isabel are on stage together while Hunter watches from the audience — and something inside Hunter ignites. A desire he never knew he had. A fantasy he cannot shake.

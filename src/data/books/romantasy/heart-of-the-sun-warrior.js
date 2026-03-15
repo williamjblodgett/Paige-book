@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#200a30", "#0e1535"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 400,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence", "death", "war"],
   synopsis: `She freed her mother from the moon. She should feel triumphant. But Xingyin's heart is in ruins — shattered by the warrior she trusted, who hid a devastating secret behind every stolen glance.
 
 Now an ancient darkness stirs across the immortal realms, and a desperate quest sends Xingyin to the ocean depths, through enchanted forests, and into the very kingdom of her enemies. She must seek legendary artifacts of terrifying power before they fall into the wrong hands — and time is running out.

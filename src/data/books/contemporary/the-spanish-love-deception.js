@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#e63946", "#f4a261"],
   accentColor: "#c45b84",
+  pov: "single-fmc",
+  pageCount: 448,
+  publicationYear: 2021,
+  standalone: true,
+  contentWarnings: [],
   synopsis: `Catalina Martin is desperate. Her sister's wedding in Spain is weeks away, her ex-boyfriend will be there with his shiny new girlfriend, and she needs a date impressive enough to prove she has moved on. She has asked everyone she can think of. She has been turned down by everyone she can think of.
 
 Everyone except Aaron Blackford.

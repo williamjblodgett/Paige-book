@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a18", "#1a1535"],
   accentColor: "#c42a2a",
+  pov: "single-fmc",
+  pageCount: 583,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: ["violence", "death"],
   synopsis: `After her parents' tragic death, Grace Foster is sent to live with her uncle at Katmere Academy, a remote school buried deep in the Alaskan wilderness. The students are impossibly beautiful, strangely hostile, and they all seem to know something about Grace that she does not know about herself.
 
 Then there is Jaxon Vega. Dark-eyed, dangerously brooding, and feared by every student on campus, he is the one person Grace is told to stay away from. He tells her the same thing. She has never been good at following orders.

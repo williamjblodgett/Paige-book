@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1030", "#0d0f1a"],
   accentColor: "#8b5c1a",
+  pov: "dual-pov",
+  pageCount: 757,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["grief", "pregnancy", "violence", "death", "addiction"],
   synopsis: `Nesta Archeron is spiraling. Forcibly transformed into High Fae, haunted by war and loss, she has retreated behind razor-sharp walls of fury, reckless nights, and self-destruction. She dares anyone to care. She dares anyone to try.
 
 Cassian tries.

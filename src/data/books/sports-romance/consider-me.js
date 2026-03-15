@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1018", "#1a0a16"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 336,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["violence"],
   synopsis: `Carter Beckett is not subtle. The Vancouver Vipers' star defenseman -- a mountain of a man built like a brick wall -- has been hopelessly, obviously, embarrassingly in love with Olivia Ward for months. He saves her a seat at every game. He remembers exactly how she takes her coffee. He goes completely soft the moment she walks into a room. His teammates will not let him hear the end of it.
 
 There is just one problem. Olivia is his teammate's sister. Off-limits. Untouchable. And she has every reason to keep it that way.

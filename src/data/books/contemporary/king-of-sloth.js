@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#2a1a0a", "#4a3a1a"],
   accentColor: "#c9a84c",
+  pov: "dual-pov",
+  pageCount: 400,
+  publicationYear: 2024,
+  standalone: false,
+  contentWarnings: ["death", "grief"],
   synopsis: `He has a billion-dollar fortune and zero motivation. She's the publicist paid to make him look competent. His favorite hobby is making her job impossible.
 
 Xavier Castillo is heir to an empire he has no interest in running. Charming, gorgeous, and pathologically allergic to responsibility, he'd rather party across three continents than sit in a single boardroom meeting. His publicist, Sloane Kensington, is the only thing standing between him and total career implosion.

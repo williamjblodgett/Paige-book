@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1018", "#1a0a15"],
   accentColor: "#2d8cf0",
+  pov: "single-fmc",
+  pageCount: 510,
+  publicationYear: 2016,
+  standalone: true,
+  contentWarnings: [],
   synopsis: `Vanessa Mazur has spent two years managing every detail of Aiden Graves's life. His meals. His schedule. His fan mail. And in all that time, the massive, monosyllabic NFL defensive end known as the Wall of Winnipeg has barely acknowledged she exists. So she does what any self-respecting woman would do. She quits.
 
 Then Aiden does something he has never done before -- he shows up at her door. With a proposition that is equal parts outrageous and irresistible: marry him for visa purposes, and he will pay off her student loans and fund her dreams. No feelings involved. Strictly business.

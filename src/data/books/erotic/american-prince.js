@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#050a1a", "#0a1230"],
   accentColor: "#1a3a6b",
+  pov: "multi-pov",
+  pageCount: 366,
+  publicationYear: 2017,
+  standalone: false,
+  contentWarnings: ["bdsm", "power-imbalance", "war"],
   synopsis: `He is the Vice President. The Lancelot. The prince who serves at the pleasure of his king. And he has never told anyone his side of the story — until now.
 
 Embry Moore projects confidence to the world. Inside, he is ravaged by guilt, self-loathing, and a love so complicated it threatens to consume him. In the aftermath of a devastating crisis, he finally steps into the spotlight as narrator, peeling back the polished exterior to reveal the man beneath — and the history that binds him to his king in ways no one suspects.

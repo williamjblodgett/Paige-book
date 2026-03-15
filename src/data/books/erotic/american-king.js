@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#050a1a", "#0a1230"],
   accentColor: "#1a3a6b",
+  pov: "multi-pov",
+  pageCount: 420,
+  publicationYear: 2017,
+  standalone: false,
+  contentWarnings: ["bdsm", "power-imbalance", "war"],
   synopsis: `The king is losing his kingdom.
 
 For the first time, step inside the mind of President Maxen Ashley Colchester and discover the man behind the power — not a conqueror, but a man in love, desperate to hold together the two people who complete him.

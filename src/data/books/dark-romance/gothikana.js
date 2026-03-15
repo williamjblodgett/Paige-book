@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a0a", "#1a1a2a"],
   accentColor: "#c42a2a",
+  pov: "single-fmc",
+  pageCount: 293,
+  publicationYear: 2021,
+  standalone: true,
+  contentWarnings: ["violence", "death"],
   synopsis: `Named after the raven in Poe's famous poem, Corvina Clemm has always existed on the fringes -- seeing things others cannot, feeling presences that should not exist, haunted by a mother who went mad and a legacy of darkness she does not understand. When a scholarship brings her to the University of Verenmore, a gothic castle perched on a misty mountain accessible by a single winding road, she hopes to finally find answers.
 
 Verenmore is everything she expected and nothing she was prepared for. Students have disappeared within these walls for decades. Strange rituals mark the academic calendar. The locals whisper of curses. And at the center of it all stands Professor Vad Deverell, a brilliant, enigmatic man with silver eyes that seem to see straight through her.

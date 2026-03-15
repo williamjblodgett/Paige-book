@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0f18", "#1a0a18"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 370,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: [],
   synopsis: `After catching her boyfriend cheating, Callie Cartwright has nowhere to go, barely enough money to survive, and exactly one option: a spare room in a house full of professional hockey players. She does not like hockey. She does not like jocks. And she especially does not like Nathan Rousseau -- the arrogant, infuriating team captain who makes it crystal clear she is not welcome under his roof.
 
 Nathan is intense, disciplined, and chasing a championship. He does not need distractions, and Callie -- with her sharp tongue, her lights left on everywhere, and her complete refusal to be intimidated by him -- is the biggest distraction he has ever encountered. Their clashes are immediate, constant, and legendary among the housemates.

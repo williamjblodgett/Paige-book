@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1a10", "#0a0d0a"],
   accentColor: "#1e8a5f",
+  pov: "single-fmc",
+  pageCount: 344,
+  publicationYear: 2009,
+  standalone: false,
+  contentWarnings: ["violence", "blood", "death"],
   synopsis: `In this world, angels are not guardians. They are gods — ancient, breathtaking, and merciless. They create vampires to serve them, rule from glittering towers, and answer to no one.
 
 Almost no one.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#181508", "#0c0808"],
   accentColor: "#c9a84c",
+  pov: "single-fmc",
+  pageCount: 328,
+  publicationYear: 2015,
+  standalone: false,
+  contentWarnings: ["violence", "dubcon"],
   synopsis: `She is fifteen when they tell her she belongs to the Iceman.
 
 Valentina Scuderi does not get a say. In the Cosa Nostra, daughters are bargaining chips, and she has been traded to Dante Cavallaro — the Capo of the Chicago Outfit, a man nearly twice her age, whose reputation for cold ruthlessness makes hardened criminals lower their eyes.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#151020", "#0f0f18"],
   accentColor: "#8b6b8b",
+  pov: "dual-pov",
+  pageCount: 328,
+  publicationYear: 2014,
+  standalone: true,
+  contentWarnings: ["grief", "death", "pregnancy"],
   synopsis: `The first time Tate Collins sees Miles Archer, he is slumped against her brother's apartment door — drunk, devastated, and barely conscious. He is also the most beautiful man she has ever seen.
 
 Miles is an airline pilot. Her brother's neighbor. And the most emotionally closed-off person she has ever encountered. He offers Tate two rules and one arrangement: do not ask about his past, do not expect a future, and everything between them stays purely physical.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0a0a", "#0d0f1a"],
   accentColor: "#8b1a1a",
+  pov: "single-fmc",
+  pageCount: 617,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: ["violence", "death", "dubcon"],
   synopsis: `Everything Poppy believed was a lie. The guard she was falling for is actually the Dark One himself -- Prince Casteel of Atlantia -- and he has no intention of letting her go. His plan? Marry her, use her as leverage, and reclaim what was stolen from his kingdom. Poppy is nothing more than a pawn.
 
 At least, that is what he keeps telling himself.

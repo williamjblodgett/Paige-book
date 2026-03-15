@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#8b1a1a",
+  pov: "dual-pov",
+  pageCount: 592,
+  publicationYear: 2019,
+  standalone: false,
+  contentWarnings: ["violence", "abuse", "dubcon", "stalking", "bullying", "torture"],
   synopsis: `Winter Ashby helped send Damon Torrance to prison. She thought three years behind bars would cool his rage -- or at least buy her enough time to disappear. She was wrong on both counts.
 
 Now he is out. And he has not come for a conversation.

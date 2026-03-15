@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1018", "#1a0e15"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 352,
+  publicationYear: 2021,
+  standalone: true,
+  contentWarnings: [],
   synopsis: `Bree Camden has three rules when it comes to Nathan Donelson: no flirting, no lingering glances, and absolutely no imagining what it would be like if her NFL quarterback best friend saw her as something more. The rules have kept her heart intact for years. She is not about to break them now.
 
 But when a paparazzi photo sends the tabloids into a frenzy, their well-meaning friends come up with the worst idea in the history of ideas -- fake date each other to put the rumors to rest.

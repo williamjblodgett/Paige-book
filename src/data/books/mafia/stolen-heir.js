@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a10", "#0a0808"],
   accentColor: "#c9a84c",
+  pov: "dual-pov",
+  pageCount: 320,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence", "kidnapping", "dubcon"],
   synopsis: `He lost the only father he ever knew. Now he will take something precious from the family that destroyed his world.
 
 Forged in violence and raised in Chicago's criminal underworld, Miko's grief has hardened into a single, consuming purpose: make the Griffin family pay. His weapon of choice? Their youngest daughter.

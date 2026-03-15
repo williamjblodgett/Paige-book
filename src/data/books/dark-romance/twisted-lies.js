@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a15", "#2a1020"],
   accentColor: "#8b1a4a",
+  pov: "dual-pov",
+  pageCount: 478,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["stalking", "violence", "kidnapping"],
   synopsis: `Christian Harper is the most dangerous kind of man -- the kind who watches, waits, and never loses control. He has built an empire on secrets and surveillance. And he has been watching Stella Alonso far longer than she knows.
 
 Stella is a gentle, introverted fashion influencer barely holding her life together. When she is suddenly fired and left desperate, Christian appears with an offer she cannot refuse: fake date him to boost her following and secure a career-saving brand deal. In return, she will accompany him to corporate events.

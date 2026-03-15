@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0c1018", "#1a0c15"],
   accentColor: "#2d8cf0",
+  pov: "single-fmc",
+  pageCount: 453,
+  publicationYear: 2017,
+  standalone: true,
+  contentWarnings: [],
   synopsis: `Diana Casillas never planned on becoming a mother at twenty-four. But when tragedy takes her brother and his wife, she does not hesitate -- she takes in their two young sons and rebuilds her entire world around them. New city. New house. No time for anything that is not keeping these boys safe and loved.
 
 Then the man next door moves in.

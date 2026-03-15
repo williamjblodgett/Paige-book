@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#2a1a0a", "#4a3a1a"],
   accentColor: "#c9a84c",
+  pov: "dual-pov",
+  pageCount: 403,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence"],
   synopsis: `Dante Russo is a billionaire CEO who never loses control. Every decision is calculated, every move deliberate — until a blackmail scheme forces him into the one thing he never wanted: an arranged marriage to a woman he did not choose.
 
 Vivian Lau has spent her life being the perfect daughter. But being sold to a cold, domineering stranger to satisfy her father's schemes? That she will not accept quietly. She may have agreed to the engagement, but she has no intention of surrendering her independence, her career, or her heart.

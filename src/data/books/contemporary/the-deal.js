@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1525", "#0a1018"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 360,
+  publicationYear: 2015,
+  standalone: false,
+  contentWarnings: ["sexual-assault"],
   synopsis: `Hannah Wells has a 4.0 GPA, a sharp tongue, and zero interest in Briar University's hockey scene. She also has an impossible crush on a football player who does not know she exists. What she does not have is any patience for Garrett Graham — cocky hockey captain, campus golden boy, and the most infuriating person she has ever met.
 
 Garrett has a different problem: he is flunking Ethics, and if his grades do not improve, his NHL dreams are finished. He needs a tutor. Hannah is the only student who aced the midterm. She wants nothing to do with him.

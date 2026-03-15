@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1a18", "#150a30"],
   accentColor: "#7c5cbf",
+  pov: "multi-pov",
+  pageCount: 528,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["violence", "death", "abuse"],
   synopsis: `Princess Malini refused to burn. Her brother, the emperor, demanded she walk into sacred fire alongside the other women of his court. She said no. Now she rots in a cliffside temple prison, far from the capital, far from power — but not far from plotting her revenge.
 
 Priya is the maidservant who tends the temple grounds, quiet and forgettable. At least, that is what she needs everyone to believe. Beneath her unassuming exterior, Priya carries the forbidden magic of a conquered people — ancient plant-based powers that the empire spent decades trying to eradicate. She has hidden her gifts for years. But a mysterious rot is spreading across the land, and her magic is becoming impossible to suppress.

@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a0e", "#1a2030"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 530,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["violence", "death"],
   synopsis: `Winter Hamilton has built her life on control. A professional ballerina at the peak of her career, she has sacrificed everything on the altar of perfection. Her discipline is flawless. Her walls are impenetrable. And the last thing she needs is a reckless bull rider with a cocky grin and zero respect for boundaries.
 
 Theo Silva is chaos incarnate -- younger, louder, and completely unbothered by Winter's icy exterior. He sees past the perfect posture and the punishing discipline to the woman underneath. And he has decided she is worth fighting for.

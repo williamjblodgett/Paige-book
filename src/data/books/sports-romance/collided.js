@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1a0808", "#0a0a18"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 382,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: ["abuse", "toxic-relationship"],
   synopsis: `Sophie Mitchell has spent her whole life following her father's rules. As the daughter of Bandini's team principal, she's been the dutiful girl — studying accounting, suppressing her creative side, and never causing trouble. But this season, Sophie is done playing it safe. She has a list. A reckless, exhilarating, absolutely forbidden bucket list of everything she's been too afraid to try.
 
 Liam Zander is Formula 1's golden boy — charming, beloved, and hiding behind a persona so polished that even he's forgotten who he really is underneath. When he discovers Sophie's list, he makes her an offer: he'll help her complete every item on it.

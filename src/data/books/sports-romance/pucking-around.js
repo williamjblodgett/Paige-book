@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1525", "#0a0a18"],
   accentColor: "#2d8cf0",
+  pov: "multi-pov",
+  pageCount: 510,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: [],
   synopsis: `Rachel Price has just landed the opportunity of a lifetime — a fellowship as team physician for the Jacksonville Rays, an NHL hockey team. As the daughter of a famous rock star, she's spent her whole life proving she's more than her last name. This is her chance to build something of her own.
 
 She didn't plan on Caleb Sanford — the grumpy equipment manager next door who makes her pulse race despite his best efforts to push everyone away. She definitely didn't plan on discovering that Jake Compton, the charming defenseman she had an unforgettable one-night stand with months ago, is on the Rays' roster. And Caleb's best friend.

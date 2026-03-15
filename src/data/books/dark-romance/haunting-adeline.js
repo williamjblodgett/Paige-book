@@ -8,6 +8,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0505", "#350a0a"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 491,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["stalking", "dubcon", "trafficking", "violence", "kidnapping", "graphic-violence", "manipulation"],
   synopsis: `When bestselling romance author Adeline Reilly inherits her great-grandmother's Gothic manor, she expects dust and memories -- not a shadow that watches from the treeline, roses left on her doorstep, and messages that make her blood run cold. Someone has been inside her house. Someone who knows her every move.
 
 His name is Zade Meadows, and he is nothing she ever imagined -- dangerous, relentless, and hiding secrets that could burn the world down. He leads a vigilante organization dedicated to dismantling the powerful and the corrupt, and his obsession with Adeline blurs every line between predator and protector.

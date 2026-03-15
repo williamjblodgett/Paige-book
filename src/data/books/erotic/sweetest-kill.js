@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#130a0e", "#1a0a0f"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 340,
+  publicationYear: 2022,
+  standalone: true,
+  contentWarnings: ["violence", "bdsm"],
   synopsis: `Giulio Ferrante is not a good man. As the enforcer for one of Italy's most powerful crime families, his hands have dealt violence without hesitation and his reputation makes grown men tremble. In his world, emotion is a liability and weakness is a death sentence.
 
 Then he sees her.

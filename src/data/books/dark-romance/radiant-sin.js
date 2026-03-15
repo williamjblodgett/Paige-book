@@ -8,6 +8,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#2a1a0a", "#4a2a1a"],
   accentColor: "#c9884c",
+  pov: "dual-pov",
+  pageCount: 384,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence"],
   synopsis: `Apollo is the golden spymaster of Olympus -- charming, trusted, and utterly indispensable. When a dangerous new power player named Minos arrives in the city hosting lavish parties at his secretive estate, Apollo needs someone sharp and brave enough to go undercover at his side. His choice: Cassandra Gataki, his personal assistant and the one person he trusts completely.
 
 But Cassandra has every reason to despise the Thirteen. Her parents were murdered by the ruling class, and all she wants is to get herself and her sister out of Olympus for good. She agrees to pose as Apollo's girlfriend on one condition: when the mission ends, they walk free.

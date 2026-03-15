@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1a0f", "#0a0f0c"],
   accentColor: "#1e8a5f",
+  pov: "single-fmc",
+  pageCount: 288,
+  publicationYear: 2006,
+  standalone: false,
+  contentWarnings: ["violence", "death"],
   synopsis: `Mechanic by day. Coyote shapeshifter by night. Trouble magnet around the clock.
 
 Mercedes "Mercy" Thompson fixes Volkswagens and minds her own business — or tries to. Being a rare shapeshifter in a world crawling with werewolves, vampires, and fae means keeping your head down. Mercy answers to no pack, no master, and no one. Especially not Adam Hauptman, the infuriatingly possessive werewolf Alpha who lives next door and has made it very clear he considers her his.

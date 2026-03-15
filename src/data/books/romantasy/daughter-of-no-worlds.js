@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#180a25", "#0d1030"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 474,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["violence", "death"],
   synopsis: `Tisaanah clawed her way out of slavery and forged herself into one of the most powerful magic wielders alive. But the magical world has a long memory, and no matter how high she climbs, she will always be the girl who wore chains. Power is the only thing that can protect her from going back -- so she will take every ounce she can get.
 
 Max is a centuries-old warrior who has seen too much death and dealt too much of it himself. Weary, haunted, and nearly immortal, the last thing he needs is to be dragged into a conspiracy alongside a woman whose brilliance is matched only by her stubbornness.

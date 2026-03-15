@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#8b1a1a",
+  pov: "dual-pov",
+  pageCount: 418,
+  publicationYear: 2017,
+  standalone: false,
+  contentWarnings: ["violence", "kidnapping", "dubcon"],
   synopsis: `The Four Horsemen are fractured. After the events of Devil's Night, betrayal has left scars that will not heal, and Kai Mori is left navigating the dangerous fallout -- starting with the one person who has haunted him for years: Banks.
 
 Nikova Banks has survived by hiding in plain sight, disguising herself and living in the shadows to escape the dangerous men who control her life. Chief among them is her own half-brother, Damon Torrance -- the most volatile Horseman, whose possessive obsession over Banks makes her a pawn in a game she never asked to play.

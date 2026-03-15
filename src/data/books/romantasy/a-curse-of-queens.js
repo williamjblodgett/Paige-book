@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0f28", "#0d1530"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 450,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["violence", "death"],
   synopsis: `She clawed her way to freedom. She claimed a throne. She found a family worth fighting for. But Cat should have known that happiness would come with a price.
 
 When a devastating curse tears through her hard-won kingdom, Cat knows this is no accident -- it is a declaration of war. Someone wants the Kingmaker to fall, and they are willing to destroy everything she loves to make it happen. The only chance of breaking the curse lies at the end of a perilous quest through lands where mythological creatures hunt in the shadows and the Olympian gods play their own lethal games.

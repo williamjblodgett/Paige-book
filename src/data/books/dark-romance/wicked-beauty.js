@@ -8,6 +8,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0808", "#3d1111"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 416,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence", "dubcon"],
   synopsis: `The title of Ares is open, and in Olympus, that means one thing: blood.
 
 Achilles Kallis has spent his life clawing his way up from nothing, and this brutal tournament is his shot at everything. He enters alongside Patroclus Fotos, the man he loves, doubling their odds.

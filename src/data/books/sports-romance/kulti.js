@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1018", "#180a15"],
   accentColor: "#2d8cf0",
+  pov: "single-fmc",
+  pageCount: 435,
+  publicationYear: 2015,
+  standalone: true,
+  contentWarnings: ["age-gap"],
   synopsis: `When Sal Casillas was a girl, she had one poster on her bedroom wall: Reiner Kulti, the legendary German soccer star who made her fall in love with the game. She built her entire career as a defender for the Houston Pipers on the fire he lit in her.
 
 Now he is her new assistant coach. And he is nothing like she imagined.

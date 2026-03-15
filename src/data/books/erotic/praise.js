@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a0510", "#0f0308"],
   accentColor: "#c42a6b",
+  pov: "dual-pov",
+  pageCount: 338,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["bdsm"],
   synopsis: `Charlotte Underwood has spent her life being made to feel small. Her father left. Her boyfriend was cruel. And now, broke and broken, she has been sent to collect a debt from the last man she wants to see — her ex's estranged father.
 
 Emerson Grant is the powerful, commanding owner of the Salacious Players' Club, an exclusive establishment where desires are explored without shame. When a misunderstanding leads him to mistake Charlotte for an applicant, she catches a glimpse of a world she never knew existed — and a dynamic that awakens something deep and undeniable inside her.

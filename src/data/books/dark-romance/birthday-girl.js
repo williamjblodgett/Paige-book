@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#c9884c",
+  pov: "dual-pov",
+  pageCount: 410,
+  publicationYear: 2018,
+  standalone: true,
+  contentWarnings: ["age-gap", "taboo", "power-imbalance"],
   synopsis: `She met him in a dark theater on her nineteenth birthday -- a stranger who loved the same old movies, who laughed at the same lines, who made her feel seen for the first time in her life. The connection was instant. Electric. Effortless.
 
 Then she found out who he really was. Pike Lawson. Her boyfriend's father.

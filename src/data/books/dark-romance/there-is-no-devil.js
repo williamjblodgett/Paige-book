@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a0a0a", "#1a0a0a"],
   accentColor: "#1a1a1a",
+  pov: "dual-pov",
+  pageCount: 450,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["graphic-violence", "dubcon", "blood", "death"],
   synopsis: `For the first time in their lives, Cole Blackwell and Mara Eldritch have found something that looks like happiness. The darkness that first drew them together has become something neither expected: a home.
 
 But happiness is the most dangerous thing either of them could possess.

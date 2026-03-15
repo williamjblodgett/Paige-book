@@ -61,6 +61,44 @@ export const TERM_CATEGORIES = [
   { id: 'organization', label: 'Organizations' },
 ]
 
+export const CONTENT_WARNINGS = [
+  { id: 'sexual-assault', label: 'Sexual Assault', severity: 'high' },
+  { id: 'dubcon', label: 'Dubious Consent', severity: 'high' },
+  { id: 'noncon', label: 'Non-Consensual', severity: 'high' },
+  { id: 'violence', label: 'Violence', severity: 'high' },
+  { id: 'graphic-violence', label: 'Graphic Violence', severity: 'high' },
+  { id: 'kidnapping', label: 'Kidnapping/Captivity', severity: 'high' },
+  { id: 'trafficking', label: 'Human Trafficking', severity: 'high' },
+  { id: 'abuse', label: 'Abuse (Physical/Emotional)', severity: 'high' },
+  { id: 'death', label: 'Death/Murder', severity: 'high' },
+  { id: 'suicide', label: 'Suicide/Self-Harm', severity: 'high' },
+  { id: 'addiction', label: 'Addiction/Substance Abuse', severity: 'medium' },
+  { id: 'stalking', label: 'Stalking', severity: 'medium' },
+  { id: 'manipulation', label: 'Manipulation/Gaslighting', severity: 'medium' },
+  { id: 'power-imbalance', label: 'Power Imbalance', severity: 'medium' },
+  { id: 'age-gap', label: 'Age Gap', severity: 'low' },
+  { id: 'toxic-relationship', label: 'Toxic Relationship', severity: 'medium' },
+  { id: 'cheating', label: 'Cheating/Infidelity', severity: 'medium' },
+  { id: 'grief', label: 'Grief/Loss', severity: 'medium' },
+  { id: 'anxiety', label: 'Anxiety/Mental Health', severity: 'low' },
+  { id: 'body-image', label: 'Body Image Issues', severity: 'low' },
+  { id: 'pregnancy', label: 'Pregnancy', severity: 'low' },
+  { id: 'bdsm', label: 'BDSM', severity: 'low' },
+  { id: 'blood', label: 'Blood/Gore', severity: 'medium' },
+  { id: 'torture', label: 'Torture', severity: 'high' },
+  { id: 'bullying', label: 'Bullying', severity: 'medium' },
+  { id: 'war', label: 'War/Battle', severity: 'medium' },
+]
+
+export const POV_TYPES = [
+  { id: 'dual-pov', label: 'Dual POV' },
+  { id: 'single-fmc', label: 'Single POV (FMC)' },
+  { id: 'single-mmc', label: 'Single POV (MMC)' },
+  { id: 'multi-pov', label: 'Multi POV' },
+  { id: 'first-person', label: 'First Person' },
+  { id: 'third-person', label: 'Third Person' },
+]
+
 export const GENRE_THEMES = {
   'dark-romance': {
     bg: '#0a0808',

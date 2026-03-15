@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#1a1508", "#0a0808"],
   accentColor: "#c9a84c",
+  pov: "dual-pov",
+  pageCount: 398,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["graphic-violence", "kidnapping", "dubcon", "torture"],
   synopsis: `Sam Brennan is not an anti-hero. He does not wrestle with the darkness. He enjoys it.
 
 The eldest son of a powerful crime family, Sam is calculating, amoral, and utterly at peace with the monster he has become. Where other men in his world pretend to be honorable, Sam does not bother with the lie.

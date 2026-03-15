@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#180828", "#0b1232"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 400,
+  publicationYear: 2024,
+  standalone: false,
+  contentWarnings: ["violence", "death"],
   synopsis: `The Kejari is over. Oraya's heart is in ruins.
 
 Raihn sits on the throne of the House of Night, a king whose claim is contested by enemies on every side. He won the tournament. He won the crown. But the price was losing the woman who mattered more than any of it — and the choices he made haunt him with every breath.

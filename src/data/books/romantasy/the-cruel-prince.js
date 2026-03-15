@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a0f20", "#1a0a28"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 370,
+  publicationYear: 2018,
+  standalone: false,
+  contentWarnings: ["violence", "bullying", "abuse", "death"],
   synopsis: `Jude was seven when the faerie general Madoc murdered her parents and took her to live in Elfhame, the treacherous realm of the immortal fae. Now seventeen, she has spent a decade fighting for survival among beings who consider humans nothing more than playthings. She cannot be glamoured. She cannot be controlled. And she refuses — absolutely refuses — to be broken.
 
 Prince Cardan is the youngest son of the High King, and he makes Jude's life a living nightmare. He is beautiful, vicious, and takes particular delight in tormenting the mortal girl who dares to defy him. Jude hates him with every fiber of her being. At least, that is what she tells herself.

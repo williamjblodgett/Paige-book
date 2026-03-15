@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1e0a30", "#0a1a3a"],
   accentColor: "#7c5cbf",
+  pov: "dual-pov",
+  pageCount: 496,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["violence", "death", "war"],
   synopsis: `Lara destroyed everything. She fed her father the intelligence he needed to invade the Bridge Kingdom, and now Aren — her husband, her king, the man she was never supposed to love — is rotting in a Maridrinian dungeon. Ithicana lies in ruins. Its people call her traitor. And every bit of it is her fault.
 
 But Lara is done being a weapon aimed by someone else's hand. Despite the hatred that follows her like a shadow, despite knowing Aren may never forgive her, she escapes her imprisonment and embarks on a mission that borders on impossible: infiltrate Maridrina, free the king she betrayed, and help Ithicana reclaim its sovereignty.

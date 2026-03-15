@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#ff6b6b", "#c44569"],
   accentColor: "#c45b84",
+  pov: "single-fmc",
+  pageCount: 374,
+  publicationYear: 2016,
+  standalone: true,
+  contentWarnings: [],
   synopsis: `Lucy Hutton and Joshua Templeman sit across from each other every single day at work. They have an elaborate system of games — the Staring Game, the HR Game, the Mirror Game — and one absolute certainty between them: they hate each other.
 
 At least, that is what Lucy keeps telling herself.

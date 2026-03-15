@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a12", "#1a1a35"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 518,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["violence", "death", "abuse"],
   synopsis: `Jasper Gervais has one rule: do not touch Sloane Winthrop.
 
 She is his best friend's little sister. The girl he watched grow from a scrappy kid into a breathtaking woman. The one person he has been silently, torturously in love with for longer than he will ever admit. As a professional bull rider whose body takes a beating every time he climbs into the arena, Jasper is no stranger to pain. But nothing hurts like wanting what you have forbidden yourself from having.

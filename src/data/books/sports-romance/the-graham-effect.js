@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1018", "#150a18"],
   accentColor: "#2d8cf0",
+  pov: "dual-pov",
+  pageCount: 471,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["grief"],
   synopsis: `Gigi Graham is sunshine on ice skates -- fiercely competitive, impossibly cheerful, and tired of living in the shadow of her hockey legend father. All she wants is to prove she earned her spot on Briar University's women's team on her own merits.
 
 Luke Ryder is a storm cloud with a hockey stick. The brooding transfer student wants nothing to do with anyone, least of all the coach's annoyingly persistent daughter and her golden retriever energy.

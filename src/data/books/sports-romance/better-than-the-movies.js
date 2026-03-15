@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#0a1018", "#1a0c12"],
   accentColor: "#2d8cf0",
+  pov: "single-fmc",
+  pageCount: 357,
+  publicationYear: 2021,
+  standalone: true,
+  contentWarnings: ["grief"],
   synopsis: `Liz Buxbaum has been waiting her entire life for a movie-worthy love story. Armed with an encyclopedic knowledge of rom-coms inherited from her late mother, she knows exactly how her fairy tale is supposed to go -- and it starts with Michael Young, her childhood crush, finally moving back to town.
 
 There is just one problem: Wes Bennett. Her next-door neighbor since childhood, Wes is a baseball star, a world-class irritant, and the absolute last person Liz would cast as a romantic lead. He is cocky, sarcastic, and has made it his personal mission to torment her since they were kids.

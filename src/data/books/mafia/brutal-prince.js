@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a1008", "#0a0808"],
   accentColor: "#c9a84c",
+  pov: "dual-pov",
+  pageCount: 312,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["violence", "death"],
   synopsis: `Two families. Generations of blood. One catastrophic night that changes everything.
 
 When Aida Gallo crashes a Griffin family party and leaves destruction in her wake, she ignites a war between Chicago's most powerful crime dynasties. The fallout is swift and brutal, and the only way to prevent an all-out bloodbath is an arranged marriage between the two people who despise each other most.

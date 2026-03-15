@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0f0808", "#1a0f0f"],
   accentColor: "#8b1a1a",
+  pov: "dual-pov",
+  pageCount: 524,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: ["violence", "kidnapping", "dubcon"],
   synopsis: `They call it Blackchurch -- a secluded mansion in the middle of nowhere where the wealthy send their sons to disappear. No guards. No rules. No way out until the gates open again in thirty days. For the dangerous men locked inside, it is a lawless kingdom where only the ruthless survive.
 
 Will Grayson III -- the most reckless of the Four Horsemen -- has been rotting here for months. He has learned to fight, to endure, and to channel his rage into something lethal.

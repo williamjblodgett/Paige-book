@@ -8,6 +8,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#100a20", "#2d1550"],
   accentColor: "#c42a2a",
+  pov: "single-fmc",
+  pageCount: 352,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["violence", "death", "blood"],
   synopsis: `She is no longer the girl who summoned a demon out of desperation. She is something far more powerful -- and far more dangerous.
 
 Emilia di Carlo has walked through Hell, uncovered devastating truths about her heritage, and emerged with powers that terrify even the princes of the underworld. Now, as the ancient prophecy hurtles toward its conclusion, the final battle for the fate of two realms is about to begin.

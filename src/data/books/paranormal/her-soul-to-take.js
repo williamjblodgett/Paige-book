@@ -8,6 +8,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1a15", "#1a0a1a"],
   accentColor: "#1e8a5f",
+  pov: "dual-pov",
+  pageCount: 371,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["graphic-violence", "death", "blood", "dubcon"],
   synopsis: `Rae Lawson came back to Abelaum for ghost stories. She found something much worse.
 
 An aspiring paranormal vlogger returning to her eerie hometown, Rae is hoping for supernatural content to grow her channel. She gets more than she bargained for when the attractive, unsettling stranger she encounters on campus turns out to be something far darker than human.

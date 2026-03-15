@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#463f3a", "#e0afa0"],
   accentColor: "#c45b84",
+  pov: "dual-pov",
+  pageCount: 306,
+  publicationYear: 2015,
+  standalone: true,
+  contentWarnings: ["abuse", "death", "grief"],
   synopsis: `Auburn Reed can't afford to make a single mistake. She's fighting to regain custody of her son against a powerful family determined to keep him from her, and everything in her carefully controlled life serves one purpose: getting her child back. No distractions. No complications. No falling in love.
 
 Then she walks into a Dallas art gallery unlike any she's ever seen. The paintings on the walls are raw, emotional, and haunting — each one inspired by an anonymous confession submitted by a stranger. And the artist behind them, the enigmatic Owen Gentry, looks at Auburn like he already knows her secrets.

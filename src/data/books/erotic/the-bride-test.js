@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#120a10", "#1a0a0c"],
   accentColor: "#e85d3a",
+  pov: "dual-pov",
+  pageCount: 296,
+  publicationYear: 2019,
+  standalone: false,
+  contentWarnings: [],
   synopsis: `Khai Diep does not do love. He is autistic, and since his emotions never seem to match what everyone else describes, he has reached a logical conclusion: he is simply incapable of it. No butterflies. No obsession. No point in trying. Case closed.
 
 His mother disagrees. Strongly.

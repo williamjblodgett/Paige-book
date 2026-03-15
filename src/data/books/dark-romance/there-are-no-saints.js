@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a0a0a", "#1a0a0a"],
   accentColor: "#1a1a1a",
+  pov: "dual-pov",
+  pageCount: 422,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["graphic-violence", "dubcon", "stalking", "kidnapping", "blood", "death"],
   synopsis: `Cole Blackwell is a celebrated sculptor in San Francisco's art world. His reputation is impeccable. And he harbors a secret so dark it would destroy everything he has built.
 
 Then he finds her.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0a0a", "#0d0f1a"],
   accentColor: "#8b1a1a",
+  pov: "single-fmc",
+  pageCount: 607,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: ["violence", "death", "sexual-assault", "abuse"],
   synopsis: `Chosen from birth. Veiled. Untouched. Poppy has lived her entire life bound by the rules of the Maiden -- never to be seen, never to be spoken to, never to experience the world beyond her gilded cage. She is told her Ascension will bring peace and prosperity to the kingdom. She is told to obey, to submit, to be grateful.
 
 Poppy has other ideas.

@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a1030", "#0d0f1a"],
   accentColor: "#5c3cbf",
+  pov: "single-fmc",
+  pageCount: 699,
+  publicationYear: 2017,
+  standalone: false,
+  contentWarnings: ["violence", "war", "death", "torture"],
   synopsis: `Feyre has returned to the Spring Court -- but not as Tamlin's bride. She is the High Lady of the Night Court, and she has come to dismantle his alliance with the enemy from the inside out.
 
 Every smile is a weapon. Every touch is a lie. One slip, one moment of suspicion, and the King of Hybern's wrath will fall on everyone she loves. Feyre is no longer the mortal girl who stumbled into the fae lands -- she is something far more dangerous now, and she will burn it all down if that is what it takes.

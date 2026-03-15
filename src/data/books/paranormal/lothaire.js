@@ -7,6 +7,11 @@ export default {
   spiceLevel: 5,
   coverGradient: ["#0a1a10", "#0a0f0c"],
   accentColor: "#1e8a5f",
+  pov: "dual-pov",
+  pageCount: 466,
+  publicationYear: 2012,
+  standalone: false,
+  contentWarnings: ["violence", "blood", "kidnapping", "dubcon"],
   synopsis: `Three thousand years of ruthless scheming. A reputation that makes even immortals flinch. He is not the hero of this story — he is the villain of everyone else's. And he has just made the most catastrophic miscalculation of his eternal existence.
 
 He chose the wrong Bride.

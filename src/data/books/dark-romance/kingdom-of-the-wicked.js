@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a1e", "#1a1040"],
   accentColor: "#c42a2a",
+  pov: "single-fmc",
+  pageCount: 369,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: ["violence", "death", "blood"],
   synopsis: `Two rules have governed Emilia di Carlo's life as a strega in nineteenth-century Sicily: never deal with demons, and never invoke the Wicked -- the seven princes of Hell.
 
 She is about to shatter both.

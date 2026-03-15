@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0d0a0a", "#2a1818"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 612,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["abuse", "bullying", "violence"],
   synopsis: `Lucian Rollins left Knockemout a long time ago. He built an empire, amassed a fortune, and became the kind of man people fear. But no amount of money or power has done the one thing he needs most: get Sloane Walton out of his system.
 
 Sloane is Knockemout's fiery librarian, and she has spent years perfecting the art of hating Lucian Rollins. Their history is a minefield -- a teenage friendship that ended in betrayal, leaving scars neither has healed. Every time he returns to town, their encounters combust into arguments that feel suspiciously like something else entirely.

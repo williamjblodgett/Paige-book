@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0d0a08", "#2a2018"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 573,
+  publicationYear: 2022,
+  standalone: false,
+  contentWarnings: ["abuse", "kidnapping"],
   synopsis: `Naomi Witt came to Knockemout, Virginia, to rescue her estranged twin sister. Instead, Tina stole her car, her wallet, and her identity -- leaving Naomi stranded in a town she has never been to, with an eleven-year-old niece she did not know existed.
 
 Enter Knox Morgan: bar owner, resident grump, and the last person in Knockemout who wants anything to do with Naomi's mess. He makes it very clear she is not welcome.

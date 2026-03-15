@@ -7,6 +7,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#1a0520", "#0d1030"],
   accentColor: "#7c5cbf",
+  pov: "single-fmc",
+  pageCount: 416,
+  publicationYear: 2024,
+  standalone: true,
+  contentWarnings: ["violence", "blood"],
   synopsis: `Misery Lark has never belonged anywhere. Too Vampyre for the humans who raised her, too human for the Vampyres who traded her away as a child -- she has spent her entire life caught between worlds that do not want her. So when her father announces she will marry the Alpha of a Werewolf pack to secure a political alliance, she is not surprised. She has always been a pawn.
 
 Lowe Moreland is not what she expected. Intense, territorial, enormous -- standard Alpha fare. But also unexpectedly thoughtful, frustratingly perceptive, and hiding something behind those steady eyes. Their arranged marriage is supposed to be simple: smile for the cameras, cement a fragile peace, play nice.

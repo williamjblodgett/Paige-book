@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#2a1a0a", "#4a3a1a"],
   accentColor: "#c9a84c",
+  pov: "dual-pov",
+  pageCount: 384,
+  publicationYear: 2023,
+  standalone: false,
+  contentWarnings: ["cheating"],
   synopsis: `He built an empire. She walked away from it — and took nothing with her.
 
 Dominic Davenport has everything: a penthouse, a fortune, and the title of Wall Street's most ruthless king. But his relentless hunger for more has slowly consumed the one thing money can't replace. His wife stood by him for years — hosting dinners, smiling for cameras, watching the man she married disappear into his ambition. She won't do it anymore.

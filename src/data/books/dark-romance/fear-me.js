@@ -8,6 +8,11 @@ export default {
   spiceLevel: 4,
   coverGradient: ["#0a0a12", "#1e0a1e"],
   accentColor: "#c42a2a",
+  pov: "dual-pov",
+  pageCount: 384,
+  publicationYear: 2015,
+  standalone: false,
+  contentWarnings: ["bullying", "violence", "abuse", "dubcon"],
   synopsis: `For ten years, Lake Monroe has lived under the shadow of Keiran Masters. As children, she witnessed something she should not have, and he made sure she would never forget it. He tormented her. He terrorized her. He turned her childhood into a waking nightmare. Then, at fourteen, he was sent to juvie, and for four blissful years, Lake finally breathed.
 
 Now Keiran is back. And he is no longer just a boy with cruel eyes and a vicious temper. He has grown into something far more dangerous -- six feet of raw power, barely contained fury, and an obsession with Lake that prison only sharpened. He does not just want to torment her anymore. He wants to own her.

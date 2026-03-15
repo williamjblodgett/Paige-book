@@ -7,6 +7,11 @@ export default {
   spiceLevel: 3,
   coverGradient: ["#1a1020", "#0f1318"],
   accentColor: "#c45b84",
+  pov: "single-fmc",
+  pageCount: 391,
+  publicationYear: 2023,
+  standalone: true,
+  contentWarnings: [],
   synopsis: `Elsie Hannaway is a theoretical physicist with a gift for being exactly who people need her to be. Chronically underpaid as an adjunct professor, she supplements her income through Faux, an app that lets users hire fake girlfriends. It's the perfect side hustle for a professional people-pleaser — Elsie can become anyone's dream woman for a dinner party or a family holiday. She's so good at shapeshifting that she's lost track of who she actually is underneath it all.
 
 One of her regular clients is Greg, a sweet guy she genuinely considers a friend. But Greg's older brother Jack has always rubbed Elsie the wrong way — suspicious, blunt to the point of rudeness, and seemingly determined to see right through every version of herself she presents. When Elsie lands an interview for a coveted tenure-track position at MIT, her excitement curdles into dread. The man who runs the department? Jack Smith-Turner. The same Jack who published a hoax paper that destroyed her beloved mentor's career. The same Jack who has been silently judging her at every family dinner.
