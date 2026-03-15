@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom'
 
 const links = [
   { to: '/', label: 'Home' },
+  { to: '/browse', label: 'Browse' },
   { to: '/glossary', label: 'Glossary' },
-  { to: '/summaries', label: 'Summaries' },
   { to: '/quizzes', label: 'Quizzes' },
 ]
 
@@ -15,7 +15,7 @@ export default function Nav() {
     <nav className="sticky top-0 z-50 bg-surface border-b border-gold/30">
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-14">
         <NavLink to="/" className="font-heading text-gold text-lg tracking-wider">
-          The Eating Woods
+          SmutPages
         </NavLink>
 
         {/* Desktop links */}

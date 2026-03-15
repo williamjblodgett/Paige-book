@@ -9,6 +9,10 @@
   --color-text: #e8e0d0;
   --color-muted: #9a9080;
   --color-forest: #1e3a2f;
+  --color-rose: #c45b84;
+  --color-flame: #e85d3a;
+  --color-plum: #6b3fa0;
+  --color-blush: #f0c4d4;
 
   --font-heading: 'Cinzel', serif;
   --font-body: 'EB Garamond', serif;
@@ -66,13 +70,13 @@
 .fog-layer {
   animation: fog-drift 20s ease-in-out infinite;
   will-change: transform, opacity;
-  background: radial-gradient(ellipse at center, rgba(30, 58, 47, 0.3) 0%, transparent 70%);
+  background: radial-gradient(ellipse at center, rgba(196, 91, 132, 0.15) 0%, transparent 70%);
 }
 
 .fog-layer-2 {
   animation: fog-drift-reverse 25s ease-in-out infinite;
   will-change: transform, opacity;
-  background: radial-gradient(ellipse at 30% 50%, rgba(10, 8, 8, 0.4) 0%, transparent 60%);
+  background: radial-gradient(ellipse at 30% 50%, rgba(107, 63, 160, 0.12) 0%, transparent 60%);
 }
 
 /* Noise/grain texture overlay */
@@ -112,7 +116,7 @@
   background: linear-gradient(to right, transparent, var(--color-gold), transparent);
 }
 
-/* Card gold glow on hover */
+/* Card glow on hover */
 .card-glow {
   transition: box-shadow 0.3s ease, border-color 0.3s ease;
   border: 1px solid transparent;
@@ -121,31 +125,6 @@
 .card-glow:hover {
   border-color: var(--color-gold);
   box-shadow: 0 0 15px rgba(201, 168, 76, 0.25), 0 0 30px rgba(201, 168, 76, 0.1);
-}
-
-/* Book cover styling */
-.book-cover-anathema {
-  background: linear-gradient(160deg, #1a1508 0%, #2a1f0a 30%, #111318 70%, #0a0808 100%);
-}
-.book-cover-eldritch {
-  background: linear-gradient(160deg, #1a0808 0%, #2a0a0a 30%, #111318 70%, #0a0808 100%);
-}
-.book-cover-vasmora {
-  background: linear-gradient(160deg, #081a12 0%, #0a2a1a 30%, #111318 70%, #0a0808 100%);
-}
-
-/* Book-themed card glows */
-.card-glow-anathema:hover {
-  border-color: var(--color-gold) !important;
-  box-shadow: 0 0 15px rgba(201, 168, 76, 0.25), 0 0 30px rgba(201, 168, 76, 0.1);
-}
-.card-glow-eldritch:hover {
-  border-color: #c42a2a !important;
-  box-shadow: 0 0 15px rgba(196, 42, 42, 0.3), 0 0 30px rgba(139, 26, 26, 0.15);
-}
-.card-glow-vasmora:hover {
-  border-color: #2d6b4f !important;
-  box-shadow: 0 0 15px rgba(45, 107, 79, 0.3), 0 0 30px rgba(30, 58, 47, 0.15);
 }
 
 /* Scrollbar styling */

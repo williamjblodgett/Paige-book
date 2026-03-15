@@ -1,5 +1,3 @@
-import { bookTheme } from '../data/bookTheme'
-
 const categoryIcons = {
   character: (
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -35,6 +33,21 @@ const categoryIcons = {
       <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
     </svg>
   ),
+  concept: (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <circle cx="12" cy="12" r="10" /><path d="M12 16v-4M12 8h.01" />
+    </svg>
+  ),
+  slang: (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+    </svg>
+  ),
+  worldbuilding: (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+    </svg>
+  ),
 }
 
 const categoryLabels = {
@@ -44,18 +57,27 @@ const categoryLabels = {
   creature: 'Race / Creature',
   artifact: 'Artifact',
   organization: 'Organization',
+  concept: 'Concept',
+  slang: 'Slang / Term',
+  worldbuilding: 'Worldbuilding',
 }
 
-export default function GlossaryCard({ term, definition, book, category }) {
-  const theme = bookTheme[book]
+export default function GlossaryCard({ term, definition, book, category, accentColor }) {
+  const accent = accentColor || '#c9a84c'
 
   return (
     <div className="card-glow bg-surface rounded-lg p-5">
       <div className="flex items-start justify-between gap-3 mb-3">
-        <h3 className={`font-heading text-lg tracking-wide ${theme?.text || 'text-gold'}`}>
+        <h3 className="font-heading text-lg tracking-wide" style={{ color: accent }}>
           {term}
         </h3>
-        <span className={`shrink-0 font-heading text-xs tracking-widest uppercase px-2.5 py-1 rounded-full ${theme?.badgeBg || 'bg-muted/20'} ${theme?.badgeText || 'text-muted'}`}>
+        <span
+          className="shrink-0 font-heading text-xs tracking-widest uppercase px-2.5 py-1 rounded-full"
+          style={{
+            backgroundColor: `${accent}15`,
+            color: accent,
+          }}
+        >
           {book}
         </span>
       </div>
@@ -64,7 +86,7 @@ export default function GlossaryCard({ term, definition, book, category }) {
         <div className="flex items-center gap-1.5 mb-3 text-muted/70">
           {categoryIcons[category]}
           <span className="font-body text-xs tracking-wide">
-            {categoryLabels[category]}
+            {categoryLabels[category] || category}
           </span>
         </div>
       )}

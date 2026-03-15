@@ -1,0 +1,136 @@
+export default {
+  id: "twisted-love",
+  title: "Twisted Love",
+  author: "Ana Huang",
+  series: "Twisted Series #1",
+  genres: ["dark-romance"],
+  themes: ["enemies-to-lovers", "brothers-best-friend", "possessive-hero"],
+  spiceLevel: 4,
+  coverGradient: ["#1a0a15", "#2a1020"],
+  accentColor: "#8b1a4a",
+  synopsis: `Alex Volkov is a cold, calculating, and ruthlessly ambitious young CEO who has spent the last eight years meticulously building a relationship with Josh Chen and his family for one purpose: revenge. Alex's parents and younger sister were murdered when he was a child, and he has always believed that Josh's father, Michael Chen, was responsible. Alex suffers from hyperthymesia, a rare condition that allows him to remember every detail of his life, meaning the trauma of his family's murder is always fresh and vivid. When Josh, a medical student, leaves for a year-long volunteer program in Central America, he asks his best friend Alex to look after his younger sister, Ava Chen.
+
+Ava is a 22-year-old photographer with a warm, sunny disposition that contrasts sharply with Alex's ice-cold demeanor. She suffers from nightmares and partial amnesia stemming from a childhood trauma she cannot fully remember. As Alex moves into Josh's house next door to keep watch over her, their initial hostility gives way to reluctant attraction. Ava's friends, Bridget, Jules, and Stella, notice Alex's overprotective behavior and devise plans to test whether he has emotions beneath his stoic exterior. Over time, Alex agrees to teach Ava to swim after she is pushed into a pool at a party by one of his exes, and their relationship deepens through shared vulnerability.
+
+Their romance develops against the backdrop of Alex's revenge plot. He has strategically embedded himself in the Chen family's life for years to gain access to Michael. But as his feelings for Ava become undeniable, Alex discovers a series of letters that implicate his own uncle, Ivan Volkov, CEO of the Archer Group, as the true orchestrator of his family's murders, not Michael Chen. This revelation shatters Alex's worldview and forces him to reconsider everything he has done.
+
+The climax arrives when Ivan kidnaps Ava and her friend Bridget to blackmail Alex into surrendering full control of the company. Fearing for their lives, Alex stalls for time by confessing his lies to Ava, revealing that his entire friendship with Josh was built on a desire for vengeance against their father. Ava's own buried trauma resurfaces: she learns that as a child, her depressed mother pushed her into a lake and nearly drowned her, which is the source of her fear of water and fragmented memories.
+
+After the kidnapping is resolved and Ivan is dealt with, Ava is devastated by Alex's betrayal and flees to London for an art fellowship. Alex follows her and spends an entire year waiting outside her apartment every morning, bringing her breakfast and walking her to work, refusing to give up. At her art exhibition, he gives a vulnerable speech and sings for her, finally breaking through her walls. They reconcile, and the epilogue shows them happily together at Thanksgiving, though Josh remains angry about the deception and has not yet forgiven Alex.`,
+  characters: [
+    {
+      name: "Alex Volkov",
+      role: "The male protagonist, a cold and calculating CEO who suffers from hyperthymesia. He spent eight years befriending Josh Chen to get close to Michael Chen for revenge, believing Michael killed his family. His obsessive, possessive nature masks deep trauma and an eventual capacity for genuine love."
+    },
+    {
+      name: "Ava Chen",
+      role: "The female protagonist, a 22-year-old photographer with a warm, sunny personality. She suffers from nightmares and amnesia from a childhood drowning incident caused by her mother. Her grumpy-sunshine dynamic with Alex drives the emotional core of the story."
+    },
+    {
+      name: "Josh Chen",
+      role: "Ava's older brother and Alex's best friend, a medical student who leaves for a volunteer program in Central America. He asks Alex to watch over Ava, unknowingly putting her in the orbit of the man who befriended him under false pretenses."
+    },
+    {
+      name: "Ivan Volkov",
+      role: "Alex's uncle and CEO of the Archer Group. He is the true villain who orchestrated the murders of Alex's family and framed Michael Chen. He kidnaps Ava and Bridget to blackmail Alex."
+    },
+    {
+      name: "Michael Chen",
+      role: "Josh and Ava's father, whom Alex initially believed was responsible for his family's murders. He is ultimately revealed to have been framed by Ivan Volkov, though his relationship with his children is complicated."
+    }
+  ],
+  terms: [
+    {
+      term: "Hyperthymesia",
+      category: "concept",
+      definition: "A rare neurological condition Alex Volkov suffers from that gives him the ability to remember virtually every detail of his life. This means the trauma of his family's murder remains perpetually vivid and fresh."
+    },
+    {
+      term: "The Archer Group",
+      category: "worldbuilding",
+      definition: "The powerful corporation run by Ivan Volkov. Alex's conflict with his uncle over control of the company becomes central to the plot when Ivan uses it as leverage."
+    },
+    {
+      term: "The Revenge Plot",
+      category: "concept",
+      definition: "Alex's eight-year scheme to befriend Josh Chen and infiltrate the Chen family in order to get close to Michael Chen, whom he believed killed his parents and sister. The plot unravels when he discovers Ivan was the true killer."
+    },
+    {
+      term: "The Friend Group",
+      category: "concept",
+      definition: "Ava's close circle of friends consisting of Bridget von Ascheberg, Jules Ambrose, and Stella Alonso. Each woman becomes the heroine of her own book in the Twisted series."
+    }
+  ],
+  quiz: [
+    {
+      id: 1,
+      question: "What rare condition does Alex Volkov have?",
+      options: ["Synesthesia", "Hyperthymesia", "Prosopagnosia", "Eidetic memory disorder"],
+      correctIndex: 1,
+      explanation: "Alex suffers from hyperthymesia, which allows him to remember every detail of his life, keeping his trauma perpetually vivid."
+    },
+    {
+      id: 2,
+      question: "Why did Alex originally befriend Josh Chen?",
+      options: ["They were childhood neighbors", "To get revenge on Josh's father Michael", "They met in college randomly", "Josh saved Alex's life"],
+      correctIndex: 1,
+      explanation: "Alex spent eight years strategically building a friendship with Josh to get access to Michael Chen, whom he believed killed his family."
+    },
+    {
+      id: 3,
+      question: "Who actually killed Alex's family?",
+      options: ["Michael Chen", "A random criminal", "Ivan Volkov, Alex's uncle", "Josh Chen"],
+      correctIndex: 2,
+      explanation: "Alex discovers through letters that his own uncle Ivan Volkov orchestrated his family's murders and framed Michael Chen."
+    },
+    {
+      id: 4,
+      question: "What is Ava's profession?",
+      options: ["Writer", "Lawyer", "Photographer", "Doctor"],
+      correctIndex: 2,
+      explanation: "Ava Chen is a 22-year-old photographer who uses her lens to explore the world."
+    },
+    {
+      id: 5,
+      question: "What causes Ava's fear of water and amnesia?",
+      options: ["A boating accident", "Her mother pushed her into a lake as a child", "She nearly drowned at the beach", "A swimming pool incident at school"],
+      correctIndex: 1,
+      explanation: "Ava's depressed mother pushed her into a lake when she was a child, nearly drowning her, which caused her fear of water and fragmented memories."
+    },
+    {
+      id: 6,
+      question: "What does Alex do after Ava flees to London?",
+      options: ["He moves on", "He waits outside her apartment daily for a year bringing breakfast", "He sends her letters", "He asks Josh to intervene"],
+      correctIndex: 1,
+      explanation: "Alex follows Ava to London and spends an entire year waiting outside her apartment every morning, bringing her breakfast and walking her to work."
+    },
+    {
+      id: 7,
+      question: "Why does Josh leave the country?",
+      options: ["He is deployed by the military", "He goes on a year-long medical volunteer program", "He flees from his father", "He goes to study abroad"],
+      correctIndex: 1,
+      explanation: "Josh leaves for a year-long volunteer program in Central America, asking Alex to watch over Ava in his absence."
+    },
+    {
+      id: 8,
+      question: "Who does Ivan kidnap to blackmail Alex?",
+      options: ["Josh and Michael", "Ava and Bridget", "Ava and Jules", "Stella and Ava"],
+      correctIndex: 1,
+      explanation: "Ivan kidnaps Ava and her friend Bridget to force Alex into surrendering full control of the company."
+    },
+    {
+      id: 9,
+      question: "What is the dynamic between Alex and Ava often described as?",
+      options: ["Friends to lovers", "Grumpy/sunshine", "Second chance romance", "Childhood sweethearts"],
+      correctIndex: 1,
+      explanation: "Alex's cold, stoic demeanor paired with Ava's warm, sunny personality creates a classic grumpy/sunshine dynamic."
+    },
+    {
+      id: 10,
+      question: "How does Josh react to learning about Alex and Ava's relationship?",
+      options: ["He is immediately supportive", "He remains angry and has not forgiven Alex by the epilogue", "He cuts Ava out of his life", "He helps them get together"],
+      correctIndex: 1,
+      explanation: "By the epilogue, Josh is still angry about Alex's deception and has not yet accepted their relationship, though Ava and Alex believe he will come around."
+    }
+  ]
+};

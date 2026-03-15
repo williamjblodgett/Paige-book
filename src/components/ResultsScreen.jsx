@@ -4,11 +4,11 @@ export default function ResultsScreen({ results, questions, onRetry }) {
   const pct = Math.round((correct / total) * 100)
 
   let message
-  if (pct === 100) message = 'Flawless. The Woods would be proud.'
-  else if (pct >= 80) message = 'Impressive knowledge of the realm.'
-  else if (pct >= 60) message = 'You know more than most mortals.'
-  else if (pct >= 40) message = 'The Woods have clouded your memory.'
-  else message = 'Perhaps a re-read is in order...'
+  if (pct === 100) message = 'Absolute book boyfriend material.'
+  else if (pct >= 80) message = 'You clearly dog-eared the good pages.'
+  else if (pct >= 60) message = 'Not bad — you were paying attention between the spicy scenes.'
+  else if (pct >= 40) message = 'Maybe a re-read is in order... for research purposes.'
+  else message = 'Were you even reading or just skipping to the smut?'
 
   return (
     <div className="max-w-2xl mx-auto text-center">

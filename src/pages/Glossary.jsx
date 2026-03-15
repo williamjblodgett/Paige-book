@@ -1,8 +1,7 @@
 import { useState, useMemo } from 'react'
-import BookGate from '../components/BookGate'
 import GlossaryCard from '../components/GlossaryCard'
-import { glossaryTerms } from '../data/glossary'
-import { CATEGORIES } from '../data/bookTheme'
+import { allBooks } from '../data/books'
+import { TERM_CATEGORIES } from '../data/constants'
 
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
 
@@ -38,19 +37,56 @@ const categoryIcons = {
       <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
     </svg>
   ),
+  concept: (
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <circle cx="12" cy="12" r="10" /><path d="M12 16v-4M12 8h.01" />
+    </svg>
+  ),
+  slang: (
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+    </svg>
+  ),
+  worldbuilding: (
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+    </svg>
+  ),
 }
 
 export default function Glossary() {
-  const [unlockedBooks, setUnlockedBooks] = useState(null)
   const [searchQuery, setSearchQuery] = useState('')
   const [activeBookFilter, setActiveBookFilter] = useState(null)
   const [activeCategoryFilter, setActiveCategoryFilter] = useState(null)
 
-  const filteredTerms = useMemo(() => {
-    if (!unlockedBooks) return []
+  // Collect all terms from all books
+  const allTerms = useMemo(() => {
+    const terms = []
+    for (const book of allBooks) {
+      if (book.comingSoon || !book.terms) continue
+      for (const term of book.terms) {
+        terms.push({
+          ...term,
+          book: book.title,
+          bookId: book.id,
+          accentColor: book.accentColor,
+        })
+      }
+    }
+    return terms
+  }, [])
 
-    return glossaryTerms
-      .filter(t => unlockedBooks.includes(t.book))
+  // Get unique book names for filter pills
+  const bookNames = useMemo(() => {
+    const names = new Set()
+    for (const term of allTerms) {
+      names.add(term.book)
+    }
+    return Array.from(names).sort()
+  }, [allTerms])
+
+  const filteredTerms = useMemo(() => {
+    return allTerms
       .filter(t => !activeBookFilter || t.book === activeBookFilter)
       .filter(t => !activeCategoryFilter || t.category === activeCategoryFilter)
       .filter(t => {
@@ -62,7 +98,7 @@ export default function Glossary() {
         )
       })
       .sort((a, b) => a.term.localeCompare(b.term))
-  }, [unlockedBooks, activeBookFilter, activeCategoryFilter, searchQuery])
+  }, [allTerms, activeBookFilter, activeCategoryFilter, searchQuery])
 
   const grouped = useMemo(() => {
     const groups = {}
@@ -76,29 +112,15 @@ export default function Glossary() {
 
   const availableLetters = new Set(Object.keys(grouped))
 
-  // Count terms per category for the active filter set
   const categoryCounts = useMemo(() => {
-    if (!unlockedBooks) return {}
-    const baseTerms = glossaryTerms
-      .filter(t => unlockedBooks.includes(t.book))
+    const baseTerms = allTerms
       .filter(t => !activeBookFilter || t.book === activeBookFilter)
     const counts = {}
     for (const t of baseTerms) {
       counts[t.category] = (counts[t.category] || 0) + 1
     }
     return counts
-  }, [unlockedBooks, activeBookFilter])
-
-  if (!unlockedBooks) {
-    return (
-      <BookGate
-        selectionMode="multi"
-        onConfirm={setUnlockedBooks}
-        title="Glossary"
-        description="Which books have you read? Select all that apply to reveal terms — no spoilers beyond your progress."
-      />
-    )
-  }
+  }, [allTerms, activeBookFilter])
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
@@ -108,17 +130,9 @@ export default function Glossary() {
           <h2 className="font-heading text-gold text-3xl tracking-wider">
             Glossary
           </h2>
-          <button
-            onClick={() => {
-              setUnlockedBooks(null)
-              setActiveBookFilter(null)
-              setActiveCategoryFilter(null)
-              setSearchQuery('')
-            }}
-            className="font-body text-muted text-sm hover:text-gold transition-colors mt-1 cursor-pointer"
-          >
-            Change book selection
-          </button>
+          <p className="font-body text-muted text-sm mt-1">
+            {allTerms.length} terms across {bookNames.length} books
+          </p>
         </div>
 
         {/* Search */}
@@ -151,7 +165,7 @@ export default function Glossary() {
         >
           All Books
         </button>
-        {unlockedBooks.map((book) => (
+        {bookNames.map((book) => (
           <button
             key={book}
             onClick={() => setActiveBookFilter(activeBookFilter === book ? null : book)}
@@ -178,7 +192,7 @@ export default function Glossary() {
         >
           All Types
         </button>
-        {CATEGORIES.map(({ id, label }) => {
+        {TERM_CATEGORIES.map(({ id, label }) => {
           const count = categoryCounts[id] || 0
           if (count === 0) return null
           return (
@@ -233,13 +247,14 @@ export default function Glossary() {
               {letter}
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {grouped[letter].map((term) => (
+              {grouped[letter].map((term, i) => (
                 <GlossaryCard
-                  key={term.id}
+                  key={`${term.book}-${term.term}-${i}`}
                   term={term.term}
                   definition={term.definition}
                   book={term.book}
                   category={term.category}
+                  accentColor={term.accentColor}
                 />
               ))}
             </div>
