@@ -19,7 +19,7 @@ export default {
   ],
   "accentColor": "#d4b896",
   "pov": "dual-pov",
-  "pageCount": 400,
+  "pageCount": 432,
   "publicationYear": 2024,
   "standalone": false,
   "contentWarnings": [

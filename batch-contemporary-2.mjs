@@ -40,10 +40,10 @@ As Alexis commutes between her high-pressure life in Minneapolis and Daniel's sm
     themes: ["fake-dating", "grumpy-sunshine", "slow-burn"],
     spice: 3,
     pov: "dual-pov",
-    pages: 368,
+    pages: 398,
     year: 2023,
     cw: ["anxiety", "chronic illness", "family illness"],
-    synopsis: `Dr. Briana Ortiz is having the worst satisfactionyear. She's up for chief resident against a colleague she can't stand, her brother needs a kidney transplant, and she's navigating crippling anxiety. When Jacob Maddox, the introverted new ER doctor, writes her old-fashioned handwritten letters and offers to be her fake boyfriend, she reluctantly agrees.
+    synopsis: `Dr. Briana Ortiz is having the worst year. She's up for chief resident against a colleague she can't stand, her brother needs a kidney transplant, and she's navigating crippling anxiety. When Jacob Maddox, the introverted new ER doctor, writes her old-fashioned handwritten letters and offers to be her fake boyfriend, she reluctantly agrees.
 
 What starts as a strategic arrangement to make her ex jealous becomes something neither expected. Jacob's quiet steadiness and thoughtful letters break through Briana's walls, and she discovers that the man who writes her letters understands her better than anyone. But Jacob is hiding his own struggles, and their fake relationship is the realest thing either has ever felt.`,
     characters: [
@@ -72,7 +72,7 @@ What starts as a strategic arrangement to make her ex jealous becomes something 
     themes: ["fake-dating", "curse-breaking", "summer-romance"],
     spice: 3,
     pov: "dual-pov",
-    pages: 400,
+    pages: 432,
     year: 2024,
     cw: ["foster care", "abandonment"],
     synopsis: `Justin has a curse: every woman he dates finds her soulmate immediately after they break up. Emma has the same problem with men. When they discover each other online, they hatch a plan—date each other for the summer, then break up so they can both finally find The One.
@@ -138,7 +138,7 @@ But Josh doesn't stay in the friend zone easily, and their chemistry is undeniab
     pages: 344,
     year: 2015,
     cw: ["sexual assault (past)", "PTSD"],
-    synopsis: `Hannah Wells wants just one thing: to ace her music midterm. She needs a tutoring session with Garrett Graham, the cocky captain of the Briar University hockey team. Garrett wants something too—for Hannah to pretend to be his girlfriend to make another girl jealous. So they make a deal.
+    synopsis: `Hannah Wells wants just one thing: to ace her classes. Garrett Graham, the cocky captain of the Briar University hockey team, wants something too—a tutor, because he's flunking Ethics and his NHL dreams are on the line. When Garrett discovers Hannah's secret crush on a football player, he proposes a deal: she saves his GPA, and he uses his popularity to help make her crush jealous by pretending to date her.
 
 As their fake relationship plays out across campus, the arrangement stops feeling fake. Hannah opens up about a trauma she's buried, and Garrett proves he's more than the arrogant jock everyone sees. But real feelings in a fake relationship mean real consequences, and neither planned on falling this hard.`,
     characters: [
@@ -167,7 +167,7 @@ As their fake relationship plays out across campus, the arrangement stops feelin
     themes: ["second-chance", "college-romance", "jock"],
     spice: 3,
     pov: "dual-pov",
-    pages: 290,
+    pages: 296,
     year: 2015,
     cw: ["alcoholism (parental)"],
     synopsis: `John Logan made the biggest mistake of his life when he let Grace Ivers walk away. After a perfect night together, his thoughtless behavior sent her running, and now she wants nothing to do with him. Logan is used to getting what he wants—girls, hockey wins, good times—but Grace is immune to his charm.
@@ -199,7 +199,7 @@ Determined to win her back, Logan launches a full-scale campaign to prove he's c
     themes: ["player-falls-first", "college-romance", "unplanned-pregnancy"],
     spice: 4,
     pov: "dual-pov",
-    pages: 296,
+    pages: 338,
     year: 2016,
     cw: ["unplanned pregnancy"],
     synopsis: `Dean Di Laurentis is Briar University's resident playboy. He doesn't do relationships, he doesn't do feelings, and he definitely doesn't do one woman at a time. Then he meets Allie Hayes, the only girl on campus who's just as commitment-phobic as he is. Their night together is supposed to be a one-time thing.
@@ -231,7 +231,7 @@ But one night turns into two, then three, and before Dean knows it, he's in unfa
     themes: ["single-parent", "class-difference", "college-romance"],
     spice: 3,
     pov: "dual-pov",
-    pages: 298,
+    pages: 350,
     year: 2016,
     cw: ["unplanned pregnancy", "toxic family", "financial hardship"],
     synopsis: `Sabrina James is working her way through Harvard Law, determined to escape her dysfunctional family. She has no time for distractions—especially not Tucker, the sweet, Southern hockey player from Briar University who she had one unforgettable night with. But when that night has unexpected consequences, Sabrina's carefully planned future gets turned upside down.
@@ -263,7 +263,7 @@ Tucker wants to be there for Sabrina, but she's fiercely independent and refuses
     themes: ["fish-out-of-water", "opposites-attract", "grumpy-sunshine"],
     spice: 4,
     pov: "dual-pov",
-    pages: 374,
+    pages: 397,
     year: 2021,
     cw: ["parental abandonment"],
     synopsis: `Piper Bellinger is LA's "It Girl"—influencer, party queen, and professional hot mess. After one scandal too many, her stepfather cuts her off and sends her to Westport, Washington, to manage a dive bar she's inherited from her late father. The culture shock is immediate, and so is her clash with Brendan Taggart, the gruff, bearded sea captain who thinks she's a spoiled brat.
@@ -295,7 +295,7 @@ As Piper surprises everyone—including herself—by actually trying to make the
     themes: ["friends-to-lovers", "reformed-player", "self-discovery"],
     spice: 4,
     pov: "dual-pov",
-    pages: 384,
+    pages: 353,
     year: 2022,
     cw: ["parental neglect", "stereotyping"],
     synopsis: `Fox Thornton is Westport's resident heartthrob and Brendan's first mate. He's charming, easygoing, and has a reputation that precedes him. When Hannah Bellinger—Piper's quieter, more serious sister—returns to Westport to work on a movie production, Fox offers her a place to stay. They're just friends. That's the deal.
@@ -358,7 +358,7 @@ When they agree to fake-date to boost both their images—him needing good press
     themes: ["redemption", "second-chance", "class-difference"],
     spice: 3,
     pov: "dual-pov",
-    pages: 304,
+    pages: 258,
     year: 2021,
     cw: ["incarceration", "theft"],
     synopsis: `Stella Schmidt has just been released from prison and is trying to rebuild her life. She lands a job at a luxurious department store during the holiday season, where she catches the eye of Aiden Cook, the store owner's gorgeous, brooding nephew who's managing the holiday window display competition. He doesn't know about her past.
@@ -384,31 +384,31 @@ As Stella pours her artistic talent into the window displays and Aiden falls for
   {
     _folder: "contemporary",
     title: "Captivated",
-    author: "Tessa Bailey",
-    genres: ["contemporary-romance", "novella"],
-    themes: ["instant-attraction", "opposites-attract", "workplace-romance"],
-    spice: 4,
+    author: "Tessa Bailey & Eve Dangerfield",
+    genres: ["contemporary-romance"],
+    themes: ["grumpy-sunshine", "opposites-attract", "landlord-tenant"],
+    spice: 5,
     pov: "dual-pov",
-    pages: 150,
-    year: 2020,
-    cw: [],
-    synopsis: `When a CEO's helicopter lands in a small-town vineyard, it disrupts more than just the vines. Autumn Keaton has been quietly managing her family's struggling winery, and she doesn't need some arrogant city businessman showing up and turning everything upside down. But Julian Vos isn't what she expected—beneath the suits and corporate polish is a man desperate for something real.
+    pages: 350,
+    year: 2018,
+    cw: ["BDSM elements"],
+    synopsis: `Autumn Reynolds is an Australian stranded in New York after her cheating ex abandoned her. Her coping mechanism? Drawing wildly explicit comics starring her mysterious downstairs neighbor Blake Munroe, a brooding recluse who restores antique books in the dark and hates people and sunlight in equal measure.
 
-Their chemistry is instant and combustible. Julian sees in Autumn a passion and groundedness that his high-powered world lacks, and Autumn discovers that the man behind the billions is surprisingly vulnerable. But Julian's life is in New York, and Autumn's roots run deep in the vineyard.`,
+When Blake discovers the comics, their landlord-tenant relationship combusts. They agree to three dates—no feelings, no commitment. But Autumn's sunny warmth and Blake's dark intensity are a combination neither can contain, and their three-date rule crumbles as genuine connection develops.`,
     characters: [
-      { name: "Autumn Keaton", role: "Protagonist, vineyard manager in a small town" },
-      { name: "Julian Vos", role: "Love interest, wealthy CEO searching for meaning" }
+      { name: "Autumn Reynolds", role: "Protagonist, Australian woman stranded in NYC who draws comics about her landlord" },
+      { name: "Blake Munroe", role: "Love interest, grumpy reclusive antique book restorer" }
     ],
     terms: [
-      { term: "Insta-Love", category: "Romance Trope", definition: "An immediate, powerful attraction between characters upon meeting." },
-      { term: "City vs Country", category: "Romance Theme", definition: "Tension between urban sophistication and rural authenticity." }
+      { term: "Grumpy-Sunshine", category: "Romance Trope", definition: "A pairing of a brooding, reserved character with a bright, cheerful one." },
+      { term: "Three-Date Rule", category: "Plot Device", definition: "An arrangement limiting dates to avoid emotional attachment." }
     ],
     quiz: [
-      ["How does Julian arrive in town?", ["By car", "By helicopter", "By train", "By boat"], 1, "Julian's helicopter literally lands in Autumn's vineyard."],
-      ["What does Autumn manage?", ["A bakery", "A vineyard", "A hotel", "A ranch"], 1, "Autumn runs her family's struggling winery."],
-      ["What is Julian's profession?", ["Lawyer", "CEO", "Investor", "Chef"], 1, "Julian is a wealthy CEO from New York."],
-      ["What is the main obstacle?", ["Family disapproval", "Their lives are in different places", "A rival", "Age difference"], 1, "Julian's life is in NYC while Autumn is rooted in her small town."],
-      ["What is this book's format?", ["Full novel", "Novella", "Short story", "Series opener"], 1, "Captivated is a novella, shorter than a full novel."]
+      ["What is Autumn's nationality?", ["American", "Australian", "British", "Canadian"], 1, "Autumn is Australian, stranded in NYC after her ex abandoned her."],
+      ["What does Blake do for a living?", ["Writer", "Antique book restorer", "Librarian", "Artist"], 1, "Blake restores antique books in solitude."],
+      ["What does Blake discover about Autumn?", ["Her diary", "Her explicit comics about him", "Her secret identity", "Her comedy career"], 1, "Blake finds the explicit comics Autumn drew featuring him."],
+      ["How many dates do they agree to?", ["One", "Three", "Five", "Unlimited"], 1, "They agree to three dates with no feelings or commitment."],
+      ["What is Blake's personality like?", ["Outgoing and fun", "Grumpy and reclusive", "Shy and sweet", "Sarcastic and witty"], 1, "Blake hates people and sunlight in equal measure."]
     ]
   },
   {
@@ -420,7 +420,7 @@ Their chemistry is instant and combustible. Julian sees in Autumn a passion and 
     themes: ["marriage-in-crisis", "grovel", "second-chance"],
     spice: 4,
     pov: "dual-pov",
-    pages: 425,
+    pages: 352,
     year: 2023,
     cw: ["neglect in marriage", "workaholism"],
     synopsis: `Dominic Davenport has it all—a billion-dollar empire, power, prestige. But he's been so consumed by ambition that he's neglected the one thing that truly matters: his wife Alessandra. When she finally files for divorce, Dominic's world shatters. He never saw it coming, even though the signs were there for years.
@@ -484,7 +484,7 @@ Isabella knows she doesn't fit into Kai's polished world, and she refuses to be 
     themes: ["opposites-attract", "slow-burn", "forbidden-love"],
     spice: 4,
     pov: "dual-pov",
-    pages: 432,
+    pages: 464,
     year: 2024,
     cw: ["grief", "family pressure"],
     synopsis: `Xavier Castillo is the world's most eligible billionaire heir, known more for his partying than his ambition. Sloane Kensington is his no-nonsense publicist who has spent years cleaning up his messes. She's the definition of buttoned-up professionalism, and he's everything she disdains—lazy, reckless, and infuriatingly charming.
@@ -548,7 +548,7 @@ But Iris isn't the pushover Declan assumed. Behind her quiet exterior is a woman
     themes: ["workplace-romance", "secret-identity", "slow-burn"],
     spice: 3,
     pov: "dual-pov",
-    pages: 480,
+    pages: 436,
     year: 2021,
     cw: ["toxic family dynamics"],
     synopsis: `Rowan Kane needs to revitalize Dreamland's most neglected theme park to secure his inheritance. Going undercover as a regular employee, he didn't count on Zahra Gulian—the park's most passionate ride creator who challenges his every decision and sees right through corporate BS. She has no idea her annoying new coworker is actually a billionaire heir.
@@ -580,8 +580,8 @@ As Rowan navigates his double life, Zahra's creativity and passion make him ques
     themes: ["second-chance", "small-town", "redemption"],
     spice: 3,
     pov: "dual-pov",
-    pages: 480,
-    year: 2022,
+    pages: 448,
+    year: 2023,
     cw: ["alcoholism", "addiction", "rehab"],
     synopsis: `Cal Kane is the youngest Kane brother—charming, reckless, and battling an addiction that's cost him everything, including the love of his life. To claim his inheritance, he must sell the lakeside property his grandfather left him. The problem? Lana Castillo, the woman he destroyed six years ago, is living there with her daughter and refuses to leave.
 
@@ -676,7 +676,7 @@ Knox wants nothing to do with Naomi and her chaos, but the town won't stop throw
     themes: ["mystery", "psychological", "love-triangle"],
     spice: 3,
     pov: "single-mmc",
-    pages: 322,
+    pages: 305,
     year: 2020,
     cw: ["shooting", "trauma", "violence"],
     synopsis: `Leeds and Layla's love story begins at a bed and breakfast where they have an instant, all-consuming connection. But their fairy tale is shattered when Layla is shot at their engagement party, leaving her a traumatized shell of who she was. Desperate to help her heal, Leeds brings Layla back to the B&B where they fell in love.
@@ -703,11 +703,12 @@ There, Leeds encounters Willow—a mysterious girl who seems to be connected to 
     _folder: "contemporary",
     title: "Getaway Girl",
     author: "Tessa Bailey",
+    series: "Girl, #1",
     genres: ["contemporary-romance", "rom-com"],
     themes: ["runaway-bride", "class-difference", "instant-attraction"],
     spice: 4,
     pov: "dual-pov",
-    pages: 230,
+    pages: 284,
     year: 2018,
     cw: [],
     synopsis: `Addison Potts flees her own high-society wedding, veil flying, and jumps into the first car she sees—which happens to belong to Elijah Du Mont, a rugged, blue-collar construction worker. He's everything her Upper East Side life isn't: rough, real, and completely inappropriate. Their chemistry is immediate and undeniable.
