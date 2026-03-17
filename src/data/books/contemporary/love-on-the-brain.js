@@ -18,7 +18,7 @@ export default {
   ],
   "accentColor": "#b89466",
   "pov": "single-fmc",
-  "pageCount": 370,
+  "pageCount": 352,
   "publicationYear": 2022,
   "standalone": true,
   "contentWarnings": [

@@ -259,7 +259,7 @@ Eli agrees, but he never planned on following the rules. As the corporate battle
     themes: ["enemies-to-lovers", "grumpy-sunshine", "workplace-romance"],
     spice: 3,
     pov: "single-fmc",
-    pages: 370,
+    pages: 352,
     year: 2022,
     cw: ["sexism in the workplace"],
     synopsis: `Bee Königswasser is a neuroscientist who lands her dream job co-leading a NASA project. The catch? She'll be working alongside Levi Ward, the gorgeous, insufferable neuroscientist who's made her life miserable since grad school. Bee is sunshine and sparkle; Levi is cold, brooding silence. Their rivalry is legendary.
@@ -541,7 +541,7 @@ What starts as an awkward transatlantic arrangement becomes something neither ex
     themes: ["enemies-to-lovers", "forced-proximity", "vacation-romance"],
     spice: 3,
     pov: "single-fmc",
-    pages: 385,
+    pages: 400,
     year: 2019,
     cw: [],
     synopsis: `Olive Torres is the unluckiest person alive, while her twin sister Ami is blessed with good fortune. When the entire wedding party gets food poisoning at Ami's reception, Olive is left with two nonrefundable tickets to Hawaii. The catch? The other ticket belongs to Ethan Thomas—the best man and the bane of her existence.
@@ -637,7 +637,7 @@ Given the chance to relive the holiday, Mae tries to fix everything. But the mor
     themes: ["marriage-in-crisis", "humor", "found-family"],
     spice: 3,
     pov: "dual-pov",
-    pages: 320,
+    pages: 352,
     year: 2019,
     cw: ["marital conflict", "infidelity fears"],
     synopsis: `Nashville Legends baseball star Gavin Scott's marriage is falling apart. When his wife Thea reveals she's been faking it in bed for their entire marriage and wants a divorce, Gavin is desperate. His teammates reveal a secret: they're all members of a romance novel book club, and they've been using romance novels to improve their relationships.
@@ -730,7 +730,7 @@ As Ally hides the real reason she desperately needs this job and Dominic battles
     themes: ["mistaken-identity", "roommates", "slow-burn"],
     spice: 3,
     pov: "single-fmc",
-    pages: 336,
+    pages: 352,
     year: 2022,
     cw: [],
     synopsis: `After a disastrous breakup leaves her homeless, Olivia Marshall moves in with her brother and his infuriating roommate Colin Beck. Colin is uptight, judgmental, and has zero tolerance for Olivia's chaotic lifestyle. Meanwhile, Olivia accidentally texts a wrong number and starts an anonymous flirtation with a mysterious stranger who makes her feel alive.
@@ -761,7 +761,7 @@ The anonymous texts become the highlight of her days, but Olivia has no idea tha
     themes: ["second-chance", "small-town", "magic"],
     spice: 3,
     pov: "single-fmc",
-    pages: 336,
+    pages: 320,
     year: 2021,
     cw: [],
     synopsis: `Nine years ago, Vivienne Jones was dumped by Rhys Penhallow right before he left their small Georgia town. In a moment of wine-fueled heartbreak, she and her friends cast a silly hex on him. She forgot all about it—until Rhys returns to Graves Glen for the town's annual Founder's Day celebration, and suddenly everything starts going wrong.

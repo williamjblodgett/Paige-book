@@ -18,7 +18,7 @@ export default {
   ],
   "accentColor": "#d4a574",
   "pov": "single-fmc",
-  "pageCount": 336,
+  "pageCount": 320,
   "publicationYear": 2021,
   "standalone": true,
   "contentWarnings": [],

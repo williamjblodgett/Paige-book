@@ -18,7 +18,7 @@ export default {
   ],
   "accentColor": "#deb887",
   "pov": "single-fmc",
-  "pageCount": 385,
+  "pageCount": 400,
   "publicationYear": 2019,
   "standalone": true,
   "contentWarnings": [],
