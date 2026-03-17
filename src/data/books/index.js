@@ -108,7 +108,6 @@ import book_act_your_age_eve_brown from './erotic/act-your-age-eve-brown.js'
 import book_american_king from './erotic/american-king.js'
 import book_american_prince from './erotic/american-prince.js'
 import book_american_queen from './erotic/american-queen.js'
-import book_beg_for_it from './erotic/beg-for-it.js'
 import book_eyes_on_me from './erotic/eyes-on-me.js'
 import book_get_a_life_chloe_brown from './erotic/get-a-life-chloe-brown.js'
 import book_give_me_more from './erotic/give-me-more.js'
@@ -318,7 +317,6 @@ export const allBooks = [
   book_american_king,
   book_american_prince,
   book_american_queen,
-  book_beg_for_it,
   book_eyes_on_me,
   book_get_a_life_chloe_brown,
   book_give_me_more,

@@ -1,7 +1,7 @@
 export default {
   id: "these-hollow-vows",
   title: "These Hollow Vows",
-  author: "Ciara Smyth",
+  author: "Lexi Ryan",
   genres: ["romantasy"],
   themes: ["enemies-to-lovers", "forbidden-love", "morally-grey", "fated-mates", "sacrifice"],
   spiceLevel: 3,
