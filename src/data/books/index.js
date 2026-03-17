@@ -37,6 +37,18 @@ import book_ugly_love from './contemporary/ugly-love.js'
 import book_verity from './contemporary/verity.js'
 import book_window_shopping from './contemporary/window-shopping.js'
 import book_yours_truly from './contemporary/yours-truly.js'
+import book_by_a_thread from './contemporary/by-a-thread.js'
+import book_funny_story from './contemporary/funny-story.js'
+import book_in_a_holidaze from './contemporary/in-a-holidaze.js'
+import book_just_for_the_summer from './contemporary/just-for-the-summer.js'
+import book_love_on_the_brain from './contemporary/love-on-the-brain.js'
+import book_mr_wrong_number from './contemporary/mr-wrong-number.js'
+import book_the_bromance_book_club from './contemporary/the-bromance-book-club.js'
+import book_the_ex_hex from './contemporary/the-ex-hex.js'
+import book_the_friend_zone from './contemporary/the-friend-zone.js'
+import book_the_soulmate_equation from './contemporary/the-soulmate-equation.js'
+import book_the_unhoneymooners from './contemporary/the-unhoneymooners.js'
+import book_you_deserve_each_other from './contemporary/you-deserve-each-other.js'
 import book_a_touch_of_darkness from './dark-romance/a-touch-of-darkness.js'
 import book_bait from './dark-romance/bait.js'
 import book_birthday_girl from './dark-romance/birthday-girl.js'
@@ -238,6 +250,18 @@ export const allBooks = [
   book_verity,
   book_window_shopping,
   book_yours_truly,
+  book_by_a_thread,
+  book_funny_story,
+  book_in_a_holidaze,
+  book_just_for_the_summer,
+  book_love_on_the_brain,
+  book_mr_wrong_number,
+  book_the_bromance_book_club,
+  book_the_ex_hex,
+  book_the_friend_zone,
+  book_the_soulmate_equation,
+  book_the_unhoneymooners,
+  book_you_deserve_each_other,
   book_a_touch_of_darkness,
   book_bait,
   book_birthday_girl,
