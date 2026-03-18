@@ -2,7 +2,7 @@ export default {
   id: "better-than-the-movies",
   title: "Better Than the Movies",
   author: "Lynn Painter",
-  genres: ["sports-romance", "contemporary-romance"],
+  genres: ["contemporary-romance"],
   themes: ["enemies-to-lovers", "romantic-comedy", "rom-com-homage", "next-door-neighbor"],
   spiceLevel: 1,
   coverGradient: ["#0a1018", "#1a0c12"],

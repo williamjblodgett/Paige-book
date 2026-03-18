@@ -3,7 +3,7 @@ export default {
   title: "Powerless",
   author: "Elsie Silver",
   series: "Chestnut Springs #3",
-  genres: ["dark-romance"],
+  genres: ["contemporary-romance"],
   themes: ["forbidden-love", "possessive-hero", "touch-her-and-die", "forced-proximity", "taboo"],
   spiceLevel: 4,
   coverGradient: ["#0a0a12", "#1a1a35"],
