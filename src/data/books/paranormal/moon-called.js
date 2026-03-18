@@ -4,7 +4,7 @@ export default {
   author: "Patricia Briggs",
   genres: ["paranormal-romance"],
   themes: ["shapeshifter", "supernatural-politics", "found-family", "strong-heroine"],
-  spiceLevel: 3,
+  spiceLevel: 1,
   coverGradient: ["#0a1a0f", "#0a0f0c"],
   accentColor: "#1e8a5f",
   pov: "single-fmc",

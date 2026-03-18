@@ -4,7 +4,7 @@ export default {
   author: "Holly Black",
   genres: ["romantasy"],
   themes: ["enemies-to-lovers", "morally-grey", "forbidden-love", "rebellion", "slow-burn", "possessive-hero"],
-  spiceLevel: 3,
+  spiceLevel: 1,
   coverGradient: ["#0a0f20", "#1a0a28"],
   accentColor: "#7c5cbf",
   pov: "single-fmc",

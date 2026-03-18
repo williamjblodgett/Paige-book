@@ -4,7 +4,7 @@ export default {
   author: "Lynn Painter",
   genres: ["sports-romance", "contemporary-romance"],
   themes: ["enemies-to-lovers", "romantic-comedy", "rom-com-homage", "next-door-neighbor"],
-  spiceLevel: 3,
+  spiceLevel: 1,
   coverGradient: ["#0a1018", "#1a0c12"],
   accentColor: "#2d8cf0",
   pov: "single-fmc",

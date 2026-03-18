@@ -4,7 +4,7 @@ export default {
   author: "Beth O'Leary",
   genres: ["contemporary-romance", "romantic-comedy"],
   themes: ["roommates", "slow-burn", "opposites-attract", "forced-proximity"],
-  spiceLevel: 3,
+  spiceLevel: 2,
   coverGradient: ["#84ceeb", "#5680e9"],
   accentColor: "#c45b84",
   pov: "dual-pov",

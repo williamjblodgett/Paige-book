@@ -4,7 +4,7 @@ export default {
   author: "Colleen Hoover",
   genres: ["contemporary-romance", "paranormal-romance"],
   themes: ["paranormal", "body-swap", "trauma", "haunted-setting", "identity"],
-  spiceLevel: 3,
+  spiceLevel: 2,
   coverGradient: ["#151020", "#0f0f18"],
   accentColor: "#6b4b8b",
   pov: "single-fmc",
