@@ -108,7 +108,6 @@ import book_act_your_age_eve_brown from './erotic/act-your-age-eve-brown.js'
 import book_american_king from './erotic/american-king.js'
 import book_american_prince from './erotic/american-prince.js'
 import book_american_queen from './erotic/american-queen.js'
-import book_beg_for_it from './erotic/beg-for-it.js'
 import book_eyes_on_me from './erotic/eyes-on-me.js'
 import book_get_a_life_chloe_brown from './erotic/get-a-life-chloe-brown.js'
 import book_give_me_more from './erotic/give-me-more.js'
@@ -120,7 +119,6 @@ import book_priest from './erotic/priest.js'
 import book_run_posy_run from './erotic/run-posy-run.js'
 import book_saint from './erotic/saint.js'
 import book_sinner from './erotic/sinner.js'
-import book_sweetest_kill from './erotic/sweetest-kill.js'
 import book_take_a_hint_dani_brown from './erotic/take-a-hint-dani-brown.js'
 import book_the_bride_test from './erotic/the-bride-test.js'
 import book_the_dare from './erotic/the-dare.js'
@@ -188,7 +186,6 @@ import book_behind_the_net from './sports-romance/behind-the-net.js'
 import book_better_than_the_movies from './sports-romance/better-than-the-movies.js'
 import book_blindside_hit from './sports-romance/blindside-hit.js'
 import book_caught_up from './sports-romance/caught-up.js'
-import book_checked from './sports-romance/checked.js'
 import book_collided from './sports-romance/collided.js'
 import book_consider_me from './sports-romance/consider-me.js'
 import book_icebreaker from './sports-romance/icebreaker.js'
@@ -209,7 +206,6 @@ import book_the_wall_of_winnipeg_and_me from './sports-romance/the-wall-of-winni
 import book_throttled from './sports-romance/throttled.js'
 import book_wait_for_it from './sports-romance/wait-for-it.js'
 import book_wildfire from './sports-romance/wildfire.js'
-import book_winning_team from './sports-romance/winning-team.js'
 import book_wrecked from './sports-romance/wrecked.js'
 
 export const allBooks = [
@@ -321,7 +317,6 @@ export const allBooks = [
   book_american_king,
   book_american_prince,
   book_american_queen,
-  book_beg_for_it,
   book_eyes_on_me,
   book_get_a_life_chloe_brown,
   book_give_me_more,
@@ -333,7 +328,6 @@ export const allBooks = [
   book_run_posy_run,
   book_saint,
   book_sinner,
-  book_sweetest_kill,
   book_take_a_hint_dani_brown,
   book_the_bride_test,
   book_the_dare,
@@ -401,7 +395,6 @@ export const allBooks = [
   book_better_than_the_movies,
   book_blindside_hit,
   book_caught_up,
-  book_checked,
   book_collided,
   book_consider_me,
   book_icebreaker,
@@ -422,6 +415,5 @@ export const allBooks = [
   book_throttled,
   book_wait_for_it,
   book_wildfire,
-  book_winning_team,
   book_wrecked,
 ]
