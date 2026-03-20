@@ -24,8 +24,8 @@ function setCache(cache) {
   }
 }
 
-function fetchGoogleBooks(title, author) {
-  const query = encodeURIComponent(`intitle:${title} inauthor:${author}`)
+function fetchGoogleBooks(queryText) {
+  const query = encodeURIComponent(queryText)
   const url = `https://www.googleapis.com/books/v1/volumes?q=${query}&maxResults=1`
 
   return fetch(url)
@@ -64,17 +64,47 @@ function fetchOpenLibrary(title, author) {
     .catch(() => null)
 }
 
-export default function useBookCoverImage(title, author) {
+function fetchGoogleBooksByIsbn(isbn) {
+  return fetchGoogleBooks(`isbn:${isbn}`)
+}
+
+function fetchOpenLibraryByIsbn(isbn) {
+  const clean = String(isbn || '').trim()
+  if (!clean) return Promise.resolve(null)
+  const url = `https://openlibrary.org/api/books?bibkeys=ISBN:${encodeURIComponent(clean)}&format=json&jscmd=data`
+
+  return fetch(url)
+    .then(res => res.json())
+    .then(data => {
+      const key = `ISBN:${clean}`
+      const cover = data?.[key]?.cover
+      return cover?.large || cover?.medium || cover?.small || null
+    })
+    .catch(() => null)
+}
+
+export default function useBookCoverImage(book) {
   const [coverUrl, setCoverUrl] = useState(null)
   const [loading, setLoading] = useState(true)
 
+  const title = book?.title
+  const author = book?.author
+  const providedCoverUrl = book?.coverUrl || null
+  const isbn = book?.isbn || null
+
   useEffect(() => {
+    if (providedCoverUrl) {
+      setCoverUrl(providedCoverUrl)
+      setLoading(false)
+      return
+    }
+
     if (!title || !author) {
       setLoading(false)
       return
     }
 
-    const cacheKey = `${title}::${author}`
+    const cacheKey = isbn ? `isbn:${isbn}` : `${title}::${author}`
     const cache = getCache()
 
     if (cache[cacheKey] !== undefined) {
@@ -86,8 +116,18 @@ export default function useBookCoverImage(title, author) {
     let cancelled = false
 
     async function fetchCover() {
-      // Try Google Books first
-      let cover = await fetchGoogleBooks(title, author)
+      let cover = null
+
+      if (isbn) {
+        cover = await fetchOpenLibraryByIsbn(isbn)
+        if (!cover) {
+          cover = await fetchGoogleBooksByIsbn(isbn)
+        }
+      }
+
+      if (!cover) {
+        cover = await fetchGoogleBooks(`intitle:${title} inauthor:${author}`)
+      }
 
       // Fallback to Open Library
       if (!cover) {
@@ -107,7 +147,7 @@ export default function useBookCoverImage(title, author) {
     fetchCover()
 
     return () => { cancelled = true }
-  }, [title, author])
+  }, [title, author, providedCoverUrl, isbn])
 
   return { coverUrl, loading }
 }

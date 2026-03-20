@@ -1,0 +1,20 @@
+export default {
+  id: "the-wall-of-winnipeg",
+  title: "The Wall of Winnipeg",
+  author: "Mariana Zapata",
+  genres: ["sports-romance", "contemporary-romance", "football"],
+  themes: ["sports-workplace", "enemies-to-lovers", "slow-burn", "sports-tension"],
+  spiceLevel: 4.5,
+  coverGradient: ["#003366", "#ffcc00"],
+  accentColor: "#cc0000",
+  pov: "single-fmc",
+  pageCount: 496,
+  publicationYear: 2016,
+  standalone: true,
+  contentWarnings: [],
+  synopsis: `Paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal.`,
+  characters: [{ name: "Character", role: "Paranormal" }],
+  terms: [{ term: "Paranormal", category: "Trope", definition: "Paranormal" }],
+  quiz: [{ id: 1, question: "Paranormal?", options: ["A", "B", "C", "D"], correctIndex: 0, explanation: "Paranormal" }],
+  coverUrl: "https://covers.openlibrary.org/b/isbn/9781507199077-M.jpg"
+};

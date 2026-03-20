@@ -1,0 +1,20 @@
+export default {
+  id: "one-last-stop",
+  title: "One Last Stop",
+  author: "Casey McQuiston",
+  genres: ["contemporary-romance", "paranormal-light", "fantasy-light"],
+  themes: ["paranormal-light-time-slip", "paranormal-light", "found-family", "paranormal-light-mystery"],
+  spiceLevel: 1,
+  coverGradient: ["#ff6b9d", "#feca57"],
+  accentColor: "#00d2d3",
+  pov: "single-fmc",
+  pageCount: 400,
+  publicationYear: 2021,
+  standalone: true,
+  contentWarnings: [],
+  synopsis: `Paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal.`,
+  characters: [{ name: "Character", role: "Paranormal" }],
+  terms: [{ term: "Paranormal", category: "Trope", definition: "Paranormal" }],
+  quiz: [{ id: 1, question: "Paranormal?", options: ["A", "B", "C", "D"], correctIndex: 0, explanation: "Paranormal" }],
+  coverUrl: "https://covers.openlibrary.org/b/isbn/9780062868619-M.jpg"
+};

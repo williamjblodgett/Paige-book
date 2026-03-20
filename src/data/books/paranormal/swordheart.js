@@ -1,0 +1,20 @@
+export default {
+  id: "swordheart",
+  title: "Swordheart",
+  author: "T. Kingfisher",
+  genres: ["paranormal-romance", "paranormal-fantasy", "paranormal-paranormal"],
+  themes: ["paranormal-haunting", "paranormal-magic", "paranormal-slow-burn", "paranormal-found-family"],
+  spiceLevel: 4,
+  coverGradient: ["#8b4513", "#daa520"],
+  accentColor: "#ff6347",
+  pov: "dual",
+  pageCount: 462,
+  publicationYear: 2010,
+  standalone: true,
+  contentWarnings: [],
+  synopsis: `Paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal.`,
+  characters: [{ name: "Character", role: "Paranormal" }],
+  terms: [{ term: "Paranormal", category: "Trope", definition: "Paranormal" }],
+  quiz: [{ id: 1, question: "Paranormal?", options: ["A", "B", "C", "D"], correctIndex: 0, explanation: "Paranormal" }],
+  coverUrl: "https://covers.openlibrary.org/b/isbn/9781894815529-M.jpg"
+};

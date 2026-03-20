@@ -1,0 +1,20 @@
+export default {
+  id: "boyfriend-material",
+  title: "Boyfriend Material",
+  author: "Alexis Hall",
+  genres: ["contemporary-romance", "lgbtq-romance", "paranormal-light"],
+  themes: ["fake-dating", "paranormal-light", "humor", "slow-burn", "found-family"],
+  spiceLevel: 1.5,
+  coverGradient: ["#ff69b4", "#ffc0cb"],
+  accentColor: "#4169e1",
+  pov: "single-mmc",
+  pageCount: 544,
+  publicationYear: 2020,
+  standalone: false,
+  contentWarnings: [],
+  synopsis: `Paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal.`,
+  characters: [{ name: "Character", role: "Paranormal" }],
+  terms: [{ term: "Paranormal", category: "Trope", definition: "Paranormal" }],
+  quiz: [{ id: 1, question: "Paranormal?", options: ["A", "B", "C", "D"], correctIndex: 0, explanation: "Paranormal" }],
+  coverUrl: "https://covers.openlibrary.org/b/isbn/9780062878700-M.jpg"
+};

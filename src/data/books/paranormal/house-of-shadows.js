@@ -1,0 +1,20 @@
+export default {
+  id: "house-of-shadows",
+  title: "House of Shadows",
+  author: "Marcella James",
+  genres: ["paranormal-romance", "paranormal-gothic", "paranormal-mystery"],
+  themes: ["paranormal-gothic", "paranormal-haunted-house", "paranormal-mystery", "paranormal-slow-burn"],
+  spiceLevel: 3,
+  coverGradient: ["#1a1a1a", "#2d2d44"],
+  accentColor: "#c0c0c0",
+  pov: "dual",
+  pageCount: 320,
+  publicationYear: 2021,
+  standalone: false,
+  contentWarnings: ["paranormal-paranormal"],
+  synopsis: `Paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal.`,
+  characters: [{ name: "Character", role: "Paranormal" }],
+  terms: [{ term: "Paranormal", category: "Trope", definition: "Paranormal" }],
+  quiz: [{ id: 1, question: "Paranormal?", options: ["A", "B", "C", "D"], correctIndex: 0, explanation: "Paranormal" }],
+  coverUrl: "https://covers.openlibrary.org/b/isbn/9781728215259-M.jpg"
+};

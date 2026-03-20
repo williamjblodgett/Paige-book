@@ -1,0 +1,20 @@
+export default {
+  id: "master-of-crows",
+  title: "Master of Crows",
+  author: "Grace Draven",
+  genres: ["paranormal-romance", "paranormal-magic", "paranormal-fantasy"],
+  themes: ["paranormal-mage", "paranormal-curse", "paranormal-magic", "paranormal-slow-burn"],
+  spiceLevel: 3.5,
+  coverGradient: ["#1a1a1a", "#4b0082"],
+  accentColor: "#daa520",
+  pov: "single-mmc",
+  pageCount: 246,
+  publicationYear: 2014,
+  standalone: true,
+  contentWarnings: [],
+  synopsis: `Paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal.`,
+  characters: [{ name: "Character", role: "Paranormal" }],
+  terms: [{ term: "Paranormal", category: "Trope", definition: "Paranormal" }],
+  quiz: [{ id: 1, question: "Paranormal?", options: ["A", "B", "C", "D"], correctIndex: 0, explanation: "Paranormal" }],
+  coverUrl: "https://covers.openlibrary.org/b/isbn/9781619954120-M.jpg"
+};

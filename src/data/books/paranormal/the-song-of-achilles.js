@@ -1,0 +1,20 @@
+export default {
+  id: "the-song-of-achilles",
+  title: "The Song of Achilles",
+  author: "Madeline Miller",
+  genres: ["paranormal-romance", "paranormal-historical", "paranormal-mythology"],
+  themes: ["paranormal-mythology", "paranormal-paranormal", "paranormal-found-family", "paranormal-ancient-paranormal"],
+  spiceLevel: 3,
+  coverGradient: ["#8b4513", "#daa520"],
+  accentColor: "#dc143c",
+  pov: "single",
+  pageCount: 416,
+  publicationYear: 2011,
+  standalone: true,
+  contentWarnings: ["paranormal-paranormal", "paranormal-paranormal"],
+  synopsis: `Paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal.`,
+  characters: [{ name: "Character", role: "Paranormal" }],
+  terms: [{ term: "Paranormal", category: "Trope", definition: "Paranormal" }],
+  quiz: [{ id: 1, question: "Paranormal?", options: ["A", "B", "C", "D"], correctIndex: 0, explanation: "Paranormal" }],
+  coverUrl: "https://covers.openlibrary.org/b/isbn/9780062389519-M.jpg"
+};

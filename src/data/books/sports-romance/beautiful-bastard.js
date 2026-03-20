@@ -1,0 +1,20 @@
+export default {
+  id: "beautiful-bastard",
+  title: "Beautiful Bastard",
+  author: "Christina Lauren",
+  genres: ["contemporary-romance", "sports-romance", "mma"],
+  themes: ["mma-romance", "trainer-fighter", "enemies-to-lovers", "intense-sparring"],
+  spiceLevel: 4.5,
+  coverGradient: ["#1a1a1a", "#8b0000"],
+  accentColor: "#ffd700",
+  pov: "single-fmc",
+  pageCount: 368,
+  publicationYear: 2015,
+  standalone: false,
+  contentWarnings: ["sports-violence"],
+  synopsis: `Paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal.`,
+  characters: [{ name: "Character", role: "Paranormal" }],
+  terms: [{ term: "Paranormal", category: "Trope", definition: "Paranormal" }],
+  quiz: [{ id: 1, question: "Paranormal?", options: ["A", "B", "C", "D"], correctIndex: 0, explanation: "Paranormal" }],
+  coverUrl: "https://covers.openlibrary.org/b/isbn/9781939672674-M.jpg"
+};

@@ -1,0 +1,20 @@
+export default {
+  id: "dance-of-thieves",
+  title: "Dance of Thieves",
+  author: "Mary E. Pearson",
+  genres: ["paranormal-romance", "dark-paranormal", "paranormal-paranormal"],
+  themes: ["paranormal-crime-families", "paranormal-powers", "paranormal-enemies-to-lovers"],
+  spiceLevel: 3,
+  coverGradient: ["#2d2d44", "#8b4513"],
+  accentColor: "#ffa500",
+  pov: "dual",
+  pageCount: 688,
+  publicationYear: 2019,
+  standalone: false,
+  contentWarnings: ["paranormal-violence"],
+  synopsis: `Paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal.`,
+  characters: [{ name: "Character", role: "Paranormal" }],
+  terms: [{ term: "Paranormal", category: "Trope", definition: "Paranormal" }],
+  quiz: [{ id: 1, question: "Paranormal?", options: ["A", "B", "C", "D"], correctIndex: 0, explanation: "Paranormal" }],
+  coverUrl: "https://covers.openlibrary.org/b/isbn/9780062634801-M.jpg"
+};

@@ -1,0 +1,20 @@
+export default {
+  id: "legends-and-lattes",
+  title: "Legends & Lattes",
+  author: "Travis Baldree",
+  genres: ["paranormal-romance", "paranormal-cozy", "paranormal-fantasy"],
+  themes: ["paranormal-cozy", "paranormal-magic", "paranormal-found-family", "paranormal-cafe"],
+  spiceLevel: 1,
+  coverGradient: ["#8b4513", "#d2b48c"],
+  accentColor: "#228b22",
+  pov: "dual",
+  pageCount: 320,
+  publicationYear: 2020,
+  standalone: true,
+  contentWarnings: [],
+  synopsis: `Paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal paranormal.`,
+  characters: [{ name: "Character", role: "Paranormal" }],
+  terms: [{ term: "Paranormal", category: "Trope", definition: "Paranormal" }],
+  quiz: [{ id: 1, question: "Paranormal?", options: ["A", "B", "C", "D"], correctIndex: 0, explanation: "Paranormal" }],
+  coverUrl: "https://covers.openlibrary.org/b/isbn/9781999614691-M.jpg"
+};

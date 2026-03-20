@@ -2,7 +2,7 @@ import BookCover from './BookCover'
 import useBookCoverImage from '../hooks/useBookCoverImage'
 
 export default function SmartBookCover({ book, size = 'full', className = '' }) {
-  const { coverUrl } = useBookCoverImage(book.title, book.author)
+  const { coverUrl } = useBookCoverImage(book)
 
   if (coverUrl) {
     return (
