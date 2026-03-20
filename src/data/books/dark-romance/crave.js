@@ -5,7 +5,7 @@ export default {
   series: "Crave #1",
   genres: ["dark-romance", "paranormal-romance"],
   themes: ["forbidden-love", "enemies-to-lovers", "fated-mates", "morally-grey", "possessive-hero"],
-  spiceLevel: 4,
+  spiceLevel: 1,
   coverGradient: ["#0a0a18", "#1a1535"],
   accentColor: "#c42a2a",
   pov: "single-fmc",

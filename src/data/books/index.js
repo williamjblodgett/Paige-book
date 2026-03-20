@@ -1,56 +1,64 @@
 // Auto-generated barrel file for all books
 
 import book_beach_read from './contemporary/beach-read.js'
+import book_beautiful_bastard from './contemporary/beautiful-bastard.js'
 import book_birthday_suit from './contemporary/birthday-suit.js'
 import book_book_lovers from './contemporary/book-lovers.js'
+import book_boyfriend_material from './contemporary/boyfriend-material.js'
+import book_by_a_thread from './contemporary/by-a-thread.js'
 import book_captivated from './contemporary/captivated.js'
 import book_confess from './contemporary/confess.js'
 import book_deep_end from './contemporary/deep-end.js'
+import book_done_and_dusted from './contemporary/done-and-dusted.js'
 import book_final_offer from './contemporary/final-offer.js'
 import book_fix_her_up from './contemporary/fix-her-up.js'
+import book_funny_story from './contemporary/funny-story.js'
 import book_getaway_girl from './contemporary/getaway-girl.js'
 import book_happy_place from './contemporary/happy-place.js'
 import book_hook_line_and_sinker from './contemporary/hook-line-and-sinker.js'
+import book_in_a_holidaze from './contemporary/in-a-holidaze.js'
 import book_it_happened_one_summer from './contemporary/it-happened-one-summer.js'
+import book_just_for_the_summer from './contemporary/just-for-the-summer.js'
 import book_just_last_night from './contemporary/just-last-night.js'
 import book_king_of_greed from './contemporary/king-of-greed.js'
 import book_king_of_pride from './contemporary/king-of-pride.js'
 import book_king_of_sloth from './contemporary/king-of-sloth.js'
 import book_layla from './contemporary/layla.js'
+import book_love_on_the_brain from './contemporary/love-on-the-brain.js'
 import book_love_theoretically from './contemporary/love-theoretically.js'
+import book_mr_wrong_number from './contemporary/mr-wrong-number.js'
 import book_not_in_love from './contemporary/not-in-love.js'
 import book_november_9 from './contemporary/november-9.js'
+import book_one_last_stop from './contemporary/one-last-stop.js'
 import book_part_of_your_world from './contemporary/part-of-your-world.js'
 import book_people_we_meet_on_vacation from './contemporary/people-we-meet-on-vacation.js'
 import book_reminders_of_him from './contemporary/reminders-of-him.js'
+import book_swift_and_saddled from './contemporary/swift-and-saddled.js'
 import book_terms_and_conditions from './contemporary/terms-and-conditions.js'
+import book_the_bromance_book_club from './contemporary/the-bromance-book-club.js'
 import book_the_deal from './contemporary/the-deal.js'
+import book_the_ex_hex from './contemporary/the-ex-hex.js'
 import book_the_fine_print from './contemporary/the-fine-print.js'
 import book_the_flatshare from './contemporary/the-flatshare.js'
+import book_the_friend_zone from './contemporary/the-friend-zone.js'
 import book_the_goal from './contemporary/the-goal.js'
 import book_the_hating_game from './contemporary/the-hating-game.js'
 import book_the_love_hypothesis from './contemporary/the-love-hypothesis.js'
 import book_the_mistake from './contemporary/the-mistake.js'
+import book_the_paradise_problem from './contemporary/the-paradise-problem.js'
+import book_the_rom_commers from './contemporary/the-rom-commers.js'
 import book_the_score from './contemporary/the-score.js'
+import book_the_seven_year_slip from './contemporary/the-seven-year-slip.js'
+import book_the_soulmate_equation from './contemporary/the-soulmate-equation.js'
 import book_the_spanish_love_deception from './contemporary/the-spanish-love-deception.js'
+import book_the_unhoneymooners from './contemporary/the-unhoneymooners.js'
+import book_this_summer_will_be_different from './contemporary/this-summer-will-be-different.js'
 import book_ugly_love from './contemporary/ugly-love.js'
 import book_verity from './contemporary/verity.js'
+import book_wild_love from './contemporary/wild-love.js'
 import book_window_shopping from './contemporary/window-shopping.js'
-import book_yours_truly from './contemporary/yours-truly.js'
-import book_by_a_thread from './contemporary/by-a-thread.js'
-import book_boyfriend_material from './contemporary/boyfriend-material.js'
-import book_funny_story from './contemporary/funny-story.js'
-import book_in_a_holidaze from './contemporary/in-a-holidaze.js'
-import book_just_for_the_summer from './contemporary/just-for-the-summer.js'
-import book_love_on_the_brain from './contemporary/love-on-the-brain.js'
-import book_mr_wrong_number from './contemporary/mr-wrong-number.js'
-import book_one_last_stop from './contemporary/one-last-stop.js'
-import book_the_bromance_book_club from './contemporary/the-bromance-book-club.js'
-import book_the_ex_hex from './contemporary/the-ex-hex.js'
-import book_the_friend_zone from './contemporary/the-friend-zone.js'
-import book_the_soulmate_equation from './contemporary/the-soulmate-equation.js'
-import book_the_unhoneymooners from './contemporary/the-unhoneymooners.js'
 import book_you_deserve_each_other from './contemporary/you-deserve-each-other.js'
+import book_yours_truly from './contemporary/yours-truly.js'
 import book_a_touch_of_darkness from './dark-romance/a-touch-of-darkness.js'
 import book_bait from './dark-romance/bait.js'
 import book_birthday_girl from './dark-romance/birthday-girl.js'
@@ -68,6 +76,8 @@ import book_fall_into_temptation from './dark-romance/fall-into-temptation.js'
 import book_fear_me from './dark-romance/fear-me.js'
 import book_gothikana from './dark-romance/gothikana.js'
 import book_haunting_adeline from './dark-romance/haunting-adeline.js'
+import book_her_soul_for_revenge from './dark-romance/her-soul-for-revenge.js'
+import book_her_soul_to_take from './dark-romance/her-soul-to-take.js'
 import book_hideaway from './dark-romance/hideaway.js'
 import book_hunting_adeline from './dark-romance/hunting-adeline.js'
 import book_illicit from './dark-romance/illicit.js'
@@ -143,13 +153,13 @@ import book_the_sinners_empire from './mafia/the-sinners-empire.js'
 import book_the_sweetest_oblivion from './mafia/the-sweetest-oblivion.js'
 import book_vicious from './mafia/vicious.js'
 import book_a_hunger_like_no_other from './paranormal/a-hunger-like-no-other.js'
-import book_dark_lover from './paranormal/dark-lover.js'
 import book_dance_of_thieves from './paranormal/dance-of-thieves.js'
+import book_dark_lover from './paranormal/dark-lover.js'
 import book_guild_hunter from './paranormal/guild-hunter.js'
+import book_halfway_to_the_grave from './paranormal/halfway-to-the-grave.js'
 import book_heartless_hunter from './paranormal/heartless-hunter.js'
-import book_her_soul_for_revenge from './paranormal/her-soul-for-revenge.js'
-import book_her_soul_to_take from './paranormal/her-soul-to-take.js'
 import book_house_in_the_cerulean_sea from './paranormal/house-in-the-cerulean-sea.js'
+import book_house_of_shadows from './paranormal/house-of-shadows.js'
 import book_house_witch from './paranormal/house-witch.js'
 import book_legends_and_lattes from './paranormal/legends-and-lattes.js'
 import book_lothaire from './paranormal/lothaire.js'
@@ -162,7 +172,6 @@ import book_swordheart from './paranormal/swordheart.js'
 import book_the_darkest_night from './paranormal/the-darkest-night.js'
 import book_the_invisible_life_of_addie_larue from './paranormal/the-invisible-life-of-addie-larue.js'
 import book_the_song_of_achilles from './paranormal/the-song-of-achilles.js'
-import book_house_of_shadows from './paranormal/house-of-shadows.js'
 import book_a_curse_of_queens from './romantasy/a-curse-of-queens.js'
 import book_a_fate_of_wrath_and_flame from './romantasy/a-fate-of-wrath-and-flame.js'
 import book_a_kingdom_of_flesh_and_fire from './romantasy/a-kingdom-of-flesh-and-fire.js'
@@ -172,6 +181,7 @@ import book_acosf from './romantasy/acosf.js'
 import book_acotar from './romantasy/acotar.js'
 import book_acowar from './romantasy/acowar.js'
 import book_an_enchantment_of_ravens from './romantasy/an-enchantment-of-ravens.js'
+import book_assistant_to_the_villain from './romantasy/assistant-to-the-villain.js'
 import book_bride from './romantasy/bride.js'
 import book_daughter_of_no_worlds from './romantasy/daughter-of-no-worlds.js'
 import book_daughter_of_the_moon_goddess from './romantasy/daughter-of-the-moon-goddess.js'
@@ -197,13 +207,14 @@ import book_the_songbird_and_the_heart_of_stone from './romantasy/the-songbird-a
 import book_the_traitor_queen from './romantasy/the-traitor-queen.js'
 import book_the_war_of_two_queens from './romantasy/the-war-of-two-queens.js'
 import book_these_hollow_vows from './romantasy/these-hollow-vows.js'
-import book_beautiful_bastard from './sports-romance/beautiful-bastard.js'
 import book_behind_the_net from './sports-romance/behind-the-net.js'
 import book_better_than_the_movies from './sports-romance/better-than-the-movies.js'
 import book_blindside_hit from './sports-romance/blindside-hit.js'
 import book_caught_up from './sports-romance/caught-up.js'
 import book_collided from './sports-romance/collided.js'
 import book_consider_me from './sports-romance/consider-me.js'
+import book_daydream from './sports-romance/daydream.js'
+import book_fangirl_down from './sports-romance/fangirl-down.js'
 import book_icebreaker from './sports-romance/icebreaker.js'
 import book_kulti from './sports-romance/kulti.js'
 import book_lucky_hit from './sports-romance/lucky-hit.js'
@@ -215,81 +226,78 @@ import book_pucking_around from './sports-romance/pucking-around.js'
 import book_pucking_wild from './sports-romance/pucking-wild.js'
 import book_rewind_it_back from './sports-romance/rewind-it-back.js'
 import book_the_cheat_sheet from './sports-romance/the-cheat-sheet.js'
+import book_the_dixon_rule from './sports-romance/the-dixon-rule.js'
+import book_the_fake_out from './sports-romance/the-fake-out.js'
 import book_the_graham_effect from './sports-romance/the-graham-effect.js'
 import book_the_right_move from './sports-romance/the-right-move.js'
 import book_the_striker from './sports-romance/the-striker.js'
-import book_the_wall_of_winnipeg from './sports-romance/the-wall-of-winnipeg.js'
 import book_the_wall_of_winnipeg_and_me from './sports-romance/the-wall-of-winnipeg-and-me.js'
+import book_the_wall_of_winnipeg from './sports-romance/the-wall-of-winnipeg.js'
 import book_throttled from './sports-romance/throttled.js'
 import book_wait_for_it from './sports-romance/wait-for-it.js'
 import book_wildfire from './sports-romance/wildfire.js'
 import book_wrecked from './sports-romance/wrecked.js'
-import book_the_seven_year_slip from './contemporary/the-seven-year-slip.js'
-import book_this_summer_will_be_different from './contemporary/this-summer-will-be-different.js'
-import book_fangirl_down from './sports-romance/fangirl-down.js'
-import book_the_dixon_rule from './sports-romance/the-dixon-rule.js'
-import book_halfway_to_the_grave from './paranormal/halfway-to-the-grave.js'
-import book_the_fake_out from './sports-romance/the-fake-out.js'
-import book_the_paradise_problem from './contemporary/the-paradise-problem.js'
-import book_the_rom_commers from './contemporary/the-rom-commers.js'
-import book_daydream from './sports-romance/daydream.js'
-import book_wild_love from './contemporary/wild-love.js'
-import book_assistant_to_the_villain from './romantasy/assistant-to-the-villain.js'
-import book_swift_and_saddled from './contemporary/swift-and-saddled.js'
-import book_done_and_dusted from './contemporary/done-and-dusted.js'
 
 export const allBooks = [
   book_beach_read,
+  book_beautiful_bastard,
   book_birthday_suit,
   book_book_lovers,
+  book_boyfriend_material,
+  book_by_a_thread,
   book_captivated,
   book_confess,
   book_deep_end,
+  book_done_and_dusted,
   book_final_offer,
   book_fix_her_up,
+  book_funny_story,
   book_getaway_girl,
   book_happy_place,
   book_hook_line_and_sinker,
+  book_in_a_holidaze,
   book_it_happened_one_summer,
+  book_just_for_the_summer,
   book_just_last_night,
   book_king_of_greed,
   book_king_of_pride,
   book_king_of_sloth,
   book_layla,
+  book_love_on_the_brain,
   book_love_theoretically,
+  book_mr_wrong_number,
   book_not_in_love,
   book_november_9,
+  book_one_last_stop,
   book_part_of_your_world,
   book_people_we_meet_on_vacation,
   book_reminders_of_him,
+  book_swift_and_saddled,
   book_terms_and_conditions,
+  book_the_bromance_book_club,
   book_the_deal,
+  book_the_ex_hex,
   book_the_fine_print,
   book_the_flatshare,
+  book_the_friend_zone,
   book_the_goal,
   book_the_hating_game,
   book_the_love_hypothesis,
   book_the_mistake,
+  book_the_paradise_problem,
+  book_the_rom_commers,
   book_the_score,
+  book_the_seven_year_slip,
+  book_the_soulmate_equation,
   book_the_spanish_love_deception,
+  book_the_unhoneymooners,
+  book_this_summer_will_be_different,
   book_ugly_love,
   book_verity,
+  book_wild_love,
   book_window_shopping,
-  book_yours_truly,
-  book_by_a_thread,
-  book_boyfriend_material,
-  book_funny_story,
-  book_in_a_holidaze,
-  book_just_for_the_summer,
-  book_love_on_the_brain,
-  book_mr_wrong_number,
-  book_one_last_stop,
-  book_the_bromance_book_club,
-  book_the_ex_hex,
-  book_the_friend_zone,
-  book_the_soulmate_equation,
-  book_the_unhoneymooners,
   book_you_deserve_each_other,
+  book_yours_truly,
   book_a_touch_of_darkness,
   book_bait,
   book_birthday_girl,
@@ -307,6 +315,8 @@ export const allBooks = [
   book_fear_me,
   book_gothikana,
   book_haunting_adeline,
+  book_her_soul_for_revenge,
+  book_her_soul_to_take,
   book_hideaway,
   book_hunting_adeline,
   book_illicit,
@@ -382,15 +392,14 @@ export const allBooks = [
   book_the_sweetest_oblivion,
   book_vicious,
   book_a_hunger_like_no_other,
-  book_dark_lover,
   book_dance_of_thieves,
+  book_dark_lover,
   book_guild_hunter,
+  book_halfway_to_the_grave,
   book_heartless_hunter,
-  book_her_soul_for_revenge,
-  book_her_soul_to_take,
   book_house_in_the_cerulean_sea,
-  book_house_witch,
   book_house_of_shadows,
+  book_house_witch,
   book_legends_and_lattes,
   book_lothaire,
   book_master_of_crows,
@@ -411,6 +420,7 @@ export const allBooks = [
   book_acotar,
   book_acowar,
   book_an_enchantment_of_ravens,
+  book_assistant_to_the_villain,
   book_bride,
   book_daughter_of_no_worlds,
   book_daughter_of_the_moon_goddess,
@@ -423,14 +433,27 @@ export const allBooks = [
   book_house_of_flame_and_shadow,
   book_house_of_sky_and_breath,
   book_iron_flame,
-  book_beautiful_bastard,
+  book_onyx_storm,
+  book_ruthless_vows,
+  book_sorcery_of_thorns,
+  book_the_bridge_kingdom,
+  book_the_crown_of_gilded_bones,
+  book_the_cruel_prince,
+  book_the_jasmine_throne,
+  book_the_priory_of_the_orange_tree,
+  book_the_serpent_and_the_wings_of_night,
+  book_the_songbird_and_the_heart_of_stone,
+  book_the_traitor_queen,
+  book_the_war_of_two_queens,
+  book_these_hollow_vows,
   book_behind_the_net,
   book_better_than_the_movies,
   book_blindside_hit,
   book_caught_up,
   book_collided,
-  book_fangirl_down,
   book_consider_me,
+  book_daydream,
+  book_fangirl_down,
   book_icebreaker,
   book_kulti,
   book_lucky_hit,
@@ -441,26 +464,16 @@ export const allBooks = [
   book_pucking_around,
   book_pucking_wild,
   book_rewind_it_back,
+  book_the_cheat_sheet,
   book_the_dixon_rule,
   book_the_fake_out,
-  book_the_cheat_sheet,
   book_the_graham_effect,
   book_the_right_move,
   book_the_striker,
-  book_the_wall_of_winnipeg,
   book_the_wall_of_winnipeg_and_me,
+  book_the_wall_of_winnipeg,
   book_throttled,
   book_wait_for_it,
   book_wildfire,
   book_wrecked,
-  book_the_seven_year_slip,
-  book_this_summer_will_be_different,
-  book_halfway_to_the_grave,
-  book_the_paradise_problem,
-  book_the_rom_commers,
-  book_daydream,
-  book_wild_love,
-  book_assistant_to_the_villain,
-  book_swift_and_saddled,
-  book_done_and_dusted,
 ]
