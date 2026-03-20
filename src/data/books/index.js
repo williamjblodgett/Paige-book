@@ -423,7 +423,7 @@ export const allBooks = [
   book_house_of_flame_and_shadow,
   book_house_of_sky_and_breath,
   book_iron_flame,
-  book_onautiful_bastard,
+  book_beautiful_bastard,
   book_behind_the_net,
   book_better_than_the_movies,
   book_blindside_hit,
