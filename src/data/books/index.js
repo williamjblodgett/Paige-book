@@ -297,6 +297,31 @@ import book_honey_cut from './erotic/honey-cut.js'
 import book_madame from './erotic/madame.js'
 import book_highest_bidder from './erotic/highest-bidder.js'
 import book_glitch from './erotic/glitch.js'
+import book_the_rule_book from './rom-com/the-rule-book.js'
+import book_the_break_up_pact from './rom-com/the-break-up-pact.js'
+import book_the_plus_one from './rom-com/the-plus-one.js'
+import book_funny_feelings from './rom-com/funny-feelings.js'
+import book_the_true_love_experiment from './rom-com/the-true-love-experiment.js'
+import book_a_million_kisses_in_your_lifetime from './new-adult/a-million-kisses-in-your-lifetime.js'
+import book_binding_13 from './new-adult/binding-13.js'
+import book_wait_for_you from './new-adult/wait-for-you.js'
+import book_easy from './new-adult/easy.js'
+import book_beautiful_disaster from './new-adult/beautiful-disaster.js'
+import book_identity from './romantic-suspense/identity.js'
+import book_out_of_nowhere from './romantic-suspense/out-of-nowhere.js'
+import book_thick_as_thieves from './romantic-suspense/thick-as-thieves.js'
+import book_you_can_run from './romantic-suspense/you-can-run.js'
+import book_you_can_hide from './romantic-suspense/you-can-hide.js'
+import book_brutal_obsession from './bully-romance/brutal-obsession.js'
+import book_dear_ava from './bully-romance/dear-ava.js'
+import book_kings_of_quarantine from './bully-romance/kings-of-quarantine.js'
+import book_ruthless_knight from './bully-romance/ruthless-knight.js'
+import book_paper_princess from './bully-romance/paper-princess.js'
+import book_faking_with_benefits from './reverse-harem/faking-with-benefits.js'
+import book_triple_duty_bodyguards from './reverse-harem/triple-duty-bodyguards.js'
+import book_nanny_for_the_neighbors from './reverse-harem/nanny-for-the-neighbors.js'
+import book_three_swedish_mountain_men from './reverse-harem/three-swedish-mountain-men.js'
+import book_gilded_mess from './reverse-harem/gilded-mess.js'
 
 export const allBooks = [
   book_beach_read,
@@ -596,4 +621,29 @@ export const allBooks = [
   book_madame,
   book_highest_bidder,
   book_glitch,
+  book_the_rule_book,
+  book_the_break_up_pact,
+  book_the_plus_one,
+  book_funny_feelings,
+  book_the_true_love_experiment,
+  book_a_million_kisses_in_your_lifetime,
+  book_binding_13,
+  book_wait_for_you,
+  book_easy,
+  book_beautiful_disaster,
+  book_identity,
+  book_out_of_nowhere,
+  book_thick_as_thieves,
+  book_you_can_run,
+  book_you_can_hide,
+  book_brutal_obsession,
+  book_dear_ava,
+  book_kings_of_quarantine,
+  book_ruthless_knight,
+  book_paper_princess,
+  book_faking_with_benefits,
+  book_triple_duty_bodyguards,
+  book_nanny_for_the_neighbors,
+  book_three_swedish_mountain_men,
+  book_gilded_mess,
 ]
