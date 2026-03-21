@@ -262,6 +262,41 @@ import book_throttled from './sports-romance/throttled.js'
 import book_wait_for_it from './sports-romance/wait-for-it.js'
 import book_wildfire from './sports-romance/wildfire.js'
 import book_wrecked from './sports-romance/wrecked.js'
+import book_cant_help_faking_in_love from './rom-com/cant-help-faking-in-love.js'
+import book_flirting_lessons from './rom-com/flirting-lessons.js'
+import book_first_time_caller from './rom-com/first-time-caller.js'
+import book_is_she_really_going_out_with_him from './rom-com/is-she-really-going-out-with-him.js'
+import book_just_some_stupid_love_story from './rom-com/just-some-stupid-love-story.js'
+import book_the_charlie_method from './new-adult/the-charlie-method.js'
+import book_spiral from './new-adult/spiral.js'
+import book_collide_na from './new-adult/collide-na.js'
+import book_unsteady_na from './new-adult/unsteady-na.js'
+import book_say_you_swear from './new-adult/say-you-swear.js'
+import book_beautiful_exile from './romantic-suspense/beautiful-exile.js'
+import book_all_the_missing_pieces from './romantic-suspense/all-the-missing-pieces.js'
+import book_hidden_nature from './romantic-suspense/hidden-nature.js'
+import book_blood_moon from './romantic-suspense/blood-moon.js'
+import book_dead_mans_list from './romantic-suspense/dead-mans-list.js'
+import book_bully from './bully-romance/bully.js'
+import book_untouchable from './bully-romance/untouchable.js'
+import book_deviant_king from './bully-romance/deviant-king.js'
+import book_tryst_six_venom from './bully-romance/tryst-six-venom.js'
+import book_even_if_it_hurts from './bully-romance/even-if-it-hurts.js'
+import book_broken_bonds from './reverse-harem/broken-bonds.js'
+import book_pack_darling_part_one from './reverse-harem/pack-darling-part-one.js'
+import book_lords_of_pain from './reverse-harem/lords-of-pain.js'
+import book_psycho_shifters from './reverse-harem/psycho-shifters.js'
+import book_start_a_war from './reverse-harem/start-a-war.js'
+import book_nero from './mafia/nero.js'
+import book_silent_lies from './mafia/silent-lies.js'
+import book_beautiful_beast from './mafia/beautiful-beast.js'
+import book_darkest_sins from './mafia/darkest-sins.js'
+import book_the_syndicater from './mafia/the-syndicater.js'
+import book_salt_kiss from './erotic/salt-kiss.js'
+import book_honey_cut from './erotic/honey-cut.js'
+import book_madame from './erotic/madame.js'
+import book_highest_bidder from './erotic/highest-bidder.js'
+import book_glitch from './erotic/glitch.js'
 
 export const allBooks = [
   book_beach_read,
@@ -526,4 +561,39 @@ export const allBooks = [
   book_wait_for_it,
   book_wildfire,
   book_wrecked,
+  book_cant_help_faking_in_love,
+  book_flirting_lessons,
+  book_first_time_caller,
+  book_is_she_really_going_out_with_him,
+  book_just_some_stupid_love_story,
+  book_the_charlie_method,
+  book_spiral,
+  book_collide_na,
+  book_unsteady_na,
+  book_say_you_swear,
+  book_beautiful_exile,
+  book_all_the_missing_pieces,
+  book_hidden_nature,
+  book_blood_moon,
+  book_dead_mans_list,
+  book_bully,
+  book_untouchable,
+  book_deviant_king,
+  book_tryst_six_venom,
+  book_even_if_it_hurts,
+  book_broken_bonds,
+  book_pack_darling_part_one,
+  book_lords_of_pain,
+  book_psycho_shifters,
+  book_start_a_war,
+  book_nero,
+  book_silent_lies,
+  book_beautiful_beast,
+  book_darkest_sins,
+  book_the_syndicater,
+  book_salt_kiss,
+  book_honey_cut,
+  book_madame,
+  book_highest_bidder,
+  book_glitch,
 ]

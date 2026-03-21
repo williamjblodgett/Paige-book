@@ -240,3 +240,127 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-muted);
 }
+
+/* Genre-Specific Animation Styles */
+
+/* Dark Romance - Pulsing shadow effect */
+.topic-dark-romance {
+  animation: dark-pulse 6s ease-in-out infinite;
+}
+
+@keyframes dark-pulse {
+  0%, 100% { --topic-accent: rgba(196, 42, 42, 0.18); }
+  50% { --topic-accent: rgba(196, 42, 42, 0.28); }
+}
+
+/* Paranormal Romance - Floating mystical effect */
+.topic-paranormal-romance {
+  animation: mystical-float 8s ease-in-out infinite;
+}
+
+@keyframes mystical-float {
+  0%, 100% { transform: translateY(0px); }
+  25% { transform: translateY(-5px); }
+  50% { transform: translateY(-10px); }
+  75% { transform: translateY(-5px); }
+}
+
+/* Romantasy - Celestial drift */
+.topic-romantasy {
+  animation: celestial-drift 10s ease-in-out infinite;
+}
+
+@keyframes celestial-drift {
+  0%, 100% { --topic-aurora: rgba(90, 136, 201, 0.2); }
+  50% { --topic-aurora: rgba(90, 136, 201, 0.35); }
+}
+
+/* Contemporary Romance - Gentle float */
+.topic-contemporary-romance {
+  animation: gentle-float 7s ease-in-out infinite;
+}
+
+@keyframes gentle-float {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.95; }
+}
+
+/* Sports Romance - Energetic pulse */
+.topic-sports-romance {
+  animation: energetic-pulse 4s ease-in-out infinite;
+}
+
+@keyframes energetic-pulse {
+  0%, 100% { --topic-accent: rgba(45, 140, 240, 0.2); }
+  50% { --topic-accent: rgba(45, 140, 240, 0.35); }
+}
+
+/* Mafia Romance - Smoky drift */
+.topic-mafia-romance {
+  animation: smoky-drift 9s ease-in-out infinite;
+}
+
+@keyframes smoky-drift {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.1); }
+}
+
+/* Erotic Romance - Sensual drift */
+.topic-erotic-romance {
+  animation: sensual-drift 8s ease-in-out infinite;
+}
+
+@keyframes sensual-drift {
+  0%, 100% { --topic-accent: rgba(232, 93, 58, 0.2); }
+  50% { --topic-accent: rgba(232, 93, 58, 0.32); }
+}
+
+/* Rom-Com - Playful bounce */
+.topic-rom-com {
+  animation: playful-bounce 5s ease-in-out infinite;
+}
+
+@keyframes playful-bounce {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+/* New Adult - Youthful spin */
+.topic-new-adult {
+  animation: youthful-spin 6s linear infinite;
+}
+
+@keyframes youthful-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1deg); }
+}
+
+/* Romantic Suspense - Tense pulse */
+.topic-romantic-suspense {
+  animation: tense-pulse 3s ease-in-out infinite;
+}
+
+@keyframes tense-pulse {
+  0%, 100% { --topic-accent: rgba(74, 139, 194, 0.18); }
+  50% { --topic-accent: rgba(74, 139, 194, 0.32); }
+}
+
+/* Bully Romance - Aggressive pulse */
+.topic-bully-romance {
+  animation: aggressive-pulse 3.5s ease-in-out infinite;
+}
+
+@keyframes aggressive-pulse {
+  0%, 100% { --topic-accent: rgba(212, 74, 74, 0.2); }
+  50% { --topic-accent: rgba(212, 74, 74, 0.35); }
+}
+
+/* Reverse Harem - Regal swirl */
+.topic-reverse-harem {
+  animation: regal-swirl 12s ease-in-out infinite;
+}
+
+@keyframes regal-swirl {
+  0%, 100% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(2deg) scale(1.01); }
+}
