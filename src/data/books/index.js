@@ -8,6 +8,7 @@ import book_boyfriend_material from './contemporary/boyfriend-material.js'
 import book_by_a_thread from './contemporary/by-a-thread.js'
 import book_captivated from './contemporary/captivated.js'
 import book_confess from './contemporary/confess.js'
+import book_crazy_in_love from './contemporary/crazy-in-love.js'
 import book_deep_end from './contemporary/deep-end.js'
 import book_done_and_dusted from './contemporary/done-and-dusted.js'
 import book_final_offer from './contemporary/final-offer.js'
@@ -24,12 +25,14 @@ import book_king_of_greed from './contemporary/king-of-greed.js'
 import book_king_of_pride from './contemporary/king-of-pride.js'
 import book_king_of_sloth from './contemporary/king-of-sloth.js'
 import book_layla from './contemporary/layla.js'
+import book_leave_before_i_love_you from './contemporary/leave-before-i-love-you.js'
 import book_love_on_the_brain from './contemporary/love-on-the-brain.js'
 import book_love_theoretically from './contemporary/love-theoretically.js'
 import book_mr_wrong_number from './contemporary/mr-wrong-number.js'
 import book_not_in_love from './contemporary/not-in-love.js'
 import book_november_9 from './contemporary/november-9.js'
 import book_one_last_stop from './contemporary/one-last-stop.js'
+import book_only_for_tonight from './contemporary/only-for-tonight.js'
 import book_part_of_your_world from './contemporary/part-of-your-world.js'
 import book_people_we_meet_on_vacation from './contemporary/people-we-meet-on-vacation.js'
 import book_reminders_of_him from './contemporary/reminders-of-him.js'
@@ -55,6 +58,7 @@ import book_the_unhoneymooners from './contemporary/the-unhoneymooners.js'
 import book_this_summer_will_be_different from './contemporary/this-summer-will-be-different.js'
 import book_ugly_love from './contemporary/ugly-love.js'
 import book_verity from './contemporary/verity.js'
+import book_wild_card from './contemporary/wild-card.js'
 import book_wild_love from './contemporary/wild-love.js'
 import book_window_shopping from './contemporary/window-shopping.js'
 import book_you_deserve_each_other from './contemporary/you-deserve-each-other.js'
@@ -75,6 +79,7 @@ import book_electric_idol from './dark-romance/electric-idol.js'
 import book_fall_into_temptation from './dark-romance/fall-into-temptation.js'
 import book_fear_me from './dark-romance/fear-me.js'
 import book_gothikana from './dark-romance/gothikana.js'
+import book_grim from './dark-romance/grim.js'
 import book_haunting_adeline from './dark-romance/haunting-adeline.js'
 import book_her_soul_for_revenge from './dark-romance/her-soul-for-revenge.js'
 import book_her_soul_to_take from './dark-romance/her-soul-to-take.js'
@@ -153,6 +158,26 @@ import book_the_sinners_empire from './mafia/the-sinners-empire.js'
 import book_the_sweetest_oblivion from './mafia/the-sweetest-oblivion.js'
 import book_vicious from './mafia/vicious.js'
 import book_a_hunger_like_no_other from './paranormal/a-hunger-like-no-other.js'
+import book_arcana_academy from './paranormal/arcana-academy.js'
+import book_beautiful_nightmare from './paranormal/beautiful-nightmare.js'
+import book_bound from './paranormal/bound.js'
+import book_crescent_kingdom from './paranormal/crescent-kingdom.js'
+import book_faking_with_fae_king from './paranormal/faking-with-fae-king.js'
+import book_firebird from './paranormal/firebird.js'
+import book_gods_and_graves from './paranormal/gods-and-graves.js'
+import book_havoc from './paranormal/havoc.js'
+import book_hollow from './paranormal/hollow.js'
+import book_hot_for_slayer from './paranormal/hot-for-slayer.js'
+import book_inheritance_breach from './paranormal/inheritance-breach.js'
+import book_misfit_monsters from './paranormal/misfit-monsters.js'
+import book_my_blood_is_yours from './paranormal/my-blood-is-yours.js'
+import book_rose_bargain from './paranormal/rose-bargain.js'
+import book_savage_hope from './paranormal/savage-hope.js'
+import book_shield_of_sparrows from './paranormal/shield-of-sparrows.js'
+import book_sin_mate_games from './paranormal/sin-mate-games.js'
+import book_space_vampire from './paranormal/space-vampire.js'
+import book_witch_of_wolves from './paranormal/witch-of-wolves.js'
+import book_wolf_king_mate from './paranormal/wolf-king-mate.js'
 import book_dance_of_thieves from './paranormal/dance-of-thieves.js'
 import book_dark_lover from './paranormal/dark-lover.js'
 import book_guild_hunter from './paranormal/guild-hunter.js'
@@ -247,6 +272,7 @@ export const allBooks = [
   book_by_a_thread,
   book_captivated,
   book_confess,
+  book_crazy_in_love,
   book_deep_end,
   book_done_and_dusted,
   book_final_offer,
@@ -263,12 +289,14 @@ export const allBooks = [
   book_king_of_pride,
   book_king_of_sloth,
   book_layla,
+  book_leave_before_i_love_you,
   book_love_on_the_brain,
   book_love_theoretically,
   book_mr_wrong_number,
   book_not_in_love,
   book_november_9,
   book_one_last_stop,
+  book_only_for_tonight,
   book_part_of_your_world,
   book_people_we_meet_on_vacation,
   book_reminders_of_him,
@@ -294,6 +322,7 @@ export const allBooks = [
   book_this_summer_will_be_different,
   book_ugly_love,
   book_verity,
+  book_wild_card,
   book_wild_love,
   book_window_shopping,
   book_you_deserve_each_other,
@@ -314,6 +343,7 @@ export const allBooks = [
   book_fall_into_temptation,
   book_fear_me,
   book_gothikana,
+  book_grim,
   book_haunting_adeline,
   book_her_soul_for_revenge,
   book_her_soul_to_take,
@@ -392,6 +422,26 @@ export const allBooks = [
   book_the_sweetest_oblivion,
   book_vicious,
   book_a_hunger_like_no_other,
+  book_arcana_academy,
+  book_beautiful_nightmare,
+  book_bound,
+  book_crescent_kingdom,
+  book_faking_with_fae_king,
+  book_firebird,
+  book_gods_and_graves,
+  book_havoc,
+  book_hollow,
+  book_hot_for_slayer,
+  book_inheritance_breach,
+  book_misfit_monsters,
+  book_my_blood_is_yours,
+  book_rose_bargain,
+  book_savage_hope,
+  book_shield_of_sparrows,
+  book_sin_mate_games,
+  book_space_vampire,
+  book_witch_of_wolves,
+  book_wolf_king_mate,
   book_dance_of_thieves,
   book_dark_lover,
   book_guild_hunter,
