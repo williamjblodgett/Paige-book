@@ -118,7 +118,7 @@ export function SmutBooksPage() {
         color: 'var(--theme-text)',
       }}
     >
-      <HeroSection theme={activeTheme} totalBooks={books.length} />
+      <HeroSection theme={activeTheme} />
 
       <main className="relative">
         <FeaturedBook book={featuredBook} />

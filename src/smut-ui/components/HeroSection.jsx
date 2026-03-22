@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 
-export function HeroSection({ theme, totalBooks = 0 }) {
+export function HeroSection({ theme }) {
   return (
     <header
       className="relative w-full overflow-hidden py-24 md:py-32 lg:py-40 border-b transition-colors duration-700"
@@ -37,20 +37,6 @@ export function HeroSection({ theme, totalBooks = 0 }) {
             </span>
             <span className="h-[1px] w-12 transition-colors duration-700" style={{ backgroundColor: 'var(--theme-border)' }}></span>
           </div>
-
-          <h1
-            className="font-heading text-6xl md:text-8xl lg:text-9xl font-black mb-6 tracking-tight transition-colors duration-700"
-            style={{ color: 'var(--theme-text)' }}
-          >
-            SMUTBOOK
-          </h1>
-
-          <p
-            className="font-body text-xl md:text-2xl max-w-2xl mx-auto italic leading-relaxed transition-colors duration-700"
-            style={{ color: 'var(--theme-text-muted)' }}
-          >
-            Real catalog only: {totalBooks} books from this repository, filterable by your live genres.
-          </p>
         </motion.div>
       </div>
     </header>

@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom'
 const links = [
   { to: '/', label: 'Home' },
   { to: '/browse', label: 'Browse' },
-  { to: '/smutbook', label: 'SMUTBOOK' },
   { to: '/lists', label: 'Lists' },
   { to: '/find-a-book', label: 'Find a Book' },
   { to: '/my-shelf', label: 'My Shelf' },
@@ -18,7 +17,7 @@ export default function Nav() {
     <nav className="sticky top-0 z-50 bg-surface border-b border-gold/30">
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-14">
         <NavLink to="/" className="font-heading text-gold text-lg tracking-wider">
-          SmutPages
+          SMUTBOOK
         </NavLink>
 
         {/* Desktop links */}
