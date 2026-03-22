@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -14,8 +15,8 @@
   --color-plum: #6b3fa0;
   --color-blush: #f0c4d4;
 
-  --font-heading: 'Cinzel', serif;
-  --font-body: 'EB Garamond', serif;
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Lora', serif;
 }
 
 @layer base {
@@ -226,6 +227,15 @@
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 ::-webkit-scrollbar-track {
