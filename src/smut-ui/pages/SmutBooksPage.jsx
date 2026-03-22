@@ -94,6 +94,12 @@ export function SmutBooksPage() {
     return next
   }, [books, filters.genre, filters.theme, filters.spice, filters.author, searchQuery, sort])
 
+  const trendingBooks = useMemo(() => {
+    return [...filteredBooks]
+      .sort((a, b) => (b.spiceLevel || 0) - (a.spiceLevel || 0))
+      .slice(0, 12)
+  }, [filteredBooks])
+
   const activeTheme = genreThemes[activeCategory] || genreThemes.All
 
   const featuredBook =
@@ -103,7 +109,7 @@ export function SmutBooksPage() {
 
   return (
     <div
-      className="min-h-screen transition-colors duration-700 ease-in-out selection:bg-[var(--theme-accent)] selection:text-[var(--theme-bg)]"
+      className="min-h-screen pb-24 md:pb-0 transition-colors duration-700 ease-in-out selection:bg-[var(--theme-accent)] selection:text-[var(--theme-bg)]"
       style={{
         '--theme-bg': activeTheme.bg,
         '--theme-surface': activeTheme.surface,
@@ -204,6 +210,19 @@ export function SmutBooksPage() {
           </div>
         </section>
 
+        <section className="trending max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
+          <h2 className="font-heading text-2xl tracking-wide mb-4" style={{ color: 'var(--theme-text)' }}>
+            🔥 Trending Right Now
+          </h2>
+          <div className="scroll-row">
+            {trendingBooks.map(book => (
+              <div key={`trending-${book.id}`} className="min-w-[170px] max-w-[210px]">
+                <BookCard book={book} />
+              </div>
+            ))}
+          </div>
+        </section>
+
         <div className="w-full max-w-7xl mx-auto px-8">
           <hr className="border-[var(--theme-border)] transition-colors duration-700" />
         </div>
@@ -253,6 +272,13 @@ export function SmutBooksPage() {
           </div>
         </div>
       </footer>
+
+      <nav className="mobile-nav md:hidden" aria-label="Mobile quick navigation">
+        <Link to="/" className="text-xl" aria-label="Home">🏠</Link>
+        <Link to="/browse" className="text-xl" aria-label="Trending">🔥</Link>
+        <Link to="/lists" className="text-xl" aria-label="Lists">📚</Link>
+        <Link to="/my-shelf" className="text-xl" aria-label="My Shelf">❤️</Link>
+      </nav>
     </div>
   )
 }
