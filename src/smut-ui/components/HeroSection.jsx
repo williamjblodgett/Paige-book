@@ -42,7 +42,7 @@ export function HeroSection({ theme, totalBooks = 0 }) {
             className="font-heading text-6xl md:text-8xl lg:text-9xl font-black mb-6 tracking-tight transition-colors duration-700"
             style={{ color: 'var(--theme-text)' }}
           >
-            Paige Book
+            SMUTBOOK
           </h1>
 
           <p

@@ -69,7 +69,7 @@ export function SmutBooksPage() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
           <h2 className="font-heading text-3xl font-bold mb-4" style={{ color: 'var(--theme-text)' }}>
-            Smut Books
+            SMUTBOOK
           </h2>
           <p className="font-body italic max-w-md mb-8 transition-colors duration-700" style={{ color: 'var(--theme-text-muted)' }}>
             Curating the finest romance, because every great love story deserves to be read.
