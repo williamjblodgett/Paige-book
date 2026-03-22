@@ -112,22 +112,24 @@ function scoreBook(book, answers) {
 function QuestionCard({ question, onAnswer, questionNum, total }) {
   return (
     <div className="max-w-2xl mx-auto">
-      {/* Progress */}
       <div className="mb-8">
         <div className="flex justify-between items-center mb-2">
-          <span className="font-heading text-xs tracking-widest uppercase text-muted">
+          <span className="font-heading text-xs tracking-[0.22em] uppercase text-zinc-500">
             Question {questionNum} of {total}
           </span>
         </div>
-        <div className="w-full h-1 bg-surface rounded-full overflow-hidden">
+        <div className="w-full h-1.5 bg-[rgba(255,255,255,0.08)] rounded-full overflow-hidden">
           <div
-            className="h-full bg-gold transition-all duration-500 rounded-full"
-            style={{ width: `${(questionNum / total) * 100}%` }}
+            className="h-full transition-all duration-500 rounded-full"
+            style={{
+              width: `${(questionNum / total) * 100}%`,
+              background: 'linear-gradient(90deg, var(--primary), var(--secondary))',
+            }}
           />
         </div>
       </div>
 
-      <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-8 text-center">
+      <h2 className="section-title text-2xl md:text-3xl mb-8 text-center">
         {question.question}
       </h2>
 
@@ -136,16 +138,16 @@ function QuestionCard({ question, onAnswer, questionNum, total }) {
           <button
             key={opt.value}
             onClick={() => onAnswer(question.id, opt.value)}
-            className="group bg-surface rounded-lg p-6 border border-muted/10 hover:border-gold/40 transition-all duration-300 cursor-pointer text-left"
+            className="group app-panel rounded-2xl p-6 border border-white/8 hover:border-white/20 transition-all duration-300 cursor-pointer text-left"
             onMouseEnter={(e) => {
-              e.currentTarget.style.boxShadow = '0 0 20px rgba(201, 168, 76, 0.15)'
+              e.currentTarget.style.boxShadow = '0 20px 50px rgba(255, 46, 136, 0.14)'
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.boxShadow = 'none'
+              e.currentTarget.style.boxShadow = '0 20px 60px rgba(0, 0, 0, 0.35)'
             }}
           >
             <span className="text-2xl mb-2 block">{opt.icon}</span>
-            <span className="font-heading text-sm tracking-wider text-text group-hover:text-gold transition-colors">
+            <span className="font-heading text-sm tracking-[0.18em] text-white group-hover:text-[var(--primary)] transition-colors uppercase">
               {opt.label}
             </span>
           </button>
@@ -157,23 +159,20 @@ function QuestionCard({ question, onAnswer, questionNum, total }) {
 
 function RecommendationResults({ results, onRetry }) {
   const topBook = results[0]
-  const theme = GENRE_THEMES[topBook?.genres?.[0]]
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="font-heading text-gold text-3xl md:text-4xl tracking-wider mb-2 text-center">
+      <h2 className="section-title text-3xl md:text-4xl mb-2 text-center">
         Your Perfect Match
       </h2>
       <div className="divider-ornament mb-10">&#10022;</div>
 
-      {/* Top pick */}
       <div className="mb-12">
-        <p className="font-heading text-xs tracking-widest uppercase text-gold/80 mb-4 text-center">
+        <p className="font-heading text-xs tracking-[0.24em] uppercase text-[var(--primary)] mb-4 text-center">
           #1 Recommendation
         </p>
-        <div className="bg-surface rounded-lg border border-gold/20 overflow-hidden">
+        <div className="app-panel overflow-hidden">
           <div className="md:flex">
-            {/* Book cover area */}
             <div className="md:w-1/3">
               <Link to={`/book/${topBook.id}`} className="block">
                 <div className="aspect-[3/4]">
@@ -182,7 +181,6 @@ function RecommendationResults({ results, onRetry }) {
               </Link>
             </div>
 
-            {/* Details */}
             <div className="md:w-2/3 p-6 md:p-8">
               <div className="mb-4">
                 <SpiceRating level={topBook.spiceLevel} size="md" />
@@ -203,17 +201,17 @@ function RecommendationResults({ results, onRetry }) {
               </div>
               <div className="flex flex-wrap gap-2 mb-6">
                 {topBook.themes?.slice(0, 5).map(t => (
-                  <span key={t} className="font-body text-xs text-muted bg-bg px-2 py-1 rounded">
+                  <span key={t} className="font-body text-xs text-zinc-300 bg-white/5 border border-white/8 px-2 py-1 rounded-full">
                     {t.replace(/-/g, ' ')}
                   </span>
                 ))}
               </div>
-              <p className="font-body text-text/80 text-sm leading-relaxed line-clamp-4 mb-6">
+              <p className="font-body text-zinc-400 text-sm leading-relaxed line-clamp-4 mb-6">
                 {topBook.synopsis?.slice(0, 300)}...
               </p>
               <Link
                 to={`/book/${topBook.id}`}
-                className="font-heading text-sm tracking-widest uppercase px-6 py-2 rounded border border-gold text-gold hover:bg-gold/10 transition-all inline-block"
+                className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-6 py-2 inline-block"
               >
                 View Book
               </Link>
@@ -222,10 +220,9 @@ function RecommendationResults({ results, onRetry }) {
         </div>
       </div>
 
-      {/* More picks */}
       {results.length > 1 && (
         <div className="mb-12">
-          <p className="font-heading text-xs tracking-widest uppercase text-muted mb-6 text-center">
+          <p className="font-heading text-xs tracking-[0.24em] uppercase text-zinc-500 mb-6 text-center">
             You might also love
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -236,11 +233,10 @@ function RecommendationResults({ results, onRetry }) {
         </div>
       )}
 
-      {/* Retry */}
       <div className="text-center">
         <button
           onClick={onRetry}
-          className="font-heading text-sm tracking-widest uppercase px-10 py-3 rounded border-2 border-gold text-gold hover:bg-gold/10 transition-all cursor-pointer"
+          className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-10 py-3 transition-all cursor-pointer"
         >
           Try Again
         </button>
@@ -292,21 +288,22 @@ export default function FindABook() {
 
   return (
     <div className="min-h-screen">
-      {/* Header */}
       <section className="relative overflow-hidden py-16 md:py-20">
         <div className="fog-layer absolute inset-0 pointer-events-none opacity-50" />
         <div className="fog-layer-2 absolute inset-0 pointer-events-none opacity-50" />
         <div className="relative z-10 text-center px-4">
-          <h1 className="font-heading text-gold text-3xl md:text-5xl tracking-wider mb-3">
+          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.38em] text-[var(--primary)]">
+            Personalized Matchmaker
+          </p>
+          <h1 className="font-heading text-white text-3xl md:text-5xl tracking-[0.12em] mb-3">
             Find Your Next Read
           </h1>
-          <p className="font-body text-muted text-lg italic">
+          <p className="font-body text-zinc-400 text-lg italic">
             Answer a few questions and we'll match you with your perfect book
           </p>
         </div>
       </section>
 
-      {/* Content */}
       <section className="max-w-6xl mx-auto px-4 py-8 pb-20">
         {!showResults ? (
           <QuestionCard

@@ -12,27 +12,25 @@ export default function ResultsScreen({ results, questions, onRetry }) {
 
   return (
     <div className="max-w-2xl mx-auto text-center">
-      <h2 className="font-heading text-gold text-3xl md:text-4xl tracking-wider mb-2">
+      <h2 className="section-title text-3xl md:text-4xl mb-2">
         Results
       </h2>
       <div className="divider-ornament mb-8">&#10022;</div>
 
-      {/* Score */}
-      <div className="bg-surface rounded-lg border border-gold/20 p-8 mb-6">
-        <p className="font-heading text-gold text-6xl md:text-7xl mb-2">
-          {correct}<span className="text-muted text-4xl">/{total}</span>
+      <div className="app-panel p-8 mb-6">
+        <p className="font-heading text-[var(--primary)] text-6xl md:text-7xl mb-2">
+          {correct}<span className="text-zinc-500 text-4xl">/{total}</span>
         </p>
-        <p className="font-heading text-muted text-lg tracking-wider mb-1">
+        <p className="font-heading text-zinc-500 text-lg tracking-[0.18em] mb-1 uppercase">
           {pct}%
         </p>
-        <p className="font-body text-text italic text-lg">
+        <p className="font-body text-white italic text-lg">
           {message}
         </p>
       </div>
 
-      {/* Breakdown */}
-      <div className="bg-surface rounded-lg border border-gold/10 p-6 mb-8 text-left">
-        <h3 className="font-heading text-text text-lg tracking-wider mb-4">
+      <div className="app-panel p-6 mb-8 text-left">
+        <h3 className="font-heading text-white text-lg tracking-[0.2em] uppercase mb-4">
           Question Breakdown
         </h3>
         <div className="space-y-3">
@@ -42,7 +40,7 @@ export default function ResultsScreen({ results, questions, onRetry }) {
               <div
                 key={i}
                 className={`border-l-2 pl-4 py-2 ${
-                  result.isCorrect ? 'border-emerald-500/60' : 'border-blood'
+                  result.isCorrect ? 'border-emerald-500/60 bg-emerald-500/5' : 'border-[var(--primary)] bg-[rgba(255,46,136,0.06)]'
                 }`}
               >
                 <div className="flex items-start gap-2">
@@ -50,11 +48,11 @@ export default function ResultsScreen({ results, questions, onRetry }) {
                     {result.isCorrect ? '\u2713' : '\u2717'}
                   </span>
                   <div>
-                    <p className="font-body text-text text-sm mb-1">
+                    <p className="font-body text-white text-sm mb-1">
                       {q.question}
                     </p>
                     {!result.isCorrect && (
-                      <p className="font-body text-muted text-xs">
+                      <p className="font-body text-zinc-400 text-xs">
                         Your answer: {q.options[result.selectedIndex]}
                         <span className="mx-2">|</span>
                         Correct: <span className="text-emerald-400">{q.options[result.correctIndex]}</span>
@@ -70,7 +68,7 @@ export default function ResultsScreen({ results, questions, onRetry }) {
 
       <button
         onClick={onRetry}
-        className="font-heading text-sm tracking-widest uppercase px-10 py-3 rounded border-2 border-gold text-gold hover:bg-gold/10 transition-all cursor-pointer"
+        className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-10 py-3 transition-all cursor-pointer"
       >
         Try Again
       </button>

@@ -4,6 +4,7 @@ import QuizRunner from '../components/QuizRunner'
 import ResultsScreen from '../components/ResultsScreen'
 import SpiceRating from '../components/SpiceRating'
 import { allBooks } from '../data/books'
+import SmartBookCover from '../components/SmartBookCover'
 
 export default function Quizzes() {
   const [searchParams] = useSearchParams()
@@ -33,70 +34,52 @@ export default function Quizzes() {
   if (!selectedBook) {
     return (
       <div className="max-w-6xl mx-auto px-4 py-10">
-        <h2 className="font-heading text-gold text-3xl md:text-4xl tracking-wider mb-2">
-          Book Club Quizzes
-        </h2>
-        <p className="font-body text-muted text-lg mb-8">
-          Choose a book to test your knowledge. Each quiz contains spoilers.
-        </p>
+        <div className="app-panel p-6 md:p-8 mb-8">
+          <h2 className="section-title text-3xl md:text-4xl mb-2">
+            Book Club Quizzes
+          </h2>
+          <p className="font-body text-zinc-400 text-lg mb-6">
+            Choose a book to test your knowledge. Each quiz contains spoilers.
+          </p>
 
-        {/* Search */}
-        <div className="relative w-full max-w-md mb-8">
-          <svg
-            className="absolute left-3 top-1/2 -translate-y-1/2 text-muted"
-            width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-          >
-            <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" />
-          </svg>
-          <input
-            type="text"
-            placeholder="Search books..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full bg-surface border border-gold/10 rounded-lg pl-10 pr-4 py-2.5 font-body text-text placeholder-muted/50 focus:outline-none focus:border-gold/40 transition-colors"
-          />
+          <div className="relative w-full max-w-md">
+            <svg
+              className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-500"
+              width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
+            >
+              <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" />
+            </svg>
+            <input
+              type="text"
+              placeholder="Search books..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="booktok-input w-full pl-10 pr-4 py-3"
+            />
+          </div>
         </div>
 
-        <p className="font-body text-muted text-sm mb-4">
+        <p className="font-body text-zinc-500 text-sm mb-4">
           {filteredBooks.length} quizzes available
         </p>
 
-        {/* Book grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {filteredBooks.map((book) => (
             <button
               key={book.id}
               onClick={() => { setSelectedBookId(book.id); setResults(null) }}
-              className="bg-surface rounded-lg overflow-hidden border border-transparent hover:border-current transition-all duration-300 text-left cursor-pointer"
-              style={{ color: book.accentColor || '#c9a84c' }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.boxShadow = `0 0 15px ${book.accentColor}30`
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.boxShadow = 'none'
-              }}
+              className="book-card text-left cursor-pointer"
             >
-              <div
-                className="aspect-[3/2] flex items-center justify-center p-4"
-                style={{
-                  background: `linear-gradient(160deg, ${book.coverGradient?.[0] || '#111'} 0%, ${book.coverGradient?.[1] || '#000'} 100%)`,
-                }}
-              >
-                <div className="text-center">
-                  <h3
-                    className="font-heading text-sm tracking-wider mb-1"
-                    style={{ color: book.accentColor }}
-                  >
-                    {book.title}
-                  </h3>
-                  <p className="font-body text-muted text-xs">{book.author}</p>
+              <div className="relative overflow-hidden">
+                <SmartBookCover book={book} />
+                <div className="overlay">
+                  <h3 className="font-heading text-base leading-tight text-white mb-1">{book.title}</h3>
+                  <p className="text-[11px] uppercase tracking-[0.2em] text-zinc-400 mb-2">{book.author}</p>
+                  <div className="flex items-center justify-between gap-2">
+                    <SpiceRating level={book.spiceLevel} />
+                    <span className="text-[11px] text-white/75">{book.quiz.length} Q&apos;s</span>
+                  </div>
                 </div>
-              </div>
-              <div className="p-3 flex items-center justify-between">
-                <SpiceRating level={book.spiceLevel} />
-                <span className="font-body text-muted text-xs">
-                  {book.quiz.length} Q's
-                </span>
               </div>
             </button>
           ))}
@@ -120,14 +103,14 @@ export default function Quizzes() {
         Choose a different quiz
       </button>
 
-      <div className="text-center mb-8">
+      <div className="text-center mb-8 app-panel p-6 md:p-8">
         <h2
-          className="font-heading text-3xl md:text-4xl tracking-wider mb-2"
+          className="section-title text-3xl md:text-4xl mb-2"
           style={{ color: selectedBook.accentColor || '#c9a84c' }}
         >
           {selectedBook.title}
         </h2>
-        <p className="font-body text-muted">
+        <p className="font-body text-zinc-400">
           by {selectedBook.author} &middot; {selectedBook.quiz.length} Questions
         </p>
       </div>

@@ -68,7 +68,6 @@
     radial-gradient(circle at 71% 63%, rgba(255, 255, 255, 0.06) 0 1px, transparent 2px),
     radial-gradient(circle at 44% 82%, rgba(255, 255, 255, 0.06) 0 1px, transparent 2px);
   background-size: 240px 240px, 180px 180px, 220px 220px;
-  animation: topic-drift 22s linear infinite;
 }
 
 @keyframes topic-drift {
@@ -174,13 +173,11 @@
 }
 
 .fog-layer {
-  animation: fog-drift 20s ease-in-out infinite;
   will-change: transform, opacity;
   background: radial-gradient(ellipse at center, rgba(196, 91, 132, 0.15) 0%, transparent 70%);
 }
 
 .fog-layer-2 {
-  animation: fog-drift-reverse 25s ease-in-out infinite;
   will-change: transform, opacity;
   background: radial-gradient(ellipse at 30% 50%, rgba(107, 63, 160, 0.12) 0%, transparent 60%);
 }
@@ -300,6 +297,37 @@
   z-index: 60;
 }
 
+.app-panel {
+  background: linear-gradient(180deg, rgba(20, 20, 26, 0.96), rgba(11, 11, 15, 0.96));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.booktok-input {
+  background: rgba(20, 20, 26, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  color: var(--text-main);
+}
+
+.booktok-button {
+  background: linear-gradient(135deg, rgba(255, 46, 136, 0.18), rgba(155, 92, 255, 0.18));
+  border: 1px solid rgba(255, 46, 136, 0.35);
+  color: var(--text-main);
+  border-radius: 9999px;
+}
+
+.booktok-button:hover {
+  box-shadow: 0 10px 30px rgba(255, 46, 136, 0.18);
+}
+
+.section-title {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.06em;
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
@@ -331,7 +359,6 @@
 
 /* Dark Romance - Pulsing shadow effect */
 .topic-dark-romance {
-  animation: dark-pulse 6s ease-in-out infinite;
 }
 
 @keyframes dark-pulse {
@@ -341,19 +368,15 @@
 
 /* Paranormal Romance - Floating mystical effect */
 .topic-paranormal-romance {
-  animation: mystical-float 8s ease-in-out infinite;
 }
 
-@keyframes mystical-float {
-  0%, 100% { transform: translateY(0px); }
-  25% { transform: translateY(-5px); }
-  50% { transform: translateY(-10px); }
-  75% { transform: translateY(-5px); }
+@keyframes mystical-glow {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.08); }
 }
 
 /* Romantasy - Celestial drift */
 .topic-romantasy {
-  animation: celestial-drift 10s ease-in-out infinite;
 }
 
 @keyframes celestial-drift {
@@ -363,7 +386,6 @@
 
 /* Contemporary Romance - Gentle float */
 .topic-contemporary-romance {
-  animation: gentle-float 7s ease-in-out infinite;
 }
 
 @keyframes gentle-float {
@@ -373,7 +395,6 @@
 
 /* Sports Romance - Energetic pulse */
 .topic-sports-romance {
-  animation: energetic-pulse 4s ease-in-out infinite;
 }
 
 @keyframes energetic-pulse {
@@ -383,7 +404,6 @@
 
 /* Mafia Romance - Smoky drift */
 .topic-mafia-romance {
-  animation: smoky-drift 9s ease-in-out infinite;
 }
 
 @keyframes smoky-drift {
@@ -393,7 +413,6 @@
 
 /* Erotic Romance - Sensual drift */
 .topic-erotic-romance {
-  animation: sensual-drift 8s ease-in-out infinite;
 }
 
 @keyframes sensual-drift {
@@ -403,27 +422,24 @@
 
 /* Rom-Com - Playful bounce */
 .topic-rom-com {
-  animation: playful-bounce 5s ease-in-out infinite;
 }
 
-@keyframes playful-bounce {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.02); }
+@keyframes playful-glow {
+  0%, 100% { filter: saturate(1); }
+  50% { filter: saturate(1.12); }
 }
 
 /* New Adult - Youthful spin */
 .topic-new-adult {
-  animation: youthful-spin 6s linear infinite;
 }
 
-@keyframes youthful-spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(1deg); }
+@keyframes youthful-glow {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.06); }
 }
 
 /* Romantic Suspense - Tense pulse */
 .topic-romantic-suspense {
-  animation: tense-pulse 3s ease-in-out infinite;
 }
 
 @keyframes tense-pulse {
@@ -433,7 +449,6 @@
 
 /* Bully Romance - Aggressive pulse */
 .topic-bully-romance {
-  animation: aggressive-pulse 3.5s ease-in-out infinite;
 }
 
 @keyframes aggressive-pulse {
@@ -443,7 +458,6 @@
 
 /* Reverse Harem - Regal swirl */
 .topic-reverse-harem {
-  animation: regal-swirl 12s ease-in-out infinite;
 }
 
 @keyframes regal-swirl {
