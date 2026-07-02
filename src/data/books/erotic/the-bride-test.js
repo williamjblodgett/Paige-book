@@ -2,7 +2,7 @@ export default {
   id: "the-bride-test",
   title: "The Bride Test",
   author: "Helen Hoang",
-  genres: ["erotic-romance", "contemporary-romance"],
+  genres: ["contemporary-romance"],
   themes: ["cultural-identity", "neurodivergent-rep", "class-differences", "self-worth"],
   spiceLevel: 4,
   coverGradient: ["#120a10", "#1a0a0c"],

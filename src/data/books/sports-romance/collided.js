@@ -4,7 +4,7 @@ export default {
   author: "Lauren Asher",
   genres: ["sports-romance"],
   themes: ["friends-to-lovers", "forbidden-romance", "opposites-attract"],
-  spiceLevel: 3,
+  spiceLevel: 4,
   coverGradient: ["#1a0808", "#0a0a18"],
   accentColor: "#e85d3a",
   pov: "dual-pov",

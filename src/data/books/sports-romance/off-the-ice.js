@@ -4,7 +4,7 @@ export default {
   author: "Julie Cross",
   genres: ["sports-romance"],
   themes: ["second-chances", "young-adult", "hockey", "friends-to-lovers"],
-  spiceLevel: 3,
+  spiceLevel: 1,
   coverGradient: ["#0a1218", "#1a0a12"],
   accentColor: "#2d8cf0",
   pov: "dual-pov",

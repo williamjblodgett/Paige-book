@@ -4,7 +4,7 @@ export default {
   author: "Samantha Shannon",
   genres: ["romantasy"],
   themes: ["forbidden-love", "slow-burn", "war", "found-family", "sacrifice", "rebellion"],
-  spiceLevel: 3,
+  spiceLevel: 2,
   coverGradient: ["#0f1a0a", "#0a1530"],
   accentColor: "#7c5cbf",
   pov: "multi-pov",

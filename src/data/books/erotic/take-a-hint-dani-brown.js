@@ -2,7 +2,7 @@ export default {
   id: "take-a-hint-dani-brown",
   title: "Take a Hint, Dani Brown",
   author: "Talia Hibbert",
-  genres: ["erotic-romance", "contemporary-romance"],
+  genres: ["contemporary-romance"],
   themes: ["fake-dating", "friends-to-lovers", "academic-romance", "grumpy-sunshine"],
   spiceLevel: 4,
   coverGradient: ["#120a10", "#1a0a12"],

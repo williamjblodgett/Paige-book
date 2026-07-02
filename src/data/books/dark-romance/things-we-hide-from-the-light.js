@@ -3,7 +3,7 @@ export default {
   title: "Things We Hide from the Light",
   author: "Lucy Score",
   series: "Knockemout #2",
-  genres: ["dark-romance"],
+  genres: ["contemporary-romance"],
   themes: ["forced-proximity", "possessive-hero", "touch-her-and-die", "morally-grey", "alpha-male"],
   spiceLevel: 4,
   coverGradient: ["#0a0810", "#1e1830"],

@@ -2,7 +2,7 @@ export default {
   id: "run-posy-run",
   title: "Run Posy Run",
   author: "Cate C. Wells",
-  genres: ["erotic-romance"],
+  genres: ["dark-romance", "mafia-romance"],
   themes: ["dark-romance", "captive-romance", "possessive-hero", "neurodivergent-rep"],
   spiceLevel: 5,
   coverGradient: ["#120a10", "#1a0a12"],

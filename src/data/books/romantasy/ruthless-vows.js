@@ -4,7 +4,7 @@ export default {
   author: "Rebecca Ross",
   genres: ["romantasy"],
   themes: ["sacrifice", "war", "enemies-to-lovers", "slow-burn", "forbidden-love"],
-  spiceLevel: 3,
+  spiceLevel: 2,
   coverGradient: ["#15082a", "#0a1230"],
   accentColor: "#7c5cbf",
   pov: "dual-pov",

@@ -2,9 +2,9 @@ export default {
   id: "vicious",
   title: "Vicious",
   author: "L.J. Shen",
-  genres: ["mafia-romance", "dark-romance"],
+  genres: ["dark-romance"],
   themes: ["enemies-to-lovers", "bully-romance", "class-differences", "possessive-hero"],
-  spiceLevel: 5,
+  spiceLevel: 4,
   coverGradient: ["#1a1508", "#0c0808"],
   accentColor: "#c9a84c",
   synopsis: `Vicious is not a nickname. It is a warning.

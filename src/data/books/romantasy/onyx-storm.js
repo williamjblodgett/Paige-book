@@ -4,7 +4,7 @@ export default {
   author: "Rebecca Yarros",
   genres: ["romantasy"],
   themes: ["fated-mates", "war", "sacrifice"],
-  spiceLevel: 4,
+  spiceLevel: 3,
   coverGradient: ["#1a0a15", "#0d0f1a"],
   accentColor: "#1a1a3a",
   pov: "single-fmc",

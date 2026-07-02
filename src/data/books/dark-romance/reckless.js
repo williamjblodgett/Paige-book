@@ -3,7 +3,7 @@ export default {
   title: "Reckless",
   author: "Elsie Silver",
   series: "Chestnut Springs #4",
-  genres: ["dark-romance"],
+  genres: ["contemporary-romance"],
   themes: ["forbidden-love", "forced-proximity", "possessive-hero", "taboo", "touch-her-and-die", "alpha-male"],
   spiceLevel: 4,
   coverGradient: ["#0a0a0e", "#1a2030"],

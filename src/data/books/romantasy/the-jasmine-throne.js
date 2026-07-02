@@ -4,7 +4,7 @@ export default {
   author: "Tasha Suri",
   genres: ["romantasy"],
   themes: ["forbidden-love", "rebellion", "slow-burn", "sacrifice", "morally-grey", "enemies-to-lovers"],
-  spiceLevel: 3,
+  spiceLevel: 1,
   coverGradient: ["#0a1a18", "#150a30"],
   accentColor: "#7c5cbf",
   pov: "multi-pov",
