@@ -3,7 +3,7 @@ export default {
   title: "King of Wrath",
   author: "Ana Huang",
   series: "Kings of Sin #1",
-  genres: ["mafia-romance"],
+  genres: ["contemporary-romance"],
   themes: ["arranged-marriage", "enemies-to-lovers"],
   spiceLevel: 4,
   coverGradient: ["#2a1a0a", "#4a3a1a"],

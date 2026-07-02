@@ -191,7 +191,7 @@ import book_lothaire from './paranormal/lothaire.js'
 import book_master_of_crows from './paranormal/master-of-crows.js'
 import book_moon_called from './paranormal/moon-called.js'
 import book_once_upon_a_broken_heart from './paranormal/once-upon-a-broken-heart.js'
-import book_one_dark_window from './paranormal/one-dark-window.js'
+import book_one_dark_window from './romantasy/one-dark-window.js'
 import book_radiance from './paranormal/radiance.js'
 import book_swordheart from './paranormal/swordheart.js'
 import book_the_darkest_night from './paranormal/the-darkest-night.js'
@@ -322,6 +322,18 @@ import book_triple_duty_bodyguards from './reverse-harem/triple-duty-bodyguards.
 import book_nanny_for_the_neighbors from './reverse-harem/nanny-for-the-neighbors.js'
 import book_three_swedish_mountain_men from './reverse-harem/three-swedish-mountain-men.js'
 import book_gilded_mess from './reverse-harem/gilded-mess.js'
+import book_it_ends_with_us from './contemporary/it-ends-with-us.js'
+import book_every_summer_after from './contemporary/every-summer-after.js'
+import book_flawless from './contemporary/flawless.js'
+import book_throne_of_glass from './romantasy/throne-of-glass.js'
+import book_quicksilver from './romantasy/quicksilver.js'
+import book_hooked from './dark-romance/hooked.js'
+import book_god_of_malice from './dark-romance/god-of-malice.js'
+import book_twist_me from './dark-romance/twist-me.js'
+import book_the_kiss_thief from './mafia/the-kiss-thief.js'
+import book_painted_scars from './mafia/painted-scars.js'
+import book_slave_to_sensation from './paranormal/slave-to-sensation.js'
+import book_bared_to_you from './erotic/bared-to-you.js'
 
 export const allBooks = [
   book_beach_read,
@@ -646,4 +658,16 @@ export const allBooks = [
   book_nanny_for_the_neighbors,
   book_three_swedish_mountain_men,
   book_gilded_mess,
+  book_it_ends_with_us,
+  book_every_summer_after,
+  book_flawless,
+  book_throne_of_glass,
+  book_quicksilver,
+  book_hooked,
+  book_god_of_malice,
+  book_twist_me,
+  book_the_kiss_thief,
+  book_painted_scars,
+  book_slave_to_sensation,
+  book_bared_to_you,
 ]

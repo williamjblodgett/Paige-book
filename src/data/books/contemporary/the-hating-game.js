@@ -4,7 +4,7 @@ export default {
   author: "Sally Thorne",
   genres: ["contemporary-romance", "romantic-comedy"],
   themes: ["enemies-to-lovers", "workplace", "grumpy-sunshine", "opposites-attract"],
-  spiceLevel: 4,
+  spiceLevel: 3,
   coverGradient: ["#ff6b6b", "#c44569"],
   accentColor: "#c45b84",
   pov: "single-fmc",

@@ -4,7 +4,7 @@ export default {
   author: "Margaret Rogerson",
   genres: ["romantasy"],
   themes: ["enemies-to-lovers", "slow-burn", "found-family", "morally-grey", "forbidden-love"],
-  spiceLevel: 3,
+  spiceLevel: 1,
   coverGradient: ["#0a1a15", "#0f0a30"],
   accentColor: "#7c5cbf",
   pov: "single-fmc",

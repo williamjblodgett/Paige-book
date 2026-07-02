@@ -4,7 +4,7 @@ export default {
   author: "Colleen Hoover",
   genres: ["contemporary-romance", "psychological-thriller"],
   themes: ["forbidden-love", "slow-burn", "opposites-attract"],
-  spiceLevel: 5,
+  spiceLevel: 4,
   coverGradient: ["#1a1a2e", "#950740"],
   accentColor: "#c45b84",
   pov: "single-fmc",

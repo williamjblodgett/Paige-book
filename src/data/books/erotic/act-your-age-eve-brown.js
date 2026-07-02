@@ -2,7 +2,7 @@ export default {
   id: "act-your-age-eve-brown",
   title: "Act Your Age, Eve Brown",
   author: "Talia Hibbert",
-  genres: ["erotic-romance", "contemporary-romance"],
+  genres: ["contemporary-romance"],
   themes: ["grumpy-sunshine", "forced-proximity", "neurodivergent-rep", "romantic-comedy"],
   spiceLevel: 4,
   coverGradient: ["#120a10", "#1a0e10"],

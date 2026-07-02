@@ -2,7 +2,7 @@ export default {
   id: "the-kiss-quotient",
   title: "The Kiss Quotient",
   author: "Helen Hoang",
-  genres: ["erotic-romance", "contemporary-romance"],
+  genres: ["contemporary-romance"],
   themes: ["neurodivergent-rep", "opposites-attract", "fake-relationship", "self-discovery"],
   spiceLevel: 4,
   coverGradient: ["#120a10", "#1a0c12"],

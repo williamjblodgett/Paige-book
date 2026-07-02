@@ -2,7 +2,7 @@ export default {
   id: "get-a-life-chloe-brown",
   title: "Get a Life, Chloe Brown",
   author: "Talia Hibbert",
-  genres: ["erotic-romance", "contemporary-romance"],
+  genres: ["contemporary-romance"],
   themes: ["grumpy-sunshine", "chronic-illness-rep", "opposites-attract", "bucket-list"],
   spiceLevel: 4,
   coverGradient: ["#120a10", "#1a0a0e"],

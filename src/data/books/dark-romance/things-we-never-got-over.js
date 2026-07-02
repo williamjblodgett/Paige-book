@@ -3,7 +3,7 @@ export default {
   title: "Things We Never Got Over",
   author: "Lucy Score",
   series: "Knockemout #1",
-  genres: ["dark-romance"],
+  genres: ["contemporary-romance"],
   themes: ["enemies-to-lovers", "forced-proximity", "possessive-hero", "touch-her-and-die", "alpha-male"],
   spiceLevel: 4,
   coverGradient: ["#0d0a08", "#2a2018"],

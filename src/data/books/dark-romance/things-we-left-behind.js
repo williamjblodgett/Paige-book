@@ -3,7 +3,7 @@ export default {
   title: "Things We Left Behind",
   author: "Lucy Score",
   series: "Knockemout #3",
-  genres: ["dark-romance"],
+  genres: ["contemporary-romance"],
   themes: ["enemies-to-lovers", "possessive-hero", "morally-grey", "revenge", "alpha-male", "obsession"],
   spiceLevel: 4,
   coverGradient: ["#0d0a0a", "#2a1818"],

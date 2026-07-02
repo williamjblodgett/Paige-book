@@ -4,7 +4,7 @@ export default {
   author: "Michaela Grey",
   genres: ["sports-romance"],
   themes: ["hurt-comfort", "second-chances", "hockey", "coming-out"],
-  spiceLevel: 3,
+  spiceLevel: 4,
   coverGradient: ["#0a1018", "#1a0d15"],
   accentColor: "#2d8cf0",
   synopsis: `One hit changes everything. In a single devastating moment on the ice, professional hockey player Adam Larsen goes from star athlete to a man who cannot tolerate bright lights, who forgets words mid-sentence, and who faces the terrifying possibility that he may never play again. Hockey was his entire identity. Without it, he does not know who he is.

@@ -4,7 +4,7 @@ export default {
   author: "Mhairi McFarlane",
   genres: ["contemporary-romance", "women's-fiction"],
   themes: ["friends-to-lovers", "forbidden-love", "found-family", "slow-burn"],
-  spiceLevel: 3,
+  spiceLevel: 2,
   coverGradient: ["#2d3561", "#c05c7e"],
   accentColor: "#c45b84",
   synopsis: `Four friends. One secret that could destroy everything. And a single night that changes all of it.

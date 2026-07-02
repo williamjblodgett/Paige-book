@@ -5,7 +5,7 @@ export default {
   series: "Zodiac Academy #1",
   genres: ["dark-romance", "romantasy"],
   themes: ["bully", "enemies-to-lovers", "fated-mates", "forbidden-love", "revenge", "alpha-male"],
-  spiceLevel: 4,
+  spiceLevel: 1,
   coverGradient: ["#0a0e1a", "#1a2a4a"],
   accentColor: "#c42a2a",
   pov: "dual-pov",

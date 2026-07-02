@@ -4,7 +4,7 @@ export default {
   author: "Sarah Adams",
   genres: ["sports-romance"],
   themes: ["fake-dating", "small-town", "grumpy-sunshine", "romantic-comedy"],
-  spiceLevel: 3,
+  spiceLevel: 1,
   coverGradient: ["#0a1018", "#1a0b14"],
   accentColor: "#2d8cf0",
   synopsis: `Annie Walker is the sunshine of Rome, Kentucky -- beloved flower shop owner, everyone's best friend, and hopelessly, embarrassingly single. The men of Rome are either related to her, already married, or absolutely wrong for her, and Annie's last attempt at a date was the kind of disaster people still talk about at the diner.

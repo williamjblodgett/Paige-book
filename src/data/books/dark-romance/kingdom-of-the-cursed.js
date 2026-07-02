@@ -5,7 +5,7 @@ export default {
   series: "Kingdom of the Wicked #2",
   genres: ["dark-romance", "romantasy"],
   themes: ["enemies-to-lovers", "morally-grey", "forbidden-love", "fated-mates", "revenge"],
-  spiceLevel: 4,
+  spiceLevel: 3,
   coverGradient: ["#0e0a1e", "#251545"],
   accentColor: "#c42a2a",
   pov: "single-fmc",

@@ -26,7 +26,7 @@ export function BookCard({ book }) {
       }}
     >
       <Link to={`/book/${book.id}`} className="relative block h-full">
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden h-[260px]">
           <SmartBookCover book={book} />
           <div className="overlay">
             <h3 className="font-heading text-base leading-tight text-white">{book.title}</h3>

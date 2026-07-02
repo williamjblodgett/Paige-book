@@ -4,7 +4,7 @@ export default {
   author: "Sue Lynn Tan",
   genres: ["romantasy"],
   themes: ["forbidden-love", "sacrifice", "slow-burn", "found-family", "war"],
-  spiceLevel: 3,
+  spiceLevel: 1,
   coverGradient: ["#0f0a2e", "#1a1040"],
   accentColor: "#7c5cbf",
   pov: "single-fmc",

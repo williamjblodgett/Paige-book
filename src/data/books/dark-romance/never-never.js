@@ -2,9 +2,9 @@ export default {
   id: "never-never",
   title: "Never Never",
   author: "Colleen Hoover & Tarryn Fisher",
-  genres: ["dark-romance"],
+  genres: ["paranormal-romance"],
   themes: ["obsession", "forbidden-love", "morally-grey", "taboo"],
-  spiceLevel: 4,
+  spiceLevel: 1,
   coverGradient: ["#0a0a1a", "#2a1a3a"],
   accentColor: "#c42a2a",
   synopsis: `Charlie Wynwood and Silas Nash wake up one morning with no memory of who they are. Not each other. Not their families. Not even their own names.

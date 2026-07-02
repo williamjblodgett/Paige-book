@@ -40,6 +40,10 @@ export default function BookCard({ book }) {
 
       {/* Info */}
       <div className="p-4 space-y-2">
+        <div>
+          <h3 className="font-heading text-sm tracking-wide text-text leading-snug line-clamp-2">{title}</h3>
+          <p className="font-body text-muted text-xs mt-0.5">{author}</p>
+        </div>
         <div className="flex items-center justify-between">
           <SpiceRating level={spiceLevel} />
         </div>

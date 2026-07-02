@@ -4,7 +4,7 @@ export default {
   author: "Sarah Adams",
   genres: ["sports-romance"],
   themes: ["friends-to-lovers", "romantic-comedy", "mutual-pining", "football"],
-  spiceLevel: 3,
+  spiceLevel: 1,
   coverGradient: ["#0a1018", "#1a0e15"],
   accentColor: "#2d8cf0",
   pov: "dual-pov",

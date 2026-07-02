@@ -4,7 +4,7 @@ export default {
   author: "Carissa Broadbent",
   genres: ["romantasy"],
   themes: ["slow-burn", "found-family", "forbidden-love", "morally-grey", "enemies-to-lovers"],
-  spiceLevel: 4,
+  spiceLevel: 3,
   coverGradient: ["#180a25", "#0d1030"],
   accentColor: "#7c5cbf",
   pov: "single-fmc",

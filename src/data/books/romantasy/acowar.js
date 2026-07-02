@@ -4,7 +4,7 @@ export default {
   author: "Sarah J. Maas",
   genres: ["romantasy"],
   themes: ["fated-mates", "found-family", "war"],
-  spiceLevel: 4,
+  spiceLevel: 3,
   coverGradient: ["#1a1030", "#0d0f1a"],
   accentColor: "#5c3cbf",
   pov: "single-fmc",

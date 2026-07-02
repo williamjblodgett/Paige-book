@@ -4,7 +4,7 @@ export default {
   author: "Emily Henry",
   genres: ["contemporary-romance", "romantic-comedy"],
   themes: ["second-chance", "fake-dating", "forced-proximity", "friends-to-lovers"],
-  spiceLevel: 4,
+  spiceLevel: 3,
   coverGradient: ["#a8dadc", "#457b9d"],
   accentColor: "#c45b84",
   pov: "dual-pov",
