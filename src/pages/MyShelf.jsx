@@ -2,9 +2,18 @@ import { Link } from 'react-router-dom'
 import { allBooks } from '../data/books'
 import BookCard from '../components/BookCard'
 import useFavorites from '../hooks/useFavorites'
+import useQuizScores from '../hooks/useQuizScores'
 
 export default function MyShelf() {
   const { favorites, clearAll } = useFavorites()
+  const { scores } = useQuizScores()
+
+  const quizEntries = Object.entries(scores)
+  const quizzesTaken = quizEntries.length
+  const perfectScores = quizEntries.filter(([, s]) => s.best === s.total).length
+  const averagePct = quizzesTaken
+    ? Math.round(quizEntries.reduce((sum, [, s]) => sum + (s.best / s.total) * 100, 0) / quizzesTaken)
+    : 0
 
   const favoriteBooks = favorites
     .map(id => allBooks.find(b => b.id === id))
@@ -21,6 +30,21 @@ export default function MyShelf() {
           Your personal collection of saved books. Tap the bookmark icon on any book to add it here.
         </p>
       </div>
+
+      {quizzesTaken > 0 && (
+        <div className="max-w-2xl mx-auto mb-12 grid grid-cols-3 gap-3 text-center">
+          {[
+            { value: quizzesTaken, label: quizzesTaken === 1 ? 'Quiz Taken' : 'Quizzes Taken' },
+            { value: `${averagePct}%`, label: 'Average Best' },
+            { value: perfectScores, label: 'Perfect Scores' },
+          ].map(({ value, label }) => (
+            <div key={label} className="bg-surface rounded-lg border border-gold/15 py-5 px-3">
+              <p className="font-heading text-gold text-2xl md:text-3xl mb-1">{value}</p>
+              <p className="font-body text-muted text-xs tracking-wider uppercase">{label}</p>
+            </div>
+          ))}
+        </div>
+      )}
 
       {favoriteBooks.length === 0 ? (
         <div className="text-center py-20">

@@ -1,18 +1,22 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import QuizRunner from '../components/QuizRunner'
 import ResultsScreen from '../components/ResultsScreen'
 import SpiceRating from '../components/SpiceRating'
 import { allBooks } from '../data/books'
 import SmartBookCover from '../components/SmartBookCover'
+import useQuizScores from '../hooks/useQuizScores'
 
 export default function Quizzes() {
-  const [searchParams] = useSearchParams()
-  const preselectedBook = searchParams.get('book')
+  const [searchParams, setSearchParams] = useSearchParams()
+  const selectedBookId = searchParams.get('book')
 
-  const [selectedBookId, setSelectedBookId] = useState(preselectedBook)
   const [results, setResults] = useState(null)
   const [searchQuery, setSearchQuery] = useState('')
+  const [started, setStarted] = useState(false)
+  const [quizQuestions, setQuizQuestions] = useState(null)
+  const [attemptKey, setAttemptKey] = useState(0)
+  const { recordResult, getScore } = useQuizScores()
 
   const booksWithQuiz = useMemo(() => {
     return allBooks
@@ -30,6 +34,44 @@ export default function Quizzes() {
   }, [booksWithQuiz, searchQuery])
 
   const selectedBook = selectedBookId ? allBooks.find(b => b.id === selectedBookId) : null
+
+  // Reset quiz state whenever the selected book changes (including back/forward)
+  useEffect(() => {
+    setResults(null)
+    setStarted(false)
+    setQuizQuestions(null)
+  }, [selectedBookId])
+
+  function selectBook(id) {
+    setSearchParams({ book: id })
+  }
+
+  function backToPicker() {
+    setSearchParams({})
+  }
+
+  function startQuiz(questions) {
+    setQuizQuestions(questions)
+    setResults(null)
+    setStarted(true)
+    setAttemptKey(k => k + 1)
+  }
+
+  function handleComplete(answers) {
+    setResults(answers)
+    // Only full runs count toward the saved best score
+    if (quizQuestions?.length === selectedBook.quiz.length) {
+      const correct = answers.filter(a => a.isCorrect).length
+      recordResult(selectedBook.id, correct, selectedBook.quiz.length)
+    }
+  }
+
+  function retryMissed() {
+    const missed = results
+      .filter(r => !r.isCorrect)
+      .map(r => quizQuestions[r.questionIndex])
+    startQuiz(missed)
+  }
 
   if (!selectedBook) {
     return (
@@ -64,37 +106,51 @@ export default function Quizzes() {
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-          {filteredBooks.map((book) => (
-            <button
-              key={book.id}
-              onClick={() => { setSelectedBookId(book.id); setResults(null) }}
-              className="book-card text-left cursor-pointer"
-            >
-              <div className="relative overflow-hidden">
-                <SmartBookCover book={book} />
-                <div className="overlay">
-                  <h3 className="font-heading text-base leading-tight text-white mb-1">{book.title}</h3>
-                  <p className="text-[11px] uppercase tracking-[0.2em] text-zinc-400 mb-2">{book.author}</p>
-                  <div className="flex items-center justify-between gap-2">
-                    <SpiceRating level={book.spiceLevel} />
-                    <span className="text-[11px] text-white/75">{book.quiz.length} Q&apos;s</span>
+          {filteredBooks.map((book) => {
+            const score = getScore(book.id)
+            const isPerfect = score && score.best === score.total
+            return (
+              <button
+                key={book.id}
+                onClick={() => selectBook(book.id)}
+                className="book-card text-left cursor-pointer relative"
+              >
+                {score && (
+                  <span
+                    className={`absolute top-2 right-2 z-10 font-heading text-[11px] tracking-wider px-2.5 py-1 rounded-full border backdrop-blur-sm ${
+                      isPerfect
+                        ? 'border-emerald-400/60 bg-emerald-500/20 text-emerald-300'
+                        : 'border-white/25 bg-black/50 text-white/90'
+                    }`}
+                  >
+                    {isPerfect ? '✓ ' : ''}Best {score.best}/{score.total}
+                  </span>
+                )}
+                <div className="relative overflow-hidden">
+                  <SmartBookCover book={book} />
+                  <div className="overlay">
+                    <h3 className="font-heading text-base leading-tight text-white mb-1">{book.title}</h3>
+                    <p className="text-[11px] uppercase tracking-[0.2em] text-zinc-400 mb-2">{book.author}</p>
+                    <div className="flex items-center justify-between gap-2">
+                      <SpiceRating level={book.spiceLevel} />
+                      <span className="text-[11px] text-white/75">{book.quiz.length} Q&apos;s</span>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </button>
-          ))}
+              </button>
+            )
+          })}
         </div>
       </div>
     )
   }
 
+  const bestScore = getScore(selectedBook.id)
+
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
       <button
-        onClick={() => {
-          setSelectedBookId(null)
-          setResults(null)
-        }}
+        onClick={backToPicker}
         className="flex items-center gap-2 font-body text-muted text-sm hover:text-gold transition-colors mb-8 cursor-pointer"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -112,22 +168,43 @@ export default function Quizzes() {
         </h2>
         <p className="font-body text-zinc-400">
           by {selectedBook.author} &middot; {selectedBook.quiz.length} Questions
+          {bestScore && (
+            <span> &middot; Your best: {bestScore.best}/{bestScore.total}</span>
+          )}
         </p>
       </div>
 
       <div className="divider-ornament mb-10">&#10022;</div>
 
-      {results ? (
+      {!started ? (
+        <div className="max-w-xl mx-auto text-center app-panel p-8">
+          <p className="text-4xl mb-4" aria-hidden="true">🙈</p>
+          <h3 className="font-heading text-white text-xl tracking-[0.15em] uppercase mb-3">
+            Spoiler Warning
+          </h3>
+          <p className="font-body text-zinc-400 mb-8">
+            This quiz gives away major plot points of <span className="text-white italic">{selectedBook.title}</span> — including the ending.
+          </p>
+          <button
+            onClick={() => startQuiz(selectedBook.quiz)}
+            className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-10 py-3 transition-all cursor-pointer"
+          >
+            I&apos;ve read it — start quiz
+          </button>
+        </div>
+      ) : results ? (
         <ResultsScreen
           results={results}
-          questions={selectedBook.quiz}
-          onRetry={() => setResults(null)}
+          questions={quizQuestions}
+          bookTitle={selectedBook.title}
+          onRetry={() => startQuiz(selectedBook.quiz)}
+          onRetryMissed={retryMissed}
         />
       ) : (
         <QuizRunner
-          key={selectedBookId + Date.now()}
-          questions={selectedBook.quiz}
-          onComplete={setResults}
+          key={attemptKey}
+          questions={quizQuestions}
+          onComplete={handleComplete}
         />
       )}
     </div>

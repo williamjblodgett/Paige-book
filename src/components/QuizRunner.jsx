@@ -1,4 +1,14 @@
-import { useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
+
+function shuffled(array) {
+  const next = [...array]
+  for (let i = next.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[next[i], next[j]] = [next[j], next[i]]
+  }
+  return next
+}
 
 export default function QuizRunner({ questions, onComplete }) {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -6,21 +16,28 @@ export default function QuizRunner({ questions, onComplete }) {
   const [showFeedback, setShowFeedback] = useState(false)
   const [answers, setAnswers] = useState([])
 
+  // Per-attempt shuffled display order for each question's options
+  const optionOrders = useMemo(
+    () => questions.map(q => shuffled(q.options.map((_, i) => i))),
+    [questions]
+  )
+
   const question = questions[currentIndex]
+  const order = optionOrders[currentIndex]
   const total = questions.length
   const isLast = currentIndex === total - 1
 
-  function handleSelect(optionIndex) {
+  function handleSelect(originalIndex) {
     if (showFeedback) return
-    setSelectedOption(optionIndex)
+    setSelectedOption(originalIndex)
     setShowFeedback(true)
     setAnswers(prev => [
       ...prev,
       {
         questionIndex: currentIndex,
-        selectedIndex: optionIndex,
+        selectedIndex: originalIndex,
         correctIndex: question.correctIndex,
-        isCorrect: optionIndex === question.correctIndex,
+        isCorrect: originalIndex === question.correctIndex,
       }
     ])
   }
@@ -34,6 +51,30 @@ export default function QuizRunner({ questions, onComplete }) {
       setShowFeedback(false)
     }
   }
+
+  // Keyboard play: A-D / 1-4 to answer, Enter to advance
+  useEffect(() => {
+    function onKeyDown(e) {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return
+      if (showFeedback && e.key === 'Enter') {
+        e.preventDefault()
+        handleNext()
+        return
+      }
+      if (!showFeedback) {
+        let displayIndex = -1
+        const upper = e.key.toUpperCase()
+        if (upper >= 'A' && upper <= 'D') displayIndex = upper.charCodeAt(0) - 65
+        else if (e.key >= '1' && e.key <= '4') displayIndex = Number(e.key) - 1
+        if (displayIndex >= 0 && displayIndex < order.length) {
+          e.preventDefault()
+          handleSelect(order[displayIndex])
+        }
+      }
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  })
 
   const progress = ((currentIndex + 1) / total) * 100
 
@@ -59,63 +100,89 @@ export default function QuizRunner({ questions, onComplete }) {
         </div>
       </div>
 
-      <div className="app-panel p-6 md:p-8 mb-6">
-        <p className="font-body text-white text-xl leading-relaxed">
-          {question.question}
-        </p>
-      </div>
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={currentIndex}
+          initial={{ opacity: 0, x: 24 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -24 }}
+          transition={{ duration: 0.25 }}
+        >
+          <div className="app-panel p-6 md:p-8 mb-6">
+            <p className="font-body text-white text-xl leading-relaxed">
+              {question.question}
+            </p>
+          </div>
 
-      <div className="space-y-3 mb-8">
-        {question.options.map((option, i) => {
-          let optionStyle = 'border-white/8 hover:border-white/20 bg-[rgba(20,20,26,0.92)]'
-          if (showFeedback) {
-            if (i === question.correctIndex) {
-              optionStyle = 'border-emerald-500/60 bg-emerald-500/10'
-            } else if (i === selectedOption && i !== question.correctIndex) {
-              optionStyle = 'border-[var(--primary)] bg-[rgba(255,46,136,0.12)]'
-            } else {
-              optionStyle = 'border-white/6 opacity-50'
-            }
-          } else if (selectedOption === i) {
-            optionStyle = 'border-[var(--primary)] bg-[rgba(255,46,136,0.08)]'
-          }
+          <div className="space-y-3 mb-8">
+            {order.map((originalIndex, displayIndex) => {
+              const option = question.options[originalIndex]
+              let optionStyle = 'border-white/8 hover:border-white/20 bg-[rgba(20,20,26,0.92)]'
+              if (showFeedback) {
+                if (originalIndex === question.correctIndex) {
+                  optionStyle = 'border-emerald-500/60 bg-emerald-500/10'
+                } else if (originalIndex === selectedOption) {
+                  optionStyle = 'border-[var(--primary)] bg-[rgba(255,46,136,0.12)]'
+                } else {
+                  optionStyle = 'border-white/6 opacity-50'
+                }
+              } else if (selectedOption === originalIndex) {
+                optionStyle = 'border-[var(--primary)] bg-[rgba(255,46,136,0.08)]'
+              }
 
-          const letter = String.fromCharCode(65 + i)
+              const letter = String.fromCharCode(65 + displayIndex)
 
-          return (
-            <button
-              key={i}
-              onClick={() => handleSelect(i)}
-              disabled={showFeedback}
-              className={`
-                w-full text-left rounded-2xl border p-4 transition-all duration-200
-                ${showFeedback ? 'cursor-default' : 'cursor-pointer'}
-                ${optionStyle}
-              `}
+              return (
+                <button
+                  key={originalIndex}
+                  onClick={() => handleSelect(originalIndex)}
+                  disabled={showFeedback}
+                  className={`
+                    w-full text-left rounded-2xl border p-4 transition-all duration-200
+                    ${showFeedback ? 'cursor-default' : 'cursor-pointer'}
+                    ${optionStyle}
+                  `}
+                >
+                  <span className="font-heading text-[var(--primary)] text-sm mr-3">{letter}.</span>
+                  <span className="font-body text-white">{option}</span>
+                </button>
+              )
+            })}
+          </div>
+
+          {showFeedback && (
+            <motion.div
+              className="space-y-4"
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
             >
-              <span className="font-heading text-[var(--primary)] text-sm mr-3">{letter}.</span>
-              <span className="font-body text-white">{option}</span>
-            </button>
-          )
-        })}
-      </div>
-
-      {showFeedback && (
-        <div className="space-y-4">
-          {question.explanation && (
-            <div className="app-panel p-4">
-              <p className="font-body text-zinc-400 text-sm italic">
-                {question.explanation}
-              </p>
-            </div>
+              {question.explanation && (
+                <div className="app-panel p-4">
+                  <p className="font-body text-zinc-400 text-sm italic">
+                    {question.explanation}
+                  </p>
+                </div>
+              )}
+              <div className="flex items-center gap-4">
+                <button
+                  onClick={handleNext}
+                  className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-8 py-3 transition-all cursor-pointer"
+                >
+                  {isLast ? 'See Results' : 'Next Question'}
+                </button>
+                <span className="font-body text-zinc-600 text-xs hidden sm:inline">
+                  press Enter ↵
+                </span>
+              </div>
+            </motion.div>
           )}
-          <button
-            onClick={handleNext}
-            className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-8 py-3 transition-all cursor-pointer"
-          >
-            {isLast ? 'See Results' : 'Next Question'}
-          </button>
-        </div>
+        </motion.div>
+      </AnimatePresence>
+
+      {!showFeedback && (
+        <p className="font-body text-zinc-600 text-xs text-center hidden sm:block">
+          Tip: answer with the A–D keys
+        </p>
       )}
     </div>
   )

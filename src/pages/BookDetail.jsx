@@ -13,9 +13,19 @@ import { useState } from 'react'
 import SmartBookCover from '../components/SmartBookCover'
 import ExternalBookLinks from '../components/ExternalBookLinks'
 import useFavorites from '../hooks/useFavorites'
+import useQuizScores from '../hooks/useQuizScores'
 import FavoriteButton from '../components/FavoriteButton'
 import ContentWarnings from '../components/ContentWarnings'
 import BookMetadata from '../components/BookMetadata'
+
+function seriesName(series) {
+  return series ? series.replace(/\s*#[\d.]+\s*$/, '').replace(/,\s*$/, '').trim() : null
+}
+
+function seriesNumber(series) {
+  const m = series?.match(/#([\d.]+)\s*$/)
+  return m ? parseFloat(m[1]) : Infinity
+}
 
 export default function BookDetail() {
   const { bookId } = useParams()
@@ -23,8 +33,17 @@ export default function BookDetail() {
   const [quizResults, setQuizResults] = useState(null)
   const [showQuiz, setShowQuiz] = useState(false)
   const { isFavorite, toggleFavorite } = useFavorites()
+  const { recordResult } = useQuizScores()
 
   const book = allBooks.find(b => b.id === bookId)
+
+  const seriesBooks = useMemo(() => {
+    const name = seriesName(book?.series)
+    if (!name) return []
+    return allBooks
+      .filter(b => b.id !== book.id && seriesName(b.series) === name)
+      .sort((a, b) => seriesNumber(a.series) - seriesNumber(b.series))
+  }, [book])
 
   const relatedBooks = useMemo(() => {
     if (!book) return []
@@ -184,8 +203,11 @@ export default function BookDetail() {
             {book.quiz?.length > 0 && (
               <a href="#quiz" className="font-body text-sm text-gold hover:underline">Book Club Quiz</a>
             )}
+            {seriesBooks.length > 0 && (
+              <a href="#series" className="font-body text-sm text-gold hover:underline">Series</a>
+            )}
             {relatedBooks.length > 0 && (
-              <a href="#related" className="font-body text-sm text-gold hover:underline">Related Books</a>
+              <a href="#related" className="font-body text-sm text-gold hover:underline">More Like This</a>
             )}
           </div>
         </nav>
@@ -294,16 +316,52 @@ export default function BookDetail() {
                 <ResultsScreen
                   results={quizResults}
                   questions={book.quiz}
+                  bookTitle={book.title}
                   onRetry={() => { setQuizResults(null); setShowQuiz(true) }}
                 />
               ) : (
                 <QuizRunner
                   key={book.id + Date.now()}
                   questions={book.quiz}
-                  onComplete={setQuizResults}
+                  onComplete={(answers) => {
+                    setQuizResults(answers)
+                    const correct = answers.filter(a => a.isCorrect).length
+                    recordResult(book.id, correct, book.quiz.length)
+                  }}
                 />
               )}
             </SpoilerGate>
+          </section>
+        )}
+
+        {/* Also in this Series */}
+        {seriesBooks.length > 0 && (
+          <section id="series" className="scroll-mt-20">
+            <h2
+              className="font-heading text-2xl tracking-wider mb-6"
+              style={{ color: accent }}
+            >
+              Also in this Series
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+              {seriesBooks.map(b => (
+                <Link
+                  key={b.id}
+                  to={`/book/${b.id}`}
+                  className="bg-surface rounded-lg overflow-hidden border border-transparent hover:border-gold/30 transition-all group"
+                >
+                  <div className="aspect-[3/4]">
+                    <SmartBookCover book={b} size="sm" />
+                  </div>
+                  <div className="p-3">
+                    <h4 className="font-heading text-sm tracking-wide text-text leading-snug line-clamp-2 group-hover:text-gold transition-colors">
+                      {b.title}
+                    </h4>
+                    <p className="font-body text-muted text-xs mt-0.5">{b.series}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </section>
         )}
 
@@ -314,7 +372,7 @@ export default function BookDetail() {
               className="font-heading text-2xl tracking-wider mb-6"
               style={{ color: accent }}
             >
-              Related Books
+              More Like This
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
               {relatedBooks.map(b => (
@@ -325,6 +383,12 @@ export default function BookDetail() {
                 >
                   <div className="aspect-[3/4]">
                     <SmartBookCover book={b} size="sm" />
+                  </div>
+                  <div className="p-3">
+                    <h4 className="font-heading text-sm tracking-wide text-text leading-snug line-clamp-2 group-hover:text-gold transition-colors">
+                      {b.title}
+                    </h4>
+                    <p className="font-body text-muted text-xs mt-0.5">{b.author}</p>
                   </div>
                 </Link>
               ))}

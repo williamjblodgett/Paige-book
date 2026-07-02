@@ -12,6 +12,7 @@ import { genreThemes } from '../data/genreThemes'
 const SORT_OPTIONS = [
   { id: 'title', label: 'Title A-Z' },
   { id: 'author', label: 'Author A-Z' },
+  { id: 'newest', label: 'Newest First' },
   { id: 'spice-asc', label: 'Spice: Low to High' },
   { id: 'spice-desc', label: 'Spice: High to Low' },
 ]
@@ -58,7 +59,12 @@ export function SmutBooksPage() {
 
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase()
-      next = next.filter(b => b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q))
+      const qSlug = q.replace(/\s+/g, '-')
+      next = next.filter(b =>
+        b.title.toLowerCase().includes(q) ||
+        b.author.toLowerCase().includes(q) ||
+        b.themes?.some(t => t.includes(qSlug))
+      )
     }
 
     if (filters.genre?.length) {
@@ -83,6 +89,9 @@ export function SmutBooksPage() {
         break
       case 'author':
         next.sort((a, b) => a.author.localeCompare(b.author))
+        break
+      case 'newest':
+        next.sort((a, b) => (b.publicationYear || 0) - (a.publicationYear || 0))
         break
       case 'spice-asc':
         next.sort((a, b) => a.spiceLevel - b.spiceLevel)
