@@ -1,14 +1,18 @@
 import { HashRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
-import { useMemo } from 'react'
+import { lazy, Suspense, useEffect, useMemo } from 'react'
 import Nav from './components/Nav'
-import Home from './pages/Home'
-import BookDetail from './pages/BookDetail'
-import Quizzes from './pages/Quizzes'
-import FindABook from './pages/FindABook'
-import MyShelf from './pages/MyShelf'
-import ReadingLists from './pages/ReadingLists'
+import Footer from './components/Footer'
 import { allBooks } from './data/books'
-import { SmutBooksPage } from './smut-ui/pages/SmutBooksPage'
+
+const Home = lazy(() => import('./pages/Home'))
+const BookDetail = lazy(() => import('./pages/BookDetail'))
+const Quizzes = lazy(() => import('./pages/Quizzes'))
+const FindABook = lazy(() => import('./pages/FindABook'))
+const MyShelf = lazy(() => import('./pages/MyShelf'))
+const ReadingLists = lazy(() => import('./pages/ReadingLists'))
+const SmutBooksPage = lazy(() =>
+  import('./smut-ui/pages/SmutBooksPage').then(m => ({ default: m.SmutBooksPage }))
+)
 
 const THEME_TO_GENRE = {
   'enemies-to-lovers': 'dark-romance',
@@ -64,26 +68,44 @@ function getTopicClassname(location) {
   return 'default'
 }
 
+function PageFallback() {
+  return (
+    <div className="min-h-[60vh] flex items-center justify-center">
+      <div className="text-center">
+        <div className="page-spinner mx-auto mb-4" aria-hidden="true" />
+        <p className="font-heading text-muted text-xs tracking-[0.3em] uppercase">Loading</p>
+      </div>
+    </div>
+  )
+}
+
 function AppShell() {
   const location = useLocation()
   const topicClass = useMemo(() => getTopicClassname(location), [location])
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [location.pathname])
+
   return (
-    <div className={`topic-scene topic-${topicClass} grain-overlay min-h-screen text-text font-body`}>
+    <div className={`topic-scene topic-${topicClass} grain-overlay min-h-screen text-text font-body flex flex-col`}>
       <Nav />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/browse" element={<SmutBooksPage />} />
-          <Route path="/book/:bookId" element={<BookDetail />} />
-          <Route path="/quizzes" element={<Quizzes />} />
-          <Route path="/find-a-book" element={<FindABook />} />
-          <Route path="/my-shelf" element={<MyShelf />} />
-          <Route path="/lists" element={<ReadingLists />} />
-          <Route path="/smutbook" element={<Navigate to="/browse" replace />} />
-          <Route path="/summaries" element={<Navigate to="/browse" replace />} />
-        </Routes>
+      <main className="flex-1">
+        <Suspense fallback={<PageFallback />}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/browse" element={<SmutBooksPage />} />
+            <Route path="/book/:bookId" element={<BookDetail />} />
+            <Route path="/quizzes" element={<Quizzes />} />
+            <Route path="/find-a-book" element={<FindABook />} />
+            <Route path="/my-shelf" element={<MyShelf />} />
+            <Route path="/lists" element={<ReadingLists />} />
+            <Route path="/smutbook" element={<Navigate to="/browse" replace />} />
+            <Route path="/summaries" element={<Navigate to="/browse" replace />} />
+          </Routes>
+        </Suspense>
       </main>
+      {location.pathname !== '/browse' && <Footer />}
     </div>
   )
 }
