@@ -24,8 +24,8 @@ export default function BookCard({ book }) {
   return (
     <Link
       to={`/book/${id}`}
-      className="group bg-surface rounded-lg overflow-hidden transition-all duration-300 border border-transparent hover:border-current block"
-      style={{ color: accentColor || '#c9a84c' }}
+      className="group bg-surface rounded-2xl overflow-hidden transition-all duration-300 border border-white/6 hover:border-current hover:-translate-y-1 block"
+      style={{ color: accentColor || '#ff2e88' }}
       onMouseEnter={(e) => {
         e.currentTarget.style.boxShadow = `0 0 20px ${accentColor}40, 0 0 40px ${accentColor}20`
       }}

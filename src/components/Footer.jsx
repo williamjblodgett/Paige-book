@@ -14,9 +14,9 @@ export default function Footer() {
   const quizCount = allBooks.reduce((sum, b) => sum + (b.quiz?.length || 0), 0)
 
   return (
-    <footer className="mt-16 border-t border-gold/20 bg-surface/60">
+    <footer className="mt-16 border-t-2 border-[var(--primary)]/40 bg-surface/60">
       <div className="max-w-6xl mx-auto px-4 py-12 text-center">
-        <p className="font-heading text-gold text-xl tracking-wider mb-2">SMUTBOOK</p>
+        <p className="font-heading text-xl tracking-[0.25em] mb-2 font-bold gradient-text inline-block">SMUTBOOK</p>
         <p className="font-body text-muted italic text-sm mb-6">
           Every great love story deserves its own encyclopedia.
         </p>

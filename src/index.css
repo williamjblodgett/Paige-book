@@ -11,17 +11,17 @@
 }
 
 @theme {
-  --color-bg: #0a0808;
-  --color-surface: #111318;
-  --color-gold: #c9a84c;
-  --color-gold-dim: #a8893e;
+  --color-bg: #0b0b0f;
+  --color-surface: #14141a;
+  --color-gold: #ff2e88;
+  --color-gold-dim: #c81f6b;
   --color-blood: #8b1a1a;
-  --color-text: #e8e0d0;
-  --color-muted: #9a9080;
+  --color-text: #f4f2f7;
+  --color-muted: #a1a1aa;
   --color-forest: #1e3a2f;
   --color-rose: #c45b84;
   --color-flame: #e85d3a;
-  --color-plum: #6b3fa0;
+  --color-plum: #9b5cff;
   --color-blush: #f0c4d4;
 
   --font-heading: 'Playfair Display', serif;
@@ -78,10 +78,10 @@
 
 .topic-default,
 .topic-library {
-  --topic-base: #0a0808;
-  --topic-mid: #12131a;
-  --topic-accent: rgba(201, 168, 76, 0.18);
-  --topic-aurora: rgba(196, 91, 132, 0.14);
+  --topic-base: #0b0b0f;
+  --topic-mid: #14141f;
+  --topic-accent: rgba(255, 46, 136, 0.16);
+  --topic-aurora: rgba(155, 92, 255, 0.14);
 }
 
 .topic-contemporary-romance {
@@ -535,4 +535,71 @@ select:focus-visible {
     opacity: 0;
     transform: translateY(110vh) rotate(720deg);
   }
+}
+
+/* Pink/purple gradient headline text */
+.gradient-text {
+  background: linear-gradient(120deg, var(--primary) 0%, var(--secondary) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Soft glow accents behind hero sections */
+.glow-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(90px);
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.glow-blob-pink {
+  background: radial-gradient(circle, rgba(255, 46, 136, 0.55), transparent 70%);
+}
+
+.glow-blob-purple {
+  background: radial-gradient(circle, rgba(155, 92, 255, 0.5), transparent 70%);
+}
+
+/* Site refresh utilities */
+.gradient-text {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glow-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(90px);
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.glow-blob-pink {
+  background: radial-gradient(circle, rgba(255, 46, 136, 0.45), transparent 70%);
+}
+
+.glow-blob-purple {
+  background: radial-gradient(circle, rgba(155, 92, 255, 0.4), transparent 70%);
+}
+
+.nav-blur {
+  background: rgba(11, 11, 15, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.genre-tile {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.genre-tile:hover {
+  transform: translateY(-3px);
 }

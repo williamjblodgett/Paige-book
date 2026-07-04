@@ -2,6 +2,7 @@ import { HashRouter, Routes, Route, Navigate, useLocation } from 'react-router-d
 import { lazy, Suspense, useEffect, useMemo } from 'react'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import MobileNav from './components/MobileNav'
 import { allBooks } from './data/books'
 
 const Home = lazy(() => import('./pages/Home'))
@@ -88,7 +89,7 @@ function AppShell() {
   }, [location.pathname])
 
   return (
-    <div className={`topic-scene topic-${topicClass} grain-overlay min-h-screen text-text font-body flex flex-col`}>
+    <div className={`topic-scene topic-${topicClass} grain-overlay min-h-screen text-text font-body flex flex-col pb-16 md:pb-0`}>
       <Nav />
       <main className="flex-1">
         <Suspense fallback={<PageFallback />}>
@@ -106,6 +107,7 @@ function AppShell() {
         </Suspense>
       </main>
       {location.pathname !== '/browse' && <Footer />}
+      <MobileNav />
     </div>
   )
 }

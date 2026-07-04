@@ -283,12 +283,6 @@ export function SmutBooksPage() {
         </div>
       </footer>
 
-      <nav className="mobile-nav md:hidden" aria-label="Mobile quick navigation">
-        <Link to="/" className="text-xl" aria-label="Home">🏠</Link>
-        <Link to="/browse" className="text-xl" aria-label="Trending">🔥</Link>
-        <Link to="/lists" className="text-xl" aria-label="Lists">📚</Link>
-        <Link to="/my-shelf" className="text-xl" aria-label="My Shelf">❤️</Link>
-      </nav>
     </div>
   )
 }

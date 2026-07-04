@@ -16,7 +16,7 @@ export default function Nav() {
   return (
     <nav className="sticky top-0 z-50 border-b border-white/8 bg-[rgba(11,11,15,0.82)] backdrop-blur-xl">
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
-        <NavLink to="/" className="font-heading text-white text-lg tracking-[0.28em] uppercase">
+        <NavLink to="/" className="font-heading text-lg tracking-[0.28em] uppercase font-bold gradient-text">
           SMUTBOOK
         </NavLink>
 

@@ -1,22 +1,26 @@
 import { Link } from 'react-router-dom'
 import Hero from '../components/Hero'
-import BookCard from '../components/BookCard'
-import SpiceRating from '../components/SpiceRating'
+import { BookCard as CoverCard } from '../smut-ui/components/BookCard'
 import { allBooks } from '../data/books'
 import { GENRES, GENRE_THEMES, THEMES, SPICE_LEVELS } from '../data/constants'
 import { useMemo } from 'react'
 
 export default function Home() {
-  const activeBooks = allBooks.filter(b => !b.comingSoon)
-  const comingSoonBooks = allBooks.filter(b => b.comingSoon)
+  const activeBooks = useMemo(() => allBooks.filter(b => !b.comingSoon), [])
+
+  // Newest releases shelf
+  const newReleases = useMemo(() => {
+    return [...activeBooks]
+      .filter(b => b.publicationYear)
+      .sort((a, b) => b.publicationYear - a.publicationYear)
+      .slice(0, 12)
+  }, [activeBooks])
 
   // Trending books — pick a diverse selection
   const trending = useMemo(() => {
     const picks = []
-    const usedAuthors = new Set()
     const usedGenres = new Set()
 
-    // Prioritize books with quiz + terms for a richer experience
     const sorted = [...activeBooks]
       .filter(b => b.quiz?.length >= 5 && b.synopsis)
       .sort(() => Math.random() - 0.5)
@@ -26,12 +30,10 @@ export default function Home() {
       const primaryGenre = book.genres[0]
       if (!usedGenres.has(primaryGenre) || picks.length >= 4) {
         picks.push(book)
-        usedAuthors.add(book.author)
         usedGenres.add(primaryGenre)
       }
     }
 
-    // Fill if needed
     if (picks.length < 8) {
       for (const book of activeBooks) {
         if (picks.length >= 8) break
@@ -64,38 +66,65 @@ export default function Home() {
       .filter(g => genreCounts[g.id])
       .map(g => ({ ...g, count: genreCounts[g.id] }))
       .sort((a, b) => b.count - a.count)
-  }, [allBooks])
+  }, [])
 
   return (
     <div>
       <Hero />
 
+      {/* New This Year shelf */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="flex items-center justify-between mb-5">
+          <h2 className="font-heading text-2xl md:text-3xl tracking-wide text-white">
+            ✨ New Releases
+          </h2>
+          <Link
+            to="/browse"
+            className="font-heading text-xs tracking-[0.22em] uppercase text-[var(--primary)] hover:underline"
+          >
+            View All
+          </Link>
+        </div>
+        <div className="scroll-row">
+          {newReleases.map(book => (
+            <div key={`new-${book.id}`} className="min-w-[170px] max-w-[210px]">
+              <CoverCard book={book} />
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Browse by Genre */}
-      <section className="max-w-6xl mx-auto px-4 py-16">
-        <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-8 text-center">
-          Browse by Genre
+      <section className="max-w-6xl mx-auto px-4 py-12">
+        <h2 className="font-heading text-white text-2xl md:text-3xl tracking-wide mb-8 text-center">
+          Browse by Mood
         </h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
           {activeGenres.map(({ id, label, count }) => {
             const theme = GENRE_THEMES[id]
+            const [g1, g2] = theme?.gradient || ['#14141a', '#0b0b0f']
             return (
               <Link
                 key={id}
                 to={`/browse?genre=${id}`}
-                className="group bg-surface rounded-lg p-5 border border-transparent transition-all duration-300 hover:border-current text-center"
-                style={{ color: theme?.accent || '#c9a84c' }}
+                className="genre-tile group p-5 text-center block"
+                style={{
+                  background: `linear-gradient(150deg, ${g1} 0%, ${g2} 100%)`,
+                }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.boxShadow = `0 0 15px ${theme?.accent || '#c9a84c'}30`
+                  e.currentTarget.style.boxShadow = `0 8px 30px ${theme?.accent || '#ff2e88'}35`
+                  e.currentTarget.style.borderColor = `${theme?.accent || '#ff2e88'}60`
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.boxShadow = 'none'
+                  e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)'
                 }}
               >
-                <h3 className="font-heading text-sm tracking-wider mb-1" style={{ color: theme?.accent }}>
+                <h3 className="font-heading text-sm tracking-wider mb-1" style={{ color: theme?.accent || '#ff2e88' }}>
                   {label}
                 </h3>
-                <p className="font-body text-muted text-xs">{count} books</p>
+                <p className="font-body text-zinc-400 text-xs">{count} books</p>
               </Link>
             )
           })}
@@ -103,8 +132,8 @@ export default function Home() {
       </section>
 
       {/* The Spice Spectrum */}
-      <section className="max-w-5xl mx-auto px-4 py-16">
-        <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-10 text-center">
+      <section className="max-w-5xl mx-auto px-4 py-12">
+        <h2 className="font-heading text-white text-2xl md:text-3xl tracking-wide mb-8 text-center">
           The Spice Spectrum
         </h2>
 
@@ -115,16 +144,16 @@ export default function Home() {
               <Link
                 key={level}
                 to={`/browse?spice=${level}`}
-                className="group bg-surface rounded-lg p-5 border border-transparent hover:border-gold/30 transition-all text-center"
+                className="group app-panel p-5 text-center transition-all hover:border-[var(--primary)]/40 hover:shadow-[0_0_20px_rgba(255,46,136,0.15)]"
               >
                 <div className="text-2xl mb-2">{emoji}</div>
-                <p className="font-heading text-sm tracking-wider text-text group-hover:text-gold transition-colors mb-1">
+                <p className="font-heading text-sm tracking-wider text-white group-hover:text-[var(--primary)] transition-colors mb-1">
                   {label}
                 </p>
-                <p className="font-body text-xs text-muted/70 mb-2 leading-relaxed">
+                <p className="font-body text-xs text-zinc-500 mb-2 leading-relaxed">
                   {description}
                 </p>
-                <p className="font-body text-xs text-muted/50">{count} books</p>
+                <p className="font-body text-xs text-zinc-600">{count} books</p>
               </Link>
             )
           })}
@@ -132,8 +161,8 @@ export default function Home() {
       </section>
 
       {/* Popular Tropes */}
-      <section className="max-w-6xl mx-auto px-4 py-16">
-        <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider mb-8 text-center">
+      <section className="max-w-6xl mx-auto px-4 py-12">
+        <h2 className="font-heading text-white text-2xl md:text-3xl tracking-wide mb-8 text-center">
           Popular Tropes
         </h2>
 
@@ -142,7 +171,7 @@ export default function Home() {
             <Link
               key={id}
               to={`/browse?theme=${id}`}
-              className="font-heading text-xs tracking-widest uppercase px-4 py-2 rounded-full border border-muted/15 text-muted hover:border-gold/40 hover:text-gold transition-all"
+              className="font-heading text-xs tracking-widest uppercase px-4 py-2 rounded-full border border-white/10 text-zinc-400 hover:border-[var(--primary)]/60 hover:text-[var(--primary)] hover:shadow-[0_0_14px_rgba(255,46,136,0.2)] transition-all"
             >
               {label}
             </Link>
@@ -151,19 +180,20 @@ export default function Home() {
       </section>
 
       {/* Find Your Next Read CTA */}
-      <section className="max-w-4xl mx-auto px-4 py-16">
-        <div className="bg-surface rounded-lg border border-gold/20 p-8 md:p-12 text-center relative overflow-hidden">
-          <div className="fog-layer absolute inset-0 pointer-events-none opacity-30" />
+      <section className="max-w-4xl mx-auto px-4 py-12">
+        <div className="app-panel p-8 md:p-12 text-center relative overflow-hidden">
+          <div className="glow-blob glow-blob-pink w-72 h-72 -top-20 -left-20" />
+          <div className="glow-blob glow-blob-purple w-72 h-72 -bottom-24 -right-16" />
           <div className="relative z-10">
-            <h2 className="font-heading text-gold text-2xl md:text-3xl tracking-wider mb-3">
+            <h2 className="font-heading gradient-text text-2xl md:text-3xl tracking-wide mb-3 font-bold">
               Not Sure What to Read Next?
             </h2>
-            <p className="font-body text-muted text-lg italic mb-6">
+            <p className="font-body text-zinc-400 text-lg italic mb-6">
               Take our quick quiz and get a personalized recommendation
             </p>
             <Link
               to="/find-a-book"
-              className="font-heading text-sm tracking-widest uppercase px-10 py-3 rounded border-2 border-gold text-gold hover:bg-gold/10 transition-all inline-block"
+              className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-10 py-3 inline-block"
             >
               Find Your Match
             </Link>
@@ -172,14 +202,14 @@ export default function Home() {
       </section>
 
       {/* Trending Now */}
-      <section className="max-w-6xl mx-auto px-4 py-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center justify-between mb-8">
-          <h2 className="font-heading text-text text-2xl md:text-3xl tracking-wider">
-            Trending Now
+          <h2 className="font-heading text-white text-2xl md:text-3xl tracking-wide">
+            🔥 Trending Now
           </h2>
           <Link
             to="/browse"
-            className="font-heading text-xs tracking-widest uppercase text-gold hover:underline"
+            className="font-heading text-xs tracking-[0.22em] uppercase text-[var(--primary)] hover:underline"
           >
             View All
           </Link>
@@ -187,19 +217,18 @@ export default function Home() {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {trending.map((book) => (
-            <BookCard key={book.id} book={book} />
+            <CoverCard key={book.id} book={book} />
           ))}
         </div>
       </section>
 
       {/* Book Club */}
-      <section className="max-w-6xl mx-auto px-4 py-16">
-        <div className="divider-ornament mb-8">&#10022;</div>
+      <section className="max-w-6xl mx-auto px-4 py-12">
         <div className="text-center mb-10">
-          <h2 className="font-heading text-gold text-2xl md:text-3xl tracking-wider mb-3">
+          <h2 className="font-heading gradient-text text-2xl md:text-3xl tracking-wide mb-3 font-bold inline-block">
             Book Club
           </h2>
-          <p className="font-body text-muted text-lg italic">
+          <p className="font-body text-zinc-400 text-lg italic">
             Test your knowledge with our book quizzes — perfect for reading groups
           </p>
         </div>
@@ -209,10 +238,10 @@ export default function Home() {
             <Link
               key={book.id}
               to={`/quizzes?book=${book.id}`}
-              className="group bg-surface rounded-lg overflow-hidden border border-transparent hover:border-current transition-all duration-300"
-              style={{ color: book.accentColor || '#c9a84c' }}
+              className="group app-panel overflow-hidden transition-all duration-300 hover:border-[var(--primary)]/40"
+              style={{ padding: 0 }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.boxShadow = `0 0 15px ${book.accentColor}30`
+                e.currentTarget.style.boxShadow = `0 0 20px ${book.accentColor || '#ff2e88'}30`
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.boxShadow = 'none'
@@ -221,22 +250,22 @@ export default function Home() {
               <div
                 className="aspect-[3/2] flex items-center justify-center p-4"
                 style={{
-                  background: `linear-gradient(160deg, ${book.coverGradient?.[0] || '#111'} 0%, ${book.coverGradient?.[1] || '#000'} 100%)`,
+                  background: `linear-gradient(160deg, ${book.coverGradient?.[0] || '#14141a'} 0%, ${book.coverGradient?.[1] || '#0b0b0f'} 100%)`,
                 }}
               >
                 <div className="text-center">
                   <h3
                     className="font-heading text-sm tracking-wider mb-1"
-                    style={{ color: book.accentColor }}
+                    style={{ color: book.accentColor || '#ff2e88' }}
                   >
                     {book.title}
                   </h3>
-                  <p className="font-body text-muted text-xs">{book.author}</p>
+                  <p className="font-body text-zinc-400 text-xs">{book.author}</p>
                 </div>
               </div>
               <div className="p-3 flex items-center justify-between">
-                <SpiceRating level={book.spiceLevel} />
-                <span className="font-body text-muted text-xs group-hover:text-gold transition-colors">
+                <span className="spice-pill">🌶 {book.spiceLevel}</span>
+                <span className="font-body text-zinc-500 text-xs group-hover:text-[var(--primary)] transition-colors">
                   {book.quiz.length} Questions
                 </span>
               </div>
@@ -247,37 +276,17 @@ export default function Home() {
         <div className="text-center">
           <Link
             to="/quizzes"
-            className="font-heading text-sm tracking-widest uppercase px-10 py-3 rounded border-2 border-gold text-gold hover:bg-gold/10 transition-all inline-block"
+            className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-10 py-3 inline-block"
           >
             Browse All Quizzes
           </Link>
         </div>
       </section>
 
-      {/* Coming Soon */}
-      {comingSoonBooks.length > 0 && (
-        <section className="max-w-6xl mx-auto px-4 py-16">
-          <div className="divider-ornament mb-8">&#10022;</div>
-          <h2 className="font-heading text-muted text-2xl md:text-3xl tracking-wider mb-8 text-center">
-            Coming Soon
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-            {comingSoonBooks.slice(0, 10).map((book) => (
-              <BookCard key={book.id} book={book} />
-            ))}
-          </div>
-          {comingSoonBooks.length > 10 && (
-            <p className="font-body text-muted text-sm text-center mt-4">
-              +{comingSoonBooks.length - 10} more coming soon
-            </p>
-          )}
-        </section>
-      )}
-
-      {/* Footer stats */}
-      <section className="max-w-6xl mx-auto px-4 py-16 text-center">
+      {/* Footer quote */}
+      <section className="max-w-6xl mx-auto px-4 py-12 text-center">
         <div className="divider-ornament mb-8">&#10022;</div>
-        <p className="font-body text-muted italic text-lg">
+        <p className="font-body text-zinc-400 italic text-lg">
           "Every great love story deserves its own encyclopedia."
         </p>
       </section>
