@@ -14,6 +14,7 @@ import SmartBookCover from '../components/SmartBookCover'
 import ExternalBookLinks from '../components/ExternalBookLinks'
 import useFavorites from '../hooks/useFavorites'
 import useQuizScores from '../hooks/useQuizScores'
+import useBookCoverImage from '../hooks/useBookCoverImage'
 import FavoriteButton from '../components/FavoriteButton'
 import ContentWarnings from '../components/ContentWarnings'
 import BookMetadata from '../components/BookMetadata'
@@ -36,6 +37,7 @@ export default function BookDetail() {
   const { recordResult } = useQuizScores()
 
   const book = allBooks.find(b => b.id === bookId)
+  const { coverUrl: heroCoverUrl } = useBookCoverImage(book || {})
 
   const seriesBooks = useMemo(() => {
     const name = seriesName(book?.series)
@@ -83,12 +85,23 @@ export default function BookDetail() {
     <div className="min-h-screen">
       {/* Hero header */}
       <div
-        className="relative py-16 md:py-24"
+        className="relative py-16 md:py-24 overflow-hidden"
         style={{
-          background: `linear-gradient(180deg, ${book.coverGradient?.[0] || genreTheme.gradient[0]} 0%, ${book.coverGradient?.[1] || genreTheme.gradient[1]} 60%, #0a0808 100%)`,
+          background: `linear-gradient(180deg, ${book.coverGradient?.[0] || genreTheme.gradient[0]} 0%, ${book.coverGradient?.[1] || genreTheme.gradient[1]} 60%, #0b0b0f 100%)`,
         }}
       >
-        <div className="max-w-4xl mx-auto px-4">
+        {heroCoverUrl && (
+          <>
+            <img
+              src={heroCoverUrl}
+              alt=""
+              aria-hidden="true"
+              className="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-35"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/55 to-[#0b0b0f]" />
+          </>
+        )}
+        <div className="relative max-w-4xl mx-auto px-4">
           <button
             onClick={() => navigate(-1)}
             className="flex items-center gap-2 font-body text-muted text-sm hover:text-gold transition-colors mb-8 cursor-pointer"
