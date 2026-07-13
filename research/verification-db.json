@@ -1,0 +1,281 @@
+{
+  "_meta": {
+    "purpose": "Verification database for catalog additions. Every book added to src/data/books must have an entry here with the sources used to verify it. Run scripts/verify-books.mjs to cross-reference book files against this DB.",
+    "verifiedAt": "2026-07-13",
+    "method": "Each title verified via live web search against its Goodreads book page and/or Amazon listing before the entry was written."
+  },
+  "books": [
+    {
+      "id": "it-starts-with-us",
+      "title": "It Starts with Us",
+      "author": "Colleen Hoover",
+      "series": "It Ends with Us #2",
+      "publicationYear": 2022,
+      "pageCount": 336,
+      "isbn": "9781668001226",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/60393672-it-starts-with-us",
+      "sources": [
+        "https://www.goodreads.com/book/show/60393672-it-starts-with-us",
+        "https://www.simonandschuster.com/books/It-Starts-with-Us/Colleen-Hoover/It-Ends-with-Us/9781668001226",
+        "https://en.wikipedia.org/wiki/It_Starts_with_Us"
+      ],
+      "verifiedFacts": [
+        "Published by Atria Books on October 18, 2022; sequel to It Ends with Us (2016)",
+        "Picks up with Lily and Atlas after the divorce from Ryle; alternates Lily and Atlas POV",
+        "Atlas's younger half-brother Josh (11) enters his life; their mother Sutton returns",
+        "Someone vandalizes Atlas's restaurants; co-parenting tension with Ryle over Emerson"
+      ]
+    },
+    {
+      "id": "archers-voice",
+      "title": "Archer's Voice",
+      "author": "Mia Sheridan",
+      "series": "Pelion Lake #1",
+      "publicationYear": 2014,
+      "pageCount": 400,
+      "isbn": "9781538727355",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/32822135-archer-s-voice",
+      "amazonUrl": "https://www.amazon.com/Archers-Voice-Mia-Sheridan/dp/1538727358",
+      "sources": [
+        "https://www.goodreads.com/book/show/32822135-archer-s-voice",
+        "https://www.amazon.com/Archers-Voice-Mia-Sheridan/dp/1538727358"
+      ],
+      "verifiedFacts": [
+        "First published January 2014 (self-pub), Forever trade edition 2016; standalone (Pelion Lake #1)",
+        "Bree Prescott arrives in Pelion, Maine fleeing trauma after her father's murder",
+        "Archer Hale is mute (childhood accident destroyed his voice), isolated by his uncle's death; communicates in sign language",
+        "Town power dynamics involve Archer's uncle, the sheriff's family, and the Hale inheritance of Pelion land"
+      ]
+    },
+    {
+      "id": "crown-of-midnight",
+      "title": "Crown of Midnight",
+      "author": "Sarah J. Maas",
+      "series": "Throne of Glass #2",
+      "publicationYear": 2013,
+      "pageCount": 420,
+      "isbn": "9781619630628",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/76705490-crown-of-midnight",
+      "amazonUrl": "https://www.amazon.com/Crown-Midnight-Throne-Glass-Sarah/dp/1619630621",
+      "sources": [
+        "https://www.goodreads.com/book/show/76705490-crown-of-midnight",
+        "https://www.amazon.com/Crown-Midnight-Throne-Glass-Sarah/dp/1619630621",
+        "https://sarahjmaas.com/books/crown-of-midnight/"
+      ],
+      "verifiedFacts": [
+        "Published August 27, 2013 by Bloomsbury; hardcover 420 pages",
+        "Celaena serves as King's Champion but secretly spares her targets",
+        "Key arc: Archer Finn target, Nehemia's death, Celaena vs Chaol fallout, Mort and the tomb, wyrdkeys revealed",
+        "Ends with the reveal to Chaol that Celaena is Aelin Ashryver Galathynius, heir of Terrasen"
+      ]
+    },
+    {
+      "id": "the-ashes-and-the-star-cursed-king",
+      "title": "The Ashes and the Star-Cursed King",
+      "author": "Carissa Broadbent",
+      "series": "Crowns of Nyaxia #2",
+      "publicationYear": 2023,
+      "pageCount": 665,
+      "goodreadsUrl": "https://www.goodreads.com/book/show/62335396-the-ashes-the-star-cursed-king",
+      "amazonUrl": "https://www.amazon.com/Ashes-Star-Cursed-King-Carissa-Broadbent/dp/1035040964",
+      "sources": [
+        "https://www.goodreads.com/book/show/62335396-the-ashes-the-star-cursed-king",
+        "https://www.amazon.com/Ashes-Star-Cursed-King-Carissa-Broadbent/dp/1035040964",
+        "https://carissabroadbentbooks.com/books/the-ashes-and-the-star-cursed-king/"
+      ],
+      "verifiedFacts": [
+        "Published 2023; conclusion of the Nightborn Duet within Crowns of Nyaxia; ~665 pages",
+        "Follows The Serpent and the Wings of Night: Oraya bound in marriage to Raihn, who killed her father Vincent in the Kejari",
+        "Raihn rules the House of Night while the House of Blood (Septimus) circles; Oraya torn between vengeance and alliance",
+        "Story involves hunting relics/legacy of the dead god and Vincent's secrets about Oraya's nature"
+      ]
+    },
+    {
+      "id": "two-twisted-crowns",
+      "title": "Two Twisted Crowns",
+      "author": "Rachel Gillig",
+      "series": "The Shepherd King #2",
+      "publicationYear": 2023,
+      "pageCount": 458,
+      "goodreadsUrl": "https://www.goodreads.com/book/show/63910262-two-twisted-crowns",
+      "sources": [
+        "https://www.goodreads.com/book/show/63910262-two-twisted-crowns",
+        "https://rachelgillig.com/two-twisted-crowns-2/"
+      ],
+      "verifiedFacts": [
+        "Published by Orbit on October 17, 2023; 458 pages; concludes the Shepherd King duology",
+        "Quest for the final Providence Card, the Twin Alders, beyond the mist — guided by the Nightmare who now controls Elspeth's body",
+        "Three POVs: Ravyn, Elspeth, and Elm; Elm and Ione's romance grows; Hauth poisons the king and seizes power",
+        "Ending: Hauth defeated (stabbed through the deck), Blunder's curse broken, Elm and Ione marry, Elspeth and Ravyn reunited"
+      ]
+    },
+    {
+      "id": "the-games-gods-play",
+      "title": "The Games Gods Play",
+      "author": "Abigail Owen",
+      "series": "The Crucible #1",
+      "publicationYear": 2024,
+      "pageCount": 528,
+      "isbn": "9781649376411",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/197363933-the-games-gods-play",
+      "amazonUrl": "https://www.amazon.com/Games-Gods-Play-Standard/dp/1649376413",
+      "sources": [
+        "https://www.goodreads.com/book/show/197363933-the-games-gods-play",
+        "https://www.amazon.com/Games-Gods-Play-Standard/dp/1649376413",
+        "https://abigailowen.com/abigails-books/the-crucible/the-games-gods-play/"
+      ],
+      "verifiedFacts": [
+        "Published September 3, 2024 by Entangled: Red Tower; 528 pages; #1 NYT bestseller; Holt Medallion winner",
+        "The Crucible: a contest the gods hold to crown a new ruler of Olympus; gods name mortal champions",
+        "Lyra Keres, a cursed thief working for the Order of Thieves and disliked by Zeus, is shockingly chosen by Hades as his champion",
+        "Enemies-to-lovers Greek god romantasy; Hades has never before named a champion"
+      ]
+    },
+    {
+      "id": "phantasma",
+      "title": "Phantasma",
+      "author": "Kaylie Smith",
+      "series": "Wicked Games #1",
+      "publicationYear": 2024,
+      "pageCount": 497,
+      "goodreadsUrl": "https://www.goodreads.com/book/show/204593914-phantasma",
+      "sources": [
+        "https://www.goodreads.com/en/book/show/204593914-phantasma",
+        "https://www.hachette.co.uk/titles/kaylie-smith/phantasma/9781836182160/"
+      ],
+      "verifiedFacts": [
+        "Published September 3, 2024; 497 pages; Wicked Games #1",
+        "Ophelia Grimm, a Necromancer, loses her mother and risks losing the family manor; her sister Genevieve disappears into Phantasma",
+        "Phantasma is a deadly haunted-mansion competition with nine trials inspired by the nine circles of hell; new horrors nightly",
+        "Blackwell, a charming phantom, offers Ophelia a bargain to guide her through the trials for a price"
+      ]
+    },
+    {
+      "id": "god-of-pain",
+      "title": "God of Pain",
+      "author": "Rina Kent",
+      "series": "Legacy of Gods #2",
+      "publicationYear": 2022,
+      "goodreadsUrl": "https://www.goodreads.com/book/show/212438144-god-of-pain",
+      "amazonUrl": "https://www.amazon.com/God-Pain-Sunshine-College-Romance-ebook/dp/B0B64FCB23",
+      "sources": [
+        "https://www.goodreads.com/book/show/212438144-god-of-pain",
+        "https://www.amazon.com/God-Pain-Sunshine-College-Romance-ebook/dp/B0B64FCB23",
+        "https://www.rinakent.com/legacy-of-gods-series/god-of-pain"
+      ],
+      "verifiedFacts": [
+        "First published 2022; Legacy of Gods #2; standalone grumpy-sunshine dark college romance",
+        "Annika Volkov: sheltered, sunny mafia princess (brother Jeremy is fiercely protective); Creighton King: near-silent, stoic fighter",
+        "Their collision starts with a masked encounter; the pair sit on opposite sides of the campus crew rivalry",
+        "Inverted grumpy-sunshine: he barely speaks, she never stops talking"
+      ]
+    },
+    {
+      "id": "scarred",
+      "title": "Scarred",
+      "author": "Emily McIntire",
+      "series": "Never After #2",
+      "publicationYear": 2022,
+      "pageCount": 380,
+      "goodreadsUrl": "https://www.goodreads.com/book/show/63213257-scarred",
+      "amazonUrl": "https://www.amazon.com/Scarred-Never-After-Emily-McIntire/dp/B09PHBXP18",
+      "sources": [
+        "https://www.goodreads.com/book/show/63213257-scarred",
+        "https://www.amazon.com/Scarred-Never-After-Emily-McIntire/dp/B09PHBXP18",
+        "https://www.emilymcintire.com/bookseries"
+      ],
+      "verifiedFacts": [
+        "Published January 2022 (Bloom Books); Never After #2; standalone fractured fairy tale of The Lion King's Scar",
+        "Prince Tristan Faasa — scarred, tormented second son — leads a secret rebellion against his cruel brother King Michael",
+        "Lady Sara Beatreaux arrives as Michael's betrothed while secretly plotting to destroy the Faasa line",
+        "Dark royal romance: vengeance vs. falling for the villain"
+      ]
+    },
+    {
+      "id": "king-alliance",
+      "title": "King",
+      "author": "S.J. Tilly",
+      "series": "Alliance #2",
+      "publicationYear": 2023,
+      "isbn": "9798395028457",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/125948154-king",
+      "amazonUrl": "https://www.amazon.com/KING-Alliance-Book-S-J-Tilly-ebook/dp/B0C1RXFS3R",
+      "sources": [
+        "https://www.goodreads.com/book/show/125948154-king",
+        "https://www.amazon.com/KING-Alliance-Book-S-J-Tilly-ebook/dp/B0C1RXFS3R"
+      ],
+      "verifiedFacts": [
+        "Published 2023; Alliance #2 (follows Nero)",
+        "Savannah unknowingly dates a married man; King — Alliance boss and the wronged wife's brother — kills him and Savannah witnesses it",
+        "King marries Savannah so she can't testify against him; forced marriage becomes real love",
+        "King is possessive and devoted from day one; Savannah sasses back; he regrets his coercion near the end"
+      ]
+    },
+    {
+      "id": "reflected-in-you",
+      "title": "Reflected in You",
+      "author": "Sylvia Day",
+      "series": "Crossfire #2",
+      "publicationYear": 2012,
+      "pageCount": 357,
+      "isbn": "9780425263914",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/13596809-reflected-in-you",
+      "amazonUrl": "https://us.amazon.com/Reflected-You-Crossfire-Sylvia-Day/dp/0425263916",
+      "sources": [
+        "https://www.goodreads.com/book/show/13596809-reflected-in-you",
+        "https://us.amazon.com/Reflected-You-Crossfire-Sylvia-Day/dp/0425263916",
+        "https://www.sylviaday.com/books/reflected-in-you/"
+      ],
+      "verifiedFacts": [
+        "Published October 2012 (Berkley); Crossfire #2; #7 on Amazon's top-selling books of 2012",
+        "Continues Gideon Cross and Eva Tramell: obsessive love strained by jealousy, exes (Corinne, Brett), and buried trauma",
+        "Climax: Eva's abuser Nathan Barker resurfaces; he is found dead and Gideon's cold distance is revealed as protection",
+        "Gideon secretly kills Nathan to protect Eva — the series' pivotal sacrifice"
+      ]
+    },
+    {
+      "id": "dead-until-dark",
+      "title": "Dead Until Dark",
+      "author": "Charlaine Harris",
+      "series": "Sookie Stackhouse #1",
+      "publicationYear": 2001,
+      "pageCount": 292,
+      "isbn": "9780441008537",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/301082.Dead_Until_Dark",
+      "amazonUrl": "https://www.amazon.com/Dead-Until-Sookie-Stackhouse-Blood/dp/0441008534",
+      "sources": [
+        "https://www.goodreads.com/book/show/301082.Dead_Until_Dark",
+        "https://www.amazon.com/Dead-Until-Sookie-Stackhouse-Blood/dp/0441008534",
+        "https://en.wikipedia.org/wiki/Dead_Until_Dark"
+      ],
+      "verifiedFacts": [
+        "Published 2001 by Ace; won the Anthony Award for Best Paperback Mystery; basis for True Blood season 1",
+        "Sookie Stackhouse: telepathic waitress at Merlotte's in Bon Temps, Louisiana",
+        "Vampire Bill Compton comes home to Bon Temps after vampires 'come out of the coffin' (synthetic blood legalization)",
+        "A serial killer murders women who associate with vampires; Sookie's brother Jason falls under suspicion; killer is Rene Lenier"
+      ]
+    },
+    {
+      "id": "my-roommate-is-a-vampire",
+      "title": "My Roommate Is a Vampire",
+      "author": "Jenna Levine",
+      "series": "My Vampires #1",
+      "publicationYear": 2023,
+      "pageCount": 336,
+      "isbn": "9780593548912",
+      "goodreadsUrl": "https://www.goodreads.com/series/400062-my-vampires",
+      "amazonUrl": "https://www.amazon.com/My-Roommate-Vampire-Jenna-Levine/dp/0593548914",
+      "sources": [
+        "https://www.amazon.com/My-Roommate-Vampire-Jenna-Levine/dp/0593548914",
+        "https://www.penguinrandomhouse.com/books/715964/my-roommate-is-a-vampire-by-jenna-levine/",
+        "https://www.goodreads.com/series/400062-my-vampires"
+      ],
+      "verifiedFacts": [
+        "Published 2023 by Berkley; Jenna Levine's debut rom-com; My Vampires #1",
+        "Cassie Greenberg, a broke struggling artist in Chicago, answers a too-good-to-be-true room listing",
+        "Her landlord-roommate Frederick J. Fitzwilliam is courtly, old-fashioned, nocturnal — and a vampire recently awakened after a century",
+        "Whimsical rom-com tone; leans on love of art, friendship, and self-acceptance"
+      ]
+    }
+  ]
+}

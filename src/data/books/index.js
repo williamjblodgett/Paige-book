@@ -334,6 +334,19 @@ import book_the_kiss_thief from './mafia/the-kiss-thief.js'
 import book_painted_scars from './mafia/painted-scars.js'
 import book_slave_to_sensation from './paranormal/slave-to-sensation.js'
 import book_bared_to_you from './erotic/bared-to-you.js'
+import book_it_starts_with_us from './contemporary/it-starts-with-us.js'
+import book_archers_voice from './contemporary/archers-voice.js'
+import book_crown_of_midnight from './romantasy/crown-of-midnight.js'
+import book_the_ashes_and_the_star_cursed_king from './romantasy/the-ashes-and-the-star-cursed-king.js'
+import book_two_twisted_crowns from './romantasy/two-twisted-crowns.js'
+import book_the_games_gods_play from './romantasy/the-games-gods-play.js'
+import book_phantasma from './romantasy/phantasma.js'
+import book_god_of_pain from './dark-romance/god-of-pain.js'
+import book_scarred from './dark-romance/scarred.js'
+import book_king_alliance from './mafia/king-alliance.js'
+import book_reflected_in_you from './erotic/reflected-in-you.js'
+import book_dead_until_dark from './paranormal/dead-until-dark.js'
+import book_my_roommate_is_a_vampire from './paranormal/my-roommate-is-a-vampire.js'
 
 export const allBooks = [
   book_beach_read,
@@ -670,4 +683,17 @@ export const allBooks = [
   book_painted_scars,
   book_slave_to_sensation,
   book_bared_to_you,
+  book_it_starts_with_us,
+  book_archers_voice,
+  book_crown_of_midnight,
+  book_the_ashes_and_the_star_cursed_king,
+  book_two_twisted_crowns,
+  book_the_games_gods_play,
+  book_phantasma,
+  book_god_of_pain,
+  book_scarred,
+  book_king_alliance,
+  book_reflected_in_you,
+  book_dead_until_dark,
+  book_my_roommate_is_a_vampire,
 ]
