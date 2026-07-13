@@ -187,7 +187,7 @@ export default function BookDetail() {
                 </p>
               )}
 
-              <ExternalBookLinks title={book.title} author={book.author} accentColor={accent} />
+              <ExternalBookLinks title={book.title} author={book.author} accentColor={accent} book={book} />
             </div>
           </div>
         </div>

@@ -1,8 +1,8 @@
-import { getAmazonSearchUrl, getGoodreadsSearchUrl } from '../utils/bookLinks'
+import { getAmazonUrl, getGoodreadsUrl } from '../utils/bookLinks'
 
-export default function ExternalBookLinks({ title, author, accentColor }) {
-  const amazonUrl = getAmazonSearchUrl(title, author)
-  const goodreadsUrl = getGoodreadsSearchUrl(title, author)
+export default function ExternalBookLinks({ title, author, accentColor, book }) {
+  const amazonUrl = getAmazonUrl(book || { title, author })
+  const goodreadsUrl = getGoodreadsUrl(book || { title, author })
 
   const linkClass = 'inline-flex items-center gap-2 font-heading text-[0.65rem] tracking-widest uppercase px-4 py-2 rounded-full border transition-all hover:opacity-80'
 
