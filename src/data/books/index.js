@@ -1,5 +1,7 @@
 // Auto-generated barrel file for all books
 
+import { TOP_SMUT_100, TOP_SMUT_100_SOURCE, AMAZON_ROMANCE_SNAPSHOT } from '../topSmut100.js'
+
 import book_beach_read from './contemporary/beach-read.js'
 import book_beautiful_bastard from './contemporary/beautiful-bastard.js'
 import book_birthday_suit from './contemporary/birthday-suit.js'
@@ -348,7 +350,7 @@ import book_reflected_in_you from './erotic/reflected-in-you.js'
 import book_dead_until_dark from './paranormal/dead-until-dark.js'
 import book_my_roommate_is_a_vampire from './paranormal/my-roommate-is-a-vampire.js'
 
-export const allBooks = [
+const catalogBooks = [
   book_beach_read,
   book_beautiful_bastard,
   book_birthday_suit,
@@ -697,3 +699,74 @@ export const allBooks = [
   book_dead_until_dark,
   book_my_roommate_is_a_vampire,
 ]
+
+const normalizeTitle = (title) => title
+  .toLowerCase()
+  .normalize('NFKD')
+  .replace(/[\u0300-\u036f]/g, '')
+  .replace(/&/g, 'and')
+  .replace(/[^a-z0-9]+/g, '')
+
+const slugify = (title) => title
+  .toLowerCase()
+  .normalize('NFKD')
+  .replace(/[\u0300-\u036f]/g, '')
+  .replace(/[^a-z0-9]+/g, '-')
+  .replace(/^-|-$/g, '')
+
+const smutByTitle = new Map(TOP_SMUT_100.map(entry => [normalizeTitle(entry.title), entry]))
+const existingTitles = new Set(catalogBooks.map(book => normalizeTitle(book.title)))
+const amazonTitles = new Set(AMAZON_ROMANCE_SNAPSHOT.topTitles.map(normalizeTitle))
+
+const sourcedCatalogBooks = catalogBooks.map(book => {
+  const ranked = smutByTitle.get(normalizeTitle(book.title))
+  const onAmazonSnapshot = amazonTitles.has(normalizeTitle(book.title))
+  if (!ranked && !onAmazonSnapshot) return book
+
+  return {
+    ...book,
+    collections: ranked ? [...new Set([...(book.collections || []), 'reader-ranked-smut-100'])] : book.collections,
+    popularity: {
+      ...(book.popularity || {}),
+      ...(ranked ? {
+        smutRank: ranked.rank,
+        goodreadsUrl: ranked.goodreadsUrl,
+        rankingSource: TOP_SMUT_100_SOURCE.label,
+        rankingCapturedAt: TOP_SMUT_100_SOURCE.capturedAt,
+      } : {}),
+      ...(onAmazonSnapshot ? {
+        amazonRomanceSnapshot: AMAZON_ROMANCE_SNAPSHOT.capturedAt,
+        amazonRomanceSourceUrl: AMAZON_ROMANCE_SNAPSHOT.sourceUrl,
+      } : {}),
+    },
+  }
+})
+
+const newlySourcedBooks = TOP_SMUT_100
+  .filter(entry => !existingTitles.has(normalizeTitle(entry.title)))
+  .map(entry => ({
+    id: `sourced-${slugify(entry.title)}`,
+    title: entry.title,
+    author: entry.author,
+    genres: ['erotic-romance'],
+    themes: [],
+    spiceLevel: null,
+    coverGradient: ['#32101f', '#8f294f'],
+    accentColor: '#e85d7c',
+    contentWarnings: [],
+    synopsis: `${entry.title} by ${entry.author} is included at #${entry.rank} on the Goodreads community-ranked Best Smut Books list. Plot details, heat level, tropes, and content warnings are awaiting Paige's editorial review.`,
+    characters: [],
+    terms: [],
+    quiz: [],
+    goodreadsUrl: entry.goodreadsUrl,
+    editorialStatus: 'needs-review',
+    collections: ['reader-ranked-smut-100'],
+    popularity: {
+      smutRank: entry.rank,
+      goodreadsUrl: entry.goodreadsUrl,
+      rankingSource: TOP_SMUT_100_SOURCE.label,
+      rankingCapturedAt: TOP_SMUT_100_SOURCE.capturedAt,
+    },
+  }))
+
+export const allBooks = [...sourcedCatalogBooks, ...newlySourcedBooks]

@@ -5,6 +5,14 @@ import SmartBookCover from '../components/SmartBookCover'
 
 const READING_LISTS = [
   {
+    id: 'reader-ranked-smut-100',
+    title: 'Reader-Ranked Smut Top 100',
+    description: 'The Goodreads community-ranked top 100, cross-checked against Amazon Romance Best Sellers. New discoveries are marked for Paige\'s review.',
+    emoji: '🔥',
+    filter: (b) => b.collections?.includes('reader-ranked-smut-100'),
+    sort: (a, b) => (a.popularity?.smutRank ?? 999) - (b.popularity?.smutRank ?? 999),
+  },
+  {
     id: 'darkest-reads',
     title: 'The Darkest Reads',
     description: 'For when you want morally grey heroes, obsessive love, and lines that get crossed.',
