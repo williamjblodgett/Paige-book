@@ -11,6 +11,7 @@ export const GENRES = [
   { id: 'romantic-suspense', label: 'Romantic Suspense' },
   { id: 'bully-romance', label: 'Bully Romance' },
   { id: 'reverse-harem', label: 'Reverse Harem' },
+  { id: 'historical-romance', label: 'Historical Romance' },
 ]
 
 export const THEMES = [
@@ -39,6 +40,9 @@ export const THEMES = [
   { id: 'workplace', label: 'Workplace Romance' },
   { id: 'brother-best-friend', label: "Brother's Best Friend" },
   { id: 'secret-identity', label: 'Secret Identity' },
+  { id: 'opposites-attract', label: 'Opposites Attract' },
+  { id: 'secret-relationship', label: 'Secret Relationship' },
+  { id: 'small-town', label: 'Small Town' },
 ]
 
 export const SPICE_LEVELS = [
@@ -195,6 +199,14 @@ export const GENRE_THEMES = {
     gradient: ['#1a0f1e', '#100a12'],
     label: 'Reverse Harem',
     vibe: 'Rich purple, indulgent',
+  },
+  'historical-romance': {
+    bg: '#100d0b',
+    accent: '#c99a5f',
+    accentRgb: '201, 154, 95',
+    gradient: ['#24170f', '#100d0b'],
+    label: 'Historical Romance',
+    vibe: 'Candlelight, parchment, intrigue',
   },
 }
 

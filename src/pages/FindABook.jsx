@@ -1,6 +1,16 @@
-import { useState, useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import BookCard from '../components/BookCard'
+import {
+  ArrowLeft,
+  ArrowRight,
+  BookHeart,
+  Check,
+  Compass,
+  RotateCcw,
+  ShieldCheck,
+  Sparkles,
+  WandSparkles,
+} from 'lucide-react'
 import SmartBookCover from '../components/SmartBookCover'
 import SpiceRating from '../components/SpiceRating'
 import { allBooks } from '../data/books'
@@ -9,489 +19,485 @@ import { GENRE_THEMES } from '../data/constants'
 const QUESTIONS = [
   {
     id: 'mood',
-    question: 'What mood are you in?',
+    eyebrow: 'Emotional weather',
+    question: 'What should this book do to you?',
+    subtitle: 'Start with the feeling you want after the final page.',
     options: [
-      { label: 'Dark & Dangerous', value: 'dark', icon: '☠️' },
-      { label: 'Sweet & Swoony', value: 'sweet', icon: '❤️' },
-      { label: 'Steamy & Intense', value: 'steamy', icon: '🔥' },
-      { label: 'Epic & Fantastical', value: 'fantasy', icon: '✨' },
+      { label: 'Make me swoon', detail: 'Tender, hopeful, heart-forward', value: 'swoon', icon: '♡' },
+      { label: 'Wreck me beautifully', detail: 'Angst, ache, emotional payoff', value: 'ache', icon: '☂' },
+      { label: 'Keep me up all night', detail: 'Danger, obsession, no brakes', value: 'danger', icon: '♠' },
+      { label: 'Take me somewhere else', detail: 'Magic, wonder, total escape', value: 'escape', icon: '✦' },
+    ],
+  },
+  {
+    id: 'world',
+    eyebrow: 'Choose your portal',
+    question: 'Where should the chemistry happen?',
+    options: [
+      { label: 'Modern life', detail: 'Cities, careers, real-world chaos', value: 'contemporary', icon: '◫' },
+      { label: 'Fantasy realm', detail: 'Fae, courts, quests, prophecy', value: 'romantasy', icon: '♜' },
+      { label: 'After dark', detail: 'Mafia, secrets, dangerous power', value: 'dark', icon: '◆' },
+      { label: 'Supernatural', detail: 'Witches, shifters, monsters, ghosts', value: 'paranormal', icon: '☾' },
+      { label: 'Game day', detail: 'Athletes, rivals, high stakes', value: 'sports', icon: '◉' },
+      { label: 'Another era', detail: 'Ballrooms, scandal, candlelight', value: 'historical', icon: '♛' },
     ],
   },
   {
     id: 'spice',
-    question: 'How much spice can you handle?',
+    eyebrow: 'Set the temperature',
+    question: 'How hot are we reading?',
     options: [
-      { label: 'Sweet / Closed Door', value: 'sweet', icon: '🌸' },
-      { label: 'Hot (Level 3)', value: '3', icon: '🌶️' },
-      { label: 'Very Spicy (Level 4)', value: '4', icon: '🌶️🌶️' },
-      { label: 'Inferno (Level 5)', value: '5', icon: '🌶️🌶️🌶️' },
-      { label: 'Surprise Me', value: 'any', icon: '🎲' },
+      { label: 'Soft glow', detail: 'Closed door or mostly tender', value: 'low', icon: '○' },
+      { label: 'A little heat', detail: 'A few open-door moments', value: '3', icon: '◔' },
+      { label: 'Very spicy', detail: 'Frequent, explicit chemistry', value: '4', icon: '◕' },
+      { label: 'No fire extinguisher', detail: 'Maximum heat, please', value: '5', icon: '●' },
+      { label: 'Surprise me', detail: 'Story first, any heat level', value: 'any', icon: '✺' },
     ],
   },
   {
-    id: 'trope',
-    question: 'Pick your favorite trope:',
+    id: 'tropes',
+    eyebrow: 'Build the fantasy',
+    question: 'Choose up to three irresistible tropes.',
+    subtitle: 'Your combination matters more than any single choice.',
+    multiSelect: true,
+    maxSelect: 3,
     options: [
-      { label: 'Enemies to Lovers', value: 'enemies-to-lovers', icon: '⚔️' },
-      { label: 'Forced Proximity', value: 'forced-proximity', icon: '🛖' },
-      { label: 'Forbidden Love', value: 'forbidden-love', icon: '🚫' },
-      { label: 'Grumpy / Sunshine', value: 'grumpy-sunshine', icon: '☀️' },
-      { label: 'Second Chance', value: 'second-chance', icon: '🔄' },
-      { label: 'Fake Dating', value: 'fake-dating', icon: '💍' },
+      { label: 'Enemies to lovers', value: 'enemies-to-lovers', icon: '⚔' },
+      { label: 'Forced proximity', value: 'forced-proximity', icon: '⌂' },
+      { label: 'Fake dating', value: 'fake-dating', icon: '◇' },
+      { label: 'Second chance', value: 'second-chance', icon: '↺' },
+      { label: 'Grumpy / sunshine', value: 'grumpy-sunshine', icon: '☀' },
+      { label: 'Forbidden love', value: 'forbidden-love', icon: '⊘' },
+      { label: 'Fated mates', value: 'fated-mates', icon: '∞' },
+      { label: 'Slow burn', value: 'slow-burn', icon: '⌛' },
+      { label: 'Found family', value: 'found-family', icon: '⌘' },
     ],
   },
   {
-    id: 'vibe',
-    question: 'What kind of hero?',
+    id: 'pace',
+    eyebrow: 'Reading rhythm',
+    question: 'How should the story move?',
     options: [
-      { label: 'Morally Grey', value: 'morally-grey', icon: '🕸️' },
-      { label: 'Possessive Alpha', value: 'possessive-hero', icon: '🐺' },
-      { label: 'Secret Softie', value: 'he-falls-first', icon: '🫠' },
-      { label: 'No Preference', value: 'any', icon: '🤷' },
+      { label: 'Immediate sparks', detail: 'Fast chemistry and quick momentum', value: 'fast', icon: '↯' },
+      { label: 'Let it simmer', detail: 'Tension that earns every glance', value: 'slow', icon: '◌' },
+      { label: 'Lose me in it', detail: 'Immersive world and layered plot', value: 'immersive', icon: '◎' },
+      { label: 'Balanced', detail: 'A little tension, a little payoff', value: 'balanced', icon: '≈' },
     ],
   },
   {
-    id: 'setting',
-    question: 'Preferred world?',
+    id: 'chemistry',
+    eyebrow: 'The main attraction',
+    question: 'What kind of chemistry gets you every time?',
     options: [
-      { label: 'Fantasy Realm', value: 'romantasy', icon: '🏰' },
-      { label: 'Sports & Athletics', value: 'sports', icon: '🏆' },
-      { label: 'Dark Underworld', value: 'dark', icon: '🌃' },
-      { label: 'Modern / Real World', value: 'contemporary', icon: '🏙️' },
-      { label: 'Supernatural', value: 'paranormal', icon: '🌙' },
+      { label: 'Weaponized banter', detail: 'Flirting disguised as combat', value: 'banter', icon: '“' },
+      { label: 'Devotion and safety', detail: 'Softness, trust, acts of care', value: 'devotion', icon: '♥' },
+      { label: 'Unhinged obsession', detail: 'Possessive, dangerous, intense', value: 'obsession', icon: '†' },
+      { label: 'Yearning and restraint', detail: 'Almosts, longing, impossible odds', value: 'yearning', icon: '…' },
+    ],
+  },
+  {
+    id: 'discovery',
+    eyebrow: 'Discovery mode',
+    question: 'What kind of find sounds best?',
+    options: [
+      { label: 'Fresh for 2026', detail: 'Librarian and publisher picks', value: 'fresh', icon: '✧' },
+      { label: 'Reader-ranked favorite', detail: 'Popular, proven, widely loved', value: 'popular', icon: '★' },
+      { label: 'Hidden gem', detail: 'Less obvious, still a strong match', value: 'hidden', icon: '◈' },
+      { label: 'Best match wins', detail: 'Ignore hype and follow the signal', value: 'any', icon: '⌁' },
     ],
   },
   {
     id: 'pov',
-    question: 'Whose head do you want to be in?',
+    eyebrow: 'Inside the story',
+    question: 'Whose perspective pulls you closest?',
     options: [
-      { label: 'Both Leads (Dual POV)', value: 'dual-pov', icon: '🔀' },
-      { label: 'Just Her (FMC)', value: 'single-fmc', icon: '👩' },
-      { label: 'Just Him (MMC)', value: 'single-mmc', icon: '👨' },
-      { label: 'No Preference', value: 'any', icon: '🤷' },
+      { label: 'Both leads', detail: 'Dual POV and mutual pining', value: 'dual-pov', icon: '⇄' },
+      { label: 'Her perspective', detail: 'One intimate point of view', value: 'single-fmc', icon: 'Ⅰ' },
+      { label: 'His perspective', detail: 'Live inside his side of the story', value: 'single-mmc', icon: 'Ⅱ' },
+      { label: 'No preference', detail: 'Let the story decide', value: 'any', icon: '∴' },
     ],
   },
   {
     id: 'length',
-    question: 'How big a commitment?',
+    eyebrow: 'Time commitment',
+    question: 'How much book do you want?',
     options: [
-      { label: 'Quick Read (under 350 pg)', value: 'quick', icon: '⚡' },
-      { label: 'Standard (350–480 pg)', value: 'standard', icon: '📖' },
-      { label: 'Epic Tome (480+ pg)', value: 'epic', icon: '📚' },
-      { label: 'Any Length', value: 'any', icon: '🤷' },
+      { label: 'One-night read', detail: 'Under 350 pages', value: 'quick', icon: 'Ⅰ' },
+      { label: 'Weekend obsession', detail: '350–480 pages', value: 'standard', icon: 'Ⅱ' },
+      { label: 'Epic commitment', detail: 'More than 480 pages', value: 'epic', icon: 'Ⅲ' },
+      { label: 'Any length', detail: 'I will make time for the right book', value: 'any', icon: '∞' },
     ],
   },
   {
     id: 'avoid',
-    question: 'Anything you want to avoid?',
-    subtitle: 'Select all that apply — we’ll filter these out. Pick none to skip.',
+    eyebrow: 'Protect the experience',
+    question: 'Anything you want filtered out?',
+    subtitle: 'Choose any hard limits. Books without reviewed warnings will be excluded when limits are active.',
     multiSelect: true,
     options: [
-      { label: 'Cheating', value: 'cheating', cw: ['cheating'], icon: '💔' },
-      { label: 'Dubious / Non-Consent', value: 'noncon', cw: ['dubcon', 'noncon', 'sexual-assault'], icon: '🚷' },
-      { label: 'Abuse / Toxic Relationship', value: 'toxic', cw: ['abuse', 'toxic-relationship'], icon: '⚠️' },
-      { label: 'Major Character Death', value: 'death', cw: ['death'], icon: '⚰️' },
+      { label: 'Cheating', value: 'cheating', warnings: ['cheating'], icon: '×' },
+      { label: 'Dubious / non-consent', value: 'noncon', warnings: ['dubcon', 'noncon', 'sexual-assault'], icon: '!' },
+      { label: 'Abuse / toxic dynamics', value: 'toxic', warnings: ['abuse', 'toxic-relationship'], icon: '!' },
+      { label: 'Major death', value: 'death', warnings: ['death'], icon: '×' },
+      { label: 'Kidnapping / captivity', value: 'captivity', warnings: ['kidnapping', 'trafficking'], icon: '!' },
+      { label: 'No hard limits', value: 'none', warnings: [], icon: '✓', exclusive: true },
     ],
   },
 ]
 
-const REASON_LABELS = {
-  mood: { dark: 'Dark & dangerous', sweet: 'Sweet & swoony', steamy: 'Steamy & intense', fantasy: 'Epic & fantastical' },
+const WORLD_GENRES = {
+  contemporary: ['contemporary-romance', 'rom-com', 'new-adult'],
+  romantasy: ['romantasy'],
+  dark: ['dark-romance', 'mafia-romance', 'bully-romance'],
+  paranormal: ['paranormal-romance'],
+  sports: ['sports-romance'],
+  historical: ['historical-romance'],
+}
+
+const LABELS = Object.fromEntries(
+  QUESTIONS.flatMap(question => question.options.map(option => [option.value, option.label])),
+)
+
+function pushReason(reasons, label) {
+  if (label && !reasons.includes(label)) reasons.push(label)
 }
 
 function scoreBook(book, answers) {
   let score = 0
   const reasons = []
-
-  // Mood
-  const mood = answers.mood
-  if (mood === 'dark') {
-    if (book.genres.some(g => ['dark-romance', 'mafia-romance'].includes(g))) { score += 3; reasons.push('Dark & dangerous') }
-    if (book.themes?.some(t => ['morally-grey', 'possessive-hero', 'stalker', 'taboo'].includes(t))) score += 1
-  } else if (mood === 'sweet') {
-    if (book.genres.some(g => ['contemporary-romance', 'sports-romance'].includes(g))) { score += 3; reasons.push('Sweet & swoony') }
-    if (book.themes?.some(t => ['slow-burn', 'friends-to-lovers', 'grumpy-sunshine', 'fake-dating'].includes(t))) score += 1
-  } else if (mood === 'steamy') {
-    if (book.genres.includes('erotic-romance')) { score += 3; reasons.push('Steamy & intense') }
-    if (book.spiceLevel >= 4) score += 2
-  } else if (mood === 'fantasy') {
-    if (book.genres.some(g => ['romantasy', 'paranormal-romance'].includes(g))) { score += 3; reasons.push('Epic & fantastical') }
-    if (book.themes?.includes('fated-mates')) score += 1
+  const genres = book.genres || []
+  const themes = book.themes || []
+  const add = (points, reason) => {
+    score += points
+    pushReason(reasons, reason)
   }
 
-  // Spice
-  const spice = answers.spice
-  if (spice === 'sweet') {
-    if (book.spiceLevel <= 2) { score += 3; reasons.push('Low spice') }
-  } else if (spice && spice !== 'any') {
-    const target = parseInt(spice)
-    if (book.spiceLevel === target) { score += 3; reasons.push(`Spice level ${target}`) }
-    else if (Math.abs(book.spiceLevel - target) === 1) score += 1
+  const moodRules = {
+    swoon: {
+      genres: ['contemporary-romance', 'rom-com', 'sports-romance', 'historical-romance'],
+      themes: ['friends-to-lovers', 'fake-dating', 'he-falls-first', 'found-family'],
+      reason: 'Swoon-worthy',
+    },
+    ache: {
+      genres: ['contemporary-romance', 'new-adult', 'romantasy'],
+      themes: ['second-chance', 'forbidden-love', 'slow-burn'],
+      reason: 'Emotional payoff',
+    },
+    danger: {
+      genres: ['dark-romance', 'mafia-romance', 'romantic-suspense', 'bully-romance'],
+      themes: ['morally-grey', 'possessive-hero', 'stalker', 'taboo'],
+      reason: 'Dangerous energy',
+    },
+    escape: {
+      genres: ['romantasy', 'paranormal-romance', 'historical-romance'],
+      themes: ['fated-mates', 'secret-identity'],
+      reason: 'Full escape',
+    },
+  }
+  const mood = moodRules[answers.mood]
+  if (mood) {
+    if (genres.some(genre => mood.genres.includes(genre))) add(5, mood.reason)
+    if (themes.some(theme => mood.themes.includes(theme))) add(2, mood.reason)
   }
 
-  // Trope
-  if (answers.trope && book.themes?.includes(answers.trope)) {
-    score += 4
-    reasons.push(answers.trope.replace(/-/g, ' '))
+  const preferredGenres = WORLD_GENRES[answers.world] || []
+  if (genres.some(genre => preferredGenres.includes(genre))) {
+    const matchedGenre = genres.find(genre => preferredGenres.includes(genre))
+    add(7, GENRE_THEMES[matchedGenre]?.label || LABELS[answers.world])
   }
 
-  // Hero
-  const vibe = answers.vibe
-  if (vibe && vibe !== 'any' && book.themes?.includes(vibe)) {
-    score += 3
-    reasons.push(vibe === 'he-falls-first' ? 'He falls first' : vibe.replace(/-/g, ' '))
+  if (answers.spice === 'low' && Number.isInteger(book.spiceLevel) && book.spiceLevel <= 2) add(5, 'Lower heat')
+  if (['3', '4', '5'].includes(answers.spice) && Number.isInteger(book.spiceLevel)) {
+    const target = Number(answers.spice)
+    if (book.spiceLevel === target) add(6, `Spice level ${target}`)
+    else if (Math.abs(book.spiceLevel - target) === 1) add(2, 'Close heat match')
   }
 
-  // Setting
-  const setting = answers.setting
-  const settingMap = {
-    romantasy: ['romantasy'],
-    sports: ['sports-romance'],
-    dark: ['dark-romance', 'mafia-romance'],
-    contemporary: ['contemporary-romance', 'erotic-romance'],
-    paranormal: ['paranormal-romance'],
-  }
-  if (setting && settingMap[setting] && book.genres.some(g => settingMap[setting].includes(g))) {
-    score += 3
-    const gt = GENRE_THEMES[book.genres.find(g => settingMap[setting].includes(g))]
-    reasons.push(gt?.label || setting)
+  for (const trope of answers.tropes || []) {
+    if (themes.includes(trope)) add(5, LABELS[trope])
   }
 
-  // POV
-  if (answers.pov && answers.pov !== 'any' && book.pov === answers.pov) {
-    score += 2
-    reasons.push(answers.pov === 'dual-pov' ? 'Dual POV' : answers.pov === 'single-fmc' ? 'FMC POV' : 'MMC POV')
+  if (answers.pace === 'slow' && themes.includes('slow-burn')) add(4, 'Slow-burn tension')
+  if (answers.pace === 'fast' && (genres.includes('rom-com') || genres.includes('romantic-suspense'))) add(3, 'Quick momentum')
+  if (answers.pace === 'immersive' && (genres.includes('romantasy') || genres.includes('paranormal-romance') || (book.pageCount || 0) > 480)) add(4, 'Immersive world')
+  if (answers.pace === 'balanced') add(1, 'Balanced pace')
+
+  const chemistryRules = {
+    banter: ['enemies-to-lovers', 'grumpy-sunshine', 'opposites-attract'],
+    devotion: ['he-falls-first', 'friends-to-lovers', 'found-family'],
+    obsession: ['possessive-hero', 'touch-her-and-die', 'stalker', 'morally-grey'],
+    yearning: ['slow-burn', 'forbidden-love', 'second-chance', 'secret-relationship'],
+  }
+  if (themes.some(theme => (chemistryRules[answers.chemistry] || []).includes(theme))) {
+    add(5, LABELS[answers.chemistry])
   }
 
-  // Length
-  const length = answers.length
-  if (length && length !== 'any' && book.pageCount) {
-    if (length === 'quick' && book.pageCount < 350) { score += 2; reasons.push('Quick read') }
-    else if (length === 'standard' && book.pageCount >= 350 && book.pageCount <= 480) { score += 2; reasons.push('Standard length') }
-    else if (length === 'epic' && book.pageCount > 480) { score += 2; reasons.push('Epic length') }
+  if (answers.discovery === 'fresh' && book.collections?.includes('fresh-romance-2026')) add(6, 'Fresh 2026 pick')
+  if (answers.discovery === 'popular' && book.collections?.includes('reader-ranked-smut-100')) add(5, 'Reader-ranked favorite')
+  if (answers.discovery === 'hidden' && !book.collections?.includes('reader-ranked-smut-100')) add(3, 'Off the obvious shelf')
+
+  if (answers.pov !== 'any' && answers.pov && book.pov === answers.pov) add(3, LABELS[answers.pov])
+
+  if (answers.length !== 'any' && book.pageCount) {
+    if (answers.length === 'quick' && book.pageCount < 350) add(3, 'One-night read')
+    if (answers.length === 'standard' && book.pageCount >= 350 && book.pageCount <= 480) add(3, 'Weekend length')
+    if (answers.length === 'epic' && book.pageCount > 480) add(3, 'Epic length')
   }
 
-  return { score, reasons }
+  return { score, reasons: reasons.slice(0, 5) }
 }
 
-function maxPossibleScore(answers) {
-  let max = 0
-  max += 4 // mood always contributes (3 + up to 1)
-  if (answers.spice) max += 3
-  if (answers.trope) max += 4
-  if (answers.vibe && answers.vibe !== 'any') max += 3
-  if (answers.setting) max += 3
-  if (answers.pov && answers.pov !== 'any') max += 2
-  if (answers.length && answers.length !== 'any') max += 2
-  return max || 1
-}
-
-function avoidedWarnings(answers) {
-  const avoidOpt = QUESTIONS.find(q => q.id === 'avoid')
+function getAvoidedWarnings(answers) {
   const selected = answers.avoid || []
-  const set = new Set()
-  for (const val of selected) {
-    const opt = avoidOpt.options.find(o => o.value === val)
-    opt?.cw.forEach(c => set.add(c))
-  }
-  return set
+  if (selected.includes('none')) return new Set()
+  const warningQuestion = QUESTIONS.find(question => question.id === 'avoid')
+  return new Set(
+    selected.flatMap(value => warningQuestion.options.find(option => option.value === value)?.warnings || []),
+  )
 }
 
-function QuestionCard({ question, onAnswer, onBack, questionNum, total, initialSelection }) {
-  const [multi, setMulti] = useState(initialSelection || [])
+function getSignalChips(answers) {
+  return Object.entries(answers)
+    .filter(([id, value]) => id !== 'avoid' && value && value !== 'any')
+    .flatMap(([, value]) => Array.isArray(value) ? value : [value])
+    .map(value => LABELS[value])
+    .filter(Boolean)
+    .slice(0, 6)
+}
 
-  const toggleMulti = (value) => {
-    setMulti(prev => prev.includes(value) ? prev.filter(v => v !== value) : [...prev, value])
+function SignalOrb({ progress, answers, complete = false }) {
+  const chips = getSignalChips(answers)
+  return (
+    <div className="signal-orb-wrap" aria-hidden="true">
+      <div className={`signal-orb ${complete ? 'signal-orb-complete' : ''}`} style={{ '--signal-progress': `${progress * 360}deg` }}>
+        <div className="signal-orb-core">
+          <WandSparkles size={22} />
+          <strong>{complete ? 'Matched' : `${Math.round(progress * 100)}%`}</strong>
+          <span>reading signal</span>
+        </div>
+      </div>
+      <div className="signal-chip-cloud">
+        {chips.length ? chips.map(chip => <span key={chip}>{chip}</span>) : <span>Waiting for your first choice</span>}
+      </div>
+    </div>
+  )
+}
+
+function QuestionCard({ question, value, onAnswer, onBack, step, total }) {
+  const [selected, setSelected] = useState(Array.isArray(value) ? value : [])
+  const isMulti = question.multiSelect
+
+  const toggle = option => {
+    if (option.exclusive) {
+      setSelected(selected.includes(option.value) ? [] : [option.value])
+      return
+    }
+    const withoutExclusive = selected.filter(item => item !== 'none')
+    if (withoutExclusive.includes(option.value)) {
+      setSelected(withoutExclusive.filter(item => item !== option.value))
+    } else if (!question.maxSelect || withoutExclusive.length < question.maxSelect) {
+      setSelected([...withoutExclusive, option.value])
+    }
   }
 
   return (
-    <div className="max-w-2xl mx-auto">
-      <div className="mb-8">
-        <div className="flex justify-between items-center mb-2">
-          <span className="font-heading text-xs tracking-[0.22em] uppercase text-zinc-500">
-            Question {questionNum} of {total}
-          </span>
-          {questionNum > 1 && (
-            <button
-              onClick={onBack}
-              className="font-heading text-xs tracking-[0.18em] uppercase text-zinc-500 hover:text-[var(--primary)] transition-colors cursor-pointer"
-            >
-              ← Back
-            </button>
-          )}
-        </div>
-        <div className="w-full h-1.5 bg-[rgba(255,255,255,0.08)] rounded-full overflow-hidden">
-          <div
-            className="h-full transition-all duration-500 rounded-full"
-            style={{
-              width: `${(questionNum / total) * 100}%`,
-              background: 'linear-gradient(90deg, var(--primary), var(--secondary))',
-            }}
-          />
-        </div>
+    <div className="match-question-card">
+      <div className="match-question-topline">
+        <span>{question.eyebrow}</span>
+        <span>{String(step + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}</span>
       </div>
+      <h2>{question.question}</h2>
+      <p>{question.subtitle || 'Choose the answer that feels true right now.'}</p>
 
-      <h2 className="section-title text-2xl md:text-3xl mb-2 text-center">
-        {question.question}
-      </h2>
-      {question.subtitle && (
-        <p className="font-body text-zinc-400 text-sm text-center mb-8">{question.subtitle}</p>
-      )}
-      {!question.subtitle && <div className="mb-8" />}
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        {question.options.map((opt) => {
-          const selected = question.multiSelect && multi.includes(opt.value)
+      <div className={`match-options ${question.options.length > 4 ? 'match-options-dense' : ''}`}>
+        {question.options.map(option => {
+          const active = isMulti ? selected.includes(option.value) : value === option.value
+          const disabled = isMulti && question.maxSelect && selected.length >= question.maxSelect && !active
           return (
             <button
-              key={opt.value}
-              onClick={() => question.multiSelect ? toggleMulti(opt.value) : onAnswer(question.id, opt.value)}
-              className={`group app-panel rounded-2xl p-6 border transition-all duration-300 cursor-pointer text-left ${
-                selected ? 'border-[var(--primary)]' : 'border-white/8 hover:border-white/20'
-              }`}
-              style={selected ? { boxShadow: '0 0 24px rgba(255, 46, 136, 0.25)' } : undefined}
+              type="button"
+              key={option.value}
+              className={`match-option ${active ? 'is-active' : ''}`}
+              disabled={disabled}
+              aria-pressed={active}
+              onClick={() => isMulti ? toggle(option) : onAnswer(question.id, option.value)}
             >
-              <span className="text-2xl mb-2 block">{opt.icon}</span>
-              <span className={`font-heading text-sm tracking-[0.18em] uppercase transition-colors ${
-                selected ? 'text-[var(--primary)]' : 'text-white group-hover:text-[var(--primary)]'
-              }`}>
-                {opt.label}
+              <span className="match-option-symbol">{option.icon}</span>
+              <span className="match-option-copy">
+                <strong>{option.label}</strong>
+                {option.detail && <small>{option.detail}</small>}
               </span>
+              <span className="match-option-check">{active ? <Check size={14} /> : null}</span>
             </button>
           )
         })}
       </div>
 
-      {question.multiSelect && (
-        <div className="mt-8 text-center">
-          <button
-            onClick={() => onAnswer(question.id, multi)}
-            className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-10 py-3 inline-block cursor-pointer"
-          >
-            {multi.length > 0 ? `See My Matches (avoiding ${multi.length})` : 'See My Matches'}
+      <div className="match-question-actions">
+        <button type="button" className="match-back" onClick={onBack} disabled={step === 0}>
+          <ArrowLeft size={16} /> Back
+        </button>
+        {isMulti && (
+          <button type="button" className="match-continue" onClick={() => onAnswer(question.id, selected)}>
+            {step === total - 1 ? 'Reveal my matches' : 'Continue'} <ArrowRight size={16} />
           </button>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   )
 }
 
-function MatchRing({ pct }) {
-  const radius = 26
-  const circ = 2 * Math.PI * radius
+function MatchScore({ score }) {
   return (
-    <svg width="64" height="64" viewBox="0 0 64 64" className="shrink-0">
-      <circle cx="32" cy="32" r={radius} fill="none" stroke="rgba(255,255,255,0.1)" strokeWidth="5" />
-      <circle
-        cx="32" cy="32" r={radius} fill="none" stroke="url(#matchGrad)" strokeWidth="5" strokeLinecap="round"
-        strokeDasharray={circ} strokeDashoffset={circ * (1 - pct / 100)} transform="rotate(-90 32 32)"
-      />
-      <defs>
-        <linearGradient id="matchGrad" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="var(--primary)" />
-          <stop offset="100%" stopColor="var(--secondary)" />
-        </linearGradient>
-      </defs>
-      <text x="32" y="36" textAnchor="middle" className="fill-white font-heading" fontSize="15">{pct}%</text>
-    </svg>
+    <div className="match-score" style={{ '--match-score': `${score * 3.6}deg` }}>
+      <span>{score}%</span>
+    </div>
   )
 }
 
-function RecommendationResults({ results, onRetry }) {
-  if (results.length === 0) {
+function RecommendationResults({ results, answers, onRetry }) {
+  if (!results.length) {
     return (
-      <div className="max-w-2xl mx-auto text-center py-16">
-        <p className="text-4xl mb-4">🔍</p>
-        <h2 className="section-title text-2xl md:text-3xl mb-3">No perfect match — yet</h2>
-        <p className="font-body text-zinc-400 mb-8">
-          Your filters ruled everything out. Try again and loosen up what you want to avoid.
-        </p>
-        <button onClick={onRetry} className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-10 py-3 cursor-pointer">
-          Start Over
-        </button>
+      <div className="match-empty">
+        <Compass size={42} />
+        <h2>Your signal is beautifully specific.</h2>
+        <p>No reviewed book clears every hard limit yet. Try again with one fewer filter.</p>
+        <button type="button" className="match-continue" onClick={onRetry}><RotateCcw size={16} /> Retune</button>
       </div>
     )
   }
 
-  const top = results[0]
-
+  const [top, ...alternates] = results
   return (
-    <div className="max-w-4xl mx-auto">
-      <h2 className="section-title text-3xl md:text-4xl mb-2 text-center">
-        Your Perfect Match
-      </h2>
-      <div className="divider-ornament mb-10">&#10022;</div>
+    <div className="match-results">
+      <div className="match-results-heading">
+        <span><Sparkles size={15} /> Signal locked</span>
+        <h2>Your next-book constellation</h2>
+        <p>One strongest match, four alternate paths, and the exact signals that brought them forward.</p>
+      </div>
 
-      <div className="mb-12">
-        <div className="flex items-center justify-center gap-3 mb-4">
-          <p className="font-heading text-xs tracking-[0.24em] uppercase text-[var(--primary)]">
-            #1 Recommendation
-          </p>
-        </div>
-        <div className="app-panel overflow-hidden">
-          <div className="md:flex">
-            <div className="md:w-1/3">
-              <Link to={`/book/${top.book.id}`} className="block">
-                <div className="aspect-[3/4]">
-                  <SmartBookCover book={top.book} />
-                </div>
-              </Link>
-            </div>
-
-            <div className="md:w-2/3 p-6 md:p-8">
-              <div className="flex items-start justify-between gap-4 mb-4">
-                <div>
-                  <Link to={`/book/${top.book.id}`}>
-                    <h3 className="font-heading text-2xl text-white leading-tight hover:text-[var(--primary)] transition-colors">{top.book.title}</h3>
-                  </Link>
-                  <p className="font-body text-zinc-400 text-sm mt-1">by {top.book.author}</p>
-                </div>
-                <MatchRing pct={top.pct} />
-              </div>
-
-              <div className="mb-4">
-                <SpiceRating level={top.book.spiceLevel} size="md" />
-              </div>
-
-              {top.reasons.length > 0 && (
-                <div className="mb-5">
-                  <p className="font-heading text-[0.65rem] tracking-[0.22em] uppercase text-zinc-500 mb-2">Why we picked this</p>
-                  <div className="flex flex-wrap gap-2">
-                    {top.reasons.map((r, i) => (
-                      <span key={i} className="font-body text-xs text-white bg-[var(--primary)]/15 border border-[var(--primary)]/40 px-2.5 py-1 rounded-full capitalize">
-                        {r}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              <p className="font-body text-zinc-400 text-sm leading-relaxed line-clamp-3 mb-6">
-                {top.book.synopsis?.slice(0, 260)}…
-              </p>
-              <Link
-                to={`/book/${top.book.id}`}
-                className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-6 py-2 inline-block"
-              >
-                View Book
-              </Link>
-            </div>
+      <div className="match-hero-card">
+        <Link to={`/book/${top.book.id}`} className="match-hero-cover">
+          <SmartBookCover book={top.book} />
+          <span>#1 signal</span>
+        </Link>
+        <div className="match-hero-copy">
+          <div className="match-hero-meta">
+            <span>{top.book.collections?.includes('fresh-romance-2026') ? 'Fresh discovery' : 'Catalog favorite'}</span>
+            <MatchScore score={top.pct} />
+          </div>
+          <h3>{top.book.title}</h3>
+          <p className="match-author">by {top.book.author}</p>
+          <SpiceRating level={top.book.spiceLevel} size="md" />
+          <p className="match-synopsis">{top.book.synopsis}</p>
+          <div className="match-reasons">
+            {top.reasons.map(reason => <span key={reason}><Check size={12} /> {reason}</span>)}
+          </div>
+          <div className="match-hero-actions">
+            <Link to={`/book/${top.book.id}`} className="match-continue">Open this book <ArrowRight size={16} /></Link>
+            <button type="button" className="match-back" onClick={onRetry}><RotateCcw size={15} /> Retune signal</button>
           </div>
         </div>
       </div>
 
-      {results.length > 1 && (
-        <div className="mb-12">
-          <p className="font-heading text-xs tracking-[0.24em] uppercase text-zinc-500 mb-6 text-center">
-            You might also love
-          </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {results.slice(1, 5).map(({ book, pct }) => (
-              <div key={book.id} className="relative">
-                <span className="absolute top-2 right-2 z-10 font-heading text-[11px] tracking-wide px-2 py-0.5 rounded-full bg-black/60 border border-white/20 text-white backdrop-blur-sm">
-                  {pct}%
-                </span>
-                <BookCard book={book} />
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+      <div className="match-alternates-heading">
+        <div><BookHeart size={18} /><span>Four alternate paths</span></div>
+        <p>Same reading mood, different flavor.</p>
+      </div>
+      <div className="match-alternates">
+        {alternates.map((result, index) => (
+          <Link key={result.book.id} to={`/book/${result.book.id}`} className="match-alt-card">
+            <div className="match-alt-cover"><SmartBookCover book={result.book} /></div>
+            <div className="match-alt-copy">
+              <span>0{index + 2}</span>
+              <strong>{result.book.title}</strong>
+              <small>{result.book.author}</small>
+              <div>{result.reasons.slice(0, 2).map(reason => <em key={reason}>{reason}</em>)}</div>
+            </div>
+            <MatchScore score={result.pct} />
+          </Link>
+        ))}
+      </div>
 
-      <div className="text-center">
-        <button
-          onClick={onRetry}
-          className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-10 py-3 transition-all cursor-pointer"
-        >
-          Try Again
-        </button>
+      <div className="match-safety-note">
+        <ShieldCheck size={18} />
+        <p><strong>Your limits were respected.</strong> When you select hard limits, discovery records without reviewed warnings are withheld automatically.</p>
       </div>
     </div>
   )
 }
 
 export default function FindABook() {
-  const [currentStep, setCurrentStep] = useState(0)
+  const [step, setStep] = useState(0)
   const [answers, setAnswers] = useState({})
   const [showResults, setShowResults] = useState(false)
-
-  const activeBooks = useMemo(() => allBooks.filter(b => !b.comingSoon), [])
-
-  const handleAnswer = (questionId, value) => {
-    const newAnswers = { ...answers, [questionId]: value }
-    setAnswers(newAnswers)
-
-    if (currentStep < QUESTIONS.length - 1) {
-      setCurrentStep(currentStep + 1)
-    } else {
-      setShowResults(true)
-    }
-  }
-
-  const handleBack = () => {
-    if (currentStep > 0) setCurrentStep(currentStep - 1)
-  }
+  const progress = showResults ? 1 : step / QUESTIONS.length
+  const activeBooks = useMemo(() => allBooks.filter(book => !book.comingSoon), [])
 
   const recommendations = useMemo(() => {
     if (!showResults) return []
-
-    const avoid = avoidedWarnings(answers)
-    const max = maxPossibleScore(answers)
-
+    const avoided = getAvoidedWarnings(answers)
+    const hasLimits = avoided.size > 0
     const scored = activeBooks
-      .filter(book => !book.contentWarnings?.some(cw => avoid.has(cw)))
-      .map(book => {
-        const { score, reasons } = scoreBook(book, answers)
-        return { book, score, reasons, pct: Math.max(0, Math.min(100, Math.round((score / max) * 100))) }
+      .filter(book => {
+        if (hasLimits && book.editorialStatus === 'needs-review') return false
+        return !(book.contentWarnings || []).some(warning => avoided.has(warning))
       })
-      .filter(s => s.score > 0)
+      .map(book => ({ book, ...scoreBook(book, answers) }))
+      .filter(result => result.score > 0)
+      .sort((a, b) => b.score - a.score || a.book.title.localeCompare(b.book.title))
 
-    scored.sort((a, b) => {
-      if (b.score !== a.score) return b.score - a.score
-      return Math.random() - 0.5
-    })
-
-    return scored.slice(0, 5)
+    const best = scored[0]?.score || 1
+    return scored.slice(0, 5).map(result => ({
+      ...result,
+      pct: Math.max(64, Math.min(98, Math.round(64 + (result.score / best) * 34))),
+    }))
   }, [showResults, answers, activeBooks])
 
-  const handleRetry = () => {
-    setCurrentStep(0)
+  const handleAnswer = (id, value) => {
+    setAnswers(current => ({ ...current, [id]: value }))
+    if (step === QUESTIONS.length - 1) setShowResults(true)
+    else setStep(current => current + 1)
+  }
+
+  const restart = () => {
     setAnswers({})
+    setStep(0)
     setShowResults(false)
   }
 
   return (
-    <div className="min-h-screen">
-      <section className="relative overflow-hidden py-16 md:py-20">
-        <div className="glow-blob glow-blob-pink w-72 h-72 -top-20 -left-16" />
-        <div className="glow-blob glow-blob-purple w-72 h-72 -bottom-24 -right-10" />
-        <div className="relative z-10 text-center px-4">
-          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.38em] text-[var(--primary)]">
-            Personalized Matchmaker
-          </p>
-          <h1 className="font-heading gradient-text font-bold text-3xl md:text-5xl tracking-[0.12em] mb-3 pb-1">
-            Find Your Next Read
-          </h1>
-          <p className="font-body text-zinc-400 text-lg italic">
-            {showResults ? 'Here’s what we matched you with' : `${QUESTIONS.length} quick questions for your perfect book`}
-          </p>
-        </div>
-      </section>
+    <div className="matchmaker-page">
+      <div className="matchmaker-aurora matchmaker-aurora-one" />
+      <div className="matchmaker-aurora matchmaker-aurora-two" />
 
-      <section className="max-w-6xl mx-auto px-4 py-8 pb-20">
-        {!showResults ? (
-          <QuestionCard
-            key={currentStep}
-            question={QUESTIONS[currentStep]}
-            onAnswer={handleAnswer}
-            onBack={handleBack}
-            questionNum={currentStep + 1}
-            total={QUESTIONS.length}
-            initialSelection={answers[QUESTIONS[currentStep].id]}
-          />
-        ) : (
-          <RecommendationResults results={recommendations} onRetry={handleRetry} />
-        )}
+      <section className="matchmaker-shell">
+        <aside className="matchmaker-aside">
+          <div className="matchmaker-brand"><WandSparkles size={17} /> Paige's book alchemy</div>
+          <h1>Find the book your mood is already asking for.</h1>
+          <p>Ten choices become a reading signal. The catalog answers with five books and tells you why.</p>
+          <SignalOrb progress={progress} answers={answers} complete={showResults} />
+          <div className="matchmaker-trust">
+            <ShieldCheck size={17} />
+            <span>Hard-limit aware<br /><small>{allBooks.length} real books in the signal</small></span>
+          </div>
+        </aside>
+
+        <main className="matchmaker-stage">
+          {!showResults ? (
+            <QuestionCard
+              key={QUESTIONS[step].id}
+              question={QUESTIONS[step]}
+              value={answers[QUESTIONS[step].id]}
+              onAnswer={handleAnswer}
+              onBack={() => setStep(current => Math.max(0, current - 1))}
+              step={step}
+              total={QUESTIONS.length}
+            />
+          ) : (
+            <RecommendationResults results={recommendations} answers={answers} onRetry={restart} />
+          )}
+        </main>
       </section>
     </div>
   )

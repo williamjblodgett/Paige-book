@@ -41,6 +41,9 @@ const THEME_TO_GENRE = {
   workplace: 'contemporary-romance',
   'brother-best-friend': 'sports-romance',
   'secret-identity': 'romantic-suspense',
+  'opposites-attract': 'rom-com',
+  'secret-relationship': 'contemporary-romance',
+  'small-town': 'contemporary-romance',
 }
 
 function getTopicClassname(location) {

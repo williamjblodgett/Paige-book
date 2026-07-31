@@ -188,6 +188,21 @@ export default function BookDetail() {
               )}
 
               <ExternalBookLinks title={book.title} author={book.author} accentColor={accent} book={book} />
+
+              {book.discoverySource?.url && (
+                <p className="mt-3 font-body text-xs leading-relaxed text-muted">
+                  Discovered via{' '}
+                  <a
+                    href={book.discoverySource.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gold underline decoration-gold/40 underline-offset-2 hover:text-gold-light"
+                  >
+                    {book.discoverySource.label}
+                  </a>
+                  . Catalog details are source-backed; Paige's deeper notes and content guidance are still in review.
+                </p>
+              )}
             </div>
           </div>
         </div>

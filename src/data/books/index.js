@@ -1,6 +1,7 @@
 // Auto-generated barrel file for all books
 
 import { TOP_SMUT_100, TOP_SMUT_100_SOURCE, AMAZON_ROMANCE_SNAPSHOT } from '../topSmut100.js'
+import { FRESH_ROMANCE_2026, FRESH_ROMANCE_2026_SOURCE } from '../freshRomance2026.js'
 
 import book_beach_read from './contemporary/beach-read.js'
 import book_beautiful_bastard from './contemporary/beautiful-bastard.js'
@@ -769,4 +770,41 @@ const newlySourcedBooks = TOP_SMUT_100
     },
   }))
 
-export const allBooks = [...sourcedCatalogBooks, ...newlySourcedBooks]
+const titlesAfterSmutExpansion = new Set(
+  [...sourcedCatalogBooks, ...newlySourcedBooks].map(book => normalizeTitle(book.title)),
+)
+
+const freshSourceById = new Map(FRESH_ROMANCE_2026_SOURCE.sources.map(source => [
+  source.label.startsWith('NYPL') ? 'nypl' : source.label.startsWith('Penguin') ? 'prh' : 'rna',
+  source,
+]))
+
+const freshRomanceBooks = FRESH_ROMANCE_2026
+  .filter(entry => !titlesAfterSmutExpansion.has(normalizeTitle(entry.title)))
+  .map(entry => {
+    const source = freshSourceById.get(entry.source)
+    return {
+      id: `fresh-${slugify(entry.title)}`,
+      title: entry.title,
+      author: entry.author,
+      genres: entry.genres,
+      themes: entry.themes || [],
+      spiceLevel: entry.spiceLevel ?? null,
+      coverGradient: ['#160d28', '#a02f79'],
+      accentColor: '#f06cae',
+      contentWarnings: [],
+      synopsis: entry.synopsis,
+      characters: [],
+      terms: [],
+      quiz: [],
+      editorialStatus: 'needs-review',
+      collections: ['fresh-romance-2026'],
+      discoverySource: {
+        label: source?.label,
+        url: source?.url,
+        capturedAt: FRESH_ROMANCE_2026_SOURCE.capturedAt,
+      },
+    }
+  })
+
+export const allBooks = [...sourcedCatalogBooks, ...newlySourcedBooks, ...freshRomanceBooks]

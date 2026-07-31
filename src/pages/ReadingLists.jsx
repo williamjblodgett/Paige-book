@@ -5,6 +5,13 @@ import SmartBookCover from '../components/SmartBookCover'
 
 const READING_LISTS = [
   {
+    id: 'fresh-romance-2026',
+    title: 'Fresh Romance Discoveries',
+    description: 'New librarian, publisher, and award picks added from trusted 2026 sources.',
+    emoji: '✨',
+    filter: (b) => b.collections?.includes('fresh-romance-2026'),
+  },
+  {
     id: 'reader-ranked-smut-100',
     title: 'Reader-Ranked Smut Top 100',
     description: 'The Goodreads community-ranked top 100, cross-checked against Amazon Romance Best Sellers. New discoveries are marked for Paige\'s review.',
