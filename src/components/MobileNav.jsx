@@ -5,7 +5,7 @@ const items = [
   { to: '/browse', label: 'Browse', icon: <><circle cx="11" cy="11" r="7" /><path d="M21 21l-4-4" /></> },
   { to: '/find-a-book', label: 'Match', icon: <><circle cx="12" cy="12" r="9" /><path d="M14.5 9.5l-2 5-3 1 2-5z" /></> },
   { to: '/my-shelf', label: 'Shelf', icon: <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" /> },
-  { to: '/quizzes', label: 'Quiz', icon: <><circle cx="12" cy="12" r="9" /><path d="M9.5 9a2.5 2.5 0 015 .5c0 1.5-2.5 2-2.5 3.5" /><path d="M12 17h.01" /></> },
+  { to: '/quizzes', label: 'Quizzes', icon: <><circle cx="12" cy="12" r="9" /><path d="M9.5 9a2.5 2.5 0 015 .5c0 1.5-2.5 2-2.5 3.5" /><path d="M12 17h.01" /></> },
 ]
 
 export default function MobileNav() {
@@ -17,7 +17,7 @@ export default function MobileNav() {
           to={to}
           end={to === '/'}
           className={({ isActive }) =>
-            `flex flex-col items-center gap-0.5 px-2 py-1 transition-colors ${
+            `mobile-nav-link flex flex-col items-center gap-0.5 px-2 py-1 transition-colors ${
               isActive ? 'text-[var(--primary)]' : 'text-zinc-400'
             }`
           }

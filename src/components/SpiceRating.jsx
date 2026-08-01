@@ -10,9 +10,9 @@ export default function SpiceRating({ level, size = 'sm' }) {
   }
 
   return (
-    <span className={`inline-flex gap-0.5 ${sizeClass}`} title={`Spice level: ${level}/5`}>
+    <span className={`inline-flex gap-0.5 ${sizeClass}`} title={`Spice level: ${level}/5`} role="img" aria-label={`Spice rating: ${level} out of 5`}>
       {Array.from({ length: 5 }, (_, i) => (
-        <span key={i} className={i < level ? 'opacity-100' : 'opacity-20'}>
+        <span key={i} aria-hidden="true" className={i < level ? 'opacity-100' : 'opacity-20'}>
           🌶️
         </span>
       ))}

@@ -19,6 +19,8 @@ export default function FavoriteButton({ isFavorite, onToggle, size = 'md', acce
         border: `1px solid ${isFavorite ? `${accentColor || '#c9a84c'}50` : 'rgba(255,255,255,0.1)'}`,
       }}
       title={isFavorite ? 'Remove from My Shelf' : 'Add to My Shelf'}
+      aria-label={isFavorite ? 'Remove from My Shelf' : 'Add to My Shelf'}
+      aria-pressed={isFavorite}
     >
       <svg
         width={s.svg}
@@ -29,6 +31,7 @@ export default function FavoriteButton({ isFavorite, onToggle, size = 'md', acce
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
+        aria-hidden="true"
       >
         <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
       </svg>

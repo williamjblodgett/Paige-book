@@ -1,12 +1,24 @@
+import { useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { allBooks } from '../data/books'
 import BookCard from '../components/BookCard'
 import useFavorites from '../hooks/useFavorites'
 import useQuizScores from '../hooks/useQuizScores'
+import useShelfMetadata from '../hooks/useShelfMetadata'
+
+const STATUS_OPTIONS = [
+  { id: 'want-to-read', label: 'Want to read' },
+  { id: 'reading', label: 'Reading now' },
+  { id: 'finished', label: 'Finished' },
+]
 
 export default function MyShelf() {
-  const { favorites, clearAll } = useFavorites()
+  const { favorites, clearAll, replaceAll: replaceFavorites } = useFavorites()
   const { scores } = useQuizScores()
+  const { metadata, updateBook, replaceAll, clearAllMetadata } = useShelfMetadata()
+  const [activeStatus, setActiveStatus] = useState('all')
+  const [editingId, setEditingId] = useState(null)
+  const importRef = useRef(null)
 
   const quizEntries = Object.entries(scores)
   const quizzesTaken = quizEntries.length
@@ -19,6 +31,41 @@ export default function MyShelf() {
     .map(id => allBooks.find(b => b.id === id))
     .filter(Boolean)
 
+  const visibleBooks = useMemo(() => {
+    if (activeStatus === 'all') return favoriteBooks
+    return favoriteBooks.filter(book => (metadata[book.id]?.status || 'want-to-read') === activeStatus)
+  }, [activeStatus, favoriteBooks, metadata])
+
+  function handleClearAll() {
+    clearAll()
+    clearAllMetadata()
+  }
+
+  function exportShelf() {
+    const payload = JSON.stringify({ version: 1, favorites, metadata }, null, 2)
+    const blob = new Blob([payload], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const anchor = document.createElement('a')
+    anchor.href = url
+    anchor.download = 'smutbook-shelf.json'
+    anchor.click()
+    URL.revokeObjectURL(url)
+  }
+
+  async function importShelf(event) {
+    const file = event.target.files?.[0]
+    if (!file) return
+    try {
+      const parsed = JSON.parse(await file.text())
+      if (parsed.favorites) replaceFavorites(parsed.favorites)
+      if (parsed.metadata) replaceAll(parsed.metadata)
+    } catch {
+      window.alert('That shelf file could not be read.')
+    } finally {
+      event.target.value = ''
+    }
+  }
+
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
       {/* Header */}
@@ -27,7 +74,7 @@ export default function MyShelf() {
           My Shelf
         </h1>
         <p className="font-body text-muted max-w-lg mx-auto">
-          Your personal collection of saved books. Tap the bookmark icon on any book to add it here.
+          Save books, track what you are reading, rate finished stories, and keep private notes on this device.
         </p>
       </div>
 
@@ -64,22 +111,67 @@ export default function MyShelf() {
         </div>
       ) : (
         <>
-          <div className="flex items-center justify-between mb-6">
+          <div className="shelf-toolbar mb-6">
             <p className="font-body text-muted text-sm">
               {favoriteBooks.length} book{favoriteBooks.length !== 1 ? 's' : ''} saved
             </p>
-            <button
-              onClick={clearAll}
-              className="font-body text-xs text-muted/50 hover:text-red-400 transition-colors cursor-pointer"
-            >
-              Clear all
-            </button>
+            <div className="shelf-actions">
+              <button type="button" onClick={exportShelf}>Export shelf</button>
+              <button type="button" onClick={() => importRef.current?.click()}>Import notes</button>
+              <input ref={importRef} type="file" accept="application/json" className="sr-only" onChange={importShelf} />
+              <button type="button" onClick={handleClearAll} className="danger">Clear all</button>
+            </div>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            {favoriteBooks.map(book => (
-              <BookCard key={book.id} book={book} />
+
+          <nav className="shelf-status-tabs mb-7" aria-label="Filter shelf by reading status">
+            {[{ id: 'all', label: 'All saved' }, ...STATUS_OPTIONS].map(option => (
+              <button key={option.id} type="button" aria-pressed={activeStatus === option.id} onClick={() => setActiveStatus(option.id)}>
+                {option.label}
+              </button>
             ))}
+          </nav>
+
+          {visibleBooks.length === 0 ? (
+            <p className="app-panel p-8 text-center text-muted">No books are in this shelf section yet.</p>
+          ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+            {visibleBooks.map(book => {
+              const shelf = { status: 'want-to-read', note: '', rating: 0, ...metadata[book.id] }
+              return (
+                <div key={book.id} className="shelf-book-card">
+                  <BookCard book={book} />
+                  <div className="shelf-book-controls">
+                    <label>
+                      <span className="sr-only">Reading status for {book.title}</span>
+                      <select value={shelf.status} onChange={event => updateBook(book.id, { status: event.target.value })}>
+                        {STATUS_OPTIONS.map(option => <option key={option.id} value={option.id}>{option.label}</option>)}
+                      </select>
+                    </label>
+                    <button type="button" onClick={() => setEditingId(editingId === book.id ? null : book.id)}>
+                      {shelf.note || shelf.rating ? 'Edit notes' : 'Add note'}
+                    </button>
+                  </div>
+                  {editingId === book.id && (
+                    <div className="shelf-note-editor">
+                      <label>
+                        Your rating
+                        <select value={shelf.rating} onChange={event => updateBook(book.id, { rating: Number(event.target.value) })}>
+                          <option value="0">Not rated</option>
+                          {[1, 2, 3, 4, 5].map(value => <option key={value} value={value}>{value} / 5</option>)}
+                        </select>
+                      </label>
+                      <label>
+                        Private note
+                        <textarea value={shelf.note} maxLength="500" onChange={event => updateBook(book.id, { note: event.target.value })} placeholder="Favorite moments, discussion notes, reread thoughts…" />
+                      </label>
+                    </div>
+                  )}
+                </div>
+              )
+            })}
           </div>
+          )}
+          <p className="mt-8 text-center font-body text-xs text-muted/60">Shelf status, ratings, and notes stay private in this browser unless you export them.</p>
         </>
       )}
     </div>

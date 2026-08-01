@@ -101,7 +101,7 @@ export default function Home() {
         </h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-          {activeGenres.map(({ id, label, count }) => {
+          {activeGenres.slice(0, 8).map(({ id, label, count }) => {
             const theme = GENRE_THEMES[id]
             const [g1, g2] = theme?.gradient || ['#14141a', '#0b0b0f']
             return (
@@ -128,6 +128,9 @@ export default function Home() {
               </Link>
             )
           })}
+        </div>
+        <div className="text-center mt-6">
+          <Link to="/browse" className="font-heading text-xs tracking-[0.2em] uppercase text-[var(--primary)] hover:underline">Explore all genres</Link>
         </div>
       </section>
 
@@ -167,7 +170,7 @@ export default function Home() {
         </h2>
 
         <div className="flex flex-wrap justify-center gap-2">
-          {THEMES.slice(0, 18).map(({ id, label }) => (
+          {THEMES.slice(0, 8).map(({ id, label }) => (
             <Link
               key={id}
               to={`/browse?theme=${id}`}
@@ -177,27 +180,8 @@ export default function Home() {
             </Link>
           ))}
         </div>
-      </section>
-
-      {/* Find Your Next Read CTA */}
-      <section className="max-w-4xl mx-auto px-4 py-12">
-        <div className="app-panel p-8 md:p-12 text-center relative overflow-hidden">
-          <div className="glow-blob glow-blob-pink w-72 h-72 -top-20 -left-20" />
-          <div className="glow-blob glow-blob-purple w-72 h-72 -bottom-24 -right-16" />
-          <div className="relative z-10">
-            <h2 className="font-heading gradient-text text-2xl md:text-3xl tracking-wide mb-3 font-bold">
-              Not Sure What to Read Next?
-            </h2>
-            <p className="font-body text-zinc-400 text-lg italic mb-6">
-              Take our quick quiz and get a personalized recommendation
-            </p>
-            <Link
-              to="/find-a-book"
-              className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-10 py-3 inline-block"
-            >
-              Find Your Match
-            </Link>
-          </div>
+        <div className="text-center mt-6">
+          <Link to="/browse" className="font-heading text-xs tracking-[0.2em] uppercase text-[var(--primary)] hover:underline">Explore every trope</Link>
         </div>
       </section>
 
@@ -226,10 +210,10 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-4 py-12">
         <div className="text-center mb-10">
           <h2 className="font-heading gradient-text text-2xl md:text-3xl tracking-wide mb-3 font-bold inline-block">
-            Book Club
+            Quiz Studio
           </h2>
           <p className="font-body text-zinc-400 text-lg italic">
-            Test your knowledge with our book quizzes — perfect for reading groups
+            Choose a full-book quiz or build a 10, 20, or 30-question romance marathon.
           </p>
         </div>
 
@@ -278,7 +262,7 @@ export default function Home() {
             to="/quizzes"
             className="booktok-button font-heading text-sm tracking-[0.22em] uppercase px-10 py-3 inline-block"
           >
-            Browse All Quizzes
+            Customize a Quiz
           </Link>
         </div>
       </section>

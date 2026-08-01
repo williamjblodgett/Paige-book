@@ -59,6 +59,7 @@ export default function SearchBar({ books, placeholder = 'Search books, authors,
         </svg>
         <input
           type="text"
+          aria-label={placeholder}
           placeholder={placeholder}
           value={query}
           onChange={(e) => { setQuery(e.target.value); setIsOpen(true) }}

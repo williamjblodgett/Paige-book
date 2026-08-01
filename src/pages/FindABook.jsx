@@ -7,6 +7,7 @@ import {
   Check,
   Compass,
   RotateCcw,
+  Share2,
   ShieldCheck,
   Sparkles,
   WandSparkles,
@@ -342,6 +343,11 @@ function QuestionCard({ question, value, onAnswer, onBack, step, total }) {
             {step === total - 1 ? 'Reveal my matches' : 'Continue'} <ArrowRight size={16} />
           </button>
         )}
+        {!isMulti && (
+          <button type="button" className="match-skip" onClick={() => onAnswer(question.id, 'any')}>
+            Not sure — skip
+          </button>
+        )}
       </div>
     </div>
   )
@@ -356,6 +362,7 @@ function MatchScore({ score }) {
 }
 
 function RecommendationResults({ results, answers, onRetry }) {
+  const [shareLabel, setShareLabel] = useState('Share this match')
   if (!results.length) {
     return (
       <div className="match-empty">
@@ -368,6 +375,17 @@ function RecommendationResults({ results, answers, onRetry }) {
   }
 
   const [top, ...alternates] = results
+  const shareResult = async () => {
+    const url = `${window.location.origin}${window.location.pathname}#/book/${top.book.id}`
+    const text = `My SMUTBOOK reading signal matched me with ${top.book.title} by ${top.book.author}.`
+    try {
+      if (navigator.share) await navigator.share({ title: 'My SMUTBOOK match', text, url })
+      else await navigator.clipboard.writeText(`${text} ${url}`)
+      setShareLabel(navigator.share ? 'Shared' : 'Copied')
+    } catch {
+      setShareLabel('Share this match')
+    }
+  }
   return (
     <div className="match-results">
       <div className="match-results-heading">
@@ -395,6 +413,7 @@ function RecommendationResults({ results, answers, onRetry }) {
           </div>
           <div className="match-hero-actions">
             <Link to={`/book/${top.book.id}`} className="match-continue">Open this book <ArrowRight size={16} /></Link>
+            <button type="button" className="match-back" onClick={shareResult}><Share2 size={15} /> {shareLabel}</button>
             <button type="button" className="match-back" onClick={onRetry}><RotateCcw size={15} /> Retune signal</button>
           </div>
         </div>
@@ -483,7 +502,7 @@ export default function FindABook() {
           </div>
         </aside>
 
-        <main className="matchmaker-stage">
+        <div className="matchmaker-stage">
           {!showResults ? (
             <QuestionCard
               key={QUESTIONS[step].id}
@@ -497,7 +516,7 @@ export default function FindABook() {
           ) : (
             <RecommendationResults results={recommendations} answers={answers} onRetry={restart} />
           )}
-        </main>
+        </div>
       </section>
     </div>
   )

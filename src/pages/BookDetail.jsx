@@ -1,5 +1,5 @@
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import { allBooks } from '../data/books'
 import { GENRE_THEMES, THEMES } from '../data/constants'
 import SpiceRating from '../components/SpiceRating'
@@ -68,6 +68,16 @@ export default function BookDetail() {
       .slice(0, 6)
   }, [book])
 
+  useEffect(() => {
+    if (!book) return
+    const title = `${book.title} by ${book.author} — SMUTBOOK`
+    const description = book.synopsis?.slice(0, 155) || `Explore ${book.title} by ${book.author} on SMUTBOOK.`
+    document.title = title
+    document.querySelector('meta[name="description"]')?.setAttribute('content', description)
+    document.querySelector('meta[property="og:title"]')?.setAttribute('content', title)
+    document.querySelector('meta[property="og:description"]')?.setAttribute('content', description)
+  }, [book])
+
   if (!book) {
     return (
       <div className="text-center py-20">
@@ -81,15 +91,17 @@ export default function BookDetail() {
 
   const genreTheme = GENRE_THEMES[book.genres[0]] || GENRE_THEMES['dark-romance']
   const accent = book.accentColor || genreTheme.accent
+
   return (
     <div className="min-h-screen">
       {/* Hero header */}
       <div
-        className="relative py-16 md:py-24 overflow-hidden"
+        className="book-detail-hero relative py-16 md:py-24 overflow-hidden"
         style={{
           background: `linear-gradient(180deg, ${book.coverGradient?.[0] || genreTheme.gradient[0]} 0%, ${book.coverGradient?.[1] || genreTheme.gradient[1]} 60%, #0b0b0f 100%)`,
         }}
       >
+        <div className="absolute inset-0 bg-black/35" aria-hidden="true" />
         {heroCoverUrl && (
           <>
             <img

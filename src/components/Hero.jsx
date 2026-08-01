@@ -1,5 +1,6 @@
 import SearchBar from './SearchBar'
 import { allBooks } from '../data/books'
+import { Link } from 'react-router-dom'
 
 export default function Hero() {
   return (
@@ -15,8 +16,17 @@ export default function Hero() {
           Every trope. Every twist. Every spicy detail.
         </p>
 
-        <div className="flex justify-center mb-10">
+        <div className="flex justify-center mb-6">
           <SearchBar books={allBooks} placeholder="Search books, authors, tropes..." />
+        </div>
+
+        <div className="flex flex-wrap justify-center gap-3 mb-8">
+          <Link to="/find-a-book" className="booktok-button inline-flex min-h-11 items-center px-6 py-3 font-heading text-xs tracking-[0.2em] uppercase">
+            Build my reading signal
+          </Link>
+          <Link to="/browse" className="inline-flex min-h-11 items-center rounded-full border border-white/15 px-6 py-3 font-heading text-xs tracking-[0.2em] uppercase text-zinc-300 hover:border-[var(--primary)]/50 hover:text-white transition-colors">
+            Browse all books
+          </Link>
         </div>
 
         <p className="font-body text-white/60 text-sm">

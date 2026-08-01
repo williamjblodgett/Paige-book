@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://williamjblodgett.github.io/Paige-book/sitemap.xml

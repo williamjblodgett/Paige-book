@@ -112,16 +112,16 @@ function ReadingListCard({ list }) {
   const books = useMemo(() => {
     let filtered = allBooks.filter(b => !b.comingSoon).filter(list.filter)
     if (list.sort) filtered.sort(list.sort)
-    return filtered.slice(0, 12)
+    return filtered
   }, [list])
 
-  const [expanded, setExpanded] = useState(false)
-  const displayBooks = expanded ? books : books.slice(0, 6)
+  const [visibleCount, setVisibleCount] = useState(6)
+  const displayBooks = books.slice(0, visibleCount)
 
   if (books.length === 0) return null
 
   return (
-    <section className="bg-surface rounded-lg border border-gold/10 overflow-hidden">
+    <section id={`list-${list.id}`} className="scroll-mt-24 bg-surface rounded-lg border border-gold/10 overflow-hidden">
       <div className="p-6 pb-4">
         <div className="flex items-start gap-3 mb-2">
           <span className="text-2xl">{list.emoji}</span>
@@ -150,10 +150,10 @@ function ReadingListCard({ list }) {
 
       {books.length > 6 && (
         <button
-          onClick={() => setExpanded(!expanded)}
+          onClick={() => setVisibleCount(current => current >= books.length ? 6 : Math.min(books.length, current + 12))}
           className="w-full py-3 border-t border-gold/10 font-heading text-xs tracking-widest uppercase text-muted hover:text-gold transition-colors cursor-pointer"
         >
-          {expanded ? 'Show Less' : `Show All ${books.length}`}
+          {visibleCount >= books.length ? 'Show Less' : `Show ${Math.min(12, books.length - visibleCount)} more · ${books.length - visibleCount} remaining`}
         </button>
       )}
     </section>
@@ -172,6 +172,15 @@ export default function ReadingLists() {
           Curated collections for every mood and craving. Find your next obsession.
         </p>
       </div>
+
+      <nav aria-label="Reading list collections" className="reading-list-nav mb-8">
+        {READING_LISTS.map(list => (
+          <a key={list.id} href={`#list-${list.id}`}>
+            <span aria-hidden="true">{list.emoji}</span>
+            {list.title}
+          </a>
+        ))}
+      </nav>
 
       <div className="space-y-8">
         {READING_LISTS.map(list => (

@@ -5,9 +5,9 @@ const links = [
   { to: '/', label: 'Home' },
   { to: '/browse', label: 'Browse' },
   { to: '/lists', label: 'Lists' },
-  { to: '/find-a-book', label: 'Find a Book' },
+  { to: '/find-a-book', label: 'Match' },
   { to: '/my-shelf', label: 'My Shelf' },
-  { to: '/quizzes', label: 'Book Club' },
+  { to: '/quizzes', label: 'Quizzes' },
 ]
 
 export default function Nav() {
@@ -44,6 +44,8 @@ export default function Nav() {
           onClick={() => setMenuOpen(!menuOpen)}
           className="md:hidden text-zinc-400 hover:text-white transition-colors p-2"
           aria-label="Toggle navigation menu"
+          aria-expanded={menuOpen}
+          aria-controls="mobile-menu"
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             {menuOpen ? (
@@ -57,7 +59,7 @@ export default function Nav() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden bg-[rgba(11,11,15,0.96)] border-t border-white/8 px-4 pb-4 backdrop-blur-xl">
+        <div id="mobile-menu" className="md:hidden bg-[rgba(11,11,15,0.96)] border-t border-white/8 px-4 pb-4 backdrop-blur-xl">
           {links.map(({ to, label }) => (
             <NavLink
               key={to}

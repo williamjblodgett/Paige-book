@@ -3,7 +3,6 @@ import { lazy, Suspense, useEffect, useMemo } from 'react'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import MobileNav from './components/MobileNav'
-import { allBooks } from './data/books'
 
 const Home = lazy(() => import('./pages/Home'))
 const BookDetail = lazy(() => import('./pages/BookDetail'))
@@ -57,11 +56,7 @@ function getTopicClassname(location) {
   }
 
   const path = location.pathname || '/'
-  if (path.startsWith('/book/')) {
-    const id = decodeURIComponent(path.replace('/book/', '').trim())
-    const book = allBooks.find(b => b.id === id)
-    if (book?.genres?.[0]) return book.genres[0]
-  }
+  if (path.startsWith('/book/')) return 'library'
 
   if (path.startsWith('/quizzes')) return 'rom-com'
   if (path.startsWith('/find-a-book')) return 'new-adult'
@@ -91,10 +86,27 @@ function AppShell() {
     window.scrollTo(0, 0)
   }, [location.pathname])
 
+  useEffect(() => {
+    const path = location.pathname || '/'
+    let title = 'SMUTBOOK — Find Your Next Romance Read'
+    let description = 'Explore real romance books by trope, spice level, and mood.'
+    if (path.startsWith('/book/')) return
+    if (path.startsWith('/browse')) title = 'Browse Romance Books — SMUTBOOK'
+    else if (path.startsWith('/find-a-book')) title = 'Find Your Next Book — SMUTBOOK'
+    else if (path.startsWith('/lists')) title = 'Curated Reading Lists — SMUTBOOK'
+    else if (path.startsWith('/quizzes')) title = 'Custom Book Quizzes — SMUTBOOK'
+    else if (path.startsWith('/my-shelf')) title = 'My Reading Shelf — SMUTBOOK'
+    document.title = title
+    document.querySelector('meta[name="description"]')?.setAttribute('content', description)
+    document.querySelector('meta[property="og:title"]')?.setAttribute('content', title)
+    document.querySelector('meta[property="og:description"]')?.setAttribute('content', description)
+  }, [location.pathname])
+
   return (
     <div className={`topic-scene topic-${topicClass} grain-overlay min-h-screen text-text font-body flex flex-col pb-16 md:pb-0`}>
+      <a href="#main-content" className="skip-link">Skip to content</a>
       <Nav />
-      <main className="flex-1">
+      <main id="main-content" className="flex-1" tabIndex="-1">
         <Suspense fallback={<PageFallback />}>
           <Routes>
             <Route path="/" element={<Home />} />

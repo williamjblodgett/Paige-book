@@ -61,6 +61,7 @@ export default function FilterSidebar({
               <button
                 key={id}
                 onClick={() => toggleGenre(id)}
+                aria-pressed={Boolean(isActive)}
                 className="font-heading text-[0.6rem] tracking-widest uppercase px-2.5 py-1.5 rounded-full border transition-all cursor-pointer"
                 style={{
                   borderColor: isActive ? `${genreTheme?.accent || '#c9a84c'}` : 'rgba(154,144,128,0.15)',
@@ -83,6 +84,7 @@ export default function FilterSidebar({
             <button
               key={lvl}
               onClick={() => setSpice(lvl)}
+              aria-pressed={spice === lvl}
               className={`flex-1 text-center py-2 rounded border transition-all cursor-pointer ${
                 spice === lvl
                   ? 'border-orange-500/50 bg-orange-900/20 text-orange-300'
@@ -107,6 +109,7 @@ export default function FilterSidebar({
               <button
                 key={id}
                 onClick={() => toggleTheme(id)}
+                aria-pressed={Boolean(isActive)}
                 className={`font-heading text-[0.6rem] tracking-widest uppercase px-2.5 py-1.5 rounded-full border transition-all cursor-pointer ${
                   isActive
                     ? 'border-gold/60 text-gold bg-gold/10'
@@ -133,9 +136,10 @@ export default function FilterSidebar({
       {isOpen && (
         <div className="fixed inset-0 z-50 lg:hidden">
           <div className="absolute inset-0 bg-black/60" onClick={onClose} />
-          <div className="absolute left-0 top-0 bottom-0 w-80 max-w-[85vw] bg-surface border-r border-gold/10 p-6 overflow-y-auto">
+          <div role="dialog" aria-modal="true" aria-label="Book filters" className="absolute left-0 top-0 bottom-0 w-80 max-w-[85vw] bg-surface border-r border-gold/10 p-6 overflow-y-auto">
             <button
               onClick={onClose}
+              aria-label="Close filters"
               className="absolute top-4 right-4 text-muted hover:text-text cursor-pointer"
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

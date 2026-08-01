@@ -10,7 +10,7 @@ function shuffled(array) {
   return next
 }
 
-export default function QuizRunner({ questions, onComplete }) {
+export default function QuizRunner({ questions, onComplete, showExplanations = true }) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [selectedOption, setSelectedOption] = useState(null)
   const [showFeedback, setShowFeedback] = useState(false)
@@ -109,6 +109,11 @@ export default function QuizRunner({ questions, onComplete }) {
           transition={{ duration: 0.25 }}
         >
           <div className="app-panel p-6 md:p-8 mb-6">
+            {question.sourceTitle && (
+              <p className="font-heading text-[var(--primary)] text-xs tracking-[0.2em] uppercase mb-3">
+                {question.sourceTitle}
+              </p>
+            )}
             <p className="font-body text-white text-xl leading-relaxed">
               {question.question}
             </p>
@@ -153,10 +158,12 @@ export default function QuizRunner({ questions, onComplete }) {
           {showFeedback && (
             <motion.div
               className="space-y-4"
+              role="status"
+              aria-live="polite"
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
             >
-              {question.explanation && (
+              {showExplanations && question.explanation && (
                 <div className="app-panel p-4">
                   <p className="font-body text-zinc-400 text-sm italic">
                     {question.explanation}

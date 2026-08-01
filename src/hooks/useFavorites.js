@@ -41,5 +41,11 @@ export default function useFavorites() {
     saveFavorites([])
   }, [])
 
-  return { favorites, toggleFavorite, isFavorite, clearAll }
+  const replaceAll = useCallback((ids) => {
+    const next = Array.isArray(ids) ? [...new Set(ids.filter(id => typeof id === 'string'))] : []
+    setFavorites(next)
+    saveFavorites(next)
+  }, [])
+
+  return { favorites, toggleFavorite, isFavorite, clearAll, replaceAll }
 }

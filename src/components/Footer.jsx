@@ -1,18 +1,15 @@
 import { Link } from 'react-router-dom'
-import { allBooks } from '../data/books'
+import { CATALOG_STATS } from '../data/catalogStats'
 
 const footerLinks = [
   { to: '/browse', label: 'Browse' },
   { to: '/lists', label: 'Lists' },
-  { to: '/find-a-book', label: 'Find a Book' },
+  { to: '/find-a-book', label: 'Match' },
   { to: '/my-shelf', label: 'My Shelf' },
-  { to: '/quizzes', label: 'Book Club' },
+  { to: '/quizzes', label: 'Quizzes' },
 ]
 
 export default function Footer() {
-  const bookCount = allBooks.filter(b => !b.comingSoon).length
-  const quizCount = allBooks.reduce((sum, b) => sum + (b.quiz?.length || 0), 0)
-
   return (
     <footer className="mt-16 border-t-2 border-[var(--primary)]/40 bg-surface/60">
       <div className="max-w-6xl mx-auto px-4 py-12 text-center">
@@ -35,7 +32,7 @@ export default function Footer() {
 
         <div className="divider-ornament mb-4">&#10022;</div>
         <p className="font-body text-muted/60 text-xs">
-          {bookCount} books &middot; {quizCount} quiz questions &middot; Updated for {new Date().getFullYear()}
+          {CATALOG_STATS.books} books &middot; {CATALOG_STATS.quizQuestions} quiz questions &middot; Updated for {CATALOG_STATS.updatedYear}
         </p>
       </div>
     </footer>
